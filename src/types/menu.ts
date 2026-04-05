@@ -3,8 +3,8 @@
   | 'joy'
   | 'hope'
   | 'anxiety'
-  | 'depression'
-  | 'sadness';
+  | 'sadness'
+  | 'anger';
 
 export type ContentCategory =
   | 'eastern_philosophy'

@@ -427,6 +427,7 @@ function normalizeSelections(input: MenuSelectionState | null | undefined): Menu
 }
 
 type EmotionKey = MenuSelectionState['emotion'];
+type LegacyEmotionKey = EmotionKey | 'depression';
 
 function isEmotionKey(value: unknown): value is EmotionKey {
   return (
@@ -434,9 +435,21 @@ function isEmotionKey(value: unknown): value is EmotionKey {
     value === 'joy' ||
     value === 'hope' ||
     value === 'anxiety' ||
-    value === 'depression' ||
-    value === 'sadness'
+    value === 'sadness' ||
+    value === 'anger'
   );
+}
+
+function normalizeLegacyEmotion(value: unknown): EmotionKey | null {
+  if (value === 'depression') {
+    return 'anger';
+  }
+
+  if (isEmotionKey(value)) {
+    return value;
+  }
+
+  return null;
 }
 
 function deriveCategoryFilters(selected: ContentCategory[] | undefined): string[] {
@@ -464,9 +477,16 @@ function filterPassagesByEmotion(
       return true;
     }
 
+    const coreEmotion = normalizeLegacyEmotion(passage.emotionCore);
+    const extendedEmotions = Array.isArray(passage.emotionExtended)
+      ? passage.emotionExtended
+          .map((emotion) => normalizeLegacyEmotion(emotion))
+          .filter((emotion): emotion is EmotionKey => emotion !== null)
+      : [];
+
     return (
-      passage.emotionCore === selections.emotion ||
-      passage.emotionExtended.includes(selections.emotion)
+      coreEmotion === selections.emotion ||
+      extendedEmotions.includes(selections.emotion)
     );
   });
 }

@@ -32,8 +32,8 @@ const EMOTION_OPTIONS: Array<{ key: EmotionKey; label: string }> = [
   { key: 'joy', label: '기쁨' },
   { key: 'hope', label: '희망' },
   { key: 'anxiety', label: '불안' },
-  { key: 'depression', label: '우울' },
   { key: 'sadness', label: '슬픔' },
+  { key: 'anger', label: '화남' },
 ];
 
 const PHILOSOPHY_OPTIONS_ROW1: Array<{ key: ContentCategory; label: string }> = [
