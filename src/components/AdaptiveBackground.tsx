@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, useEffect, useMemo, useRef } from 'react';
+import React, { PropsWithChildren, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Animated,
   ImageBackground,
@@ -17,11 +17,12 @@ type AdaptiveBackgroundProps = PropsWithChildren<{
   background?: BackgroundConfig | null;
 }>;
 
-const INITIAL_FADE_DURATION = 900;
+const TRANSITION_DURATION = 420;
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#000000',
   },
   backgroundLayer: {
     ...StyleSheet.absoluteFillObject,
@@ -38,6 +39,29 @@ const styles = StyleSheet.create({
   },
 });
 
+const isSameSource = (
+  a: number | { uri: string } | null,
+  b: number | { uri: string } | null,
+): boolean => {
+  if (a === b) {
+    return true;
+  }
+
+  if (!a || !b) {
+    return false;
+  }
+
+  if (typeof a === 'number' && typeof b === 'number') {
+    return a === b;
+  }
+
+  if (typeof a === 'object' && typeof b === 'object') {
+    return a.uri === b.uri;
+  }
+
+  return false;
+};
+
 export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
   children,
   onReady,
@@ -47,45 +71,111 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
   userBackgroundUri,
   background,
 }) => {
-  const opacity = useRef(new Animated.Value(0)).current;
-  const hasSignaledRef = useRef(false);
+  const fadeA = useRef(new Animated.Value(1)).current;
+  const fadeB = useRef(new Animated.Value(0)).current;
+  const hasMountedRef = useRef(false);
+  const activeLayerRef = useRef<'A' | 'B'>('A');
 
-  const source = useMemo(() => {
+  const targetSource = useMemo(() => {
     if (backgroundMode === 'user' && userBackgroundUri) {
       return { uri: userBackgroundUri };
     }
 
-    return background?.portrait;
+    return background?.portrait ?? null;
   }, [background, backgroundMode, userBackgroundUri]);
 
-  useEffect(() => {
-    opacity.setValue(0);
-    hasSignaledRef.current = false;
+  const [sourceA, setSourceA] = useState<number | { uri: string } | null>(targetSource);
+  const [sourceB, setSourceB] = useState<number | { uri: string } | null>(null);
 
-    Animated.timing(opacity, {
-      toValue: 1,
-      duration: INITIAL_FADE_DURATION,
-      useNativeDriver: true,
-    }).start(() => {
-      if (!hasSignaledRef.current) {
-        hasSignaledRef.current = true;
+  useEffect(() => {
+    if (!targetSource) {
+      return;
+    }
+
+    if (!hasMountedRef.current) {
+      hasMountedRef.current = true;
+      setSourceA(targetSource);
+      setSourceB(null);
+      fadeA.setValue(1);
+      fadeB.setValue(0);
+      activeLayerRef.current = 'A';
+      onReady?.();
+      return;
+    }
+
+    const activeSource = activeLayerRef.current === 'A' ? sourceA : sourceB;
+
+    if (isSameSource(activeSource, targetSource)) {
+      onReady?.();
+      return;
+    }
+
+    if (activeLayerRef.current === 'A') {
+      setSourceB(targetSource);
+      fadeB.setValue(0);
+
+      Animated.parallel([
+        Animated.timing(fadeB, {
+          toValue: 1,
+          duration: TRANSITION_DURATION,
+          useNativeDriver: true,
+        }),
+        Animated.timing(fadeA, {
+          toValue: 0,
+          duration: TRANSITION_DURATION,
+          useNativeDriver: true,
+        }),
+      ]).start(() => {
+        activeLayerRef.current = 'B';
         onReady?.();
-      }
+      });
+
+      return;
+    }
+
+    setSourceA(targetSource);
+    fadeA.setValue(0);
+
+    Animated.parallel([
+      Animated.timing(fadeA, {
+        toValue: 1,
+        duration: TRANSITION_DURATION,
+        useNativeDriver: true,
+      }),
+      Animated.timing(fadeB, {
+        toValue: 0,
+        duration: TRANSITION_DURATION,
+        useNativeDriver: true,
+      }),
+    ]).start(() => {
+      activeLayerRef.current = 'A';
+      onReady?.();
     });
-  }, [opacity, onReady, source]);
+  }, [fadeA, fadeB, onReady, sourceA, sourceB, targetSource]);
 
   return (
     <View style={styles.container}>
-      <Animated.View style={[styles.backgroundLayer, { opacity }]}>
-        {source ? (
+      {sourceA ? (
+        <Animated.View style={[styles.backgroundLayer, { opacity: fadeA }]}>
           <ImageBackground
-            source={source}
+            source={sourceA}
             style={styles.image}
             resizeMode="cover"
             blurRadius={blurRadius}
           />
-        ) : null}
-      </Animated.View>
+        </Animated.View>
+      ) : null}
+
+      {sourceB ? (
+        <Animated.View style={[styles.backgroundLayer, { opacity: fadeB }]}>
+          <ImageBackground
+            source={sourceB}
+            style={styles.image}
+            resizeMode="cover"
+            blurRadius={blurRadius}
+          />
+        </Animated.View>
+      ) : null}
 
       <View
         style={[

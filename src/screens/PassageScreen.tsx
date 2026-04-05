@@ -213,9 +213,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const [draftSelections, setDraftSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
   const [overlayMode, setOverlayMode] = useState<OverlayMode>(initialMenuVisible ? 'menu' : 'none');
 
-  const [isBackgroundReady, setBackgroundReady] = useState(false);
-  const [isTextReady, setTextReady] = useState(false);
-  const [showSource, setShowSource] = useState(false);
+const [isBackgroundReady, setBackgroundReady] = useState(false);
+const [isTextReady, setTextReady] = useState(false);
+const [showSource, setShowSource] = useState(false);
+const [renderedText, setRenderedText] = useState('');
   const [historyState, setHistoryState] = useState(createInitialPassageHistoryState());
   const [shouldStartNewSelection, setShouldStartNewSelection] = useState(false);
 
@@ -304,26 +305,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     [autoBackgroundIndex],
   );
 
-  const activeBackgroundKey = useMemo(() => {
-    if (effectiveBackgroundMode === 'user') {
-      return `user-${currentUserBackgroundUri ?? 'empty'}-${isMenuVisible ? 'menu' : 'passage'}-${
-        isUserBackgroundManagerVisible ? 'manager' : 'main'
-      }`;
-    }
-
-    return `auto-${activeAutoBackground.id}-${isMenuVisible ? 'menu' : 'passage'}-${
-      isUserBackgroundManagerVisible ? 'manager' : 'main'
-    }`;
-  }, [
-    activeAutoBackground.id,
-    currentUserBackgroundUri,
-    effectiveBackgroundMode,
-    isMenuVisible,
-    isUserBackgroundManagerVisible,
-  ]);
-
   const resetVisualPresentation = useCallback(() => {
-    setBackgroundReady(false);
+ 
     setTextReady(false);
     setShowSource(false);
   }, []);
@@ -643,22 +626,27 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     showFirstPassageForCurrentSelection,
   ]);
 
-  useEffect(() => {
+useEffect(() => {
+  if (isBackgroundReady && combinedText) {
+    setRenderedText(combinedText);
+  }
+}, [isBackgroundReady, combinedText]);
+ 
+ useEffect(() => {
     if (readyTimerRef.current) {
       clearTimeout(readyTimerRef.current);
       readyTimerRef.current = null;
     }
 
-    if (
-      !isBackgroundReady ||
-      isMenuVisible ||
-      isUserBackgroundManagerVisible ||
-      !combinedText
-    ) {
-      setTextReady(false);
-      setShowSource(false);
-      return;
-    }
+if (
+  !isBackgroundReady ||
+  isMenuVisible ||
+  isUserBackgroundManagerVisible
+) {
+  setTextReady(false);
+  setShowSource(false);
+  return;
+}
 
     readyTimerRef.current = setTimeout(() => {
       setTextReady(true);
@@ -853,18 +841,18 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     ],
   );
 
-  return (
-    <AdaptiveBackground
-      key={activeBackgroundKey}
-      onReady={handleBackgroundReady}
-      blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
-      backgroundMode={effectiveBackgroundMode}
-      userBackgroundUri={currentUserBackgroundUri}
-      background={activeAutoBackground}
-    >
-      <View style={styles.root}>
-        <View style={styles.gestureLayer} {...panResponder.panHandlers}>
-          <View style={[styles.container, isLandscape && styles.containerLandscape]}>
+ return (
+  <AdaptiveBackground
+    onReady={handleBackgroundReady}
+    blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
+    backgroundMode={effectiveBackgroundMode}
+    userBackgroundUri={currentUserBackgroundUri}
+    background={activeAutoBackground}
+  >
+    <View style={styles.root}>
+      <View style={styles.gestureLayer} {...panResponder.panHandlers}>
+        <View style={[styles.container, isLandscape && styles.containerLandscape]}>
+          {!isMenuVisible && !isUserBackgroundManagerVisible ? (
             <View
               style={[
                 styles.textBlock,
@@ -873,16 +861,21 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
             >
               <AnimatedPassageText
                 key={`passage-${orientation}-${currentPassage?.id ?? 'empty'}-${historyState.currentIndex}`}
-                line={displayedText}
+                line={renderedText}
                 containerStyle={styles.paragraphContainer}
                 style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
-                isReady={isTextReady}
+                isReady={isBackgroundReady}
                 onComplete={() => setShowSource(true)}
                 variant={fontVariant}
               />
 
               {sourceReserveHeight > 0 ? (
-                <View style={[styles.sourceReserve, { marginTop: 18, minHeight: sourceReserveHeight }]}>
+                <View
+                  style={[
+                    styles.sourceReserve,
+                    { marginTop: 18, minHeight: sourceReserveHeight },
+                  ]}
+                >
                   {sourceText && showSource ? (
                     <PassageSourceText
                       text={sourceText}
@@ -894,45 +887,46 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
                 </View>
               ) : null}
             </View>
-          </View>
-
-          <MenuSlideSheet
-            visible={isMenuVisible}
-            onClose={closeMenu}
-            onApply={handleApply}
-            state={draftSelections}
-            onChange={setDraftSelections}
-            hasPassages={hasPassages}
-            onOpenUserBackgroundManager={handleOpenUserBackgroundManager}
-            onSelectAutoBackground={handleSelectAutoBackground}
-          />
-
-          <UserBackgroundManagerSheet
-            visible={isUserBackgroundManagerVisible}
-            backgrounds={draftUserBackgrounds}
-            selectedUris={draftSelectedUserBackgrounds}
-            maxItems={MAX_USER_BACKGROUNDS}
-            onToggleSelect={handleToggleUserBackgroundSelection}
-            onAdd={handleAddUserBackgrounds}
-            onDeleteSelected={handleDeleteSelectedUserBackgrounds}
-            onApply={handleApplyUserBackgrounds}
-            onClose={closeUserBackgroundManager}
-          />
+          ) : null}
         </View>
 
-        {!isMenuVisible && !isUserBackgroundManagerVisible ? (
-          <BottomDotButton
-            style={styles.bottomButton}
-            onPress={() => {
-              if (!isMenuButtonEnabled) {
-                return;
-              }
-              openMenu();
-            }}
-            accessibilityLabel="Open menu"
-          />
-        ) : null}
+        <MenuSlideSheet
+          visible={isMenuVisible}
+          onClose={closeMenu}
+          onApply={handleApply}
+          state={draftSelections}
+          onChange={setDraftSelections}
+          hasPassages={hasPassages}
+          onOpenUserBackgroundManager={handleOpenUserBackgroundManager}
+          onSelectAutoBackground={handleSelectAutoBackground}
+        />
+
+        <UserBackgroundManagerSheet
+          visible={isUserBackgroundManagerVisible}
+          backgrounds={draftUserBackgrounds}
+          selectedUris={draftSelectedUserBackgrounds}
+          maxItems={MAX_USER_BACKGROUNDS}
+          onToggleSelect={handleToggleUserBackgroundSelection}
+          onAdd={handleAddUserBackgrounds}
+          onDeleteSelected={handleDeleteSelectedUserBackgrounds}
+          onApply={handleApplyUserBackgrounds}
+          onClose={closeUserBackgroundManager}
+        />
       </View>
-    </AdaptiveBackground>
-  );
+
+      {!isMenuVisible && !isUserBackgroundManagerVisible ? (
+        <BottomDotButton
+          style={styles.bottomButton}
+          onPress={() => {
+            if (!isMenuButtonEnabled) {
+              return;
+            }
+            openMenu();
+          }}
+          accessibilityLabel="Open menu"
+        />
+      ) : null}
+    </View>
+  </AdaptiveBackground>
+);
 };
