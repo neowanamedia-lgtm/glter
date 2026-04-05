@@ -57,9 +57,9 @@ const getFontVariant = (font: MenuSelectionState['font']): FontVariant => {
 const getBodyFontSize = (variant: FontVariant): number => {
   switch (variant) {
     case 'soft':
-      return BASE_FONT_SIZE + 2;
+      return BASE_FONT_SIZE + 0;
     case 'handwriting':
-      return BASE_FONT_SIZE + 8;
+      return BASE_FONT_SIZE + 10;
     default:
       return BASE_FONT_SIZE;
   }

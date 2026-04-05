@@ -22,6 +22,30 @@ const WORD_FADE_DURATION = 660;
 const WORD_STAGGER = 220;
 const WORD_TRANSLATE_Y = 16;
 
+/**
+ * 🔥 필기체 미세조정 포인트
+ * - 굵기: HANDWRITING_FONT_WEIGHT
+ * - 크기: HANDWRITING_SIZE_BONUS
+ * - 행간: HANDWRITING_LINE_HEIGHT_MULTIPLIER
+ * - 자간: HANDWRITING_LETTER_SPACING
+ *
+ * 추천 시작값:
+ * - 굵기: '10'
+ * - 크기: 0
+ * - 행간: 10.0
+ * - 자간: 0.32
+ */
+const HANDWRITING_FONT_WEIGHT: TextStyle['fontWeight'] = '100';
+const HANDWRITING_SIZE_BONUS = 0;
+const HANDWRITING_LINE_HEIGHT_MULTIPLIER = 8.75;
+const HANDWRITING_LETTER_SPACING = -0.8;
+
+const SOFT_LINE_HEIGHT_MULTIPLIER = 1.5;
+const DEFAULT_LINE_HEIGHT_MULTIPLIER = 1.5;
+
+const SOFT_LETTER_SPACING = -0.4;
+const DEFAULT_LETTER_SPACING = -0.2;
+
 export type AnimatedPassageTextProps = {
   line: string;
   style?: StyleProp<TextStyle>;
@@ -34,22 +58,22 @@ export type AnimatedPassageTextProps = {
 const getDefaultLineHeight = (variant: FontVariant, fontSize: number): number => {
   switch (variant) {
     case 'soft':
-      return fontSize * 1.55;
+      return fontSize * SOFT_LINE_HEIGHT_MULTIPLIER;
     case 'handwriting':
-      return fontSize * 1.7;
+      return fontSize * HANDWRITING_LINE_HEIGHT_MULTIPLIER;
     default:
-      return fontSize * 1.5;
+      return fontSize * DEFAULT_LINE_HEIGHT_MULTIPLIER;
   }
 };
 
 const getDefaultLetterSpacing = (variant: FontVariant): number => {
   switch (variant) {
     case 'soft':
-      return 0.3;
+      return SOFT_LETTER_SPACING;
     case 'handwriting':
-      return 0.32;
+      return HANDWRITING_LETTER_SPACING;
     default:
-      return 0.1;
+      return DEFAULT_LETTER_SPACING;
   }
 };
 
@@ -58,13 +82,18 @@ const createVariantTypography = (
   baseSize: number,
   overrides: { lineHeight?: number; letterSpacing?: number },
 ): TextStyle => {
-  const fontSize = variant === 'handwriting' ? baseSize + 2 : baseSize;
+  const fontSize = variant === 'handwriting' ? baseSize + HANDWRITING_SIZE_BONUS : baseSize;
 
   return {
     fontFamily: FONT_FAMILY_BY_VARIANT[variant],
     fontSize,
     lineHeight: overrides.lineHeight ?? getDefaultLineHeight(variant, baseSize),
     letterSpacing: overrides.letterSpacing ?? getDefaultLetterSpacing(variant),
+    ...(variant === 'handwriting'
+      ? {
+          fontWeight: HANDWRITING_FONT_WEIGHT,
+        }
+      : null),
   };
 };
 
