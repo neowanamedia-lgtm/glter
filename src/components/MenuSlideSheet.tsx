@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 
 import type {
-  BackgroundOption,
   ContentCategory,
   EmotionKey,
   FontOption,
@@ -24,6 +23,8 @@ type MenuSlideSheetProps = {
   state: MenuSelectionState;
   onChange: React.Dispatch<React.SetStateAction<MenuSelectionState>>;
   hasPassages?: boolean;
+  onOpenUserBackgroundManager?: () => Promise<boolean> | boolean;
+  onSelectAutoBackground?: () => void;
 };
 
 const EMOTION_OPTIONS: Array<{ key: EmotionKey; label: string }> = [
@@ -80,11 +81,6 @@ const FONT_OPTIONS: Array<{ key: FontOption; label: string }> = [
   { key: 'script', label: '필기체' },
 ];
 
-const BACKGROUND_OPTIONS: Array<{ key: BackgroundOption; label: string }> = [
-  { key: 'auto', label: '자동배경' },
-  { key: 'upload', label: '불러오기' },
-];
-
 const ENABLED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko'];
 const ENABLED_LANGUAGE_SET = new Set<MenuSelectionState['language']>(ENABLED_LANGUAGES);
 
@@ -96,6 +92,8 @@ export function MenuSlideSheet({
   onApply,
   state,
   onChange,
+  onOpenUserBackgroundManager,
+  onSelectAutoBackground,
 }: MenuSlideSheetProps) {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
@@ -152,10 +150,28 @@ export function MenuSlideSheet({
     }));
   };
 
-  const handleBackground = (background: BackgroundOption) => {
+  const handleAutoBackgroundPress = () => {
+    onSelectAutoBackground?.();
     onChange((prev) => ({
       ...prev,
-      background,
+      background: 'auto',
+    }));
+  };
+
+  const handleUploadBackgroundPress = async () => {
+    if (isLandscape) {
+      return;
+    }
+
+    const opened = await onOpenUserBackgroundManager?.();
+
+    if (!opened) {
+      return;
+    }
+
+    onChange((prev) => ({
+      ...prev,
+      background: 'upload',
     }));
   };
 
@@ -181,12 +197,12 @@ export function MenuSlideSheet({
           ]}
           pointerEvents="box-none"
         >
-          <Pressable
+          <View
             style={[
               styles.contentWrap,
               isLandscape ? styles.contentWrapLandscape : styles.contentWrapPortrait,
             ]}
-            onPress={() => {}}
+            pointerEvents="box-none"
           >
             <Text style={styles.brand}>glter</Text>
             <Text style={styles.copy}>지금 나의 문장, 생각이 머무는 글의 공간</Text>
@@ -255,24 +271,89 @@ export function MenuSlideSheet({
                   handleFont,
                   fontMode,
                 )}
-                <View style={styles.inlineGapCompact} />
-                {renderSingleSelectChipList(
-                  BACKGROUND_OPTIONS,
-                  state.background,
-                  handleBackground,
-                  backgroundMode,
-                )}
+
+                <View style={styles.inlineGapWide} />
+
+                <View style={styles.backgroundChipList}>
+                  <Pressable
+                    hitSlop={8}
+                    pressRetentionOffset={12}
+                    style={[
+                      styles.chip,
+                      styles.inlineChip,
+                      backgroundMode === 'compact' && styles.chipCompact,
+                      backgroundMode === 'tight' && styles.chipTight,
+                      state.background === 'auto' && styles.chipSelected,
+                    ]}
+                    onPress={handleAutoBackgroundPress}
+                  >
+                    <Text
+                      style={[
+                        styles.chipText,
+                        backgroundMode === 'compact' && styles.chipTextCompact,
+                        backgroundMode === 'tight' && styles.chipTextTight,
+                        state.background === 'auto' && styles.chipTextSelected,
+                      ]}
+                      numberOfLines={1}
+                    >
+                      자동배경
+                    </Text>
+                  </Pressable>
+
+                  <Pressable
+                    hitSlop={8}
+                    pressRetentionOffset={12}
+                    style={[
+                      styles.chip,
+                      styles.inlineChip,
+                      backgroundMode === 'compact' && styles.chipCompact,
+                      backgroundMode === 'tight' && styles.chipTight,
+                      state.background === 'upload' && styles.chipSelected,
+                      isLandscape && styles.chipDisabled,
+                    ]}
+                    disabled={isLandscape}
+                    onPress={() => {
+                      void handleUploadBackgroundPress();
+                    }}
+                  >
+                    <Text
+                      style={[
+                        styles.chipText,
+                        backgroundMode === 'compact' && styles.chipTextCompact,
+                        backgroundMode === 'tight' && styles.chipTextTight,
+                        state.background === 'upload' && styles.chipTextSelected,
+                        isLandscape && styles.chipTextDisabled,
+                      ]}
+                      numberOfLines={1}
+                    >
+                      불러오기
+                    </Text>
+                  </Pressable>
+                </View>
               </View>
             </RowBlock>
+
+            {isLandscape ? (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  사용자 배경 관리는 세로 화면에서만 사용할 수 있습니다.
+                </Text>
+              </View>
+            ) : null}
 
             <View style={styles.applyGap} />
 
             <View style={styles.applyWrap}>
-              <Pressable style={styles.applyButton} onPress={handleApplyPress}>
+              <Pressable
+                hitSlop={8}
+                pressRetentionOffset={12}
+                style={styles.applyButton}
+                onPress={handleApplyPress}
+              >
                 <Text style={styles.applyButtonText}>문장 보기</Text>
               </Pressable>
             </View>
-          </Pressable>
+          </View>
         </View>
       </View>
     </Modal>
@@ -297,6 +378,8 @@ function renderSingleSelectChips<T extends string>(
         return (
           <Pressable
             key={option.key}
+            hitSlop={6}
+            pressRetentionOffset={10}
             style={[
               styles.chip,
               mode === 'compact' && styles.chipCompact,
@@ -337,6 +420,8 @@ function renderSingleSelectChipList<T extends string>(
         return (
           <Pressable
             key={option.key}
+            hitSlop={6}
+            pressRetentionOffset={10}
             style={[
               styles.chip,
               styles.inlineChip,
@@ -378,6 +463,8 @@ function renderMultiSelectChips(
         return (
           <Pressable
             key={option.key}
+            hitSlop={6}
+            pressRetentionOffset={10}
             style={[
               styles.chip,
               mode === 'compact' && styles.chipCompact,
@@ -419,6 +506,8 @@ function renderLanguageChips(
         return (
           <Pressable
             key={option.key}
+            hitSlop={6}
+            pressRetentionOffset={10}
             style={[
               styles.chip,
               mode === 'compact' && styles.chipCompact,
@@ -521,10 +610,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 4,
   },
+  backgroundChipList: {
+    flexDirection: 'row',
+    flexWrap: 'nowrap',
+    alignItems: 'center',
+    gap: 4,
+  },
   inlineChip: {
     minWidth: 0,
   },
-  inlineGapCompact: {
+  inlineGapWide: {
     width: 4,
   },
   chip: {
@@ -553,7 +648,7 @@ const styles = StyleSheet.create({
     borderColor: 'rgba(121, 198, 255, 1)',
   },
   chipDisabled: {
-    opacity: 0.62,
+    opacity: 0.45,
   },
   chipText: {
     color: '#f5f8fb',
@@ -576,7 +671,16 @@ const styles = StyleSheet.create({
     color: '#ffffff',
   },
   chipTextDisabled: {
-    color: 'rgba(255,255,255,0.90)',
+    color: 'rgba(255,255,255,0.84)',
+  },
+  noticeWrap: {
+    marginTop: 8,
+  },
+  noticeText: {
+    color: 'rgba(255,255,255,0.74)',
+    fontSize: 12,
+    lineHeight: 16,
+    textAlign: 'left',
   },
   applyGap: {
     height: 42,

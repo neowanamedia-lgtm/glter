@@ -1,5 +1,6 @@
 ﻿import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { PanResponder, StyleSheet, View } from 'react-native';
+import * as ImagePicker from 'expo-image-picker';
 
 import { AdaptiveBackground } from '../components/AdaptiveBackground';
 import { AnimatedPassageText } from '../components/AnimatedPassageText';
@@ -10,6 +11,7 @@ import {
 } from '../components/PassageSourceText';
 import { BottomDotButton } from '../components/BottomDotButton';
 import { MenuSlideSheet } from '../components/MenuSlideSheet';
+import { UserBackgroundManagerSheet } from '../components/UserBackgroundManagerSheet';
 import { usePassage } from '../hooks/usePassage';
 import { useOrientation } from '../hooks/useOrientation';
 import type { MenuSelectionState } from '../types/menu';
@@ -37,6 +39,10 @@ const SWIPE_DIRECTION_RATIO = 0.4;
 const SWIPE_MAX_VERTICAL_DRIFT = 120;
 const MENU_BACKGROUND_BLUR_RADIUS = 28;
 const DOUBLE_TAP_DELAY_MS = 260;
+const MAX_USER_BACKGROUNDS = 12;
+
+type BackgroundMode = 'auto' | 'user';
+type OverlayMode = 'none' | 'menu' | 'userBackgroundManager';
 
 const FONT_FAMILY_BY_VARIANT: Record<FontVariant, string> = {
   default: 'NotoSansKR-Regular',
@@ -104,6 +110,40 @@ const estimateSourceHeight = (
 const createBackgroundToken = (): string =>
   `bg_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
 
+const dedupeUris = (uris: string[]): string[] => {
+  const seen = new Set<string>();
+  const next: string[] = [];
+
+  for (const uri of uris) {
+    if (!uri || seen.has(uri)) {
+      continue;
+    }
+    seen.add(uri);
+    next.push(uri);
+  }
+
+  return next;
+};
+
+const pickRandomUri = (uris: string[], excludeUri?: string | null): string | null => {
+  if (!uris.length) {
+    return null;
+  }
+
+  if (uris.length === 1) {
+    return uris[0];
+  }
+
+  const pool =
+    excludeUri && uris.includes(excludeUri)
+      ? uris.filter((uri) => uri !== excludeUri)
+      : uris;
+
+  const targetPool = pool.length ? pool : uris;
+  const index = Math.floor(Math.random() * targetPool.length);
+  return targetPool[index] ?? uris[0] ?? null;
+};
+
 const styles = StyleSheet.create({
   root: {
     flex: 1,
@@ -168,20 +208,47 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const [menuSelections, setMenuSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
   const [draftSelections, setDraftSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
-  const [isMenuVisible, setMenuVisible] = useState(initialMenuVisible);
+  const [overlayMode, setOverlayMode] = useState<OverlayMode>(initialMenuVisible ? 'menu' : 'none');
+
   const [isBackgroundReady, setBackgroundReady] = useState(false);
   const [isTextReady, setTextReady] = useState(false);
   const [showSource, setShowSource] = useState(false);
   const [historyState, setHistoryState] = useState(createInitialPassageHistoryState());
   const [shouldStartNewSelection, setShouldStartNewSelection] = useState(false);
-  const [currentBackgroundToken, setCurrentBackgroundToken] = useState<string>(() => createBackgroundToken());
-  const [menuBackgroundToken, setMenuBackgroundToken] = useState<string>(() => createBackgroundToken());
+  const [currentBackgroundToken, setCurrentBackgroundToken] = useState<string>(() =>
+    createBackgroundToken(),
+  );
+  const [menuBackgroundToken, setMenuBackgroundToken] = useState<string>(() =>
+    createBackgroundToken(),
+  );
+
+  const [backgroundMode, setBackgroundMode] = useState<BackgroundMode>('auto');
+
+  const [storedUserBackgrounds, setStoredUserBackgrounds] = useState<string[]>([]);
+  const [appliedUserBackgrounds, setAppliedUserBackgrounds] = useState<string[]>([]);
+  const [currentUserBackgroundUri, setCurrentUserBackgroundUri] = useState<string | null>(null);
+
+  const [draftUserBackgrounds, setDraftUserBackgrounds] = useState<string[]>([]);
+  const [draftSelectedUserBackgrounds, setDraftSelectedUserBackgrounds] = useState<string[]>([]);
 
   const readyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const singleTapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastTapTimestampRef = useRef(0);
   const gestureHandledRef = useRef(false);
+
   const passageBackgroundMapRef = useRef<Record<string, string>>({});
+  const passageUserBackgroundUriMapRef = useRef<Record<string, string>>({});
+
+  const isMenuVisible = overlayMode === 'menu';
+  const isUserBackgroundManagerVisible = overlayMode === 'userBackgroundManager';
+
+  const effectiveBackgroundMode: 'auto' | 'user' = useMemo(() => {
+    if (backgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
+      return 'user';
+    }
+
+    return 'auto';
+  }, [appliedUserBackgrounds.length, backgroundMode]);
 
   const fontVariant = useMemo(
     () => getFontVariant(menuSelections.font),
@@ -222,17 +289,33 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const hasCurrent = Boolean(currentPassage);
   const canGoPrev = canGoToPreviousPassage(historyState);
-  const isGestureEnabled = !isMenuVisible && isTextReady && showSource && hasCurrent;
-  const isMenuButtonEnabled = !isMenuVisible && showSource;
+  const isGestureEnabled =
+    !isMenuVisible &&
+    !isUserBackgroundManagerVisible &&
+    isTextReady &&
+    showSource &&
+    hasCurrent;
 
-  const activeBackgroundKey = isMenuVisible
-    ? `menu-${menuBackgroundToken}`
-    : `passage-${currentBackgroundToken}`;
+  const isMenuButtonEnabled = !isMenuVisible && !isUserBackgroundManagerVisible && showSource;
 
-  const resetTextPresentation = useCallback(() => {
-    setTextReady(false);
-    setShowSource(false);
-  }, []);
+  const activeBackgroundKey = useMemo(() => {
+    if (effectiveBackgroundMode === 'user') {
+      return isMenuVisible || isUserBackgroundManagerVisible
+        ? `menu-user-${currentUserBackgroundUri ?? 'empty'}`
+        : `passage-user-${currentUserBackgroundUri ?? 'empty'}`;
+    }
+
+    return isMenuVisible || isUserBackgroundManagerVisible
+      ? `menu-${menuBackgroundToken}`
+      : `passage-${currentBackgroundToken}`;
+  }, [
+    effectiveBackgroundMode,
+    isMenuVisible,
+    isUserBackgroundManagerVisible,
+    currentUserBackgroundUri,
+    menuBackgroundToken,
+    currentBackgroundToken,
+  ]);
 
   const resetVisualPresentation = useCallback(() => {
     setBackgroundReady(false);
@@ -247,22 +330,173 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     }
   }, []);
 
+  const syncBackgroundSelectionState = useCallback((mode: 'auto' | 'upload') => {
+    setMenuSelections((prev) => ({
+      ...prev,
+      background: mode,
+    }));
+    setDraftSelections((prev) => ({
+      ...prev,
+      background: mode,
+    }));
+  }, []);
+
+  const launchUserBackgroundPicker = useCallback(async (limit: number): Promise<string[]> => {
+    const permission = await ImagePicker.requestMediaLibraryPermissionsAsync();
+
+    if (!permission.granted) {
+      return [];
+    }
+
+    const result = await ImagePicker.launchImageLibraryAsync({
+      mediaTypes: ImagePicker.MediaTypeOptions.Images,
+      allowsEditing: false,
+      allowsMultipleSelection: true,
+      selectionLimit: Math.max(1, Math.min(limit, MAX_USER_BACKGROUNDS)),
+      quality: 1,
+    });
+
+    if (result.canceled || !result.assets?.length) {
+      return [];
+    }
+
+    return result.assets
+      .map((asset) => asset.uri)
+      .filter((uri): uri is string => typeof uri === 'string' && uri.length > 0);
+  }, []);
+
   const openMenu = useCallback(() => {
     clearSingleTapTimer();
     setDraftSelections({
       ...menuSelections,
       selectedCategories: [...menuSelections.selectedCategories],
+      background: backgroundMode === 'user' ? 'upload' : 'auto',
     });
     setMenuBackgroundToken(createBackgroundToken());
-    setMenuVisible(true);
+    setOverlayMode('menu');
     resetVisualPresentation();
-  }, [clearSingleTapTimer, menuSelections, resetVisualPresentation]);
+  }, [backgroundMode, clearSingleTapTimer, menuSelections, resetVisualPresentation]);
 
   const closeMenu = useCallback(() => {
     clearSingleTapTimer();
-    setMenuVisible(false);
+    setOverlayMode('none');
     resetVisualPresentation();
   }, [clearSingleTapTimer, resetVisualPresentation]);
+
+  const openUserBackgroundManager = useCallback((): boolean => {
+    if (isLandscape) {
+      return false;
+    }
+
+    setDraftUserBackgrounds(storedUserBackgrounds.slice(0, MAX_USER_BACKGROUNDS));
+    setDraftSelectedUserBackgrounds(
+      (appliedUserBackgrounds.length > 0 ? appliedUserBackgrounds : storedUserBackgrounds).slice(
+        0,
+        MAX_USER_BACKGROUNDS,
+      ),
+    );
+    setMenuBackgroundToken(createBackgroundToken());
+    setOverlayMode('userBackgroundManager');
+    resetVisualPresentation();
+    return true;
+  }, [appliedUserBackgrounds, isLandscape, resetVisualPresentation, storedUserBackgrounds]);
+
+  const handleOpenUserBackgroundManager = useCallback(async (): Promise<boolean> => {
+    clearSingleTapTimer();
+    syncBackgroundSelectionState('upload');
+    return openUserBackgroundManager();
+  }, [clearSingleTapTimer, openUserBackgroundManager, syncBackgroundSelectionState]);
+
+  const handleSelectAutoBackground = useCallback(() => {
+    setBackgroundMode('auto');
+    setCurrentUserBackgroundUri(null);
+    syncBackgroundSelectionState('auto');
+    resetVisualPresentation();
+  }, [resetVisualPresentation, syncBackgroundSelectionState]);
+
+  const closeUserBackgroundManager = useCallback(() => {
+    setDraftUserBackgrounds([]);
+    setDraftSelectedUserBackgrounds([]);
+    setOverlayMode('menu');
+    setMenuBackgroundToken(createBackgroundToken());
+    resetVisualPresentation();
+  }, [resetVisualPresentation]);
+
+  const handleAddUserBackgrounds = useCallback(async () => {
+    if (isLandscape) {
+      return;
+    }
+
+    const remaining = MAX_USER_BACKGROUNDS - draftUserBackgrounds.length;
+
+    if (remaining <= 0) {
+      return;
+    }
+
+    const pickedUris = dedupeUris(await launchUserBackgroundPicker(remaining));
+
+    if (!pickedUris.length) {
+      return;
+    }
+
+    setDraftUserBackgrounds((prev) =>
+      dedupeUris([...prev, ...pickedUris]).slice(0, MAX_USER_BACKGROUNDS),
+    );
+    setDraftSelectedUserBackgrounds((prev) =>
+      dedupeUris([...prev, ...pickedUris]).slice(0, MAX_USER_BACKGROUNDS),
+    );
+  }, [draftUserBackgrounds.length, isLandscape, launchUserBackgroundPicker]);
+
+  const handleToggleUserBackgroundSelection = useCallback((uri: string) => {
+    setDraftSelectedUserBackgrounds((prev) =>
+      prev.includes(uri) ? prev.filter((item) => item !== uri) : [...prev, uri],
+    );
+  }, []);
+
+  const handleDeleteSelectedUserBackgrounds = useCallback(() => {
+    if (!draftSelectedUserBackgrounds.length) {
+      return;
+    }
+
+    const selectedSet = new Set(draftSelectedUserBackgrounds);
+
+    setDraftUserBackgrounds((prev) => prev.filter((uri) => !selectedSet.has(uri)));
+    setDraftSelectedUserBackgrounds([]);
+  }, [draftSelectedUserBackgrounds]);
+
+  const handleApplyUserBackgrounds = useCallback(() => {
+    const confirmedLibrary = dedupeUris(draftUserBackgrounds).slice(0, MAX_USER_BACKGROUNDS);
+    const confirmedSelection = dedupeUris(
+      draftSelectedUserBackgrounds.filter((uri) => confirmedLibrary.includes(uri)),
+    ).slice(0, MAX_USER_BACKGROUNDS);
+
+    if (!confirmedSelection.length) {
+      return;
+    }
+
+    const nextCurrentUri =
+      confirmedSelection.length === 1
+        ? confirmedSelection[0]
+        : pickRandomUri(confirmedSelection, currentUserBackgroundUri) ?? confirmedSelection[0];
+
+    setStoredUserBackgrounds(confirmedLibrary);
+    setAppliedUserBackgrounds(confirmedSelection);
+    setCurrentUserBackgroundUri(nextCurrentUri);
+    setBackgroundMode('user');
+    syncBackgroundSelectionState('upload');
+    passageUserBackgroundUriMapRef.current = {};
+    setDraftUserBackgrounds([]);
+    setDraftSelectedUserBackgrounds([]);
+    setOverlayMode('menu');
+    setMenuBackgroundToken(createBackgroundToken());
+    resetVisualPresentation();
+  }, [
+    currentUserBackgroundUri,
+    draftSelectedUserBackgrounds,
+    draftUserBackgrounds,
+    resetVisualPresentation,
+    syncBackgroundSelectionState,
+  ]);
 
   const showFirstPassageForCurrentSelection = useCallback(() => {
     const firstPassage = pickNextPassage();
@@ -273,12 +507,32 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       return;
     }
 
-    const nextBackgroundToken = createBackgroundToken();
-    passageBackgroundMapRef.current[firstPassage.id] = nextBackgroundToken;
-    setCurrentBackgroundToken(nextBackgroundToken);
+    if (effectiveBackgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
+      const firstUserUri =
+        appliedUserBackgrounds.length === 1
+          ? appliedUserBackgrounds[0]
+          : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUri) ??
+            appliedUserBackgrounds[0];
+
+      if (firstUserUri) {
+        passageUserBackgroundUriMapRef.current[firstPassage.id] = firstUserUri;
+        setCurrentUserBackgroundUri(firstUserUri);
+      }
+    } else {
+      const nextBackgroundToken = createBackgroundToken();
+      passageBackgroundMapRef.current[firstPassage.id] = nextBackgroundToken;
+      setCurrentBackgroundToken(nextBackgroundToken);
+    }
+
     setHistoryState(appendPassage(createInitialPassageHistoryState(), firstPassage));
     resetVisualPresentation();
-  }, [pickNextPassage, resetVisualPresentation]);
+  }, [
+    appliedUserBackgrounds,
+    currentUserBackgroundUri,
+    effectiveBackgroundMode,
+    pickNextPassage,
+    resetVisualPresentation,
+  ]);
 
   const showPreviousPassage = useCallback(() => {
     clearSingleTapTimer();
@@ -290,6 +544,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     clearSingleTapTimer();
 
     let nextBackgroundTokenToApply: string | null = null;
+    let nextUserBackgroundUriToApply: string | null = null;
 
     setHistoryState((prev) => {
       if (canGoToNextSeenPassage(prev)) {
@@ -303,18 +558,41 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         return prev;
       }
 
-      nextBackgroundTokenToApply = createBackgroundToken();
-      passageBackgroundMapRef.current[nextPassage.id] = nextBackgroundTokenToApply;
+      if (effectiveBackgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
+        nextUserBackgroundUriToApply =
+          appliedUserBackgrounds.length === 1
+            ? appliedUserBackgrounds[0]
+            : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUri) ??
+              appliedUserBackgrounds[0];
+
+        if (nextUserBackgroundUriToApply) {
+          passageUserBackgroundUriMapRef.current[nextPassage.id] = nextUserBackgroundUriToApply;
+        }
+      } else {
+        nextBackgroundTokenToApply = createBackgroundToken();
+        passageBackgroundMapRef.current[nextPassage.id] = nextBackgroundTokenToApply;
+      }
 
       return appendPassage(prev, nextPassage);
     });
+
+    if (nextUserBackgroundUriToApply) {
+      setCurrentUserBackgroundUri(nextUserBackgroundUriToApply);
+    }
 
     if (nextBackgroundTokenToApply) {
       setCurrentBackgroundToken(nextBackgroundTokenToApply);
     }
 
     resetVisualPresentation();
-  }, [clearSingleTapTimer, pickNextPassage, resetVisualPresentation]);
+  }, [
+    appliedUserBackgrounds,
+    clearSingleTapTimer,
+    currentUserBackgroundUri,
+    effectiveBackgroundMode,
+    pickNextPassage,
+    resetVisualPresentation,
+  ]);
 
   const handleApply = useCallback((next: MenuSelectionState) => {
     if (!next.selectedCategories.length) {
@@ -328,17 +606,19 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     const normalizedNext: MenuSelectionState = {
       ...next,
       selectedCategories: [...next.selectedCategories],
+      background: effectiveBackgroundMode === 'user' ? 'upload' : 'auto',
     };
 
     clearSingleTapTimer();
     passageBackgroundMapRef.current = {};
+    passageUserBackgroundUriMapRef.current = {};
     setMenuSelections(normalizedNext);
     setDraftSelections(normalizedNext);
     setHistoryState(resetPassageHistory());
     setShouldStartNewSelection(true);
-    setMenuVisible(false);
+    setOverlayMode('none');
     resetVisualPresentation();
-  }, [clearSingleTapTimer, resetVisualPresentation]);
+  }, [clearSingleTapTimer, effectiveBackgroundMode, resetVisualPresentation]);
 
   const handleBackgroundReady = useCallback(() => {
     setBackgroundReady(true);
@@ -349,13 +629,18 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       return;
     }
 
-    if (isMenuVisible) {
+    if (isMenuVisible || isUserBackgroundManagerVisible) {
       return;
     }
 
     setShouldStartNewSelection(false);
     showFirstPassageForCurrentSelection();
-  }, [shouldStartNewSelection, isMenuVisible, showFirstPassageForCurrentSelection]);
+  }, [
+    shouldStartNewSelection,
+    isMenuVisible,
+    isUserBackgroundManagerVisible,
+    showFirstPassageForCurrentSelection,
+  ]);
 
   useEffect(() => {
     if (readyTimerRef.current) {
@@ -363,7 +648,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       readyTimerRef.current = null;
     }
 
-    if (!isBackgroundReady || isMenuVisible || !combinedText) {
+    if (
+      !isBackgroundReady ||
+      isMenuVisible ||
+      isUserBackgroundManagerVisible ||
+      !combinedText
+    ) {
       setTextReady(false);
       setShowSource(false);
       return;
@@ -379,14 +669,40 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         readyTimerRef.current = null;
       }
     };
-  }, [isBackgroundReady, isMenuVisible, combinedText, currentPassage?.id]);
+  }, [
+    isBackgroundReady,
+    isMenuVisible,
+    isUserBackgroundManagerVisible,
+    combinedText,
+    currentPassage?.id,
+  ]);
 
   useEffect(() => {
     setShowSource(false);
   }, [orientation]);
 
   useEffect(() => {
+    if (isLandscape && isUserBackgroundManagerVisible) {
+      setDraftUserBackgrounds([]);
+      setDraftSelectedUserBackgrounds([]);
+      setOverlayMode('menu');
+      setMenuBackgroundToken(createBackgroundToken());
+      resetVisualPresentation();
+    }
+  }, [isLandscape, isUserBackgroundManagerVisible, resetVisualPresentation]);
+
+  useEffect(() => {
     if (!currentPassage?.id) {
+      return;
+    }
+
+    if (effectiveBackgroundMode === 'user') {
+      const mappedUserUri = passageUserBackgroundUriMapRef.current[currentPassage.id];
+
+      if (mappedUserUri) {
+        setCurrentUserBackgroundUri((prev) => (prev === mappedUserUri ? prev : mappedUserUri));
+      }
+
       return;
     }
 
@@ -398,7 +714,17 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setCurrentBackgroundToken((prev) =>
       prev === mappedBackgroundToken ? prev : mappedBackgroundToken,
     );
-  }, [currentPassage?.id]);
+  }, [currentPassage?.id, effectiveBackgroundMode]);
+
+  useEffect(() => {
+    if (effectiveBackgroundMode === 'auto') {
+      setCurrentUserBackgroundUri(null);
+    } else if (appliedUserBackgrounds.length === 1) {
+      setCurrentUserBackgroundUri(appliedUserBackgrounds[0]);
+    } else if (appliedUserBackgrounds.length > 1 && !currentUserBackgroundUri) {
+      setCurrentUserBackgroundUri(appliedUserBackgrounds[0]);
+    }
+  }, [appliedUserBackgrounds, currentUserBackgroundUri, effectiveBackgroundMode]);
 
   useEffect(() => {
     return () => {
@@ -531,7 +857,9 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     <AdaptiveBackground
       key={activeBackgroundKey}
       onReady={handleBackgroundReady}
-      blurRadius={isMenuVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
+      blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
+      backgroundMode={effectiveBackgroundMode}
+      userBackgroundUri={currentUserBackgroundUri}
     >
       <View style={styles.root}>
         <View style={styles.gestureLayer} {...panResponder.panHandlers}>
@@ -574,10 +902,24 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
             state={draftSelections}
             onChange={setDraftSelections}
             hasPassages={hasPassages}
+            onOpenUserBackgroundManager={handleOpenUserBackgroundManager}
+            onSelectAutoBackground={handleSelectAutoBackground}
+          />
+
+          <UserBackgroundManagerSheet
+            visible={isUserBackgroundManagerVisible}
+            backgrounds={draftUserBackgrounds}
+            selectedUris={draftSelectedUserBackgrounds}
+            maxItems={MAX_USER_BACKGROUNDS}
+            onToggleSelect={handleToggleUserBackgroundSelection}
+            onAdd={handleAddUserBackgrounds}
+            onDeleteSelected={handleDeleteSelectedUserBackgrounds}
+            onApply={handleApplyUserBackgrounds}
+            onClose={closeUserBackgroundManager}
           />
         </View>
 
-        {!isMenuVisible ? (
+        {!isMenuVisible && !isUserBackgroundManagerVisible ? (
           <BottomDotButton
             style={styles.bottomButton}
             onPress={() => {

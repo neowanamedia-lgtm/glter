@@ -12,6 +12,8 @@ type AdaptiveBackgroundProps = PropsWithChildren<{
   onReady?: () => void;
   overlayColor?: string;
   blurRadius?: number;
+  backgroundMode?: 'auto' | 'user';
+  userBackgroundUri?: string | null;
 }>;
 
 const INITIAL_FADE_DURATION = 900;
@@ -40,6 +42,8 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
   onReady,
   overlayColor,
   blurRadius = 0,
+  backgroundMode = 'auto',
+  userBackgroundUri,
 }) => {
   const [selectedBackground, setSelectedBackground] = useState<BackgroundConfig>(() =>
     getRandomBackground(),
@@ -47,17 +51,25 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
 
   const opacity = useRef(new Animated.Value(0)).current;
   const hasSignaledRef = useRef(false);
+  const previousBackgroundModeRef = useRef<'auto' | 'user'>(backgroundMode);
 
-  // 🔥 핵심: 매 마운트마다 랜덤 재선택
   useEffect(() => {
-    setSelectedBackground(getRandomBackground());
-  }, []);
+    const previousMode = previousBackgroundModeRef.current;
 
-  // 🔥 핵심: portrait만 사용
-  const source = useMemo(
-    () => selectedBackground.portrait,
-    [selectedBackground],
-  );
+    if (backgroundMode === 'auto' && previousMode !== 'auto') {
+      setSelectedBackground(getRandomBackground());
+    }
+
+    previousBackgroundModeRef.current = backgroundMode;
+  }, [backgroundMode]);
+
+  const source = useMemo(() => {
+    if (backgroundMode === 'user' && userBackgroundUri) {
+      return { uri: userBackgroundUri };
+    }
+
+    return selectedBackground.portrait;
+  }, [backgroundMode, selectedBackground, userBackgroundUri]);
 
   useEffect(() => {
     opacity.setValue(0);
