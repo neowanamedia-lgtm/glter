@@ -1,0 +1,694 @@
+{
+  "passages": [
+    {
+      "id": "PAS_CLASSIC_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Guan Ju",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "관저"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람을 좋아하는 마음은,",
+        "생각보다 조용하게 시작된다.",
+        "크게 드러나지 않아도,",
+        "그 마음은 분명히 존재한다.",
+        "그래서 작은 감정이 더 오래 남는다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Cai Wei",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "채미"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "기다림은 사람을 지치게 한다.",
+        "언제 끝날지 모를 때,",
+        "마음은 더 멀어진다.",
+        "그래도 우리는 기다린다.",
+        "그 끝에 누군가가 있기를 바라면서."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Qian Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "건괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "하늘은 끊임없이 움직인다.",
+        "그래서 멈추지 않는 것이 중요하다.",
+        "지금 작게라도 움직이고 있다면,",
+        "그 자체로 충분하다.",
+        "변화는 이미 시작된 것이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Kun Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "곤괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "강하게 나아가는 것만이 답은 아니다.",
+        "받아들이고 버티는 힘도 필요하다.",
+        "겉으로 드러나지 않아도,",
+        "그 시간은 쌓이고 있다.",
+        "보이지 않는 성장이 존재한다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shujing",
+        "book": "Shujing",
+        "chapter": "Yao Dian",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "서경",
+        "chapterDisplay": "요전"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "큰 일을 맡는다는 것은,",
+        "더 많은 책임을 감당하는 일이다.",
+        "사람을 위하는 마음이 없다면,",
+        "그 자리는 오래 가지 못한다.",
+        "결국 중심은 사람이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Zheng Feng",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "정풍"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "일상의 순간은 작지만,",
+        "그 안에는 분명한 온기가 있다.",
+        "가볍게 지나치는 하루 속에도,",
+        "사람을 움직이는 감정이 있다.",
+        "그래서 평범함은 소중하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Yi Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "이괘"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 시작하기 전에는,",
+        "항상 망설임이 있다.",
+        "그 망설임은 틀린 것이 아니라,",
+        "준비의 일부일 뿐이다.",
+        "그래서 잠깐의 멈춤은 필요하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shujing",
+        "book": "Shujing",
+        "chapter": "Tang Shu",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "서경",
+        "chapterDisplay": "탕서"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "권력은 오래 머무르지 않는다.",
+        "사람을 잊는 순간,",
+        "그 자리는 무너지기 시작한다.",
+        "그래서 끝까지 중심을 잃지 않아야 한다.",
+        "그게 지속의 조건이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Xiao Ya",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "소아"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "말하지 못한 마음은,",
+        "시간이 지나도 사라지지 않는다.",
+        "오히려 더 깊이 남는다.",
+        "그래서 표현하지 못한 감정은,",
+        "언젠가 다시 떠오른다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Sun Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "손괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "줄인다는 것은 잃는 것이 아니다.",
+        "오히려 더 분명해지는 과정이다.",
+        "불필요한 것을 덜어낼 때,",
+        "본질이 드러난다.",
+        "그래서 비움은 필요하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Yi Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "익괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "조금씩 더해가는 삶은,",
+        "눈에 띄지 않는다.",
+        "하지만 어느 순간,",
+        "그 차이는 분명해진다.",
+        "성장은 늘 그렇게 쌓인다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Guo Feng",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "국풍"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 혼자가 아니다.",
+        "서로를 바라보고,",
+        "같은 감정을 나누며 살아간다.",
+        "그래서 연결은 힘이 된다.",
+        "함께 있다는 것만으로도 충분하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shujing",
+        "book": "Shujing",
+        "chapter": "Zhou Shu",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "서경",
+        "chapterDisplay": "주서"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "바른 기준은 흔들리지 않는다.",
+        "상황이 바뀌어도,",
+        "그 기준이 있다면 방향은 유지된다.",
+        "그래서 기준을 세우는 것이 중요하다.",
+        "그것이 올바름을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Kan Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "감괘"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "어려운 순간은 피할 수 없다.",
+        "하지만 그 안에서도 길은 있다.",
+        "두려움 속에서도 한 걸음 내딛으면,",
+        "다음이 보이기 시작한다.",
+        "그래서 멈추지 않는 것이 중요하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Wei Feng",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "위풍"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "떠난 뒤에야 알게 되는 것들이 있다.",
+        "그때는 당연했던 것들이,",
+        "이제는 다시 돌아오지 않는다.",
+        "그래서 순간은 소중하다.",
+        "지금이 가장 중요한 시간이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Jin Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "진괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "움직임은 결국 변화를 만든다.",
+        "작은 시작이라도,",
+        "그 방향이 맞다면 충분하다.",
+        "정체된 것보다,",
+        "조금이라도 나아가는 것이 낫다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shujing",
+        "book": "Shujing",
+        "chapter": "Hong Fan",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "서경",
+        "chapterDisplay": "홍범"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "세상을 바꾸는 것은 거창한 것이 아니다.",
+        "작은 기준과 선택이 쌓여,",
+        "결국 큰 흐름을 만든다.",
+        "그래서 지금의 선택이 중요하다.",
+        "그 하나가 시작이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Tai Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "태괘"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "모든 것이 잘 풀리는 순간도 있다.",
+        "그때는 자연스럽게 흐름을 타면 된다.",
+        "억지로 바꾸려 하지 말고,",
+        "그 상태를 충분히 누리는 것이 좋다.",
+        "좋은 흐름도 언젠가 지나가기 때문이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Pi Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "비괘"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "막히는 순간은 누구에게나 온다.",
+        "그때 억지로 밀어붙이면,",
+        "더 단단히 막히기도 한다.",
+        "그래서 잠시 멈추는 것도 방법이다.",
+        "흐름은 다시 열린다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Xiao Ya",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "소아"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 결국 마음으로 연결된다.",
+        "말보다 깊은 것은,",
+        "그 안에 담긴 진심이다.",
+        "그래서 관계는 느껴진다.",
+        "보이지 않아도 분명히 있다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Heng Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "항괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지속하는 힘은 강하다.",
+        "빠르게 가는 것보다,",
+        "계속 가는 것이 더 중요하다.",
+        "그 반복이 결국 차이를 만든다.",
+        "시간은 꾸준함의 편이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shujing",
+        "book": "Shujing",
+        "chapter": "Jun Shu",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "서경",
+        "chapterDisplay": "군서"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람 위에 서는 자일수록,",
+        "더 낮아져야 한다.",
+        "그 자세가 없다면,",
+        "그 자리는 오래 가지 못한다.",
+        "진짜 힘은 섬김에서 나온다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Zheng Feng",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "정풍"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "작은 웃음 하나가,",
+        "하루를 바꾸기도 한다.",
+        "거창하지 않아도,",
+        "충분히 따뜻할 수 있다.",
+        "그래서 일상은 가볍게 시작해도 좋다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Jie Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "절괘"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "멈추지 않으면,",
+        "어디까지 가야 할지 모른다.",
+        "그래서 스스로 한계를 정해야 한다.",
+        "그 선이 나를 지킨다.",
+        "절제는 자유를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Bei Feng",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "패풍"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "멀어지는 관계는,",
+        "조용히 변한다.",
+        "어느 순간 문득,",
+        "예전과 다르다는 것을 느낀다.",
+        "그래서 관계는 항상 돌봐야 한다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Fu Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "복괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "끝이라고 느낄 때에도,",
+        "다시 시작되는 순간이 있다.",
+        "모든 것은 다시 돌아오게 마련이다.",
+        "그래서 너무 단정할 필요는 없다.",
+        "흐름은 계속 이어진다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shujing",
+        "book": "Shujing",
+        "chapter": "Shun Dian",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "서경",
+        "chapterDisplay": "순전"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람을 얻는 것이,",
+        "가장 큰 힘이다.",
+        "혼자서는 멀리 가지 못하지만,",
+        "함께라면 더 오래 간다.",
+        "그래서 관계는 큰 자산이다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Guan Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "관괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "바라보는 방식이 바뀌면,",
+        "세상도 달라 보인다.",
+        "같은 상황이라도,",
+        "어떻게 보느냐에 따라 의미가 달라진다.",
+        "그래서 시선이 중요하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Shijing",
+        "book": "Shijing",
+        "chapter": "Guo Feng",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "시경",
+        "chapterDisplay": "국풍"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "평범한 하루가,",
+        "사실은 가장 안정된 순간이다.",
+        "특별하지 않아도 괜찮다.",
+        "그 평온함이 삶을 지탱한다.",
+        "그래서 오늘도 있는 그대로 충분하다."
+      ]
+    },
+    {
+      "id": "PAS_CLASSIC_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "I Ching",
+        "book": "I Ching",
+        "chapter": "Da You Gua",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "역경",
+        "chapterDisplay": "대유괘"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "많이 가진다는 것은,",
+        "더 많이 나누는 책임이 따른다.",
+        "혼자만의 것이 아니라,",
+        "함께 나눌 때 의미가 생긴다.",
+        "그래서 풍요는 관계로 완성된다."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,702 @@
+{
+  "passages": [
+    {
+      "id": "BIBLE_OT2_0001",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Isaiah",
+        "reference": "Isaiah 1:18",
+        "sourceDisplay": "성경",
+        "bookDisplay": "이사야",
+        "referenceDisplay": "이사야 1장 18절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 스스로를 지우지 못한다.",
+        "지나온 선택은 흔적처럼 남는다.",
+        "그러나 이사야는 다른 가능성을 말한다.",
+        "붉은 죄도 눈처럼 희어질 수 있다고 말한다.",
+        "그 변화는 노력으로 쌓는 결과가 아니라, 받아들이는 순간 시작된다.",
+        "그래서 사람은 과거와 다른 방향으로 다시 설 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0002",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Isaiah",
+        "reference": "Isaiah 40:31",
+        "sourceDisplay": "성경",
+        "bookDisplay": "이사야",
+        "referenceDisplay": "이사야 40장 31절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지친다는 것은 멈춰야 한다는 신호처럼 느껴진다.",
+        "하지만 멈춤이 끝을 의미하지는 않는다.",
+        "이사야는 기다림 속에서도 힘이 새로워진다고 말한다.",
+        "달리는 것이 아니라, 다시 날 수 있게 된다고 말한다.",
+        "속도가 아니라 방향이 중요한 순간이 있다.",
+        "그래서 사람은 멈춘 자리에서도 다시 나아갈 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0003",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Jeremiah",
+        "reference": "Jeremiah 29:11",
+        "sourceDisplay": "성경",
+        "bookDisplay": "예레미야",
+        "referenceDisplay": "예레미야 29장 11절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "앞이 보이지 않을 때 사람은 최악을 먼저 상상한다.",
+        "모든 계획이 틀어진 것처럼 느껴진다.",
+        "하지만 예레미야는 다른 시선을 제시한다.",
+        "보이지 않는 계획도 이미 준비되어 있다고 말한다.",
+        "그 방향은 평안을 향해 있다.",
+        "그래서 지금의 불확실함이 마지막은 아닐 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0004",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Ezekiel",
+        "reference": "Ezekiel 37:5",
+        "sourceDisplay": "성경",
+        "bookDisplay": "에스겔",
+        "referenceDisplay": "에스겔 37장 5절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "완전히 끝났다고 느껴지는 순간이 있다.",
+        "되돌릴 수 없다고 확신하는 상태가 있다.",
+        "에스겔은 그 자리에서 생명을 말한다.",
+        "마른 뼈에도 다시 숨이 들어갈 수 있다고 말한다.",
+        "가능성은 상황이 아니라 선언에서 시작된다.",
+        "그래서 끝처럼 보이는 자리에서도 다시 시작이 열린다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0005",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Daniel",
+        "reference": "Daniel 3:25",
+        "sourceDisplay": "성경",
+        "bookDisplay": "다니엘",
+        "referenceDisplay": "다니엘 3장 25절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "위험은 피할 수 없을 때 더 크게 다가온다.",
+        "사람은 혼자라고 느끼는 순간 가장 흔들린다.",
+        "다니엘서는 불 속에서도 함께하는 존재를 말한다.",
+        "타오르는 상황 속에서도 혼자가 아니라고 말한다.",
+        "환경이 바뀌지 않아도 의미는 달라질 수 있다.",
+        "그래서 두려움 속에서도 견디는 힘이 생긴다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0006",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Hosea",
+        "reference": "Hosea 6:1",
+        "sourceDisplay": "성경",
+        "bookDisplay": "호세아",
+        "referenceDisplay": "호세아 6장 1절"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "상처는 관계를 끊어버리는 이유가 된다.",
+        "멀어진 거리만큼 다시 돌아가기 어렵다.",
+        "호세아는 돌아오는 길을 다시 열어 둔다.",
+        "찢어진 자리에서도 다시 회복될 수 있다고 말한다.",
+        "관계는 단절로 끝나는 것이 아니라 다시 이어질 수 있다.",
+        "그래서 돌아가는 선택이 새로운 시작이 된다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0007",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Joel",
+        "reference": "Joel 2:25",
+        "sourceDisplay": "성경",
+        "bookDisplay": "요엘",
+        "referenceDisplay": "요엘 2장 25절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "잃어버린 시간은 되돌릴 수 없다고 느껴진다.",
+        "후회는 항상 늦게 찾아온다.",
+        "요엘은 사라진 시간까지 회복될 수 있다고 말한다.",
+        "단순한 보상이 아니라 다시 채워지는 방식이다.",
+        "지나간 날들도 의미 없이 사라지지 않는다.",
+        "그래서 사람은 과거를 다시 바라볼 수 있게 된다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0008",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Amos",
+        "reference": "Amos 5:24",
+        "sourceDisplay": "성경",
+        "bookDisplay": "아모스",
+        "referenceDisplay": "아모스 5장 24절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "겉으로 보이는 모습은 언제든 만들어질 수 있다.",
+        "정의는 말로 쉽게 포장되기도 한다.",
+        "아모스는 흐르는 정의를 말한다.",
+        "끊임없이 이어지는 공의를 요구한다.",
+        "진짜는 꾸며진 모습이 아니라 지속되는 방향이다.",
+        "그래서 삶은 보이는 것이 아니라 흐름으로 증명된다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0009",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Micah",
+        "reference": "Micah 6:8",
+        "sourceDisplay": "성경",
+        "bookDisplay": "미가",
+        "referenceDisplay": "미가 6장 8절"
+      },
+      "emotionCore": "balance",
+      "emotionExtended": [],
+      "lines": [
+        "복잡한 선택 속에서 사람은 기준을 잃는다.",
+        "무엇이 옳은지 점점 흐려진다.",
+        "미가는 단순한 기준을 제시한다.",
+        "정의를 행하고, 인애를 사랑하고, 겸손히 걷는 것이다.",
+        "복잡한 삶도 결국 몇 가지 방향으로 정리된다.",
+        "그래서 선택은 다시 단순해질 수 있다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0010",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Habakkuk",
+        "reference": "Habakkuk 2:3",
+        "sourceDisplay": "성경",
+        "bookDisplay": "하박국",
+        "referenceDisplay": "하박국 2장 3절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "기다림은 언제나 불확실함을 동반한다.",
+        "늦어질수록 의심은 커진다.",
+        "하박국은 지연이 실패가 아니라고 말한다.",
+        "정해진 때는 결국 온다고 말한다.",
+        "시간은 늦어지는 것이 아니라 맞춰지고 있을 수 있다.",
+        "그래서 기다림도 의미 있는 과정이 된다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0011",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Zephaniah",
+        "reference": "Zephaniah 3:17",
+        "sourceDisplay": "성경",
+        "bookDisplay": "스바냐",
+        "referenceDisplay": "스바냐 3장 17절"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 사랑받고 있다는 사실을 자주 잊는다.",
+        "스스로를 평가하며 스스로를 낮춘다.",
+        "스바냐는 기뻐하는 시선을 말한다.",
+        "조용히 머무르며 기뻐하는 존재를 말한다.",
+        "존재 자체로 기쁨이 되는 순간이 있다.",
+        "그래서 사람은 있는 그대로 의미가 있다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0012",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Haggai",
+        "reference": "Haggai 2:9",
+        "sourceDisplay": "성경",
+        "bookDisplay": "학개",
+        "referenceDisplay": "학개 2장 9절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지금의 모습이 부족해 보일 때가 있다.",
+        "과거와 비교하며 더 작게 느껴진다.",
+        "학개는 앞으로의 영광을 말한다.",
+        "지금보다 더 나은 모습이 준비되어 있다고 말한다.",
+        "현재는 완성이 아니라 과정일 수 있다.",
+        "그래서 비교가 아니라 방향이 중요해진다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0013",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Zechariah",
+        "reference": "Zechariah 4:10",
+        "sourceDisplay": "성경",
+        "bookDisplay": "스가랴",
+        "referenceDisplay": "스가랴 4장 10절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "작은 시작은 쉽게 무시된다.",
+        "눈에 띄지 않으면 의미도 작게 느껴진다.",
+        "스가랴는 작은 날을 기뻐하라고 말한다.",
+        "시작 자체가 이미 중요한 과정이라고 말한다.",
+        "크기는 나중에 따라오는 결과일 뿐이다.",
+        "그래서 시작은 언제나 가치가 있다."
+      ]
+    },
+
+    {
+      "id": "BIBLE_OT2_0014",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Malachi",
+        "reference": "Malachi 3:6",
+        "sourceDisplay": "성경",
+        "bookDisplay": "말라기",
+        "referenceDisplay": "말라기 3장 6절"
+      },
+      "emotionCore": "balance",
+      "emotionExtended": [],
+      "lines": [
+        "변화 속에서 사람은 불안을 느낀다.",
+        "모든 것이 흔들리는 것처럼 보인다.",
+        "말라기는 변하지 않는 기준을 말한다.",
+        "변하지 않기 때문에 유지되는 것이 있다고 말한다.",
+        "흔들림 속에서도 중심은 남아 있다.",
+        "그래서 사람은 다시 균형을 찾을 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0015",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Isaiah",
+        "reference": "Isaiah 43:19",
+        "sourceDisplay": "성경",
+        "bookDisplay": "이사야",
+        "referenceDisplay": "이사야 43장 19절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "익숙한 길만이 안전하다고 느껴질 때가 있다.",
+        "새로운 방향은 늘 불안하게 다가온다.",
+        "이사야는 이전에 없던 길을 말한다.",
+        "광야에도 길이 생기고, 사막에도 강이 흐른다고 말한다.",
+        "변화는 준비된 사람에게만 오는 것이 아니다.",
+        "그래서 예상하지 못한 순간에도 새로운 길이 열린다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0016",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Jeremiah",
+        "reference": "Jeremiah 33:3",
+        "sourceDisplay": "성경",
+        "bookDisplay": "예레미야",
+        "referenceDisplay": "예레미야 33장 3절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "답이 보이지 않을 때 사람은 묻는 것을 멈춘다.",
+        "이미 정해진 결과라고 생각하기 때문이다.",
+        "예레미야는 다시 물으라고 말한다.",
+        "보지 못했던 것들이 드러날 것이라고 말한다.",
+        "닫혀 보이는 길에도 여전히 가능성이 남아 있다.",
+        "그래서 질문은 새로운 방향을 여는 시작이 된다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0017",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Ezekiel",
+        "reference": "Ezekiel 11:19",
+        "sourceDisplay": "성경",
+        "bookDisplay": "에스겔",
+        "referenceDisplay": "에스겔 11장 19절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 변하지 않는다고 믿게 되는 순간이 있다.",
+        "굳어진 마음은 쉽게 움직이지 않는다.",
+        "에스겔은 새로운 마음을 말한다.",
+        "돌 같은 마음이 부드럽게 바뀔 수 있다고 말한다.",
+        "변화는 외부가 아니라 안에서 시작된다.",
+        "그래서 사람은 다시 다른 선택을 할 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0018",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Daniel",
+        "reference": "Daniel 6:22",
+        "sourceDisplay": "성경",
+        "bookDisplay": "다니엘",
+        "referenceDisplay": "다니엘 6장 22절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "위협은 눈앞에 있을 때 더 크게 느껴진다.",
+        "피할 수 없는 상황은 공포로 다가온다.",
+        "다니엘은 그 한가운데에서도 보호를 말한다.",
+        "사자들의 입이 닫히는 순간을 말한다.",
+        "결과는 항상 예상한 방향으로 흘러가지 않는다.",
+        "그래서 절망 속에서도 다른 가능성이 남아 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0019",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Hosea",
+        "reference": "Hosea 14:4",
+        "sourceDisplay": "성경",
+        "bookDisplay": "호세아",
+        "referenceDisplay": "호세아 14장 4절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "실수는 반복되면서 더 깊어지기도 한다.",
+        "스스로도 자신을 포기하게 된다.",
+        "호세아는 그 자리에서도 사랑을 말한다.",
+        "돌아온 사람을 다시 받아들이는 사랑을 말한다.",
+        "조건이 아니라 선택으로 이어지는 관계가 있다.",
+        "그래서 사람은 다시 시작할 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0020",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Joel",
+        "reference": "Joel 2:13",
+        "sourceDisplay": "성경",
+        "bookDisplay": "요엘",
+        "referenceDisplay": "요엘 2장 13절"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "겉으로 보이는 변화는 쉽게 만들어질 수 있다.",
+        "하지만 마음은 쉽게 바뀌지 않는다.",
+        "요엘은 겉이 아니라 마음을 말한다.",
+        "찢어지는 것은 옷이 아니라 중심이라고 말한다.",
+        "진짜 변화는 보이지 않는 곳에서 시작된다.",
+        "그래서 작은 결심이 가장 깊은 변화를 만든다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0021",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Amos",
+        "reference": "Amos 9:11",
+        "sourceDisplay": "성경",
+        "bookDisplay": "아모스",
+        "referenceDisplay": "아모스 9장 11절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "무너진 것은 다시 세워지기 어렵다.",
+        "시간이 지나도 흔적은 남는다.",
+        "아모스는 다시 일어나는 장면을 말한다.",
+        "무너진 자리 위에 다시 세워지는 모습을 말한다.",
+        "과거는 끝이 아니라 기반이 될 수 있다.",
+        "그래서 사람은 다시 세워질 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0022",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Micah",
+        "reference": "Micah 7:8",
+        "sourceDisplay": "성경",
+        "bookDisplay": "미가",
+        "referenceDisplay": "미가 7장 8절"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "넘어지는 순간 모든 것이 끝난 것처럼 느껴진다.",
+        "다시 일어날 이유를 찾기 어렵다.",
+        "미가는 그 자리에서도 빛을 말한다.",
+        "어둠 속에서도 다시 일어나는 장면을 말한다.",
+        "넘어짐은 마지막이 아니라 과정일 수 있다.",
+        "그래서 사람은 다시 설 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0023",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Habakkuk",
+        "reference": "Habakkuk 3:17",
+        "sourceDisplay": "성경",
+        "bookDisplay": "하박국",
+        "referenceDisplay": "하박국 3장 17절"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "모든 것이 사라진 것처럼 보이는 순간이 있다.",
+        "기대했던 결과가 전부 무너진다.",
+        "하박국은 그 상태에서도 기쁨을 말한다.",
+        "조건이 아니라 선택으로 남는 기쁨을 말한다.",
+        "상황과 감정은 항상 일치하지 않는다.",
+        "그래서 사람은 다른 기준으로 살아갈 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0024",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Zephaniah",
+        "reference": "Zephaniah 3:19",
+        "sourceDisplay": "성경",
+        "bookDisplay": "스바냐",
+        "referenceDisplay": "스바냐 3장 19절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "약한 순간은 숨기고 싶어진다.",
+        "부끄러움은 사람을 더 작게 만든다.",
+        "스바냐는 그 약함을 드러내도 된다고 말한다.",
+        "수치를 영광으로 바꾸는 장면을 말한다.",
+        "숨기던 부분도 다시 의미를 갖게 된다.",
+        "그래서 사람은 있는 그대로 설 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0025",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Haggai",
+        "reference": "Haggai 2:4",
+        "sourceDisplay": "성경",
+        "bookDisplay": "학개",
+        "referenceDisplay": "학개 2장 4절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "해야 할 일을 알면서도 주저하게 된다.",
+        "결과가 보이지 않으면 더 그렇다.",
+        "학개는 그 자리에서 강해지라고 말한다.",
+        "함께하고 있다는 사실을 근거로 말한다.",
+        "확신은 결과가 아니라 관계에서 온다.",
+        "그래서 사람은 다시 움직일 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0026",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Zechariah",
+        "reference": "Zechariah 8:13",
+        "sourceDisplay": "성경",
+        "bookDisplay": "스가랴",
+        "referenceDisplay": "스가랴 8장 13절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "과거의 이미지는 쉽게 바뀌지 않는다.",
+        "사람은 한 번의 평가로 오래 기억된다.",
+        "스가랴는 이름이 바뀌는 순간을 말한다.",
+        "저주가 아니라 축복으로 불리게 된다고 말한다.",
+        "정체성은 고정된 것이 아닐 수 있다.",
+        "그래서 사람은 새롭게 정의될 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0027",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Malachi",
+        "reference": "Malachi 4:2",
+        "sourceDisplay": "성경",
+        "bookDisplay": "말라기",
+        "referenceDisplay": "말라기 4장 2절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "어둠이 길어질수록 끝이 없을 것처럼 느껴진다.",
+        "빛은 멀리 있는 것처럼 보인다.",
+        "말라기는 다시 떠오르는 빛을 말한다.",
+        "치유를 가져오는 빛을 말한다.",
+        "빛은 사라진 것이 아니라 기다리고 있었을 수 있다.",
+        "그래서 사람은 다시 회복될 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0028",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Isaiah",
+        "reference": "Isaiah 55:8",
+        "sourceDisplay": "성경",
+        "bookDisplay": "이사야",
+        "referenceDisplay": "이사야 55장 8절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["balance"],
+      "lines": [
+        "이해되지 않는 일은 불안을 만든다.",
+        "납득할 수 없으면 받아들이기 어렵다.",
+        "이사야는 다른 기준을 말한다.",
+        "생각보다 더 큰 시선이 존재한다고 말한다.",
+        "모든 것이 이해되어야만 의미가 있는 것은 아니다.",
+        "사람은 이해를 넘어 설 수 있다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0029",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Jeremiah",
+        "reference": "Jeremiah 31:25",
+        "sourceDisplay": "성경",
+        "bookDisplay": "예레미야",
+        "referenceDisplay": "예레미야 31장 25절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지친 상태에서는 아무것도 하고 싶지 않다.",
+        "회복은 멀게 느껴진다.",
+        "예레미야는 다시 채워지는 순간을 말한다.",
+        "지친 영혼이 다시 만족하게 된다고 말한다.",
+        "회복은 갑작스럽게 찾아오기도 한다.",
+        "이렇게 사람은 다시 살아갈 힘을 얻는다."
+      ]
+    },
+    {
+      "id": "BIBLE_OT2_0030",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Christianity",
+        "source": "Bible",
+        "book": "Ezekiel",
+        "reference": "Ezekiel 36:26",
+        "sourceDisplay": "성경",
+        "bookDisplay": "에스겔",
+        "referenceDisplay": "에스겔 36장 26절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "같은 실수를 반복하면 스스로를 의심하게 된다.",
+        "바뀌지 않는다고 느끼는 순간이 온다.",
+        "에스겔은 새로운 시작을 말한다.",
+        "완전히 다른 마음이 주어질 수 있다고 말한다.",
+        "변화는 누적이 아니라 전환일 수도 있다.",
+        "사람은 완전히 달라질 수 있다."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+﻿{
+  "passages": [
+    {
+      "id": "QURAN_P3_0007",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "At-Talaq",
+        "reference": "Quran 65:7",
+        "sourceDisplay": "코란",
+        "bookDisplay": "앗탈라크",
+        "referenceDisplay": "앗탈라크 65장 7절"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람은 가진 것이 적을수록 더 쉽게 초라해진다.",
+        "할 수 있는 것이 적어 보이면 마음도 함께 작아진다.",
+        "코란은 각 사람이 하나님께서 주신 만큼 행하라고 말한다.",
+        "신실함은 내게 맡겨진 분량 안에서 진실하게 사는 일이다.",
+        "부족함이 곧 실패를 뜻하지 않는다."
+      ]
+    },
+    {
+      "id": "QURAN_P3_0010",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Mulk",
+        "reference": "Quran 67:15",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알물크",
+        "referenceDisplay": "알물크 67장 15절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "생계를 걱정할 때 땅 전체가 낯설고 무겁게 느껴진다.",
+        "움직이는 발걸음마다 불안이 묻어나기도 한다.",
+        "그러나 걸어가는 일상 속에도 이미 준비된 은혜가 숨어 있을 수 있다."
+      ]
+    },
+    {
+      "id": "QURAN_P3_0012",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Haqqah",
+        "reference": "Quran 69:48",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알하까",
+        "referenceDisplay": "알하까 69장 48절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람은 조언을 들을 때 귀보다 마음이 먼저 닫히는 경우가 많다.",
+        "받아들일 준비가 없으면 가장 필요한 말도 멀게 느껴진다.",
+        "진실은 새로운 것이 아니라 잊고 있던 것을 다시 떠올리는 것이다."
+      ]
+    },
+    {
+      "id": "QURAN_P3_0013",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Ma'arij",
+        "reference": "Quran 70:5",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알마아리지",
+        "referenceDisplay": "알마아리지 70장 5절"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "기다림이 길어지면 사람은 조급함과 체념 사이를 오가게 된다.",
+        "빨리 끝나지 않는 고난은 마음까지 지치게 만든다.",
+        "코란은 아름다운 인내로 참으라고 말한다.",
+        "아름다운 인내는 무너지지 않도록 마음을 하나님께 맡기는 태도다.",
+        "견딘다는 것은 아무 감정도 느끼지 않는 일이 아니다.",
+        "아픈 마음을 안은 채로도 품위 있게 기다릴 수 있다."
+      ]
+    },
+    {
+      "id": "QURAN_P3_0026",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Inshiqaq",
+        "reference": "Quran 84:6",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알인쉬카끄",
+        "referenceDisplay": "알인쉬카끄 84장 6절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "사는 일은 결국 끊임없는 애씀의 연속처럼 느껴진다.",
+        "기쁘든 슬프든 사람은 계속 무엇인가를 안고 걸어간다.",
+        "삶의 피로는 무의미한 반복이 아니라 결국 하나님 앞에 이르는 여정이다.",
+        "애씀 자체가 이미 방향을 가진 움직임이다.",
+        "지친 하루도 완전히 헛되다고 단정할 수 없다."
+      ]
+    },
+    {
+      "id": "QURAN_P3_0028",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "At-Tariq",
+        "reference": "Quran 86:9",
+        "sourceDisplay": "코란",
+        "bookDisplay": "앗타리끄",
+        "referenceDisplay": "앗타리끄 86장 9절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "사람은 숨긴 것이 드러나는 순간을 본능적으로 두려워한다.",
+        "겉으로 괜찮아 보여도 안쪽의 진실은 늘 마음을 무겁게 만든다.",
+        "결국 드러날 삶이라면 지금부터 정직하게 사는 편이 더 가볍다.",
+        "숨기는 데 힘을 쓰기보다 바르게 서는 데 마음을 두어야 한다."
+      ]
+    },
+    {
+      "id": "QURAN_P3_0030",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Ghashiyah",
+        "reference": "Quran 88:17-20",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알가쉬야",
+        "referenceDisplay": "알가쉬야 88장 17-20절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "불안한 사람은 시선을 자기 문제 안에만 가두기 쉽다.",
+        "생각은 점점 좁아지고 세상은 나를 짓누르는 것처럼 느껴진다.",
+        "코란은 낙타와 하늘과 산과 땅을 보라고 말한다.",
+        "창조를 다시 바라보는 일은 좁아진 마음을 하나님 크기만큼 넓혀 준다.",
+        "내 문제만이 세상의 전부가 아니라는 사실은 영혼을 다시 숨 쉬게 한다.",
+        "하늘을 올려다보는 것만으로도 마음의 균형을 조금씩 되찾을 수 있다."
+      ]
+    }
+  ]
+}

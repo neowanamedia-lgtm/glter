@@ -1,0 +1,676 @@
+{
+  "passages": [
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "정의란 무엇인가를 묻는 순간,",
+        "사람은 이미 자신의 삶을 돌아보기 시작한다.",
+        "각자가 옳다고 믿는 것이 서로 다를 때,",
+        "우리는 쉽게 혼란을 느낀다.",
+        "그러나 그 질문을 멈추지 않는 태도 속에서,",
+        "비로소 삶의 방향이 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book VII",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제7권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "동굴 속에 익숙해진 눈은,",
+        "처음에는 빛을 견디지 못한다.",
+        "하지만 천천히 고개를 들고 바라보면,",
+        "이전에는 보이지 않던 것들이 드러난다.",
+        "익숙함에서 벗어나는 순간은 불편하지만,",
+        "그 불편함이 새로운 이해의 시작이다."
+      ]
+    },
+
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 반복하는 행동을 통해 만들어진다.",
+        "작은 선택들이 쌓이면서,",
+        "그 사람의 성향이 서서히 드러난다.",
+        "어떤 날의 선택이 사소해 보일지라도,",
+        "그것이 계속될 때 삶의 방향을 바꾼다.",
+        "습관은 결국 삶의 모습이 된다."
+      ]
+    },
+
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Apology",
+        "book": "Apology",
+        "chapter": "Defense",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소크라테스의 변명",
+        "chapterDisplay": "변론"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "검토되지 않은 삶은 살 가치가 없다고 말한다.",
+        "그 말은 거창한 판단이 아니라,",
+        "자신을 돌아보지 않는 삶에 대한 경고다.",
+        "바쁘게 살아가다 보면 스스로를 잊기 쉽다.",
+        "잠시 멈추어 바라보는 순간이 필요하다.",
+      ]
+    },
+
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "모든 행동은 어떤 목적을 향한다.",
+        "그리고 그 목적은 결국 좋은 삶을 향한다.",
+        "사람마다 그 기준은 다를 수 있지만,",
+        "자신이 무엇을 위해 선택하는지는 중요하다.",
+        "그 방향이 분명해질수록,",
+        "선택은 더 흔들리지 않게 된다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "때때로 들키지 않는다면 다르게 행동할 수 있다고 느낀다.",
+        "아무도 보지 않는 순간에는 기준이 흔들리기도 한다.",
+        "그럴 때 스스로에게 묻게 된다.",
+        "나는 왜 이 선택을 하려 하는가.",
+        "그 질문을 외면하지 않는 것이,",
+        "자신을 지키는 가장 중요한 방법이다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "용기는 두려움이 없는 상태가 아니다.",
+        "두려움을 느끼면서도 균형을 찾는 것이다.",
+        "너무 물러서도, 너무 나아가도 흔들린다.",
+        "그래서 사람은 늘 그 중간을 찾으려 애쓴다.",
+        "이 과정 자체가 이미 성장의 일부다.",
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Phaedo",
+        "book": "Phaedo",
+        "chapter": "Dialogue",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "파이돈",
+        "chapterDisplay": "대화편"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 잃는 순간에 더 깊이 생각하게 된다.",
+        "당연하다고 여겼던 것들이 사라질 때,",
+        "비로소 그 의미가 또렷해진다.",
+        "그 감정은 피하고 싶지만,",
+        "그 안에는 중요한 이해가 담겨 있다.",
+        "어떤 슬픔은 지나간 뒤에야 남는다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book IV",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제4권"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "기쁨은 갑자기 만들어지지 않는다.",
+        "적절한 선택들이 쌓일 때 자연스럽게 따라온다.",
+        "무언가를 과하게 좇을수록 멀어지고,",
+        "균형 속에서는 더 오래 머문다.",
+        "그래서 기쁨은 결과이기보다,",
+        "과정 속에서 자라는 감정에 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Symposium",
+        "book": "Symposium",
+        "chapter": "Speech",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "향연",
+        "chapterDisplay": "연설"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 더 나은 것을 향해 끌린다.",
+        "그 마음이 사랑이라는 형태로 드러나기도 한다.",
+        "처음에는 작은 관심에서 시작되지만,",
+        "점점 더 넓은 의미로 확장된다.",
+        "그래서 어떤 끌림은 단순한 감정이 아니라,",
+        "자신을 더 크게 만드는 방향이 된다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book III",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제3권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "선택을 하고 나서야 그것을 이해하는 경우가 많다.",
+        "그 순간에는 충분히 생각했다고 느끼지만,",
+        "지나고 나면 다른 가능성이 보이기도 한다.",
+        "그래서 사람은 종종 후회를 경험한다.",
+        "하지만 그 과정 속에서,",
+        "다음 선택은 조금 더 분명해진다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book IV",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제4권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "마음 안에는 여러 방향이 동시에 존재한다.",
+        "어떤 부분은 원하고,",
+        "어떤 부분은 그것을 멈추려 한다.",
+        "그 갈등은 자연스러운 것이다.",
+        "중요한 것은 그 안에서 균형을 찾는 일이다.",
+        "이 균형이 삶을 안정시키는 중심이다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "처음에는 어렵게 느껴지는 행동도,",
+        "반복되면 자연스러워진다.",
+        "그 과정에서 부담은 줄어들고,",
+        "선택은 점점 가벼워진다.",
+        "그래서 변화는 갑작스럽기보다,",
+        "조용하게 쌓이는 경우가 많다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book X",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제10권"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "깊이 몰입하는 순간에는 시간이 다르게 흐른다.",
+        "그 순간에는 외부의 기준보다,",
+        "자신의 흐름이 더 또렷해진다.",
+        "그래서 어떤 활동은 단순한 행동을 넘어서,",
+        "삶을 채우는 경험이 된다.",
+        "이 경험이 반복될 때, 만족은 더 깊어진다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Phaedrus",
+        "book": "Phaedrus",
+        "chapter": "Dialogue",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "파이드로스",
+        "chapterDisplay": "대화편"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "마음은 때로 서로 다른 방향으로 끌린다.",
+        "하나는 익숙한 쪽을 향하고,",
+        "다른 하나는 새로운 쪽을 향한다.",
+        "그 사이에서 흔들리는 것은 자연스럽다.",
+        "중요한 것은 어느 쪽을 따라가느냐이다.",
+        "그 선택이 결국 삶의 방향을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book IV",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제4권"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "자연스러운 행동은 억지로 만들어지지 않는다.",
+        "자신에게 맞는 방식이 있을 때,",
+        "행동은 더 편안해진다.",
+        "무리하게 맞추려 할수록,",
+        "오히려 흐름은 깨진다.",
+        "그래서 조화는 강요가 아니라 발견에 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book VIII",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제8권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "자유는 때로 방향을 잃게 만들기도 한다.",
+        "아무 제한이 없을 때,",
+        "무엇을 선택해야 할지 더 어려워진다.",
+        "그래서 기준이 없는 자유는 흔들리기 쉽다.",
+        "자신만의 기준을 찾는 것이,",
+        "자유를 유지하는 방법이다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book V",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제5권"
+      },
+      "emotionCore": "neutral",
+      "emotionExtended": [],
+      "lines": [
+        "공정함은 항상 단순하지 않다.",
+        "상황마다 기준은 달라질 수 있다.",
+        "그래서 판단은 쉽게 내려지지 않는다.",
+        "하지만 균형을 고려하는 태도 속에서,",
+        "조금 더 정의에 닿게 한다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book IX",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제9권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "욕망은 계속해서 더 많은 것을 요구한다.",
+        "한 번 채워지면,",
+        "다시 새로운 부족함을 만들어낸다.",
+        "끝없이 따라가다 보면 지치게 된다.",
+        "그 흐름을 알아차리는 순간,",
+        "멈출 수 있게 된다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Politics",
+        "book": "Politics",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "정치학",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "neutral",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 혼자만으로 살아가기 어렵다.",
+        "관계 속에서 자신의 역할을 찾는다.",
+        "그 안에서 서로 영향을 주고받는다.",
+        "그래서 공동체는 단순한 모임이 아니라,",
+        "삶의 일부로 작용한다.",
+        "그 속에서 사람은 더 완전해진다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Gorgias",
+        "book": "Gorgias",
+        "chapter": "Dialogue",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "고르기아스",
+        "chapterDisplay": "대화편"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "겉으로 보이는 힘이 항상 옳음을 의미하지는 않는다.",
+        "강하게 보이는 선택이,",
+        "더 좋은 결과를 보장하지도 않는다.",
+        "그래서 판단은 더 깊어야 한다.",
+        "보이는 것 너머를 보려는 태도가,",
+        "실수를 줄여준다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book IX",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제9권"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "좋은 관계는 자연스럽게 유지된다.",
+        "억지로 이어가는 관계는 오래가지 않는다.",
+        "서로의 방향이 맞을 때,",
+        "함께 있는 시간이 편안해진다.",
+        "그래서 관계는 선택이 아니라,",
+        "조화의 결과에 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book X",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제10권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 보이는 것에 쉽게 영향을 받는다.",
+        "익숙한 이미지와 이야기들은,",
+        "생각을 자연스럽게 끌고 간다.",
+        "그래서 그대로 받아들이기 쉽다.",
+        "하지만 한 번 의심해보는 순간,",
+        "다른 시선이 열리기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Metaphysics",
+        "book": "Metaphysics",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "형이상학",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자연스럽게 알고 싶어 한다.",
+        "이해하려는 욕구는 누구에게나 있다.",
+        "그 호기심이 질문을 만들고,",
+        "질문이 다시 탐구를 이어간다.",
+        "그래서 앎은 특별한 것이 아니라,",
+        "자연스러운 흐름 속에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book V",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제5권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 각자 다른 역할을 가지고 있다.",
+        "모두가 같은 길을 갈 필요는 없다.",
+        "자신에게 맞는 자리를 찾을 때,",
+        "더 자연스럽게 움직일 수 있다.",
+        "그 자리를 이해하는 것이,",
+        "삶을 편안하게 만든다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book VI",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제6권"
+      },
+      "emotionCore": "neutral",
+      "emotionExtended": [],
+      "lines": [
+        "지혜는 단순히 많이 아는 것이 아니다.",
+        "적절한 순간에 무엇을 선택할지 아는 것이다.",
+        "그래서 경험은 중요한 기준이 된다.",
+        "실수를 통해서도 배우게 된다.",
+        "그 축적이 판단을 더 정확하게 만든다.",
+        "이것이 실천적인 지혜다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Aristotle",
+        "source": "Nicomachean Ethics",
+        "book": "Nicomachean Ethics",
+        "chapter": "Book VIII",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "니코마코스 윤리학",
+        "chapterDisplay": "제8권"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "함께하는 기쁨은 혼자보다 더 오래 간다.",
+        "서로를 이해하는 관계에서는,",
+        "시간이 더 편안하게 흐른다.",
+        "그래서 좋은 관계는 삶을 풍부하게 만든다.",
+        "그 안에서 사람은 더 안정감을 느낀다.",
+        "이것이 함께 살아가는 의미다."
+      ]
+    },
+    {
+      "id": "PAS_PLATO_ARISTOTLE_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Plato",
+        "source": "Republic",
+        "book": "Republic",
+        "chapter": "Book VII",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "국가",
+        "chapterDisplay": "제7권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "익숙한 곳에서 벗어나는 것은 쉽지 않다.",
+        "처음에는 불편하고 낯설게 느껴진다.",
+        "하지만 그 과정을 지나면,",
+        "이전과는 다른 시야가 열린다.",
+        "변화는 두려움과 함께 시작되지만,",
+        "결국 더 넓은 이해로 이어진다."
+      ]
+    }
+  ]
+}

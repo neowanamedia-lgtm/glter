@@ -1,0 +1,611 @@
+{
+  "passages": [
+    {
+      "id": "PAS_LAOZI_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 9",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "9장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "너무 가득 채우려 하면, 오래 지킬 수 없다.",
+        "끝까지 날카롭게 세운 것은, 결국 먼저 무뎌진다.",
+        "자기 것을 과시하는 순간, 이미 빛은 흐려지기 시작한다.",
+        "무언가를 이루었다면 거기서 한 걸음 물러설 줄도 알아야 한다.",
+        "공을 세운 뒤에도 머물지 않는 태도만이,",
+        "마침내 스스로를 해치지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 22",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "22장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "굽은 것은 오히려 온전해지고,",
+        "비어 있는 것은 다시 채워진다.",
+        "낡아 보이는 것이 오히려 새로워지고,",
+        "적게 가진 사람이 더 넓게 얻는다.",
+        "그러니 스스로를 과하게 내세우지 않는 사람이,",
+        "오히려 오래 남는다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 24",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "24장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["depression"],
+      "lines": [
+        "발끝으로 오래 서 있으려 하면 곧 흔들리게 된다.",
+        "억지로 크게 보이려 하면, 오히려 제 자리를 잃는다.",
+        "스스로 옳다고 단정하는 태도는,",
+        "오래도록 사람의 마음에 남지 못한다.",
+        "지나치게 드러내는 삶은 흐름과 멀어지고,",
+        "흐름과 멀어진 것은 결국 오래가지 못한다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 33",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "33장"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "남을 아는 것은 영리함일 수 있지만,",
+        "자기를 아는 것은 그보다 깊다.",
+        "남을 이기는 것은 힘일 수 있지만,",
+        "자기를 이기는 것은 그보다 단단하다.",
+        "많이 가진다고 넉넉한 것이 아니라,",
+        "만족한 줄 아는 사람이 이미 부유하다.",
+        "오래 남는 것은 억지로 버티는 삶이 아니라,",
+        "자기 중심을 잃지 않는 삶이다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 36",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "36장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "무언가를 줄이려면 먼저 한때는 넓어지게 마련이고,",
+        "무언가를 약하게 하려면 먼저 한때는 강해지게 마련이다.",
+        "빼앗기기 전에는 잠시 채워지고,",
+        "무너지기 전에는 잠시 높아 보이기도 한다.",
+        "그래서 눈앞의 팽창만 보고 영원을 판단해서는 안 된다.",
+        "조용한 사람은 겉의 움직임보다,",
+        "그 안쪽의 방향을 먼저 본다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 44",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "44장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["depression"],
+      "lines": [
+        "명예와 몸 가운데 무엇이 더 중요한가.",
+        "재물과 삶 가운데 무엇이 더 귀한가.",
+        "많이 붙잡을수록 더 많이 잃게 되고,",
+        "지나치게 쌓을수록 더 크게 흔들리게 된다.",
+        "그래서 만족을 아는 사람은 욕심에 다치지 않고,",
+        "멈출 줄 아는 사람은 오래 머문다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 46",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "46장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["depression"],
+      "lines": [
+        "만족함을 모르는 마음보다 더 큰 재앙은 드물다.",
+        "더 가지려는 마음보다 더 깊은 불안도 드물다.",
+        "끝없이 원하면 마음은 쉬지 못하고,",
+        "쉬지 못하는 마음은 이미 스스로를 잃는다.",
+        "그러니 충분함을 아는 사람이야말로,",
+        "흔들리지 않는 평안을 가까이 둔다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 48",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "48장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "무언가를 배우는 사람은 날마다 더하려 하고,",
+        "행복을 따르는 사람은 날마다 덜어 낸다.",
+        "덜어 내고 또 덜어 내다 보면,",
+        "마침내 억지로 하는 일이 사라진다.",
+        "억지가 사라진 자리에서,",
+        "오히려 이루어져야 할 것은 자연히 이루어진다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 58",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "58장"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "지나치게 날카로운 질서는 사람을 숨 막히게 하고,",
+        "숨 막히는 곳에서는 마음도 함께 시들기 쉽다.",
+        "좋다고 여긴 것이 어느새 불행의 문이 되기도 하고,",
+        "어려움이라 여긴 것이 뜻밖의 길을 열기도 한다.",
+        "그래서 눈앞의 판단만으로 삶 전체를 단정할 수는 없다.",
+        "조금 느슨한 자리에서,",
+        "사람은 오히려 제 숨을 되찾는다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 63",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "63장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "큰일은 처음부터 크게 오지 않는다.",
+        "대개는 작고 사소한 모습으로 먼저 다가온다.",
+        "어려운 일은 쉬울 때 다루어야 하고,",
+        "큰일은 아직 작을 때 살펴야 한다.",
+        "그러니 지금 눈앞의 작은 균열을 가볍게 여기지 말아야 한다.",
+        "미리 보는 사람은 호들갑을 떠는 사람이 아니라,",
+        "작은 징후를 놓치지 않는 사람이다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 64",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "64장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "아직 안정된 것은 쉽게 다룰 수 있고,",
+        "아직 드러나지 않은 것은 미리 막을 수 있다.",
+        "큰 나무도 처음에는 작은 싹에서 시작되었고,",
+        "높은 건물도 결국 한 줌의 흙에서 올라간다.",
+        "멀리 가는 길도 발아래 한 걸음에서 시작된다.",
+        "그래서 무너진 뒤에 후회하는 것보다,",
+        "아직 작은 때에 알아차리는 편이 낫다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 66",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "66장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "강과 바다가 많은 물을 받을 수 있는 까닭은,",
+        "스스로 낮은 곳에 머물기 때문이다.",
+        "높아지려는 사람이 먼저 낮아질 줄 알면,",
+        "사람들은 그 곁을 떠나지 않는다.",
+        "앞서가고 싶다면 먼저 뒤에 설 줄도 알아야 하고,",
+        "크게 남고 싶다면 먼저 자신을 덜어낼 줄 알아야 한다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 67",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "67장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "부드러움은 약함이 아니라 오래 가는 힘이다.",
+        "검소함은 모자람이 아니라 스스로를 지키는 방식이다.",
+        "앞서려 하지 않는 태도는 뒤처짐이 아니라,",
+        "제 자리를 잃지 않는 지혜에 가깝다.",
+        "세상은 크고 강한 것에 먼저 눈길을 주지만,",
+        "오래 남는 것은 대개 조용하고 단단한 것들이다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 69",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "69장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["depression"],
+      "lines": [
+        "함부로 먼저 나서는 것이 늘 이로움이 되는 것은 아니다.",
+        "성급히 밀고 들어가는 순간, 이미 잃기 시작하는 경우도 있다.",
+        "가볍게 여긴 싸움이 가장 큰 상처를 남기고,",
+        "쉬워 보이는 대립이 가장 많은 것을 무너뜨리기도 한다.",
+        "그러니 진짜 강한 사람은 먼저 과열되지 않고,",
+        "움직여야 할 때와 물러서야 할 때를 함께 안다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 76",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "76장"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "살아 있는 것은 부드럽고,",
+        "죽어 있는 것은 굳어 있다.",
+        "풀과 나무도 살아 있을 때는 유연하지만,",
+        "마르면 곧 부러질 쪽으로 기운다.",
+        "지나치게 굳은 태도는 이미 생기를 잃은 쪽에 가깝고,",
+        "부드러움은 오히려 삶이 살아 있다는 증거가 된다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 78",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "78장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "세상에서 가장 부드러운 것이,",
+        "끝내 가장 단단한 것을 이기기도 한다.",
+        "물은 다투지 않으면서도 닳게 만들고,",
+        "낮은 곳으로 흐르면서도 마침내 지형을 바꾼다.",
+        "그래서 부드러움은 힘이 없는 상태가 아니라,",
+        "힘을 서두르지 않는 방식일 뿐이다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 81",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "81장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "참된 말은 번지르르하지 않고,",
+        "번지르르한 말이 꼭 참된 것도 아니다.",
+        "많이 안다고 해서 다 갖춘 것이 아니고,",
+        "많이 쌓는다고 해서 넉넉한 것도 아니다.",
+        "남에게 내어줄수록 오히려 더 남고,",
+        "억지로 가지려 하지 않을수록 삶은 더 충만해진다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 2",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "2장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람들이 아름답다고 말하는 순간,",
+        "이미 추함도 함께 생겨난다.",
+        "좋다고 말하는 순간,",
+        "좋지 않음도 함께 드러난다.",
+        "그래서 세상은 나뉘는 것이 아니라,",
+        "함께 드러나는 방식으로 존재한다.",
+        "이것을 아는 사람은 억지로 나누지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 11",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "11장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "무언가를 만들 때 사람들은 보이는 것에 힘을 쏟지만,",
+        "정작 쓰임은 보이지 않는 곳에서 생겨난다.",
+        "비어 있는 공간이 있어야 쓸 수 있고,",
+        "남겨 둔 자리가 있어야 머물 수 있다.",
+        "그래서 채움보다 비움이,",
+        "더 깊은 쓰임을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 15",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "15장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "깊은 사람은 쉽게 드러나지 않는다.",
+        "마치 흐린 물처럼 조용히 머물고,",
+        "마치 깊은 물처럼 쉽게 바닥을 보이지 않는다.",
+        "그래서 서두르지 않고 기다릴 줄 아는 사람만이,",
+        "마침내 스스로 맑아지는 순간을 맞는다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 26",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "26장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "가벼움은 무거움을 잃기 쉽고,",
+        "조급함은 중심을 무너뜨리기 쉽다.",
+        "그래서 멀리 가는 사람일수록 서두르지 않고,",
+        "크게 서 있는 사람일수록 흔들리지 않는다.",
+        "겉이 아니라 중심을 지키는 사람이,",
+        "결국 오래 간다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 29",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "29장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["depression"],
+      "lines": [
+        "세상을 억지로 바꾸려 하면,",
+        "오히려 더 어긋나기 쉽다.",
+        "붙잡으려 하면 잃고,",
+        "밀어붙이려 하면 흐트러진다.",
+        "그래서 어떤 것은 앞서고,",
+        "어떤 것은 뒤따르며,",
+        "각자의 흐름 속에서 자리를 찾는다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 30",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "30장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["depression"],
+      "lines": [
+        "억지로 힘을 쓰면,",
+        "그 뒤에는 반드시 거친 흔적이 남는다.",
+        "크게 밀어붙인 자리는 오래 평온하지 못하고,",
+        "강하게 얻은 것은 오래 머물지 못한다.",
+        "그래서 지나치게 앞서는 것은,",
+        "이미 오래 가지 못할 길에 들어선 것이다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 37",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "37장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "억지로 하지 않아도,",
+        "흐름 속에서는 이루어질 것이 이루어진다.",
+        "무언가를 더하려 하기보다,",
+        "괜히 더하지 않는 것이 더 큰 변화를 만든다.",
+        "그래서 건드리지 않는 것이,",
+        "가장 깊이 움직이는 방식이 된다."
+      ]
+    },
+    {
+      "id": "PAS_LAOZI_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Laozi",
+        "source": "Tao Te Ching",
+        "book": "Tao Te Ching",
+        "chapter": "Chapter 41",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "노자",
+        "chapterDisplay": "41장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "높은 길은 평범해 보이고,",
+        "큰 깨달음은 오히려 둔해 보인다.",
+        "가장 밝은 것은 어둡게 보이기도 하고,",
+        "가장 충만한 것은 비어 보이기도 한다.",
+        "그래서 겉모습만으로는,",
+        "그 깊이를 쉽게 판단할 수 없다."
+      ]
+    }
+  ]
+}

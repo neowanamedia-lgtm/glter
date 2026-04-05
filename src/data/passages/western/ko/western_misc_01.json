@@ -1,0 +1,675 @@
+{
+  "passages": [
+    {
+      "id": "PAS_WESTERN_MISC_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Michel de Montaigne",
+        "source": "Essays",
+        "book": "Essays",
+        "chapter": "That to Philosophize Is to Learn to Die",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "수상록",
+        "chapterDisplay": "철학한다는 것은 죽음을 배우는 것이다"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람은 끝을 생각할 때 비로소 지금을 더 또렷하게 본다.",
+        "영원할 것처럼 살던 마음도,",
+        "유한함을 느끼는 순간 조금 달라진다.",
+        "사라질 수 있다는 사실이 삶을 가볍게 만드는 것은 아니지만,",
+        "적어도 무엇을 더 소중히 여겨야 하는지는 분명하게 만든다.",
+        "끝을 안다는 것은, 지금을 더 깊게 사는 법을 배우는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Michel de Montaigne",
+        "source": "Essays",
+        "book": "Essays",
+        "chapter": "Of Experience",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "수상록",
+        "chapterDisplay": "경험에 대하여"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 완전한 답을 얻은 뒤에 사는 것이 아니다.",
+        "늘 부족한 채로,",
+        "조금씩 배우며 살아간다.",
+        "그래서 경험은 이론보다 느리지만 더 깊게 남는다.",
+        "삶은 완성된 상태보다 진행 중인 상태에 더 가깝고,",
+        "그 진행 속에서 사람은 조금씩 자기 모습을 알아간다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Blaise Pascal",
+        "source": "Pensées",
+        "book": "Pensées",
+        "chapter": "Diversion",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "팡세",
+        "chapterDisplay": "기분전환"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 가만히 혼자 있는 일을 어려워한다.",
+        "그래서 끊임없이 무언가로 자신을 바쁘게 만든다.",
+        "움직이고 떠들고 몰두하는 동안 잠시 잊을 수 있기 때문이다.",
+        "하지만 고요가 다시 찾아오면,",
+        "피해 두었던 마음도 함께 돌아온다.",
+        "불안은 종종 소음이 멈춘 자리에 남아 있다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Blaise Pascal",
+        "source": "Pensées",
+        "book": "Pensées",
+        "chapter": "The Human Condition",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "팡세",
+        "chapterDisplay": "인간의 조건"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "인간은 한없이 약하면서도 동시에 생각할 수 있는 존재다.",
+        "쉽게 상처 입고 쉽게 무너지지만,",
+        "자기 상태를 돌아볼 수 있다는 점에서 또 다르다.",
+        "연약함을 안다는 것은 절망만을 뜻하지 않는다.",
+        "그 사실을 의식하는 순간,",
+        "사람은 흔들림을 넘어 조금 더 깊은 곳으로 들어가게 된다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Baruch Spinoza",
+        "source": "Ethics",
+        "book": "Ethics",
+        "chapter": "Part III",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "에티카",
+        "chapterDisplay": "제3부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "감정은 갑자기 떨어지는 것이 아니라,",
+        "어떤 원인과 연결되어 움직인다.",
+        "그래서 마음이 흔들릴 때도",
+        "그 흔들림에는 나름의 흐름이 있다.",
+        "원인을 조금씩 이해하게 되면,",
+        "감정은 더 이상 막연한 힘으로만 남지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Baruch Spinoza",
+        "source": "Ethics",
+        "book": "Ethics",
+        "chapter": "Part IV",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "에티카",
+        "chapterDisplay": "제4부"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자기에게 이로운 것을 향해 움직이려 한다.",
+        "다만 그 이로움이 무엇인지 자주 혼동할 뿐이다.",
+        "눈앞의 만족이 전부처럼 보일 때도 있지만,",
+        "조금 더 멀리 보면 다른 선택이 드러나기도 한다.",
+        "그래서 자유는 원하는 대로 움직이는 데에 있지 않고,",
+        "무엇이 자신을 살리는지 아는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Jacques Rousseau",
+        "source": "Émile",
+        "book": "Émile",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "에밀",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "처음의 마음은 대개 단순하다.",
+        "사람은 자라면서 많은 기대와 비교 속에 놓이게 되고,",
+        "그 과정에서 자연스러움은 조금씩 가려진다.",
+        "그래서 자신을 다시 찾는 일은,",
+        "무언가를 덧붙이는 일보다 불필요한 것을 덜어내는 일에 가깝다.",
+        "본래의 흐름은 생각보다 깊은 곳에 남아 있다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Jacques Rousseau",
+        "source": "Reveries of the Solitary Walker",
+        "book": "Reveries of the Solitary Walker",
+        "chapter": "First Walk",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "고독한 산책자의 몽상",
+        "chapterDisplay": "첫 번째 산책"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람들에게서 멀어질 때,",
+        "비로소 자신과 더 가까워지는 순간이 있다.",
+        "처음에는 외로움처럼 느껴질 수 있지만,",
+        "조용한 시간은 마음의 결을 다시 만지게 한다.",
+        "혼자라는 감각은 늘 결핍만이 아니고,",
+        "때로는 자기 자신에게 돌아가는 통로이다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Søren Kierkegaard",
+        "source": "Either/Or",
+        "book": "Either/Or",
+        "chapter": "The Rotation Method",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "이것이냐 저것이냐",
+        "chapterDisplay": "회전의 방법"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "권태는 조용히 스며든다.",
+        "모든 것이 비슷하게 느껴지고,",
+        "새로운 것도 금방 빛을 잃는다.",
+        "그때 사람은 더 큰 자극을 찾지만,",
+        "자극이 많아질수록 공허도 함께 커지기 쉽다.",
+        "비어 있는 마음은 바쁨만으로 채워지지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Søren Kierkegaard",
+        "source": "The Sickness unto Death",
+        "book": "The Sickness unto Death",
+        "chapter": "Part I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "죽음에 이르는 병",
+        "chapterDisplay": "제1부"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "절망은 단지 괴로운 감정만이 아니다.",
+        "자기 자신과 제대로 연결되지 못한 상태이다.",
+        "자기를 버리고 살거나,",
+        "자기를 견디지 못할 때 사람은 깊이 흔들린다.",
+        "그래서 회복은 밖의 조건보다,",
+        "자기 자신과 다시 관계를 맺는 데서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Søren Kierkegaard",
+        "source": "Fear and Trembling",
+        "book": "Fear and Trembling",
+        "chapter": "Attunement",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "두려움과 떨림",
+        "chapterDisplay": "서곡"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "진짜 결단은 종종 조용하게 이루어진다.",
+        "겉으로는 단순한 선택처럼 보여도,",
+        "안에서는 깊은 두려움과 떨림이 함께 지나간다.",
+        "모든 것을 설명할 수 없는 순간에도,",
+        "사람은 자기 삶을 걸어야 할 때가 있다.",
+        "그 무게를 아는 마음은 가볍지 않다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Ralph Waldo Emerson",
+        "source": "Self-Reliance",
+        "book": "Self-Reliance",
+        "chapter": "Trust Thyself",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자기 신뢰",
+        "chapterDisplay": "자기 자신을 신뢰하라"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기 목소리를 믿는 일은 생각보다 어렵다.",
+        "세상의 기준은 늘 더 크고 더 선명해 보이기 때문이다.",
+        "하지만 남의 확신을 따라 사는 동안에는",
+        "내 삶도 내 것이 되기 어렵다.",
+        "작더라도 자기 안에서 올라오는 기준을 붙잡는 순간,",
+        "삶은 조금 더 단단한 방향을 갖기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Ralph Waldo Emerson",
+        "source": "Nature",
+        "book": "Nature",
+        "chapter": "Beauty",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자연",
+        "chapterDisplay": "아름다움"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "자연 앞에서는 마음의 소음이 조금 줄어든다.",
+        "설명하려던 생각도 잠시 멈추고,",
+        "그저 바라보는 감각이 먼저 살아난다.",
+        "아름다움은 꼭 소유해야 하는 것이 아니라,",
+        "잠시 함께 있을 수 있는 경험일 때 더 깊다.",
+        "그 순간 자기보다 넓은 흐름을 느끼게 된다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Henry David Thoreau",
+        "source": "Walden",
+        "book": "Walden",
+        "chapter": "Economy",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "월든",
+        "chapterDisplay": "경제"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "삶을 단순하게 만든다는 것은",
+        "가난해진다는 뜻과 꼭 같지 않다.",
+        "무엇이 꼭 필요하고 아닌지를 아는 일이다.",
+        "복잡함이 줄어들수록 마음은 덜 끌려간다.",
+        "적게 가져도 충분할 수 있다는 감각은,",
+        "생각보다 큰 자유를 남긴다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Henry David Thoreau",
+        "source": "Walden",
+        "book": "Walden",
+        "chapter": "Where I Lived, and What I Lived For",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "월든",
+        "chapterDisplay": "어디서 살았으며 무엇을 위해 살았는가"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶을 서둘러 지나가다 보면,",
+        "정작 무엇을 위해 사는지는 흐려지기 쉽다.",
+        "조금 느리게 살기로 마음먹는 순간,",
+        "전에는 보이지 않던 것들이 다시 눈에 들어온다.",
+        "중요한 것은 많지 않을 수 있다.",
+        "다만 그것을 분명히 알아보는 일이 어려울 뿐이다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Simone Weil",
+        "source": "Waiting for God",
+        "book": "Waiting for God",
+        "chapter": "Attention",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "신을 기다리며",
+        "chapterDisplay": "주의"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "주의 깊게 본다는 것은 단순히 바라보는 일이 아니다.",
+        "자기 판단을 너무 빨리 앞세우지 않고,",
+        "대상을 그 자체로 받아들이려는 태도에 가깝다.",
+        "그런 집중은 생각보다 큰 에너지를 요구한다.",
+        "하지만 바로 그 자리에서,",
+        "이해와 연민은 조금씩 자라기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Simone Weil",
+        "source": "Gravity and Grace",
+        "book": "Gravity and Grace",
+        "chapter": "Void",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "중력과 은총",
+        "chapterDisplay": "공허"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "비어 있는 자리는 쉽게 불안하게 느껴진다.",
+        "그래서 사람은 서둘러 무언가로 채우려 한다.",
+        "하지만 어떤 공허는 곧바로 메워지는 것보다,",
+        "잠시 그 자리에 머물 때 다른 의미를 드러낸다.",
+        "결핍을 바로 없애지 못한다고 해서,",
+        "그 시간이 모두 헛된 것은 아니다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "David Hume",
+        "source": "A Treatise of Human Nature",
+        "book": "A Treatise of Human Nature",
+        "chapter": "Of the Passions",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인성론",
+        "chapterDisplay": "정념에 관하여"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자신을 이성적인 존재라고 생각하지만,",
+        "실제로는 감정이 먼저 방향을 정하는 순간이 많다.",
+        "좋고 싫은 마음이 이미 기울어진 뒤에,",
+        "이성은 그 선택을 설명하는 쪽으로 움직인다.",
+        "그래서 자기 마음을 아는 일은",
+        "논리보다 감정의 결을 읽는 데서 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "David Hume",
+        "source": "An Enquiry Concerning Human Understanding",
+        "book": "An Enquiry Concerning Human Understanding",
+        "chapter": "Sceptical Doubts",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간 오성에 관한 탐구",
+        "chapterDisplay": "회의적 의문"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 익숙한 반복을 곧 진실처럼 받아들인다.",
+        "어제 그랬고 오늘도 그랬기 때문에",
+        "내일도 같을 것이라고 쉽게 믿는다.",
+        "하지만 그 믿음은 생각보다 습관에 더 가깝다.",
+        "확실함처럼 보이는 것들에도,",
+        "의외로 많은 가정이 숨어 있다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Arthur Schopenhauer",
+        "source": "The Wisdom of Life",
+        "book": "The Wisdom of Life",
+        "chapter": "Division of the Subject",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인생의 지혜",
+        "chapterDisplay": "서론"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "사람을 더 오래 괴롭게 만드는 것은",
+        "밖의 사건보다 그것을 어떻게 느끼는가이다.",
+        "같은 조건에서도 마음의 구조에 따라 삶의 무게는 달라진다.",
+        "행복과 불행은 단지 환경의 문제가 아니라,",
+        "그 환경을 받아들이는 내면의 태도이다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Arthur Schopenhauer",
+        "source": "The Wisdom of Life",
+        "book": "The Wisdom of Life",
+        "chapter": "What a Man Has in Himself",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인생의 지혜",
+        "chapterDisplay": "인간 자신 안에 있는 것"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "밖에서 얻는 것들은 쉽게 사라질 수 있다.",
+        "운과 평판과 소유는 오래 머무르지 않을 때도 많다.",
+        "하지만 사람 안에 자리 잡은 기질과 사유의 힘은",
+        "훨씬 더 오래 함께 간다.",
+        "그래서 삶을 지탱하는 진짜 자산은,",
+        "밖보다 안에 있을 가능성이 크다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "William James",
+        "source": "Talks to Teachers on Psychology and to Students on Some of Life's Ideals",
+        "book": "Talks to Teachers on Psychology and to Students on Some of Life's Ideals",
+        "chapter": "Habit",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "교사와 학생을 위한 강연",
+        "chapterDisplay": "습관"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 거대한 결단들만으로 만들어지지 않는다.",
+        "반복되는 작은 행동들이 더 많은 것을 결정한다.",
+        "처음에는 의식적으로 하던 것도,",
+        "계속되면 점점 자연스러워진다.",
+        "그래서 습관은 조용하지만 강한 힘을 가진다.",
+        "하루의 모양이 결국 사람의 모양이 된다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Bertrand Russell",
+        "source": "The Conquest of Happiness",
+        "book": "The Conquest of Happiness",
+        "chapter": "Competition",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "행복의 정복",
+        "chapterDisplay": "경쟁"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "끊임없이 비교하며 사는 마음은 쉽게 쉬지 못한다.",
+        "늘 더 앞서야 하고 더 나아 보여야 한다는 감각은,",
+        "작은 만족도 오래 머물지 못하게 만든다.",
+        "경쟁은 때로 삶을 움직이는 힘이 되지만,",
+        "그것이 기준 전체가 되는 순간 마음은 점점 좁아진다.",
+        "행복은 우위보다 여유와 더 가까운 곳에 있다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Albert Camus",
+        "source": "The Myth of Sisyphus",
+        "book": "The Myth of Sisyphus",
+        "chapter": "Absurd Reasoning",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "시지프 신화",
+        "chapterDisplay": "부조리의 추론"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "삶은 언제나 분명한 의미를 내어주지 않는다.",
+        "그 침묵 앞에서 사람은 허무를 느끼기도 한다.",
+        "하지만 바로 그 자리에서,",
+        "다시 살아가기로 선택하는 마음도 드러난다.",
+        "의미가 주어지지 않는다고 해서 움직임이 멈추는 것은 아니다.",
+        "때로는 그 없음 속에서 더 단단한 태도가 태어난다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Albert Camus",
+        "source": "The Myth of Sisyphus",
+        "book": "The Myth of Sisyphus",
+        "chapter": "The Myth of Sisyphus",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "시지프 신화",
+        "chapterDisplay": "시지프 신화"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "같은 일을 반복하는 삶은 쉽게 무의미해 보일 수 있다.",
+        "그러나 반복이 곧 패배를 뜻하는 것은 아니다.",
+        "어떤 사람은 바로 그 반복 속에서",
+        "자기 태도를 선택함으로써 다시 자유를 발견한다.",
+        "상황이 바뀌지 않아도,",
+        "그 상황을 받아들이는 마음은 여전히 달라질 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Hannah Arendt",
+        "source": "The Human Condition",
+        "book": "The Human Condition",
+        "chapter": "Action",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간의 조건",
+        "chapterDisplay": "행위"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "행동은 단순히 결과를 만드는 일만이 아니다.",
+        "세상 안에 나라는 존재를 드러내는 일이기도 하다.",
+        "말하고 움직이는 순간,",
+        "사람은 자기가 누구인지 조금씩 보여 준다.",
+        "그래서 삶은 생각만으로 완성되지 않고,",
+        "밖으로 나가는 행위 속에서 모양을 갖추게 된다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Hannah Arendt",
+        "source": "The Human Condition",
+        "book": "The Human Condition",
+        "chapter": "Natality",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간의 조건",
+        "chapterDisplay": "탄생성"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "새로운 시작은 거창한 선언에서만 오는 것이 아니다.",
+        "사람은 누구나 다시 시작할 수 있는 능력을 품고 있다.",
+        "과거가 무겁더라도,",
+        "그 무게가 미래 전체를 결정해 버리는 것은 아니다.",
+        "삶이 열려 있다는 감각은,",
+        "바로 그 시작 가능성에서 자란다."
+      ]
+    },
+    {
+      "id": "PAS_WESTERN_MISC_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Martin Buber",
+        "source": "I and Thou",
+        "book": "I and Thou",
+        "chapter": "Part I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "나와 너",
+        "chapterDisplay": "제1부"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "사람을 단지 기능이나 역할로만 대할 때,",
+        "관계는 쉽게 얕아진다.",
+        "하지만 한 존재를 있는 그대로 마주하는 순간,",
+        "세계의 결도 달라진다.",
+        "진짜 만남은 계산의 언어를 잠시 멈추게 한다.",
+        "그 자리에서 비로소 살아 있는 연결을 경험한다."
+      ]
+    }
+  ]
+}

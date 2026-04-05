@@ -1,0 +1,719 @@
+{
+  "passages": [
+    {
+      "id": "PAS_EPICTETUS_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "1장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "어떤 것은 내게 달려 있고,",
+        "어떤 것은 내게 달려 있지 않다.",
+        "생각과 판단과 의지는 내 쪽에 있지만,",
+        "몸과 평판과 결과는 완전히 내 것이 아니다.",
+        "이 둘을 자꾸 뒤섞을수록 마음은 흔들리고,",
+        "구분할수록 조금씩 평온해진다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 5",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "5장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람을 괴롭히는 것은 사건 자체가 아니라,",
+        "그 사건에 대해 스스로 내린 판단일 때가 많다.",
+        "같은 일을 두고도 마음이 다르게 반응하는 이유가 여기에 있다.",
+        "그래서 흔들리는 순간마다",
+        "무슨 일이 일어났는지보다 그것을 어떻게 받아들이는지를 보게 된다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 8",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "8장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "일이 내 바람대로만 일어나기를 바라면,",
+        "삶은 자주 나를 거슬러 흐르는 것처럼 느껴진다.",
+        "그러나 일어난 일을 있는 그대로 받아들이기 시작하면,",
+        "저항하느라 소모되던 힘이 조금씩 줄어든다.",
+        "평온은 모든 것을 바꾸는 데서 오기보다,",
+        "일어난 일을 다루는 태도에서 생겨난다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 11",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "11장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 잃었다고 느껴질 때,",
+        "그것이 완전히 내 것이었다고 믿고 있었는지도 모른다.",
+        "사람도 물건도 상황도 오래 곁에 머물 수는 있어도,",
+        "영원히 소유할 수 있는 것은 아니다.",
+        "잠시 맡겨진 것을 돌려보내는 일처럼 바라보면,",
+        "상실의 무게도 조금은 다르게 다가온다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 14",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "14장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "모든 것을 원하는 사람은 쉽게 불안해진다.",
+        "바라는 것이 많을수록 통제할 수 없는 것도 함께 늘어난다.",
+        "마음이 자꾸 밖으로 흩어질수록,",
+        "작은 변화에도 더 크게 흔들린다.",
+        "원함을 줄인다는 것은 삶을 줄이는 일이 아니라,",
+        "흔들릴 이유를 줄이는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 16",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "16장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "다른 사람의 슬픔을 볼 때는 함께 아파할 수 있다.",
+        "다만 그 슬픔에 완전히 휩쓸려",
+        "내 마음까지 잃어버릴 필요는 없다.",
+        "공감은 무너지는 것과 같지 않고,",
+        "함께 있으면서도 중심을 잃지 않는 태도와 가깝다.",
+        "그 거리가 오히려 오래 곁에 머무르게 한다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 19",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "19장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "남에게 어떻게 보일지를 먼저 생각하기 시작하면,",
+        "행동의 기준이 금세 바깥으로 옮겨간다.",
+        "평판은 늘 내 손을 벗어난 곳에 있고,",
+        "거기 기대는 마음은 쉽게 흔들린다.",
+        "조용히 자기 몫을 해내는 사람은,",
+        "박수보다 자신에게 더 머문다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 20",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "20장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "누군가 나를 화나게 했다고 느끼는 순간에도,",
+        "그 사이에는 언제나 내 판단이 끼어 있다.",
+        "그 사람의 말이 바로 내 마음을 지배한 것이 아니라,",
+        "내가 그것을 모욕으로 받아들였기 때문에 더 아팠을 수 있다.",
+        "이 사실을 알게 되면,",
+        "분노는 조금씩 바깥보다 안쪽에서 다루어지기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 23",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "23장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "어떤 역할을 맡았는지는 전부 내 뜻대로 정할 수 없을지라도,",
+        "그 역할을 어떻게 수행할지는 여전히 내 몫으로 남아 있다.",
+        "아들이든 친구든 시민이든,",
+        "주어진 자리에서 어떤 태도로 설 것인가는 다르다.",
+        "삶은 배역을 고르는 일보다,",
+        "맡은 장면을 어떻게 살아내는가에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Enchiridion",
+        "book": "Enchiridion",
+        "chapter": "Chapter 27",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "엥케이리디온",
+        "chapterDisplay": "27장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "훈련은 눈에 띄는 순간보다,",
+        "눈에 띄지 않는 반복 속에서 자란다.",
+        "갑자기 평온해지는 날을 기다리기보다,",
+        "작은 자극 앞에서 조금 덜 흔들리는 연습을 쌓아가자.",
+        "마음도 몸처럼 단번에 달라지지 않는다.",
+        "대신 꾸준히 길들여질 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 1장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람은 자유를 원한다고 말하지만,",
+        "정작 자기 마음이 무엇에 묶여 있는지는 보지 못한다.",
+        "욕망에 끌리고 두려움에 밀리는 동안에는,",
+        "어떤 자리에 있든 완전히 자유롭다고 하기 어렵다.",
+        "자유는 밖의 조건보다,",
+        "안에서 무엇에 끌려가고 있는가를 아는 데서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 4",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 4장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "좋은 삶은 멀리 있는 특별한 상태라기보다,",
+        "매 순간 자기 판단을 제대로 다루는 삶에 더 가깝다.",
+        "말과 행동이 내 안의 기준과 어긋나지 않을 때,",
+        "삶은 생각보다 단순해진다.",
+        "큰 이론보다도,",
+        "지금 이 순간의 바른 사용이 더 많은 것을 바꾼다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 6",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 6장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "세상을 탓하는 일은 쉽지만,",
+        "자기 판단을 바로 세우는 일은 어렵다.",
+        "그래서 많은 사람은 바깥의 질서를 말하면서도",
+        "안쪽의 무질서는 오래 방치한다.",
+        "삶을 바꾸는 힘은 거창한 곳보다,",
+        "내가 지금 어떤 태도로 살고 있는가에 더 가까이 있다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 12",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 12장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 사랑하는 것을 영원히 곁에 둘 수 있다고 쉽게 믿는다.",
+        "그러나 삶은 늘 빌려 쓰는 것들로 가득하다.",
+        "사람도 순간도 건강도 마찬가지다.",
+        "그래서 잃지 않으려는 마음만으로는 평온해질 수 없다.",
+        "곁에 있는 동안 깊이 아끼되,",
+        "언젠가 떠날 수 있다는 사실도 함께 배워야 한다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 15",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 15장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "철학은 말하는 기술보다 살아내는 기술에 더 가깝다.",
+        "아름다운 문장을 아는 것만으로는",
+        "마음이 어려운 순간을 버틸 수 없다.",
+        "실제로 흔들리는 순간에 무엇을 붙잡는지가 더 중요하다.",
+        "앎은 입에 머물면 가볍고,",
+        "삶에 스며들 때 비로소 무게를 갖는다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 18",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 18장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "불안은 대개 아직 오지 않은 일을 먼저 끌어와,",
+        "현재의 마음을 미리 소모하게 만든다.",
+        "실제로 닥친 어려움보다",
+        "그것을 상상하며 만든 그림자가 더 클 때도 많다.",
+        "그래서 마음을 지키는 일은,",
+        "상상 속 재난을 사실처럼 대하지 않는 데서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book I, Chapter 24",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제1권 24장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "어려움을 피하기만 하다 보면,",
+        "무엇이 두려운지보다 내가 얼마나 약해졌는지가 더 크게 남는다.",
+        "반대로 작은 불편과 작은 상실을 견디는 연습은",
+        "마음을 조금씩 넓혀 간다.",
+        "용기는 큰 장면에서 갑자기 생기지 않는다.",
+        "대개는 사소한 순간에 덜 도망치는 태도에서 자라난다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book II, Chapter 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제2권 1장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람이 진짜로 원하는 것이 무엇인지 드러나는 순간은,",
+        "말할 때보다 선택할 때에 더 분명하다.",
+        "무엇을 지키기 위해 무엇을 포기하는가,",
+        "거기서 마음의 우선순위가 모습을 드러낸다.",
+        "그래서 삶은 설명보다 선택 쪽에 더 많은 진실을 남긴다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book II, Chapter 5",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제2권 5장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 남을 이기고 싶어 하지만,",
+        "정작 자기 안의 분산된 마음은 오래 방치할 때가 많다.",
+        "밖의 경쟁은 선명해 보여도,",
+        "안의 무질서는 더 조용히 삶을 흔든다.",
+        "스스로를 다스린다는 것은 거창한 승리가 아니라,",
+        "작은 자극 앞에서 중심을 잃지 않는 힘에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book II, Chapter 10",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제2권 10장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람들에게 인정받지 못한다고 느낄 때,",
+        "마음은 금세 자기 가치를 의심하기 시작한다.",
+        "하지만 타인의 판단은 늘 바뀌고,",
+        "그 시선은 내 안의 기준만큼 오래 머물지 않는다.",
+        "자기 가치를 남의 손에 맡길수록,",
+        "마음은 더 자주 낯선 곳으로 끌려가게 된다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book II, Chapter 16",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제2권 16장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "지식을 쌓는 일과 마음이 달라지는 일은 같지 않다.",
+        "무엇이 옳은지 아는 사람도,",
+        "막상 자극 앞에서는 여전히 쉽게 흔들릴 수 있다.",
+        "머리로 이해한 것을 삶의 습관으로 옮기는 데는",
+        "생각보다 더 긴 시간이 필요하다.",
+        "그래서 배움은 늘 반복을 필요로 한다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book III, Chapter 2",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제3권 2장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶이 하나의 경기처럼 느껴질 때가 있다.",
+        "내 뜻대로 고를 수 없는 상대와 상황이 나타나고,",
+        "준비되지 않은 채 맞닥뜨리는 순간들도 있다.",
+        "그럼에도 여전히 남아 있는 것은",
+        "어떤 태도로 그 장면을 통과할 것인가 하는 문제다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book III, Chapter 12",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제3권 12장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기를 돌본다는 것은 편안함만을 챙기는 일이 아니다.",
+        "오히려 어떤 생각이 나를 약하게 하고,",
+        "어떤 습관이 나를 흐리게 만드는지를 살피는 일에 더 가깝다.",
+        "몸을 단련하듯 마음도 단련될 수 있다면,",
+        "돌봄은 위로만이 아니라 훈련의 얼굴도 함께 가진다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book III, Chapter 22",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제3권 22장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "단순하게 살고 싶다고 말하면서도,",
+        "마음은 자주 더 많은 것을 붙잡으려 한다.",
+        "필요보다 욕망이 앞서기 시작하면,",
+        "삶의 구조도 함께 복잡해진다.",
+        "가벼운 삶은 가난한 삶과 같지 않다.",
+        "덜 끌려가며 사는 삶에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book IV, Chapter 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제4권 1장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자유로운 사람은 하고 싶은 것을 다 하는 사람이기보다,",
+        "원하지 않는 것에 쉽게 끌려가지 않는 사람에 더 가깝다.",
+        "욕망과 두려움이 마음을 흔들지 못할수록,",
+        "삶은 조금 더 자기 것이 된다.",
+        "그래서 자유는 허락보다는 절제와 더 가까운 곳에 놓여 있다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book IV, Chapter 4",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제4권 4장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자주 자기 삶을 가볍게 여기면서도,",
+        "남의 평가에는 지나치게 큰 무게를 둔다.",
+        "그 결과 가장 오래 함께 살아야 할 자기 마음은 소홀해지고,",
+        "잠깐 스쳐 가는 목소리만 커진다.",
+        "삶을 다시 제자리로 돌려놓는 일은,",
+        "무엇에 더 많은 권한을 주고 있었는지 깨닫는 데서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Discourses",
+        "book": "Discourses",
+        "chapter": "Book IV, Chapter 7",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "담화록",
+        "chapterDisplay": "제4권 7장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "불행은 갑자기 닥치는 것처럼 보여도,",
+        "종종 오래된 집착 위에서 더 크게 자란다.",
+        "잃고 싶지 않은 것이 많을수록",
+        "삶은 더 많은 위협으로 가득해 보인다.",
+        "그래서 평온은 아무것도 사랑하지 않는 상태가 아니라,",
+        "사랑하되 집착으로 바꾸지 않는 상태에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Fragments",
+        "book": "Fragments",
+        "chapter": "Fragment 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "단편집",
+        "chapterDisplay": "단편 1"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 늘 내 뜻대로 정리된 자리를 내어주지 않는다.",
+        "그럴수록 더 또렷해지는 것은",
+        "상황보다 태도가 끝까지 남는다는 사실이다.",
+        "좋은 삶은 좋은 조건이 다 갖추어진 다음에 시작되지 않는다.",
+        "대개는 충분하지 않은 자리에서,",
+        "그래도 바르게 서 보려는 시도 속에서 먼저 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Fragments",
+        "book": "Fragments",
+        "chapter": "Fragment 9",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "단편집",
+        "chapterDisplay": "단편 9"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "적은 것으로도 괜찮다고 느끼는 순간,",
+        "삶은 생각보다 훨씬 넓어질 수 있다.",
+        "많이 가져야만 안정된다는 믿음이 줄어들수록,",
+        "마음은 덜 바쁘고 덜 예민해진다.",
+        "충분함을 아는 감각은",
+        "밖의 세계보다 안의 욕망을 먼저 조용하게 만든다."
+      ]
+    },
+    {
+      "id": "PAS_EPICTETUS_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Epictetus",
+        "source": "Fragments",
+        "book": "Fragments",
+        "chapter": "Fragment 28",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "단편집",
+        "chapterDisplay": "단편 28"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶이 늘 나를 시험하는 것처럼 느껴질 수 있다.",
+        "하지만 그 시험은 대개 큰 사건보다",
+        "사소한 순간의 반응 속에서 더 자주 드러난다.",
+        "작은 말에 흔들리고, 작은 손실에 무너지고,",
+        "작은 자극 앞에서 중심을 잃지 않는 연습이 쌓일수록",
+        "삶 전체도 조금 더 견고해진다."
+      ]
+    }
+  ]
+}

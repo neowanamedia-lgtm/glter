@@ -1,0 +1,678 @@
+{
+  "passages": [
+    {
+      "id": "PAS_NIETZSCHE_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "Prologue",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "서문"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 완성된 존재가 아니다.",
+        "건너가야 할 다리처럼 놓여 있는 존재다.",
+        "지금의 나를 끝이라고 여기는 순간,",
+        "성장은 멈추고 가능성도 닫힌다.",
+        "그래서 중요한 것은 머무는 일이 아니라,",
+        "자신을 넘어서는 방향으로 계속 나아가는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On the Three Metamorphoses",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "세 가지 변신에 대하여"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "정신은 낙타처럼 무거운 짐을 짊어진다.",
+        "그다음에는 사자처럼 맞서고,",
+        "마침내 어린아이처럼 새롭게 시작한다.",
+        "진짜 변화는 단순한 반항에서 끝나지 않는다.",
+        "낡은 것을 부수는 데서 한 걸음 더 나아가,",
+        "자기만의 시작을 만들어낼 때 비로소 완성된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On the Way of the Creator",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "창조자의 길에 대하여"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "자기 길을 가려는 사람은 쉽게 고독해진다.",
+        "익숙한 무리에서 멀어질수록,",
+        "확신보다 흔들림이 먼저 찾아온다.",
+        "그러나 남이 만든 길 위에서는",
+        "결코 자기 자신이 될 수 없다.",
+        "창조는 언제나 외로움을 통해 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On Self-Overcoming",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "자기 극복에 대하여"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "살아 있는 것은 스스로를 넘어가려는 힘을 품고 있다.",
+        "지금의 모습에 안주하려는 순간,",
+        "생명은 조용히 굳어지기 시작한다.",
+        "사람이 자기 자신과 싸우는 까닭도 여기에 있다.",
+        "더 높아지기 위해서가 아니라,",
+        "더 깊어지기 위해 자기 자신을 넘어서는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On Reading and Writing",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "읽기와 쓰기에 대하여"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "가볍게 날 수 있는 사람은,",
+        "자신을 짓누르던 무게를 오래 견뎌본 사람이다.",
+        "높은 곳에서 웃는다는 것은,",
+        "세상을 얕게 본다는 뜻이 아니다.",
+        "오히려 비극까지도 견딜 힘을 갖게 되었다는 뜻이다.",
+        "그래서 깊은 사람일수록,",
+        "삶을 가볍게 들어 올릴 줄 알게 된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On the Flies of the Market-Place",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "시장의 파리들에 대하여"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "소란스러운 곳에서는 큰 소리만 크게 들린다.",
+        "그 안에서는 깊이보다 자극이,",
+        "사유보다 반응이 더 빨리 퍼진다.",
+        "자기 삶을 만들고 싶은 사람에게 필요한 것은,",
+        "항상 더 많은 목소리가 아니라 더 깊은 침묵이다.",
+        "중심은 박수 속이 아니라,",
+        "홀로 선 자리에서 만들어진다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On Free Death",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "자유로운 죽음에 대하여"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "잘 죽는다는 것은 잘 살았다는 말과 멀지 않다.",
+        "끝을 두려움으로만 붙잡을수록,",
+        "삶 역시 움츠러들기 쉽다.",
+        "자기 삶을 스스로 긍정한 사람은,",
+        "끝마저도 남의 방식이 아니라 자기 방식으로 마주하려 한다.",
+        "그래서 죽음의 문제는 언제나 삶의 태도로 되돌아온다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On the Gift-Giving Virtue",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "베푸는 덕에 대하여"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "충만한 사람은 붙잡기보다 내어준다.",
+        "가진 것이 많아서가 아니라,",
+        "자기 안에 넘치는 힘이 있기 때문이다.",
+        "참된 풍요는 움켜쥐는 손에서가 아니라,",
+        "흘려보낼 수 있는 마음에서 드러난다.",
+        "그래서 가장 강한 사람은,",
+        "가장 오래 나누는 사람이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On Redemption",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "구원에 대하여"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 지나간 것을 되돌릴 수 없다는 사실 앞에서 괴로워한다.",
+        "이미 일어난 일은 다시 선택할 수 없고,",
+        "그 불가능함이 오래 마음을 붙든다.",
+        "그러나 과거를 없애는 길은 없다.",
+        "다만 그것마저 자기 삶의 일부로 받아들이는 길만이 있다.",
+        "구원은 지우는 데서가 아니라,",
+        "자기 삶 전체를 다시 긍정하는 데서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "book": "Beyond Good and Evil",
+        "chapter": "Preface",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "선악의 저편",
+        "chapterDisplay": "서문"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 진리를 사랑한다고 말하지만,",
+        "많은 경우 자신에게 익숙한 해석을 더 사랑한다.",
+        "오래 믿어온 생각은 어느새 신념이 되고,",
+        "신념은 쉽게 질문되지 않는다.",
+        "그래서 사유의 시작은 더 많은 답을 얻는 데 있지 않다.",
+        "오래된 믿음 앞에 다시 질문을 세우는 데 있다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "book": "Beyond Good and Evil",
+        "chapter": "Prejudices of Philosophers",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "선악의 저편",
+        "chapterDisplay": "철학자들의 편견"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "생각은 늘 순수한 이성에서만 나오지 않는다.",
+        "사람은 자기 기질과 욕망,",
+        "자기 두려움과 희망을 가지고 생각한다.",
+        "그래서 어떤 철학도 완전히 비인간적일 수 없다.",
+        "사유는 높은 곳에 있는 것처럼 보여도,",
+        "늘 한 인간의 몸과 삶에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "book": "Beyond Good and Evil",
+        "chapter": "The Free Spirit",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "선악의 저편",
+        "chapterDisplay": "자유정신"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자유정신은 단순히 반대하는 사람이 아니다.",
+        "남이 정해준 기준에 기대지 않고,",
+        "자기 눈으로 다시 보려는 사람이다.",
+        "그는 확실한 울타리보다 열린 위험을 택한다.",
+        "불편함을 견디지 못하면 자유도 오래 버티지 못한다.",
+        "그래서 자유는 편안함이 아니라 훈련에 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "book": "Beyond Good and Evil",
+        "chapter": "The Religious Mood",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "선악의 저편",
+        "chapterDisplay": "종교적 기분"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 고통 앞에서 설명을 찾으려 한다.",
+        "견디기 어려운 삶일수록,",
+        "더 쉽게 위안을 향해 손을 뻗는다.",
+        "그러나 위안이 언제나 힘이 되는 것은 아니다.",
+        "때로는 고통을 이해하려는 마음보다,",
+        "그것을 너무 빨리 덮으려는 마음이 우리를 더 약하게 만든다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "book": "Beyond Good and Evil",
+        "chapter": "The Natural History of Morals",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "선악의 저편",
+        "chapterDisplay": "도덕의 자연사"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "도덕은 하늘에서 떨어진 명령처럼 보이지만,",
+        "실은 오랜 삶의 조건과 힘의 관계 속에서 만들어져 왔다.",
+        "그래서 우리가 당연하다고 믿는 기준도,",
+        "언제든 다시 묻고 다시 읽을 수 있다.",
+        "선하다는 말 뒤에는 늘 누군가의 필요와 관점이 숨어 있다.",
+        "질문은 거기서부터 시작된다."
+       ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Beyond Good and Evil",
+        "book": "Beyond Good and Evil",
+        "chapter": "What Is Noble?",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "선악의 저편",
+        "chapterDisplay": "고귀한 것이란 무엇인가"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "고귀함은 남보다 위에 선다는 감각만으로 만들어지지 않는다.",
+        "오히려 자기 자신에게 더 엄격한 기준을 세우고,",
+        "그 기준을 오래 견디는 태도와 가깝다.",
+        "남의 승인에 기대지 않고도",
+        "자기 삶의 무게를 감당할 수 있는 사람.",
+        "고귀함은 그런 곳에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Joyful Wisdom",
+        "book": "The Joyful Wisdom",
+        "chapter": "Preface to the Second Edition",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "제2판 서문"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "오래 견딘 사람에게는 어느 날 뜻밖의 가벼움이 찾아온다.",
+        "그것은 아무 이유 없는 낙관이 아니라,",
+        "고통을 통과한 뒤에만 가능한 종류의 기쁨이다.",
+        "회복은 단순히 아프지 않게 되는 상태가 아니다.",
+        "삶을 다시 사랑할 수 있게 되는 힘이다.",
+        "그래서 기쁨은 가장 늦게 오지만, 가장 깊게 남는다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Joyful Wisdom",
+        "book": "The Joyful Wisdom",
+        "chapter": "Book First",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "제1부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 의미가 무너지는 순간 가장 크게 흔들린다.",
+        "당연하다고 믿어온 질서가 더는 자신을 지탱하지 못할 때,",
+        "마음은 넓어지기보다 먼저 비어 보인다.",
+        "그러나 무너짐은 끝만을 뜻하지 않는다.",
+        "기존의 의미가 사라진 자리에서만,",
+        "새로운 해석과 새로운 용기가 시작될 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Joyful Wisdom",
+        "book": "The Joyful Wisdom",
+        "chapter": "Book Fourth: Sanctus Januarius",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "제4부: 성 야누아리우스"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "삶을 사랑한다는 것은 좋은 날만 사랑하는 일이 아니다.",
+        "우연과 상처,",
+        "실수와 반복까지도 자기 삶의 일부로 끌어안는 일이다.",
+        "가장 큰 긍정은 완벽한 세계를 요구하지 않는다.",
+        "오히려 지금 있는 삶을 향해",
+        "다시 한 번 예라고 말할 수 있는 힘에서 나온다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Joyful Wisdom",
+        "book": "The Joyful Wisdom",
+        "chapter": "Book Fifth: We Fearless Ones",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "제5부: 우리 두려움 없는 자들"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "두려움이 없어서 앞으로 가는 것이 아니다.",
+        "두려움을 안고도 앞으로 가기 때문에 새로운 사람이 된다.",
+        "낡은 확실함이 무너질수록,",
+        "사람은 자기 발로 서는 법을 배워야 한다.",
+        "용기는 고요한 상태가 아니다.",
+        "흔들리면서도 계속 나아가려는 태도다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "Maxims and Arrows",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "격언과 화살"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 흔히 자기 약함을 미덕처럼 꾸민다.",
+        "견딜 수 없는 것을 견디지 못했다고 말하기보다,",
+        "애초에 그것이 나쁘다고 선언하는 편이 더 쉽기 때문이다.",
+        "그래서 자기 해석은 늘 의심받아야 한다.",
+        "말의 표면만 보면 미덕 같지만,",
+        "그 밑에는 피로와 원망이 숨어 있을 수도 있다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "The Problem of Socrates",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "소크라테스의 문제"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "이성이 항상 삶을 구원해 주는 것은 아니다.",
+        "때로 사람은 혼란을 견디지 못해",
+        "모든 것을 지나치게 설명하려 들기도 한다.",
+        "그러나 삶은 논리만으로는 다 담기지 않는다.",
+        "너무 많은 설명은 오히려 약함의 징후다.",
+        "생을 견디는 힘은 이성보다 더 깊은 곳에 있다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "Reason in Philosophy",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "철학에서의 이성"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "철학은 종종 변하는 것을 불신해 왔다.",
+        "흐르는 삶을 붙잡기 위해,",
+        "사람은 변하지 않는 본질을 꿈꾸기도 했다.",
+        "그러나 살아 있는 것은 언제나 움직이고 바뀐다.",
+        "변화를 없애고 나서 얻은 진리는,",
+        "삶을 설명하기보다 삶을 잃어버린 결과이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "Morality as Anti-Nature",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "반자연으로서의 도덕"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "욕망을 없애려는 태도는 종종 삶 자체를 약하게 만든다.",
+        "살아 있다는 것은 충동과 갈등을 함께 품는 일인데,",
+        "그것을 모두 적으로 돌리는 순간",
+        "사람은 자기 안의 힘까지 미워하게 된다.",
+        "문제는 욕망 그 자체가 아니다.",
+        "살아 있는 힘을 부끄러움으로 다루는 태도다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "The Four Great Errors",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "네 가지 큰 오류"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 결과를 보고 원인을 너무 빨리 단정한다.",
+        "익숙한 설명은 마음을 편하게 하지만,",
+        "현실을 정확하게 보여주지는 않는다.",
+        "우리는 자주 자기가 보고 싶은 방식으로 세계를 읽는다.",
+        "그래서 확신은 진실의 증거라기보다,",
+        "익숙함의 증거일 때가 많다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "Skirmishes of an Untimely Man",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "시대와의 소전투"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "지나친 과로와 산만함은 사람을 쉽게 텅 비게 만든다.",
+        "끊임없이 반응하는 삶은 바빠 보이지만,",
+        "자기 안에서 깊어질 시간을 잃기 쉽다.",
+        "강한 사람에게 필요한 것은 더 많은 자극이 아니라,",
+        "자기 리듬을 지키는 힘이다.",
+        "깊이는 서두르는 삶과 잘 어울리지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Twilight of the Idols",
+        "book": "Twilight of the Idols",
+        "chapter": "What I Owe to the Ancients",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "우상의 황혼",
+        "chapterDisplay": "내가 고대인들에게 빚진 것"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "삶을 긍정한다는 것은 단순히 밝게 생각하는 일이 아니다.",
+        "오히려 비극과 충돌,",
+        "고통과 운명까지도 함께 끌어안는 태도이다.",
+        "무거움을 지우지 않고 함께 춤출 수 있는 태도,",
+        "그것이 가장 강한 긍정이었다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Ecce Homo",
+        "book": "Ecce Homo",
+        "chapter": "Why I Am So Wise",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "이 사람을 보라",
+        "chapterDisplay": "나는 왜 이렇게 현명한가"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기 자신을 아는 일은 단순한 내면 관찰이 아니다.",
+        "무엇이 자신을 강하게 하고,",
+        "무엇이 자신을 약하게 하는지를 오래 배워가는 일이다.",
+        "사람은 모두에게 좋은 것을 찾다가,",
+        "자기에게 필요한 것을 놓치기도 한다.",
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Ecce Homo",
+        "book": "Ecce Homo",
+        "chapter": "Why I Am a Destiny",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "이 사람을 보라",
+        "chapterDisplay": "나는 왜 하나의 운명인가"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기 삶을 하나의 운명처럼 긍정할 수 있을 때,",
+        "사람은 더는 변명으로 자신을 지탱하지 않는다.",
+        "좋았던 것만이 아니라,",
+        "무너졌던 순간까지도 자기 일부로 받아들인다.",
+        "가장 강한 사람은 상처가 없던 사람이 아니다.",
+        "자기 삶 전체를 긍정하는 사람이다."
+      ]
+    }
+  ]
+}

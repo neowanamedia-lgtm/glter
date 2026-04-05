@@ -1,0 +1,700 @@
+{
+  "passages": [
+    {
+      "id": "PAS_SF_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Freedom",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "자유"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 자유롭도록 선고받았다.",
+        "그 자유는 선택을 피할 수 없게 만든다.",
+        "우리는 어떤 상황에서도 결정을 내려야 한다.",
+        "그 결정을 미루는 것조차 하나의 선택이다.",
+        "인간은 항상 자신의 선택과 함께 살아간다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Responsibility",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "책임"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 자신이 선택한 것 그 자체다.",
+        "우리는 매 순간 자신을 만들어간다.",
+        "선택은 단순한 행동이 아니라 존재를 형성한다.",
+        "한 번의 결정도 가볍지 않다.",
+        "결국 삶은 선택의 축적이다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Bad Faith",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "자기기만"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 종종 자신에게 거짓말을 한다.",
+        "자유를 피하기 위해 스스로를 속인다.",
+        "선택하지 않은 것처럼 행동한다.",
+        "그러나 그 역시 하나의 선택이다.",
+        "자기기만은 자유를 두려워하는 방식이다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Introductory Lectures on Psychoanalysis",
+        "book": "Introductory Lectures on Psychoanalysis",
+        "chapter": "The Unconscious",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "정신분석 입문",
+        "chapterDisplay": "무의식"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "인간의 행동은 의식보다 더 깊은 곳에서 시작된다.",
+        "우리는 스스로를 이해한다고 믿는다.",
+        "그러나 많은 선택은 보이지 않는 힘에 의해 움직인다.",
+        "무의식은 조용히 우리의 방향을 바꾼다.",
+        "그것을 인식하는 순간 선택은 달라질 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Civilization and Its Discontents",
+        "book": "Civilization and Its Discontents",
+        "chapter": "Desire",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "문명 속의 불만",
+        "chapterDisplay": "욕망"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 끊임없이 욕망한다.",
+        "그 욕망은 완전히 충족되지 않는다.",
+        "우리는 늘 어딘가 부족함을 느낀다.",
+        "그 결핍이 다시 선택을 만든다.",
+        "결국 인간은 결핍 속에서 움직인다."
+      ]
+    },
+
+    {
+      "id": "PAS_SF_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Choice",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "선택"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 항상 선택의 한가운데에 서 있다.",
+        "아무것도 하지 않는 것도 선택이다.",
+        "선택하지 않으려는 시도조차 선택이다.",
+        "인간은 결코 선택에서 벗어날 수 없다.",
+        "삶은 선택을 피할 수 없는 구조다."
+      ]
+    },
+
+    {
+      "id": "PAS_SF_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "The Ego and the Id",
+        "book": "The Ego and the Id",
+        "chapter": "Conflict",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자아와 이드",
+        "chapterDisplay": "갈등"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "인간의 내부에는 서로 다른 힘이 존재한다.",
+        "그 힘들은 서로 충돌하며 방향을 만든다.",
+        "우리는 그 갈등 속에서 선택한다.",
+        "선택은 단순한 의지가 아니라 타협이다.",
+        "그래서 인간의 결정은 항상 복잡하다."
+      ]
+    },
+
+    {
+      "id": "PAS_SF_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Freedom",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "자유"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자유는 무거운 짐처럼 느껴질 수 있다.",
+        "그러나 그것은 동시에 가능성이다.",
+        "우리는 어떤 사람이 될지 선택할 수 있다.",
+        "그 선택이 우리를 정의한다.",
+        "그래서 자유는 두려움이면서 기회다."
+      ]
+    },
+
+    {
+      "id": "PAS_SF_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Introductory Lectures on Psychoanalysis",
+        "book": "Introductory Lectures on Psychoanalysis",
+        "chapter": "Repetition",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "정신분석 입문",
+        "chapterDisplay": "반복"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 같은 행동을 반복하려는 경향이 있다.",
+        "그 반복은 의식적인 선택처럼 보이지 않는다.",
+        "그러나 그것은 깊은 구조에서 나온다.",
+        "우리는 익숙한 것을 다시 선택한다.",
+        "그 익숙함이 때로는 우리를 구속한다."
+      ]
+    },
+
+    {
+      "id": "PAS_SF_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Responsibility",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "책임"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "자유는 책임을 동반한다.",
+        "우리는 선택의 결과를 피할 수 없다.",
+        "결정은 항상 어떤 결과를 만든다.",
+        "그 결과는 다시 우리에게 돌아온다.",
+        "그래서 선택은 무게를 가진다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "The Ego and the Id",
+        "book": "The Ego and the Id",
+        "chapter": "Ego",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자아와 이드",
+        "chapterDisplay": "자아"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "자아는 현실과 욕망 사이에서 균형을 잡으려 한다.",
+        "우리는 그 균형 속에서 결정을 내린다.",
+        "욕망은 강하게 밀어붙이고 현실은 제약을 만든다.",
+        "그 사이에서 선택은 흔들린다.",
+        "인간의 선택은 항상 긴장 속에 있다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Choice",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "선택"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 자신이 선택한 것에 의해 정의된다.",
+        "선택은 단순한 행동이 아니다.",
+        "그것은 자신의 방향을 결정하는 행위다.",
+        "우리는 선택을 통해 스스로를 만든다.",
+        "선택은 곧 존재다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Civilization and Its Discontents",
+        "book": "Civilization and Its Discontents",
+        "chapter": "Conflict",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "문명 속의 불만",
+        "chapterDisplay": "갈등"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "문명은 인간의 욕망을 억제한다.",
+        "그 억제는 내면의 갈등을 만든다.",
+        "우리는 그 갈등 속에서 선택한다.",
+        "선택은 언제나 일부를 포기하는 일이다.",
+        "인간은 완전히 만족할 수 없다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Anguish",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "불안"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "불안은 자유에서 비롯된다.",
+        "우리는 무엇이든 선택할 수 있다는 사실을 안다.",
+        "그 가능성이 우리를 흔든다.",
+        "선택은 언제나 불확실하다.",
+        "그래서 자유는 불안을 동반한다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Introductory Lectures on Psychoanalysis",
+        "book": "Introductory Lectures on Psychoanalysis",
+        "chapter": "Resistance",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "정신분석 입문",
+        "chapterDisplay": "저항"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 스스로를 이해하는 것을 두려워한다.",
+        "그래서 무의식은 저항을 만든다.",
+        "우리는 진실을 피하려 한다.",
+        "그 회피가 선택을 흐리게 만든다.",
+        "선택은 종종 왜곡된다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Action",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "행동"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "행동은 선택의 결과다.",
+        "우리는 행동을 통해 자신을 드러낸다.",
+        "생각만으로는 아무것도 바뀌지 않는다.",
+        "결정은 행동으로 이어져야 한다.",
+        "선택은 삶을 움직인다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "The Ego and the Id",
+        "book": "The Ego and the Id",
+        "chapter": "Superego",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자아와 이드",
+        "chapterDisplay": "초자아"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "초자아는 우리에게 기준을 제시한다.",
+        "그 기준은 때로는 엄격하다.",
+        "우리는 그 기준에 맞추려 한다.",
+        "그러나 욕망은 다른 방향을 향한다.",
+        "그 사이에서 선택은 갈라진다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Meaning",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "의미"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶의 의미는 주어지지 않는다.",
+        "우리가 그것을 만들어야 한다.",
+        "선택은 의미를 만들어내는 과정이다.",
+        "우리는 스스로 방향을 부여한다.",
+        "의미는 선택에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Civilization and Its Discontents",
+        "book": "Civilization and Its Discontents",
+        "chapter": "Pleasure",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "문명 속의 불만",
+        "chapterDisplay": "쾌락"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 쾌락을 추구한다.",
+        "그러나 현실은 그것을 제한한다.",
+        "그 제한은 불만을 만든다.",
+        "우리는 그 사이에서 선택한다.",
+        "그래서 만족은 늘 불완전하다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Existence",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "존재"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "존재는 먼저 주어지고 본질은 나중에 만들어진다.",
+        "우리는 이미 존재하고 있다.",
+        "그 이후에 어떤 사람이 될지 선택한다.",
+        "그 선택이 본질을 만든다.",
+        "존재는 열린 상태다."
+      ]
+    },
+
+    {
+      "id": "PAS_SF_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Introductory Lectures on Psychoanalysis",
+        "book": "Introductory Lectures on Psychoanalysis",
+        "chapter": "Memory",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "정신분석 입문",
+        "chapterDisplay": "기억"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "기억은 선택에 영향을 준다.",
+        "우리는 과거를 완전히 떠나지 못한다.",
+        "그 기억은 현재의 판단을 바꾼다.",
+        "선택은 과거와 연결되어 있다.",
+        "인간은 항상 이어져 있다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Responsibility",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "책임"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 자신뿐 아니라 타인에 대해서도 책임을 진다.",
+        "선택은 개인을 넘어 영향을 준다.",
+        "우리는 그 무게를 감당해야 한다.",
+        "결정은 고립된 것이 아니다.",
+        "선택은 세계와 연결된다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "The Ego and the Id",
+        "book": "The Ego and the Id",
+        "chapter": "Drive",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자아와 이드",
+        "chapterDisplay": "충동"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "충동은 우리를 행동으로 이끈다.",
+        "그 충동은 항상 논리적이지 않다.",
+        "우리는 그것을 통제하려 한다.",
+        "그러나 완전히 억제할 수는 없다.",
+        "그래서 선택은 항상 흔들린다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Self",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "자기"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 고정된 존재가 아니다.",
+        "항상 변화할 수 있는 존재다.",
+        "선택은 그 변화를 가능하게 한다.",
+        "우리는 스스로를 다시 만들 수 있다.",
+        "그래서 인간은 열려 있다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Civilization and Its Discontents",
+        "book": "Civilization and Its Discontents",
+        "chapter": "Guilt",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "문명 속의 불만",
+        "chapterDisplay": "죄책감"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "죄책감은 내면에서 형성된다.",
+        "우리는 스스로를 평가한다.",
+        "그 평가가 선택을 제한한다.",
+        "선택은 자유롭지만 완전히 자유롭지 않다.",
+        "그래서 인간은 스스로를 억누른다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Future",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "미래"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "미래는 정해져 있지 않다.",
+        "우리는 그것을 만들어간다.",
+        "선택은 미래를 형성한다.",
+        "현재의 결정이 방향을 만든다.",
+        "미래는 열린 가능성이다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "Introductory Lectures on Psychoanalysis",
+        "book": "Introductory Lectures on Psychoanalysis",
+        "chapter": "Desire",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "정신분석 입문",
+        "chapterDisplay": "욕망"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "욕망은 끊임없이 새로운 대상을 찾는다.",
+        "하나가 충족되면 또 다른 것이 나타난다.",
+        "우리는 그 흐름 속에서 움직인다.",
+        "선택은 욕망에 의해 영향을 받는다.",
+        "그래서 인간은 멈추지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Being and Nothingness",
+        "book": "Being and Nothingness",
+        "chapter": "Decision",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "존재와 무",
+        "chapterDisplay": "결정"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "결정은 항상 불확실하다.",
+        "우리는 결과를 완전히 알 수 없다.",
+        "그럼에도 불구하고 선택해야 한다.",
+        "그 선택이 우리를 만든다.",
+        "그래서 인간은 계속 결정한다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Sigmund Freud",
+        "source": "The Ego and the Id",
+        "book": "The Ego and the Id",
+        "chapter": "Balance",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자아와 이드",
+        "chapterDisplay": "균형"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 균형을 찾으려 한다.",
+        "욕망과 현실 사이에서 흔들린다.",
+        "그 균형은 쉽게 무너지기도 한다.",
+        "우리는 다시 조정하려 한다.",
+        "그래서 선택은 계속 이어진다."
+      ]
+    },
+    {
+      "id": "PAS_SF_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Jean-Paul Sartre",
+        "source": "Existentialism is a Humanism",
+        "book": "Existentialism is a Humanism",
+        "chapter": "Human",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "실존주의는 휴머니즘이다",
+        "chapterDisplay": "인간"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 스스로를 정의하는 존재다.",
+        "우리는 주어진 틀에 머물지 않는다.",
+        "선택을 통해 계속 변화한다.",
+        "그 변화는 끝나지 않는다.",
+        "인간은 가능성이다."
+      ]
+    }
+  ]
+}

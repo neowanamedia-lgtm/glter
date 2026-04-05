@@ -1,0 +1,692 @@
+{
+  "passages": [
+    {
+      "id": "PAS_EASTERN_MISC2_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Mozi",
+        "source": "Mozi",
+        "book": "Mozi",
+        "chapter": "Jian Ai III",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "묵자",
+        "chapterDisplay": "겸애 하"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "누군가를 내 사람이라고 부르는 순간,",
+        "마음은 쉽게 경계를 만든다.",
+        "그러나 그 선을 조금만 넓혀 보면,",
+        "미움보다 덜 다치게 하는 길이 보일 때가 있다.",
+        "가까운 사람을 아끼는 마음이,",
+        "조금 더 멀리까지 닿을 수 있을 때 세상도 달라진다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Mozi",
+        "source": "Mozi",
+        "book": "Mozi",
+        "chapter": "Shang Tong I",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "묵자",
+        "chapterDisplay": "상동 상"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "마음이 제각기 흩어져 있을 때,",
+        "작은 일도 쉽게 충돌로 번진다.",
+        "서로 다른 생각이 늘 나쁜 것은 아니지만,",
+        "기준 없이 흔들리면 삶은 더 피곤해진다.",
+        "그래서 함께 살아가기 위해서는,",
+        "적어도 어디를 바라볼지는 함께 정할 필요가 있다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Mozi",
+        "source": "Mozi",
+        "book": "Mozi",
+        "chapter": "Fei Yue",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "묵자",
+        "chapterDisplay": "비악"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "아름답고 화려한 것이 언제나 삶을 살리는 것은 아니다.",
+        "겉으로는 풍성해 보여도,",
+        "실제로는 사람을 더 지치게 하는 일들이 있다.",
+        "무엇이 정말 필요한지 보지 못하면,",
+        "우리는 쉽게 겉의 빛에 마음을 빼앗긴다.",
+        "이로움은 눈길을 끄는 것보다 조용한 데 숨어 있다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Mozi",
+        "source": "Mozi",
+        "book": "Mozi",
+        "chapter": "Tian Zhi I",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "묵자",
+        "chapterDisplay": "천지 상"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람이 옳음을 생각하는 순간에도,",
+        "그 기준은 늘 자기 가까운 자리에서 시작되기 쉽다.",
+        "하지만 더 넓은 자리에서 다시 바라보면,",
+        "내 이익과 모두의 이익이 다를 수도 있다는 것을 알게 된다.",
+        "마음의 크기가 넓어질수록,",
+        "선택의 무게도 달라진다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Xunzi",
+        "source": "Xunzi",
+        "book": "Xunzi",
+        "chapter": "Quan Xue",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "순자",
+        "chapterDisplay": "권학"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "차이는 처음부터 크게 벌어지지 않는다.",
+        "보이지 않는 날들이 쌓이는 동안,",
+        "어떤 사람은 조금씩 단단해지고 어떤 사람은 쉽게 멈춘다.",
+        "그래서 배움은 한순간의 깨달음보다,",
+        "오래 이어지는 태도에 더 가깝다.",
+        "작은 반복이 결국 사람의 높이를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Xunzi",
+        "source": "Xunzi",
+        "book": "Xunzi",
+        "chapter": "Quan Xue",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "순자",
+        "chapterDisplay": "권학"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "높은 곳에 오르지 않으면 멀리 볼 수 없고,",
+        "깊은 곳에 기대지 않으면 멀리 갈 수 없는 때가 있다.",
+        "지금의 시야가 답답하게 느껴진다면,",
+        "아직 서 있는 자리가 낮기 때문일 수도 있다.",
+        "조금 더 배우고 조금 더 견디는 일은,",
+        "결국 보는 범위를 넓히는 일과 다르지 않다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Xunzi",
+        "source": "Xunzi",
+        "book": "Xunzi",
+        "chapter": "Zheng Ming",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "순자",
+        "chapterDisplay": "정명"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "이름이 흐려지면 생각도 함께 흐려진다.",
+        "무엇을 무엇이라 부르는지가 분명하지 않을 때,",
+        "판단은 쉽게 어긋난다.",
+        "그래서 바로 부르는 일은 단지 말의 문제가 아니다.",
+        "마음과 행동의 방향을 바로 세우는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Xunzi",
+        "source": "Xunzi",
+        "book": "Xunzi",
+        "chapter": "Xing E",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "순자",
+        "chapterDisplay": "성악"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "마음은 가만히 두면 쉬운 쪽으로 먼저 기운다.",
+        "그래서 스스로를 다듬는 과정이 없다면,",
+        "익숙한 욕망은 금세 삶 전체를 끌고 간다.",
+        "훈련은 자연스러움을 거스르는 일이 아니라,",
+        "흩어지려는 마음을 다시 모으는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Xunzi",
+        "source": "Xunzi",
+        "book": "Xunzi",
+        "chapter": "Fu Guo",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "순자",
+        "chapterDisplay": "부국"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "풍요는 단지 많이 쌓는 데서 오지 않는다.",
+        "흩어지지 않게 하고,",
+        "제자리에 맞게 쓰이게 할 때 비로소 오래 간다.",
+        "삶도 마찬가지다.",
+        "힘과 시간과 마음을 어디에 놓을지 분명해질수록,",
+        "적은 것으로도 더 단단해질 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Han Feizi",
+        "source": "Han Feizi",
+        "book": "Han Feizi",
+        "chapter": "Nan Yi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "한비자",
+        "chapterDisplay": "난일"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "옳은 말을 한다고 해서 늘 받아들여지는 것은 아니다.",
+        "사람은 진실보다 관계와 이익을 더 빨리 보기도 한다.",
+        "그래서 답답한 순간이 생긴다.",
+        "내용이 분명한데도 닿지 않는 말들이 있기 때문이다.",
+        "현실을 안다는 것은,",
+        "무엇이 맞는가만이 아니라 무엇이 움직이는가를 함께 보는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Han Feizi",
+        "source": "Han Feizi",
+        "book": "Han Feizi",
+        "chapter": "Shuo Nan",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "한비자",
+        "chapterDisplay": "세난"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "말을 꺼내는 일은 생각보다 어렵다.",
+        "같은 내용도 누구에게 언제 어떻게 닿느냐에 따라 전혀 다른 결과가 된다.",
+        "그래서 지혜는 아는 것만으로는 부족하다.",
+        "어떤 자리에서 어떤 말이 움직일 수 있는지 살피는 감각까지 필요하다.",
+        "말은 진실일 뿐 아니라 타이밍이기도 하다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Han Feizi",
+        "source": "Han Feizi",
+        "book": "Han Feizi",
+        "chapter": "Jie Lao",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "한비자",
+        "chapterDisplay": "해로"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "너무 앞서 드러나는 것은 쉽게 꺾일 수 있다.",
+        "분명한 모양을 드러내지 않아도",
+        "흐름을 바꿀 수 있는 힘이 있다.",
+        "그래서 강함은 늘 커 보이는 얼굴만 가지지 않는다.",
+        "조용히 버티는 것이 오히려 더 오래 간다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Han Feizi",
+        "source": "Han Feizi",
+        "book": "Han Feizi",
+        "chapter": "You Du",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "한비자",
+        "chapterDisplay": "유도"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "겉으로 드러나는 말과 안쪽의 뜻은 다를 수 있다.",
+        "그 차이를 보지 못하면 마음은 쉽게 속는다.",
+        "세상은 늘 설명대로 움직이지 않고,",
+        "사람도 늘 말한 대로 행동하지 않는다.",
+        "그래서 현실을 아는 일은,",
+        "표면보다 동기를 먼저 읽는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Han Feizi",
+        "source": "Han Feizi",
+        "book": "Han Feizi",
+        "chapter": "Wu Du",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "한비자",
+        "chapterDisplay": "오두"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "좋은 마음만으로 오래 유지되지 않는 일들이 있다.",
+        "기대와 선의는 아름답지만,",
+        "구조가 약하면 쉽게 무너진다.",
+        "그래서 현실은 늘 마음만으로 굴러가지 않는다.",
+        "지탱하는 틀이 있을 때,",
+        "좋은 뜻도 비로소 오래 살아남는다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Liezi",
+        "source": "Liezi",
+        "book": "Liezi",
+        "chapter": "Tang Wen",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "열자",
+        "chapterDisplay": "탕문"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "작아 보이는 힘도 오래 이어지면 큰 변화를 만든다.",
+        "처음에는 움직이지 않을 것 같던 것도,",
+        "끊기지 않는 흐름 앞에서는 결국 모양을 바꾼다.",
+        "그래서 중요한 것은 한 번의 크기보다,",
+        "계속 이어지는 방향일 때가 많다.",
+        "지속은 눈에 띄지 않아도 끝내 남는다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Liezi",
+        "source": "Liezi",
+        "book": "Liezi",
+        "chapter": "Zhong Ni",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "열자",
+        "chapterDisplay": "중니"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "너무 많이 알려고 할수록 오히려 더 복잡해진다.",
+        "생각은 끝없이 갈라지고,",
+        "마음은 그 사이에서 더 쉽게 지친다.",
+        "조금 덜 붙잡아야 보이는 길도 있다.",
+        "놓는다는 것은 포기가 아니라,",
+        "복잡함을 덜어내는 방식이다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Liezi",
+        "source": "Liezi",
+        "book": "Liezi",
+        "chapter": "Li Ming",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "열자",
+        "chapterDisplay": "역명"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "삶에는 분명 내 뜻대로 움직이지 않는 부분이 있다.",
+        "그것을 모두 통제하려 들수록 더 지치기 쉽다.",
+        "하지만 모든 것을 놓아 버릴 필요도 없다.",
+        "붙잡아야 할 것과 흘려보내야 할 것을 구분하는 순간,",
+        "마음은 생각보다 빠르게 가벼워진다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Liezi",
+        "source": "Liezi",
+        "book": "Liezi",
+        "chapter": "Huang Di",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "열자",
+        "chapterDisplay": "황제"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "너무 힘을 주면 오히려 흐름이 끊길 때가 있다.",
+        "붙잡으려 할수록 더 멀어지는 일도 있다.",
+        "자연스러움은 아무것도 하지 않는 상태가 아니라,",
+        "과한 힘을 덜어내고 흐름을 따르는 것이다.",
+        "조금 느슨해질 때 오히려 더 오래 간다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Liezi",
+        "source": "Liezi",
+        "book": "Liezi",
+        "chapter": "Tian Rui",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "열자",
+        "chapterDisplay": "천서"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "변화는 늘 설명보다 먼저 찾아온다.",
+        "삶과 죽음도, 만남과 이별도,",
+        "큰 흐름 속에서는 이름만 다른 이동이다.",
+        "그래서 붙잡으려는 마음이 클수록 두려움도 커진다.",
+        "완전히 이해하지 못해도 괜찮다.",
+        "흘러간다는 사실을 받아들이는 것만으로도 마음은 달라진다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Sunzi",
+        "source": "The Art of War",
+        "book": "The Art of War",
+        "chapter": "Laying Plans",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "손자병법",
+        "chapterDisplay": "시계"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "움직이기 전에 먼저 살펴야 할 것들이 있다.",
+        "상황을 읽지 못하면 힘이 있어도 쉽게 흔들린다.",
+        "급하게 나아가는 마음은 분명해 보여도,",
+        "준비 없는 움직임은 오래 버티기 어렵다.",
+        "조용한 계산은 겉으로 잘 보이지 않지만,",
+        "결과를 가장 크게 바꾸는 힘이다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Sunzi",
+        "source": "The Art of War",
+        "book": "The Art of War",
+        "chapter": "Attack by Stratagem",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "손자병법",
+        "chapterDisplay": "모공"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "가장 좋은 승리는 크게 부수지 않고 끝내는 쪽에 가깝다.",
+        "힘을 많이 쓰는 것이 항상 뛰어난 것은 아니다.",
+        "상처를 줄이면서 목적에 이르는 길이 있다면,",
+        "그것이 더 높은 방식일 수 있다.",
+        "진짜 실력은 종종 조용한 데서 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Sunzi",
+        "source": "The Art of War",
+        "book": "The Art of War",
+        "chapter": "Waging War",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "손자병법",
+        "chapterDisplay": "작전"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "길게 끌수록 손해가 커지는 일들이 있다.",
+        "처음에는 버틸 수 있을 것 같아도,",
+        "시간은 조용히 많은 것을 소모시킨다.",
+        "그래서 중요한 것은 무조건 오래 버티는 것이 아니라,",
+        "언제 힘을 쓰고 언제 멈출지를 아는 판단이다.",
+        "지속은 무모함과 다르다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Sunzi",
+        "source": "The Art of War",
+        "book": "The Art of War",
+        "chapter": "Military Disposition",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "손자병법",
+        "chapterDisplay": "군형"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "기회만 기다리는 것보다",
+        "무너지지 않는 자리를 먼저 만드는 편이 낫다.",
+        "기회는 늘 내 뜻대로 오지 않지만,",
+        "준비된 쪽은 그것을 더 정확히 붙잡는다.",
+        "견고함은 눈에 띄지 않아도,",
+        "결국 가장 결정적인 차이를 남긴다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Sunzi",
+        "source": "The Art of War",
+        "book": "The Art of War",
+        "chapter": "Energy",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "손자병법",
+        "chapterDisplay": "병세"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "힘은 무조건 크게 쓰는 데서만 생기지 않는다.",
+        "언제 모으고 언제 풀어야 하는지를 아는 감각이 더 중요하다.",
+        "작은 흐름이 맞아떨어지면 큰 힘이 되고,",
+        "아무리 강한 것도 흐름을 잃으면 쉽게 무너진다.",
+        "타이밍은 힘 못지않게 중요한 요소가 된다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Wang Yangming",
+        "source": "Instructions for Practical Living",
+        "book": "Instructions for Practical Living",
+        "chapter": "On the Unity of Knowledge and Action",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "전습록",
+        "chapterDisplay": "지행합일"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "안다고 말하면서도 움직이지 못하는 순간이 있다.",
+        "그럴 때는 정말 알고 있는지 다시 돌아보게 된다.",
+        "삶으로 이어지지 않는 앎은",
+        "아직 충분히 내 것이 아닐지도 모른다.",
+        "행동이 붙을 때 비로소 이해도 더 분명해진다.",
+        "앎과 삶은 생각보다 멀리 떨어져 있지 않다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Wang Yangming",
+        "source": "Instructions for Practical Living",
+        "book": "Instructions for Practical Living",
+        "chapter": "On Innate Knowing",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "전습록",
+        "chapterDisplay": "양지"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람의 마음 안에는 이미 알고 있는 것이 있다.",
+        "다만 욕심과 분주함이 그것을 가릴 뿐이다.",
+        "조용히 돌아보는 순간,",
+        "전에는 흐렸던 기준이 다시 또렷해진다.",
+        "새로 만드는 것이 아니라,",
+        "본래 있던 것을 다시 밝히는 일에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Wang Yangming",
+        "source": "Instructions for Practical Living",
+        "book": "Instructions for Practical Living",
+        "chapter": "On Removing Selfish Desire",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "전습록",
+        "chapterDisplay": "사욕 제거"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "마음은 쉽게 자기 쪽으로 기운다.",
+        "조금만 흐려져도 보고 싶은 것만 보게 된다.",
+        "그 기울어짐이 쌓이면 판단도 함께 흐려진다.",
+        "그래서 중요한 것은 더 많이 아는 것이 아니라,",
+        "마음을 흐리는 것을 덜어내는 일이다.",
+        "맑아질수록 기준도 다시 보이기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Wang Yangming",
+        "source": "Instructions for Practical Living",
+        "book": "Instructions for Practical Living",
+        "chapter": "On Self-Reflection",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "전습록",
+        "chapterDisplay": "성찰"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "문제는 바깥에만 있는 것처럼 느껴질 때가 많다.",
+        "하지만 조금 멈추어 보면",
+        "내 마음의 기울어짐이 먼저 보인다.",
+        "남을 바로잡으려 하기 전에,",
+        "스스로의 흐름을 살피는 일이 필요하다.",
+        "안쪽이 흐려진 채 바깥만 붙잡으면 삶은 더 복잡해진다."
+      ]
+    },
+    {
+      "id": "PAS_EASTERN_MISC2_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Wang Yangming",
+        "source": "Instructions for Practical Living",
+        "book": "Instructions for Practical Living",
+        "chapter": "On Sincerity",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "전습록",
+        "chapterDisplay": "성"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "진실함은 남에게 보이기 위한 태도와 다르다.",
+        "보지 않는 자리에서도 흐트러지지 않는 쪽에 더 가깝다.",
+        "마음과 행동이 자꾸 멀어질수록 사람은 쉽게 지친다.",
+        "반대로 안과 밖이 조금씩 맞아갈수록,",
+        "삶은 더 단순하고 단단해진다.",
+        "성실함은 결국 자신에게 가장 먼저 닿는 힘이다."
+      ]
+    }
+  ]
+}

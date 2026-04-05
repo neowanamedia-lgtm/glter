@@ -1,0 +1,197 @@
+﻿{
+  "passages": [
+    {
+      "id": "QURAN_P4_0002",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Balad",
+        "reference": "Quran 90:4",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알발라드",
+        "referenceDisplay": "알발라드 90장 4절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "사람은 고난이 닥칠 때마다 자신만 특별히 버려진 것처럼 느낀다.",
+        "그러나 코란은 인간이 수고와 어려움 속에 창조되었다고 말한다.",
+        "이 말씀은 삶의 무게를 이상한 일처럼 여기지 않게 만든다.",
+        "어려움은 내가 잘못이 아니라 인간 존재의 한 부분일 수 있다.",
+        "이 사실을 알면 고난 속에서도 자신을 덜 미워하게 된다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0006",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Ad-Duha",
+        "reference": "Quran 93:11",
+        "sourceDisplay": "코란",
+        "bookDisplay": "앗두하",
+        "referenceDisplay": "앗두하 93장 11절"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "은혜는 너무 익숙해지면 자주 침묵 속에 묻힌다.",
+        "받은 것이 많아도 마음은 금세 당연함으로 기울어진다.",
+        "코란은 주님의 은혜를 말하라고 가르친다.",
+        "은혜를 기억하는 일은 자랑이 아니라 감사의 훈련이다.",
+        "감사는 받은 것을 더 크게 만들고, 잊고 있던 기쁨을 다시 깨운다.",
+        "지나온 삶 속에서도 다시 빛나는 선물을 발견할 수 있다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0007",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Ash-Sharh",
+        "reference": "Quran 94:5-6",
+        "sourceDisplay": "코란",
+        "bookDisplay": "앗샤르흐",
+        "referenceDisplay": "앗샤르흐 94장 5-6절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "고통이 길어질수록 그것이 전부인 것처럼 느낀다.",
+        "어려움 뒤에 무엇이 올지 모르니 마음은 더 쉽게 가라앉는다.",
+        "어려움은 혼자 오지 않는다.",
+        "눈물 속에서도 이미 함께 오고 있는 자비를 기다릴 수 있다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0008",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "At-Tin",
+        "reference": "Quran 95:4",
+        "sourceDisplay": "코란",
+        "bookDisplay": "앗틴",
+        "referenceDisplay": "앗틴 95장 4절"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 실수와 상처를 반복하면서 스스로를 점점 낮게 보게 된다.",
+        "내 안에 남은 것은 부족함뿐이라고 여길 때도 있다.",
+        "그러나 코란은 인간을 가장 아름다운 모습으로 창조하셨다고 말한다.",
+        "이 말씀은 하나님께서 주신 본래의 존엄이 있다는 사실을 일깨운다.",
+        "존엄은 성취로 얻는 것이 아니라 창조 안에서 이미 주어진 선물이다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0014",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Qari'ah",
+        "reference": "Quran 101:6-9",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알까리아",
+        "referenceDisplay": "알까리아 101장 6-9절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 늘 눈에 보이는 무게만 계산하며 산다.",
+        "하지만 하나님 앞에서는 전혀 다른 저울이 놓여 있다.",
+        "코란은 선행의 저울이 무거운 자와 가벼운 자를 말한다.",
+        "삶의 진짜 무게는 세상이 칭찬하는 기준과 다를 수 있다.",
+        "겉으로 가벼워 보여도 하나님 앞에서는 무거운 삶이 있다.",
+        "사람의 시선보다 하나님의 저울을 더 두려워하며 살아야 한다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0016",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-'Asr",
+        "reference": "Quran 103:1-3",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알아스르",
+        "referenceDisplay": "알아스르 103장 1-3절"
+      },
+      "emotionCore": "none",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "시간은 가만히 있어도 우리를 데리고 흐른다.",
+        "붙잡지 않으면 삶은 쉽게 흩어지고 후회는 뒤늦게 몰려온다.",
+        "인생은 그냥 흘러가는 시간이 아니라 무엇으로 채우느냐에 따라 달라질 수 있다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0017",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Al-Humazah",
+        "reference": "Quran 104:1",
+        "sourceDisplay": "코란",
+        "bookDisplay": "알후마자",
+        "referenceDisplay": "알후마자 104장 1절"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람을 깎아내리는 말은 짧아도 오래 남는다.",
+        "입의 습관은 결국 영혼의 상태를 드러낸다.",
+        "남을 낮추는 말은 내 마음까지 거칠게 만든다.",
+        "혀를 가볍게 쓰는 대신 자비를 배워야 한다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0019",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "Quraysh",
+        "reference": "Quran 106:3-4",
+        "sourceDisplay": "코란",
+        "bookDisplay": "꾸라이쉬",
+        "referenceDisplay": "꾸라이쉬 106장 3-4절"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "불안이 없을 때 사람은 평온을 당연하게 여긴다.",
+        "삶의 가장 큰 선물들은 화려하지 않아서 더 쉽게 잊힌다.",
+        "평범한 평안이야말로 깊은 자비의 흔적일 수 있다.",
+        "안전한 하루와 채워진 식탁 앞에서 다시 감사해야 한다."
+      ]
+    },
+    {
+      "id": "QURAN_P4_0023",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Islam",
+        "source": "Quran",
+        "book": "An-Nasr",
+        "reference": "Quran 110:1-3",
+        "sourceDisplay": "코란",
+        "bookDisplay": "안나스르",
+        "referenceDisplay": "안나스르 110장 1-3절"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "사람은 일이 잘되면 자기 힘부터 떠올리기 쉽다.",
+        "성공은 자칫 마음을 높이게 만들고 감사를 잊게 만든다.",
+        "승리는 자랑의 끝이 아니라 더 깊은 겸손의 시작이다."
+      ]
+    }
+  ]
+}

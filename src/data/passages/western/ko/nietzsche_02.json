@@ -1,0 +1,607 @@
+{
+  "passages": [
+    {
+      "id": "PAS_NIETZSCHE_0031",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Human, All Too Human",
+        "book": "Human, All Too Human",
+        "chapter": "First and Last Things",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간적인, 너무나 인간적인",
+        "chapterDisplay": "처음과 마지막 것들"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자신의 생각이 아주 높고 순수하다고 믿고 싶어 한다.",
+        "그러나 많은 생각은 삶의 필요와 두려움에서 자라난다.",
+        "우리는 스스로를 맑게 이해한다고 여기지만,",
+        "정작 그 밑에는 오래된 습관과 욕망이 놓여 있다.",
+        "자기이해는 자부심보다 의심에서 시작되야 한다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0033",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Human, All Too Human",
+        "book": "Human, All Too Human",
+        "chapter": "The Religious Life",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간적인, 너무나 인간적인",
+        "chapterDisplay": "종교적 삶"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "고통이 깊을수록 사람은 더 큰 뜻을 원한다.",
+        "우연처럼 보이는 삶을 견디기 어렵기 때문이다.",
+        "그래서 인간은 종종 자신의 상처를",
+        "더 높은 질서 속에 놓아두고 싶어 한다.",
+        "의미를 찾으려는 마음은  견디고자 하는 마음이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0034",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Human, All Too Human",
+        "book": "Human, All Too Human",
+        "chapter": "Signs of Higher and Lower Culture",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간적인, 너무나 인간적인",
+        "chapterDisplay": "고급 문화와 저급 문화의 징후"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "깊은 사람은 즉시 반응하지 않는다.",
+        "자극에 곧장 자신을 내맡기기보다,",
+        "조금 더 오래 머무르며 판단을 늦출 줄 안다.",
+        "서두르지 않는다는 것은 힘이 없다는 뜻이 아니다.",
+        "오히려 더 큰 여유와 더 단단한 질서를 갖고 있다는 뜻이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0035",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Human, All Too Human",
+        "book": "Human, All Too Human",
+        "chapter": "Man in Society",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인간적인, 너무나 인간적인",
+        "chapterDisplay": "사회 속의 인간"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 혼자서는 자기 자신을 안다고 믿기 쉽다.",
+        "그러나 타인 앞에 설 때 비로소",
+        "자기 안의 허영과 두려움, 기대가 드러난다.",
+        "관계는 단지 위로의 장소가 아니라 거울의 자리이다.",
+        "타인과의 마주침은 때로 가장 불편한 형태의 자기 인식이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0036",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Daybreak",
+        "book": "Daybreak",
+        "chapter": "Preface",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "서광",
+        "chapterDisplay": "서문"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "새로운 아침은 갑자기 오지 않는다.",
+        "오랜 어둠 속에서 서서히 윤곽을 드러낸다.",
+        "생각도 마찬가지다.",
+        "사람은 어느 날 갑자기 달라지는 것처럼 보이지만,",
+        "실은 오래전부터 다른 방향을 준비한다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0037",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Daybreak",
+        "book": "Daybreak",
+        "chapter": "On the Prejudices of Morality",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "서광",
+        "chapterDisplay": "도덕의 편견에 대하여"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 오랫동안 옳다고 배운 것들을",
+        "거의 본능처럼 반복하며 살아간다.",
+        "하지만 익숙하다는 이유만으로",
+        "그 기준이 진실이 되는 것은 아니다.",
+        "도덕의 많은 명령은 설명되지 않은 채 전해졌고,",
+        "그 무비판적 반복이 생각보다 더 깊게 사람을 묶어둔다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0038",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Daybreak",
+        "book": "Daybreak",
+        "chapter": "The Misunderstanding of Suffering",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "서광",
+        "chapterDisplay": "고통의 오해"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "고통은 종종 바로 없애야 할 적처럼 여겨진다.",
+        "그러나 어떤 고통은 사람을 파괴하기보다",
+        "그 안의 깊이를 드러내기도 한다.",
+        "문제는 고통이 있다는 사실보다,",
+        "그것을 단지 불필요한 것으로만 해석하는 태도이다.",
+        "견딘다는 것은 언제나 약함의 증거만은 아니다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0039",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Daybreak",
+        "book": "Daybreak",
+        "chapter": "Habit",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "서광",
+        "chapterDisplay": "습관"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자주 자기 생각으로 산다고 믿지만,",
+        "실제로는 오래된 습관이 대신 선택하고 있는 경우가 많다.",
+        "반복은 편안함을 주지만,",
+        "그 편안함은 때로 삶의 새로운 가능성을 가린다.",
+        "그래서 낯선 길은 위험해 보여도,",
+        "때로는 그 불편함이야말로 진짜 깨어남의 시작이 된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0040",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Daybreak",
+        "book": "Daybreak",
+        "chapter": "Self-Observation",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "서광",
+        "chapterDisplay": "자기 관찰"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기를 관찰한다는 것은 자신을 심판하는 일이 아니다.",
+        "오히려 자기 안에서 반복되는 움직임을",
+        "조금 더 차갑고 정직하게 바라보는 일에 가깝다.",
+        "사람은 스스로를 너무 사랑해서도,",
+        "너무 미워해서도 제대로 이해할 수 없다.",
+        "이해는 애정보다 정직함에 더 가까운 기술이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0041",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Gay Science",
+        "book": "The Gay Science",
+        "chapter": "Joke, Cunning, and Revenge",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "농담, 영리함, 복수"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "가벼워 보이는 웃음 뒤에도 종종 상처가 숨어 있다.",
+        "사람은 직접 복수하지 못할 때",
+        "농담과 비꼼으로 자기 힘을 되찾으려 한다.",
+        "그래서 말의 가벼움만 보고 마음까지 가볍다고 단정할 수는 없다.",
+        "유쾌함 역시 때로는 상처 입은 힘의 한 형식이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0042",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Gay Science",
+        "book": "The Gay Science",
+        "chapter": "Long Live Physics!",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "물리학 만세"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "세계는 인간의 바람에 맞춰 정리되어 있지 않다.",
+        "우리는 의미를 원하지만,",
+        "세계는 먼저 힘과 운동, 관계의 장으로 존재한다.",
+        "그래서 생각은 세계를 위로의 장소로 만들기보다,",
+        "있는 그대로 견디고 다시 읽는 법을 배워야 한다.",
+        "성숙은 위안보다 정확함을 택할 때 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0043",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Gay Science",
+        "book": "The Gay Science",
+        "chapter": "What Is Called Love",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "사랑이라 불리는 것"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "사랑은 순수한 헌신으로만 이루어지지 않는다.",
+        "그 안에는 소유하려는 마음과 두려움,",
+        "자기 자신을 확인받고 싶은 욕망도 함께 얽혀 있다.",
+        "그래서 사랑은 아름답기만 한 감정이 아니라,",
+        "인간이 얼마나 복잡한 존재인지를 보여주는 깊은 장면이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0044",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Gay Science",
+        "book": "The Gay Science",
+        "chapter": "One Thing Is Needful",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "오직 한 가지 필요한 것"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶에는 많은 재능보다 하나의 중심이 더 중요할 때가 있다.",
+        "사람은 온갖 가능성 속에서 흩어지기 쉽고,",
+        "조금씩 모든 것을 하다가 끝내 자기 것을 잃어버리기도 한다.",
+        "그래서 중요한 것은 더 많이 갖는 일이 아니라,",
+        "자기 삶을 묶어주는 하나의 리듬과 하나의 방향을 갖는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0045",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Gay Science",
+        "book": "The Gay Science",
+        "chapter": "The Heaviest Weight",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "즐거운 학문",
+        "chapterDisplay": "가장 무거운 짐"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "지금 이 삶을 그대로 끝없이 반복해야 한다고 들었을 때,",
+        "사람은 자기 삶을 얼마나 사랑하는지 비로소 시험받는다.",
+        "같은 고통과 같은 실수, 같은 기쁨까지 다시 와도 좋다고 말할 수 있는가.",
+        "이 질문은 미래를 바꾸는 기술이 아니라",
+        "현재를 얼마나 긍정할 수 있는지를 묻는 가장 무거운 질문이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0046",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "On the Genealogy of Morality",
+        "book": "On the Genealogy of Morality",
+        "chapter": "First Essay",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕의 계보",
+        "chapterDisplay": "제1논문"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "선과 악의 구분은 영원한 하늘의 언어처럼 보이지만,",
+        "그것은 힘의 관계 속에서 자라났다.",
+        "어떤 가치는 강한 자의 자기 긍정에서 나오고,",
+        "어떤 가치는 상처 입은 자의 원망 속에서 굳어진다.",
+        "가치의 문제는 언제나 누가 말하고 있는가의 문제이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0047",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "On the Genealogy of Morality",
+        "book": "On the Genealogy of Morality",
+        "chapter": "First Essay: Ressentiment",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕의 계보",
+        "chapterDisplay": "제1논문: 원한"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "직접 힘을 쓸 수 없는 마음은 오래 기억하는 법을 배운다.",
+        "그 기억은 상처를 붙들고,",
+        "붙들린 상처는 원한으로 자란다.",
+        "원한은 단순히 화를 내는 감정이 아니다.",
+        "자신의 무기력을 해석으로 보상하려는 오래된 심리다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0049",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "On the Genealogy of Morality",
+        "book": "On the Genealogy of Morality",
+        "chapter": "Second Essay: Guilt",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕의 계보",
+        "chapterDisplay": "제2논문: 죄책"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["sadness"],
+      "lines": [
+        "죄책감은 단순히 잘못을 안다는 감정으로 끝나지 않는다.",
+        "그것은 자기 안으로 향한 공격성,",
+        "밖으로 쓰지 못한 힘이 자기 자신을 향해 굽어든 형식이다.",
+        "사람은 종종 자기 자신을 벌줌으로써",
+        "설명되지 않는 고통에 의미를 부여하려 한다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0050",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "On the Genealogy of Morality",
+        "book": "On the Genealogy of Morality",
+        "chapter": "Third Essay",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕의 계보",
+        "chapterDisplay": "제3논문"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "삶이 견디기 어려워질수록 사람은 금욕의 이상에 끌리기 쉽다.",
+        "욕망을 줄이고 고통에 뜻을 부여하면,",
+        "적어도 무의미 속에 버려져 있다는 감각에서는 벗어날 수 있기 때문이다.",
+        "아무 의미도 없는 고통보다 차라리 고통스러운 의미를 택하는 인간의 집요함이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0052",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "The Antichrist",
+        "book": "The Antichrist",
+        "chapter": "Life and Value",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "안티크리스트",
+        "chapterDisplay": "삶과 가치"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "가치는 삶을 더 강하게 하는 방향으로 읽힐 수도 있고,",
+        "삶을 더 약하게 하는 방향으로 읽힐 수도 있다.",
+        "문제는 어떤 교리가 참처럼 들리느냐가 아니다.",
+        "그 교리가 사람을 더 생생하게 살게 하는가,",
+        "아니면 자기 자신을 작아지게 만드는가에 있다.",
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0053",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Ecce Homo",
+        "book": "Ecce Homo",
+        "chapter": "Why I Write Such Good Books",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "이 사람을 보라",
+        "chapterDisplay": "나는 왜 이렇게 좋은 책을 쓰는가"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "자신감은 단순한 허세가 아니다.",
+        "그것은 오랫동안 자신을 벼려온 사람이",
+        "자기 작업을 하나의 운명처럼 받아들이는 방식에 가깝다.",
+        "자기 가치를 스스로 긍정할 수 없는 사람은",
+        "끝내 남의 인정에 휘둘리기 쉽다.",
+        "자기 확언은 자기 보존의 형식이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0054",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Ecce Homo",
+        "book": "Ecce Homo",
+        "chapter": "Why I Am So Clever",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "이 사람을 보라",
+        "chapterDisplay": "나는 왜 이렇게 영리한가"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기 삶을 잘 다루는 지혜는",
+        "모든 것을 견디겠다는 맹목적 의지에서 오지 않는다.",
+        "무엇이 자신을 해치고,",
+        "무엇이 자신을 살리는지 구별하는 감각에서 나온다.",
+        "강함은 무조건 버티는 데 있지 않고,",
+        "자기에게 맞는 삶을 지켜내는 데 있다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0055",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Ecce Homo",
+        "book": "Ecce Homo",
+        "chapter": "Why I Am So Wise",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "이 사람을 보라",
+        "chapterDisplay": "나는 왜 이렇게 현명한가"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자주 자기에게 맞지 않는 삶을 이상이라 부르며 견딘다.",
+        "그러나 오래 지속되는 이상은 자기 부정 위에서 자라지 않는다.",
+        "지혜는 자기 본성과 조건을 세밀하게 아는 감각이다.",
+        "자기를 속이지 않는 일이야말로 가장 어려운 훈련이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0056",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On the Tree on the Mountainside",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "산비탈의 나무에 대하여"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "높이 자라는 나무일수록 뿌리를 더 깊이 어둠 속으로 내린다.",
+        "사람도 마찬가지다.",
+        "더 높아지려는 사람일수록 더 깊은 불안과 고독을 통과한다.",
+        "위로 향하는 힘과 아래로 떨어지는 위험은 함께 자란다.",
+        "성장에는 늘 그림자가 동행한다."
+       ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0058",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "On Old and New Tablets",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "낡은 판과 새로운 판에 대하여"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "오래된 규칙을 깨뜨리는 것만으로는 충분하지 않다.",
+        "무너뜨린 자리에 어떤 삶을 세울 것인지가 더 중요하다.",
+        "부정은 시작일 수 있지만 완성은 아니다.",
+        "새로운 가치는 오직 새롭게 살아보려는 사람에게서만 나온다.",
+        "창조는 파괴보다 더 긴 인내를 요구한다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0059",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "The Vision and the Riddle",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "환영과 수수께끼"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "시간은 앞으로만 흐르는 것처럼 보이지만,",
+        "인간의 마음은 자꾸 뒤를 돌아본다.",
+        "반복과 운명, 선택과 책임은 그렇게 서로 얽힌다.",
+        "살아온 이 삶을 다시 한 번 선택할 수 있겠느냐는 질문은",
+        "곧 지금을 어떻게 살 것인가를 되묻는 질문이다."
+      ]
+    },
+    {
+      "id": "PAS_NIETZSCHE_0060",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Friedrich Nietzsche",
+        "source": "Thus Spoke Zarathustra",
+        "book": "Thus Spoke Zarathustra",
+        "chapter": "The Sign",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "차라투스트라는 이렇게 말했다",
+        "chapterDisplay": "징표"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "오래 기다린 사람은 마침내 자기 때를 알아본다.",
+        "그때는 남이 불러주어서 오는 것이 아니라,",
+        "자기 안의 힘이 충분히 익었을 때 조용히 찾아온다.",
+        "성숙은 착해지는 일이 아니라",
+        "자기 삶을 자기 힘으로 다시 긍정할 수 있는 상태이다.",
+      ]
+    }
+  ]
+}

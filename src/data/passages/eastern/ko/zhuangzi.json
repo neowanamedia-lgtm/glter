@@ -1,0 +1,720 @@
+{
+  "passages": [
+    {
+      "id": "PAS_ZHUANGZI_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Xiaoyaoyou",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "소요유"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "북쪽 바다에 아주 큰 물고기가 있었다.",
+        "그 이름은 곤이라 불렸고, 그 크기는 헤아릴 수 없었다.",
+        "어느 날 그는 새로 변해 붕이 되었고,",
+        "거대한 날개를 펼쳐 바람을 타고 하늘로 올라갔다.",
+        "작은 새들은 그를 보며 웃었다.",
+        "저렇게 멀리 날아가서 무엇을 하겠느냐고.",
+        "그러나 그들은 알지 못했다.",
+        "높이 날아본 적 없는 자는,",
+        "넓은 하늘의 이유를 이해할 수 없다는 것을."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Qiwulun",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "제물론"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 옳고 그름을 나누며 살아간다.",
+        "이것은 맞고 저것은 틀렸다고 말하면서,",
+        "스스로 기준을 만들고 그 안에 머문다.",
+        "그러나 바람은 어느 쪽에도 머물지 않고,",
+        "물은 어느 틀에도 갇히지 않는다.",
+        "세상의 모든 소리는 각자의 이유로 울리고,",
+        "그것을 하나로 재단하는 순간,",
+        "우리는 이미 흐름을 놓치고 있는지도 모른다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Yangshengzhu",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "양생주"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "한 도축인이 있었다.",
+        "그는 칼을 휘두르면서도 결코 힘을 쓰지 않았다.",
+        "뼈와 뼈 사이의 빈 틈을 따라,",
+        "자연스럽게 칼을 흘려보냈다.",
+        "그래서 그의 칼은 오래도록 무뎌지지 않았다.",
+        "억지로 밀어붙이지 않는 것,",
+        "그것이 오히려 가장 오래 지속되는 방법이었다.",
+        "삶도 어쩌면,",
+        "힘이 아니라 흐름으로 살아가는 것인지 모른다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Renjianshi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "인간세"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "어떤 나무는 뒤틀리고 쓸모없어 보였다.",
+        "그래서 누구도 그것을 베어가지 않았다.",
+        "그 나무는 오랫동안 살아남아,",
+        "숲 속에서 가장 오래된 존재가 되었다.",
+        "쓸모 있다는 이유로 사라지는 것과,",
+        "쓸모없다는 이유로 남는 것.",
+        "우리는 종종 그 기준을 뒤집어 생각하지 않는다.",
+        "살아남는다는 것은,",
+        "반드시 유용함과 같은 의미가 아닐지도 모른다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Dechongfu",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "덕충부"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "겉모습이 온전하지 않은 사람이 있었다.",
+        "사람들은 그를 보며 완전하지 않다고 말했다.",
+        "그러나 그의 말은 깊었고,",
+        "그의 태도는 흔들림이 없었다.",
+        "사람들은 점점 그의 곁에 머물렀다.",
+        "모양이 아니라 중심이 사람을 끌어당긴다는 것을,",
+        "그는 말없이 보여주고 있었다.",
+        "결국 사람을 이루는 것은,",
+        "보이는 것이 아니라 보이지 않는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Dazongshi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "대종사"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "삶과 죽음을 나누어 생각하는 것은 인간의 일이다.",
+        "그러나 큰 흐름 속에서는,",
+        "그 둘은 서로 다른 이름일 뿐이다.",
+        "봄이 지나 여름이 오듯,",
+        "하나의 변화가 또 다른 변화를 부른다.",
+        "슬픔은 남아도,",
+        "흐름은 멈추지 않는다.",
+        "그래서 받아들인다는 것은,",
+        "이해하는 것이 아니라 흘러가는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Yingdiwang",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "응제왕"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "세상을 바꾸려는 사람은 많다.",
+        "자신의 기준으로 모든 것을 맞추려 한다.",
+        "그러나 물은 억지로 모양을 바꾸지 않는다.",
+        "그저 담기는 그릇에 따라 달라질 뿐이다.",
+        "그래서 가장 깊은 변화는,",
+        "강요가 아니라 스며드는 것이다.",
+        "힘으로 움직이는 것은 오래가지 못하지만,",
+        "자연스러운 것은 오래 남는다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Qiushui",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "추수"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "가을에 비가 내리면 강물이 넘친다.",
+        "그때는 자신이 세상의 중심인 것처럼 느껴진다.",
+        "그러나 바다를 보는 순간,",
+        "그 생각은 조용히 사라진다.",
+        "크다는 것은 비교 속에서 만들어지고,",
+        "그 비교는 언제든 바뀔 수 있다.",
+        "그래서 겸손은 배워서 생기는 것이 아니라,",
+        "넓은 것을 마주할 때 자연스럽게 생겨난다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Zhile",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "지락"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "참된 즐거움은 외부에서 오지 않는다.",
+        "무언가를 더 얻었을 때가 아니라,",
+        "아무것도 붙잡지 않을 때 찾아온다.",
+        "마음이 가벼워지는 순간,",
+        "세상은 조금 더 넓어 보인다.",
+        "그래서 비워낸다는 것은 잃는 것이 아니라,",
+        "다른 것을 받아들일 공간을 만드는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "chapter": "Shanmu",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자",
+        "chapterDisplay": "산목"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "산 속의 나무는 조용히 자란다.",
+        "아무도 보지 않는 곳에서,",
+        "시간을 따라 스스로를 완성해간다.",
+        "사람은 보이는 것을 기준으로 삼지만,",
+        "자연은 드러남을 기준으로 삼지 않는다.",
+        "그래서 진짜 변화는,",
+        "보이지 않는 곳에서 먼저 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "꿈속에서 나비가 되어 날았다.",
+        "꽃 사이를 떠돌며 아무 걱정도 없었다.",
+        "눈을 뜨니 다시 사람이 되어 있었다.",
+        "내가 나비의 꿈을 꾼 것인지,",
+        "나비가 나의 꿈을 꾸는 것인지 알 수 없었다.",
+        "확실한 것은 단 하나였다.",
+        "지금이라는 순간도,",
+        "언젠가는 흐릿해질 수 있다는 것."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 이름을 붙이며 안심한다.",
+        "이것은 이것이고 저것은 저것이라고 나누면서,",
+        "세상을 이해했다고 생각한다.",
+        "그러나 이름이 사라지는 순간,",
+        "그 경계도 함께 사라진다.",
+        "우리가 붙잡고 있는 것은,",
+        "진실이 아닐지도 모른다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "흐르는 물은 멈추지 않는다.",
+        "그러나 어디로 가야 할지 고민하지도 않는다.",
+        "그저 낮은 곳을 향해 자연스럽게 흘러갈 뿐이다.",
+        "그 흐름 속에서 길이 만들어지고,",
+        "그 길이 또 다른 흐름을 만든다.",
+        "억지로 방향을 정하지 않아도,",
+        "흐름은 스스로 길을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "붙잡으려 할수록 멀어지는 것들이 있다.",
+        "사람의 마음도,",
+        "시간도,",
+        "지나가는 순간들도 그렇다.",
+        "그래서 놓아주는 것은 포기가 아니라,",
+        "흐름을 인정하는 일이다.",
+        "그 인정 속에서,",
+        "비로소 마음이 가벼워진다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "하늘을 바라보며 이유 없이 웃는 순간이 있다.",
+        "아무것도 이루지 않았지만,",
+        "이미 충분하다고 느껴지는 순간이다.",
+        "그것이야말로 가장 순수한 기쁨이다.",
+        "조건이 없는 기쁨은,",
+        "사라지지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "큰 나무는 하루아침에 자라지 않는다.",
+        "오랜 시간 바람을 견디고,",
+        "계절을 지나며 조금씩 자란다.",
+        "그래서 단단함은 결과가 아니라 과정이다.",
+        "지금의 흔들림도,",
+        "그 과정 속에 포함되어 있다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "비교는 끝이 없다.",
+        "더 큰 것, 더 빠른 것, 더 나은 것을 바라보며,",
+        "자신을 계속 줄여간다.",
+        "그러나 본래의 크기는 비교로 정해지지 않는다.",
+        "그 자체로 이미 존재하고 있다.",
+        "그 사실을 잊는 순간,",
+        "불안은 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자연은 서두르지 않는다.",
+        "그럼에도 모든 것은 제때에 이루어진다.",
+        "서두르는 것은 인간의 마음일 뿐이다.",
+        "흐름을 믿는 순간,",
+        "조급함은 조금씩 사라진다.",
+        "그 자리에 여유가 남는다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "변하지 않기를 바라는 마음이 있다.",
+        "그러나 모든 것은 변한다.",
+        "그 변화를 거부할수록,",
+        "마음은 더 무거워진다.",
+        "흐름을 받아들이는 순간,",
+        "변화는 두려움이 아니라 자연이 된다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자신을 잃어버렸다고 느낄 때가 있다.",
+        "그러나 완전히 사라지는 것은 없다.",
+        "잠시 보이지 않을 뿐이다.",
+        "다시 바라보는 순간,",
+        "그것은 조용히 드러난다.",
+        "새로 만드는 것이 아니라 발견하는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "아무것도 하지 않는 하루가 있다.",
+        "그런데도 마음이 편안하다.",
+        "그 순간 우리는 깨닫는다.",
+        "존재만으로도 충분할 수 있다는 것을.",
+        "그래서 삶은 채워야 하는 것이 아니라,",
+        "느껴야 하는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 의미를 찾으려 한다.",
+        "모든 것에 이유를 붙이려 한다.",
+        "그러나 자연은 설명하지 않는다.",
+        "그저 존재할 뿐이다.",
+        "그래서 때로는 이해보다,",
+        "그대로 두는 것이 더 깊은 이해가 된다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "길은 처음부터 있는 것이 아니다.",
+        "사람이 걸어가며 만들어지는 것이다.",
+        "그래서 지금의 한 걸음은,",
+        "이미 길의 일부이다.",
+        "멈추지 않는다면,",
+        "그 길은 계속 이어진다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "지나간 시간은 돌아오지 않는다.",
+        "그러나 사라지는 것도 아니다.",
+        "형태만 바뀔 뿐이다.",
+        "기억으로,",
+        "감정으로,",
+        "조용히 남아 있다.",
+        "그래서 과거는 끝난 것이 아니라,",
+        "다른 모습으로 이어진다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "작은 시작은 눈에 띄지 않는다.",
+        "그러나 그것이 쌓이면,",
+        "어느 순간 큰 변화가 된다.",
+        "그래서 중요한 것은 크기가 아니라,",
+        "지속이다.",
+        "그 지속이 결국,",
+        "모든 것을 바꾼다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "확실함을 원할수록,",
+        "세상은 더 불확실하게 느껴진다.",
+        "모든 것을 알 수는 없다는 사실을 받아들일 때,",
+        "비로소 마음은 편해진다.",
+        "모르는 채로 살아가는 것도,",
+        "하나의 방식이다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "바람은 잡을 수 없다.",
+        "그러나 느낄 수는 있다.",
+        "삶도 마찬가지다.",
+        "모든 것을 붙잡으려 할 필요는 없다.",
+        "느끼는 것만으로도,",
+        "충분하다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지금의 나는 완성된 모습은 아니다.",
+        "계속 변하고 있는 과정이다.",
+        "그래서 부족함은 결함이 아니라,",
+        "가능성이다.",
+        "그 가능성이 남아 있는 한,",
+        "삶은 계속 열린다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "혼자라는 느낌이 들 때가 있다.",
+        "그러나 완전히 혼자인 순간은 없다.",
+        "바람이 있고,",
+        "빛이 있고,",
+        "시간이 함께 흐르고 있다.",
+        "그 사실을 떠올리는 순간,",
+        "고요함은 외로움이 아니라 평온이 된다."
+      ]
+    },
+    {
+      "id": "PAS_ZHUANGZI_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Zhuangzi",
+        "source": "Zhuangzi",
+        "book": "Zhuangzi",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "장자"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 하나의 길이 아니다.",
+        "수많은 가능성이 겹쳐진 흐름이다.",
+        "어느 방향으로 가든,",
+        "그 안에는 나름의 의미가 있다.",
+        "그래서 중요한 것은 정답이 아니라,",
+        "걸어가는 것이다.",
+        "그 걸음 속에서,",
+        "삶은 스스로 모습을 드러낸다."
+      ]
+    }
+  ]
+}

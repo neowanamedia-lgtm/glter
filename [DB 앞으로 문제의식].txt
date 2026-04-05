@@ -1,0 +1,123 @@
+[문제의식]
+
+현재 v2.4에서 동양 철학 / 서양 철학 / 기독교 / 불교 / 이슬람 카테고리는
+겉보기에는 정상 동작하지만, 실제로는 다음과 같은 구조적 문제가 존재한다.
+
+1. 일부 JSON 파일만 import/연결되어 전체 데이터가 반영되지 않는 문제
+2. 파일 수가 늘어날수록 import 누락, 중복, 충돌 가능성이 증가하는 문제
+3. 기독교/이슬람 등 일부 데이터에서 meta 구조 차이로 인해 에러가 발생했던 전적
+4. usePassage.ts 내부에 데이터 구조 해석, 출처 조합, 예외처리가 섞이면서
+   유지보수가 어려워지는 구조
+5. 앞으로 문학, 시, 에세이 등 카테고리가 무수히 늘어날 경우
+   현재 구조로는 확장이 불가능한 상태
+
+즉, 현재 구조는 "작은 규모에서는 동작하지만 확장 시 무너지는 구조"다.
+
+
+[핵심 원칙]
+
+1. usePassage.ts는 데이터 구조를 알지 않는다.
+2. usePassage.ts는 카테고리 개념을 직접 분기 처리하지 않는다.
+3. 데이터 해석, meta 보정, 출처 생성은 usePassage 이전 단계에서 끝낸다.
+4. 모든 데이터는 공통된 NormalizedPassage 형태로만 usePassage에 전달된다.
+5. 카테고리는 코드 분기(if)가 아니라 데이터(tags)로 표현한다.
+6. 새 카테고리 추가 시 usePassage.ts는 수정하지 않는다.
+
+
+[목표 구조]
+
+데이터 흐름은 다음과 같이 구성한다.
+
+[ 기존 JSON들 ]              [ 신규 JSON들 ]
+(eastern, western,          (literature, poetry,
+ christian, buddhism,        essay, etc...)
+ islam, ...)
+
+        │                           │
+        ▼                           ▼
+
+[ legacy adapter ]          [ standard normalize ]
+(기존 구조 → 표준화)        (이미 표준 구조)
+
+        │                           │
+        └──────────────┬────────────┘
+                       ▼
+
+        [ NormalizedPassage 배열 ]
+        (모든 데이터 통합된 상태)
+
+                       ▼
+
+              [ usePassage.ts ]
+         (필터링 + 랜덤 선택만)
+
+                       ▼
+
+                [ UI / Screen ]
+
+
+[NormalizedPassage 표준 구조]
+
+type NormalizedPassage = {
+  id: string;
+  lines: string[];
+  sourceText: string;
+  emotionCore: 'joy' | 'hope' | 'anxiety' | 'depression' | 'sadness' | 'unknown';
+  emotionExtended: string[];
+  tags: {
+    domain?: string[];      // philosophy, religion, literature
+    tradition?: string[];   // eastern, western, buddhism, christianity, islam
+    genre?: string[];       // aphorism, scripture, essay, poem
+    language?: string[];    // ko, en, ja ...
+  };
+};
+
+
+[구조 전략]
+
+1. 기존 카테고리 (동양/서양/기독교/불교/이슬람)는 당분간 유지
+2. 신규 카테고리는 처음부터 표준 구조 + tags 기반으로 생성
+3. legacy adapter에서 기존 데이터를 NormalizedPassage로 변환
+4. standard normalize에서 신규 데이터를 동일 구조로 유지
+5. getAllNormalizedPassages에서 둘을 합쳐 하나의 배열 생성
+6. usePassage.ts는 이 배열만 받아서 처리
+
+
+[절대 금지 사항]
+
+- usePassage.ts 내부에서 종교/철학별 분기 처리 추가
+- 파일마다 다른 meta 구조를 usePassage에서 직접 처리
+- require(modulePath) 같은 동적 로딩
+- 카테고리 증가 시 hook 수정
+- 일부 파일만 임시 연결하는 땜질 방식
+
+
+[실행 전략]
+
+단계적으로 진행한다.
+
+1단계:
+- 현재 구조 유지
+- 누락된 JSON 파일만 기존 방식으로 추가 연결 (안정화 목적)
+
+2단계:
+- legacy adapter 분리 (meta 보정, sourceText 생성 외부화)
+
+3단계:
+- usePassage.ts 단순화 (필터링 + 랜덤 선택만 남김)
+
+4단계:
+- 신규 카테고리부터 표준 구조 적용
+
+5단계:
+- 기존 카테고리를 필요 시 점진적으로 표준 구조로 이전
+
+
+[최종 결론]
+
+이 구조의 핵심은 다음 한 문장으로 요약된다.
+
+usePassage.ts는 데이터를 이해하는 곳이 아니라,
+이미 정리된 데이터를 소비하는 곳이어야 한다.
+
+그리고 카테고리는 코드가 아니라 데이터(tags)로 확장되어야 한다.

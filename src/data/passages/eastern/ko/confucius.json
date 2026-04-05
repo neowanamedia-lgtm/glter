@@ -1,0 +1,925 @@
+{
+  "passages": [
+    {
+      "id": "PAS_CONFUCIUS_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xue Er 1",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "학이편 1"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "배운다는 것은 단지 아는 것을 늘리는 일이 아니다.",
+        "그 배움을 삶 속에서 반복하며 익히는 과정이다.",
+        "조금씩 나아지는 자신을 느낄 때,",
+        "사람은 조용한 기쁨을 발견하게 된다.",
+        "멀리서 뜻이 맞는 이가 찾아온다면,",
+        "그 또한 삶이 주는 또 하나의 선물이다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xue Er 2",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "학이편 2"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 남이 알아주지 않는다고 불안해한다.",
+        "하지만 더 중요한 것은,",
+        "내가 나 자신을 알고 있는가이다.",
+        "남의 시선보다 나 자신을 먼저 바라볼 때,",
+        "마음은 더 편안해진다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Zheng 1",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "위정편 1"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "정치는 멀리 있는 것이 아니다.",
+        "내가 나를 바로 세우는 순간 시작된다.",
+        "말보다 행동이 먼저 서고,",
+        "작은 선택이 쌓여 삶의 방향이 된다.",
+        "결국 세상은 나의 태도에서부터 바뀌기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Zheng 4",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "위정편 4"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "나이가 들수록 사람은 달라진다.",
+        "처음에는 욕심을 따르고,",
+        "점점 규칙을 배우고,",
+        "마침내 마음이 자연스럽게 옳은 길을 따른다.",
+        "그 과정은 느리지만 분명히 이어진다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Ba Yi 3",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "팔일편 3"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "형식만 남고 마음이 비어 있을 때,",
+        "사람은 스스로도 그 공허함을 느낀다.",
+        "겉으로는 완벽해 보여도,",
+        "속이 채워지지 않으면 오래 가지 못한다.",
+        "진짜는 언제나 보이지 않는 곳에서 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Li Ren 1",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "이인편 1"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람다운 삶은 거창한 데 있지 않다.",
+        "내가 서 있는 자리에서",
+        "누군가를 배려하고,",
+        "스스로를 속이지 않는 것에서 시작된다.",
+        "그 작은 기준이 삶 전체를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Li Ren 14",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "이인편 14"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "남의 부족함은 쉽게 보이지만,",
+        "나의 부족함은 자주 놓치게 된다.",
+        "그래서 사람은 자꾸 흔들린다.",
+        "하지만 시선을 안으로 돌리는 순간,",
+        "비로소 균형이 잡히기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Gong Ye Chang 1",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "공야장편 1"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "말은 쉽게 할 수 있지만,",
+        "그 말을 지키는 것은 어렵다.",
+        "그래서 사람의 진심은 행동에서 드러난다.",
+        "조용히 이어가는 선택들이,",
+        "결국 그 사람을 설명해 준다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Yong Ye 3",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "옹야편 3"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "아는 것만으로는 충분하지 않다.",
+        "좋아해야 오래 갈 수 있다.",
+        "그리고 즐길 수 있을 때,",
+        "비로소 그것은 삶의 일부가 된다.",
+        "지속은 즐거움에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Shu Er 7",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "술이편 7"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "나는 특별한 것을 만들지 않는다.",
+        "다만 오래된 것을 배우고 이어갈 뿐이다.",
+        "그 안에서 길을 발견하고,",
+        "지금의 삶에 맞게 다시 살려낸다.",
+        "배움은 언제나 현재 속에서 완성된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Tai Bo 7",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "태백편 7"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "뜻이 단단하면,",
+        "작은 흔들림에 무너지지 않는다.",
+        "방향이 분명할수록,",
+        "선택은 더 간단해진다.",
+        "삶은 결국 의지의 문제다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Zi Han 4",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "자한편 4"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "천천히 가는 것은 문제가 아니다.",
+        "멈추지만 않는다면,",
+        "어디든 도달하게 된다.",
+        "중요한 것은 속도가 아니라,",
+        "계속 가고 있는가이다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xiang Dang 2",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "향당편 2"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "작은 태도 하나에도 마음이 담긴다.",
+        "말투, 걸음, 시선까지도,",
+        "그 사람을 드러낸다.",
+        "그래서 일상은 결코 사소하지 않다.",
+        "모든 순간이 나를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xian Jin 11",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "선진편 11"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람마다 속도는 다르다.",
+        "누군가는 빠르고,",
+        "누군가는 천천히 간다.",
+        "중요한 것은 비교가 아니라,",
+        "내가 가고 있는 방향이다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Yan Yuan 2",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "안연편 2"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "나를 이기는 것은 어려운 일이다.",
+        "하지만 그 순간,",
+        "삶은 전혀 다른 방향으로 움직인다.",
+        "작은 절제가 쌓이면,",
+        "사람은 스스로를 넘어선다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Zi Lu 6",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "자로편 6"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "급하게 서두를수록,",
+        "오히려 더 멀어질 때가 있다.",
+        "속도를 줄이고,",
+        "한 걸음을 분명히 딛는 것이 중요하다.",
+        "결과는 결국 그 과정에서 만들어진다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xian Wen 30",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "헌문편 30"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "말은 적을수록 깊어진다.",
+        "생각이 정리되지 않으면,",
+        "말은 쉽게 흔들린다.",
+        "그래서 침묵은 때로 가장 정확하다.",
+        "조용함 속에서 중심이 생긴다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Ling Gong 15",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "위령공편 15"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "남이 나를 알아주지 않아도 괜찮다.",
+        "내가 나를 놓치지 않는다면,",
+        "그것으로 충분하다.",
+        "기준이 밖이 아니라 나 자신 안에 있을 때,",
+        "삶은 흔들리지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Ji Shi 9",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "계씨편 9"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "편안함만을 좇으면,",
+        "삶은 점점 좁아진다.",
+        "조금의 불편을 견디는 순간,",
+        "사람은 더 넓어질 수 있다.",
+        "성장은 늘 낯선 곳에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Yang Huo 2",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "양화편 2"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 쉽게 변하지 않는다.",
+        "하지만 반복은 사람을 바꾼다.",
+        "오늘의 작은 선택 하나가,",
+        "내일의 방향을 만든다.",
+        "그래서 오늘은 항상 중요하다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xue Er 4",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "학이편 4"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "매일 스스로를 돌아보는 사람은,",
+        "조금씩 더 단단해진다.",
+        "남을 속이지 않았는지,",
+        "약속을 가볍게 여기지 않았는지,",
+        "그 질문이 삶을 바르게 만든다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xue Er 6",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "학이편 6"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "말을 앞세우기보다,",
+        "행동이 먼저인 사람이 있다.",
+        "그 사람은 조용하지만,",
+        "오래 기억된다.",
+        "진짜는 언제나 뒤에서 완성된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Zheng 7",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "위정편 7"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "잘 보이려 애쓸수록,",
+        "본래의 모습은 흐려진다.",
+        "남의 기준에 맞추다 보면,",
+        "내 기준은 사라진다.",
+        "그래서 멈춰서 다시 바라봐야 한다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Zheng 15",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "위정편 15"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "옳은 것을 알면서도 하지 않는다면,",
+        "그건 아직 알지 못한 것과 같다.",
+        "앎은 결국 행동으로 이어질 때,",
+        "비로소 의미를 가진다.",
+        "삶은 지식이 아니라 행동으로 만들어진다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Li Ren 3",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "이인편 3"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "마음이 떠난 자리에는,",
+        "형식만 남는다.",
+        "사람 사이도 마찬가지다.",
+        "진심이 사라지면 관계는 비어간다.",
+        "그래서 마음을 놓지 않는 것이 중요하다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Li Ren 25",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "이인편 25"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "어떤 길이든,",
+        "계속 걷는 사람만이 알게 된다.",
+        "중간에 멈추면,",
+        "그 길의 끝은 영원히 알 수 없다.",
+        "그래서 중요한 건 계속 가는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Gong Ye Chang 9",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "공야장편 9"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "말은 쉽게 사람을 상처 입힌다.",
+        "한 번 나간 말은 돌아오지 않는다.",
+        "그래서 말하기 전에,",
+        "한 번 더 멈춰야 한다.",
+        "그 잠깐이 관계를 지킨다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Yong Ye 20",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "옹야편 20"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "즐거움은 멀리 있지 않다.",
+        "내가 하고 있는 일을 좋아할 때,",
+        "이미 그 안에 있다.",
+        "억지로 찾지 않아도,",
+        "자연스럽게 따라온다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Shu Er 16",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "술이편 16"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "배움에는 끝이 없다.",
+        "이미 충분하다고 느끼는 순간,",
+        "성장은 멈춘다.",
+        "계속 배우는 사람만이,",
+        "조금씩 더 넓어진다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Tai Bo 10",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "태백편 10"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "크게 되려 하지 않아도 된다.",
+        "다만 지금 할 일을 제대로 하면 된다.",
+        "그 쌓임이 결국,",
+        "사람을 크게 만든다.",
+        "결과는 늘 과정 뒤에 온다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0031",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Zi Han 16",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "자한편 16"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 쉽게 흔들린다.",
+        "작은 일에도 마음이 요동친다.",
+        "하지만 중심을 잡는 연습을 하면,",
+        "그 흔들림도 점점 줄어든다.",
+        "결국 마음은 훈련된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0032",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xiang Dang 5",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "향당편 5"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "일상의 태도가 쌓여,",
+        "그 사람의 품격이 된다.",
+        "특별한 순간보다,",
+        "평범한 순간이 더 중요하다.",
+        "삶은 대부분 평범한 시간으로 이루어져 있다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0033",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xian Jin 22",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "선진편 22"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "비교는 끝이 없다.",
+        "누군가는 항상 더 앞서 있다.",
+        "그래서 비교를 멈추는 순간,",
+        "비로소 나의 길이 보인다.",
+        "삶은 경쟁이 아니라 자신만의 방향이다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0034",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Yan Yuan 23",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "안연편 23"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "남을 이해하려면,",
+        "먼저 나를 이해해야 한다.",
+        "내 마음을 모르면,",
+        "타인의 마음도 보이지 않는다.",
+        "이해는 언제나 나 자신 안에서 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0035",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Zi Lu 17",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "자로편 17"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "급하게 얻은 것은,",
+        "쉽게 사라진다.",
+        "빠른 결과를 원할수록,",
+        "오히려 더 멀어진다.",
+        "시간을 견디는 것이 필요하다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0036",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Xian Wen 18",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "헌문편 18"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "조용히 쌓아가는 사람은,",
+        "눈에 띄지 않는다.",
+        "하지만 어느 순간,",
+        "그 차이는 분명해진다.",
+        "시간은 노력의 편이다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0037",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Ling Gong 3",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "위령공편 3"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 혼자일 때,",
+        "더 솔직해진다.",
+        "그 순간 마주하는 마음이,",
+        "지금의 나를 보여준다.",
+        "그래서 혼자 있는 시간이 필요하다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0038",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Ji Shi 4",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "계씨편 4"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "욕심은 점점 커진다.",
+        "하나를 가지면,",
+        "더 많은 것을 원하게 된다.",
+        "그래서 멈추는 기준이 필요하다.",
+        "그 기준이 나를 지킨다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0039",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Yang Huo 8",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "양화편 8"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "말보다 중요한 것은 태도다.",
+        "같은 말을 해도,",
+        "어떻게 전하느냐에 따라 달라진다.",
+        "그래서 사람은 말이 아니라,",
+        "그 사람 전체로 기억된다."
+      ]
+    },
+    {
+      "id": "PAS_CONFUCIUS_0040",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Eastern Philosophy",
+        "author": "Confucius",
+        "source": "Analects",
+        "book": "Analects",
+        "chapter": "Wei Zi 5",
+        "sourceDisplay": "동양 철학",
+        "bookDisplay": "논어",
+        "chapterDisplay": "미자편 5"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "모든 상황이 뜻대로 되지 않는다.",
+        "그럼에도 불구하고,",
+        "내가 할 수 있는 것을 하는 것이 중요하다.",
+        "그 작은 선택들이 쌓여,",
+        "결국 삶의 방향을 만든다."
+      ]
+    }
+  ]
+}

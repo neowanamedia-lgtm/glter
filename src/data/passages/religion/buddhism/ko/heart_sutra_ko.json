@@ -1,0 +1,752 @@
+[
+  {
+    "id": "PAS_HEART_0001",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "모든 것은 고정된 실체를 가지고 있는 것처럼 보이지만,",
+      "깊이 들여다보면 그것은 끊임없이 변하고 있다.",
+      "우리가 붙잡고 있는 것들 또한,",
+      "사실은 잠시 머무르는 흐름일 뿐이다.",
+      "변하지 않는 것이라 믿을수록,",
+      "그것이 흔들릴 때 더 큰 불안이 생겨난다.",
+      "그래서 집착은 점점 더 마음을 무겁게 만든다.",
+      "흐름을 인정하는 순간, 그 무게는 조금씩 가벼워진다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0002",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "depression",
+    "emotionExtended": [],
+    "lines": [
+      "형체가 있다고 믿는 것들은,",
+      "실은 고정된 것이 아니라 끊임없이 변하는 것이다.",
+      "그 변화를 받아들이지 못할 때,",
+      "사람은 점점 더 무거워진다.",
+      "붙잡고 있는 것이 많을수록,",
+      "마음은 더 쉽게 지쳐간다.",
+      "그러나 그것이 본래 비어 있음을 알게 되면,",
+      "그 무게는 서서히 풀리기 시작한다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0003",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "비어 있다는 것은 아무것도 없다는 뜻이 아니라,",
+      "어떤 것에도 묶여 있지 않다는 의미이다.",
+      "그래서 비어 있는 마음은,",
+      "무엇이든 받아들일 수 있는 여유를 가진다.",
+      "그 안에는 막힘이 없고,",
+      "흐름을 거부하지 않는다.",
+      "그 상태에서 사람은 자유로워지고,",
+      "비로소 가볍게 살아갈 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0004",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "보고 듣고 느끼는 모든 것은,",
+      "확실한 것처럼 느껴지지만 사실은 그렇지 않다.",
+      "감각은 순간마다 변하고,",
+      "그 위에 쌓인 판단도 함께 흔들린다.",
+      "그것을 절대적인 것처럼 믿을 때,",
+      "마음은 쉽게 불안해진다.",
+      "그러나 그것이 지나가는 것임을 알면,",
+      "그 불안은 오래 머물지 못한다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0005",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우리가 슬퍼하는 많은 이유는,",
+      "사라지지 않을 것이라 믿었던 것들이 사라지기 때문이다.",
+      "하지만 모든 것은 원래 머무르지 않는다.",
+      "그 흐름을 거스르려 할수록,",
+      "슬픔은 더 깊어지고 오래 남는다.",
+      "흘러가는 것을 그대로 보내줄 때,",
+      "그 감정 또한 자연스럽게 지나간다.",
+      "그래서 놓아주는 것은 포기가 아니라 이해이다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0006",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "고통 또한 고정된 것이 아니라,",
+      "조건에 따라 생겨나고 사라진다.",
+      "그것이 영원하다고 믿는 순간,",
+      "사람은 그 안에 갇히게 된다.",
+      "그러나 그것이 변화하는 것임을 알면,",
+      "그 고통은 더 이상 절대적이지 않다.",
+      "흐름 속에서 바라볼 때,",
+      "그것은 언젠가 지나갈 하나의 순간이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0007",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "depression",
+    "emotionExtended": [],
+    "lines": [
+      "아무것도 변하지 않을 것 같은 날에도,",
+      "보이지 않는 변화는 계속 일어나고 있다.",
+      "그 변화를 느끼지 못할 때,",
+      "사람은 멈춰 있는 것처럼 느낀다.",
+      "그러나 흐름은 멈추지 않는다.",
+      "보이지 않을 뿐, 계속 이어지고 있다.",
+      "그래서 지금의 무거움도,",
+      "영원히 같은 모습으로 남아 있지는 않는다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0008",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "무언가를 얻어야 한다는 생각은,",
+      "마음을 계속 긴장하게 만든다.",
+      "채워야 할 것이 많을수록,",
+      "부족함은 더 크게 느껴진다.",
+      "그러나 본래 부족한 것은 없음을 알게 되면,",
+      "그 긴장은 서서히 풀린다.",
+      "이미 충분하다는 감각은,",
+      "마음을 깊이 안정시킨다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0009",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아무것도 붙잡지 않는 상태는,",
+      "모든 것에 열려 있는 상태이다.",
+      "그 안에서는 선택이 자유롭고,",
+      "움직임이 자연스럽다.",
+      "억지로 가지려 하지 않을 때,",
+      "삶은 오히려 더 풍성해진다.",
+      "그 여유 속에서,",
+      "사람은 자신을 더 깊이 이해하게 된다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0010",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "슬픔은 붙잡고 있는 마음에서 오래 머문다.",
+      "놓지 못하는 만큼,",
+      "그 감정은 깊어지고 길어진다.",
+      "그러나 그것이 지나가는 것임을 알면,",
+      "조금씩 손을 놓을 수 있게 된다.",
+      "그때 슬픔은 더 이상 나를 지배하지 못한다.",
+      "흐름을 받아들이는 순간,",
+      "그 감정은 자연스럽게 흩어진다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0011",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "지혜는 무언가를 더 아는 데서 오는 것이 아니라,",
+      "집착을 내려놓는 데서 시작된다.",
+      "많이 쌓을수록 가벼워지는 것이 아니라,",
+      "오히려 더 무거워질 수 있다.",
+      "비워낼수록,",
+      "마음은 더 넓어지고 선명해진다.",
+      "그 비어 있음 속에서,",
+      "진짜 이해가 자라난다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0012",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "확실함을 붙잡으려 할수록,",
+      "불안은 더 커진다.",
+      "세상은 본래 고정되지 않기 때문에,",
+      "완전히 확실한 것은 없다.",
+      "그 사실을 받아들이지 못할 때,",
+      "마음은 계속 흔들린다.",
+      "그러나 불확실함을 인정하면,",
+      "그 안에서도 편안함을 찾을 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0013",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "depression",
+    "emotionExtended": [],
+    "lines": [
+      "마음이 무겁게 가라앉는 날에도,",
+      "그 상태는 영원히 지속되지 않는다.",
+      "느껴지는 감정은 강하지만,",
+      "그 또한 하나의 흐름이다.",
+      "그 흐름을 거부하지 않고 바라볼 때,",
+      "조금씩 변화가 시작된다.",
+      "멈춘 것처럼 보여도,",
+      "삶은 계속 움직이고 있다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0014",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "얻을 것도 없고 잃을 것도 없다는 것은,",
+      "아무 의미가 없다는 뜻이 아니다.",
+      "오히려 어떤 것에도 얽매이지 않는 자유를 뜻한다.",
+      "그 상태에서는 두려움이 줄어들고,",
+      "선택은 더 가벼워진다.",
+      "붙잡지 않을 때,",
+      "삶은 더 자연스럽게 흐른다.",
+      "그 흐름 속에서 평안이 자란다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0015",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "무언가를 잃을까 두려워하는 마음은,",
+      "이미 그것에 묶여 있다는 신호이다.",
+      "그 묶임이 강할수록,",
+      "불안은 더 쉽게 커진다.",
+      "그러나 붙잡지 않는다면,",
+      "잃을 것도 생기지 않는다.",
+      "그래서 자유는 소유에서 오는 것이 아니라,",
+      "놓아줌에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0016",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사라지는 것을 막을 수 없다는 사실은,",
+      "때로는 깊은 슬픔을 남긴다.",
+      "하지만 그 흐름이 있기에,",
+      "새로운 것도 들어올 수 있다.",
+      "머무르는 것만을 원할 때,",
+      "삶은 점점 좁아진다.",
+      "흘러감을 받아들일 때,",
+      "그 안에서 다시 살아갈 힘이 생긴다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0017",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "어떤 것도 본래 고정된 모습으로 존재하지 않는다.",
+      "그래서 변화는 자연스러운 것이다.",
+      "그 변화를 두려워하지 않을 때,",
+      "삶은 더 유연해진다.",
+      "고정된 답을 찾으려 하지 않고,",
+      "흐름 속에서 답을 발견하게 된다.",
+      "그 과정에서,",
+      "사람은 더 자유로워진다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0018",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "depression",
+    "emotionExtended": [],
+    "lines": [
+      "아무 의미도 느껴지지 않는 순간에도,",
+      "그 상태는 계속 이어지지 않는다.",
+      "지금의 공허함도,",
+      "하나의 흐름일 뿐이다.",
+      "그것을 밀어내려 하지 말고,",
+      "그대로 바라볼 때,",
+      "조금씩 균형이 돌아온다.",
+      "그리고 다시 움직일 힘이 생긴다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0019",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "무엇이 옳은지 확실히 알고 싶어질 때,",
+      "마음은 더 불안해진다.",
+      "그러나 모든 것이 명확할 수는 없다.",
+      "흐릿함 속에서도,",
+      "삶은 계속 이어진다.",
+      "그 불확실함을 받아들이는 순간,",
+      "마음은 안정된다.",
+      "완벽한 답이 없어도 괜찮다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0020",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "막힘이 없는 상태는,",
+      "아무것도 없는 상태가 아니다.",
+      "그 안에는 자유로운 움직임이 있다.",
+      "어디에도 걸리지 않기에,",
+      "어디로든 갈 수 있다.",
+      "그 자유는 외부에서 오는 것이 아니라,",
+      "내려놓음에서 시작된다.",
+      "그래서 비움은 곧 가능성이다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0021",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "붙잡고 싶었던 것들이 떠나갈 때,",
+      "마음은 자연스럽게 슬퍼진다.",
+      "그 감정을 억누르려 할수록,",
+      "오히려 더 오래 남는다.",
+      "그대로 느끼고 흘려보낼 때,",
+      "슬픔은 점점 옅어진다.",
+      "흐름을 허용하는 것이,",
+      "치유의 시작이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0022",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "depression",
+    "emotionExtended": [],
+    "lines": [
+      "아무것도 느껴지지 않는 순간에도,",
+      "그 상태는 고정된 것이 아니다.",
+      "감정이 멈춘 것처럼 보여도,",
+      "그 안에서는 변화가 계속된다.",
+      "조금의 시간과 여유가 쌓이면,",
+      "다시 움직임이 생겨난다.",
+      "그래서 지금의 정체도,",
+      "영원한 것이 아니다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0023",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아무것도 붙잡지 않는 사람은,",
+      "무엇에도 얽매이지 않는다.",
+      "그 상태에서는 선택이 가볍고,",
+      "결과에 대한 두려움도 줄어든다.",
+      "그래서 그는 더 자유롭게 움직인다.",
+      "그 자유는 특별한 것이 아니라,",
+      "내려놓음에서 자연스럽게 생겨난다.",
+      "그 안에서 삶은 더 넓어진다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0024",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "모든 것을 이해하려 할수록,",
+      "마음은 더 복잡해진다.",
+      "세상은 완전히 설명될 수 있는 것이 아니다.",
+      "그 사실을 받아들이지 못할 때,",
+      "불안은 계속 남는다.",
+      "그러나 이해하지 못하는 부분을 인정하면,",
+      "그 안에서도 편안함이 생긴다.",
+      "모든 것을 알 필요는 없다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0025",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "지혜는 멀리 있는 것이 아니라,",
+      "지금 이 순간을 바라보는 데서 시작된다.",
+      "복잡하게 생각할수록,",
+      "본질은 더 멀어진다.",
+      "단순하게 바라볼 때,",
+      "그 안에서 답이 드러난다.",
+      "그래서 멈춰 보는 것이,",
+      "가장 깊은 이해로 이어진다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0026",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사라지는 것을 받아들이는 일은,",
+      "쉽지 않다.",
+      "그러나 그 흐름은 누구도 거스를 수 없다.",
+      "붙잡으려 할수록,",
+      "마음은 더 아파진다.",
+      "흘러가도록 두는 순간,",
+      "그 고통은 서서히 줄어든다.",
+      "그래서 이해는 내려놓음에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0027",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "depression",
+    "emotionExtended": [],
+    "lines": [
+      "아무것도 변하지 않는 것처럼 느껴질 때에도,",
+      "시간은 계속 흐르고 있다.",
+      "그 흐름 속에서,",
+      "보이지 않는 변화가 쌓인다.",
+      "지금 느끼는 무거움도,",
+      "그 흐름 안에 있다.",
+      "그래서 그것 또한,",
+      "언젠가는 다른 모습으로 바뀐다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0028",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "어떤 상태에도 머물지 않는 마음은,",
+      "자유롭다.",
+      "그 자유는 특별한 것이 아니라,",
+      "아무것도 붙잡지 않는 데서 온다.",
+      "그래서 그는 흔들리지 않는다.",
+      "흐름 속에 있으면서도,",
+      "그 흐름에 휩쓸리지 않는다.",
+      "그 안에서 평안이 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0029",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "결과를 미리 정해두려 할수록,",
+      "마음은 더 불안해진다.",
+      "삶은 계획대로만 흐르지 않는다.",
+      "그 사실을 받아들이지 못할 때,",
+      "긴장은 계속된다.",
+      "그러나 흐름을 믿기 시작하면,",
+      "그 긴장은 점점 줄어든다.",
+      "모든 것을 통제할 필요는 없다."
+    ]
+  },
+  {
+    "id": "PAS_HEART_0030",
+    "meta": {
+      "tradition": "religion",
+      "religion": "Buddhism",
+      "source": "Heart Sutra",
+      "book": "Heart Sutra",
+      "reference": "Heart Sutra",
+      "sourceDisplay": "불교",
+      "bookDisplay": "반야심경",
+      "referenceDisplay": "반야심경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "비어 있음은 끝이 아니라,",
+      "새로운 시작이 될 수 있다.",
+      "무언가를 내려놓았을 때,",
+      "그 자리에 다른 가능성이 들어온다.",
+      "그래서 비움은 상실이 아니라,",
+      "열림이다.",
+      "그 열린 상태에서,",
+      "삶은 다시 흐르기 시작한다."
+    ]
+  }
+]

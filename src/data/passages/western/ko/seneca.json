@@ -1,0 +1,645 @@
+{
+  "passages": [
+    {
+      "id": "PAS_SENECA_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Shortness of Life",
+        "book": "On the Shortness of Life",
+        "chapter": "Chapter 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인생의 짧음에 대하여",
+        "chapterDisplay": "1장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "삶이 짧은 것이 아니라,",
+        "우리가 너무 많은 시간을 흘려보내는 경우가 더 많다.",
+        "남의 기대와 하찮은 일들에 마음을 내주고 나면,",
+        "정작 자기 삶을 살아야 할 자리는 비어 버린다.",
+        "시간은 적지 않다.",
+        "흩어져 있을 뿐이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Shortness of Life",
+        "book": "On the Shortness of Life",
+        "chapter": "Chapter 3",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인생의 짧음에 대하여",
+        "chapterDisplay": "3장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 내일을 준비하느라 오늘을 잃어버리기도 한다.",
+        "앞으로 살 날을 계산하면서,",
+        "지금 이미 흘러가고 있는 시간을 보지 못한다.",
+        "삶은 나중에 시작되는 것이 아니다.",
+        "늘 지금 이 자리에서 쓰이고 있다.",
+        "그 사실을 놓치는 순간 가장 많은 것을 잃는다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Shortness of Life",
+        "book": "On the Shortness of Life",
+        "chapter": "Chapter 7",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "인생의 짧음에 대하여",
+        "chapterDisplay": "7장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자기 시간을 지키는 사람은 적다.",
+        "재산을 빼앗기면 아까워하면서도,",
+        "하루와 마음은 너무 쉽게 내준다.",
+        "가장 소중한 것은 가장 조용히 사라진다.",
+        "그래서 시간을 아끼는 일은,",
+        "결국 자기 삶을 아끼는 일과 다르지 않다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 1",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 1"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "하루를 붙잡아 두지 않으면,",
+        "삶 전체가 아주 쉽게 흩어진다.",
+        "우리는 시간이 남아 있다고 생각하며 미루지만,",
+        "사라지는 것은 늘 지금의 하루들이다.",
+        "그래서 삶을 지키는 가장 확실한 방법은,",
+        "오늘을 함부로 넘기지 않는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 9",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 9"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "현자는 혼자서도 버틸 수 있지만,",
+        "그래도 벗을 원한다.",
+        "부족해서가 아니라,",
+        "좋은 것을 함께 나누고 싶기 때문이다.",
+        "깊은 관계는 결핍의 보충만이 아니다.",
+        "풍요가 밖으로 흘러가는 방식이기도 하다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 13",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 13"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 실제 고통보다 상상한 고통 때문에 더 오래 괴로워한다.",
+        "아직 오지 않은 일을 미리 끌어와,",
+        "현재의 마음을 먼저 소모해 버린다.",
+        "두려움은 종종 사실보다 크다.",
+        "많은 괴로움은 현실보다 예감에서 먼저 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 18",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 18"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "가난을 두려워하는 사람은,",
+        "한 번도 스스로 단순함을 연습해 보지 않은 사람이다.",
+        "조금 덜 가지고도 괜찮다는 경험이 쌓이면,",
+        "잃을 것에 대한 공포도 줄어든다.",
+        "두려움을 약하게 만드는 것은,",
+        "생각만이 아니라 익숙해지는 훈련이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 24",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 24"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "죽음은 한 번 오지만,",
+        "죽음에 대한 공포는 여러 번 찾아온다.",
+        "사람을 더 지치게 하는 것은 끝 그 자체보다,",
+        "끝을 향해 미리 떨고 있는 마음일 때가 많다.",
+        "마지막 순간보다,",
+        "그 순간을 상상하는 시간이 더 길기 때문이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 28",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 28"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "장소를 바꾼다고 마음까지 곧바로 달라지는 것은 아니다.",
+        "어디로 가든 자기 자신을 함께 데려가기 때문이다.",
+        "불편함의 근원이 안쪽에 있다면,",
+        "풍경은 잠시 위로가 되어도 해결이 되지는 않는다.",
+        "먼저 옮겨야 하는 것은 발걸음보다 내면의 시선이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 47",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 47"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 지위와 이름으로 사람을 나누지만,",
+        "모두 같은 두려움과 같은 죽음 아래 놓여 있다.",
+        "운은 자리를 바꾸고 역할을 바꾸지만,",
+        "인간이라는 조건 자체를 바꾸지는 못한다.",
+        "그래서 타인을 함부로 대하는 태도는,",
+        "결국 자기 조건을 잊어버린 태도이기도 하다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 63",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 63"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "슬픔은 부정해야 할 것이 아니라,",
+        "지나가도록 허락해야 할 것이다.",
+        "상실 앞에서 전혀 아프지 않은 척하는 마음도 거짓이고,",
+        "끝없이 무너지는 마음도 자신을 잃기 쉽다.",
+        "사랑한 만큼 슬퍼하되,",
+        "그 슬픔 속에 다시 살아갈 자리를 남겨 두어야 한다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 78",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 78"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "몸이 약해지면 마음도 쉽게 좁아진다.",
+        "작은 통증이 삶 전체를 덮는 것처럼 느껴질 때도 있다.",
+        "하지만 고통이 크다고 해서",
+        "삶 전체가 고통이 되는 것은 아니다.",
+        "남아 있는 작은 평온을 잊지 않으면,",
+        "마음은 완전히 무너지지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Anger",
+        "book": "On Anger",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "분노에 대하여",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "분노는 처음에는 정당해 보인다.",
+        "상처를 받은 마음이 스스로를 지키려 할 때,",
+        "그 불길은 쉽게 정의의 얼굴을 빌린다.",
+        "그러나 분노는 오래 머물수록 판단을 흐리게 하고,",
+        "나를 지키기보다 나를 먼저 무너뜨린다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Anger",
+        "book": "On Anger",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "분노에 대하여",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "분노가 막 올라오는 순간에는",
+        "곧바로 행동하지 않는 편이 낫다.",
+        "조금 늦추는 것만으로도 마음이 달라진다.",
+        "잠깐의 멈춤이 마음을 구할 때가 있다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Anger",
+        "book": "On Anger",
+        "chapter": "Book III",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "분노에 대하여",
+        "chapterDisplay": "제3권"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "분노는 타인을 향한 것처럼 보여도,",
+        "가장 먼저 나 자신의 얼굴과 말투를 바꾸어 놓는다.",
+        "조금 전까지 지키고 싶었던 관계도,",
+        "그 순간에는 쉽게 상처 입힌다.",
+        "분노의 대가는 늘 밖으로만 나가지 않는다.",
+        "내 안에 먼저 남는다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Tranquility of Mind",
+        "book": "On the Tranquility of Mind",
+        "chapter": "Chapter 2",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "마음의 평온에 대하여",
+        "chapterDisplay": "2장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "마음이 불안정할 때는",
+        "가만히 있어도 피곤하고 움직여도 불만족스럽다.",
+        "쉬고 있어도 초조하고,",
+        "무언가를 해도 충분하지 않은 느낌이 남는다.",
+        "평온을 잃은 마음은",
+        "어디에 있든 자기 자리에서 조금씩 미끄러진다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Tranquility of Mind",
+        "book": "On the Tranquility of Mind",
+        "chapter": "Chapter 7",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "마음의 평온에 대하여",
+        "chapterDisplay": "7장"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "너무 큰 목표와 너무 작은 현실 사이에서,",
+        "사람은 쉽게 자기 자신을 싫어하게 된다.",
+        "이상은 높고 힘은 제한되어 있을 때,",
+        "마음은 자주 피로와 권태 사이를 오간다.",
+        "평온은 욕망이 없는 상태가 아니라,",
+        "감당할 수 있는 리듬을 다시 찾는 상태이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Tranquility of Mind",
+        "book": "On the Tranquility of Mind",
+        "chapter": "Chapter 12",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "마음의 평온에 대하여",
+        "chapterDisplay": "12장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "평온은 세상이 조용해져서 오는 것이 아니다.",
+        "조금 시끄러운 가운데서도",
+        "마음이 자기 중심을 잃지 않을 때 비로소 생겨난다.",
+        "밖의 소음을 모두 없앨 수는 없어도,",
+        "안의 질서를 지키는 일은 여전히 내 몫이다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Providence",
+        "book": "On Providence",
+        "chapter": "Chapter 2",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "섭리에 대하여",
+        "chapterDisplay": "2장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "좋은 사람에게 왜 어려움이 오는지 묻게 될 때가 있다.",
+        "고통은 사랑받지 못한다는 증거가 아니라,",
+        "견딜 힘이 있는 자에게 주어진 시험이다.",
+        "모든 상처를 미화할 수는 없지만,",
+        "어려움이 반드시 버려짐의 표시는 아니라는 생각은",
+        "무너지는 마음을 붙들어 준다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0021",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Happy Life",
+        "book": "On the Happy Life",
+        "chapter": "Chapter 4",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "행복한 삶에 대하여",
+        "chapterDisplay": "4장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "행복은 운이 좋아서만 생기지 않는다.",
+        "무엇을 좋다고 여길지,",
+        "무엇에 마음을 기대지 않을지를 아는 태도이다.",
+        "밖의 조건이 아무리 바뀌어도",
+        "안의 기준이 무너지지 않을 때,",
+        "삶은 훨씬 덜 흔들리게 된다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Happy Life",
+        "book": "On the Happy Life",
+        "chapter": "Chapter 10",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "행복한 삶에 대하여",
+        "chapterDisplay": "10장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "많이 가진 사람도 불안할 수 있다.",
+        "소유가 커질수록 잃을 것의 목록도 함께 늘어나기 때문이다.",
+        "그래서 풍요는 반드시 평안을 보장하지 않는다.",
+        "평안을 만드는 것은 가진 것의 양보다,",
+        "그것 없이도 무너지지 않을 마음의 구조에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Happy Life",
+        "book": "On the Happy Life",
+        "chapter": "Chapter 16",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "행복한 삶에 대하여",
+        "chapterDisplay": "16장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "행복은 아주 특별한 순간에만 찾아오는 것이 아니다.",
+        "자기 판단이 흔들리지 않고,",
+        "욕망이 스스로를 잡아먹지 않을 때",
+        "삶은 조용히 안정된다.",
+        "눈부시지 않아도 괜찮다.",
+        "오래 지속되는 평온은 대개 그렇게 온다."
+         ]
+    },
+    {
+      "id": "PAS_SENECA_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Clemency",
+        "book": "On Clemency",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "관용에 대하여",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "처벌은 쉽고 관용은 어렵다.",
+        "상처받은 마음은 곧바로 되갚고 싶어 하지만,",
+        "조금 더 멀리 보는 마음은 결과를 먼저 생각한다.",
+        "한순간의 통쾌함은 빠르지만 짧고,",
+        "절제된 판단은 느리지만 오래 남는다.",
+        "그래서 강한 사람일수록 더 천천히 결정한다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Benefits",
+        "book": "On Benefits",
+        "chapter": "Book I",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "은혜에 대하여",
+        "chapterDisplay": "제1권"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["joy"],
+      "lines": [
+        "주는 일의 가치는",
+        "어떻게 주었는가에 달려 있을 때가 많다.",
+        "작은 것도 진심이 담기면 오래 남고,",
+        "큰 것도 계산이 앞서면 금세 가벼워진다.",
+        "마음은 크기를 재기보다 결을 기억한다.",
+        "그래서 친절은 양보다 온도에 더 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On Benefits",
+        "book": "On Benefits",
+        "chapter": "Book II",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "은혜에 대하여",
+        "chapterDisplay": "제2권"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "받은 것을 기억하는 일은 쉽지 않다.",
+        "사람은 자기 고생은 오래 기억하고,",
+        "타인의 호의는 생각보다 빨리 잊어버린다.",
+        "그래서 관계는 조용히 메마른다.",
+        "감사는 큰 말보다,",
+        "잊지 않는 태도에서 더 분명하게 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_SENECA_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "On the Firmness of the Wise Person",
+        "book": "On the Firmness of the Wise Person",
+        "chapter": "Chapter 5",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "현자의 확고함에 대하여",
+        "chapterDisplay": "5장"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": ["hope"],
+      "lines": [
+        "상처를 입을 수는 있어도,",
+        "완전히 무너질 필요까지 있는 것은 아니다.",
+        "밖에서 오는 모욕과 손실은 분명 아프지만,",
+        "그것이 내 중심까지 결정해 버리도록 둘 이유는 없다.",
+        "견고함은 아무 일도 없었다는 얼굴이 아니라,",
+        "흔들려도 다시 제자리로 돌아오는 힘이다."
+       ]
+    },
+    {
+      "id": "PAS_SENECA_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Seneca",
+        "source": "Letters from a Stoic",
+        "book": "Letters from a Stoic",
+        "chapter": "Letter 104",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "도덕 서한집",
+        "chapterDisplay": "서한 104"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": ["anxiety"],
+      "lines": [
+        "사람은 쉼을 원하면서도",
+        "쉼이 오면 다시 불안해지기도 한다.",
+        "문제는 장소보다 마음이기 때문이다.",
+        "자기 마음을 조금씩 바로 세워 가면,",
+        "어디에 있든 덜 흔들리는 자리를 만들 수 있다.",
+        "평온은 찾는 것이라기보다 길러지는 것이다."
+      ]
+    }
+  ]
+}

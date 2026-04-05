@@ -1,0 +1,718 @@
+{
+  "passages": [
+    {
+      "id": "PAS_FROMM_0001",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Love as an Art",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "사랑의 기술"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사랑은 저절로 생기는 감정이라고 느끼기 쉽다.",
+        "하지만 실제로는 배워야 하는 능력에 가깝다.",
+        "처음에는 서툴고 어색하게 느껴질 수 있다.",
+        "그럼에도 계속 시도하는 과정 속에서,",
+        "조금씩 깊어지고 넓어진다.",
+        "사랑은 감정이 아니라 태도에 가깝다."
+      ]
+    },
+    {
+      "id": "PAS_FROMM_0002",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Theory of Love",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "사랑의 이론"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 외로움을 피하고 싶어 한다.",
+        "그래서 누군가와 연결되기를 원한다.",
+        "하지만 단순히 함께 있는 것만으로는,",
+        "그 공허함이 채워지지 않을 때도 있다.",
+        "진짜 연결은 서로를 이해하려는 노력에서 시작된다.",
+        "그 노력이 없으면, 가까움도 쉽게 무너진다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0003",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Having Mode",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "소유 양식"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 가지는 것이 중요하다고 느껴질 때가 있다.",
+        "더 많이 가질수록 더 안정될 것처럼 보인다.",
+        "하지만 그 기준은 끝이 없다.",
+        "계속해서 더 많은 것을 요구하게 된다.",
+        "그래서 소유에 의존할수록,",
+        "마음은 오히려 더 불안해질 수 있다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0004",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Being Mode",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "존재 양식"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 가지지 않아도 충분하다고 느끼는 순간이 있다.",
+        "그때 사람은 더 가볍게 움직일 수 있다.",
+        "비교와 경쟁에서 잠시 벗어나게 된다.",
+        "그래서 존재하는 방식은 단순하지만 깊다.",
+        "그 안에서는 현재의 경험이 더 또렷해진다.",
+        "그것이 또 다른 안정감을 만든다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0005",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Freedom",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "자유"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "자유는 언제나 편안한 상태를 의미하지 않는다.",
+        "오히려 무엇을 선택해야 할지 고민하게 만든다.",
+        "그래서 사람은 때때로 자유를 부담으로 느낀다.",
+        "그 부담을 피하려고 다른 기준에 기대기도 한다.",
+        "하지만 선택을 포기할수록,",
+        "자유와의 거리는 더 멀어진다."
+      ]
+    },
+    {
+      "id": "PAS_FROMM_0006",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Practice of Love",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "사랑의 실천"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "누군가를 이해하려 할 때,",
+        "우리는 먼저 멈추게 된다.",
+        "자신의 생각을 앞세우기보다,",
+        "상대의 흐름을 따라가게 된다.",
+        "그 작은 태도의 변화 속에서,",
+        "관계는 조금 더 깊어진다."
+      ]
+    },
+    {
+      "id": "PAS_FROMM_0007",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Care and Responsibility",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "책임과 돌봄"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "관심은 말보다 행동에서 드러난다.",
+        "작은 배려 하나가 더 오래 남는다.",
+        "그것은 거창하지 않아도 된다.",
+        "반복되는 순간 속에서 쌓인다.",
+        "그래서 사랑은 특별한 순간이 아니라,",
+        "일상의 방식으로 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_FROMM_0008",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Modern Society",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "현대 사회"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "비교는 자연스럽게 시작된다.",
+        "다른 사람의 모습을 보면서,",
+        "자신을 평가하게 된다.",
+        "그 기준이 반복될수록,",
+        "자신의 기준은 흐려진다.",
+        "비교를 멈추는 것이 필요하다."
+      ]
+    },
+    {
+      "id": "PAS_FROMM_0009",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Isolation",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "고립"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람들 사이에 있어도,",
+        "혼자라고 느껴질 때가 있다.",
+        "겉으로는 연결되어 있지만,",
+        "마음은 닿지 않을 때다.",
+        "그 차이를 알아차리는 순간,",
+        "진짜 관계에 대한 필요가 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_FROMM_0010",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Discipline",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "훈련"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "어떤 관계든 유지되기 위해서는,",
+        "꾸준함이 필요하다.",
+        "처음의 감정만으로는 부족하다.",
+        "작은 노력들이 이어질 때,",
+        "그 관계는 안정된다.",
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0011",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Consumption",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "소비"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 얻는 순간에는 만족이 생긴다.",
+        "하지만 그 감정은 오래가지 않는다.",
+        "곧 다시 다른 것을 원하게 된다.",
+        "그 반복 속에서 피로가 쌓인다.",
+        "그래서 만족은 외부보다,",
+        "내부에서 만들어질 때 더 오래 간다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0012",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Concentration",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "집중"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "집중은 자연스럽게 생기지 않는다.",
+        "흐트러지는 마음을 다시 모아야 한다.",
+        "그 과정은 반복이 필요하다.",
+        "조금씩 길들여지는 감각이다.",
+        "그래서 집중은 능력이 아니라,",
+        "훈련의 결과에 가깝다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0013",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Authority",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "권위"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "누군가 결정을 대신 내려주면 편하다.",
+        "스스로 고민하지 않아도 되기 때문이다.",
+        "그래서 사람은 그 결정에 의존하기도 한다.",
+        "하지만 그 선택이 반복될수록,",
+        "자신의 기준은 약해진다.",
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0014",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Respect",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "존중"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "존중은 상대를 바꾸려 하지 않는 태도에서 시작된다.",
+        "있는 그대로를 이해하려 할 때,",
+        "관계는 더 편안해진다.",
+        "억지로 맞추려 하면,",
+        "긴장은 계속된다.",
+        "그래서 존중은 관계의 기반이 된다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0015",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Identity",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "정체성"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 자신을 무엇으로 정의할지 고민한다.",
+        "가지고 있는 것들로 설명하기도 한다.",
+        "하지만 그것들은 언제든 변할 수 있다.",
+        "그래서 불안정하게 느껴지기도 한다.",
+        "자신의 방식으로 존재할 때,",
+        "조금 더 단단해진다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0016",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Responsibility",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "책임"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "선택에는 항상 책임이 따라온다.",
+        "그래서 결정을 미루고 싶어질 때도 있다.",
+        "다른 이유를 찾으려 하기도 한다.",
+        "하지만 결국 그 선택은 남는다.",
+        "그 사실을 받아들이는 순간,",
+        "삶은 조금 더 명확해진다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0017",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Faith",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "믿음"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "믿음은 확실함에서만 생기지 않는다.",
+        "불확실함 속에서도 유지되는 태도다.",
+        "그래서 때로는 불안과 함께 존재한다.",
+        "그럼에도 계속 이어질 때,",
+        "관계는 더 깊어진다.",
+        "그것이 신뢰로 이어진다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0018",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Experience",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "경험"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "어떤 순간은 결과보다 경험 자체가 중요하다.",
+        "그 안에서 느끼는 감각이 더 또렷하다.",
+        "비교할 필요가 없어진다.",
+        "그래서 그 순간은 더 깊게 남는다.",
+        "그것이 삶을 채우는 방식이다.",
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0019",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Escape Mechanisms",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "도피"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "불편한 감정은 피하고 싶어진다.",
+        "그래서 다른 것으로 덮으려 한다.",
+        "잠시 잊게 만드는 선택을 하기도 한다.",
+        "하지만 그 감정은 완전히 사라지지 않는다.",
+        "다시 돌아오는 순간,",
+        "더 분명하게 느껴지게 된다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0020",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Self Love",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "자기 사랑"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자신을 이해하려는 노력이 필요하다.",
+        "그 과정을 피하면,",
+        "타인과의 관계도 흔들리기 쉽다.",
+        "자신을 받아들이는 순간,",
+        "다른 사람도 더 편하게 바라볼 수 있다.",
+        "그것이 관계의 출발점이다."
+        ]
+    },
+
+    {
+      "id": "PAS_FROMM_0022",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Conformity",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "동조"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "다른 사람들과 비슷해지려는 선택은 편하다.",
+        "그 안에서는 안전하게 느껴진다.",
+        "하지만 그 과정에서,",
+        "자신의 방향이 흐려질 수 있다.",
+        "그래서 때로는 다름을 유지하는 것이,",
+        "더 중요한 선택이 된다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0023",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Objectivity",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "객관성"
+      },
+      "emotionCore": "neutral",
+      "emotionExtended": [],
+      "lines": [
+        "감정이 앞설 때 판단은 흔들리기 쉽다.",
+        "조금 거리를 두고 바라보면,",
+        "다른 면이 보이기도 한다.",
+        "그 시선이 균형을 만든다.",
+        "객관성은 감정을 없애는 것이 아니라,",
+        "조율하는 과정이다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0024",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Presence",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "현재성"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지금 이 순간에 집중하는 일은 쉽지 않다.",
+        "생각은 자주 다른 곳으로 향한다.",
+        "하지만 잠시 멈추어 바라보면,",
+        "현재가 또렷해진다.",
+        "그 순간은 짧지만 분명하다.",
+        "그것이 존재하는 방식이다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0025",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Fear",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "두려움"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "두려움은 선택을 멈추게 만든다.",
+        "실패를 피하고 싶어지기 때문이다.",
+        "그래서 안전한 길을 찾게 된다.",
+        "하지만 그 길이 항상 맞는 것은 아니다.",
+        "두려움을 인식하는 순간,",
+        "다른 선택이 보이기 시작한다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0026",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Patience",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "인내"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "어떤 변화는 바로 나타나지 않는다.",
+        "시간이 필요하다.",
+        "그 기다림이 불편하게 느껴질 수 있다.",
+        "하지만 그 과정을 지나야,",
+        "더 안정된 결과가 만들어진다.",
+        "인내는 필수적인 요소다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0027",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Freedom and Being",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "자유와 존재"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "자유는 단순히 선택의 수가 많은 것이 아니다.",
+        "자신의 방식으로 존재할 수 있는 상태다.",
+        "그 안에서 사람은 더 편안해진다.",
+        "외부 기준에 덜 흔들린다.",
+        "그래서 자유는 방향과 연결된다.",
+        "그 방향이 삶을 만든다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0028",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "Escape from Freedom",
+        "book": "Escape from Freedom",
+        "chapter": "Submission",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "자유로부터의 도피",
+        "chapterDisplay": "복종"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "누군가에게 의존하는 선택은 안정감을 준다.",
+        "결정을 대신 맡길 수 있기 때문이다.",
+        "하지만 그 상태가 지속되면,",
+        "자신의 기준은 약해진다.",
+        "의존과 자율 사이의 균형이 필요하다.",
+        "그 균형이 삶을 지탱한다."
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0029",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "The Art of Loving",
+        "book": "The Art of Loving",
+        "chapter": "Activity",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "사랑의 기술",
+        "chapterDisplay": "능동성"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "진짜 참여는 능동적인 태도에서 시작된다.",
+        "수동적으로 흘러가는 것이 아니라,",
+        "직접 선택하는 상태다.",
+        "그 안에서 더 많은 것을 느끼게 된다.",
+        "능동성은 삶을 더 또렷하게 만든다.",
+      ]
+    },
+
+    {
+      "id": "PAS_FROMM_0030",
+      "meta": {
+        "tradition": "philosophy",
+        "philosophy": "Western Philosophy",
+        "author": "Erich Fromm",
+        "source": "To Have or To Be",
+        "book": "To Have or To Be",
+        "chapter": "Transformation",
+        "sourceDisplay": "서양 철학",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "변화"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "변화는 한 번에 일어나지 않는다.",
+        "작은 인식에서 시작된다.",
+        "그 인식이 행동으로 이어질 때,",
+        "조금씩 방향이 바뀐다.",
+        "그래서 변화는 조용하지만 확실하다.",
+        "이 흐름이 결국 삶을 바꾼다."
+      ]
+    }
+  ]
+}

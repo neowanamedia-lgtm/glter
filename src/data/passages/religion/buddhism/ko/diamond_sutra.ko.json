@@ -1,0 +1,696 @@
+{
+  "passages": [
+    {
+      "id": "PAS_DIAMOND_0001",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 붙잡으려는 순간, 마음은 이미 좁아진다.",
+        "그것을 잃지 않으려는 생각이 더 커지기 때문이다.",
+        "그래서 사람은 얻는 순간보다,",
+        "잃을까 두려워하는 순간 더 흔들린다.",
+        "붙잡지 않는다는 것은 포기가 아니라,",
+        "처음부터 자유로워지는 선택이다.",
+        "놓는 순간, 비로소 넓어지는 것이 있다."
+      ]
+    },
+    {
+      "id": "BUD_DIAMOND_0002",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 눈에 보이는 것을 붙잡으려 할수록 더 깊은 불안을 느끼게 된다.",
+        "형태가 있는 모든 것은 결국 변하고 사라진다는 사실을 알면서도,",
+        "우리는 그것이 영원하길 바라며 마음을 얽매어 버린다.",
+        "그러나 본래 고정된 실체라는 것은 존재하지 않으며,",
+        "그 사실을 깨닫는 순간 비로소 붙잡고 있던 마음이 풀리기 시작한다.",
+        "놓는다는 것은 잃는 것이 아니라,",
+        "처음부터 없던 것을 내려놓는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0003",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "세상은 눈에 보이는 그대로 존재하는 것처럼 보인다.",
+        "그래서 우리는 그것을 사실이라고 믿는다.",
+        "그러나 모든 것은 조건에 따라 생겨난다.",
+        "조건이 사라지면, 그 모습도 함께 사라진다.",
+        "고정된 것은 없다는 것을 이해하는 순간,",
+        "집착은 조금씩 힘을 잃는다.",
+        "그 자리에서, 마음은 가벼워진다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0004",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 좋은 것을 오래 붙잡고 싶어 한다.",
+        "그러나 모든 것은 변한다.",
+        "변하지 않기를 바라는 마음이 클수록,",
+        "변화를 마주할 때 더 큰 아픔이 생긴다.",
+        "변화를 거부하지 않는 순간,",
+        "아픔은 조금 다른 의미가 된다.",
+        "흐름을 받아들이며 고통을 줄인다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0005",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "누군가를 돕는다는 생각이 들 때가 있다.",
+        "그 마음은 따뜻하지만,",
+        "그 안에는 보이지 않는 기대가 숨어 있을지도 모른다.",
+        "보답이나 인정 없이도 같은 행동을 할 수 있을까.",
+        "아무것도 남기지 않는 도움은,",
+        "그 자체로 이미 완전하다.",
+        "그 마음이 가장 자유롭다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0006",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "생각은 끊임없이 생겨나고 사라진다.",
+        "그 흐름을 멈추려 할수록 더 거세진다.",
+        "붙잡지 않고 바라볼 때,",
+        "생각은 스스로 지나간다.",
+        "마음은 그 자리에 남는다.",
+        "흐름을 따르는 것이 가장 자연스럽다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0007",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "누군가를 돕고자 하는 마음이 일어날 때, 우리는 흔히 그 결과를 기대하게 된다.",
+        "선행이 보상으로 돌아오기를 바라며 마음속에 작은 계산을 남겨 둔다.",
+        "그러나 진정한 베풂은 아무것도 남기지 않는 데서 시작된다.",
+        "주었다는 생각조차 없이 흘려보낼 때,",
+        "그 행위는 더 이상 나의 것이 아니라 세상 속으로 사라진다.",
+        "그 순간 마음은 가벼워지고, 도움은 가장 순수한 형태로 남는다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0008",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "아무것도 가지지 않았다고 느끼는 순간이 있다.",
+        "그러나 그때 비로소 보이는 것들이 있다.",
+        "가득 찬 상태에서는 보이지 않던 것들이다.",
+        "비어 있음은 결핍이 아니라,",
+        "새로운 가능성이 들어올 공간이다.",
+        "그래서 비움은, 또 다른 시작이다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0009",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "과거를 떠올리며 후회할 때가 있다.",
+        "이미 지나간 것을 붙잡고 있기 때문이다.",
+        "그러나 그 순간은 이미 존재하지 않는다.",
+        "남아 있는 것은 기억뿐이다.",
+        "그 기억을 놓는 순간,",
+        "현재는 다시 흐르기 시작한다.",
+        "지금은 언제나 다시 시작할 수 있는 자리다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0010",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 결과를 통해 자신을 증명하려 한다.",
+        "그래서 끊임없이 무언가를 이루려 한다.",
+        "그러나 존재 자체로 이미 충분하다.",
+        "무언가를 더하지 않아도,",
+        "이미 그 자리에 있다.",
+        "그 사실을 받아들이는 순간,",
+        "마음은 더 이상 흔들리지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0011",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "이것이 맞는 선택인지 고민할 때가 있다.",
+        "결과를 미리 알고 싶기 때문이다.",
+        "그러나 결과는 선택 이후에 드러난다.",
+        "모든 것을 알 수는 없다.",
+        "알 수 없음 속에서도 걸어가는 것이,",
+        "삶의 방식이다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0012",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "작은 행동 하나가 의미 없게 느껴질 때가 있다.",
+        "너무 작아 보이기 때문이다.",
+        "그러나 모든 것은 작은 것에서 시작된다.",
+        "그 반복이 쌓이면서,",
+        "보이지 않던 변화가 만들어진다.",
+        "그래서 작은 것은 결코 작지 않다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0013",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 관계 속에서 자신을 확인한다.",
+        "그래서 관계가 흔들리면,",
+        "자신도 함께 흔들린다.",
+        "그러나 그 관계도 고정된 것이 아니다.",
+        "흐름 속에서 변화한다.",
+        "그 변화를 받아들이는 순간,",
+        "마음은 조금 더 단단해진다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0014",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "아무 이유 없이 편안한 순간이 있다.",
+        "무언가를 이루지 않아도 괜찮은 순간이다.",
+        "그 순간은 이미 충분하다.",
+        "그 이상을 바라지 않아도 된다.",
+        "지금 그대로의 상태가,",
+        "이미 완전할 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0015",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "모든 것은 잠시 머물다 지나간다.",
+        "좋은 것도, 나쁜 것도 그렇다.",
+        "그래서 영원히 붙잡을 것은 없다.",
+        "이 사실을 이해하는 순간,",
+        "집착은 힘을 잃는다.",
+        "그 자리에서, 자유가 시작된다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0016",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 인정받고 싶어 한다.",
+        "그래서 타인의 시선을 의식한다.",
+        "그 시선에 맞추려 할수록,",
+        "자신은 점점 흐려진다.",
+        "타인의 기준을 내려놓는 순간,",
+        "자신의 중심이 드러난다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0017",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 스스로를 하나의 고정된 존재라고 믿으며 살아간다.",
+        "나라는 이름과 기억, 경험을 모아 하나의 실체처럼 붙잡는다.",
+        "하지만 그 모든 것은 끊임없이 변하고 이어지는 흐름일 뿐이다.",
+        "그 흐름을 실체로 착각할 때 고통이 생겨난다.",
+        "나를 놓는다는 것은 사라지는 것이 아니라,",
+        "끊임없이 변하고 있다는 사실을 받아들이는 일이다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0018",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "잃어버린 것을 떠올릴 때가 있다.",
+        "그것이 다시 돌아오기를 바라면서.",
+        "그러나 이미 지나간 것은 돌아오지 않는다.",
+        "그 대신 다른 것이 찾아온다.",
+        "그 변화를 받아들일 때,",
+        "삶은 다시 흐르기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0019",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "가벼워지는 순간이 있다.",
+        "무언가를 내려놓았을 때이다.",
+        "그 전까지는 그것이 필요하다고 믿었다.",
+        "그러나 없어도 괜찮다는 것을 알게 된다.",
+        "그 깨달음이,",
+        "진짜 자유를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0020",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "모든 것은 연결되어 있다.",
+        "하나의 선택이 다른 것을 만든다.",
+        "그 흐름은 보이지 않지만,",
+        "분명히 이어지고 있다.",
+        "그래서 작은 변화도 의미를 가진다.",
+        "그 의미는 결국, 삶을 바꾼다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0021",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "생각은 끊임없이 판단을 만든다.",
+        "좋다, 나쁘다를 나누면서.",
+        "그 판단 속에서 우리는 흔들린다.",
+        "판단을 멈추는 순간,",
+        "세상은 조금 더 단순해진다.",
+        "그 단순함 속에서 마음은 쉬게 된다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0022",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지금 이 순간은 한 번뿐이다.",
+        "이미 지나간 것도,",
+        "아직 오지 않은 것도 아니다.",
+        "오직 지금만이 존재한다.",
+        "그래서 이 순간을 온전히 보는 것이,",
+        "가장 중요한 일이다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0023",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 변하지 않기를 바란다.",
+        "그러나 모든 것은 변한다.",
+        "그 변화를 거부할수록,",
+        "더 큰 고통이 생긴다.",
+        "흐름을 받아들이는 순간,",
+        "고통은 조금씩 사라진다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0024",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "단순한 순간이 있다.",
+        "복잡한 생각이 사라진 상태다.",
+        "그 순간은 짧지만 깊다.",
+        "그 안에는 불필요한 것이 없다.",
+        "그래서 가장 맑다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0025",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "지금의 상태가 끝이 아니다.",
+        "모든 것은 계속 변한다.",
+        "그래서 가능성은 항상 열려 있다.",
+        "그 가능성을 보는 순간,",
+        "삶은 다시 움직이기 시작한다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0026",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "무언가를 잃을까 두려워할 때,",
+        "이미 그 안에 묶여 있는 상태다.",
+        "두려움은 붙잡음에서 나온다.",
+        "놓는 순간,",
+        "두려움도 함께 사라진다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0027",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "joy",
+      "emotionExtended": [],
+      "lines": [
+        "있는 그대로 바라보는 순간이 있다.",
+        "판단 없이, 비교 없이.",
+        "그 순간은 짧지만 깊다.",
+        "그 안에는 왜곡이 없다.",
+        "그래서 가장 자유롭다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0028",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "작은 변화는 눈에 띄지 않는다.",
+        "그러나 그 변화는 계속 쌓인다.",
+        "어느 순간 그것은,",
+        "전혀 다른 결과를 만든다.",
+        "그래서 지금의 선택이 중요하다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0029",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "지나간 것은 돌아오지 않는다.",
+        "그러나 그것이 사라진 것은 아니다.",
+        "다른 형태로 남아 있다.",
+        "그 사실을 이해하는 순간,",
+        "아쉬움은 조금 달라진다."
+      ]
+    },
+    {
+      "id": "PAS_DIAMOND_0030",
+      "meta": {
+        "tradition": "religion",
+        "religion": "Buddhism",
+        "source": "Diamond Sutra",
+        "book": "Diamond Sutra",
+        "reference": "Diamond Sutra",
+        "sourceDisplay": "불교",
+        "bookDisplay": "금강경",
+        "referenceDisplay": "금강경"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "정답은 하나가 아니다.",
+        "상황에 따라 달라진다.",
+        "그래서 고정된 답은 없다.",
+        "흐름을 이해하는 순간,",
+        "선택은 더 자연스러워진다.",
+        "그 자연스러움이, 가장 올바른 길이다."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+*** Begin Patch
+*** Update File: src/screens/MenuScreen.tsx
+@@
+-import React, { useEffect, useMemo, useState } from 'react';
+-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+-import { SafeAreaView } from 'react-native-safe-area-context';
++import React, { useEffect, useMemo, useState } from 'react';
++import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
++import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
+@@
+-type LocaleCopy = {
+-  taglineSubtitle?: string;
+-  sections: {
++type LocaleCopy = {
++  sections: {
+     emotion: SectionCopy;
+     philosophy: SectionCopy;
+     religion: SectionCopy;
+     language: SectionCopy;
+     background: SectionCopy;
+     font: SectionCopy;
+   };
+-  backgroundFixedLabel: string;
+-  backgroundFixedHelper: string;
+   buttonLabel: string;
+-  previewMessage: string;
+-  preparingLabel: string;
+ };
+@@
+-const LOCALE_COPY: Record<LanguageValue, LocaleCopy> = {
+-  ko: {
+-    taglineSubtitle: 'Áö±İ, ³ª¿¡°Ô ¸Â´Â ¹®ÀåÀ» ¸¸³ª´Â °ø°£',
+-    sections: {
+-      emotion: { label: '°¨Á¤ ¼±ÅÃ' },
+-      philosophy: { label: 'Ã¶ÇĞ ÇÊÅÍ', helper: 'º¹¼ö ¼±ÅÃ °¡´É ¡¤ ÀüÃ¼¸¦ ´©¸£¸é ³ª¸ÓÁö°¡ ÇØÁ¦µË´Ï´Ù.' },
+-      religion: { label: 'Á¾±³ ÇÊÅÍ', helper: 'º¹¼ö ¼±ÅÃ °¡´É ¡¤ ¼±ÅÃ ¾ÈÇÔÀ» ´©¸£¸é ³ª¸ÓÁö°¡ ÇØÁ¦µË´Ï´Ù.' },
+-      language: { label: '¾ğ¾î ¼±ÅÃ', helper: '¾ğ¾î¸¦ ¹Ù²Ù¸é ¸ğµç ÅØ½ºÆ®°¡ Áï½Ã ÀüÈ¯µË´Ï´Ù.' },
+-      background: { label: '¹è°æ ¼³Á¤', helper: 'ÀÚµ¿Àº 30°³ÀÇ ÀÌ¹ÌÁö¸¦ ¼øÂ÷·Î Àç»ıÇÕ´Ï´Ù.' },
+-      font: { label: '¼­Ã¼ ¼±ÅÃ' },
+-    },
+-    backgroundFixedLabel: '°íÁ¤ ÀÌ¹ÌÁö ¹øÈ£',
+-    backgroundFixedHelper: '1~30 Áß ¿øÇÏ´Â ÀÌ¹ÌÁö¸¦ ¼±ÅÃÇÏ¼¼¿ä.',
+-    buttonLabel: '¹®Àå ¸¸³ª±â',
+-    previewMessage: 'ÀüÃ¼ ¹ø¿ªÀ» ÁØºñ ÁßÀÔ´Ï´Ù.',
+-    preparingLabel: 'ÁØºñ ÁßÀÔ´Ï´Ù',
+-  },
++const LOCALE_COPY: Record<LanguageValue, LocaleCopy> = {
++  ko: {
++    sections: {
++      emotion: { label: '°¨Á¤' },
++      philosophy: { label: 'Ã¶ÇĞ' },
++      religion: { label: 'Á¾±³' },
++      language: { label: '¾ğ¾î' },
++      background: { label: '¹è°æ' },
++      font: { label: '¼­Ã¼' },
++    },
++    buttonLabel: '¹®ÀåÀ» ¸¸³ª´Ù',
++  },
+   en: {
+-    taglineSubtitle: 'A space where you meet the right passage for you now',
+     sections: {
+-      emotion: { label: 'Emotion' },
+-      philosophy: { label: 'Philosophy Filter', helper: 'Multi-select ¡¤ choosing All clears the others.' },
+-      religion: { label: 'Religion Filter', helper: 'Multi-select ¡¤ choosing None clears the others.' },
+-      language: { label: 'Language', helper: 'The menu text switches instantly.' },
+-      background: { label: 'Background', helper: 'Auto cycles through 30 portraits in order.' },
+-      font: { label: 'Font' },
++      emotion: { label: 'Emotion' },
++      philosophy: { label: 'Philosophy' },
++      religion: { label: 'Religion' },
++      language: { label: 'Language' },
++      background: { label: 'Background' },
++      font: { label: 'Font' },
+     },
+-    backgroundFixedLabel: 'Fixed image index',
+-    backgroundFixedHelper: 'Pick any number between 1 and 30.',
+-    buttonLabel: 'Start',
+-    previewMessage: 'Full translations are in progress.',
+-    preparingLabel: 'Preparing',
++    buttonLabel: 'Meet the passage',
+   },
+   ja: {
+     sections: {
+-      emotion: { label: 'Êïï×ªòàÔªÖ' },
+-      philosophy: { label: 'ôÉ?«Õ«£«ë«¿?', helper: 'ÜÜ?àÔ?Ê¦ ¡¤ ª¹ªÙªÆªòäãª¹ªÈöâª¬ú°ğ¶ªµªìªŞª¹¡£' },
+-      religion: { label: 'ğó?«Õ«£«ë«¿?', helper: 'ÜÜ?àÔ?Ê¦ ¡¤ àÔ?ª·ªÊª¤ªòäãª¹ªÈöâª¬ú°ğ¶ªµªìªŞª¹¡£' },
+-      language: { label: 'åëåŞ', helper: 'àÔªÖªÈª¹ª°ªËøúãÆª¬ï·ªêôğªïªêªŞª¹¡£' },
+-      background: { label: 'ÛÎÌØàâïÒ', helper: 'í»ÔÑªÏ30ØİªÎ?ßÀªòâ÷ÛãªËøúãÆª·ªŞª¹¡£' },
+-      font: { label: '«Õ«©«ó«È' },
++      emotion: { label: 'Êïï×' },
++      philosophy: { label: 'ôÉ?' },
++      religion: { label: 'ğó?' },
++      language: { label: 'åëåŞ' },
++      background: { label: 'ÛÎÌØ' },
++      font: { label: '«Õ«©«ó«È' },
+     },
+-    backgroundFixedLabel: 'Í³ïÒ?ßÀÛã?',
+-    backgroundFixedHelper: '1?30ªÎÛã?ª«ªéàÔªÙªŞª¹¡£',
+-    buttonLabel: '«¹«¿?«È',
+-    previewMessage: 'îïÙşªÎ??ªòñŞİáª·ªÆª¤ªŞª¹¡£',
+-    preparingLabel: 'ñŞİáñéªÇª¹',
++    buttonLabel: '«Ñ«Ã«»?«¸ªØ',
+   },
+   zh: {
+     sections: {
+-      emotion: { label: 'ï×?' },
+-      philosophy: { label: 'ôÉ???', helper: 'Ê¦Òı? ¡¤ ??îïİ»??ğ¶Ğìöâ??¡£' },
+-      religion: { label: 'ğó???', helper: 'Ê¦Òı? ¡¤ ??Üô????ğ¶Ğìöâ??¡£' },
+-      language: { label: '?åë', helper: '??ı¨Í£ØüØ¡?ï·?¡£' },
+-      background: { label: 'ÛÎÌØ?öÇ', helper: 'í»??äÎ?ßí÷ëÛ¯30??ø¸¡£' },
+-      font: { label: 'í®?' },
++      emotion: { label: 'ï×?' },
++      philosophy: { label: 'ôÉ?' },
++      religion: { label: 'ğó?' },
++      language: { label: '?åë' },
++      background: { label: 'ÛÎÌØ' },
++      font: { label: 'í®?' },
+     },
+-    backgroundFixedLabel: 'Í³ïÒ?ø¸??',
+-    backgroundFixedHelper: '??? 1-30 ñı?îÜ??¡£',
+-    buttonLabel: '?ã·',
+-    previewMessage: 'èÇïÚ??ñ×?ñé¡£',
+-    preparingLabel: 'ñ×?ñé',
++    buttonLabel: '?ã·',
+   },
+   es: {
+     sections: {
+-      emotion: { label: 'Emocion' },
+-      philosophy: { label: 'Filtro filosofico', helper: 'Seleccion multiple ¡¤ "Todo" limpia las demas opciones.' },
+-      religion: { label: 'Filtro religioso', helper: 'Seleccion multiple ¡¤ "Sin filtro" limpia las demas opciones.' },
+-      language: { label: 'Idioma', helper: 'El texto cambia al instante.' },
+-      background: { label: 'Fondo', helper: 'Auto recorre 30 imagenes en orden.' },
+-      font: { label: 'Tipografia' },
++      emotion: { label: 'Emocion' },
++      philosophy: { label: 'Filosofia' },
++      religion: { label: 'Religion' },
++      language: { label: 'Idioma' },
++      background: { label: 'Fondo' },
++      font: { label: 'Tipografia' },
+     },
+-    backgroundFixedLabel: 'Numero fijo de imagen',
+-    backgroundFixedHelper: 'Elige un numero del 1 al 30.',
+-    buttonLabel: 'Comenzar',
+-    previewMessage: 'Estamos preparando las traducciones completas.',
+-    preparingLabel: 'En preparacion',
++    buttonLabel: 'Comenzar',
+   },
+   ar: {
+     sections: {
+-      emotion: { label: '?????? ??????' },
+-      philosophy: { label: '???? ???????', helper: '???? ?????? ???? ?? ???? ¡¤ ????? ??? ???? ???? ??????.' },
+-      religion: { label: '???? ???????', helper: '???? ?????? ???? ?? ???? ¡¤ ????? ??? ??? ?????? ???? ??????.' },
+-      language: { label: '?????', helper: '????? ???? ????? ??? ???????.' },
+-      background: { label: '???????', helper: '????? ???????? ??? ??? 30 ???? ????????.' },
+-      font: { label: '????' },
++      emotion: { label: '?????? ??????' },
++      philosophy: { label: '???????' },
++      religion: { label: '???????' },
++      language: { label: '?????' },
++      background: { label: '???????' },
++      font: { label: '????' },
+     },
+-    backgroundFixedLabel: '??? ?????? ???????',
+-    backgroundFixedHelper: '???? ????? ??? 1 ? 30.',
+-    buttonLabel: '????',
+-    previewMessage: '???? ?????? ?????? ?????.',
+-    preparingLabel: '??? ???????',
++    buttonLabel: '????',
+   },
+ };
+@@
+-const normalizeDraft = (snapshot: UserSettings): UserSettings => ({
+-  ...snapshot,
+-  philosophy: snapshot.philosophy ?? [],
+-  religion: snapshot.religion ?? [],
+-  fixedBackgroundIndex: typeof snapshot.fixedBackgroundIndex === 'number' ? snapshot.fixedBackgroundIndex : 0,
+-});
++const normalizeDraft = (snapshot: UserSettings): UserSettings => ({
++  ...snapshot,
++  philosophy: snapshot.philosophy ?? [],
++  religion: snapshot.religion ?? [],
++  fixedBackgroundIndex:
++    typeof snapshot.fixedBackgroundIndex === 'number' ? snapshot.fixedBackgroundIndex : 0,
++});
+@@
+ export const MenuScreen: React.FC<MenuScreenProps> = ({ visible, initialSettings, onSubmit }) => {
+   const [draft, setDraft] = useState<UserSettings>(() => normalizeDraft(initialSettings));
+   const [isSubmitting, setSubmitting] = useState(false);
++  const insets = useSafeAreaInsets();
+@@
+-  const localeCopy = useMemo(() => LOCALE_COPY[currentLanguage], [currentLanguage]);
+-  const isPreviewLanguage = useMemo(() => !FULLY_SUPPORTED_LANGUAGES.includes(currentLanguage), [currentLanguage]);
++  const localeCopy = useMemo(() => LOCALE_COPY[currentLanguage], [currentLanguage]);
++  const isPreviewLanguage = useMemo(
++    () => !FULLY_SUPPORTED_LANGUAGES.includes(currentLanguage),
++    [currentLanguage],
++  );
+   const isRTL = currentLanguage === 'ar';
+@@
+@@
+*** End Patch
