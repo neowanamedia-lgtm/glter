@@ -18,7 +18,6 @@ type UserBackgroundManagerSheetProps = {
   onAdd: () => void | Promise<void>;
   onDeleteSelected: () => void;
   onApply: () => void;
-  onClose: () => void;
 };
 
 const DEFAULT_MAX_ITEMS = 30;
@@ -33,13 +32,13 @@ export function UserBackgroundManagerSheet({
   onAdd,
   onDeleteSelected,
   onApply,
-  onClose,
 }: UserBackgroundManagerSheetProps) {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
 
   const safeMaxItems = Math.max(1, maxItems);
   const selectedSet = useMemo(() => new Set(selectedUris), [selectedUris]);
+  const isEmpty = backgrounds.length === 0;
 
   const slotItems = useMemo(() => {
     const trimmed = backgrounds.slice(0, safeMaxItems);
@@ -58,6 +57,28 @@ export function UserBackgroundManagerSheet({
   const canDelete = selectedUris.length > 0;
   const canAdd = backgrounds.length < safeMaxItems;
 
+  const isAllSelected =
+    backgrounds.length > 0 &&
+    backgrounds.every((uri) => selectedSet.has(uri));
+
+  const handleToggleAll = () => {
+    if (isAllSelected) {
+      // 전체 해제
+      backgrounds.forEach((uri) => {
+        if (selectedSet.has(uri)) {
+          onToggleSelect(uri);
+        }
+      });
+    } else {
+      // 전체 선택
+      backgrounds.forEach((uri) => {
+        if (!selectedSet.has(uri)) {
+          onToggleSelect(uri);
+        }
+      });
+    }
+  };
+
   if (!visible) {
     return null;
   }
@@ -74,30 +95,23 @@ export function UserBackgroundManagerSheet({
       >
         <Text style={styles.title}>사용자 배경 관리</Text>
 
-        <Text style={styles.guide}>원하는 배경 이미지를 추가해 주세요.</Text>
-        <Text style={styles.guide}>사용자 배경은 세로 화면 기준으로 적용됩니다.</Text>
-        <Text style={styles.guide}>가로 화면에서는 일부 영역이 잘릴 수 있습니다.</Text>
-        <Text style={styles.guide}>권장 이미지 비율: 세로 9:16</Text>
-        <Text style={styles.guideLast}>예: 1440 × 3200</Text>
-
+        {/* 🔺 상단 버튼 */}
         <View style={styles.topButtonRow}>
           <Pressable
             style={[
               styles.actionButton,
-              !canAdd && styles.actionButtonDisabled,
+              isEmpty && styles.actionButtonDisabled,
             ]}
-            disabled={!canAdd}
-            onPress={() => {
-              void onAdd();
-            }}
+            disabled={isEmpty}
+            onPress={handleToggleAll}
           >
             <Text
               style={[
                 styles.actionButtonText,
-                !canAdd && styles.actionButtonTextDisabled,
+                isEmpty && styles.actionButtonTextDisabled,
               ]}
             >
-              추가
+              {isAllSelected ? '전체 해제' : '전체 선택'}
             </Text>
           </Pressable>
 
@@ -120,6 +134,7 @@ export function UserBackgroundManagerSheet({
           </Pressable>
         </View>
 
+        {/* 그리드 */}
         <ScrollView
           style={styles.gridScroll}
           contentContainerStyle={styles.gridScrollContent}
@@ -129,10 +144,7 @@ export function UserBackgroundManagerSheet({
             {slotItems.map((item) => {
               if (item.type === 'empty') {
                 return (
-                  <View
-                    key={item.key}
-                    style={styles.slot}
-                  >
+                  <View key={item.key} style={styles.slot}>
                     <View style={[styles.slotInner, styles.emptySlot]} />
                   </View>
                 );
@@ -141,10 +153,7 @@ export function UserBackgroundManagerSheet({
               const isSelected = selectedSet.has(item.uri);
 
               return (
-                <View
-                  key={item.uri}
-                  style={styles.slot}
-                >
+                <View key={item.uri} style={styles.slot}>
                   <Pressable
                     style={[
                       styles.slotInner,
@@ -165,7 +174,25 @@ export function UserBackgroundManagerSheet({
           </View>
         </ScrollView>
 
+        {/* 🔽 하단 버튼 */}
         <View style={styles.bottomButtonRow}>
+          <Pressable
+            style={[
+              isEmpty ? styles.primaryButton : styles.secondaryButton,
+              !canAdd && styles.actionButtonDisabled,
+            ]}
+            disabled={!canAdd}
+            onPress={() => {
+              void onAdd();
+            }}
+          >
+            <Text
+              style={isEmpty ? styles.primaryButtonText : styles.secondaryButtonText}
+            >
+              추가
+            </Text>
+          </Pressable>
+
           <Pressable
             style={[
               styles.primaryButton,
@@ -182,10 +209,6 @@ export function UserBackgroundManagerSheet({
             >
               적용
             </Text>
-          </Pressable>
-
-          <Pressable style={styles.secondaryButton} onPress={onClose}>
-            <Text style={styles.secondaryButtonText}>닫기</Text>
           </Pressable>
         </View>
       </View>
@@ -223,7 +246,6 @@ const styles = StyleSheet.create({
   },
   sheetLandscape: {
     maxHeight: '92%',
-    maxWidth: 760,
   },
   title: {
     color: '#ffffff',
@@ -231,27 +253,13 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     marginBottom: 12,
   },
-  guide: {
-    color: 'rgba(255,255,255,0.86)',
-    fontSize: 13,
-    lineHeight: 18,
-    marginBottom: 2,
-  },
-  guideLast: {
-    color: 'rgba(255,255,255,0.86)',
-    fontSize: 13,
-    lineHeight: 18,
-    marginBottom: 14,
-  },
   topButtonRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     gap: 10,
     marginBottom: 14,
   },
   bottomButtonRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
     gap: 10,
     marginTop: 14,
   },
@@ -264,7 +272,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.08)',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingHorizontal: 14,
   },
   actionButtonDisabled: {
     opacity: 0.4,
@@ -286,7 +293,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(82, 166, 255, 0.72)',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingHorizontal: 14,
   },
   primaryButtonDisabled: {
     backgroundColor: 'rgba(255,255,255,0.09)',
@@ -309,7 +315,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(255,255,255,0.06)',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingHorizontal: 14,
   },
   secondaryButtonText: {
     color: '#ffffff',
@@ -339,12 +344,10 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     borderWidth: 1,
     borderColor: 'rgba(255,255,255,0.14)',
-    backgroundColor: 'rgba(255,255,255,0.05)',
   },
   emptySlot: {
     backgroundColor: 'rgba(255,255,255,0.04)',
     borderStyle: 'dashed',
-    borderColor: 'rgba(255,255,255,0.16)',
   },
   slotInnerSelected: {
     borderColor: 'rgba(121,198,255,1)',
