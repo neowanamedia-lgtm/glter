@@ -499,7 +499,7 @@ const styles = StyleSheet.create({
     height: 8,
   },
   rowBlock: {
-    marginBottom: 3,
+    marginBottom: 6,
   },
   row: {
     flexDirection: 'row',

@@ -223,6 +223,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const hasCurrent = Boolean(currentPassage);
   const canGoPrev = canGoToPreviousPassage(historyState);
   const isGestureEnabled = !isMenuVisible && isTextReady && showSource && hasCurrent;
+  const isMenuButtonEnabled = !isMenuVisible && showSource;
 
   const activeBackgroundKey = isMenuVisible
     ? `menu-${menuBackgroundToken}`
@@ -579,7 +580,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         {!isMenuVisible ? (
           <BottomDotButton
             style={styles.bottomButton}
-            onPress={openMenu}
+            onPress={() => {
+              if (!isMenuButtonEnabled) {
+                return;
+              }
+              openMenu();
+            }}
             accessibilityLabel="Open menu"
           />
         ) : null}
