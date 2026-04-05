@@ -1,4 +1,4 @@
-﻿import { useCallback, useMemo } from 'react';
+﻿import { useCallback, useEffect, useMemo, useRef } from 'react';
 
 import type {
   ContentCategory,
@@ -264,29 +264,115 @@ export function usePassage(selections: MenuSelectionState) {
     [safeSelections.selectedCategories],
   );
 
-  const filtered = useMemo(
-    () => filterPassages(library, safeSelections, categoryFilters),
-    [library, safeSelections, categoryFilters],
+  const emotionFiltered = useMemo(
+    () => filterPassagesByEmotion(library, safeSelections),
+    [library, safeSelections],
   );
+
+  const categoryPassageMap = useMemo(
+    () => buildCategoryPassageMap(emotionFiltered, categoryFilters),
+    [emotionFiltered, categoryFilters],
+  );
+
+  const availableCategories = useMemo(
+    () =>
+      categoryFilters.filter((category) => {
+        const passages = categoryPassageMap[category];
+        return Array.isArray(passages) && passages.length > 0;
+      }),
+    [categoryFilters, categoryPassageMap],
+  );
+
+  const hasPassages = availableCategories.length > 0;
+
+  const rotationPoolRef = useRef<string[]>([]);
+  const rotationSignature = useMemo(
+    () =>
+      JSON.stringify({
+        language: safeSelections.language,
+        emotion: safeSelections.emotion,
+        categories: availableCategories,
+      }),
+    [availableCategories, safeSelections.emotion, safeSelections.language],
+  );
+
+  useEffect(() => {
+    rotationPoolRef.current = [];
+  }, [rotationSignature]);
 
   const pickNextPassage = useCallback(
     (excludeIds: string[] = []): PassagePickResult | null => {
-      if (!filtered.length) {
+      if (!availableCategories.length) {
         return null;
       }
 
       const excludeSet = new Set(excludeIds);
-      const candidatePool =
-        filtered.length > excludeSet.size
-          ? filtered.filter((passage) => !excludeSet.has(passage.id))
-          : filtered;
+      const selectedCategories = availableCategories;
 
-      const pool = candidatePool.length ? candidatePool : filtered;
-      const randomIndex = Math.floor(Math.random() * pool.length);
-      const picked = pool[randomIndex];
+      const ensurePool = (): string[] => {
+        const normalizedCurrentPool = rotationPoolRef.current.filter((category) =>
+          selectedCategories.includes(category),
+        );
 
+        if (normalizedCurrentPool.length > 0) {
+          rotationPoolRef.current = normalizedCurrentPool;
+          return normalizedCurrentPool;
+        }
+
+        rotationPoolRef.current = [...selectedCategories];
+        return rotationPoolRef.current;
+      };
+
+      const findPickableCategories = (categories: string[]): string[] =>
+        categories.filter((category) => {
+          const passages = categoryPassageMap[category] ?? [];
+          return passages.some((passage) => !excludeSet.has(passage.id));
+        });
+
+      let pool = ensurePool();
+      let candidateCategories = findPickableCategories(pool);
+
+      if (!candidateCategories.length) {
+        if (pool.length !== selectedCategories.length) {
+          rotationPoolRef.current = [...selectedCategories];
+          pool = rotationPoolRef.current;
+          candidateCategories = findPickableCategories(pool);
+        }
+      }
+
+      let targetCategory: string | null = null;
+
+      if (candidateCategories.length > 0) {
+        targetCategory = pickRandomItem(candidateCategories) ?? null;
+      } else {
+        const fallbackPool = pool.length ? pool : selectedCategories;
+        targetCategory = pickRandomItem(fallbackPool) ?? null;
+      }
+
+      if (!targetCategory) {
+        return null;
+      }
+
+      const passagesInCategory = categoryPassageMap[targetCategory] ?? [];
+      if (!passagesInCategory.length) {
+        return null;
+      }
+
+      const unexcludedPassages = passagesInCategory.filter(
+        (passage) => !excludeSet.has(passage.id),
+      );
+      const targetPassagePool =
+        unexcludedPassages.length > 0 ? unexcludedPassages : passagesInCategory;
+
+      const picked = pickRandomItem(targetPassagePool);
       if (!picked) {
         return null;
+      }
+
+      rotationPoolRef.current = removeCategoryOnce(rotationPoolRef.current, targetCategory);
+
+      if (!rotationPoolRef.current.length) {
+        rotationPoolRef.current = [...selectedCategories];
       }
 
       return {
@@ -295,11 +381,11 @@ export function usePassage(selections: MenuSelectionState) {
         sourceText: picked.sourceText,
       };
     },
-    [filtered],
+    [availableCategories, categoryPassageMap],
   );
 
   return {
-    hasPassages: filtered.length > 0,
+    hasPassages,
     pickNextPassage,
   };
 }
@@ -369,19 +455,11 @@ function mapMenuCategoryToTag(category: ContentCategory): string | null {
   return category ?? null;
 }
 
-function filterPassages(
+function filterPassagesByEmotion(
   passages: NormalizedPassage[],
   selections: MenuSelectionState,
-  categoryFilters: string[],
 ): NormalizedPassage[] {
   return passages.filter((passage) => {
-    const categoryMatch =
-      !categoryFilters.length || categoryFilters.includes(passage.tags.category);
-
-    if (!categoryMatch) {
-      return false;
-    }
-
     if (selections.emotion === 'unknown') {
       return true;
     }
@@ -391,4 +469,51 @@ function filterPassages(
       passage.emotionExtended.includes(selections.emotion)
     );
   });
+}
+
+function buildCategoryPassageMap(
+  passages: NormalizedPassage[],
+  categoryFilters: string[],
+): Record<string, NormalizedPassage[]> {
+  if (!categoryFilters.length) {
+    return {};
+  }
+
+  const filterSet = new Set(categoryFilters);
+  const map: Record<string, NormalizedPassage[]> = {};
+
+  passages.forEach((passage) => {
+    const category = passage.tags.category;
+
+    if (!filterSet.has(category)) {
+      return;
+    }
+
+    if (!map[category]) {
+      map[category] = [];
+    }
+
+    map[category].push(passage);
+  });
+
+  return map;
+}
+
+function removeCategoryOnce(categories: string[], target: string): string[] {
+  const index = categories.indexOf(target);
+
+  if (index < 0) {
+    return categories;
+  }
+
+  return [...categories.slice(0, index), ...categories.slice(index + 1)];
+}
+
+function pickRandomItem<T>(items: T[]): T | null {
+  if (!items.length) {
+    return null;
+  }
+
+  const index = Math.floor(Math.random() * items.length);
+  return items[index] ?? null;
 }
