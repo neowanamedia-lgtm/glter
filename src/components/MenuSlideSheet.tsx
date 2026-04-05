@@ -15,7 +15,6 @@ import type {
   FontOption,
   LanguageOption,
   MenuSelectionState,
-  SizeOption,
 } from '../types/menu';
 
 type MenuSlideSheetProps = {
@@ -36,9 +35,21 @@ const EMOTION_OPTIONS: Array<{ key: EmotionKey; label: string }> = [
   { key: 'sadness', label: '슬픔' },
 ];
 
-const PHILOSOPHY_OPTIONS: Array<{ key: ContentCategory; label: string }> = [
+const PHILOSOPHY_OPTIONS_ROW1: Array<{ key: ContentCategory; label: string }> = [
   { key: 'eastern_philosophy', label: '동양 철학' },
   { key: 'western_philosophy', label: '서양 철학' },
+  { key: 'human' as ContentCategory, label: '인간' },
+  { key: 'universe' as ContentCategory, label: '우주' },
+  { key: 'destiny' as ContentCategory, label: '운명' },
+];
+
+const PHILOSOPHY_OPTIONS_ROW2: Array<{ key: ContentCategory; label: string }> = [
+  { key: 'love' as ContentCategory, label: '사랑' },
+  { key: 'friendship' as ContentCategory, label: '우정' },
+  { key: 'death' as ContentCategory, label: '죽음' },
+  { key: 'money' as ContentCategory, label: '돈' },
+  { key: 'work_life' as ContentCategory, label: '직장생활' },
+  { key: 'children' as ContentCategory, label: '자녀' },
 ];
 
 const LITERATURE_OPTIONS: Array<{ key: ContentCategory; label: string }> = [
@@ -69,13 +80,8 @@ const FONT_OPTIONS: Array<{ key: FontOption; label: string }> = [
   { key: 'script', label: '필기체' },
 ];
 
-const SIZE_OPTIONS: Array<{ key: SizeOption; label: string }> = [
-  { key: 'large', label: '크게' },
-  { key: 'small', label: '작게' },
-];
-
 const BACKGROUND_OPTIONS: Array<{ key: BackgroundOption; label: string }> = [
-  { key: 'auto', label: '자동 배경' },
+  { key: 'auto', label: '자동배경' },
   { key: 'upload', label: '불러오기' },
 ];
 
@@ -95,12 +101,12 @@ export function MenuSlideSheet({
   const isLandscape = width > height;
 
   const emotionMode: ChipMode = width < 390 ? 'compact' : 'regular';
-  const philosophyMode: ChipMode = width < 390 ? 'compact' : 'regular';
+  const philosophyMode: ChipMode = width < 430 ? 'compact' : 'regular';
   const literatureMode: ChipMode = width < 460 ? 'compact' : 'regular';
   const religionMode: ChipMode = width < 390 ? 'compact' : 'regular';
   const languageMode: ChipMode = 'tight';
-  const fontSizeMode: ChipMode = width < 460 ? 'compact' : 'regular';
-  const backgroundMode: ChipMode = 'regular';
+  const fontMode: ChipMode = width < 460 ? 'compact' : 'regular';
+  const backgroundMode: ChipMode = width < 460 ? 'compact' : 'regular';
 
   const handleEmotion = (emotion: EmotionKey) => {
     onChange((prev) => ({
@@ -146,13 +152,6 @@ export function MenuSlideSheet({
     }));
   };
 
-  const handleSize = (size: SizeOption) => {
-    onChange((prev) => ({
-      ...prev,
-      size,
-    }));
-  };
-
   const handleBackground = (background: BackgroundOption) => {
     onChange((prev) => ({
       ...prev,
@@ -189,41 +188,81 @@ export function MenuSlideSheet({
             ]}
             onPress={() => {}}
           >
-            <Text style={styles.brand}>Seloa</Text>
-            <Text style={styles.copy}>지금 나에게 맞는 한 문단의 문장</Text>
+            <Text style={styles.brand}>glter</Text>
+            <Text style={styles.copy}>지금 나의 문장, 생각이 머무는 글의 공간</Text>
 
             <View style={styles.sectionGap} />
 
             <RowBlock>
-              {renderSingleSelectChips(EMOTION_OPTIONS, state.emotion, handleEmotion, emotionMode)}
+              {renderSingleSelectChips(
+                EMOTION_OPTIONS,
+                state.emotion,
+                handleEmotion,
+                emotionMode,
+              )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(PHILOSOPHY_OPTIONS, state.selectedCategories, handleCategoryToggle, philosophyMode)}
+              {renderMultiSelectChips(
+                PHILOSOPHY_OPTIONS_ROW1,
+                state.selectedCategories,
+                handleCategoryToggle,
+                philosophyMode,
+              )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(LITERATURE_OPTIONS, state.selectedCategories, handleCategoryToggle, literatureMode)}
+              {renderMultiSelectChips(
+                PHILOSOPHY_OPTIONS_ROW2,
+                state.selectedCategories,
+                handleCategoryToggle,
+                philosophyMode,
+              )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(RELIGION_OPTIONS, state.selectedCategories, handleCategoryToggle, religionMode)}
+              {renderMultiSelectChips(
+                LITERATURE_OPTIONS,
+                state.selectedCategories,
+                handleCategoryToggle,
+                literatureMode,
+              )}
             </RowBlock>
 
             <RowBlock>
-              {renderLanguageChips(LANGUAGE_OPTIONS, state.language, handleLanguage, languageMode)}
+              {renderMultiSelectChips(
+                RELIGION_OPTIONS,
+                state.selectedCategories,
+                handleCategoryToggle,
+                religionMode,
+              )}
             </RowBlock>
 
             <RowBlock>
-              <View style={styles.inlineRow}>
-                {renderSingleSelectChips(FONT_OPTIONS, state.font, handleFont, fontSizeMode)}
-                <View style={styles.inlineGap} />
-                {renderSingleSelectChips(SIZE_OPTIONS, state.size, handleSize, fontSizeMode)}
+              {renderLanguageChips(
+                LANGUAGE_OPTIONS,
+                state.language,
+                handleLanguage,
+                languageMode,
+              )}
+            </RowBlock>
+
+            <RowBlock>
+              <View style={styles.inlineSection}>
+                {renderSingleSelectChipList(
+                  FONT_OPTIONS,
+                  state.font,
+                  handleFont,
+                  fontMode,
+                )}
+                <View style={styles.inlineGapCompact} />
+                {renderSingleSelectChipList(
+                  BACKGROUND_OPTIONS,
+                  state.background,
+                  handleBackground,
+                  backgroundMode,
+                )}
               </View>
-            </RowBlock>
-
-            <RowBlock>
-              {renderSingleSelectChips(BACKGROUND_OPTIONS, state.background, handleBackground, backgroundMode)}
             </RowBlock>
 
             <View style={styles.applyGap} />
@@ -260,6 +299,47 @@ function renderSingleSelectChips<T extends string>(
             key={option.key}
             style={[
               styles.chip,
+              mode === 'compact' && styles.chipCompact,
+              mode === 'tight' && styles.chipTight,
+              isSelected && styles.chipSelected,
+            ]}
+            onPress={() => onPress(option.key)}
+          >
+            <Text
+              style={[
+                styles.chipText,
+                mode === 'compact' && styles.chipTextCompact,
+                mode === 'tight' && styles.chipTextTight,
+                isSelected && styles.chipTextSelected,
+              ]}
+              numberOfLines={1}
+            >
+              {option.label}
+            </Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
+function renderSingleSelectChipList<T extends string>(
+  options: Array<{ key: T; label: string }>,
+  selected: T,
+  onPress: (value: T) => void,
+  mode: ChipMode,
+) {
+  return (
+    <View style={styles.inlineChipList}>
+      {options.map((option) => {
+        const isSelected = selected === option.key;
+
+        return (
+          <Pressable
+            key={option.key}
+            style={[
+              styles.chip,
+              styles.inlineChip,
               mode === 'compact' && styles.chipCompact,
               mode === 'tight' && styles.chipTight,
               isSelected && styles.chipSelected,
@@ -376,28 +456,28 @@ const styles = StyleSheet.create({
   contentOuter: {
     flex: 1,
     justifyContent: 'center',
-    paddingHorizontal: 22,
+    paddingHorizontal: 20,
   },
   contentOuterPortrait: {
-    paddingTop: 48,
-    paddingBottom: 34,
+    paddingTop: 44,
+    paddingBottom: 28,
   },
   contentOuterLandscape: {
-    paddingTop: 20,
-    paddingBottom: 20,
-    paddingHorizontal: 30,
+    paddingTop: 18,
+    paddingBottom: 18,
+    paddingHorizontal: 28,
   },
   contentWrap: {
     width: '100%',
     alignSelf: 'center',
   },
   contentWrapPortrait: {
-    maxWidth: 980,
-    transform: [{ translateY: -28 }],
+    maxWidth: 1120,
+    transform: [{ translateY: -24 }],
   },
   contentWrapLandscape: {
-    maxWidth: 1320,
-    transform: [{ translateX: 200 }, { translateY: -4 }],
+    maxWidth: 1420,
+    transform: [{ translateX: 170 }, { translateY: -2 }],
   },
   brand: {
     color: '#ffffff',
@@ -412,47 +492,61 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: '500',
     textAlign: 'left',
-    lineHeight: 20,
+    lineHeight: 19,
     marginTop: 0,
   },
   sectionGap: {
-    height: 14,
+    height: 8,
   },
   rowBlock: {
-    marginBottom: 8,
+    marginBottom: 3,
   },
   row: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     alignItems: 'center',
-    gap: 6,
-  },
-  languageRow: {
     gap: 4,
   },
-  inlineRow: {
+  languageRow: {
+    gap: 3,
+  },
+  inlineSection: {
     flexDirection: 'row',
-    flexWrap: 'wrap',
+    flexWrap: 'nowrap',
     alignItems: 'center',
   },
-  inlineGap: {
-    width: 10,
+  inlineChipList: {
+    flexDirection: 'row',
+    flexWrap: 'nowrap',
+    alignItems: 'center',
+    gap: 4,
+  },
+  inlineChip: {
+    minWidth: 0,
+  },
+  inlineGapCompact: {
+    width: 4,
   },
   chip: {
+    minWidth: 58,
+    alignItems: 'center',
+    justifyContent: 'center',
     borderRadius: 999,
     borderWidth: 1,
     borderColor: 'rgba(255,255,255,0.40)',
     backgroundColor: 'rgba(255,255,255,0.08)',
-    paddingHorizontal: 13,
-    paddingVertical: 5,
+    paddingHorizontal: 9,
+    paddingVertical: 3,
   },
   chipCompact: {
-    paddingHorizontal: 10,
-    paddingVertical: 5,
+    minWidth: 54,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
   },
   chipTight: {
-    paddingHorizontal: 8,
-    paddingVertical: 4,
+    minWidth: 50,
+    paddingHorizontal: 7,
+    paddingVertical: 2,
   },
   chipSelected: {
     backgroundColor: 'rgba(82, 166, 255, 0.72)',
@@ -465,18 +559,18 @@ const styles = StyleSheet.create({
     color: '#f5f8fb',
     fontSize: 14,
     fontWeight: '700',
-    letterSpacing: -0.1,
-    lineHeight: 18,
+    letterSpacing: -0.15,
+    lineHeight: 17,
   },
   chipTextCompact: {
     fontSize: 13,
     letterSpacing: -0.2,
-    lineHeight: 17,
+    lineHeight: 16,
   },
   chipTextTight: {
     fontSize: 13,
-    letterSpacing: -0.3,
-    lineHeight: 16,
+    letterSpacing: -0.25,
+    lineHeight: 15,
   },
   chipTextSelected: {
     color: '#ffffff',
@@ -485,7 +579,7 @@ const styles = StyleSheet.create({
     color: 'rgba(255,255,255,0.90)',
   },
   applyGap: {
-    height: 14,
+    height: 42,
   },
   applyWrap: {
     alignItems: 'center',
@@ -505,5 +599,6 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     letterSpacing: 0.1,
     lineHeight: 18,
+    textAlign: 'center',
   },
 });
