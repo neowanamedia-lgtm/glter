@@ -21,7 +21,8 @@ type UserBackgroundManagerSheetProps = {
   onClose: () => void;
 };
 
-const DEFAULT_MAX_ITEMS = 12;
+const DEFAULT_MAX_ITEMS = 30;
+const COLUMNS = 3;
 
 export function UserBackgroundManagerSheet({
   visible,
@@ -36,8 +37,6 @@ export function UserBackgroundManagerSheet({
 }: UserBackgroundManagerSheetProps) {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
-  const columns = 3;
-  const rows = 4;
 
   const safeMaxItems = Math.max(1, maxItems);
   const selectedSet = useMemo(() => new Set(selectedUris), [selectedUris]);
@@ -127,15 +126,12 @@ export function UserBackgroundManagerSheet({
           showsVerticalScrollIndicator={false}
         >
           <View style={styles.gridWrap}>
-            {slotItems.map((item, index) => {
+            {slotItems.map((item) => {
               if (item.type === 'empty') {
                 return (
                   <View
                     key={item.key}
-                    style={[
-                      styles.slot,
-                      index >= columns * rows ? styles.slotHidden : null,
-                    ]}
+                    style={styles.slot}
                   >
                     <View style={[styles.slotInner, styles.emptySlot]} />
                   </View>
@@ -147,10 +143,7 @@ export function UserBackgroundManagerSheet({
               return (
                 <View
                   key={item.uri}
-                  style={[
-                    styles.slot,
-                    index >= columns * rows ? styles.slotHidden : null,
-                  ]}
+                  style={styles.slot}
                 >
                   <Pressable
                     style={[
@@ -335,12 +328,9 @@ const styles = StyleSheet.create({
     marginHorizontal: -5,
   },
   slot: {
-    width: '33.3333%',
+    width: `${100 / COLUMNS}%`,
     paddingHorizontal: 5,
     paddingVertical: 5,
-  },
-  slotHidden: {
-    display: 'none',
   },
   slotInner: {
     width: '100%',

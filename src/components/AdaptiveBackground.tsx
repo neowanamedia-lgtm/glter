@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, useEffect, useMemo, useRef, useState } from 'react';
+import React, { PropsWithChildren, useEffect, useMemo, useRef } from 'react';
 import {
   Animated,
   ImageBackground,
@@ -6,7 +6,7 @@ import {
   View,
 } from 'react-native';
 
-import { getRandomBackground, BackgroundConfig } from '../constants/backgrounds';
+import { BackgroundConfig } from '../constants/backgrounds';
 
 type AdaptiveBackgroundProps = PropsWithChildren<{
   onReady?: () => void;
@@ -14,6 +14,7 @@ type AdaptiveBackgroundProps = PropsWithChildren<{
   blurRadius?: number;
   backgroundMode?: 'auto' | 'user';
   userBackgroundUri?: string | null;
+  background?: BackgroundConfig | null;
 }>;
 
 const INITIAL_FADE_DURATION = 900;
@@ -44,32 +45,18 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
   blurRadius = 0,
   backgroundMode = 'auto',
   userBackgroundUri,
+  background,
 }) => {
-  const [selectedBackground, setSelectedBackground] = useState<BackgroundConfig>(() =>
-    getRandomBackground(),
-  );
-
   const opacity = useRef(new Animated.Value(0)).current;
   const hasSignaledRef = useRef(false);
-  const previousBackgroundModeRef = useRef<'auto' | 'user'>(backgroundMode);
-
-  useEffect(() => {
-    const previousMode = previousBackgroundModeRef.current;
-
-    if (backgroundMode === 'auto' && previousMode !== 'auto') {
-      setSelectedBackground(getRandomBackground());
-    }
-
-    previousBackgroundModeRef.current = backgroundMode;
-  }, [backgroundMode]);
 
   const source = useMemo(() => {
     if (backgroundMode === 'user' && userBackgroundUri) {
       return { uri: userBackgroundUri };
     }
 
-    return selectedBackground.portrait;
-  }, [backgroundMode, selectedBackground, userBackgroundUri]);
+    return background?.portrait;
+  }, [background, backgroundMode, userBackgroundUri]);
 
   useEffect(() => {
     opacity.setValue(0);
@@ -90,12 +77,14 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
   return (
     <View style={styles.container}>
       <Animated.View style={[styles.backgroundLayer, { opacity }]}>
-        <ImageBackground
-          source={source}
-          style={styles.image}
-          resizeMode="cover"
-          blurRadius={blurRadius}
-        />
+        {source ? (
+          <ImageBackground
+            source={source}
+            style={styles.image}
+            resizeMode="cover"
+            blurRadius={blurRadius}
+          />
+        ) : null}
       </Animated.View>
 
       <View

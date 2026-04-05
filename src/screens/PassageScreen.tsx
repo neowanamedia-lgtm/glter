@@ -26,6 +26,12 @@ import {
   moveToPreviousPassage,
   resetPassageHistory,
 } from '../utils/passageHistory';
+import {
+  BackgroundConfig,
+  getBackgroundAt,
+  getNextBackgroundIndex,
+  getRandomBackgroundIndex,
+} from '../constants/backgrounds';
 
 const TEXT_DELAY_MS = 1400;
 const BASE_FONT_SIZE = 20;
@@ -39,7 +45,7 @@ const SWIPE_DIRECTION_RATIO = 0.4;
 const SWIPE_MAX_VERTICAL_DRIFT = 120;
 const MENU_BACKGROUND_BLUR_RADIUS = 28;
 const DOUBLE_TAP_DELAY_MS = 260;
-const MAX_USER_BACKGROUNDS = 12;
+const MAX_USER_BACKGROUNDS = 30;
 
 type BackgroundMode = 'auto' | 'user';
 type OverlayMode = 'none' | 'menu' | 'userBackgroundManager';
@@ -106,9 +112,6 @@ const estimateSourceHeight = (
 
   return resolvedLineHeight * Math.max(1, approximateLines);
 };
-
-const createBackgroundToken = (): string =>
-  `bg_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
 
 const dedupeUris = (uris: string[]): string[] => {
   const seen = new Set<string>();
@@ -215,14 +218,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const [showSource, setShowSource] = useState(false);
   const [historyState, setHistoryState] = useState(createInitialPassageHistoryState());
   const [shouldStartNewSelection, setShouldStartNewSelection] = useState(false);
-  const [currentBackgroundToken, setCurrentBackgroundToken] = useState<string>(() =>
-    createBackgroundToken(),
-  );
-  const [menuBackgroundToken, setMenuBackgroundToken] = useState<string>(() =>
-    createBackgroundToken(),
-  );
 
   const [backgroundMode, setBackgroundMode] = useState<BackgroundMode>('auto');
+
+  const [autoBackgroundIndex, setAutoBackgroundIndex] = useState<number>(() =>
+    getRandomBackgroundIndex(),
+  );
 
   const [storedUserBackgrounds, setStoredUserBackgrounds] = useState<string[]>([]);
   const [appliedUserBackgrounds, setAppliedUserBackgrounds] = useState<string[]>([]);
@@ -236,7 +237,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const lastTapTimestampRef = useRef(0);
   const gestureHandledRef = useRef(false);
 
-  const passageBackgroundMapRef = useRef<Record<string, string>>({});
+  const passageBackgroundIndexMapRef = useRef<Record<string, number>>({});
   const passageUserBackgroundUriMapRef = useRef<Record<string, string>>({});
 
   const isMenuVisible = overlayMode === 'menu';
@@ -298,23 +299,27 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const isMenuButtonEnabled = !isMenuVisible && !isUserBackgroundManagerVisible && showSource;
 
+  const activeAutoBackground: BackgroundConfig = useMemo(
+    () => getBackgroundAt(autoBackgroundIndex),
+    [autoBackgroundIndex],
+  );
+
   const activeBackgroundKey = useMemo(() => {
     if (effectiveBackgroundMode === 'user') {
-      return isMenuVisible || isUserBackgroundManagerVisible
-        ? `menu-user-${currentUserBackgroundUri ?? 'empty'}`
-        : `passage-user-${currentUserBackgroundUri ?? 'empty'}`;
+      return `user-${currentUserBackgroundUri ?? 'empty'}-${isMenuVisible ? 'menu' : 'passage'}-${
+        isUserBackgroundManagerVisible ? 'manager' : 'main'
+      }`;
     }
 
-    return isMenuVisible || isUserBackgroundManagerVisible
-      ? `menu-${menuBackgroundToken}`
-      : `passage-${currentBackgroundToken}`;
+    return `auto-${activeAutoBackground.id}-${isMenuVisible ? 'menu' : 'passage'}-${
+      isUserBackgroundManagerVisible ? 'manager' : 'main'
+    }`;
   }, [
+    activeAutoBackground.id,
+    currentUserBackgroundUri,
     effectiveBackgroundMode,
     isMenuVisible,
     isUserBackgroundManagerVisible,
-    currentUserBackgroundUri,
-    menuBackgroundToken,
-    currentBackgroundToken,
   ]);
 
   const resetVisualPresentation = useCallback(() => {
@@ -372,7 +377,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       selectedCategories: [...menuSelections.selectedCategories],
       background: backgroundMode === 'user' ? 'upload' : 'auto',
     });
-    setMenuBackgroundToken(createBackgroundToken());
     setOverlayMode('menu');
     resetVisualPresentation();
   }, [backgroundMode, clearSingleTapTimer, menuSelections, resetVisualPresentation]);
@@ -395,7 +399,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         MAX_USER_BACKGROUNDS,
       ),
     );
-    setMenuBackgroundToken(createBackgroundToken());
     setOverlayMode('userBackgroundManager');
     resetVisualPresentation();
     return true;
@@ -418,7 +421,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setDraftUserBackgrounds([]);
     setDraftSelectedUserBackgrounds([]);
     setOverlayMode('menu');
-    setMenuBackgroundToken(createBackgroundToken());
     resetVisualPresentation();
   }, [resetVisualPresentation]);
 
@@ -488,7 +490,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setDraftUserBackgrounds([]);
     setDraftSelectedUserBackgrounds([]);
     setOverlayMode('menu');
-    setMenuBackgroundToken(createBackgroundToken());
     resetVisualPresentation();
   }, [
     currentUserBackgroundUri,
@@ -519,15 +520,14 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         setCurrentUserBackgroundUri(firstUserUri);
       }
     } else {
-      const nextBackgroundToken = createBackgroundToken();
-      passageBackgroundMapRef.current[firstPassage.id] = nextBackgroundToken;
-      setCurrentBackgroundToken(nextBackgroundToken);
+      passageBackgroundIndexMapRef.current[firstPassage.id] = autoBackgroundIndex;
     }
 
     setHistoryState(appendPassage(createInitialPassageHistoryState(), firstPassage));
     resetVisualPresentation();
   }, [
     appliedUserBackgrounds,
+    autoBackgroundIndex,
     currentUserBackgroundUri,
     effectiveBackgroundMode,
     pickNextPassage,
@@ -543,7 +543,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const showNextPassage = useCallback(() => {
     clearSingleTapTimer();
 
-    let nextBackgroundTokenToApply: string | null = null;
+    let nextBackgroundIndexToApply: number | null = null;
     let nextUserBackgroundUriToApply: string | null = null;
 
     setHistoryState((prev) => {
@@ -569,8 +569,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
           passageUserBackgroundUriMapRef.current[nextPassage.id] = nextUserBackgroundUriToApply;
         }
       } else {
-        nextBackgroundTokenToApply = createBackgroundToken();
-        passageBackgroundMapRef.current[nextPassage.id] = nextBackgroundTokenToApply;
+        nextBackgroundIndexToApply = getNextBackgroundIndex(autoBackgroundIndex);
+        passageBackgroundIndexMapRef.current[nextPassage.id] = nextBackgroundIndexToApply;
       }
 
       return appendPassage(prev, nextPassage);
@@ -580,13 +580,14 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       setCurrentUserBackgroundUri(nextUserBackgroundUriToApply);
     }
 
-    if (nextBackgroundTokenToApply) {
-      setCurrentBackgroundToken(nextBackgroundTokenToApply);
+    if (typeof nextBackgroundIndexToApply === 'number') {
+      setAutoBackgroundIndex(nextBackgroundIndexToApply);
     }
 
     resetVisualPresentation();
   }, [
     appliedUserBackgrounds,
+    autoBackgroundIndex,
     clearSingleTapTimer,
     currentUserBackgroundUri,
     effectiveBackgroundMode,
@@ -610,7 +611,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     };
 
     clearSingleTapTimer();
-    passageBackgroundMapRef.current = {};
+    passageBackgroundIndexMapRef.current = {};
     passageUserBackgroundUriMapRef.current = {};
     setMenuSelections(normalizedNext);
     setDraftSelections(normalizedNext);
@@ -686,7 +687,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       setDraftUserBackgrounds([]);
       setDraftSelectedUserBackgrounds([]);
       setOverlayMode('menu');
-      setMenuBackgroundToken(createBackgroundToken());
       resetVisualPresentation();
     }
   }, [isLandscape, isUserBackgroundManagerVisible, resetVisualPresentation]);
@@ -706,13 +706,13 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       return;
     }
 
-    const mappedBackgroundToken = passageBackgroundMapRef.current[currentPassage.id];
-    if (!mappedBackgroundToken) {
+    const mappedBackgroundIndex = passageBackgroundIndexMapRef.current[currentPassage.id];
+    if (typeof mappedBackgroundIndex !== 'number') {
       return;
     }
 
-    setCurrentBackgroundToken((prev) =>
-      prev === mappedBackgroundToken ? prev : mappedBackgroundToken,
+    setAutoBackgroundIndex((prev) =>
+      prev === mappedBackgroundIndex ? prev : mappedBackgroundIndex,
     );
   }, [currentPassage?.id, effectiveBackgroundMode]);
 
@@ -860,6 +860,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
       backgroundMode={effectiveBackgroundMode}
       userBackgroundUri={currentUserBackgroundUri}
+      background={activeAutoBackground}
     >
       <View style={styles.root}>
         <View style={styles.gestureLayer} {...panResponder.panHandlers}>
