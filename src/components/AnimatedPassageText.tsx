@@ -4,11 +4,15 @@ import { Animated, StyleProp, StyleSheet, TextStyle, View, ViewStyle } from 'rea
 import { FontVariant, FONT_FAMILY_BY_VARIANT } from './PassageSourceText';
 
 const styles = StyleSheet.create({
-  lineContainer: {
+  container: {
+    width: '100%',
+  },
+  lineRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
+    width: '100%',
   },
   word: {
     color: '#ffffff',
@@ -22,19 +26,6 @@ const WORD_FADE_DURATION = 660;
 const WORD_STAGGER = 220;
 const WORD_TRANSLATE_Y = 16;
 
-/**
- * 🔥 필기체 미세조정 포인트
- * - 굵기: HANDWRITING_FONT_WEIGHT
- * - 크기: HANDWRITING_SIZE_BONUS
- * - 행간: HANDWRITING_LINE_HEIGHT_MULTIPLIER
- * - 자간: HANDWRITING_LETTER_SPACING
- *
- * 추천 시작값:
- * - 굵기: '10'
- * - 크기: 0
- * - 행간: 10.0
- * - 자간: 0.32
- */
 const HANDWRITING_FONT_WEIGHT: TextStyle['fontWeight'] = '100';
 const HANDWRITING_SIZE_BONUS = 0;
 const HANDWRITING_LINE_HEIGHT_MULTIPLIER = 8.75;
@@ -53,6 +44,13 @@ export type AnimatedPassageTextProps = {
   isReady?: boolean;
   onComplete?: () => void;
   variant: FontVariant;
+};
+
+type WordToken = {
+  key: string;
+  text: string;
+  lineIndex: number;
+  wordIndex: number;
 };
 
 const getDefaultLineHeight = (variant: FontVariant, fontSize: number): number => {
@@ -108,14 +106,33 @@ export const AnimatedPassageText: React.FC<AnimatedPassageTextProps> = ({
   const safeLine = typeof line === 'string' ? line : '';
   const normalizedLine = safeLine.trim();
 
-  const words = useMemo(
-    () => (normalizedLine.length > 0 ? normalizedLine.split(/\s+/) : []),
+  const lineBlocks = useMemo(
+    () =>
+      normalizedLine.length > 0
+        ? normalizedLine
+            .split('\n')
+            .map((item) => item.trim())
+            .filter((item) => item.length > 0)
+        : [],
     [normalizedLine],
   );
 
+  const wordTokens = useMemo<WordToken[]>(
+    () =>
+      lineBlocks.flatMap((lineText, lineIndex) =>
+        lineText.split(/\s+/).map((word, wordIndex) => ({
+          key: `line-${lineIndex}-word-${wordIndex}-${word}`,
+          text: word,
+          lineIndex,
+          wordIndex,
+        })),
+      ),
+    [lineBlocks],
+  );
+
   const animatedValues = useMemo(
-    () => words.map(() => new Animated.Value(0)),
-    [words],
+    () => wordTokens.map(() => new Animated.Value(0)),
+    [wordTokens],
   );
 
   const hasCompletedRef = useRef(false);
@@ -145,7 +162,7 @@ export const AnimatedPassageText: React.FC<AnimatedPassageTextProps> = ({
       return;
     }
 
-    if (words.length === 0) {
+    if (wordTokens.length === 0) {
       return;
     }
 
@@ -178,7 +195,7 @@ export const AnimatedPassageText: React.FC<AnimatedPassageTextProps> = ({
       animationRef.current?.stop();
       animationRef.current = null;
     };
-  }, [animatedValues, isReady, normalizedLine, words.length]);
+  }, [animatedValues, isReady, normalizedLine, wordTokens.length]);
 
   if (!normalizedLine.length) {
     return null;
@@ -202,31 +219,47 @@ export const AnimatedPassageText: React.FC<AnimatedPassageTextProps> = ({
   });
 
   return (
-    <View style={[styles.lineContainer, containerStyle]}>
-      {words.map((word, index) => (
-        <Animated.Text
-          key={`word-${index}-${word}`}
-          style={[
-            styles.word,
-            style,
-            variantTypography,
-            {
-              opacity: animatedValues[index],
-              transform: [
-                {
-                  translateY: animatedValues[index].interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [WORD_TRANSLATE_Y, 0],
-                  }),
-                },
-              ],
-            },
-          ]}
-        >
-          {word}
-          {index < words.length - 1 ? ' ' : ''}
-        </Animated.Text>
-      ))}
+    <View style={[styles.container, containerStyle]}>
+      {lineBlocks.map((lineText, lineIndex) => {
+        const lineWords = lineText.split(/\s+/);
+
+        return (
+          <View key={`line-${lineIndex}`} style={styles.lineRow}>
+            {lineWords.map((word, wordIndex) => {
+              const globalIndex = wordTokens.findIndex(
+                (token) => token.lineIndex === lineIndex && token.wordIndex === wordIndex,
+              );
+
+              const animatedValue = animatedValues[globalIndex];
+
+              return (
+                <Animated.Text
+                  key={`word-${lineIndex}-${wordIndex}-${word}`}
+                  style={[
+                    styles.word,
+                    style,
+                    variantTypography,
+                    {
+                      opacity: animatedValue,
+                      transform: [
+                        {
+                          translateY: animatedValue.interpolate({
+                            inputRange: [0, 1],
+                            outputRange: [WORD_TRANSLATE_Y, 0],
+                          }),
+                        },
+                      ],
+                    },
+                  ]}
+                >
+                  {word}
+                  {wordIndex < lineWords.length - 1 ? ' ' : ''}
+                </Animated.Text>
+              );
+            })}
+          </View>
+        );
+      })}
     </View>
   );
 };

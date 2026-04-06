@@ -18,8 +18,8 @@ export const FILTER_GROUPS = [
     key: 'philosophy_core',
     mode: 'multi',
     options: [
-      { value: 'eastern_philosophy', label: '동양 철학', tags: ['eastern_philosophy'] },
-      { value: 'western_philosophy', label: '서양 철학', tags: ['western_philosophy'] },
+      { value: 'eastern_philosophy', label: '동양철학', tags: ['eastern_philosophy'] },
+      { value: 'western_philosophy', label: '서양철학', tags: ['western_philosophy'] },
     ],
   },
   {
@@ -47,10 +47,10 @@ export const FILTER_GROUPS = [
     key: 'literature',
     mode: 'multi',
     options: [
-      { value: 'eastern_poetry', label: '동양시', tags: ['eastern_poetry'] },
+      { value: 'eastern_poetry', label: '한국시', tags: ['eastern_poetry'] },
       { value: 'western_poetry', label: '서양시', tags: ['western_poetry'] },
-      { value: 'eastern_novel', label: '동양 소설', tags: ['eastern_novel'] },
-      { value: 'western_novel', label: '서양 소설', tags: ['western_novel'] },
+      { value: 'eastern_novel', label: '동양소설', tags: ['eastern_novel'] },
+      { value: 'western_novel', label: '서양소설', tags: ['western_novel'] },
     ],
   },
   {

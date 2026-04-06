@@ -37,8 +37,8 @@ const EMOTION_OPTIONS: Array<{ key: EmotionKey; label: string }> = [
 ];
 
 const PHILOSOPHY_OPTIONS_ROW1: Array<{ key: ContentCategory; label: string }> = [
-  { key: 'eastern_philosophy', label: '동양 철학' },
-  { key: 'western_philosophy', label: '서양 철학' },
+  { key: 'eastern_philosophy', label: '동양철학' },
+  { key: 'western_philosophy', label: '서양철학' },
   { key: 'human' as ContentCategory, label: '인간' },
   { key: 'universe' as ContentCategory, label: '우주' },
   { key: 'destiny' as ContentCategory, label: '운명' },
@@ -54,7 +54,7 @@ const PHILOSOPHY_OPTIONS_ROW2: Array<{ key: ContentCategory; label: string }> = 
 ];
 
 const LITERATURE_OPTIONS: Array<{ key: ContentCategory; label: string }> = [
-  { key: 'eastern_poetry', label: '동양시' },
+  { key: 'eastern_poetry', label: '한국시' },
   { key: 'western_poetry', label: '서양시' },
   { key: 'eastern_novel', label: '동양 소설' },
   { key: 'western_novel', label: '서양 소설' },

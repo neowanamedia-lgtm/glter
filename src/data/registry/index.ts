@@ -35,6 +35,10 @@ import islamQuranPart2Ko from '../passages/religion/islam/ko/quran_part2.json';
 import islamQuranPart3Ko from '../passages/religion/islam/ko/quran_part3.json';
 import islamQuranPart4Ko from '../passages/religion/islam/ko/quran_part4.json';
 
+
+import koreanPoetry from '../passages/literature/ko/korean_poetry.json';
+
+
 export type RegistryDomain = 'philosophy' | 'religion' | 'literature';
 
 export type PassageRegistryEntry = {
@@ -316,4 +320,19 @@ export const PASSAGE_REGISTRY: PassageRegistryEntry[] = [
     source: islamQuranPart4Ko,
     tags: ['domain:religion', 'religion:islam'],
   }),
+
+  createRegistryEntry({
+    id: 'literature-korean-poetry-ko',
+    domain: 'literature',
+    category: 'eastern_poetry',
+    language: 'ko',
+    source: koreanPoetry,
+    tags: [
+      'domain:literature',
+      'category:eastern_poetry',
+      'language:ko',
+      'region:korea',
+    ],
+  }),
+
 ];

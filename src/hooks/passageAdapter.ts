@@ -300,6 +300,24 @@ export function buildSourceText(
   const displayBook = bookDisplay || book || sourceDisplay || source;
   const displayChapter = chapterDisplay || referenceDisplay || reference;
   const displayReference = referenceDisplay || chapterDisplay || reference;
+  if (domain === 'literature' && category === 'eastern_poetry') {
+    const poemLabel = author || displayBook || sourceDisplay || source;
+    const poemParts: string[] = [];
+
+    if (chapterDisplay) {
+      poemParts.push(chapterDisplay);
+    }
+
+    if (referenceDisplay && referenceDisplay !== chapterDisplay) {
+      poemParts.push(referenceDisplay);
+    }
+
+    if (!poemParts.length && displayBook) {
+      poemParts.push(displayBook);
+    }
+
+    return formatParenLabel(poemLabel, poemParts.join(', '));
+  }
 
   if (domain === 'philosophy' && category === 'eastern_philosophy') {
     return formatParenLabel(displayBook, displayChapter);

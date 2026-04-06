@@ -283,10 +283,9 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   );
 
   const combinedText = useMemo(
-    () => (currentPassage ? currentPassage.lines.join(' ').trim() : ''),
+    () => (currentPassage ? currentPassage.lines.join('\n').trim() : ''),
     [currentPassage],
   );
-
   const sourceText = useMemo(
     () => currentPassage?.sourceText ?? '',
     [currentPassage],

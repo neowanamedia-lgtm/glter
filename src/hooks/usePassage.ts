@@ -40,25 +40,36 @@ export function usePassage({ language, emotion, filters }: UsePassageParams) {
     [language],
   );
 
+  const tagFiltered = useMemo(
+    () => filterPassagesByTags(library, selectedTags),
+    [library, selectedTags],
+  );
+
+  const emotionAndTagFiltered = useMemo(
+    () => filterPassagesByEmotion(tagFiltered, emotion),
+    [tagFiltered, emotion],
+  );
+
   const emotionFiltered = useMemo(
     () => filterPassagesByEmotion(library, emotion),
     [library, emotion],
   );
 
-  const filteredPassages = useMemo(
-    () => filterPassagesByTags(emotionFiltered, selectedTags),
-    [emotionFiltered, selectedTags],
-  );
-
   const fallbackPool = useMemo(() => {
-    if (filteredPassages.length) {
-      return filteredPassages;
+    if (emotionAndTagFiltered.length) {
+      return emotionAndTagFiltered;
     }
+
+    if (tagFiltered.length) {
+      return tagFiltered;
+    }
+
     if (emotionFiltered.length) {
       return emotionFiltered;
     }
+
     return library;
-  }, [filteredPassages, emotionFiltered, library]);
+  }, [emotionAndTagFiltered, tagFiltered, emotionFiltered, library]);
 
   const hasPassages = fallbackPool.length > 0;
 
