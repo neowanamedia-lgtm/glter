@@ -35,9 +35,8 @@ import islamQuranPart2Ko from '../passages/religion/islam/ko/quran_part2.json';
 import islamQuranPart3Ko from '../passages/religion/islam/ko/quran_part3.json';
 import islamQuranPart4Ko from '../passages/religion/islam/ko/quran_part4.json';
 
-
 import koreanPoetry from '../passages/literature/ko/korean_poetry.json';
-
+import westernPoetry from '../passages/literature/ko/western_poetry.json';
 
 export type RegistryDomain = 'philosophy' | 'religion' | 'literature';
 
@@ -59,7 +58,14 @@ type EntryConfig = {
   tags?: string[];
 };
 
-const createRegistryEntry = ({ id, domain, category, language, source, tags = [] }: EntryConfig): PassageRegistryEntry => {
+const createRegistryEntry = ({
+  id,
+  domain,
+  category,
+  language,
+  source,
+  tags = [],
+}: EntryConfig): PassageRegistryEntry => {
   const baseTags = [
     category,
     domain,
@@ -320,7 +326,6 @@ export const PASSAGE_REGISTRY: PassageRegistryEntry[] = [
     source: islamQuranPart4Ko,
     tags: ['domain:religion', 'religion:islam'],
   }),
-
   createRegistryEntry({
     id: 'literature-korean-poetry-ko',
     domain: 'literature',
@@ -334,5 +339,17 @@ export const PASSAGE_REGISTRY: PassageRegistryEntry[] = [
       'region:korea',
     ],
   }),
-
+  createRegistryEntry({
+    id: 'literature-western-poetry-ko',
+    domain: 'literature',
+    category: 'western_poetry',
+    language: 'ko',
+    source: westernPoetry,
+    tags: [
+      'domain:literature',
+      'category:western_poetry',
+      'language:ko',
+      'region:west',
+    ],
+  }),
 ];

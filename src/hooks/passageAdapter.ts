@@ -7,7 +7,8 @@ type EmotionKey =
   | 'hope'
   | 'anxiety'
   | 'depression'
-  | 'sadness';
+  | 'sadness'
+  | 'anger';
 
 export type PassageMeta = {
   author?: string;
@@ -86,7 +87,8 @@ const isEmotionKey = (value: unknown): value is EmotionKey =>
   value === 'hope' ||
   value === 'anxiety' ||
   value === 'depression' ||
-  value === 'sadness';
+  value === 'sadness' ||
+  value === 'anger';
 
 const normalizeEmotionExtended = (value: unknown): EmotionKey[] => {
   if (!Array.isArray(value)) {
@@ -272,6 +274,50 @@ function joinBookAndChapter(bookDisplay: string, chapterDisplay: string): string
   return chapterWithoutBook ? `${safeBook} ${chapterWithoutBook}` : safeBook;
 }
 
+function buildPoetryLabel(meta: PassageMeta | undefined): string {
+  if (!meta) {
+    return '';
+  }
+
+  const author =
+    typeof meta.author === 'string' ? normalizeSpace(meta.author) : '';
+
+  const chapterDisplay =
+    typeof meta.chapterDisplay === 'string' ? normalizeSpace(meta.chapterDisplay) : '';
+
+  const referenceDisplay =
+    typeof meta.referenceDisplay === 'string' ? normalizeSpace(meta.referenceDisplay) : '';
+
+  const chapter =
+    typeof meta.chapter === 'string' || typeof meta.chapter === 'number'
+      ? normalizeSpace(String(meta.chapter))
+      : '';
+
+  const reference =
+    typeof meta.reference === 'string' || typeof meta.reference === 'number'
+      ? normalizeSpace(String(meta.reference))
+      : '';
+
+  const bookDisplay =
+    typeof meta.bookDisplay === 'string' ? normalizeSpace(meta.bookDisplay) : '';
+
+  const book =
+    typeof meta.book === 'string' || typeof meta.book === 'number'
+      ? normalizeSpace(String(meta.book))
+      : '';
+
+  const title =
+    chapterDisplay ||
+    chapter ||
+    referenceDisplay ||
+    reference ||
+    '';
+
+  const fallbackTitle = bookDisplay || book || '';
+
+  return formatParenLabel(author, title || fallbackTitle);
+}
+
 export function buildSourceText(
   meta: PassageMeta | undefined,
   options?: Pick<AdaptOptions, 'category' | 'domain'>,
@@ -300,23 +346,13 @@ export function buildSourceText(
   const displayBook = bookDisplay || book || sourceDisplay || source;
   const displayChapter = chapterDisplay || referenceDisplay || reference;
   const displayReference = referenceDisplay || chapterDisplay || reference;
+
   if (domain === 'literature' && category === 'eastern_poetry') {
-    const poemLabel = author || displayBook || sourceDisplay || source;
-    const poemParts: string[] = [];
+    return buildPoetryLabel(meta);
+  }
 
-    if (chapterDisplay) {
-      poemParts.push(chapterDisplay);
-    }
-
-    if (referenceDisplay && referenceDisplay !== chapterDisplay) {
-      poemParts.push(referenceDisplay);
-    }
-
-    if (!poemParts.length && displayBook) {
-      poemParts.push(displayBook);
-    }
-
-    return formatParenLabel(poemLabel, poemParts.join(', '));
+  if (domain === 'literature' && category === 'western_poetry') {
+    return buildPoetryLabel(meta);
   }
 
   if (domain === 'philosophy' && category === 'eastern_philosophy') {

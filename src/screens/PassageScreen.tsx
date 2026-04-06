@@ -72,7 +72,7 @@ const getBodyFontSize = (variant: FontVariant): number => {
     case 'soft':
       return BASE_FONT_SIZE + 0;
     case 'handwriting':
-      return BASE_FONT_SIZE + 10;
+      return BASE_FONT_SIZE + 11;
     default:
       return BASE_FONT_SIZE;
   }
@@ -167,8 +167,8 @@ const styles = StyleSheet.create({
   },
   textBlock: {
     width: '100%',
-    maxWidth: 420,
-    paddingHorizontal: 24,
+    maxWidth: 300,
+    paddingHorizontal: 8,
   },
   textBlockPortrait: {
     transform: [{ translateY: -72 }],

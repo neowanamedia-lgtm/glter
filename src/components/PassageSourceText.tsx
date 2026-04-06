@@ -27,12 +27,12 @@ export const buildSourceTypography = (baseFontSize: number, variant: FontVariant
 
   switch (variant) {
     case 'soft':
-      lineHeight = fontSize * 1.55;
-      letterSpacing = 0.3;
+      lineHeight = fontSize * 1.00;
+      letterSpacing = 0.0;
       break;
     case 'handwriting':
-      lineHeight = fontSize * 1.68;
-      letterSpacing = 0.32;
+      lineHeight = fontSize * 1.00;
+      letterSpacing = 0.02;
       break;
     default:
       lineHeight = fontSize * 1.5;
