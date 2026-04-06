@@ -13,4 +13,5 @@ export type NormalizedPassage = {
   emotionCore: EmotionKey;
   emotionExtended: EmotionKey[];
   tags: PassageTags;
+  tagSet?: string[];
 };

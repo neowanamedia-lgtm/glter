@@ -14,6 +14,7 @@ import { MenuSlideSheet } from '../components/MenuSlideSheet';
 import { UserBackgroundManagerSheet } from '../components/UserBackgroundManagerSheet';
 import { usePassage } from '../hooks/usePassage';
 import { useOrientation } from '../hooks/useOrientation';
+import { createFilterStateFromCategories, type FilterSelectionState } from '../constants/filterSchema';
 import type { MenuSelectionState } from '../types/menu';
 import { INITIAL_MENU_SELECTIONS } from '../types/menu';
 import {
@@ -211,12 +212,15 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const [menuSelections, setMenuSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
   const [draftSelections, setDraftSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
+  const [filterSelections, setFilterSelections] = useState<FilterSelectionState>(() =>
+    createFilterStateFromCategories(INITIAL_MENU_SELECTIONS.selectedCategories),
+  );
   const [overlayMode, setOverlayMode] = useState<OverlayMode>(initialMenuVisible ? 'menu' : 'none');
 
-const [isBackgroundReady, setBackgroundReady] = useState(false);
-const [isTextReady, setTextReady] = useState(false);
-const [showSource, setShowSource] = useState(false);
-const [renderedText, setRenderedText] = useState('');
+  const [isBackgroundReady, setBackgroundReady] = useState(false);
+  const [isTextReady, setTextReady] = useState(false);
+  const [showSource, setShowSource] = useState(false);
+  const [renderedText, setRenderedText] = useState('');
   const [historyState, setHistoryState] = useState(createInitialPassageHistoryState());
   const [shouldStartNewSelection, setShouldStartNewSelection] = useState(false);
 
@@ -267,7 +271,11 @@ const [renderedText, setRenderedText] = useState('');
     [fontVariant],
   );
 
-  const { hasPassages, pickNextPassage } = usePassage(menuSelections);
+  const { hasPassages, pickNextPassage } = usePassage({
+    language: menuSelections.language,
+    emotion: menuSelections.emotion,
+    filters: filterSelections,
+  });
 
   const currentPassage = useMemo(
     () => getCurrentPassage(historyState),
@@ -596,8 +604,11 @@ const [renderedText, setRenderedText] = useState('');
     clearSingleTapTimer();
     passageBackgroundIndexMapRef.current = {};
     passageUserBackgroundUriMapRef.current = {};
+    const nextFilters = createFilterStateFromCategories(normalizedNext.selectedCategories);
+
     setMenuSelections(normalizedNext);
     setDraftSelections(normalizedNext);
+    setFilterSelections(nextFilters);
     setHistoryState(resetPassageHistory());
     setShouldStartNewSelection(true);
     setOverlayMode('none');
