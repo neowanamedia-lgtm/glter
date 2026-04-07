@@ -105,14 +105,18 @@ export function MenuSlideSheet({
   const emotionMode: ChipMode = width < 390 ? 'compact' : 'regular';
   const philosophyMode: ChipMode = width < 430 ? 'compact' : 'regular';
   const literatureMode: ChipMode = width < 460 ? 'compact' : 'regular';
-  const religionMode: ChipMode = width < 390 ? 'compact' : 'regular';
+  const religionMode: ChipMode = width < 420 ? 'compact' : 'regular';
   const languageMode: ChipMode = 'tight';
   const fontMode: ChipMode = width < 460 ? 'compact' : 'regular';
   const backgroundMode: ChipMode = width < 460 ? 'compact' : 'regular';
 
-  const myWritingAvailable = Boolean(canUseMyWriting);
+  const isMyWritingMode = state.includeMyWriting;
 
   const handleEmotion = (emotion: EmotionKey) => {
+    if (isMyWritingMode) {
+      return;
+    }
+
     onChange((prev) => ({
       ...prev,
       emotion,
@@ -120,6 +124,10 @@ export function MenuSlideSheet({
   };
 
   const handleCategoryToggle = (category: ContentCategory) => {
+    if (isMyWritingMode) {
+      return;
+    }
+
     onChange((prev) => {
       const exists = prev.selectedCategories.includes(category);
 
@@ -138,6 +146,7 @@ export function MenuSlideSheet({
 
       return {
         ...prev,
+        includeMyWriting: false,
         selectedCategories: [...prev.selectedCategories, category],
       };
     });
@@ -190,31 +199,33 @@ export function MenuSlideSheet({
     onApply(state);
   };
 
-  const handleOpenUserMyWritingManager = async () => {
-    const opened = await onOpenUserMyWritingManager?.();
-    return opened ?? false;
-  };
-
-  const handleToggleMyWritingChip = async () => {
-    if (!myWritingAvailable) {
-      const opened = await handleOpenUserMyWritingManager();
-      if (!opened) {
-        return;
-      }
+  const handleToggleMyWriting = async () => {
+    if (!canUseMyWriting) {
+      await onOpenUserMyWritingManager?.();
+      return;
     }
 
     onChange((prev) => {
       const nextInclude = !prev.includeMyWriting;
 
-      if (!nextInclude && prev.selectedCategories.length === 0) {
-        return prev;
+      if (nextInclude) {
+        return {
+          ...prev,
+          includeMyWriting: true,
+          emotion: 'unknown',
+          selectedCategories: [],
+        };
       }
 
       return {
         ...prev,
-        includeMyWriting: nextInclude,
+        includeMyWriting: false,
       };
     });
+  };
+
+  const handleOpenMyWritingManager = async () => {
+    await onOpenUserMyWritingManager?.();
   };
 
   return (
@@ -253,6 +264,7 @@ export function MenuSlideSheet({
                 state.emotion,
                 handleEmotion,
                 emotionMode,
+                isMyWritingMode,
               )}
             </RowBlock>
 
@@ -262,6 +274,7 @@ export function MenuSlideSheet({
                 state.selectedCategories,
                 handleCategoryToggle,
                 philosophyMode,
+                isMyWritingMode,
               )}
             </RowBlock>
 
@@ -271,6 +284,7 @@ export function MenuSlideSheet({
                 state.selectedCategories,
                 handleCategoryToggle,
                 philosophyMode,
+                isMyWritingMode,
               )}
             </RowBlock>
 
@@ -280,16 +294,76 @@ export function MenuSlideSheet({
                 state.selectedCategories,
                 handleCategoryToggle,
                 literatureMode,
+                isMyWritingMode,
               )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(
-                RELIGION_OPTIONS,
-                state.selectedCategories,
-                handleCategoryToggle,
-                religionMode,
-              )}
+              <View style={styles.row}>
+                {RELIGION_OPTIONS.map((option) => {
+                  const isSelected = state.selectedCategories.includes(option.key);
+
+                  return (
+                    <Pressable
+                      key={option.key}
+                      hitSlop={6}
+                      pressRetentionOffset={10}
+                      style={[
+                        styles.chip,
+                        religionMode === 'compact' && styles.chipCompact,
+                        religionMode === 'tight' && styles.chipTight,
+                        isSelected && styles.chipSelected,
+                        isMyWritingMode && styles.chipDisabled,
+                      ]}
+                      disabled={isMyWritingMode}
+                      onPress={() => handleCategoryToggle(option.key)}
+                    >
+                      <Text
+                        style={[
+                          styles.chipText,
+                          religionMode === 'compact' && styles.chipTextCompact,
+                          religionMode === 'tight' && styles.chipTextTight,
+                          isSelected && styles.chipTextSelected,
+                          isMyWritingMode && styles.chipTextDisabled,
+                        ]}
+                        numberOfLines={1}
+                      >
+                        {option.label}
+                      </Text>
+                    </Pressable>
+                  );
+                })}
+
+                <Pressable
+                  hitSlop={6}
+                  pressRetentionOffset={10}
+                  delayLongPress={220}
+                  style={[
+                    styles.chip,
+                    religionMode === 'compact' && styles.chipCompact,
+                    religionMode === 'tight' && styles.chipTight,
+                    state.includeMyWriting && styles.chipSelected,
+                  ]}
+                  onPress={() => {
+                    void handleToggleMyWriting();
+                  }}
+                  onLongPress={() => {
+                    void handleOpenMyWritingManager();
+                  }}
+                >
+                  <Text
+                    style={[
+                      styles.chipText,
+                      religionMode === 'compact' && styles.chipTextCompact,
+                      religionMode === 'tight' && styles.chipTextTight,
+                      state.includeMyWriting && styles.chipTextSelected,
+                    ]}
+                    numberOfLines={1}
+                  >
+                    내글보기
+                  </Text>
+                </Pressable>
+              </View>
             </RowBlock>
 
             <RowBlock>
@@ -371,57 +445,33 @@ export function MenuSlideSheet({
               </View>
             </RowBlock>
 
-            <RowBlock>
-              <View style={styles.inlineSection}>
-                <Pressable
-                  hitSlop={8}
-                  pressRetentionOffset={12}
-                  style={[
-                    styles.chip,
-                    styles.inlineChip,
-                    !myWritingAvailable && styles.chipDisabled,
-                    state.includeMyWriting && styles.chipSelected,
-                  ]}
-                  onPress={() => {
-                    void handleToggleMyWritingChip();
-                  }}
-                >
-                  <Text
-                    style={[
-                      styles.chipText,
-                      state.includeMyWriting && styles.chipTextSelected,
-                      !myWritingAvailable && styles.chipTextDisabled,
-                    ]}
-                    numberOfLines={1}
-                  >
-                    내글보기
-                  </Text>
-                </Pressable>
-
-                <View style={styles.inlineGapWide} />
-
-                <Pressable
-                  hitSlop={8}
-                  pressRetentionOffset={12}
-                  style={[styles.chip, styles.inlineChip]}
-                  onPress={() => {
-                    void handleOpenUserMyWritingManager();
-                  }}
-                >
-                  <Text style={styles.chipText} numberOfLines={1}>
-                    내 글 관리
-                  </Text>
-                </Pressable>
-              </View>
-            </RowBlock>
-
             {isLandscape ? (
               <View style={styles.noticeWrap}>
                 <Text style={styles.noticeText}>
-                  사용자 배경 관리는 세로 화면에서만 사용할 수 있습니다.
+                  사용자 배경 관리와 내글보기 관리는 세로 화면에서만 사용할 수 있습니다.
                 </Text>
               </View>
             ) : null}
+
+            {!canUseMyWriting ? (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  내글보기를 처음 쓰려면 내글보기 버튼을 눌러 글을 먼저 추가하세요.
+                </Text>
+              </View>
+            ) : isMyWritingMode ? (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  내글보기 모드에서는 다른 카테고리와 감정 선택이 비활성화됩니다.
+                </Text>
+              </View>
+            ) : (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  내글보기 버튼 길게 누르기: 내 글 관리
+                </Text>
+              </View>
+            )}
 
             <View style={styles.applyGap} />
 
@@ -451,6 +501,7 @@ function renderSingleSelectChips<T extends string>(
   selected: T,
   onPress: (value: T) => void,
   mode: ChipMode,
+  disabled = false,
 ) {
   return (
     <View style={styles.row}>
@@ -467,7 +518,9 @@ function renderSingleSelectChips<T extends string>(
               mode === 'compact' && styles.chipCompact,
               mode === 'tight' && styles.chipTight,
               isSelected && styles.chipSelected,
+              disabled && styles.chipDisabled,
             ]}
+            disabled={disabled}
             onPress={() => onPress(option.key)}
           >
             <Text
@@ -476,6 +529,7 @@ function renderSingleSelectChips<T extends string>(
                 mode === 'compact' && styles.chipTextCompact,
                 mode === 'tight' && styles.chipTextTight,
                 isSelected && styles.chipTextSelected,
+                disabled && styles.chipTextDisabled,
               ]}
               numberOfLines={1}
             >
@@ -536,6 +590,7 @@ function renderMultiSelectChips(
   selected: ContentCategory[],
   onToggle: (value: ContentCategory) => void,
   mode: ChipMode,
+  disabled = false,
 ) {
   return (
     <View style={styles.row}>
@@ -552,7 +607,9 @@ function renderMultiSelectChips(
               mode === 'compact' && styles.chipCompact,
               mode === 'tight' && styles.chipTight,
               isSelected && styles.chipSelected,
+              disabled && styles.chipDisabled,
             ]}
+            disabled={disabled}
             onPress={() => onToggle(option.key)}
           >
             <Text
@@ -561,6 +618,7 @@ function renderMultiSelectChips(
                 mode === 'compact' && styles.chipTextCompact,
                 mode === 'tight' && styles.chipTextTight,
                 isSelected && styles.chipTextSelected,
+                disabled && styles.chipTextDisabled,
               ]}
               numberOfLines={1}
             >

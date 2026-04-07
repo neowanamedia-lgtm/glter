@@ -18,6 +18,7 @@ type UserBackgroundManagerSheetProps = {
   onAdd: () => void | Promise<void>;
   onDeleteSelected: () => void;
   onApply: () => void;
+  onClose: () => void;
 };
 
 const DEFAULT_MAX_ITEMS = 30;
@@ -32,6 +33,7 @@ export function UserBackgroundManagerSheet({
   onAdd,
   onDeleteSelected,
   onApply,
+  onClose,
 }: UserBackgroundManagerSheetProps) {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
@@ -63,14 +65,12 @@ export function UserBackgroundManagerSheet({
 
   const handleToggleAll = () => {
     if (isAllSelected) {
-      // 전체 해제
       backgrounds.forEach((uri) => {
         if (selectedSet.has(uri)) {
           onToggleSelect(uri);
         }
       });
     } else {
-      // 전체 선택
       backgrounds.forEach((uri) => {
         if (!selectedSet.has(uri)) {
           onToggleSelect(uri);
@@ -93,9 +93,13 @@ export function UserBackgroundManagerSheet({
           isLandscape ? styles.sheetLandscape : styles.sheetPortrait,
         ]}
       >
-        <Text style={styles.title}>사용자 배경 관리</Text>
+        <View style={styles.headerRow}>
+          <Text style={styles.title}>사용자 배경 관리</Text>
+          <Pressable hitSlop={8} onPress={onClose}>
+            <Text style={styles.closeText}>닫기</Text>
+          </Pressable>
+        </View>
 
-        {/* 🔺 상단 버튼 */}
         <View style={styles.topButtonRow}>
           <Pressable
             style={[
@@ -134,7 +138,6 @@ export function UserBackgroundManagerSheet({
           </Pressable>
         </View>
 
-        {/* 그리드 */}
         <ScrollView
           style={styles.gridScroll}
           contentContainerStyle={styles.gridScrollContent}
@@ -174,7 +177,6 @@ export function UserBackgroundManagerSheet({
           </View>
         </ScrollView>
 
-        {/* 🔽 하단 버튼 */}
         <View style={styles.bottomButtonRow}>
           <Pressable
             style={[
@@ -247,11 +249,20 @@ const styles = StyleSheet.create({
   sheetLandscape: {
     maxHeight: '92%',
   },
+  headerRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
   title: {
     color: '#ffffff',
     fontSize: 22,
     fontWeight: '700',
-    marginBottom: 12,
+  },
+  closeText: {
+    color: 'rgba(255,255,255,0.85)',
+    fontSize: 15,
   },
   topButtonRow: {
     flexDirection: 'row',

@@ -21,7 +21,10 @@ import type { MyWriting } from '../types/myWriting';
 import { MAX_MY_WRITINGS, createMyWriting, updateMyWritingBody } from '../types/myWriting';
 import { usePassage } from '../hooks/usePassage';
 import { useOrientation } from '../hooks/useOrientation';
-import { createFilterStateFromCategories, type FilterSelectionState } from '../constants/filterSchema';
+import {
+  createFilterStateFromCategories,
+  type FilterSelectionState,
+} from '../constants/filterSchema';
 import type { MenuSelectionState } from '../types/menu';
 import { INITIAL_MENU_SELECTIONS } from '../types/menu';
 import {
@@ -288,7 +291,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const isMenuVisible = overlayMode === 'menu';
   const isUserBackgroundManagerVisible = overlayMode === 'userBackgroundManager';
-
   const isUserMyWritingManagerVisible = overlayMode === 'userMyWritingManager';
 
   const effectiveBackgroundMode: 'auto' | 'user' = useMemo(() => {
@@ -331,6 +333,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     () => (currentPassage ? currentPassage.lines.join('\n').trim() : ''),
     [currentPassage],
   );
+
   const sourceText = useMemo(
     () => currentPassage?.sourceText ?? '',
     [currentPassage],
@@ -351,10 +354,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     showSource &&
     hasCurrent;
 
-const isOverlayVisible =
-  isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible;
+  const isOverlayVisible =
+    isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible;
 
-const isMenuButtonEnabled = !isOverlayVisible && showSource;
+ const isMenuButtonEnabled = !isOverlayVisible && (showSource || !!combinedText);
 
   const activeAutoBackground: BackgroundConfig = useMemo(
     () => getBackgroundAt(autoBackgroundIndex),
@@ -376,10 +379,10 @@ const isMenuButtonEnabled = !isOverlayVisible && showSource;
     return Math.max(minTop, centeredTop + visualBias);
   }, [isLandscape, textContentHeight, windowHeight]);
 
-const resetVisualPresentation = useCallback(() => {
-  setTextReady(false);
-  setShowSource(false);
-}, []);
+  const resetVisualPresentation = useCallback(() => {
+    setTextReady(false);
+    setShowSource(false);
+  }, []);
 
   const clearSingleTapTimer = useCallback(() => {
     if (singleTapTimerRef.current) {
@@ -685,6 +688,12 @@ const resetVisualPresentation = useCallback(() => {
 
     setStoredMyWritings(nextLibrary);
     setAppliedMyWritingIds(validSelection);
+
+    setDraftSelections((prev) => ({
+      ...prev,
+      includeMyWriting: true,
+    }));
+
     setDraftMyWritings([]);
     setDraftSelectedMyWritingIds([]);
     setOverlayMode('menu');
@@ -787,34 +796,37 @@ const resetVisualPresentation = useCallback(() => {
     resetVisualPresentation,
   ]);
 
-  const handleApply = useCallback((next: MenuSelectionState) => {
-    if (!next.selectedCategories.length) {
-      return;
-    }
+  const handleApply = useCallback(
+    (next: MenuSelectionState) => {
+      if (!next.selectedCategories.length && !next.includeMyWriting) {
+        return;
+      }
 
-    if (!ALLOWED_LANGUAGES.includes(next.language)) {
-      return;
-    }
+      if (!ALLOWED_LANGUAGES.includes(next.language)) {
+        return;
+      }
 
-    const normalizedNext: MenuSelectionState = {
-      ...next,
-      selectedCategories: [...next.selectedCategories],
-      background: effectiveBackgroundMode === 'user' ? 'upload' : 'auto',
-    };
+      const normalizedNext: MenuSelectionState = {
+        ...next,
+        selectedCategories: [...next.selectedCategories],
+        background: effectiveBackgroundMode === 'user' ? 'upload' : 'auto',
+      };
 
-    clearSingleTapTimer();
-    passageBackgroundIndexMapRef.current = {};
-    passageUserBackgroundUriMapRef.current = {};
-    const nextFilters = createFilterStateFromCategories(normalizedNext.selectedCategories);
+      clearSingleTapTimer();
+      passageBackgroundIndexMapRef.current = {};
+      passageUserBackgroundUriMapRef.current = {};
+      const nextFilters = createFilterStateFromCategories(normalizedNext.selectedCategories);
 
-    setMenuSelections(normalizedNext);
-    setDraftSelections(normalizedNext);
-    setFilterSelections(nextFilters);
-    setHistoryState(resetPassageHistory());
-    setShouldStartNewSelection(true);
-    setOverlayMode('none');
-    resetVisualPresentation();
-  }, [clearSingleTapTimer, effectiveBackgroundMode, resetVisualPresentation]);
+      setMenuSelections(normalizedNext);
+      setDraftSelections(normalizedNext);
+      setFilterSelections(nextFilters);
+      setHistoryState(resetPassageHistory());
+      setShouldStartNewSelection(true);
+      setOverlayMode('none');
+      resetVisualPresentation();
+    },
+    [clearSingleTapTimer, effectiveBackgroundMode, resetVisualPresentation],
+  );
 
   const handleBackgroundReady = useCallback(() => {
     setBackgroundReady(true);
@@ -833,6 +845,7 @@ const resetVisualPresentation = useCallback(() => {
         if (cancelled) {
           return;
         }
+
         myWritingLoadedRef.current = true;
         setStoredMyWritings(stored);
         setAppliedMyWritingIds(
@@ -934,7 +947,8 @@ const resetVisualPresentation = useCallback(() => {
     isUserBackgroundManagerVisible,
     isUserMyWritingManagerVisible,
     combinedText,
-    currentPassage?.id,
+    sourceText,
+    historyState.currentIndex,
   ]);
 
   useEffect(() => {
@@ -1012,7 +1026,7 @@ const resetVisualPresentation = useCallback(() => {
     };
   }, []);
 
-const displayedText = combinedText;
+  const displayedText = combinedText;
 
   const handleAdvanceByTap = useCallback(() => {
     if (!isGestureEnabled) {
@@ -1129,7 +1143,11 @@ const displayedText = combinedText;
   return (
     <AdaptiveBackground
       onReady={handleBackgroundReady}
-      blurRadius={isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
+      blurRadius={
+        isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible
+          ? MENU_BACKGROUND_BLUR_RADIUS
+          : 0
+      }
       backgroundMode={effectiveBackgroundMode}
       userBackgroundUri={currentUserBackgroundUri}
       background={activeAutoBackground}

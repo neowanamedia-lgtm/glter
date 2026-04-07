@@ -83,58 +83,35 @@ export function usePassage({
     [library, emotion],
   );
 
-  const myWritingEmotionFiltered = useMemo(
-    () => filterPassagesByEmotion(activeMyWritingLibrary, emotion),
-    [activeMyWritingLibrary, emotion],
-  );
-
   const fallbackPool = useMemo(() => {
-    const hasActiveTags = selectedTags.length > 0;
     const hasMyWriting = includeMyWriting && activeMyWritingLibrary.length > 0;
 
-    if (hasActiveTags) {
-      if (hasMyWriting) {
-        if (emotionAndTagFiltered.length || myWritingEmotionFiltered.length) {
-          return [...emotionAndTagFiltered, ...myWritingEmotionFiltered];
-        }
+    if (hasMyWriting) {
+      return activeMyWritingLibrary;
+    }
 
-        if (tagFiltered.length || activeMyWritingLibrary.length) {
-          return [...tagFiltered, ...activeMyWritingLibrary];
-        }
-
-        return [];
-      }
-
-      if (emotionAndTagFiltered.length) {
+    if (selectedTags.length > 0) {
+      if (emotionAndTagFiltered.length > 0) {
         return emotionAndTagFiltered;
       }
 
-      if (tagFiltered.length) {
+      if (tagFiltered.length > 0) {
         return tagFiltered;
       }
 
       return [];
     }
 
-    if (hasMyWriting) {
-      if (myWritingEmotionFiltered.length || emotionFiltered.length) {
-        return [...emotionFiltered, ...myWritingEmotionFiltered];
-      }
-
-      return [...library, ...activeMyWritingLibrary];
-    }
-
-    if (emotionFiltered.length) {
+    if (emotionFiltered.length > 0) {
       return emotionFiltered;
     }
 
     return library;
   }, [
-    selectedTags,
     includeMyWriting,
     activeMyWritingLibrary,
+    selectedTags,
     emotionAndTagFiltered,
-    myWritingEmotionFiltered,
     tagFiltered,
     emotionFiltered,
     library,
@@ -209,14 +186,19 @@ function buildPassageLibrary(entries: PassageRegistryEntry[]): NormalizedPassage
 
 function buildMyWritingLibrary(myWritings: MyWriting[]): NormalizedPassage[] {
   return myWritings
-    .filter((writing) => writing.active && typeof writing.body === 'string' && writing.body.trim().length > 0)
+    .filter(
+      (writing) =>
+        writing.active &&
+        typeof writing.body === 'string' &&
+        writing.body.trim().length > 0,
+    )
     .map((writing) => {
       const lines = normalizeMyWritingBodyToLines(writing.body);
 
       return {
         id: writing.id,
         lines,
-        sourceText: '나의 글',
+        sourceText: '',
         emotionCore: 'unknown',
         emotionExtended: [],
         tagSet: ['my_writing'],
@@ -255,7 +237,6 @@ function applyNovelSourceText(
 function shouldUseNovelSourceText(
   passage: PassageWithMeta,
   registryTags: string[],
-
 ): boolean {
   const tradition = toCleanString(passage.meta?.tradition);
   const category = toCleanString(passage.meta?.category);

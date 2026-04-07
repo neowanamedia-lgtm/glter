@@ -12,6 +12,7 @@ type UserMyWritingCardProps = {
 };
 
 const PREVIEW_LINES = 2;
+const LONG_PRESS_DELAY_MS = 240;
 
 export const UserMyWritingCard: React.FC<UserMyWritingCardProps> = ({
   writing,
@@ -31,21 +32,13 @@ export const UserMyWritingCard: React.FC<UserMyWritingCardProps> = ({
           pressed && !disabled && styles.cardPressed,
           disabled && styles.cardDisabled,
         ]}
-        onPress={onEdit}
+        onPress={onToggleSelect}
+        onLongPress={onEdit}
+        delayLongPress={LONG_PRESS_DELAY_MS}
         disabled={disabled}
       >
         <Text style={styles.preview} numberOfLines={PREVIEW_LINES} ellipsizeMode="tail">
           {preview}
-        </Text>
-      </Pressable>
-
-      <Pressable
-        style={[styles.selectBadge, selected && styles.selectBadgeActive]}
-        onPress={onToggleSelect}
-        hitSlop={8}
-      >
-        <Text style={[styles.selectBadgeText, selected && styles.selectBadgeTextActive]}>
-          {selected ? '선택됨' : '선택'}
         </Text>
       </Pressable>
     </View>
@@ -61,9 +54,11 @@ const buildPreview = (body: string): string => {
   const lines = normalized.split('\n').map((line) => line.trim());
   const previewLines = lines.slice(0, PREVIEW_LINES);
   const preview = previewLines.join('\n');
+
   if (lines.length > PREVIEW_LINES) {
     return `${preview} …`;
   }
+
   return preview;
 };
 
@@ -96,28 +91,5 @@ const styles = StyleSheet.create({
     color: '#ffffff',
     fontSize: 15,
     lineHeight: 22,
-  },
-  selectBadge: {
-    position: 'absolute',
-    top: 10,
-    right: 10,
-    borderRadius: 999,
-    borderWidth: 1,
-    borderColor: 'rgba(255,255,255,0.4)',
-    backgroundColor: 'rgba(0,0,0,0.32)',
-    paddingHorizontal: 10,
-    paddingVertical: 4,
-  },
-  selectBadgeActive: {
-    borderColor: 'rgba(121,198,255,1)',
-    backgroundColor: 'rgba(82,166,255,0.85)',
-  },
-  selectBadgeText: {
-    color: '#ffffff',
-    fontSize: 11,
-    fontWeight: '600',
-  },
-  selectBadgeTextActive: {
-    color: '#0d1c2f',
   },
 });
