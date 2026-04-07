@@ -35,6 +35,9 @@ import islamQuranPart2Ko from '../passages/religion/islam/ko/quran_part2.json';
 import islamQuranPart3Ko from '../passages/religion/islam/ko/quran_part3.json';
 import islamQuranPart4Ko from '../passages/religion/islam/ko/quran_part4.json';
 
+import easternNovels from '../passages/literature/ko/eastern_novels.json';
+import westernNovels from '../passages/literature/ko/western_novels.json';
+
 import koreanPoetry from '../passages/literature/ko/korean_poetry.json';
 import westernPoetry from '../passages/literature/ko/western_poetry.json';
 
@@ -332,12 +335,7 @@ export const PASSAGE_REGISTRY: PassageRegistryEntry[] = [
     category: 'eastern_poetry',
     language: 'ko',
     source: koreanPoetry,
-    tags: [
-      'domain:literature',
-      'category:eastern_poetry',
-      'language:ko',
-      'region:korea',
-    ],
+    tags: ['domain:literature', 'category:eastern_poetry', 'language:ko', 'region:korea'],
   }),
   createRegistryEntry({
     id: 'literature-western-poetry-ko',
@@ -345,11 +343,22 @@ export const PASSAGE_REGISTRY: PassageRegistryEntry[] = [
     category: 'western_poetry',
     language: 'ko',
     source: westernPoetry,
-    tags: [
-      'domain:literature',
-      'category:western_poetry',
-      'language:ko',
-      'region:west',
-    ],
+    tags: ['domain:literature', 'category:western_poetry', 'language:ko', 'region:west'],
+  }),
+  createRegistryEntry({
+    id: 'literature-eastern-novels-ko',
+    domain: 'literature',
+    category: 'eastern_novel',
+    language: 'ko',
+    source: easternNovels,
+    tags: ['domain:literature', 'category:eastern_novel', 'language:ko', 'region:east'],
+  }),
+  createRegistryEntry({
+    id: 'literature-western-novels-ko',
+    domain: 'literature',
+    category: 'western_novel',
+    language: 'ko',
+    source: westernNovels,
+    tags: ['domain:literature', 'category:western_novel', 'language:ko', 'region:west'],
   }),
 ];

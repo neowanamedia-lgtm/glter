@@ -22,6 +22,20 @@ type UsePassageParams = {
 
 type LibraryCache = Partial<Record<LanguageOption, NormalizedPassage[]>>;
 
+type PassageMeta = {
+  tradition?: unknown;
+  category?: unknown;
+  author?: unknown;
+  book?: unknown;
+  bookDisplay?: unknown;
+};
+
+type PassageWithMeta = NormalizedPassage & {
+  meta?: PassageMeta;
+  sourceText: string;
+  tagSet?: string[];
+};
+
 const LIBRARY_CACHE: LibraryCache = {};
 
 export function usePassage({ language, emotion, filters }: UsePassageParams) {
@@ -56,12 +70,18 @@ export function usePassage({ language, emotion, filters }: UsePassageParams) {
   );
 
   const fallbackPool = useMemo(() => {
-    if (emotionAndTagFiltered.length) {
-      return emotionAndTagFiltered;
-    }
+    const hasActiveTags = selectedTags.length > 0;
 
-    if (tagFiltered.length) {
-      return tagFiltered;
+    if (hasActiveTags) {
+      if (emotionAndTagFiltered.length) {
+        return emotionAndTagFiltered;
+      }
+
+      if (tagFiltered.length) {
+        return tagFiltered;
+      }
+
+      return [];
     }
 
     if (emotionFiltered.length) {
@@ -69,7 +89,7 @@ export function usePassage({ language, emotion, filters }: UsePassageParams) {
     }
 
     return library;
-  }, [emotionAndTagFiltered, tagFiltered, emotionFiltered, library]);
+  }, [selectedTags, emotionAndTagFiltered, tagFiltered, emotionFiltered, library]);
 
   const hasPassages = fallbackPool.length > 0;
 
@@ -118,20 +138,80 @@ function buildPassageLibrary(entries: PassageRegistryEntry[]): NormalizedPassage
   const records: NormalizedPassage[] = [];
 
   entries.forEach((entry) => {
-    const registryTags = [...entry.tags];
+    const registryTags = Array.isArray(entry.tags) ? [...entry.tags] : [];
     const normalized = adaptPassageFile(entry.data, {
       category: entry.category,
       domain: entry.domain,
       language: entry.language,
-    }).map((passage) => ({
-      ...passage,
-      tagSet: [...registryTags],
-    }));
+    }).map((passage) => {
+      const taggedPassage = {
+        ...passage,
+        tagSet: [...registryTags],
+      } as PassageWithMeta;
+
+      return applyNovelSourceText(taggedPassage, registryTags);
+    });
 
     records.push(...normalized);
   });
 
   return records;
+}
+
+function applyNovelSourceText(
+  passage: PassageWithMeta,
+  registryTags: string[],
+): NormalizedPassage {
+  if (!shouldUseNovelSourceText(passage, registryTags)) {
+    return passage;
+  }
+
+  const sourceText = buildNovelSourceText(passage.meta);
+
+  if (!sourceText) {
+    return passage;
+  }
+
+  return {
+    ...passage,
+    sourceText,
+  };
+}
+
+function shouldUseNovelSourceText(
+  passage: PassageWithMeta,
+  registryTags: string[],
+): boolean {
+  const tradition = toCleanString(passage.meta?.tradition);
+  const category = toCleanString(passage.meta?.category);
+
+  if (tradition === 'literature' && category === 'novel') {
+    return true;
+  }
+
+  return registryTags.some((tag) => tag === 'eastern_novel' || tag === 'western_novel');
+}
+
+function buildNovelSourceText(meta?: PassageMeta): string | null {
+  const author = toCleanString(meta?.author);
+  const bookDisplay = toCleanString(meta?.bookDisplay);
+  const book = toCleanString(meta?.book);
+  const title = bookDisplay || book;
+
+  if (!author || !title) {
+    return null;
+  }
+
+  return `${author} (${title})`;
+}
+
+function toCleanString(value: unknown): string | null {
+  if (typeof value !== 'string') {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  return trimmed.length ? trimmed : null;
 }
 
 function filterPassagesByEmotion(
