@@ -7,6 +7,7 @@ import { collectActiveFilterTags, normalizeFilterSelectionState } from '../const
 import type { PassageRegistryEntry } from '../data/registry';
 import { PASSAGE_REGISTRY } from '../data/registry';
 import { adaptPassageFile } from './passageAdapter';
+import type { MyWriting } from '../types/myWriting';
 
 export type PassagePickResult = {
   id: string;
@@ -18,6 +19,8 @@ type UsePassageParams = {
   language: LanguageOption;
   emotion: EmotionKey;
   filters: FilterSelectionState;
+  includeMyWriting?: boolean;
+  myWritings?: MyWriting[];
 };
 
 type LibraryCache = Partial<Record<LanguageOption, NormalizedPassage[]>>;
@@ -38,7 +41,13 @@ type PassageWithMeta = NormalizedPassage & {
 
 const LIBRARY_CACHE: LibraryCache = {};
 
-export function usePassage({ language, emotion, filters }: UsePassageParams) {
+export function usePassage({
+  language,
+  emotion,
+  filters,
+  includeMyWriting = false,
+  myWritings = [],
+}: UsePassageParams) {
   const safeFilters = useMemo(
     () => normalizeFilterSelectionState(filters),
     [filters],
@@ -52,6 +61,11 @@ export function usePassage({ language, emotion, filters }: UsePassageParams) {
   const library = useMemo(
     () => getLibraryForLanguage(language),
     [language],
+  );
+
+  const activeMyWritingLibrary = useMemo(
+    () => buildMyWritingLibrary(myWritings),
+    [myWritings],
   );
 
   const tagFiltered = useMemo(
@@ -69,10 +83,28 @@ export function usePassage({ language, emotion, filters }: UsePassageParams) {
     [library, emotion],
   );
 
+  const myWritingEmotionFiltered = useMemo(
+    () => filterPassagesByEmotion(activeMyWritingLibrary, emotion),
+    [activeMyWritingLibrary, emotion],
+  );
+
   const fallbackPool = useMemo(() => {
     const hasActiveTags = selectedTags.length > 0;
+    const hasMyWriting = includeMyWriting && activeMyWritingLibrary.length > 0;
 
     if (hasActiveTags) {
+      if (hasMyWriting) {
+        if (emotionAndTagFiltered.length || myWritingEmotionFiltered.length) {
+          return [...emotionAndTagFiltered, ...myWritingEmotionFiltered];
+        }
+
+        if (tagFiltered.length || activeMyWritingLibrary.length) {
+          return [...tagFiltered, ...activeMyWritingLibrary];
+        }
+
+        return [];
+      }
+
       if (emotionAndTagFiltered.length) {
         return emotionAndTagFiltered;
       }
@@ -84,12 +116,29 @@ export function usePassage({ language, emotion, filters }: UsePassageParams) {
       return [];
     }
 
+    if (hasMyWriting) {
+      if (myWritingEmotionFiltered.length || emotionFiltered.length) {
+        return [...emotionFiltered, ...myWritingEmotionFiltered];
+      }
+
+      return [...library, ...activeMyWritingLibrary];
+    }
+
     if (emotionFiltered.length) {
       return emotionFiltered;
     }
 
     return library;
-  }, [selectedTags, emotionAndTagFiltered, tagFiltered, emotionFiltered, library]);
+  }, [
+    selectedTags,
+    includeMyWriting,
+    activeMyWritingLibrary,
+    emotionAndTagFiltered,
+    myWritingEmotionFiltered,
+    tagFiltered,
+    emotionFiltered,
+    library,
+  ]);
 
   const hasPassages = fallbackPool.length > 0;
 
@@ -158,6 +207,31 @@ function buildPassageLibrary(entries: PassageRegistryEntry[]): NormalizedPassage
   return records;
 }
 
+function buildMyWritingLibrary(myWritings: MyWriting[]): NormalizedPassage[] {
+  return myWritings
+    .filter((writing) => writing.active && typeof writing.body === 'string' && writing.body.trim().length > 0)
+    .map((writing) => {
+      const lines = normalizeMyWritingBodyToLines(writing.body);
+
+      return {
+        id: writing.id,
+        lines,
+        sourceText: '나의 글',
+        emotionCore: 'unknown',
+        emotionExtended: [],
+        tagSet: ['my_writing'],
+      } as NormalizedPassage;
+    })
+    .filter((passage) => passage.lines.length > 0);
+}
+
+function normalizeMyWritingBodyToLines(body: string): string[] {
+  return body
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line.length > 0);
+}
+
 function applyNovelSourceText(
   passage: PassageWithMeta,
   registryTags: string[],
@@ -181,6 +255,7 @@ function applyNovelSourceText(
 function shouldUseNovelSourceText(
   passage: PassageWithMeta,
   registryTags: string[],
+
 ): boolean {
   const tradition = toCleanString(passage.meta?.tradition);
   const category = toCleanString(passage.meta?.category);
@@ -247,7 +322,10 @@ function filterPassagesByTags(
   const tagSet = new Set(activeTags);
 
   return passages.filter((passage) => {
-    const passageTags = Array.isArray(passage.tagSet) ? passage.tagSet : [];
+    const passageTags = Array.isArray((passage as PassageWithMeta).tagSet)
+      ? ((passage as PassageWithMeta).tagSet as string[])
+      : [];
+
     if (!passageTags.length) {
       return false;
     }

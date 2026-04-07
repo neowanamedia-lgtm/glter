@@ -25,6 +25,8 @@ type MenuSlideSheetProps = {
   hasPassages?: boolean;
   onOpenUserBackgroundManager?: () => Promise<boolean> | boolean;
   onSelectAutoBackground?: () => void;
+  onOpenUserMyWritingManager?: () => Promise<boolean> | boolean;
+  canUseMyWriting?: boolean;
 };
 
 const EMOTION_OPTIONS: Array<{ key: EmotionKey; label: string }> = [
@@ -94,6 +96,8 @@ export function MenuSlideSheet({
   onChange,
   onOpenUserBackgroundManager,
   onSelectAutoBackground,
+  onOpenUserMyWritingManager,
+  canUseMyWriting = false,
 }: MenuSlideSheetProps) {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
@@ -105,6 +109,8 @@ export function MenuSlideSheet({
   const languageMode: ChipMode = 'tight';
   const fontMode: ChipMode = width < 460 ? 'compact' : 'regular';
   const backgroundMode: ChipMode = width < 460 ? 'compact' : 'regular';
+
+  const myWritingAvailable = Boolean(canUseMyWriting);
 
   const handleEmotion = (emotion: EmotionKey) => {
     onChange((prev) => ({
@@ -119,9 +125,14 @@ export function MenuSlideSheet({
 
       if (exists) {
         const nextSelected = prev.selectedCategories.filter((item) => item !== category);
+
+        if (!nextSelected.length && !prev.includeMyWriting) {
+          return prev;
+        }
+
         return {
           ...prev,
-          selectedCategories: nextSelected.length ? nextSelected : prev.selectedCategories,
+          selectedCategories: nextSelected,
         };
       }
 
@@ -177,6 +188,33 @@ export function MenuSlideSheet({
 
   const handleApplyPress = () => {
     onApply(state);
+  };
+
+  const handleOpenUserMyWritingManager = async () => {
+    const opened = await onOpenUserMyWritingManager?.();
+    return opened ?? false;
+  };
+
+  const handleToggleMyWritingChip = async () => {
+    if (!myWritingAvailable) {
+      const opened = await handleOpenUserMyWritingManager();
+      if (!opened) {
+        return;
+      }
+    }
+
+    onChange((prev) => {
+      const nextInclude = !prev.includeMyWriting;
+
+      if (!nextInclude && prev.selectedCategories.length === 0) {
+        return prev;
+      }
+
+      return {
+        ...prev,
+        includeMyWriting: nextInclude,
+      };
+    });
   };
 
   return (
@@ -330,6 +368,50 @@ export function MenuSlideSheet({
                     </Text>
                   </Pressable>
                 </View>
+              </View>
+            </RowBlock>
+
+            <RowBlock>
+              <View style={styles.inlineSection}>
+                <Pressable
+                  hitSlop={8}
+                  pressRetentionOffset={12}
+                  style={[
+                    styles.chip,
+                    styles.inlineChip,
+                    !myWritingAvailable && styles.chipDisabled,
+                    state.includeMyWriting && styles.chipSelected,
+                  ]}
+                  onPress={() => {
+                    void handleToggleMyWritingChip();
+                  }}
+                >
+                  <Text
+                    style={[
+                      styles.chipText,
+                      state.includeMyWriting && styles.chipTextSelected,
+                      !myWritingAvailable && styles.chipTextDisabled,
+                    ]}
+                    numberOfLines={1}
+                  >
+                    내글보기
+                  </Text>
+                </Pressable>
+
+                <View style={styles.inlineGapWide} />
+
+                <Pressable
+                  hitSlop={8}
+                  pressRetentionOffset={12}
+                  style={[styles.chip, styles.inlineChip]}
+                  onPress={() => {
+                    void handleOpenUserMyWritingManager();
+                  }}
+                >
+                  <Text style={styles.chipText} numberOfLines={1}>
+                    내 글 관리
+                  </Text>
+                </Pressable>
               </View>
             </RowBlock>
 

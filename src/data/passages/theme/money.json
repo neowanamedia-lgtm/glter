@@ -1,0 +1,2845 @@
+[
+  {
+    "id": "PAS_MONEY_0001",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "아담 스미스",
+      "book": "국부론",
+      "bookDisplay": "국부론"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 그 자체로 부를 의미하지 않는다.",
+      "그것은 단지 교환을 가능하게 하는 수단일 뿐이다.",
+      "사람들은 돈을 통해 필요를 해결하고",
+      "자신의 노동을 다른 이의 노동과 바꾼다.",
+      "그러나 우리는 종종 그 수단을 목적처럼 여기고 만다.",
+      "그래서 돈은 때때로 인간의 판단을 흐리게 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0002",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "칼 마르크스",
+      "book": "자본론",
+      "bookDisplay": "자본론"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 모든 것을 교환 가능한 것으로 만든다.",
+      "그것은 사물뿐 아니라 인간의 관계까지도 바꾼다.",
+      "가치는 점점 숫자로 환원되고",
+      "인간은 그 숫자 속에서 자신을 측정하게 된다.",
+      "이 과정 속에서 본질은 가려지고",
+      "겉으로 드러나는 것만이 중요해진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0003",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "프리드리히 니체",
+      "book": "차라투스트라는 이렇게 말했다",
+      "bookDisplay": "차라투스트라는 이렇게 말했다"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 돈을 통해 힘을 느끼려 한다.",
+      "그것이 자유를 줄 것이라 믿기 때문이다.",
+      "그러나 많은 경우 그 자유는 착각에 가깝다.",
+      "돈이 많을수록 더 많은 욕망이 생기고",
+      "그 욕망은 다시 인간을 묶어 두기 때문이다.",
+      "결국 돈은 자유를 주기도, 빼앗기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0004",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "F. 스콧 피츠제럴드",
+      "book": "위대한 개츠비",
+      "bookDisplay": "위대한 개츠비"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "그는 돈으로 모든 것을 되돌릴 수 있다고 믿었다.",
+      "잃어버린 시간도, 사랑도.",
+      "하지만 현실은 그렇게 움직이지 않았다.",
+      "돈은 많은 것을 가능하게 하지만",
+      "이미 지나간 것은 결코 되돌려주지 않는다.",
+      "그 사실을 깨닫는 순간은 언제나 늦다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0005",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "유발 하라리",
+      "book": "사피엔스",
+      "bookDisplay": "사피엔스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 인간이 만들어낸 가장 성공적인 이야기 중 하나다.",
+      "그것은 서로 모르는 사람들 사이에서도 신뢰를 가능하게 한다.",
+      "우리는 종이와 숫자에 의미를 부여하고",
+      "그 의미를 모두가 믿는다.",
+      "이 믿음이 무너지지 않는 한",
+      "돈은 계속해서 세상을 움직일 것이다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0006",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "아리스토텔레스",
+      "book": "정치학",
+      "bookDisplay": "정치학"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 자연에서 나온 것이 아니다.",
+      "인간이 편의를 위해 만든 것이다.",
+      "하지만 그 편의는 점점 욕망으로 바뀐다.",
+      "필요를 넘어서 축적하려는 순간",
+      "그것은 삶의 균형을 무너뜨린다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0007",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "존 메이너드 케인스",
+      "book": "고용, 이자 및 화폐의 일반 이론",
+      "bookDisplay": "일반 이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 미래에 대한 기대를 담고 있다.",
+      "사람들은 현재보다 미래를 위해 돈을 움직인다.",
+      "투자는 단순한 계산이 아니라 심리이기도 하다.",
+      "그래서 시장은 항상 완전히 합리적이지 않다.",
+      "그 안에는 인간의 불안과 기대가 함께 흐른다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0008",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "찰스 디킨스",
+      "book": "크리스마스 캐럴",
+      "bookDisplay": "크리스마스 캐럴"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "그는 돈을 쌓는 데 모든 시간을 썼다.",
+      "하지만 그 안에는 따뜻함이 없었다.",
+      "사람들과의 관계도 점점 사라졌다.",
+      "돈은 많았지만 삶은 비어 있었다.",
+      "그는 뒤늦게야 그것을 깨닫게 된다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0009",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "세네카",
+      "book": "인생의 짧음에 대하여",
+      "bookDisplay": "인생의 짧음에 대하여"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우리는 돈을 모으느라 시간을 잃는다.",
+      "그러나 시간은 다시 살 수 없다.",
+      "많은 이들이 그 사실을 늦게 깨닫는다.",
+      "돈은 삶을 편하게 만들 수 있지만",
+      "삶 자체를 대신할 수는 없다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0010",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "데이비드 그레이버",
+      "book": "부채: 첫 5000년",
+      "bookDisplay": "부채"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 단순한 교환 수단이 아니다.",
+      "그것은 사회적 약속의 집합이다.",
+      "우리는 서로의 약속을 숫자로 기록한다.",
+      "그 숫자는 점점 힘을 갖게 되고",
+      "사람의 삶까지 좌우하게 된다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0011",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "플라톤",
+      "book": "국가",
+      "bookDisplay": "국가"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 인간의 욕망을 드러내는 도구다.",
+      "그것이 많을수록 더 많은 것을 원하게 된다.",
+      "절제하지 않으면 그 욕망은 끝이 없다.",
+      "그래서 사회는 균형을 필요로 한다.",
+      "돈은 그 균형을 시험하는 기준이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0012",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "밀턴 프리드먼",
+      "book": "자본주의와 자유",
+      "bookDisplay": "자본주의와 자유"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 선택의 자유를 넓혀준다.",
+      "사람들은 돈을 통해 자신의 삶을 설계한다.",
+      "강제보다 선택이 많은 사회가 더 건강하다.",
+      "돈은 그 선택을 가능하게 하는 수단이다.",
+      "그러나 그 자유는 책임을 함께 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0013",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "레프 톨스토이",
+      "book": "안나 카레니나",
+      "bookDisplay": "안나 카레니나"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 돈으로 안정된 삶을 꿈꾼다.",
+      "그러나 마음의 불안은 쉽게 사라지지 않는다.",
+      "겉으로는 풍요로워 보여도",
+      "내면은 여전히 흔들릴 수 있다.",
+      "돈은 삶의 일부일 뿐 전부는 아니다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0014",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "피에르 부르디외",
+      "book": "구별짓기",
+      "bookDisplay": "구별짓기"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 단순한 자원이 아니라 상징이다.",
+      "그것은 사람들의 위치를 구분한다.",
+      "우리는 돈을 통해 서로를 평가한다.",
+      "그 평가 속에서 관계가 형성된다.",
+      "그래서 돈은 보이지 않는 힘이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0015",
+    "meta": {
+      "tradition": "science",
+      "category": "money",
+      "author": "리처드 탈러",
+      "book": "넛지",
+      "bookDisplay": "넛지"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 항상 합리적으로 돈을 쓰지 않는다.",
+      "작은 선택이 큰 결과를 만든다.",
+      "우리는 환경에 따라 행동을 바꾼다.",
+      "돈의 흐름도 그 영향을 받는다.",
+      "그래서 선택 구조는 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0016",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "오노레 드 발자크",
+      "book": "고리오 영감",
+      "bookDisplay": "고리오 영감"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 사람을 움직이게 한다.",
+      "때로는 사랑보다 강하게 작용한다.",
+      "관계는 계산으로 변하기도 한다.",
+      "그 속에서 진심은 희미해진다.",
+      "그래서 돈은 인간을 시험한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0017",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "장자",
+      "book": "장자",
+      "bookDisplay": "장자"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "많이 가진 것이 반드시 풍요로운 것은 아니다.",
+      "적게 가져도 충분할 수 있다.",
+      "욕심이 많을수록 부족함은 커진다.",
+      "마음이 비워질 때 비로소 여유가 생긴다.",
+      "돈은 그 사실을 가리기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0018",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "토마 피케티",
+      "book": "21세기 자본",
+      "bookDisplay": "21세기 자본"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 시간이 지날수록 더 큰 격차를 만든다.",
+      "축적된 자산은 계속해서 불어난다.",
+      "그 차이는 쉽게 줄어들지 않는다.",
+      "그래서 사회는 균형을 고민해야 한다.",
+      "돈은 그 문제의 중심에 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0019",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "마틴 스코세이지",
+      "book": "더 울프 오브 월 스트리트",
+      "bookDisplay": "더 울프 오브 월 스트리트"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 사람을 흥분시키고 중독시킨다.",
+      "더 많은 것을 원하게 만든다.",
+      "그 속도는 점점 빨라진다.",
+      "하지만 그 끝은 항상 불안정하다.",
+      "쾌락과 위험은 함께 움직인다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0020",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "막스 베버",
+      "book": "프로테스탄트 윤리와 자본주의 정신",
+      "bookDisplay": "프로테스탄트 윤리와 자본주의 정신"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 단순한 소비의 수단이 아니다.",
+      "그것은 삶의 태도와 연결된다.",
+      "노력과 절제가 축적을 만든다.",
+      "그 과정에서 가치관이 형성된다.",
+      "돈은 그 결과로 나타난다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0021",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "에픽테토스",
+      "book": "엥케이리디온",
+      "bookDisplay": "엥케이리디온"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 우리가 통제할 수 있는 것이 아니다.",
+      "우리가 통제할 수 있는 것은 태도다.",
+      "많고 적음은 외부의 문제다.",
+      "중요한 것은 그것에 흔들리지 않는 것이다.",
+      "그래서 자유는 마음에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0022",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "도스토옙스키",
+      "book": "죄와 벌",
+      "bookDisplay": "죄와 벌"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 인간을 극단으로 몰아넣기도 한다.",
+      "절박함은 판단을 흐리게 한다.",
+      "선과 악의 경계가 흔들린다.",
+      "그 순간 선택은 돌이킬 수 없다.",
+      "돈은 그 선택의 배경이 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0023",
+    "meta": {
+      "tradition": "science",
+      "category": "money",
+      "author": "다니엘 카너먼",
+      "book": "생각에 관한 생각",
+      "bookDisplay": "생각에 관한 생각"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 손실을 더 크게 느낀다.",
+      "같은 돈이라도 잃는 것이 더 아프다.",
+      "그래서 우리는 비합리적인 선택을 한다.",
+      "감정은 계산보다 빠르게 작동한다.",
+      "돈의 판단은 항상 논리적이지 않다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0024",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "조지 오웰",
+      "book": "동물농장",
+      "bookDisplay": "동물농장"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 권력을 강화하는 수단이 되기도 한다.",
+      "처음에는 공평해 보였던 구조가 변한다.",
+      "소수에게 집중되기 시작한다.",
+      "그 변화는 서서히 진행된다.",
+      "그리고 어느 순간 돌이키기 어려워진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0025",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "money",
+      "author": "공자",
+      "book": "논어",
+      "bookDisplay": "논어"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "부를 얻는 것은 나쁜 일이 아니다.",
+      "하지만 그것을 얻는 방식이 중요하다.",
+      "의롭지 않다면 의미가 없다.",
+      "바른 길로 얻은 부만이 가치가 있다.",
+      "그것이 인간의 기준이다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0026",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "폴 크루그먼",
+      "book": "불황의 경제학",
+      "bookDisplay": "불황의 경제학"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈의 흐름이 멈추면 경제도 멈춘다.",
+      "사람들은 소비를 줄이고 움츠러든다.",
+      "그 불안은 더 큰 침체를 만든다.",
+      "그래서 신뢰는 중요하다.",
+      "돈은 결국 믿음 위에서 움직인다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0027",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "크리스토퍼 놀란",
+      "book": "다크 나이트",
+      "bookDisplay": "다크 나이트"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "어떤 이에게 돈은 아무 의미가 없다.",
+      "그들은 단지 혼란을 원한다.",
+      "돈은 모든 것을 설명하지 못한다.",
+      "인간의 행동은 더 복잡하다.",
+      "그래서 세상은 예측하기 어렵다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0028",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "헤르만 헤세",
+      "book": "데미안",
+      "bookDisplay": "데미안"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 외부의 기준으로 자신을 판단한다.",
+      "돈도 그 기준 중 하나다.",
+      "하지만 그것이 진짜 자신을 설명하지는 않는다.",
+      "내면의 목소리는 다른 방향을 말한다.",
+      "그 차이를 아는 것이 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0029",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "지그문트 바우만",
+      "book": "액체 근대",
+      "bookDisplay": "액체 근대"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 빠르게 흐르고 쉽게 이동한다.",
+      "그 속도는 삶의 속도를 바꾼다.",
+      "안정은 점점 사라지고",
+      "불확실성은 커진다.",
+      "그래서 현대인은 늘 불안하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0030",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "워런 버핏",
+      "book": "주주서한",
+      "bookDisplay": "주주서한"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 시간을 대신 벌어주지 않는다.",
+      "하지만 시간을 선택할 기회를 준다.",
+      "어디에 집중할지 결정하게 만든다.",
+      "그 선택이 삶을 바꾼다.",
+      "그래서 중요한 것은 돈이 아니라 선택이다."
+ 
+
+
+
+
+
+
+
+
+
+[
+  {
+    "id": "PAS_MONEY_0031",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "윌리엄 셰익스피어",
+      "book": "베니스의 상인",
+      "bookDisplay": "베니스의 상인"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 계약을 만든다.",
+      "그 계약은 인간의 관계를 규정한다.",
+      "하지만 그 안에는 감정이 빠져 있다.",
+      "법은 약속을 지키게 하지만",
+      "인간의 마음까지는 담지 못한다.",
+      "그래서 돈은 때때로 잔인해진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0032",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "빅토르 위고",
+      "book": "레 미제라블",
+      "bookDisplay": "레 미제라블"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "한 조각의 빵은 돈으로 환산된다.",
+      "그러나 그 절박함은 숫자로 설명되지 않는다.",
+      "가난은 선택이 아니라 상황이다.",
+      "돈이 없는 순간 인간은 죄인이 되기도 한다.",
+      "그래서 사회는 그 책임을 함께 나눠야 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0033",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "봉준호",
+      "book": "기생충",
+      "bookDisplay": "기생충"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 공간을 나눈다.",
+      "위와 아래, 빛과 어둠을 만든다.",
+      "사람들은 같은 도시를 살지만",
+      "완전히 다른 세계에 존재한다.",
+      "그 차이는 쉽게 넘어설 수 없다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0034",
+    "meta": {
+      "tradition": "myth",
+      "category": "money",
+      "author": "그리스 신화",
+      "book": "미다스 이야기",
+      "bookDisplay": "미다스 이야기"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "그는 모든 것을 금으로 바꾸길 원했다.",
+      "소원은 이루어졌다.",
+      "하지만 음식도, 사랑도 금이 되었다.",
+      "풍요는 곧 고통으로 변했다.",
+      "그래서 욕망은 언제나 대가를 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0035",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "찰스 부코스키",
+      "book": "우체국",
+      "bookDisplay": "우체국"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "돈을 벌기 위해 시간을 팔았다.",
+      "그 시간은 다시 돌아오지 않았다.",
+      "삶은 점점 반복이 되었다.",
+      "돈은 남았지만 의미는 희미해졌다.",
+      "그래서 그는 계속 질문하게 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0036",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "데이비드 핀처",
+      "book": "파이트 클럽",
+      "bookDisplay": "파이트 클럽"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 물건을 소유한다고 믿는다.",
+      "하지만 결국 물건이 사람을 규정한다.",
+      "돈은 그 구조를 유지한다.",
+      "우리는 소비를 통해 자신을 정의한다.",
+      "그 안에서 자유는 점점 사라진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0037",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "프란츠 카프카",
+      "book": "변신",
+      "bookDisplay": "변신"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "그는 가족을 위해 돈을 벌었다.",
+      "하지만 그 존재는 점점 사라졌다.",
+      "가치는 역할로만 평가되었다.",
+      "돈이 사라지자 관계도 변했다.",
+      "그래서 인간은 쉽게 잊혀진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0038",
+    "meta": {
+      "tradition": "myth",
+      "category": "money",
+      "author": "북유럽 신화",
+      "book": "니벨룽의 반지",
+      "bookDisplay": "니벨룽의 반지"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "황금은 힘을 가져왔다.",
+      "그 힘은 모두를 끌어당겼다.",
+      "하지만 그 끝은 파멸이었다.",
+      "욕망은 서로를 파괴하게 만들었다.",
+      "그래서 보물은 저주가 되었다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0039",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "데이미언 셔젤",
+      "book": "라라랜드",
+      "bookDisplay": "라라랜드"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "꿈과 현실 사이에는 돈이 존재한다.",
+      "현실은 선택을 요구한다.",
+      "사랑과 성공은 동시에 유지되기 어렵다.",
+      "결국 무엇을 남길지 결정해야 한다.",
+      "그 선택은 쉽게 되돌릴 수 없다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0040",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "에밀 졸라",
+      "book": "제르미날",
+      "bookDisplay": "제르미날"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "노동은 값으로 계산된다.",
+      "그러나 고통은 계산되지 않는다.",
+      "사람들은 생존을 위해 일한다.",
+      "그 대가는 항상 충분하지 않다.",
+      "그래서 संघर्ष은 계속된다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0041",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "크리스토퍼 놀란",
+      "book": "인셉션",
+      "bookDisplay": "인셉션"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "현실과 꿈의 경계는 흐려진다.",
+      "돈은 그 사이를 연결한다.",
+      "사람들은 목적을 위해 위험을 감수한다.",
+      "가치는 점점 상대적으로 변한다.",
+      "결국 무엇이 진짜인지 묻게 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0042",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "허먼 멜빌",
+      "book": "모비 딕",
+      "bookDisplay": "모비 딕"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 목표를 위해 항해한다.",
+      "그 끝에는 보상이 기다린다.",
+      "하지만 집착은 방향을 잃게 만든다.",
+      "돈과 목적이 뒤섞인다.",
+      "결국 파괴는 내부에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0043",
+    "meta": {
+      "tradition": "myth",
+      "category": "money",
+      "author": "인도 신화",
+      "book": "쿠베라 이야기",
+      "bookDisplay": "쿠베라 이야기"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "부의 신은 풍요를 상징한다.",
+      "그러나 그것은 책임과 함께 온다.",
+      "부는 나눌 때 의미를 가진다.",
+      "혼자 쌓아두면 무게가 된다.",
+      "그래서 균형이 필요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0044",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "데니스 빌뇌브",
+      "book": "듄",
+      "bookDisplay": "듄"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "자원은 권력을 만든다.",
+      "그 권력은 전쟁을 부른다.",
+      "사람들은 그것을 차지하려 한다.",
+      "돈은 그 흐름을 강화한다.",
+      "결국 지배와 저항이 반복된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0045",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "알베르 카뮈",
+      "book": "이방인",
+      "bookDisplay": "이방인"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "삶의 의미는 쉽게 정의되지 않는다.",
+      "돈도 그 의미를 완성하지 못한다.",
+      "사람들은 이유를 찾으려 하지만",
+      "답은 항상 명확하지 않다.",
+      "그래서 존재는 더 복잡해진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0046",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "쿠엔틴 타란티노",
+      "book": "펄프 픽션",
+      "bookDisplay": "펄프 픽션"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 사건을 움직이게 한다.",
+      "작은 선택이 큰 결과를 만든다.",
+      "사람들은 우연 속에서 연결된다.",
+      "그 중심에는 언제나 돈이 있다.",
+      "그래서 이야기는 뒤틀린다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0047",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "가브리엘 가르시아 마르케스",
+      "book": "백년의 고독",
+      "bookDisplay": "백년의 고독"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "부는 세대를 넘어 전달된다.",
+      "그러나 기억은 점점 흐려진다.",
+      "돈은 남지만 의미는 사라진다.",
+      "시간은 모든 것을 바꾼다.",
+      "그래서 인간은 반복된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0048",
+    "meta": {
+      "tradition": "myth",
+      "category": "money",
+      "author": "중국 신화",
+      "book": "재신 이야기",
+      "bookDisplay": "재신 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 부의 신을 기원한다.",
+      "풍요로운 삶을 바라기 때문이다.",
+      "하지만 노력 없는 부는 오래가지 않는다.",
+      "행운은 준비된 사람에게 머문다.",
+      "그래서 부는 과정과 함께 온다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0049",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "리들리 스콧",
+      "book": "글래디에이터",
+      "bookDisplay": "글래디에이터"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "권력은 돈과 함께 움직인다.",
+      "군중은 그것에 반응한다.",
+      "인간의 가치가 거래되기도 한다.",
+      "명예와 돈은 종종 충돌한다.",
+      "그 선택이 운명을 바꾼다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0050",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "조너선 스위프트",
+      "book": "걸리버 여행기",
+      "bookDisplay": "걸리버 여행기"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "가치는 관점에 따라 달라진다.",
+      "돈도 그 기준 속에서 변한다.",
+      "어떤 사회에서는 중요하지 않다.",
+      "다른 사회에서는 절대적이다.",
+      "그래서 기준은 항상 상대적이다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0051",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "스티븐 스필버그",
+      "book": "캐치 미 이프 유 캔",
+      "bookDisplay": "캐치 미 이프 유 캔"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 신뢰 위에서 움직인다.",
+      "그 신뢰는 쉽게 속을 수 있다.",
+      "사람들은 믿고 싶어 한다.",
+      "그 틈을 이용하면 모든 것이 가능해진다.",
+      "그래서 시스템은 언제나 불완전하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0052",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "존 스타인벡",
+      "book": "분노의 포도",
+      "bookDisplay": "분노의 포도"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "가난은 개인의 문제가 아니다.",
+      "그것은 구조 속에서 만들어진다.",
+      "사람들은 이동하고 떠난다.",
+      "희망은 점점 멀어진다.",
+      "그래서 연대가 필요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0053",
+    "meta": {
+      "tradition": "myth",
+      "category": "money",
+      "author": "이집트 신화",
+      "book": "오시리스 이야기",
+      "bookDisplay": "오시리스 이야기"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "죽음 이후에도 가치는 평가된다.",
+      "삶에서의 선택이 남는다.",
+      "부는 그 기준 중 하나일 뿐이다.",
+      "더 중요한 것은 행동이다.",
+      "그래서 판단은 단순하지 않다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0054",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "데이비드 예이츠",
+      "book": "해리 포터",
+      "bookDisplay": "해리 포터"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "금고에는 많은 돈이 쌓여 있다.",
+      "하지만 그것이 사람을 정의하지 않는다.",
+      "용기와 선택이 더 중요하다.",
+      "부는 단지 배경일 뿐이다.",
+      "그래서 가치의 기준은 달라진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0055",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "마크 트웨인",
+      "book": "허클베리 핀의 모험",
+      "bookDisplay": "허클베리 핀의 모험"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈보다 자유가 더 중요할 때가 있다.",
+      "사람들은 때때로 그것을 잊는다.",
+      "소유는 편안함을 주지만",
+      "자유는 삶을 움직이게 한다.",
+      "그래서 선택은 단순하지 않다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0056",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "로버트 저메키스",
+      "book": "포레스트 검프",
+      "bookDisplay": "포레스트 검프"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 예상치 못한 방식으로 찾아온다.",
+      "삶은 계획대로 흘러가지 않는다.",
+      "중요한 것은 계속 나아가는 것이다.",
+      "결과는 나중에 따라온다.",
+      "그래서 삶은 단순하게 보이기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0057",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "조지 엘리엇",
+      "book": "미들마치",
+      "bookDisplay": "미들마치"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 안정된 삶을 원한다.",
+      "돈은 그 안정의 상징이 된다.",
+      "그러나 기대는 종종 충돌한다.",
+      "관계는 그 사이에서 흔들린다.",
+      "그래서 선택은 어렵다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0058",
+    "meta": {
+      "tradition": "myth",
+      "category": "money",
+      "author": "일본 신화",
+      "book": "칠복신 이야기",
+      "bookDisplay": "칠복신 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "부는 다양한 형태로 존재한다.",
+      "행운, 지혜, 장수도 포함된다.",
+      "돈만이 전부는 아니다.",
+      "균형이 삶을 풍요롭게 만든다.",
+      "그래서 부는 넓은 의미를 가진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0059",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "피터 위어",
+      "book": "죽은 시인의 사회",
+      "bookDisplay": "죽은 시인의 사회"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "삶은 단순한 성공으로 정의되지 않는다.",
+      "돈은 그 일부일 뿐이다.",
+      "자신의 길을 찾는 것이 더 중요하다.",
+      "용기는 선택에서 드러난다.",
+      "그래서 삶은 각자의 이야기다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0060",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "앙투안 드 생텍쥐페리",
+      "book": "어린 왕자",
+      "bookDisplay": "어린 왕자"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "어른들은 숫자를 중요하게 여긴다.",
+      "그 숫자 속에 의미를 담는다.",
+      "하지만 진짜 중요한 것은 보이지 않는다.",
+      "돈도 그 숫자 중 하나일 뿐이다.",
+      "그래서 본질은 다른 곳에 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0061",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "지그문트 프로이트",
+      "book": "정신분석 입문",
+      "bookDisplay": "정신분석 입문"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 단순한 물질이 아니다.",
+      "그것은 욕망의 상징으로 작동한다.",
+      "사람들은 돈에 자신의 불안을 투사한다.",
+      "그래서 더 많이 가지려 한다.",
+      "결핍은 외부보다 내부에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0062",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "칼 융",
+      "book": "인간과 상징",
+      "bookDisplay": "인간과 상징"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 집단이 공유하는 상징이다.",
+      "그 안에는 가치에 대한 믿음이 담겨 있다.",
+      "우리는 그 상징을 통해 서로를 이해한다.",
+      "하지만 그것은 실체가 아니라 의미다.",
+      "그래서 돈은 마음의 구조를 드러낸다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0063",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "성경",
+      "book": "마태복음",
+      "bookDisplay": "마태복음"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "재물을 쌓는 곳에 마음도 머문다.",
+      "눈은 몸의 등불과 같다.",
+      "어디를 바라보느냐에 따라 삶이 달라진다.",
+      "두 주인을 섬길 수는 없다.",
+      "그래서 선택은 언제나 하나다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0064",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "성경",
+      "book": "디모데전서",
+      "bookDisplay": "디모데전서"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈을 사랑하는 마음이 문제다.",
+      "그것이 모든 것을 흔들 수 있다.",
+      "사람은 방향을 잃기도 한다.",
+      "욕망은 끝없이 커진다.",
+      "그래서 마음을 지키는 것이 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0065",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "법구경",
+      "bookDisplay": "법구경"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "욕망은 끝이 없다.",
+      "많이 가질수록 더 원하게 된다.",
+      "그 과정에서 괴로움이 생긴다.",
+      "집착을 내려놓을 때 평안이 온다.",
+      "그래서 부는 마음에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0066",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "에이브러햄 매슬로",
+      "book": "인간의 동기",
+      "bookDisplay": "인간의 동기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 기본 욕구를 충족시킨다.",
+      "그러나 그 이상을 보장하지 않는다.",
+      "사람은 점점 더 높은 것을 원한다.",
+      "존중과 의미를 찾게 된다.",
+      "그래서 돈은 출발점일 뿐이다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0067",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "이슬람",
+      "book": "꾸란",
+      "bookDisplay": "꾸란"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "부는 시험이다.",
+      "그것을 어떻게 쓰느냐가 중요하다.",
+      "나눔은 신앙의 일부다.",
+      "소유는 책임을 동반한다.",
+      "그래서 부는 행동으로 증명된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0068",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "에리히 프롬",
+      "book": "소유냐 존재냐",
+      "bookDisplay": "소유냐 존재냐"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 소유를 통해 자신을 정의한다.",
+      "돈은 그 중심에 있다.",
+      "하지만 존재는 다른 방식으로 완성된다.",
+      "경험과 관계가 더 깊은 의미를 만든다.",
+      "그래서 삶은 소유를 넘어서야 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0069",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "금강경",
+      "bookDisplay": "금강경"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "형상은 실체가 아니다.",
+      "돈도 그 중 하나다.",
+      "그것에 집착할수록 멀어진다.",
+      "본질은 다른 곳에 있다.",
+      "그래서 비움이 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0070",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "로버트 치알디니",
+      "book": "설득의 심리학",
+      "bookDisplay": "설득의 심리학"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "사람들은 가격으로 가치를 판단한다.",
+      "비싸면 더 좋다고 느낀다.",
+      "그 인식은 쉽게 바뀌지 않는다.",
+      "돈은 판단의 기준이 된다.",
+      "그래서 선택은 항상 객관적이지 않다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0071",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "성경",
+      "book": "전도서",
+      "bookDisplay": "전도서"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "부는 쌓이지만 남는 것은 없다.",
+      "사람은 결국 떠나게 된다.",
+      "모든 것은 잠시 머무를 뿐이다.",
+      "돈도 예외가 아니다.",
+      "그래서 허무를 마주하게 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0072",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "댄 애리얼리",
+      "book": "상식 밖의 경제학",
+      "bookDisplay": "상식 밖의 경제학"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 행동을 바꾼다.",
+      "보상이 주어지면 동기가 달라진다.",
+      "때로는 의미가 사라지기도 한다.",
+      "우리는 상황에 영향을 받는다.",
+      "그래서 선택은 변한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0073",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "도교",
+      "book": "도덕경",
+      "bookDisplay": "도덕경"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "많이 쌓을수록 잃을 것이 많아진다.",
+      "적당함이 오래 간다.",
+      "지나침은 균형을 깨뜨린다.",
+      "그래서 비움이 채움이 된다.",
+      "돈도 그 법칙을 따른다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0074",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "마틴 셀리그먼",
+      "book": "긍정 심리학",
+      "bookDisplay": "긍정 심리학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "행복은 돈만으로 완성되지 않는다.",
+      "관계와 의미가 더 큰 영향을 준다.",
+      "돈은 일정 수준까지 도움을 준다.",
+      "그 이후는 다른 요소가 중요하다.",
+      "그래서 삶은 복합적이다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0075",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "팔정도",
+      "bookDisplay": "팔정도"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "올바른 생계는 중요하다.",
+      "어떻게 버는지가 더 중요하다.",
+      "해를 끼치지 않는 방식이어야 한다.",
+      "그래야 마음이 평온하다.",
+      "그래서 돈은 과정이 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0076",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "바리 슈워츠",
+      "book": "선택의 역설",
+      "bookDisplay": "선택의 역설"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "선택이 많을수록 만족은 줄어든다.",
+      "돈은 선택을 늘려준다.",
+      "하지만 동시에 부담도 증가한다.",
+      "결정은 더 어려워진다.",
+      "그래서 자유는 때때로 불안이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0077",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "성경",
+      "book": "누가복음",
+      "bookDisplay": "누가복음"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "주는 것이 받는 것보다 낫다.",
+      "나눔은 관계를 만든다.",
+      "부는 공유될 때 의미가 생긴다.",
+      "혼자 쌓으면 고립된다.",
+      "그래서 사랑은 나눔에서 드러난다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0078",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "조너선 하이트",
+      "book": "행복의 가설",
+      "bookDisplay": "행복의 가설"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "사람은 비교를 통해 만족을 느낀다.",
+      "돈도 그 비교 속에서 의미를 갖는다.",
+      "절대적인 기준은 드물다.",
+      "상대적인 위치가 중요해진다.",
+      "그래서 만족은 흔들린다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0079",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "이슬람",
+      "book": "하디스",
+      "bookDisplay": "하디스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "정직한 거래는 신앙의 일부다.",
+      "속임은 결국 자신에게 돌아온다.",
+      "돈은 도덕과 연결된다.",
+      "행동이 신뢰를 만든다.",
+      "그래서 부는 정직에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0080",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "로이 바우마이스터",
+      "book": "의지력",
+      "bookDisplay": "의지력"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "돈의 사용은 자기 통제와 연결된다.",
+      "충동은 쉽게 소비로 이어진다.",
+      "의지력은 제한된 자원이다.",
+      "그래서 반복은 습관이 된다.",
+      "돈은 그 결과를 드러낸다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0081",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "유대교",
+      "book": "탈무드",
+      "bookDisplay": "탈무드"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 수단일 뿐이다.",
+      "지혜가 그것을 어떻게 쓰는지 결정한다.",
+      "부는 관리하는 능력에 달려 있다.",
+      "지혜 없는 부는 오래가지 않는다.",
+      "그래서 배움이 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0082",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "리처드 데이비슨",
+      "book": "감정의 뇌과학",
+      "bookDisplay": "감정의 뇌과학"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 감정을 자극한다.",
+      "보상 회로가 활성화된다.",
+      "기대와 만족이 연결된다.",
+      "하지만 지속되지는 않는다.",
+      "그래서 더 많은 자극을 찾는다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0083",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "아함경",
+      "bookDisplay": "아함경"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "소유는 고통의 원인이 된다.",
+      "붙잡을수록 괴로움이 커진다.",
+      "놓을 때 자유가 온다.",
+      "그것이 해탈의 길이다.",
+      "돈도 그 대상 중 하나다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0084",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "캐럴 드웩",
+      "book": "마인드셋",
+      "bookDisplay": "마인드셋"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 결과일 뿐이다.",
+      "성장은 과정에서 만들어진다.",
+      "능력은 고정되지 않는다.",
+      "노력이 변화를 만든다.",
+      "그래서 관점이 중요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0085",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "힌두교",
+      "book": "바가바드 기타",
+      "bookDisplay": "바가바드 기타"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "행동은 결과에 집착하지 말아야 한다.",
+      "돈도 그 결과 중 하나다.",
+      "의무를 다하는 것이 중요하다.",
+      "집착은 마음을 흐리게 한다.",
+      "그래서 균형이 필요하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0086",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "다니엘 길버트",
+      "book": "행복에 걸려 비틀거리다",
+      "bookDisplay": "행복에 걸려 비틀거리다"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "사람은 미래의 만족을 과대평가한다.",
+      "돈이 행복을 가져올 것이라 믿는다.",
+      "하지만 실제 경험은 다르다.",
+      "적응은 빠르게 일어난다.",
+      "그래서 기대는 종종 빗나간다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0087",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "기독교",
+      "book": "잠언",
+      "bookDisplay": "잠언"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "작은 이익이 오래 간다.",
+      "급한 부는 흔들리기 쉽다.",
+      "지혜로운 선택이 중요하다.",
+      "인내가 결과를 만든다.",
+      "그래서 부는 시간이 만든다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0088",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "에릭 번",
+      "book": "인간관계의 심리학",
+      "bookDisplay": "인간관계의 심리학"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 관계의 역할을 바꾼다.",
+      "힘의 균형이 달라진다.",
+      "사람들은 위치에 따라 행동한다.",
+      "그 안에서 갈등이 생긴다.",
+      "그래서 돈은 관계를 드러낸다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0089",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "유마경",
+      "bookDisplay": "유마경"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "부는 마음의 상태에 달려 있다.",
+      "외부의 조건이 전부가 아니다.",
+      "지혜는 내면에서 자란다.",
+      "그것이 진짜 자산이다.",
+      "그래서 부는 다르게 정의된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0090",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "켈리 맥고니걸",
+      "book": "스트레스의 힘",
+      "bookDisplay": "스트레스의 힘"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈에 대한 스트레스는 자연스럽다.",
+      "문제는 그것을 어떻게 해석하느냐다.",
+      "위협이 아닌 신호로 볼 수 있다.",
+      "그 태도가 행동을 바꾼다.",
+      "그래서 인식이 결과를 만든다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0091",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "조지 길더",
+      "book": "부와 빈곤",
+      "bookDisplay": "부와 빈곤"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 단순한 숫자가 아니다.",
+      "그것은 인간의 아이디어가 현실이 되는 과정이다.",
+      "누군가의 상상과 용기, 실행이 돈으로 이어진다.",
+      "그래서 돈은 창조의 흔적이기도 하다.",
+      "돈이 흐른다는 것은 가능성이 움직인다는 뜻이다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0092",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "워런 버핏",
+      "book": "주주서한",
+      "bookDisplay": "주주서한"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 시간을 선택할 수 있게 해준다.",
+      "무엇에 집중할지 스스로 정하게 한다.",
+      "좋아하는 일을 더 오래 붙들 수 있게 한다.",
+      "그래서 돈은 단순한 보상이 아니라 자유의 형태다.",
+      "잘 다뤄진 돈은 삶의 방향을 넓혀 준다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0093",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "에이브러햄 매슬로",
+      "book": "인간의 동기",
+      "bookDisplay": "인간의 동기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 인간의 가장 기본적인 불안을 덜어 준다.",
+      "안전이 확보될 때 사람은 더 높은 곳을 바라본다.",
+      "배우고, 사랑하고, 도전할 힘도 그때 생긴다.",
+      "그래서 돈은 성장을 방해하는 것이 아니라",
+      "오히려 성장의 바닥을 단단하게 만드는 힘이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0094",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "탈무드",
+      "book": "탈무드",
+      "bookDisplay": "탈무드"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 지혜롭게 다루면 축복이 된다.",
+      "그것은 사람을 돕고 가정을 지키며",
+      "배움을 이어 가게 하는 실제적인 힘이다.",
+      "돈은 선한 손에 들어갈 때 더 큰 가치를 만든다.",
+      "그래서 부는 책임이면서도 기회가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0095",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "대니얼 디포",
+      "book": "로빈슨 크루소",
+      "bookDisplay": "로빈슨 크루소"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 문명 속에서 사람을 연결하는 약속이다.",
+      "그 약속이 있기에 낯선 이와도 거래할 수 있다.",
+      "필요한 것을 구하고 남는 것을 나눌 수 있다.",
+      "돈은 혼자의 생존을 넘어 함께 사는 기술을 만든다.",
+      "그래서 돈은 사회를 이어 주는 언어가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0096",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "올리버 스톤",
+      "book": "월 스트리트",
+      "bookDisplay": "월 스트리트"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 열정을 확대한다.",
+      "작은 욕망을 큰 기획으로 바꾸고",
+      "생각에 머물던 꿈을 실제 시장으로 끌어낸다.",
+      "돈이 모이면 더 큰 판을 열 수 있다.",
+      "그래서 돈은 도전하는 사람에게 무대가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0097",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "프리드리히 하이에크",
+      "book": "노예의 길",
+      "bookDisplay": "노예의 길"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 개인의 선택을 가능하게 한다.",
+      "누가 무엇을 원하는지 스스로 결정하게 만든다.",
+      "그 선택들이 모여 사회의 방향을 만든다.",
+      "그래서 돈은 자유로운 질서의 한 표현이다.",
+      "돈이 있다는 것은 선택지가 있다는 뜻이기도 하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0098",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "유발 하라리",
+      "book": "사피엔스",
+      "bookDisplay": "사피엔스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 인간이 만든 가장 강력한 공통 신뢰다.",
+      "언어와 문화가 달라도 돈은 곧바로 통한다.",
+      "그 믿음이 있기에 협력의 범위가 커진다.",
+      "돈은 낯선 사람들 사이에 길을 놓는다.",
+      "그래서 돈은 세계를 연결하는 발명품이 되었다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0099",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "마틴 셀리그먼",
+      "book": "긍정 심리학",
+      "bookDisplay": "긍정 심리학"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 삶의 만족을 직접 만들기보다",
+      "만족을 키울 환경을 마련해 준다.",
+      "휴식할 시간, 선택할 여유, 관계에 쓸 에너지를 만든다.",
+      "적절한 돈은 사람을 더 안정되고 너그럽게 한다.",
+      "그래서 돈은 행복의 토양이 될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0100",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "이슬람",
+      "book": "꾸란",
+      "bookDisplay": "꾸란"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "부는 선한 사용을 통해 의미를 가진다.",
+      "나누고 세우고 보호하는 데 쓰일 때",
+      "돈은 공동체를 살리는 힘이 된다.",
+      "돈은 멈춰 있는 것이 아니라 흐르며 선을 만든다.",
+      "그래서 바른 부는 축복의 통로가 된다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0101",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "나폴레온 힐",
+      "book": "생각하라 그리고 부자가 되어라",
+      "bookDisplay": "생각하라 그리고 부자가 되어라"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 강한 바람처럼 방향을 따른다.",
+      "뚜렷한 목표와 끈질긴 실행이 있으면",
+      "그 흐름은 점점 한곳으로 모인다.",
+      "돈은 준비된 욕망을 현실로 바꾸는 결과다.",
+      "그래서 부는 우연보다 집중에서 더 자주 태어난다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0102",
+    "meta": {
+      "tradition": "science",
+      "category": "money",
+      "author": "스티븐 핑커",
+      "book": "우리 본성의 선한 천사",
+      "bookDisplay": "우리 본성의 선한 천사"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "교환이 활발해질수록 사회는 정교해진다.",
+      "돈은 그 교환을 빠르고 안정적으로 만든다.",
+      "거래가 늘어나면 협력도 늘어난다.",
+      "협력은 번영을 낳고 번영은 삶을 바꾼다.",
+      "그래서 돈은 문명의 속도를 높이는 장치가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0103",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "쥘 베른",
+      "book": "80일간의 세계 일주",
+      "bookDisplay": "80일간의 세계 일주"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 이동의 반경을 넓힌다.",
+      "머물던 사람을 길 위로 내보내고",
+      "보지 못한 세계를 실제 경험으로 바꾼다.",
+      "돈은 상상을 여행으로 바꾸는 힘이다.",
+      "그래서 돈은 새로운 세계의 문을 연다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0104",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "밀턴 프리드먼",
+      "book": "자본주의와 자유",
+      "bookDisplay": "자본주의와 자유"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 개인의 독립성을 지켜 준다.",
+      "남에게 의존하지 않고 스스로 선택하게 한다.",
+      "그 선택이 많을수록 삶은 더 주체적이 된다.",
+      "돈은 자유를 구체적인 현실로 만든다.",
+      "그래서 부는 자율성의 한 형태가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0105",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "캐럴 드웩",
+      "book": "마인드셋",
+      "bookDisplay": "마인드셋"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 고정된 운명이 아니라 성장의 결과가 될 수 있다.",
+      "배우고 시도하고 실패를 견디는 사람에게",
+      "돈은 점점 더 많은 가능성으로 돌아온다.",
+      "그래서 돈은 재능보다 태도와 더 깊이 연결되기도 한다.",
+      "돈은 성장의 흔적이 될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0106",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "잠언",
+      "book": "잠언",
+      "bookDisplay": "잠언"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "부지런함은 삶을 풍성하게 만든다.",
+      "작은 축적도 시간이 지나면 커진다.",
+      "돈은 꾸준함에 응답하는 경우가 많다.",
+      "성실한 손끝에서 안정이 만들어진다.",
+      "그래서 돈은 인내의 열매가 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0107",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "가브리엘 무치노",
+      "book": "행복을 찾아서",
+      "bookDisplay": "행복을 찾아서"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 누군가에게 단순한 사치가 아니라",
+      "내일을 버티게 하는 확실한 기반이 된다.",
+      "생활을 지키고 아이를 지키고 꿈을 지키게 한다.",
+      "돈은 절박한 사람에게 다시 일어설 발판이 된다.",
+      "그래서 돈은 희망의 현실적인 얼굴이기도 하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0108",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "맥스 베버",
+      "book": "프로테스탄트 윤리와 자본주의 정신",
+      "bookDisplay": "프로테스탄트 윤리와 자본주의 정신"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 삶의 태도가 쌓여 드러난 결과이기도 하다.",
+      "성실함, 절제, 책임감은 결국 형태를 갖는다.",
+      "그 형태가 바로 신뢰이고 축적이다.",
+      "그래서 돈은 단순한 소비재가 아니라",
+      "삶의 질서가 바깥으로 드러난 표지가 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0109",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "혼다 켄",
+      "book": "부자가 되는 돈의 법칙",
+      "bookDisplay": "부자가 되는 돈의 법칙"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 무거운 것이 아니라 즐거운 흐름일 수 있다.",
+      "감사하는 사람의 손에서 돈은 더 부드럽게 움직인다.",
+      "기쁘게 벌고 기쁘게 쓰는 마음은",
+      "삶의 긴장을 줄이고 풍요를 키운다.",
+      "그래서 돈은 태도에 따라 전혀 다른 얼굴을 가진다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0110",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "켈리 맥고니걸",
+      "book": "스트레스의 힘",
+      "bookDisplay": "스트레스의 힘"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈을 향한 긴장은 무조건 나쁜 것이 아니다.",
+      "그 에너지는 방향만 잡히면 추진력이 된다.",
+      "더 배우고 더 준비하고 더 성장하게 만든다.",
+      "돈은 사람을 움직이게 하는 강한 자극이 된다.",
+      "그래서 긴장은 때때로 발전의 연료가 된다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0111",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "조지프 슘페터",
+      "book": "자본주의, 사회주의, 민주주의",
+      "bookDisplay": "자본주의, 사회주의, 민주주의"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 혁신을 밀어 주는 힘이다.",
+      "새로운 생각이 시장에서 시험받고",
+      "가치가 입증되면 돈은 그쪽으로 모인다.",
+      "그 흐름은 세상을 조금씩 바꾼다.",
+      "그래서 돈은 변화를 촉진하는 에너지이기도 하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0112",
+    "meta": {
+      "tradition": "science",
+      "category": "money",
+      "author": "리처드 도킨스",
+      "book": "이기적 유전자",
+      "bookDisplay": "이기적 유전자"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "생존과 번영은 자원의 효율적 사용과 연결된다.",
+      "돈은 그 자원을 다루는 고도의 도구다.",
+      "더 적은 낭비로 더 큰 결과를 만들게 한다.",
+      "돈은 인간 사회의 계산 능력을 확장한다.",
+      "그래서 돈은 문명의 효율을 높이는 발명품이다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0113",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "유대교",
+      "book": "탈무드",
+      "bookDisplay": "탈무드"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 좋은 일에 쓰일 때 가장 빛난다.",
+      "가정을 세우고 아이를 가르치고",
+      "공동체를 지탱하는 데 쓰일 때",
+      "돈은 단순한 소유를 넘어 축복이 된다.",
+      "그래서 돈은 잘 쓰일수록 더 아름답다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0114",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "존 리 행콕",
+      "book": "파운더",
+      "bookDisplay": "파운더"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 규모를 만든다.",
+      "작은 아이디어를 수많은 사람의 일상으로 확장한다.",
+      "한 사람의 생각이 시스템이 되고",
+      "시스템은 거대한 영향력을 가진다.",
+      "그래서 돈은 확장의 기술이기도 하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0115",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "오 헨리",
+      "book": "현자의 선물",
+      "bookDisplay": "현자의 선물"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 사랑을 드러내는 방식이 되기도 한다.",
+      "정성 어린 선물과 준비된 마음은",
+      "돈을 차갑지 않은 것으로 바꾼다.",
+      "돈은 감정을 실어 나르는 도구가 될 수 있다.",
+      "그래서 돈은 마음을 표현하는 언어가 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0116",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "대니얼 카너먼",
+      "book": "생각에 관한 생각",
+      "bookDisplay": "생각에 관한 생각"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 인간의 판단을 훈련하게 만든다.",
+      "비교하고 계산하고 선택하는 과정 속에서",
+      "우리는 더 정교한 결정을 배우게 된다.",
+      "돈은 사고를 현실과 맞닿게 만든다.",
+      "그래서 돈은 판단력을 키우는 장이 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0117",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "유마경",
+      "bookDisplay": "유마경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 마음이 바르면 선한 작용을 만든다.",
+      "가진 것을 어떻게 돌리느냐에 따라",
+      "한 사람의 부는 많은 사람의 평안이 되기도 한다.",
+      "부는 막는 것이 아니라 흐르게 할 때 더 커진다.",
+      "그래서 돈은 자비의 도구가 될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0118",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "토머스 소웰",
+      "book": "기본 경제학",
+      "bookDisplay": "기본 경제학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 희소한 자원을 효율적으로 배분하게 한다.",
+      "무엇이 필요한지, 어디에 가치가 있는지",
+      "돈은 사회 전체에 신호를 보낸다.",
+      "그 신호가 모이면 질서가 생긴다.",
+      "그래서 돈은 복잡한 사회를 움직이는 지도와 같다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0119",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "로버트 기요사키",
+      "book": "부자 아빠 가난한 아빠",
+      "bookDisplay": "부자 아빠 가난한 아빠"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 일만 하는 사람에게서 끝나지 않는다.",
+      "생각을 바꾸면 돈도 다른 방식으로 일하기 시작한다.",
+      "돈을 이해하는 순간 선택의 폭이 넓어진다.",
+      "그래서 부는 수입보다 관점에서 먼저 시작될 수 있다.",
+      "돈은 배운 사람에게 더 넓은 가능성을 연다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0120",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "존 G. 애빌드슨",
+      "book": "록키",
+      "bookDisplay": "록키"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 단지 편안함만 주는 것이 아니다.",
+      "그것은 노력의 결과를 눈에 보이게 만든다.",
+      "견딘 시간과 반복된 훈련이 현실로 돌아오는 방식이다.",
+      "돈은 땀의 가치를 세상과 연결해 준다.",
+      "그래서 돈은 성취의 한 형태가 될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0121",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "피터 드러커",
+      "book": "경영의 실제",
+      "bookDisplay": "경영의 실제"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 결과를 측정하는 언어다.",
+      "가치가 만들어졌을 때 그것은 숫자로 드러난다.",
+      "그 숫자는 다음 방향을 알려준다.",
+      "그래서 돈은 단순한 보상이 아니라 피드백이다.",
+      "돈은 성장의 방향을 가리키는 신호가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0122",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "폴 새뮤얼슨",
+      "book": "경제학",
+      "bookDisplay": "경제학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 선택의 효율을 높인다.",
+      "같은 자원으로 더 많은 결과를 만들게 한다.",
+      "그 과정에서 낭비는 줄어든다.",
+      "돈은 판단을 빠르게 만든다.",
+      "그래서 돈은 삶의 효율을 끌어올린다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0123",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "앤절라 더크워스",
+      "book": "그릿",
+      "bookDisplay": "그릿"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 끈기의 결과로 나타나기도 한다.",
+      "포기하지 않는 반복이 쌓일 때",
+      "보상은 점점 분명해진다.",
+      "그 보상이 다시 동기를 만든다.",
+      "그래서 돈은 노력의 축적이기도 하다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0124",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "유대교",
+      "book": "탈무드",
+      "bookDisplay": "탈무드"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 사람을 돕는 도구가 될 때 빛난다.",
+      "필요한 곳에 쓰일 때 더 큰 가치를 만든다.",
+      "부는 선한 영향력으로 확장될 수 있다.",
+      "그래서 돈은 나눌수록 의미가 깊어진다.",
+      "돈은 선함을 넓히는 힘이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0125",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "파울로 코엘료",
+      "book": "연금술사",
+      "bookDisplay": "연금술사"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 여정을 가능하게 만든다.",
+      "길 위에서 필요한 모든 것을 준비하게 한다.",
+      "꿈은 의지로 시작되지만",
+      "돈은 그것을 지속하게 만든다.",
+      "그래서 돈은 꿈을 현실로 이어주는 다리다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0126",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "브래드 버드",
+      "book": "라따뚜이",
+      "bookDisplay": "라따뚜이"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "작은 시작도 기회가 된다.",
+      "돈은 그 기회를 키우는 도구다.",
+      "재능은 발견되고 확장된다.",
+      "가능성은 점점 현실이 된다.",
+      "그래서 돈은 잠재력을 드러내게 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0127",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "레이 달리오",
+      "book": "원칙",
+      "bookDisplay": "원칙"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 현실을 반영한다.",
+      "무엇이 작동하는지 보여준다.",
+      "그 결과를 통해 우리는 배우게 된다.",
+      "돈은 경험을 축적하게 만든다.",
+      "그래서 돈은 학습의 도구가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0128",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "칼 로저스",
+      "book": "온전한 인간",
+      "bookDisplay": "온전한 인간"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 선택의 폭을 넓힌다.",
+      "자신에게 맞는 삶을 찾게 한다.",
+      "타인의 기준에서 벗어나게 한다.",
+      "그 과정에서 진짜 자신을 만난다.",
+      "그래서 돈은 자아 탐색의 여유를 준다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0129",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "불교",
+      "book": "유마경",
+      "bookDisplay": "유마경"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "부는 마음과 함께 움직인다.",
+      "바르게 쓰일 때 더 넓은 평화를 만든다.",
+      "한 사람의 여유는 다른 이의 안정이 된다.",
+      "돈은 흐르며 조화를 만든다.",
+      "그래서 돈은 연결의 수단이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0130",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "토마스 프리드먼",
+      "book": "세계는 평평하다",
+      "bookDisplay": "세계는 평평하다"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 국경을 넘어 흐른다.",
+      "그 흐름은 새로운 기회를 만든다.",
+      "사람들은 더 넓은 시장과 연결된다.",
+      "가능성은 점점 커진다.",
+      "그래서 돈은 세계를 가깝게 만든다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0131",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "브라이언 트레이시",
+      "book": "성공의 법칙",
+      "bookDisplay": "성공의 법칙"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 목표의 명확함에 반응한다.",
+      "분명한 방향이 있을 때 흐름이 생긴다.",
+      "작은 성과가 반복되며 커진다.",
+      "돈은 집중된 노력의 결과다.",
+      "그래서 목표는 현실을 만든다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0132",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "아담 스미스",
+      "book": "국부론",
+      "bookDisplay": "국부론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 교환을 부드럽게 만든다.",
+      "서로의 필요를 빠르게 연결한다.",
+      "각자의 능력이 시장에서 빛난다.",
+      "그 결과는 모두에게 돌아간다.",
+      "그래서 돈은 협력을 촉진한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0133",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "조던 피터슨",
+      "book": "12가지 인생의 법칙",
+      "bookDisplay": "12가지 인생의 법칙"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 책임을 감당한 결과로 쌓인다.",
+      "질서를 유지하고 역할을 수행할 때",
+      "보상은 자연스럽게 따라온다.",
+      "돈은 신뢰의 형태가 되기도 한다.",
+      "그래서 돈은 삶의 구조를 반영한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0134",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "기독교",
+      "book": "잠언",
+      "bookDisplay": "잠언"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "성실함은 작은 축적을 만든다.",
+      "그 축적은 시간이 지나며 커진다.",
+      "돈은 꾸준함에 응답한다.",
+      "하루의 노력은 헛되지 않는다.",
+      "그래서 돈은 시간의 친구가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0135",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "존 패브로",
+      "book": "아이언맨",
+      "bookDisplay": "아이언맨"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 기술을 현실로 만든다.",
+      "아이디어가 실험으로 이어지고",
+      "실험이 혁신으로 이어진다.",
+      "그 과정은 더 큰 가능성을 연다.",
+      "그래서 돈은 미래를 앞당긴다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0136",
+    "meta": {
+      "tradition": "science",
+      "category": "money",
+      "author": "빌 게이츠",
+      "book": "미래로 가는 길",
+      "bookDisplay": "미래로 가는 길"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 문제를 해결하는 데 쓰일 수 있다.",
+      "기술과 자원이 결합될 때",
+      "더 많은 사람을 도울 수 있다.",
+      "돈은 가능성을 현실로 만든다.",
+      "그래서 돈은 변화의 도구가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0137",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "대니얼 골먼",
+      "book": "감성 지능",
+      "bookDisplay": "감성 지능"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 관계를 풍요롭게 할 수 있다.",
+      "시간과 에너지를 사람에게 쓰게 만든다.",
+      "여유는 더 깊은 연결을 만든다.",
+      "그 연결이 삶을 채운다.",
+      "그래서 돈은 관계를 키우는 자원이 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0138",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "힌두교",
+      "book": "바가바드 기타",
+      "bookDisplay": "바가바드 기타"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 의무를 수행하는 데 도움을 준다.",
+      "가정과 사회를 지키는 기반이 된다.",
+      "행동은 결과로 이어진다.",
+      "그 결과가 다시 삶을 안정시킨다.",
+      "그래서 돈은 균형을 돕는다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0139",
+    "meta": {
+      "tradition": "social",
+      "category": "money",
+      "author": "마이클 샌델",
+      "book": "정의란 무엇인가",
+      "bookDisplay": "정의란 무엇인가"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 선택을 현실로 만든다.",
+      "생각을 행동으로 옮기게 한다.",
+      "그 행동이 사회를 만든다.",
+      "돈은 참여를 가능하게 한다.",
+      "그래서 돈은 영향력의 형태가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0140",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "짐 론",
+      "book": "성공 철학",
+      "bookDisplay": "성공 철학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 결과로 따라오는 것이다.",
+      "먼저 사람이 성장해야 한다.",
+      "성장이 축적되면 돈도 따라온다.",
+      "그래서 돈은 자기 발전의 그림자다.",
+      "돈은 성장의 증거가 된다."
+    ]
+  },
+
+  {
+    "id": "PAS_MONEY_0141",
+    "meta": {
+      "tradition": "economics",
+      "category": "money",
+      "author": "토마 피케티",
+      "book": "21세기 자본",
+      "bookDisplay": "21세기 자본"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 장기적인 시야에서 더 큰 힘을 가진다.",
+      "시간은 돈을 확장시키는 요소다.",
+      "지속은 변화를 만든다.",
+      "축적은 새로운 가능성을 연다.",
+      "그래서 돈은 시간과 함께 성장한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0142",
+    "meta": {
+      "tradition": "psychology",
+      "category": "money",
+      "author": "댄 애리얼리",
+      "book": "상식 밖의 경제학",
+      "bookDisplay": "상식 밖의 경제학"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 행동을 촉진한다.",
+      "작은 보상도 움직임을 만든다.",
+      "그 움직임이 결과를 만든다.",
+      "돈은 시작을 쉽게 만든다.",
+      "그래서 돈은 행동의 스위치가 된다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0143",
+    "meta": {
+      "tradition": "religion",
+      "category": "money",
+      "author": "이슬람",
+      "book": "하디스",
+      "bookDisplay": "하디스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "정직한 노력은 좋은 부를 만든다.",
+      "그 부는 다시 선한 결과를 만든다.",
+      "순환은 긍정적으로 이어진다.",
+      "돈은 바르게 흐를 때 더 강해진다.",
+      "그래서 돈은 선한 순환을 만든다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0144",
+    "meta": {
+      "tradition": "movie",
+      "category": "money",
+      "author": "제임스 카메론",
+      "book": "아바타",
+      "bookDisplay": "아바타"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "자원은 가능성을 만든다.",
+      "돈은 그 자원을 움직이게 한다.",
+      "더 큰 프로젝트가 시작된다.",
+      "사람들은 협력하게 된다.",
+      "그래서 돈은 거대한 시도를 가능하게 한다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0145",
+    "meta": {
+      "tradition": "literature",
+      "category": "money",
+      "author": "찰스 디킨스",
+      "book": "위대한 유산",
+      "bookDisplay": "위대한 유산"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 새로운 출발을 가능하게 한다.",
+      "기회는 준비된 사람에게 열린다.",
+      "환경은 달라질 수 있다.",
+      "삶은 확장된다.",
+      "그래서 돈은 전환점이 될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0146",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "토니 로빈스",
+      "book": "머니",
+      "bookDisplay": "머니"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 에너지다.",
+      "어디에 쓰느냐에 따라 결과가 달라진다.",
+      "의도는 방향을 만든다.",
+      "돈은 그 방향을 강화한다.",
+      "그래서 돈은 의지를 확장한다."
+     ]
+  },
+  {
+    "id": "PAS_MONEY_0149",
+    "meta": {
+      "tradition": "science",
+      "category": "money",
+      "author": "일론 머스크",
+      "book": "인터뷰",
+      "bookDisplay": "인터뷰"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 미래를 앞당기는 수단이다.",
+      "가능했던 것들이 현실이 된다.",
+      "위험은 기회로 바뀐다.",
+      "도전은 확장된다.",
+      "그래서 돈은 미래를 만든다."
+    ]
+  },
+  {
+    "id": "PAS_MONEY_0150",
+    "meta": {
+      "tradition": "thought",
+      "category": "money",
+      "author": "사이먼 시넥",
+      "book": "왜에서 시작하라",
+      "bookDisplay": "왜에서 시작하라"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "돈은 목적을 따르는 결과다.",
+      "의미 있는 방향이 있을 때",
+      "사람들은 더 크게 움직인다.",
+      "그 움직임이 가치를 만든다.",
+      "그래서 돈은 의미의 뒤에 따라온다."
+    ]
+  }
+]

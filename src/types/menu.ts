@@ -23,6 +23,7 @@ export type SizeOption = 'large' | 'small';
 export type BackgroundOption = 'auto' | 'upload';
 
 export type MenuSelectionState = {
+  includeMyWriting: boolean;
   emotion: EmotionKey;
   selectedCategories: ContentCategory[];
   language: LanguageOption;
@@ -32,6 +33,7 @@ export type MenuSelectionState = {
 };
 
 export const INITIAL_MENU_SELECTIONS: MenuSelectionState = {
+  includeMyWriting: false,
   emotion: 'unknown',
   selectedCategories: ['eastern_philosophy'],
   language: 'ko',

@@ -12,6 +12,13 @@ import {
 import { BottomDotButton } from '../components/BottomDotButton';
 import { MenuSlideSheet } from '../components/MenuSlideSheet';
 import { UserBackgroundManagerSheet } from '../components/UserBackgroundManagerSheet';
+
+import { UserMyWritingManager } from '../ux/layers/UserMyWritingManager';
+import { UserMyWritingEditor } from '../ux/layers/UserMyWritingEditor';
+
+import { loadMyWritings, saveMyWritings } from '../storage/myWritingStorage';
+import type { MyWriting } from '../types/myWriting';
+import { MAX_MY_WRITINGS, createMyWriting, updateMyWritingBody } from '../types/myWriting';
 import { usePassage } from '../hooks/usePassage';
 import { useOrientation } from '../hooks/useOrientation';
 import { createFilterStateFromCategories, type FilterSelectionState } from '../constants/filterSchema';
@@ -49,7 +56,7 @@ const DOUBLE_TAP_DELAY_MS = 260;
 const MAX_USER_BACKGROUNDS = 30;
 
 type BackgroundMode = 'auto' | 'user';
-type OverlayMode = 'none' | 'menu' | 'userBackgroundManager';
+type OverlayMode = 'none' | 'menu' | 'userBackgroundManager' | 'userMyWritingManager';
 
 const FONT_FAMILY_BY_VARIANT: Record<FontVariant, string> = {
   default: 'NotoSansKR-Regular',
@@ -125,6 +132,21 @@ const dedupeUris = (uris: string[]): string[] => {
     seen.add(uri);
     next.push(uri);
   }
+
+  return next;
+};
+
+const dedupeIds = (ids: string[]): string[] => {
+  const seen = new Set<string>();
+  const next: string[] = [];
+
+  ids.forEach((id) => {
+    if (!id || seen.has(id)) {
+      return;
+    }
+    seen.add(id);
+    next.push(id);
+  });
 
   return next;
 };
@@ -243,6 +265,15 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const [draftUserBackgrounds, setDraftUserBackgrounds] = useState<string[]>([]);
   const [draftSelectedUserBackgrounds, setDraftSelectedUserBackgrounds] = useState<string[]>([]);
 
+  const [storedMyWritings, setStoredMyWritings] = useState<MyWriting[]>([]);
+  const [appliedMyWritingIds, setAppliedMyWritingIds] = useState<string[]>([]);
+  const [draftMyWritings, setDraftMyWritings] = useState<MyWriting[]>([]);
+  const [draftSelectedMyWritingIds, setDraftSelectedMyWritingIds] = useState<string[]>([]);
+  const [isMyWritingEditorVisible, setMyWritingEditorVisible] = useState(false);
+  const [myWritingEditorMode, setMyWritingEditorMode] = useState<'create' | 'edit'>('create');
+  const [myWritingEditorInitialBody, setMyWritingEditorInitialBody] = useState('');
+  const [editingMyWritingId, setEditingMyWritingId] = useState<string | null>(null);
+
   const [textContentHeight, setTextContentHeight] = useState(0);
 
   const readyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -253,8 +284,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const passageBackgroundIndexMapRef = useRef<Record<string, number>>({});
   const passageUserBackgroundUriMapRef = useRef<Record<string, string>>({});
 
+  const myWritingLoadedRef = useRef(false);
+
   const isMenuVisible = overlayMode === 'menu';
   const isUserBackgroundManagerVisible = overlayMode === 'userBackgroundManager';
+
+  const isUserMyWritingManagerVisible = overlayMode === 'userMyWritingManager';
 
   const effectiveBackgroundMode: 'auto' | 'user' = useMemo(() => {
     if (backgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
@@ -283,6 +318,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     language: menuSelections.language,
     emotion: menuSelections.emotion,
     filters: filterSelections,
+    includeMyWriting: menuSelections.includeMyWriting,
+    myWritings: storedMyWritings,
   });
 
   const currentPassage = useMemo(
@@ -309,11 +346,15 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const isGestureEnabled =
     !isMenuVisible &&
     !isUserBackgroundManagerVisible &&
+    !isUserMyWritingManagerVisible &&
     isTextReady &&
     showSource &&
     hasCurrent;
 
-  const isMenuButtonEnabled = !isMenuVisible && !isUserBackgroundManagerVisible && showSource;
+const isOverlayVisible =
+  isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible;
+
+const isMenuButtonEnabled = !isOverlayVisible && showSource;
 
   const activeAutoBackground: BackgroundConfig = useMemo(
     () => getBackgroundAt(autoBackgroundIndex),
@@ -511,6 +552,145 @@ const resetVisualPresentation = useCallback(() => {
     syncBackgroundSelectionState,
   ]);
 
+  const openUserMyWritingManager = useCallback((): boolean => {
+    if (isLandscape) {
+      return false;
+    }
+
+    const baseSelection =
+      appliedMyWritingIds.length > 0
+        ? appliedMyWritingIds
+        : storedMyWritings.filter((writing) => writing.active).map((writing) => writing.id);
+
+    const trimmed = storedMyWritings.slice(0, MAX_MY_WRITINGS);
+    const trimmedIds = new Set(trimmed.map((writing) => writing.id));
+
+    setDraftMyWritings(trimmed.map((writing) => ({ ...writing })));
+    setDraftSelectedMyWritingIds(
+      dedupeIds(baseSelection.filter((id) => trimmedIds.has(id))).slice(0, MAX_MY_WRITINGS),
+    );
+    setOverlayMode('userMyWritingManager');
+    resetVisualPresentation();
+    return true;
+  }, [appliedMyWritingIds, isLandscape, resetVisualPresentation, storedMyWritings]);
+
+  const handleOpenUserMyWritingManager = useCallback(async (): Promise<boolean> => {
+    clearSingleTapTimer();
+    return openUserMyWritingManager();
+  }, [clearSingleTapTimer, openUserMyWritingManager]);
+
+  const closeUserMyWritingManager = useCallback(() => {
+    setDraftMyWritings([]);
+    setDraftSelectedMyWritingIds([]);
+    setOverlayMode('menu');
+    setMyWritingEditorVisible(false);
+    setEditingMyWritingId(null);
+    resetVisualPresentation();
+  }, [resetVisualPresentation]);
+
+  const handleToggleDraftMyWritingSelection = useCallback((id: string) => {
+    setDraftSelectedMyWritingIds((prev) =>
+      prev.includes(id) ? prev.filter((value) => value !== id) : [...prev, id],
+    );
+  }, []);
+
+  const handleDeleteSelectedMyWritings = useCallback(() => {
+    if (!draftSelectedMyWritingIds.length) {
+      return;
+    }
+
+    const selectedSet = new Set(draftSelectedMyWritingIds);
+    setDraftMyWritings((prev) => prev.filter((writing) => !selectedSet.has(writing.id)));
+    setDraftSelectedMyWritingIds([]);
+  }, [draftSelectedMyWritingIds]);
+
+  const handleAddMyWriting = useCallback(() => {
+    if (draftMyWritings.length >= MAX_MY_WRITINGS) {
+      return;
+    }
+
+    setEditingMyWritingId(null);
+    setMyWritingEditorMode('create');
+    setMyWritingEditorInitialBody('');
+    setMyWritingEditorVisible(true);
+  }, [draftMyWritings.length]);
+
+  const handleEditMyWriting = useCallback((writing: MyWriting) => {
+    setEditingMyWritingId(writing.id);
+    setMyWritingEditorMode('edit');
+    setMyWritingEditorInitialBody(writing.body);
+    setMyWritingEditorVisible(true);
+  }, []);
+
+  const handleMyWritingEditorCancel = useCallback(() => {
+    setMyWritingEditorVisible(false);
+    setEditingMyWritingId(null);
+  }, []);
+
+  const handleMyWritingEditorApply = useCallback(
+    (body: string) => {
+      if (myWritingEditorMode === 'create') {
+        if (draftMyWritings.length >= MAX_MY_WRITINGS) {
+          setMyWritingEditorVisible(false);
+          setEditingMyWritingId(null);
+          return;
+        }
+
+        const newWriting = createMyWriting(body);
+        setDraftMyWritings((prev) => [newWriting, ...prev].slice(0, MAX_MY_WRITINGS));
+        setDraftSelectedMyWritingIds((prev) =>
+          dedupeIds([newWriting.id, ...prev]).slice(0, MAX_MY_WRITINGS),
+        );
+      } else if (editingMyWritingId) {
+        setDraftMyWritings((prev) =>
+          prev.map((writing) =>
+            writing.id === editingMyWritingId ? updateMyWritingBody(writing, body) : writing,
+          ),
+        );
+      }
+
+      setMyWritingEditorVisible(false);
+      setEditingMyWritingId(null);
+    },
+    [draftMyWritings.length, editingMyWritingId, myWritingEditorMode],
+  );
+
+  const handleMyWritingEditorDelete = useCallback(() => {
+    if (!editingMyWritingId) {
+      return;
+    }
+
+    setDraftMyWritings((prev) => prev.filter((writing) => writing.id !== editingMyWritingId));
+    setDraftSelectedMyWritingIds((prev) => prev.filter((id) => id !== editingMyWritingId));
+    setMyWritingEditorVisible(false);
+    setEditingMyWritingId(null);
+  }, [editingMyWritingId]);
+
+  const handleApplyMyWritings = useCallback(() => {
+    const confirmedLibrary = draftMyWritings.slice(0, MAX_MY_WRITINGS);
+    const validSelection = dedupeIds(
+      draftSelectedMyWritingIds.filter((id) =>
+        confirmedLibrary.some((writing) => writing.id === id),
+      ),
+    ).slice(0, MAX_MY_WRITINGS);
+
+    if (!validSelection.length) {
+      return;
+    }
+
+    const nextLibrary = confirmedLibrary.map((writing) => ({
+      ...writing,
+      active: validSelection.includes(writing.id),
+    }));
+
+    setStoredMyWritings(nextLibrary);
+    setAppliedMyWritingIds(validSelection);
+    setDraftMyWritings([]);
+    setDraftSelectedMyWritingIds([]);
+    setOverlayMode('menu');
+    resetVisualPresentation();
+  }, [draftMyWritings, draftSelectedMyWritingIds, resetVisualPresentation]);
+
   const showFirstPassageForCurrentSelection = useCallback(() => {
     const firstPassage = pickNextPassage();
 
@@ -641,11 +821,72 @@ const resetVisualPresentation = useCallback(() => {
   }, []);
 
   useEffect(() => {
+    if (myWritingLoadedRef.current) {
+      return;
+    }
+
+    let cancelled = false;
+
+    (async () => {
+      try {
+        const stored = await loadMyWritings();
+        if (cancelled) {
+          return;
+        }
+        myWritingLoadedRef.current = true;
+        setStoredMyWritings(stored);
+        setAppliedMyWritingIds(
+          stored.filter((writing) => writing.active).map((writing) => writing.id),
+        );
+      } catch (error) {
+        console.warn('[PassageScreen] Failed to load my writings', error);
+        myWritingLoadedRef.current = true;
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!myWritingLoadedRef.current) {
+      return;
+    }
+
+    (async () => {
+      try {
+        await saveMyWritings(storedMyWritings);
+      } catch (error) {
+        console.warn('[PassageScreen] Failed to save my writings', error);
+      }
+    })();
+  }, [storedMyWritings]);
+
+  useEffect(() => {
+    if (!myWritingLoadedRef.current) {
+      return;
+    }
+
+    if (storedMyWritings.length > 0) {
+      return;
+    }
+
+    setAppliedMyWritingIds([]);
+    setMenuSelections((prev) =>
+      prev.includeMyWriting ? { ...prev, includeMyWriting: false } : prev,
+    );
+    setDraftSelections((prev) =>
+      prev.includeMyWriting ? { ...prev, includeMyWriting: false } : prev,
+    );
+  }, [storedMyWritings.length]);
+
+  useEffect(() => {
     if (!shouldStartNewSelection) {
       return;
     }
 
-    if (isMenuVisible || isUserBackgroundManagerVisible) {
+    if (isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible) {
       return;
     }
 
@@ -655,6 +896,7 @@ const resetVisualPresentation = useCallback(() => {
     shouldStartNewSelection,
     isMenuVisible,
     isUserBackgroundManagerVisible,
+    isUserMyWritingManagerVisible,
     showFirstPassageForCurrentSelection,
   ]);
 
@@ -668,7 +910,8 @@ const resetVisualPresentation = useCallback(() => {
       !isBackgroundReady ||
       !combinedText ||
       isMenuVisible ||
-      isUserBackgroundManagerVisible
+      isUserBackgroundManagerVisible ||
+      isUserMyWritingManagerVisible
     ) {
       setTextReady(false);
       setShowSource(false);
@@ -689,6 +932,7 @@ const resetVisualPresentation = useCallback(() => {
     isBackgroundReady,
     isMenuVisible,
     isUserBackgroundManagerVisible,
+    isUserMyWritingManagerVisible,
     combinedText,
     currentPassage?.id,
   ]);
@@ -704,7 +948,21 @@ const resetVisualPresentation = useCallback(() => {
       setOverlayMode('menu');
       resetVisualPresentation();
     }
-  }, [isLandscape, isUserBackgroundManagerVisible, resetVisualPresentation]);
+
+    if (isLandscape && isUserMyWritingManagerVisible) {
+      setDraftMyWritings([]);
+      setDraftSelectedMyWritingIds([]);
+      setOverlayMode('menu');
+      setMyWritingEditorVisible(false);
+      setEditingMyWritingId(null);
+      resetVisualPresentation();
+    }
+  }, [
+    isLandscape,
+    isUserBackgroundManagerVisible,
+    isUserMyWritingManagerVisible,
+    resetVisualPresentation,
+  ]);
 
   useEffect(() => {
     if (!currentPassage?.id) {
@@ -871,7 +1129,7 @@ const displayedText = combinedText;
   return (
     <AdaptiveBackground
       onReady={handleBackgroundReady}
-      blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
+      blurRadius={isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
       backgroundMode={effectiveBackgroundMode}
       userBackgroundUri={currentUserBackgroundUri}
       background={activeAutoBackground}
@@ -884,7 +1142,7 @@ const displayedText = combinedText;
               isLandscape ? styles.containerLandscape : styles.containerPortrait,
             ]}
           >
-            {!isMenuVisible && !isUserBackgroundManagerVisible ? (
+            {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
               <View
                 style={[
                   styles.textBlock,
@@ -940,6 +1198,8 @@ const displayedText = combinedText;
             hasPassages={hasPassages}
             onOpenUserBackgroundManager={handleOpenUserBackgroundManager}
             onSelectAutoBackground={handleSelectAutoBackground}
+            onOpenUserMyWritingManager={handleOpenUserMyWritingManager}
+            canUseMyWriting={storedMyWritings.length > 0}
           />
 
           <UserBackgroundManagerSheet
@@ -953,9 +1213,31 @@ const displayedText = combinedText;
             onApply={handleApplyUserBackgrounds}
             onClose={closeUserBackgroundManager}
           />
+
+          <UserMyWritingManager
+            visible={isUserMyWritingManagerVisible}
+            writings={draftMyWritings}
+            selectedIds={draftSelectedMyWritingIds}
+            maxItems={MAX_MY_WRITINGS}
+            onToggleSelect={handleToggleDraftMyWritingSelection}
+            onAdd={handleAddMyWriting}
+            onEdit={handleEditMyWriting}
+            onDeleteSelected={handleDeleteSelectedMyWritings}
+            onApply={handleApplyMyWritings}
+            onClose={closeUserMyWritingManager}
+          />
+
+          <UserMyWritingEditor
+            visible={isMyWritingEditorVisible}
+            mode={myWritingEditorMode}
+            initialBody={myWritingEditorInitialBody}
+            onCancel={handleMyWritingEditorCancel}
+            onApply={handleMyWritingEditorApply}
+            onDelete={myWritingEditorMode === 'edit' ? handleMyWritingEditorDelete : undefined}
+          />
         </View>
 
-        {!isMenuVisible && !isUserBackgroundManagerVisible ? (
+        {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
           <BottomDotButton
             style={styles.bottomButton}
             onPress={() => {
