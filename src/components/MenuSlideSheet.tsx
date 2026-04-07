@@ -618,29 +618,33 @@ const styles = StyleSheet.create({
   },
   inlineChip: {
     minWidth: 0,
+    flexShrink: 0,
+    alignSelf: 'flex-start',
   },
   inlineGapWide: {
     width: 4,
   },
   chip: {
-    minWidth: 58,
+    minWidth: 0,
+    flexShrink: 0,
+    alignSelf: 'flex-start',
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 999,
     borderWidth: 1,
     borderColor: 'rgba(255,255,255,0.40)',
     backgroundColor: 'rgba(255,255,255,0.08)',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  chipCompact: {
+    minWidth: 0,
     paddingHorizontal: 9,
     paddingVertical: 3,
   },
-  chipCompact: {
-    minWidth: 54,
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-  },
   chipTight: {
-    minWidth: 50,
-    paddingHorizontal: 7,
+    minWidth: 0,
+    paddingHorizontal: 8,
     paddingVertical: 2,
   },
   chipSelected: {

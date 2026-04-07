@@ -1,5 +1,5 @@
 ﻿import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { PanResponder, StyleSheet, View } from 'react-native';
+import { PanResponder, StyleSheet, View, useWindowDimensions } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 
 import { AdaptiveBackground } from '../components/AdaptiveBackground';
@@ -157,25 +157,31 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 32,
+    paddingHorizontal: 16,
+  },
+  containerPortrait: {
+    justifyContent: 'flex-start',
   },
   containerLandscape: {
     justifyContent: 'flex-start',
-    paddingTop: 32,
   },
   textBlock: {
-    width: '100%',
-    maxWidth: 300,
+    position: 'absolute',
+    width: '86%',
+    maxWidth: 560,
     paddingHorizontal: 8,
   },
   textBlockPortrait: {
-    transform: [{ translateY: -72 }],
+    width: '86%',
+    maxWidth: 560,
   },
   textBlockLandscape: {
-    paddingTop: 24,
-    transform: [{ translateY: -12 }],
+    width: '92%',
+    maxWidth: 860,
+  },
+  textMeasure: {
+    width: '100%',
   },
   paragraphContainer: {
     width: '100%',
@@ -209,6 +215,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 }) => {
   const orientation = useOrientation();
   const isLandscape = orientation === 'landscape';
+  const { height: windowHeight } = useWindowDimensions();
 
   const [menuSelections, setMenuSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
   const [draftSelections, setDraftSelections] = useState<MenuSelectionState>(INITIAL_MENU_SELECTIONS);
@@ -220,7 +227,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const [isBackgroundReady, setBackgroundReady] = useState(false);
   const [isTextReady, setTextReady] = useState(false);
   const [showSource, setShowSource] = useState(false);
-  const [renderedText, setRenderedText] = useState('');
   const [historyState, setHistoryState] = useState(createInitialPassageHistoryState());
   const [shouldStartNewSelection, setShouldStartNewSelection] = useState(false);
 
@@ -236,6 +242,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const [draftUserBackgrounds, setDraftUserBackgrounds] = useState<string[]>([]);
   const [draftSelectedUserBackgrounds, setDraftSelectedUserBackgrounds] = useState<string[]>([]);
+
+  const [textContentHeight, setTextContentHeight] = useState(0);
 
   const readyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const singleTapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -312,11 +320,25 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     [autoBackgroundIndex],
   );
 
-  const resetVisualPresentation = useCallback(() => {
- 
-    setTextReady(false);
-    setShowSource(false);
-  }, []);
+  const dynamicTextTop = useMemo(() => {
+    const topPadding = isLandscape ? 54 : 88;
+    const bottomPadding = isLandscape ? 84 : 132;
+    const visualBias = isLandscape ? -10 : -22;
+    const minTop = isLandscape ? 38 : 56;
+
+    if (!textContentHeight || windowHeight <= 0) {
+      return topPadding;
+    }
+
+    const availableHeight = Math.max(0, windowHeight - topPadding - bottomPadding);
+    const centeredTop = topPadding + Math.max((availableHeight - textContentHeight) / 2, 0);
+    return Math.max(minTop, centeredTop + visualBias);
+  }, [isLandscape, textContentHeight, windowHeight]);
+
+const resetVisualPresentation = useCallback(() => {
+  setTextReady(false);
+  setShowSource(false);
+}, []);
 
   const clearSingleTapTimer = useCallback(() => {
     if (singleTapTimerRef.current) {
@@ -636,27 +658,22 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     showFirstPassageForCurrentSelection,
   ]);
 
-useEffect(() => {
-  if (isBackgroundReady && combinedText) {
-    setRenderedText(combinedText);
-  }
-}, [isBackgroundReady, combinedText]);
- 
- useEffect(() => {
+  useEffect(() => {
     if (readyTimerRef.current) {
       clearTimeout(readyTimerRef.current);
       readyTimerRef.current = null;
     }
 
-if (
-  !isBackgroundReady ||
-  isMenuVisible ||
-  isUserBackgroundManagerVisible
-) {
-  setTextReady(false);
-  setShowSource(false);
-  return;
-}
+    if (
+      !isBackgroundReady ||
+      !combinedText ||
+      isMenuVisible ||
+      isUserBackgroundManagerVisible
+    ) {
+      setTextReady(false);
+      setShowSource(false);
+      return;
+    }
 
     readyTimerRef.current = setTimeout(() => {
       setTextReady(true);
@@ -737,7 +754,7 @@ if (
     };
   }, []);
 
-  const displayedText = isTextReady && combinedText ? combinedText : '';
+const displayedText = combinedText;
 
   const handleAdvanceByTap = useCallback(() => {
     if (!isGestureEnabled) {
@@ -851,92 +868,106 @@ if (
     ],
   );
 
- return (
-  <AdaptiveBackground
-    onReady={handleBackgroundReady}
-    blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
-    backgroundMode={effectiveBackgroundMode}
-    userBackgroundUri={currentUserBackgroundUri}
-    background={activeAutoBackground}
-  >
-    <View style={styles.root}>
-      <View style={styles.gestureLayer} {...panResponder.panHandlers}>
-        <View style={[styles.container, isLandscape && styles.containerLandscape]}>
-          {!isMenuVisible && !isUserBackgroundManagerVisible ? (
-            <View
-              style={[
-                styles.textBlock,
-                isLandscape ? styles.textBlockLandscape : styles.textBlockPortrait,
-              ]}
-            >
-              <AnimatedPassageText
-                key={`passage-${orientation}-${currentPassage?.id ?? 'empty'}-${historyState.currentIndex}`}
-                line={renderedText}
-                containerStyle={styles.paragraphContainer}
-                style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
-                isReady={isBackgroundReady}
-                onComplete={() => setShowSource(true)}
-                variant={fontVariant}
-              />
-
-              {sourceReserveHeight > 0 ? (
+  return (
+    <AdaptiveBackground
+      onReady={handleBackgroundReady}
+      blurRadius={isMenuVisible || isUserBackgroundManagerVisible ? MENU_BACKGROUND_BLUR_RADIUS : 0}
+      backgroundMode={effectiveBackgroundMode}
+      userBackgroundUri={currentUserBackgroundUri}
+      background={activeAutoBackground}
+    >
+      <View style={styles.root}>
+        <View style={styles.gestureLayer} {...panResponder.panHandlers}>
+          <View
+            style={[
+              styles.container,
+              isLandscape ? styles.containerLandscape : styles.containerPortrait,
+            ]}
+          >
+            {!isMenuVisible && !isUserBackgroundManagerVisible ? (
+              <View
+                style={[
+                  styles.textBlock,
+                  isLandscape ? styles.textBlockLandscape : styles.textBlockPortrait,
+                  { top: dynamicTextTop },
+                ]}
+              >
                 <View
-                  style={[
-                    styles.sourceReserve,
-                    { marginTop: 18, minHeight: sourceReserveHeight },
-                  ]}
+                  style={styles.textMeasure}
+                  onLayout={(event) => {
+                    const measuredHeight = Math.ceil(event.nativeEvent.layout.height);
+                    setTextContentHeight((prev) => (prev === measuredHeight ? prev : measuredHeight));
+                  }}
                 >
-                  {sourceText && showSource ? (
-                    <PassageSourceText
-                      text={sourceText}
-                      baseFontSize={bodyFontSize}
-                      variant={fontVariant}
-                      style={paragraphFontStyle}
-                    />
+                  <AnimatedPassageText
+                    key={`passage-${orientation}-${currentPassage?.id ?? 'empty'}-${historyState.currentIndex}`}
+                    line={displayedText}
+                    containerStyle={styles.paragraphContainer}
+                    style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
+                    isReady={isBackgroundReady && isTextReady}
+                    onComplete={() => setShowSource(true)}
+                    variant={fontVariant}
+                  />
+
+                  {sourceReserveHeight > 0 ? (
+                    <View
+                      style={[
+                        styles.sourceReserve,
+                        { marginTop: 18, minHeight: sourceReserveHeight },
+                      ]}
+                    >
+                      {sourceText && showSource ? (
+                        <PassageSourceText
+                          text={sourceText}
+                          baseFontSize={bodyFontSize}
+                          variant={fontVariant}
+                          style={paragraphFontStyle}
+                        />
+                      ) : null}
+                    </View>
                   ) : null}
                 </View>
-              ) : null}
-            </View>
-          ) : null}
+              </View>
+            ) : null}
+          </View>
+
+          <MenuSlideSheet
+            visible={isMenuVisible}
+            onClose={closeMenu}
+            onApply={handleApply}
+            state={draftSelections}
+            onChange={setDraftSelections}
+            hasPassages={hasPassages}
+            onOpenUserBackgroundManager={handleOpenUserBackgroundManager}
+            onSelectAutoBackground={handleSelectAutoBackground}
+          />
+
+          <UserBackgroundManagerSheet
+            visible={isUserBackgroundManagerVisible}
+            backgrounds={draftUserBackgrounds}
+            selectedUris={draftSelectedUserBackgrounds}
+            maxItems={MAX_USER_BACKGROUNDS}
+            onToggleSelect={handleToggleUserBackgroundSelection}
+            onAdd={handleAddUserBackgrounds}
+            onDeleteSelected={handleDeleteSelectedUserBackgrounds}
+            onApply={handleApplyUserBackgrounds}
+            onClose={closeUserBackgroundManager}
+          />
         </View>
 
-        <MenuSlideSheet
-          visible={isMenuVisible}
-          onClose={closeMenu}
-          onApply={handleApply}
-          state={draftSelections}
-          onChange={setDraftSelections}
-          hasPassages={hasPassages}
-          onOpenUserBackgroundManager={handleOpenUserBackgroundManager}
-          onSelectAutoBackground={handleSelectAutoBackground}
-        />
-
-        <UserBackgroundManagerSheet
-          visible={isUserBackgroundManagerVisible}
-          backgrounds={draftUserBackgrounds}
-          selectedUris={draftSelectedUserBackgrounds}
-          maxItems={MAX_USER_BACKGROUNDS}
-          onToggleSelect={handleToggleUserBackgroundSelection}
-          onAdd={handleAddUserBackgrounds}
-          onDeleteSelected={handleDeleteSelectedUserBackgrounds}
-          onApply={handleApplyUserBackgrounds}
-          onClose={closeUserBackgroundManager}
-        />
+        {!isMenuVisible && !isUserBackgroundManagerVisible ? (
+          <BottomDotButton
+            style={styles.bottomButton}
+            onPress={() => {
+              if (!isMenuButtonEnabled) {
+                return;
+              }
+              openMenu();
+            }}
+            accessibilityLabel="Open menu"
+          />
+        ) : null}
       </View>
-
-      {!isMenuVisible && !isUserBackgroundManagerVisible ? (
-        <BottomDotButton
-          style={styles.bottomButton}
-          onPress={() => {
-            if (!isMenuButtonEnabled) {
-              return;
-            }
-            openMenu();
-          }}
-          accessibilityLabel="Open menu"
-        />
-      ) : null}
-    </View>
-  </AdaptiveBackground>
-);
+    </AdaptiveBackground>
+  );
 };
