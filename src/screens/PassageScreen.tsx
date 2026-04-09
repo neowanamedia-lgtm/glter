@@ -1,5 +1,11 @@
 ﻿import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { PanResponder, StyleSheet, View, useWindowDimensions } from 'react-native';
+import {
+  PanResponder,
+  ScrollView,
+  StyleSheet,
+  View,
+  useWindowDimensions,
+} from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 
 import { AdaptiveBackground } from '../components/AdaptiveBackground';
@@ -50,9 +56,9 @@ const SOURCE_CHARS_PER_LINE = 14;
 const ALLOWED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko', 'en'];
 
 const TAP_MAX_DISTANCE = 18;
-const SWIPE_ACTIVATION_DISTANCE = 1;
-const SWIPE_TRIGGER_DISTANCE = 2;
-const SWIPE_DIRECTION_RATIO = 0.4;
+const SWIPE_ACTIVATION_DISTANCE = 6;
+const SWIPE_TRIGGER_DISTANCE = 24;
+const SWIPE_DIRECTION_RATIO = 1.05;
 const SWIPE_MAX_VERTICAL_DRIFT = 120;
 const MENU_BACKGROUND_BLUR_RADIUS = 28;
 const DOUBLE_TAP_DELAY_MS = 260;
@@ -220,6 +226,15 @@ const styles = StyleSheet.create({
   sourceReserve: {
     width: '100%',
   },
+  myWritingScrollViewport: {
+    width: '100%',
+  },
+  myWritingScrollContent: {
+    paddingBottom: 12,
+  },
+  myWritingSourceWrap: {
+    marginTop: 18,
+  },
   bottomButton: {
     position: 'absolute',
     right: 28,
@@ -301,20 +316,16 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     return 'auto';
   }, [appliedUserBackgrounds.length, backgroundMode]);
 
-  const fontVariant = useMemo(
-    () => getFontVariant(menuSelections.font),
-    [menuSelections.font],
-  );
+  const fontVariant = useMemo(() => getFontVariant(menuSelections.font), [menuSelections.font]);
 
   const paragraphFontStyle = useMemo(
     () => getParagraphFontStyle(fontsLoaded, fontVariant),
     [fontsLoaded, fontVariant],
   );
 
-  const bodyFontSize = useMemo(
-    () => getBodyFontSize(fontVariant),
-    [fontVariant],
-  );
+  const bodyFontSize = useMemo(() => getBodyFontSize(fontVariant), [fontVariant]);
+
+  const isMyWritingPassageMode = menuSelections.includeMyWriting;
 
   const { hasPassages, pickNextPassage } = usePassage({
     language: menuSelections.language,
@@ -324,20 +335,14 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     myWritings: storedMyWritings,
   });
 
-  const currentPassage = useMemo(
-    () => getCurrentPassage(historyState),
-    [historyState],
-  );
+  const currentPassage = useMemo(() => getCurrentPassage(historyState), [historyState]);
 
   const combinedText = useMemo(
     () => (currentPassage ? currentPassage.lines.join('\n').trim() : ''),
     [currentPassage],
   );
 
-  const sourceText = useMemo(
-    () => currentPassage?.sourceText ?? '',
-    [currentPassage],
-  );
+  const sourceText = useMemo(() => currentPassage?.sourceText ?? '', [currentPassage]);
 
   const sourceReserveHeight = useMemo(
     () => estimateSourceHeight(sourceText, bodyFontSize, fontVariant),
@@ -346,6 +351,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const hasCurrent = Boolean(currentPassage);
   const canGoPrev = canGoToPreviousPassage(historyState);
+
   const isGestureEnabled =
     !isMenuVisible &&
     !isUserBackgroundManagerVisible &&
@@ -357,27 +363,45 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const isOverlayVisible =
     isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible;
 
- const isMenuButtonEnabled = !isOverlayVisible && (showSource || !!combinedText);
+  const isMenuButtonEnabled = !isOverlayVisible && (showSource || !!combinedText);
 
   const activeAutoBackground: BackgroundConfig = useMemo(
     () => getBackgroundAt(autoBackgroundIndex),
     [autoBackgroundIndex],
   );
 
+  const textTopPadding = isLandscape ? 54 : 88;
+  const textBottomPadding = isLandscape ? 84 : 132;
+
+  const scrollViewportHeight = useMemo(() => {
+    const available = windowHeight - textTopPadding - textBottomPadding;
+    return Math.max(isLandscape ? 180 : 220, available);
+  }, [isLandscape, textBottomPadding, textTopPadding, windowHeight]);
+
   const dynamicTextTop = useMemo(() => {
-    const topPadding = isLandscape ? 54 : 88;
-    const bottomPadding = isLandscape ? 84 : 132;
     const visualBias = isLandscape ? -10 : -22;
     const minTop = isLandscape ? 38 : 56;
 
-    if (!textContentHeight || windowHeight <= 0) {
-      return topPadding;
+    if (isMyWritingPassageMode) {
+      return textTopPadding;
     }
 
-    const availableHeight = Math.max(0, windowHeight - topPadding - bottomPadding);
-    const centeredTop = topPadding + Math.max((availableHeight - textContentHeight) / 2, 0);
+    if (!textContentHeight || windowHeight <= 0) {
+      return textTopPadding;
+    }
+
+    const availableHeight = Math.max(0, windowHeight - textTopPadding - textBottomPadding);
+    const centeredTop = textTopPadding + Math.max((availableHeight - textContentHeight) / 2, 0);
+
     return Math.max(minTop, centeredTop + visualBias);
-  }, [isLandscape, textContentHeight, windowHeight]);
+  }, [
+    isLandscape,
+    isMyWritingPassageMode,
+    textBottomPadding,
+    textContentHeight,
+    textTopPadding,
+    windowHeight,
+  ]);
 
   const resetVisualPresentation = useCallback(() => {
     setTextReady(false);
@@ -949,9 +973,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     combinedText,
     sourceText,
     historyState.currentIndex,
+    orientation,
   ]);
 
   useEffect(() => {
+    setTextContentHeight(0);
+    setTextReady(false);
     setShowSource(false);
   }, [orientation]);
 
@@ -1029,7 +1056,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const displayedText = combinedText;
 
   const handleAdvanceByTap = useCallback(() => {
-    if (!isGestureEnabled) {
+    if (!isGestureEnabled || isMyWritingPassageMode) {
       return;
     }
 
@@ -1055,13 +1082,20 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       lastTapTimestampRef.current = 0;
       showNextPassage();
     }, DOUBLE_TAP_DELAY_MS);
-  }, [canGoPrev, clearSingleTapTimer, isGestureEnabled, showNextPassage, showPreviousPassage]);
+  }, [
+    canGoPrev,
+    clearSingleTapTimer,
+    isGestureEnabled,
+    isMyWritingPassageMode,
+    showNextPassage,
+    showPreviousPassage,
+  ]);
 
   const panResponder = useMemo(
     () =>
       PanResponder.create({
-        onStartShouldSetPanResponder: () => isGestureEnabled,
-        onStartShouldSetPanResponderCapture: () => isGestureEnabled,
+        onStartShouldSetPanResponder: () => false,
+        onStartShouldSetPanResponderCapture: () => false,
         onMoveShouldSetPanResponder: (_evt, gestureState) => {
           if (!isGestureEnabled) {
             return false;
@@ -1069,6 +1103,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
           const absDx = Math.abs(gestureState.dx);
           const absDy = Math.abs(gestureState.dy);
+
+          if (isMyWritingPassageMode) {
+            return false;
+          }
 
           return absDx >= SWIPE_ACTIVATION_DISTANCE && absDx >= absDy * SWIPE_DIRECTION_RATIO;
         },
@@ -1079,6 +1117,14 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
           const absDx = Math.abs(gestureState.dx);
           const absDy = Math.abs(gestureState.dy);
+
+          if (isMyWritingPassageMode) {
+            return (
+              absDx >= SWIPE_ACTIVATION_DISTANCE &&
+              absDx > absDy * SWIPE_DIRECTION_RATIO &&
+              absDy <= SWIPE_MAX_VERTICAL_DRIFT
+            );
+          }
 
           return absDx >= SWIPE_ACTIVATION_DISTANCE && absDx >= absDy * SWIPE_DIRECTION_RATIO;
         },
@@ -1096,17 +1142,19 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
           const absDx = Math.abs(dx);
           const absDy = Math.abs(dy);
 
-          const isTap = absDx <= TAP_MAX_DISTANCE && absDy <= TAP_MAX_DISTANCE;
+          if (!isMyWritingPassageMode) {
+            const isTap = absDx <= TAP_MAX_DISTANCE && absDy <= TAP_MAX_DISTANCE;
 
-          if (isTap) {
-            gestureHandledRef.current = true;
-            handleAdvanceByTap();
-            return;
+            if (isTap) {
+              gestureHandledRef.current = true;
+              handleAdvanceByTap();
+              return;
+            }
           }
 
           const isHorizontalSwipe =
             absDx >= SWIPE_TRIGGER_DISTANCE &&
-            absDx >= absDy * SWIPE_DIRECTION_RATIO &&
+            absDx > absDy * SWIPE_DIRECTION_RATIO &&
             absDy <= SWIPE_MAX_VERTICAL_DRIFT;
 
           if (!isHorizontalSwipe) {
@@ -1135,6 +1183,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       clearSingleTapTimer,
       handleAdvanceByTap,
       isGestureEnabled,
+      isMyWritingPassageMode,
       showNextPassage,
       showPreviousPassage,
     ],
@@ -1170,38 +1219,87 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
               >
                 <View
                   style={styles.textMeasure}
-                  onLayout={(event) => {
-                    const measuredHeight = Math.ceil(event.nativeEvent.layout.height);
-                    setTextContentHeight((prev) => (prev === measuredHeight ? prev : measuredHeight));
-                  }}
+                  onLayout={
+                    isMyWritingPassageMode
+                      ? undefined
+                      : (event) => {
+                          const measuredHeight = Math.ceil(event.nativeEvent.layout.height);
+                          setTextContentHeight((prev) =>
+                            prev === measuredHeight ? prev : measuredHeight,
+                          );
+                        }
+                  }
                 >
-                  <AnimatedPassageText
-                    key={`passage-${orientation}-${currentPassage?.id ?? 'empty'}-${historyState.currentIndex}`}
-                    line={displayedText}
-                    containerStyle={styles.paragraphContainer}
-                    style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
-                    isReady={isBackgroundReady && isTextReady}
-                    onComplete={() => setShowSource(true)}
-                    variant={fontVariant}
-                  />
-
-                  {sourceReserveHeight > 0 ? (
-                    <View
+                  {isMyWritingPassageMode ? (
+                    <ScrollView
                       style={[
-                        styles.sourceReserve,
-                        { marginTop: 18, minHeight: sourceReserveHeight },
+                        styles.myWritingScrollViewport,
+                        isLandscape
+                          ? { height: scrollViewportHeight }
+                          : { maxHeight: scrollViewportHeight },
                       ]}
+                      contentContainerStyle={styles.myWritingScrollContent}
+                      showsVerticalScrollIndicator
+                      bounces={false}
+                      scrollEventThrottle={16}
+                      keyboardShouldPersistTaps="handled"
+                      directionalLockEnabled
+                      disableScrollViewPanResponder
                     >
+                      <AnimatedPassageText
+                        key={`passage-${orientation}-${currentPassage?.id ?? 'empty'}-${historyState.currentIndex}`}
+                        line={displayedText}
+                        containerStyle={styles.paragraphContainer}
+                        style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
+                        isReady={isBackgroundReady && isTextReady}
+                        onComplete={() => setShowSource(true)}
+                        variant={fontVariant}
+                        animationMode="block"
+                      />
+
                       {sourceText && showSource ? (
-                        <PassageSourceText
-                          text={sourceText}
-                          baseFontSize={bodyFontSize}
-                          variant={fontVariant}
-                          style={paragraphFontStyle}
-                        />
+                        <View style={styles.myWritingSourceWrap}>
+                          <PassageSourceText
+                            text={sourceText}
+                            baseFontSize={bodyFontSize}
+                            variant={fontVariant}
+                            style={paragraphFontStyle}
+                          />
+                        </View>
                       ) : null}
-                    </View>
-                  ) : null}
+                    </ScrollView>
+                  ) : (
+                    <>
+                      <AnimatedPassageText
+                        key={`passage-${orientation}-${currentPassage?.id ?? 'empty'}-${historyState.currentIndex}`}
+                        line={displayedText}
+                        containerStyle={styles.paragraphContainer}
+                        style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
+                        isReady={isBackgroundReady && isTextReady}
+                        onComplete={() => setShowSource(true)}
+                        variant={fontVariant}
+                        animationMode="word"
+                      />
+
+                      {sourceReserveHeight > 0 ? (
+                        <View
+                          style={[
+                            styles.sourceReserve,
+                            { marginTop: 18, minHeight: sourceReserveHeight },
+                          ]}
+                        >
+                          {sourceText && showSource ? (
+                            <PassageSourceText
+                              text={sourceText}
+                              baseFontSize={bodyFontSize}
+                              variant={fontVariant}
+                              style={paragraphFontStyle}
+                            />
+                          ) : null}
+                        </View>
+                      ) : null}
+                    </>
+                  )}
                 </View>
               </View>
             ) : null}

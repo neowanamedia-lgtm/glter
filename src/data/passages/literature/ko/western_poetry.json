@@ -1,34 +1,4356 @@
 [
   {
-    "id": "PAS_WESTERN_NOVELS_0001",
+    "id": "PAS_WESTERN_POETRY_0001",
     "meta": {
-      "author": "제인 오스틴",
-      "book": "오만과 편견",
-      "chapter": "초기 인상"
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "희망은 깃털 달린 것, 일부"
     },
     "emotionCore": "hope",
     "emotionExtended": [],
     "lines": [
-      "처음에는 모든 것이 낯설고 어색하게 느껴졌다.",
-      "그러나 시간이 흐르자 그 감정은 조금씩 풀어졌다.",
-      "익숙해진다는 것은 결국 마음이 열리는 일이었다.",
-      "그리고 그 안에서 새로운 의미가 자라나고 있었다."
+      "희망은 깃털 달린 것",
+      "영혼 위에 내려앉아",
+      "말 없는 노래를 부르며",
+      "결코 멈추지 않는다,",
+      "폭풍 속에서도 그 노래는",
+      "더없이 달콤하게 들리고,",
+      "그 작은 새를 잠재우려면",
+      "얼마나 거센 바람이 필요할까"
     ]
   },
   {
-    "id": "PAS_WESTERN_NOVELS_0002",
+    "id": "PAS_WESTERN_POETRY_0002",
     "meta": {
-      "author": "빅토르 위고",
-      "book": "레 미제라블",
-      "chapter": "희망"
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 프로스트",
+      "book": "로버트 프로스트 시집",
+      "chapter": "가지 않은 길, 일부"
     },
     "emotionCore": "hope",
     "emotionExtended": [],
     "lines": [
-      "어둠 속에서도 희망은 사라지지 않는다.",
-      "사람은 절망 속에서도 다시 일어설 수 있다.",
-      "그 힘은 아주 작지만 분명히 존재한다.",
-      "그리고 그것이 삶을 다시 앞으로 나아가게 만든다."
+      "노란 숲 속에서 두 갈래 길이 나 있었다,",
+      "둘 다 갈 수 없음을 나는 안타까워하며",
+      "오랫동안 서서 바라보았다",
+      "한쪽 길이 굽어 사라지는 곳까지,",
+      "그리고 나는 다른 길을 택했다,",
+      "그 길도 그만큼 아름다워 보였기에,",
+      "아마도 더 걸어볼 가치가 있었으리라,",
+      "풀이 덜 밟혀 있었으므로"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0003",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 셰익스피어",
+      "book": "셰익스피어 소네트",
+      "chapter": "소네트 18번, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "그대를 여름날에 비할 수 있을까,",
+      "그대는 더 사랑스럽고 더 온화하다,",
+      "거친 바람은 오월의 꽃봉오리를 흔들고,",
+      "여름은 너무 짧은 시간을 가진다,",
+      "때로 태양은 너무 뜨겁게 내리쬐고,",
+      "때로 그 황금빛 얼굴은 흐려지지만,",
+      "그대의 영원한 여름은 사라지지 않고,",
+      "그대의 아름다움 또한 시들지 않는다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0004",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "랭스턴 휴즈",
+      "book": "랭스턴 휴즈 시집",
+      "chapter": "꿈을 붙잡아라, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "꿈을 놓치지 말아라",
+      "꿈이 사라지면",
+      "삶은 날개 부러진 새와 같아",
+      "날 수 없게 된다",
+      "꿈을 꼭 붙잡아라",
+      "꿈이 사라지면",
+      "삶은 얼어붙은 들판처럼",
+      "생명이 사라진다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0005",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 키츠",
+      "book": "존 키츠 시집",
+      "chapter": "나이팅게일에게 바치는 송가, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내 마음은 아프고, 둔한 고통이 감돈다",
+      "마치 독을 마신 듯한 무감각 속에서,",
+      "너의 행복이 나를 질투하게 하는 것이 아니라",
+      "너의 기쁨이 너무 깊기 때문이리라,",
+      "숲 속 어둠 속에서 노래하는 너,",
+      "푸른 잎 사이에서 자유롭게 울고,",
+      "인간의 고통과 시간의 무게를 떠나",
+      "영원한 노래 속에 머무는 존재여"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0006",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에드거 앨런 포",
+      "book": "에드거 앨런 포 시집",
+      "chapter": "애너벨 리, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "오래전, 바닷가 왕국에서",
+      "한 소녀가 살고 있었지",
+      "그녀의 이름은 애너벨 리",
+      "그녀는 나를 사랑하기 위해 살았고",
+      "나 또한 그녀를 사랑하기 위해 살았지",
+      "우리는 서로를 깊이 사랑했기에",
+      "천사들조차 우리를 시기했고",
+      "그것이 우리의 비극이 되었다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0007",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "퍼시 비시 셸리",
+      "book": "셸리 시집",
+      "chapter": "서풍에게, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "오 거친 서풍이여",
+      "가을의 숨결이여",
+      "죽은 잎들을 몰아내며",
+      "새로운 씨앗을 퍼뜨리는 힘이여",
+      "너는 파괴자이자 보존자",
+      "모든 것을 흔들고 지나가며",
+      "죽음 속에서도 생명을 준비한다",
+      "겨울이 오면 봄은 멀지 않다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0008",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월트 휘트먼",
+      "book": "풀잎",
+      "chapter": "자기 자신을 노래하다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 나 자신을 찬미하고 노래한다",
+      "내가 가정하는 것을 너도 가정하리라",
+      "내 몸의 모든 원자는",
+      "너의 것과도 같다",
+      "나는 자연 속을 거닐며",
+      "나 자신을 느끼고",
+      "세상과 하나가 된다",
+      "그리고 다시 태어난다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0009",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라이너 마리아 릴케",
+      "book": "릴케 시집",
+      "chapter": "젊은 시인에게 보내는 편지 중, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "너의 내면으로 들어가라",
+      "너를 쓰게 만드는 이유를 찾아라",
+      "그것이 너를 움직이지 않는다면",
+      "쓰지 말아야 한다",
+      "그러나 만약 그것이",
+      "너를 깊이 흔든다면",
+      "그것은 너의 길이다",
+      "의심하지 말고 걸어가라"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0010",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "찰스 부코스키",
+      "book": "부코스키 시집",
+      "chapter": "푸른 새, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내 안에는 푸른 새가 있다",
+      "그는 밖으로 나오고 싶어 한다",
+      "하지만 나는 너무 강하다",
+      "나는 그를 숨겨둔다",
+      "사람들이 알면 안 되니까",
+      "나는 밤에만 그를 꺼내어",
+      "잠시 숨 쉬게 하고",
+      "다시 가둔다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0011",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "순수의 노래",
+      "chapter": "어린 양, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "어린 양아, 누가 너를 만들었니",
+      "너에게 생명을 주고 먹이를 주었니",
+      "시냇가와 들판에서 뛰놀게 하고",
+      "부드러운 털을 입혀 주었니",
+      "너는 부드러운 목소리를 가졌고",
+      "그것은 모든 골짜기를 기쁘게 한다",
+      "어린 양아, 누가 너를 만들었니",
+      "너는 알고 있니, 누가 너를 만들었는지"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0012",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "사무엘 테일러 콜리지",
+      "book": "서정시집",
+      "chapter": "늙은 항해사의 노래, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "물, 물, 어디에나 물이 있지만",
+      "마실 물은 한 방울도 없었다",
+      "배는 멈춰 서 있었고",
+      "바람 한 점 없었다",
+      "태양은 머리 위에서 타올랐고",
+      "우리의 목은 말라갔다",
+      "우리는 침묵 속에 갇혀",
+      "시간조차 흐르지 않았다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0013",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 버틀러 예이츠",
+      "book": "예이츠 시집",
+      "chapter": "이니스프리 호수 섬, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 일어나 이니스프리로 가리라",
+      "작은 오두막을 짓고 살리라",
+      "콩 몇 줄 심고 벌집 하나 두며",
+      "조용한 숲 속에서 살리라",
+      "그곳에는 평화가 있으니",
+      "이슬처럼 천천히 내려온다",
+      "밤은 반짝이고 낮은 빛나며",
+      "내 마음은 그곳으로 간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0014",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "파블로 네루다",
+      "book": "스무 편의 사랑 시와 한 편의 절망의 노래",
+      "chapter": "오늘 밤 나는 슬픈 시를 쓸 수 있다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "오늘 밤 나는 가장 슬픈 시를 쓸 수 있다",
+      "밤은 별들로 가득하고",
+      "멀리서 바람이 불어온다",
+      "그녀는 더 이상 내 곁에 없다",
+      "나는 그녀를 사랑했고",
+      "때로 그녀도 나를 사랑했다",
+      "이렇게 긴 밤 속에서",
+      "나는 그녀를 잃어버렸다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0015",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라빈드라나트 타고르",
+      "book": "기탄잘리",
+      "chapter": "기탄잘리, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "두려움 없는 마음으로 살게 하소서",
+      "머리가 높이 들려진 그곳에서",
+      "지식이 자유로운 곳에서",
+      "세상이 좁은 벽으로 나뉘지 않는 곳에서",
+      "말이 진실에서 나오고",
+      "노력이 완성을 향해 나아가며",
+      "이성이 맑은 흐름을 이루는 곳으로",
+      "나의 조국을 이끌어 주소서"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0016",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "샤를 보들레르",
+      "book": "악의 꽃",
+      "chapter": "여행으로의 초대, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "그곳에서는 모든 것이",
+      "질서와 아름다움, 사치와 고요",
+      "그리고 쾌락으로 가득하다",
+      "빛은 부드럽게 흐르고",
+      "모든 것이 평화롭다",
+      "영혼조차 쉬어가는 곳",
+      "그곳으로 나와 함께 가자",
+      "사랑과 꿈이 머무는 곳으로"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0017",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "T. S. 엘리엇",
+      "book": "엘리엇 시집",
+      "chapter": "프루프록의 사랑 노래, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "나는 감히 그럴 수 있을까",
+      "나는 감히 세상을 흔들 수 있을까",
+      "시간은 아직 충분하다고 말하지만",
+      "나는 망설인다",
+      "사람들의 시선 속에서",
+      "나는 점점 작아지고",
+      "말을 꺼내지 못한 채",
+      "다시 침묵으로 돌아간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0018",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "실비아 플라스",
+      "book": "에어리얼",
+      "chapter": "거울, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나는 은빛이며 정확하다",
+      "나는 아무것도 숨기지 않는다",
+      "내가 보는 것은 곧바로 삼켜진다",
+      "나는 사랑도 미움도 모른다",
+      "나는 진실을 말한다",
+      "거짓 없이",
+      "여자는 매일 나를 바라보며",
+      "자신을 찾으려 한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0019",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "루이스 캐럴",
+      "book": "거울 나라의 앨리스",
+      "chapter": "재버워키, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "기묘한 생물들이 춤추고",
+      "이상한 소리가 울려 퍼지며",
+      "말들은 의미를 잃고",
+      "세계는 뒤틀려 있다",
+      "그러나 그 속에서도",
+      "어딘가 익숙한 감각이 있고",
+      "나는 그것을 따라가며",
+      "이상한 길을 걷는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0020",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 던",
+      "book": "형이상학 시집",
+      "chapter": "누구를 위하여 종은 울리나, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "어떤 사람도 섬이 아니다",
+      "모두가 대륙의 일부이며",
+      "한 조각이다",
+      "누군가의 죽음은",
+      "나를 줄어들게 한다",
+      "나는 인류의 일부이기에",
+      "그러니 묻지 말라",
+      "종은 누구를 위해 울리는지"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0021",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 번즈",
+      "book": "번즈 시집",
+      "chapter": "올드 랭 사인, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "옛 친구를 잊어야 할까",
+      "그 이름을 잊어야 할까",
+      "우리는 함께 웃고",
+      "함께 울었는데",
+      "그 시절을 기억하며",
+      "잔을 들어 올리자",
+      "지나간 날들을 위해",
+      "그리고 우정을 위해"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0022",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "루퍼트 브룩",
+      "book": "브룩 시집",
+      "chapter": "병사의 노래, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내가 죽게 된다면",
+      "이것만은 기억해 주기를",
+      "이 낯선 땅의 한 구석이",
+      "영원히 영국이 될 것이라고",
+      "그곳에는 내 마음이 있고",
+      "내가 사랑한 것들이 있으며",
+      "그 모든 것이 잠들어",
+      "조용히 남아 있을 것이다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0023",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. H. 오든",
+      "book": "오든 시집",
+      "chapter": "장례 블루스, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "시계를 멈추어라",
+      "전화선을 끊어라",
+      "개가 짖지 못하게 하라",
+      "피아노를 조용히 하라",
+      "관을 가져오고",
+      "애도자들을 부르라",
+      "그는 나의 북쪽, 남쪽, 동쪽, 서쪽이었고",
+      "나의 모든 것이었다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0024",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 브론테",
+      "book": "브론테 시집",
+      "chapter": "기억, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "차갑게 불어오는 바람 속에서",
+      "나는 너를 기억한다",
+      "시간이 흘러도",
+      "그 기억은 사라지지 않는다",
+      "고요한 밤 속에서",
+      "너의 목소리가 들리고",
+      "나는 여전히 그곳에 서서",
+      "너를 부른다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0025",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "마야 안젤루",
+      "book": "안젤루 시집",
+      "chapter": "그래도 나는 일어난다, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "너는 나를 흙 속에 묻을 수 있지만",
+      "나는 먼지처럼 일어난다",
+      "나의 걸음은 당당하고",
+      "나의 웃음은 멈추지 않는다",
+      "나는 고통을 지나왔고",
+      "역사를 넘어왔으며",
+      "그래서 나는 다시 일어난다",
+      "그리고 또 일어난다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0026",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "칼릴 지브란",
+      "book": "예언자",
+      "chapter": "사랑에 대하여, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑이 너를 부르면 따라가라",
+      "그 길이 힘들지라도",
+      "그 날개가 너를 감싸면",
+      "그 안에 자신을 맡겨라",
+      "사랑은 너를 찢고",
+      "다시 세울 것이다",
+      "그러나 그 모든 것은",
+      "너를 완성하기 위함이다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0027",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 헤릭",
+      "book": "헤릭 시집",
+      "chapter": "오늘을 붙잡아라, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "장미 꽃봉오리를 모아라",
+      "시간이 흐르기 전에",
+      "오늘 웃고 사랑하라",
+      "내일은 알 수 없으니",
+      "해는 빠르게 지고",
+      "젊음은 짧다",
+      "그러니 지금 이 순간을",
+      "놓치지 말아라"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0028",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "사라 티즈데일",
+      "book": "티즈데일 시집",
+      "chapter": "전쟁이 끝난 후, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "전쟁이 끝나고",
+      "세상은 다시 평화로워질 때",
+      "아무도 우리가 사라진 것을",
+      "기억하지 않을 것이다",
+      "새들은 다시 노래하고",
+      "강은 흐르겠지만",
+      "우리의 흔적은",
+      "바람 속에 사라질 것이다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0029",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "딜런 토머스",
+      "book": "토머스 시집",
+      "chapter": "그 좋은 밤에 순순히 들어가지 마라, 일부"
+    },
+    "emotionCore": "anger",
+    "emotionExtended": [],
+    "lines": [
+      "그 좋은 밤에 순순히 들어가지 마라",
+      "노년은 타오르고 분노해야 한다",
+      "빛이 사라지는 것에 맞서 싸워라",
+      "지혜로운 사람들도 알지만",
+      "어둠이 옳다는 것을 알지만",
+      "그들의 말은 번개를 만들지 못했기에",
+      "그들은 저항한다",
+      "빛이 사라지는 것에 맞서 싸운다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_0030",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월리스 스티븐스",
+      "book": "스티븐스 시집",
+      "chapter": "검은 새를 보는 열세 가지 방식, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "스무 개의 눈 덮인 산 사이에서",
+      "움직이는 것은 단 하나",
+      "검은 새의 눈뿐이었다",
+      "나는 세 개의 마음을 가졌고",
+      "그 속에서 검은 새가 날았다",
+      "나는 그것을 이해하려 했지만",
+      "그것은 언제나",
+      "나를 벗어났다"
+    ]
+  },
+
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0031",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라이너 마리아 릴케",
+      "book": "릴케 시집",
+      "chapter": "가을날, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "주여, 이제 때가 되었습니다",
+      "여름은 참으로 위대했습니다",
+      "해시계를 그림자 위에 내려놓고",
+      "들판에 바람을 놓아 주소서",
+      "마지막 과일들을 익게 하시고",
+      "그들에게 이틀의 따뜻함을 더하소서",
+      "그리하여 완성을 이루게 하고",
+      "마지막 단맛을 포도주에 담게 하소서"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0032",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "요한 볼프강 폰 괴테",
+      "book": "괴테 시집",
+      "chapter": "방랑자의 밤노래, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "모든 산봉우리 위에는",
+      "고요가 있고",
+      "모든 나무 위에는",
+      "바람이 거의 멎었다",
+      "새들마저 잠들고",
+      "숲은 조용하다",
+      "곧 너도 쉬게 되리라",
+      "잠시만 더 기다려라"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0033",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "샤를 보들레르",
+      "book": "악의 꽃",
+      "chapter": "알바트로스, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "바다 위를 나는 거대한 새는",
+      "폭풍 속의 왕이지만",
+      "갑판 위에 떨어지면",
+      "우스꽝스러운 존재가 된다",
+      "그 거대한 날개는 걸림돌이 되고",
+      "제대로 걷지 못한다",
+      "시인 또한 그러하니",
+      "세상에서는 서툴기만 하다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0034",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "폴 베를렌",
+      "book": "베를렌 시집",
+      "chapter": "가을의 노래, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "가을의 바이올린 소리가",
+      "내 마음을 울린다",
+      "길고 단조로운 소리가",
+      "내 영혼을 지치게 한다",
+      "나는 숨이 막히고",
+      "창백해지며",
+      "옛날의 기억 속으로",
+      "눈물과 함께 떠내려간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0035",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알프레드 테니슨",
+      "book": "테니슨 시집",
+      "chapter": "율리시스, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우리는 늙었지만",
+      "여전히 강하다",
+      "세월은 우리를 약하게 만들었지만",
+      "의지는 남아 있다",
+      "우리는 항해할 것이다",
+      "끝까지 나아갈 것이다",
+      "새로운 세계를 찾아",
+      "포기하지 않고 나아간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0036",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 밀턴",
+      "book": "밀턴 시집",
+      "chapter": "실낙원, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "빛이여, 다시 돌아오라",
+      "나는 어둠 속에 있다",
+      "세상은 나를 떠났고",
+      "나는 보지 못한다",
+      "그러나 마음은 여전히",
+      "빛을 기억하고",
+      "그 빛을 향해 나아가며",
+      "끝없이 찾는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0037",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "단테 알리기에리",
+      "book": "신곡",
+      "chapter": "지옥편, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인생의 중간 길에서",
+      "나는 어두운 숲 속에 있었다",
+      "올바른 길을 잃고",
+      "나는 헤매고 있었다",
+      "두려움이 나를 덮쳤고",
+      "길은 보이지 않았다",
+      "나는 떨며 걸었고",
+      "어둠 속에서 길을 찾았다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0038",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "페데리코 가르시아 로르카",
+      "book": "로르카 시집",
+      "chapter": "기타, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "기타는 울기 시작한다",
+      "그 소리를 멈출 수 없다",
+      "아무리 막으려 해도",
+      "그 울음은 계속된다",
+      "새벽의 바람 속에서",
+      "깊은 슬픔처럼 울리고",
+      "영혼을 파고들며",
+      "끝없이 흐른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0039",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "후안 라몬 히메네스",
+      "book": "히메네스 시집",
+      "chapter": "나는 나가고, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나는 떠나고",
+      "새들은 노래한다",
+      "정원은 그대로 남고",
+      "하늘은 푸르다",
+      "사람들은 나를 잊겠지만",
+      "이곳은 그대로 있다",
+      "그리고 나 없이도",
+      "세상은 계속된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0040",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "콘스탄틴 카바피스",
+      "book": "카바피스 시집",
+      "chapter": "이타카, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "이타카로 가는 길이 길기를 바라라",
+      "모험으로 가득 차기를 바라라",
+      "두려워하지 말고",
+      "여정을 즐겨라",
+      "이타카는 목적이 아니라",
+      "여정의 이유이며",
+      "그 길 위에서",
+      "너는 많은 것을 배우게 된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0041",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "빅토르 위고",
+      "book": "위고 시집",
+      "chapter": "내일, 새벽에, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내일 새벽에, 흰 들판이 밝아질 때",
+      "나는 길을 떠나리라",
+      "나는 알고 있다, 너는 나를 기다리고 있음을",
+      "나는 숲을 지나고 산을 넘으리라",
+      "나는 머물지 않을 것이다",
+      "밤에도, 낮에도",
+      "나는 걸어가리라",
+      "너에게로 가기 위해"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0042",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알렉산드르 푸시킨",
+      "book": "푸시킨 시집",
+      "chapter": "나는 당신을 사랑했습니다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나는 당신을 사랑했습니다",
+      "그 사랑은 아직 사라지지 않았을지도",
+      "그러나 그것이 당신을 괴롭히지 않기를",
+      "나는 더 이상 말하지 않겠습니다",
+      "나는 조용히 사랑했고",
+      "질투하며 괴로워했지만",
+      "진심으로 당신의 행복을",
+      "바랄 뿐입니다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0043",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라르스 구스타프손",
+      "book": "구스타프손 시집",
+      "chapter": "침묵, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "침묵은 때로",
+      "가장 큰 목소리다",
+      "말하지 않아도",
+      "모든 것이 전달된다",
+      "공기는 가볍게 흐르고",
+      "시간은 멈춘 듯하다",
+      "그 속에서 나는",
+      "나 자신을 본다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0044",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "체사레 파베세",
+      "book": "파베세 시집",
+      "chapter": "밤의 일, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "밤은 깊어가고",
+      "나는 깨어 있다",
+      "거리에는 아무도 없고",
+      "창문은 어둡다",
+      "나는 나 자신과 함께",
+      "이 시간을 견딘다",
+      "침묵은 길고",
+      "생각은 끝이 없다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0045",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "이브 몽탕",
+      "book": "프랑스 시집",
+      "chapter": "낯선 밤, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "밤은 낯설고",
+      "나는 길을 잃는다",
+      "빛은 희미하고",
+      "소리는 멀다",
+      "나는 걸어가지만",
+      "어디로 가는지 모른다",
+      "그럼에도 나는",
+      "계속 걷는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0046",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "폴 엘뤼아르",
+      "book": "엘뤼아르 시집",
+      "chapter": "자유, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 모든 것 위에 쓴다",
+      "너의 이름을",
+      "바람 위에도",
+      "바다 위에도",
+      "종이 위에도",
+      "돌 위에도",
+      "나는 계속 쓴다",
+      "너의 이름, 자유를"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0047",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "스테판 말라르메",
+      "book": "말라르메 시집",
+      "chapter": "백조, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "얼음 위에 갇힌 백조는",
+      "날지 못한다",
+      "그는 하늘을 기억하지만",
+      "날개는 얼어 있다",
+      "그의 눈에는 슬픔이 있고",
+      "그의 움직임은 느리다",
+      "자유를 잃은 존재는",
+      "그렇게 고요하다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0048",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "아르튀르 랭보",
+      "book": "랭보 시집",
+      "chapter": "모음, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "모음들은 색을 가진다",
+      "검은색, 흰색, 붉은색",
+      "그것들은 서로 다른 소리를 내며",
+      "세상을 만든다",
+      "나는 그것을 본다",
+      "나는 그것을 듣는다",
+      "언어는 단순한 것이 아니라",
+      "하나의 세계다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0049",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "페트라르카",
+      "book": "칸초니에레",
+      "chapter": "로라에게, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "그녀는 나를 스쳐 지나갔고",
+      "나는 말을 잃었다",
+      "그 순간은 짧았지만",
+      "영원처럼 느껴졌다",
+      "나는 그녀를 바라보며",
+      "아무것도 하지 못했고",
+      "그 사랑은 시작되었고",
+      "끝나지 않았다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0050",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 하디",
+      "book": "하디 시집",
+      "chapter": "중립의 색, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "호수는 회색이었고",
+      "하늘도 회색이었다",
+      "나무는 말라 있었고",
+      "바람은 차가웠다",
+      "그날 우리는 끝났고",
+      "아무 말도 하지 않았다",
+      "모든 것이 식어 있었고",
+      "사랑도 그랬다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0051",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. B. 예이츠",
+      "book": "예이츠 시집",
+      "chapter": "그가 하늘의 옷감을 가졌다면, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "내가 하늘의 옷감을 가졌다면",
+      "빛과 어둠으로 짜인",
+      "나는 그것을 너의 발 아래 펼쳤을 것이다",
+      "그러나 나는 가난하여",
+      "꿈밖에 없다",
+      "그래서 나는 내 꿈을 펼친다",
+      "너의 발 아래",
+      "조심히 밟아라"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0052",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 키츠",
+      "book": "키츠 시집",
+      "chapter": "그리스 항아리에 부치는 송가, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "아름다움은 진리이고",
+      "진리는 아름다움이다",
+      "이것이 우리가 아는 전부이며",
+      "알아야 할 전부다",
+      "시간은 지나가지만",
+      "아름다움은 남는다",
+      "그것은 영원히",
+      "우리 곁에 머문다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0053",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "퍼시 비시 셸리",
+      "book": "셸리 시집",
+      "chapter": "오지만디아스, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "나는 사막에서 한 여행자를 만났다",
+      "그는 부서진 조각을 보았다고 말했다",
+      "거대한 조각상은 무너져 있고",
+      "얼굴만 남아 있었다",
+      "그 얼굴에는 오만함이 남아 있었고",
+      "그 위대한 왕은 사라졌지만",
+      "그의 흔적만이",
+      "모래 속에 남아 있었다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0054",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "마르셀 프루스트",
+      "book": "프랑스 시집",
+      "chapter": "시간의 향기, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "시간은 사라지지 않는다",
+      "그것은 남아 있다",
+      "향기 속에",
+      "기억 속에",
+      "나는 그것을 느끼고",
+      "다시 돌아가지만",
+      "그 순간은 이미",
+      "지나가 있었다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0055",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "조르주 상드",
+      "book": "프랑스 시집",
+      "chapter": "밤의 이야기, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "밤은 이야기를 품고 있다",
+      "사람들은 그것을 듣지 못하지만",
+      "별들은 알고 있다",
+      "그리고 바람도 안다",
+      "나는 귀를 기울이고",
+      "그 이야기를 듣는다",
+      "그것은 조용하지만",
+      "깊다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0056",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "헤르만 헤세",
+      "book": "헤세 시집",
+      "chapter": "안개 속에서, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "안개 속을 걷는 것은",
+      "외로운 일이다",
+      "나무는 보이지 않고",
+      "사람도 없다",
+      "모든 것이 떨어져 있고",
+      "나는 혼자 걷는다",
+      "삶은 그렇게",
+      "각자의 길을 간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0057",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "노발리스",
+      "book": "독일 낭만주의 시집",
+      "chapter": "밤의 찬가, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "밤은 나를 감싸고",
+      "나는 평화를 느낀다",
+      "어둠은 두려움이 아니라",
+      "안식이다",
+      "나는 그 속에서",
+      "나를 발견하고",
+      "새로운 아침을",
+      "기다린다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0058",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "프리드리히 실러",
+      "book": "실러 시집",
+      "chapter": "환희의 송가, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "기쁨이여, 아름다운 불꽃이여",
+      "우리는 너를 향해 나아간다",
+      "모든 인간은 형제가 되고",
+      "하나로 이어진다",
+      "별들 아래에서",
+      "우리는 함께 노래하고",
+      "세상은 하나가 되어",
+      "기쁨으로 가득 찬다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0059",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로드 바이런",
+      "book": "바이런 시집",
+      "chapter": "그녀는 아름다움 속을 걷는다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "그녀는 아름다움 속을 걷는다",
+      "밤처럼 고요한 빛 속에서",
+      "어둠과 빛이 조화를 이루고",
+      "그녀의 눈에 담겨 있다",
+      "그 평온한 표정은",
+      "순수함을 말해주고",
+      "나는 그 모습을 보며",
+      "말없이 감탄한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_EU_0060",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "아르튀르 랭보",
+      "book": "랭보 시집",
+      "chapter": "감각, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 여름 저녁을 걸을 것이다",
+      "들판을 지나며",
+      "바람을 느끼고",
+      "풀잎을 밟으며",
+      "아무 생각 없이",
+      "그저 느끼며",
+      "나는 자유롭고",
+      "살아 있음을 느낀다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0061",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 셰익스피어",
+      "book": "셰익스피어 소네트",
+      "chapter": "소네트 116번, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "참된 마음들의 결합에",
+      "나는 어떤 장애도 인정하지 않으리",
+      "사랑은 변화를 만나 변하는 것이 아니고",
+      "떠나는 이를 따라 떠나는 것도 아니다",
+      "사랑은 흔들리지 않는 표지다",
+      "폭풍 속에서도 굳게 서 있고",
+      "길 잃은 배들을 비추는 별처럼",
+      "끝까지 자신의 빛을 지킨다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0062",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스토퍼 말로",
+      "book": "말로 시집",
+      "chapter": "열정적인 목동이 연인에게, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나와 함께 살며 나의 사랑이 되어줘",
+      "그러면 우리는 모든 기쁨을 맛보리",
+      "골짜기와 숲과 언덕과 들판에서",
+      "강가와 바위 곁을 함께 거닐며",
+      "목동들은 새벽마다 춤추고",
+      "새들은 달콤한 노래를 부르리",
+      "그 모든 고운 날들을 너와 나누며",
+      "나는 너를 내 세상의 봄으로 부르리"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0063",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "앤드루 마벨",
+      "book": "마벨 시집",
+      "chapter": "수줍은 연인에게, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우리에게 세상과 시간이 충분하다면",
+      "이 망설임도 하나의 아름다움이겠지",
+      "너는 천천히 미소 짓고",
+      "나는 오래도록 너를 바라보리",
+      "하지만 시간의 날개 달린 수레가",
+      "우리 등 뒤에서 점점 가까워진다",
+      "그러니 지금의 심장을 아끼지 말고",
+      "살아 있는 동안 함께 타오르자"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0064",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스티나 로세티",
+      "book": "로세티 시집",
+      "chapter": "기억해줘, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내가 먼 고요의 땅으로 떠나거든",
+      "나를 기억해줘",
+      "더는 손을 잡을 수 없고",
+      "돌아오자고 말할 수도 없게 되거든",
+      "너의 마음속에서만이라도",
+      "내가 한때 살았음을 기억해줘",
+      "그러나 기억이 너를 너무 아프게 한다면",
+      "차라리 잊고 웃어도 괜찮아"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0065",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스티나 로세티",
+      "book": "로세티 시집",
+      "chapter": "메아리, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "돌아와 줘, 다시 돌아와 줘",
+      "빛과 그림자 사이로 내게 와줘",
+      "밤바람에 실려 오는 목소리처럼",
+      "꿈결보다 더 부드럽게 와줘",
+      "메마른 마음 위에 떨어지는 비처럼",
+      "잊힌 이름을 다시 불러줘",
+      "한 번만 더 너를 볼 수 있다면",
+      "이 긴 어둠도 견딜 수 있으리"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0066",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "엘리자베스 배럿 브라우닝",
+      "book": "포르투갈어 소네트",
+      "chapter": "나는 당신을 얼마나 사랑하는가, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "내가 당신을 얼마나 사랑하는지",
+      "이제 하나씩 세어 보리",
+      "영혼이 닿을 수 있는 깊이와 넓이와 높이만큼",
+      "나는 당신을 사랑한다",
+      "낮의 햇빛 아래서도",
+      "밤의 촛불 곁에서도",
+      "가장 조용한 하루의 필요처럼",
+      "나는 자연스럽게 당신을 사랑한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0067",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 키츠",
+      "book": "키츠 시집",
+      "chapter": "밝은 별이여, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "밝은 별이여, 나도 너처럼 한결같다면",
+      "밤하늘 높이 외롭게 떠 있기보다",
+      "사랑하는 이의 곁에 머물고 싶다",
+      "그녀의 부드러운 숨결을 느끼며",
+      "언제까지나 깨어 있고 싶다",
+      "그녀의 가슴이 오르내리는 리듬을 들으며",
+      "그 살아 있는 평온 속에서",
+      "영원과 한순간을 함께 품고 싶다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0068",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 키츠",
+      "book": "키츠 시집",
+      "chapter": "가을에게, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "안개와 무르익는 열매의 계절이여",
+      "가을은 태양과 다정한 벗이 되어",
+      "넝쿨마다 포도를 무겁게 익히고",
+      "사과나무 가지마다 단맛을 채운다",
+      "호박은 속까지 살찌우고",
+      "벌들은 늦은 꽃 사이를 맴돈다",
+      "여름이 끝났다는 것도 잊은 듯",
+      "세상은 천천히 풍요로워진다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0069",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 워즈워스",
+      "book": "워즈워스 시집",
+      "chapter": "내 마음은 뛰놀아요"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "무지개를 보면 내 마음은 뛰놀아요",
+      "하늘에 처음 떠올랐을 때도 그랬고",
+      "지금 어른이 되어 바라봐도 그러하며",
+      "늙어서도 그러지 않으면 차라리 죽고 싶어요",
+      "아이는 어른의 아버지이니",
+      "나는 내 하루하루가",
+      "자연을 향한 경건한 사랑으로",
+      "서로 이어지기를 바랍니다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0070",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 워즈워스",
+      "book": "워즈워스 시집",
+      "chapter": "사람의 손길 닿지 않은 길들 사이에 그녀는 살았다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사람의 발길 드문 길들 사이에서",
+      "한 소녀가 조용히 살았다",
+      "이끼 낀 돌 곁의 보랏빛 꽃처럼",
+      "눈에 띄지 않게 피어 있었다",
+      "하늘에 홀로 떠 있는 별처럼",
+      "그녀는 맑고 드물었다",
+      "살아 있을 때는 아는 이 적었고",
+      "떠난 뒤에야 나는 세상이 달라졌음을 안다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0071",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "매슈 아널드",
+      "book": "아널드 시집",
+      "chapter": "도버 해변, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "오늘 밤 바다는 고요하고",
+      "달빛은 해협 위에 환히 놓여 있다",
+      "그러나 파도가 자갈을 밀고 당길 때",
+      "오래된 슬픔의 소리가 들려온다",
+      "믿음의 바다도 한때는 가득했지만",
+      "이제는 멀어져 가는 물소리뿐",
+      "그러니 서로에게만은 진실하자",
+      "이 세상은 아름다워 보여도 확실한 것은 적다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0072",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알프레드 테니슨",
+      "book": "테니슨 시집",
+      "chapter": "바를 건너며, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "해질녘과 저녁별이 뜨고",
+      "나를 부르는 맑은 종소리가 들린다",
+      "바다로 나갈 때에는",
+      "슬픈 탄식이 없기를 바란다",
+      "밀물은 너무도 가득 차",
+      "소리 없이 모든 것을 데려가고",
+      "이 시간과 공간의 경계를 넘어서면",
+      "나는 나의 인도자를 만나리라"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0073",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 루이스 스티븐슨",
+      "book": "스티븐슨 시집",
+      "chapter": "레퀴엠"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "넓고 별 많은 하늘 아래",
+      "내 무덤을 파고 나를 눕혀다오",
+      "나는 기쁘게 살았고",
+      "기꺼이 죽음을 맞이한다",
+      "여기에 그가 누웠다",
+      "그가 집으로 돌아오기를 바라던 곳에",
+      "뱃사람은 바다에서 돌아왔고",
+      "사냥꾼은 산에서 돌아왔다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0074",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "A. E. 하우스먼",
+      "book": "하우스먼 시집",
+      "chapter": "가장 사랑스러운 나무들, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "가장 사랑스러운 나무, 벚나무가",
+      "숲 가장자리에 꽃을 걸었다",
+      "부활절 무렵의 길가에서",
+      "그 흰 꽃은 눈처럼 선다",
+      "내 인생의 일흔 해 가운데",
+      "스무 해는 이미 지나갔으니",
+      "꽃을 볼 날이 그리 많지 않다",
+      "더 자주 봄 언덕을 걸어야겠다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0075",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "A. E. 하우스먼",
+      "book": "하우스먼 시집",
+      "chapter": "스물한 살 때, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "내가 스물한 살이었을 때",
+      "한 현명한 이가 말해 주었다",
+      "왕관과 금화는 가볍게 주어도",
+      "마음만은 함부로 주지 말라고",
+      "나는 그 말을 대수롭지 않게 여겼고",
+      "웃으며 길을 지나쳤다",
+      "이제 스물두 살이 되어 보니",
+      "그 말이 몹시도 옳았음을 안다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0076",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 하디",
+      "book": "하디 시집",
+      "chapter": "어스름지빠귀, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "겨울의 끝자락, 나는 울타리 곁에 서 있었다",
+      "세상은 마치 숨을 거둔 듯 적막했고",
+      "잿빛 줄기들은 하늘에 새겨진 글자 같았다",
+      "삶의 힘은 모두 메말라 보였다",
+      "그때 어디선가 지빠귀 한 마리가",
+      "늙고 초라한 몸으로 노래를 터뜨렸다",
+      "환한 기쁨으로 가득 찬 그 노래는",
+      "내가 모르는 희망이 어딘가 있음을 알렸다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0077",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 하디",
+      "book": "하디 시집",
+      "chapter": "바람과 비 내리는 동안, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "그들은 노래하며 정원을 손질했고",
+      "햇빛 속에서 환히 웃었다",
+      "아이들은 나무 아래를 뛰어다니고",
+      "창문마다 따뜻한 빛이 있었다",
+      "그러나 세월은 살며시 지나가",
+      "지붕은 새고 벽은 바래고",
+      "웃음이 가득하던 그 집 위로",
+      "이제는 바람과 비만이 내린다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0079",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "헨리 워즈워스 롱펠로",
+      "book": "롱펠로 시집",
+      "chapter": "인생의 찬가, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인생이 헛된 꿈이라고 말하지 말라",
+      "잠든 영혼은 참으로 살아 있는 것이 아니다",
+      "세상은 보이는 것만으로 이루어지지 않고",
+      "무덤이 인생의 끝도 아니다",
+      "우리는 즐기기 위해서만 태어난 것이 아니며",
+      "슬퍼하기 위해서만 태어난 것도 아니다",
+      "행동하라, 오늘보다 내일 더 나아지도록",
+      "모든 내일이 우리를 앞으로 이끌게"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0080",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "헨리 워즈워스 롱펠로",
+      "book": "롱펠로 시집",
+      "chapter": "하루가 저문다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "하루가 저물고 밤이 다가온다",
+      "어둠의 날개가 세상 위에 내려온다",
+      "지친 영혼은 조용한 노래를 원하고",
+      "바람은 창가에서 낮은 목소리로 분다",
+      "내게도 위로가 되는 시를 들려다오",
+      "슬픔을 부드럽게 감싸 주는 노래를",
+      "오늘의 피로를 덜어 주는 말들을",
+      "조용히 마음에 불을 켜는 그런 시를"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0081",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에드거 앨런 포",
+      "book": "포 시집",
+      "chapter": "헬렌에게, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "헬렌, 그대의 아름다움은 내게",
+      "옛날 니케아의 배들 같다",
+      "향기로운 바다를 건너",
+      "지친 나그네를 고향으로 데려가는",
+      "찬란한 옛 세계의 빛처럼",
+      "그대는 내 영혼을 부른다",
+      "나는 그 눈빛 속에서",
+      "잃어버린 평온을 다시 본다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0082",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에드거 앨런 포",
+      "book": "포 시집",
+      "chapter": "홀로, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "어린 시절부터 나는",
+      "다른 이들처럼 세상을 보지 못했다",
+      "그들의 기쁨에서 같은 기쁨을 얻지 못했고",
+      "그들의 슬픔조차 내 슬픔과 달랐다",
+      "같은 샘에서 열정을 길어 올리지 못했고",
+      "같은 빛으로 깨어나지 못했다",
+      "그래서 내 삶의 이른 봄부터",
+      "나는 홀로였고, 지금도 그러하다"
+       ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0084",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월터 드 라 메어",
+      "book": "드 라 메어 시집",
+      "chapter": "찾아온 이들, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "달빛 아래 조용한 집 문을",
+      "한 나그네가 두드렸다",
+      "문 안에서는 아무 대답이 없고",
+      "오직 빈 방의 메아리만 울렸다",
+      "그러나 그 적막 속 어딘가에서",
+      "보이지 않는 귀들이 그를 듣고 있었고",
+      "낯선 기다림이 공기 속에 가득 차",
+      "밤은 점점 더 깊어졌다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0085",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. H. 데이비스",
+      "book": "데이비스 시집",
+      "chapter": "여가, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "멈춰 서서 바라볼 시간조차 없다면",
+      "그 삶은 얼마나 가난한가",
+      "양이나 소처럼 나무 아래에 서서",
+      "길게 눈을 둘 여유도 없다면",
+      "숲속 다람쥐가 숨겨 두는 열매를",
+      "놓치고 지나치는 삶이라면",
+      "웃음이 눈가에서 피어나는 순간도",
+      "보지 못한 채 지나가고 말겠지"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0086",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 메이스필드",
+      "book": "메이스필드 시집",
+      "chapter": "바다의 열병, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 다시 바다로 가야 한다",
+      "외로운 바다와 하늘에게로",
+      "내가 원하는 것은 높이 치는 파도와",
+      "별빛 아래 서 있는 배 한 척",
+      "키의 떨림과 바람의 노래와",
+      "흰 돛 위를 스치는 안개뿐",
+      "그리고 돌아오는 길 끝에",
+      "고요한 잠 같은 항구의 저녁"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0087",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알프레드 테니슨",
+      "book": "테니슨 시집",
+      "chapter": "그 찬란함이 폭포처럼 쏟아진다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "그 찬란함이 폭포처럼 쏟아진다",
+      "성채의 나팔 소리가 계곡을 흔든다",
+      "먼 절벽들이 그 소리를 받아",
+      "겹겹의 메아리로 되돌려 보낸다",
+      "빛은 호수 위에 부서지고",
+      "공기는 은빛 울림으로 가득하다",
+      "사라지는 것은 오직 순간뿐",
+      "아름다움은 메아리처럼 오래 남는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0088",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알프레드 테니슨",
+      "book": "테니슨 시집",
+      "chapter": "눈물, 헛된 눈물, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "눈물, 헛된 눈물, 나는 그 뜻을 알지 못하지만",
+      "어떤 신성한 절망의 깊은 곳에서 솟아난다",
+      "가을 들판을 바라볼 때",
+      "행복했던 날들이 다시는 오지 않음을 안다",
+      "첫 새벽의 빛처럼 슬프고",
+      "죽은 이의 입술에 남은 마지막 입맞춤처럼 쓰라리며",
+      "아직 사랑하지만 잃어버린 것들처럼 아프다",
+      "이 눈물은 지나간 시간의 이름이다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0089",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. B. 예이츠",
+      "book": "예이츠 시집",
+      "chapter": "샐리 정원 아래에서, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "샐리 정원 아래에서",
+      "내 사랑이 나를 만났다",
+      "그녀는 샐리 잎처럼",
+      "가볍게 사랑하라 말했지",
+      "그러나 나는 젊고 어리석어",
+      "그 말에 귀 기울이지 않았다",
+      "이제 강가 들판을 지날 때마다",
+      "그 부드러운 충고가 마음을 저민다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0090",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. B. 예이츠",
+      "book": "예이츠 시집",
+      "chapter": "그대 늙었을 때, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "그대 늙어 희끗한 머리로 졸게 되거든",
+      "난롯가에서 이 책을 펼쳐 읽어 보아요",
+      "한때 그대 눈에 머물던 부드러운 그림자와",
+      "깊은 빛을 기억해 보아요",
+      "많은 이가 그대의 환한 아름다움을 사랑했지만",
+      "진실한 영혼의 순례를 사랑한 이는 드물었지요",
+      "그리고 사라져 가는 불빛 곁에서",
+      "사랑이 어떻게 산 위를 걸어갔는지 생각해 보아요"
+      ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0091",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "미하일 레르몬토프",
+      "book": "레르몬토프 시집",
+      "chapter": "돛, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "푸른 바다 멀리",
+      "외로운 흰 돛 하나 보인다",
+      "그것은 낯선 땅에서 무엇을 찾고",
+      "고향에서는 무엇을 버리고 왔을까",
+      "바람은 돛대를 휘게 하고",
+      "파도는 장난치듯 출렁이지만",
+      "그 배는 평온을 구하지 않는다",
+      "폭풍 속에서조차 안식을 찾으려 한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0093",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "표도르 튜체프",
+      "book": "튜체프 시집",
+      "chapter": "침묵하라!, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "침묵하라, 감추어라",
+      "네 마음의 꿈과 감정을",
+      "별들이 밤하늘에서 떠오르듯",
+      "그것들이 네 안에서 빛나게 하라",
+      "말해지는 순간",
+      "가장 깊은 것은 흐려지고",
+      "샘을 휘저으면 물이 탁해지듯",
+      "영혼도 설명 속에서 상처 입는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0094",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "표도르 튜체프",
+      "book": "튜체프 시집",
+      "chapter": "봄의 천둥, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 5월 첫 천둥을 사랑한다",
+      "하늘이 장난스럽게 울리는 그 소리를",
+      "젊은 천둥이 하늘을 달리며",
+      "산과 숲에 웃음을 뿌린다",
+      "빗방울은 햇빛 속에서 빛나고",
+      "개울은 더 크게 노래하며",
+      "세상은 막 깨어난 아이처럼",
+      "기쁨으로 가득 차 흔들린다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0095",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알렉산드르 블로크",
+      "book": "블로크 시집",
+      "chapter": "밤, 거리, 가로등, 약국"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "밤, 거리, 가로등, 약국",
+      "무의미하고 희미한 빛",
+      "아무리 더 살아 본들",
+      "모든 것은 달라지지 않는다",
+      "길은 다시 같은 어둠으로 돌아오고",
+      "처음부터 다시 시작될 뿐",
+      "밤, 얼어붙은 수로, 잔물결",
+      "가로등, 거리, 약국"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0096",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "세르게이 예세닌",
+      "book": "예세닌 시집",
+      "chapter": "어머니께 드리는 편지, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "어머니, 아직 살아 계시지요",
+      "저도 살아 있습니다, 안부를 전해요",
+      "저녁이면 당신의 형언할 수 없는 빛이",
+      "내 방을 비추는 듯합니다",
+      "당신은 여전히 길가에 서서",
+      "내 소식을 기다리시겠지요",
+      "하지만 너무 슬퍼하지 마세요",
+      "아들은 아직 돌아갈 길을 잊지 않았으니"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0097",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "세르게이 예세닌",
+      "book": "예세닌 시집",
+      "chapter": "황금빛 숲은 더 이상 말하지 않는다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "황금빛 숲은 더 이상",
+      "자작나무 언어로 속삭이지 않는다",
+      "학들은 멀리 날아가며",
+      "누구도 안쓰러워하지 않는다",
+      "나 또한 지나가는 나그네일 뿐",
+      "이 세상에 오래 머물지 못하리",
+      "그래도 마음은 조용히 고맙다",
+      "한때 이 땅에 살았다는 사실이"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0098",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에디트 쇠데르그란",
+      "book": "쇠데르그란 시집",
+      "chapter": "날이 식는다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "날이 식어 간다",
+      "태양은 서둘러 언덕 뒤로 숨고",
+      "내 피는 조용히 식어 간다",
+      "내 꿈들 또한 한 겹씩 저문다",
+      "나는 손을 뻗어 마지막 빛을 만지려 하지만",
+      "그것은 이미 멀리 있다",
+      "그래도 저무는 하늘은 아름답고",
+      "나는 그 슬픔을 사랑하게 된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0099",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에디트 쇠데르그란",
+      "book": "쇠데르그란 시집",
+      "chapter": "존재하지 않는 땅, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 존재하지 않는 땅을 향해 간다",
+      "그곳은 모든 소망이 이루어지는 곳",
+      "그곳에서는 우리 모든 짐이 벗겨지고",
+      "이마 위에 빛이 머문다",
+      "누구도 울지 않고",
+      "누구도 외롭지 않으며",
+      "우리는 서로의 손을 알아보고",
+      "침묵 속에서도 기쁨을 나눈다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0100",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "요한 루드비그 루네베리",
+      "book": "루네베리 시집",
+      "chapter": "우리의 땅, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우리의 땅, 우리의 땅, 우리의 조국이여",
+      "산도 골짜기도 사랑스럽다",
+      "북풍이 거세게 불고",
+      "겨울이 길어도 우리는 안다",
+      "이 땅의 하늘은 우리를 키웠고",
+      "이 숲과 호수는 우리를 품었다",
+      "가난해 보여도 가장 귀한 것은",
+      "사랑하는 마음이 머무는 곳이라는 것을"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0101",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "비에른스티에르네 비외른손",
+      "book": "비외른손 시집",
+      "chapter": "그래, 우리는 이 나라를 사랑한다, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "그래, 우리는 이 나라를 사랑한다",
+      "거칠게 솟은 산봉우리와",
+      "폭풍이 지나간 바닷가와",
+      "조용히 익어 가는 들판까지",
+      "수많은 시련을 건너오며",
+      "이 땅은 우리 마음을 빚었다",
+      "그래서 우리는 서로를 붙들고",
+      "더 좋은 내일을 함께 부른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0102",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "시그비외른 옵스펠데르",
+      "book": "옵스펠데르 시집",
+      "chapter": "나는 본다, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "나는 본다",
+      "회색 하늘을",
+      "피 흘리는 태양을",
+      "그리고 떨리는 사람들의 얼굴을",
+      "나는 보지 못한 곳에 와 버린 듯하다",
+      "이곳은 내 별이 아니다",
+      "모든 것이 낯설고 차갑다",
+      "나는 길을 잃은 채 서 있다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0103",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "샨도르 페퇴피",
+      "book": "페퇴피 시집",
+      "chapter": "자유와 사랑"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "자유와 사랑",
+      "이 두 가지가 내게는 필요하다",
+      "사랑을 위해서라면",
+      "기꺼이 목숨도 바칠 수 있고",
+      "자유를 위해서라면",
+      "사랑도 내려놓을 수 있다",
+      "그만큼 인간의 심장은",
+      "아름다운 것을 위해 타오른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0104",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "샨도르 페퇴피",
+      "book": "페퇴피 시집",
+      "chapter": "9월의 끝에서, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "꽃은 아직 피어 있지만",
+      "정원에는 이미 가을의 냄새가 돈다",
+      "푸른 잎 사이로",
+      "노란 죽음이 서서히 스민다",
+      "사랑하는 이여, 우리가 함께 있는 이 순간도",
+      "곧 지나가고 말겠지",
+      "그러나 당신을 안는 내 마음만은",
+      "계절보다 오래 남고 싶다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0105",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "아담 미츠키에비치",
+      "book": "미츠키에비치 시집",
+      "chapter": "불확실함, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "당신을 사랑하는지 나는 아직 모른다",
+      "그러나 당신이 보이지 않으면 마음이 무겁다",
+      "사람들 사이에 있어도",
+      "당신 없는 공백만 더 선명해진다",
+      "당신의 말 한마디가 오래 남고",
+      "당신의 침묵도 하루를 흔든다",
+      "이것이 사랑이 아니면 무엇일까",
+      "나는 그 이름을 조심스레 더듬는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0106",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "호세 마르티",
+      "book": "마르티 시집",
+      "chapter": "나는 흰 장미를 기르네"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 1월에도 7월에도",
+      "벗을 위해 흰 장미를 기른다",
+      "내게 솔직한 손을 내미는 이에게",
+      "나는 늘 같은 마음을 건넨다",
+      "나를 아프게 하는 이에게도",
+      "가시와 쐐기풀을 키우지 않는다",
+      "그에게도 내가 기르는 것은",
+      "여전히 흰 장미 한 송이이다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0107",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "루벤 다리오",
+      "book": "다리오 시집",
+      "chapter": "마르가리타, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "마르가리타, 바다는 참 아름답구나",
+      "바람은 오렌지 꽃 향기를 실어 오고",
+      "너는 별 하나를 따고 싶다고 말했지",
+      "하늘 높은 곳의 반짝이는 꽃을",
+      "나는 네 작은 손이 닿기를 바라며",
+      "동화 같은 밤을 함께 올려다본다",
+      "아이의 소망은 세상을 더 맑게 하고",
+      "그 맑음은 우리 마음까지 밝힌다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0108",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "루벤 다리오",
+      "book": "다리오 시집",
+      "chapter": "봄의 가을 노래, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "젊음이여, 신성한 보물이여",
+      "너는 떠나가고 다시는 돌아오지 않는다",
+      "웃고 싶을 때에도",
+      "나는 문득 울고 싶어진다",
+      "지난날의 사랑과 빛을 떠올리면",
+      "가슴은 아직도 푸르게 아프다",
+      "봄 한가운데서도 가을의 냄새가 나고",
+      "아름다움은 늘 사라질 것을 품고 있다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0109",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "세사르 바예호",
+      "book": "바예호 시집",
+      "chapter": "하얀 돌 위의 검은 돌, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나는 파리에서 죽을 것이다",
+      "소나기가 쏟아지는 날에",
+      "이미 그날을 기억하고 있다는 듯",
+      "나는 이상한 예감을 안고 산다",
+      "파리는 차갑고",
+      "목요일은 더 외롭다",
+      "내 곁에는 오직 내 뼈와 비뿐",
+      "세상은 나보다 먼저 그 장면을 알고 있다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0110",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "세사르 바예호",
+      "book": "바예호 시집",
+      "chapter": "Masa, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "전투가 끝난 뒤",
+      "한 병사가 죽어 누워 있었다",
+      "한 사람이 다가와 일어나라 했지만",
+      "그는 움직이지 않았다",
+      "두 사람, 백 사람, 수많은 이가 모여",
+      "그를 향해 함께 외쳤다",
+      "마침내 온 인류가 둘러섰을 때",
+      "죽은 이는 일어나 걸었다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0111",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알폰시나 스토르니",
+      "book": "스토르니 시집",
+      "chapter": "잠들러 가리, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "이제 날 혼자 두렴",
+      "새들이 이마 위 나뭇가지를 흔들게",
+      "바다의 요람이 천천히 나를 재우고",
+      "푸른 고요가 몸을 덮게 하렴",
+      "누군가 묻거든",
+      "내가 잠들었다고만 말해 줘",
+      "길고 부드러운 잠 속으로",
+      "나는 조용히 걸어 들어간다고"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0112",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알폰시나 스토르니",
+      "book": "스토르니 시집",
+      "chapter": "당신은 내가 희기를 바라지, 일부"
+    },
+    "emotionCore": "anger",
+    "emotionExtended": [],
+    "lines": [
+      "당신은 내가 희기를 바라지",
+      "거품처럼, 백합처럼, 눈처럼",
+      "조용하고 얌전하고 닫힌 존재이기를",
+      "세상의 먼지 하나 묻지 않기를",
+      "그러나 당신은 밤의 포도주를 마시고",
+      "수많은 길을 다 돌아온 뒤",
+      "아침이 되면 내게 와서",
+      "흠 없는 순결만을 요구한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0113",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라빈드라나트 타고르",
+      "book": "초승달",
+      "chapter": "종이배, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 날마다 작은 종이배를 접어",
+      "흐르는 물 위에 띄운다",
+      "그 위에는 내 이름과 마을 이름을 적는다",
+      "누군가 멀리서 그것을 보게 되기를 바라며",
+      "정원의 꽃도 한가득 실어 보낸다",
+      "새벽의 이슬이 함께 떠가게",
+      "밤이 오면 꿈속에서 생각한다",
+      "별들이 내 배를 따라가고 있을 거라고"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0114",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라빈드라나트 타고르",
+      "book": "정원사",
+      "chapter": "끝없는 사랑, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 수많은 모습으로",
+      "끝없이 당신을 사랑해 왔다",
+      "삶에서 삶으로",
+      "시대에서 시대로",
+      "언제나 같은 마음으로",
+      "다른 이름을 입고 당신을 찾아왔다",
+      "내 노래들은 오래도록",
+      "당신의 가슴 둘레에 목걸이처럼 걸려 있었다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0115",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "사로지니 나이두",
+      "book": "황금 문턱",
+      "chapter": "인도의 직공들"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "새벽에 베를 짜는 직공들이여",
+      "어찌 그리 화사한 옷을 짜나요",
+      "물총새 날개처럼 푸른 빛으로",
+      "갓난아이의 옷을 짠답니다",
+      "밤이 오면 또 다른 빛을 짜지요",
+      "공작 깃처럼 보랏빛과 초록빛으로",
+      "삶은 태어남과 사랑과 죽음까지",
+      "실의 노래 속에 조용히 이어집니다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0116",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "사로지니 나이두",
+      "book": "황금 문턱",
+      "chapter": "코로만델의 어부들, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "일어나라, 형제들이여, 일어나라",
+      "새벽빛이 바다 위에 깃든다",
+      "하늘은 우리의 어머니요",
+      "파도는 우리의 형제다",
+      "바람은 잠든 닻을 깨우고",
+      "갈매기는 먼 은빛 길을 가리킨다",
+      "우리는 두려움보다 더 큰 노래로",
+      "푸른 물결 위에 하루를 띄운다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0117",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "사로지니 나이두",
+      "book": "황금 문턱",
+      "chapter": "팔찌 장수들, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "팔찌를 사세요, 반짝이는 팔찌를",
+      "무지개 빛으로 빚은 원들",
+      "어린 신부의 손목에 어울릴 빛도 있고",
+      "새로운 꿈을 품은 소녀를 위한 빛도 있다",
+      "어떤 것은 숲의 어린 잎처럼 푸르고",
+      "어떤 것은 결혼식 불꽃처럼 붉다",
+      "여인의 삶은 이렇게 여러 색으로 빛나며",
+      "그 모든 순간을 손목에 두른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0118",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 프링글",
+      "book": "아프리카 스케치",
+      "chapter": "사막 멀리서, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사막 멀리서 나는 달리기를 좋아한다",
+      "고요한 벗 하나만 곁에 두고",
+      "삶의 슬픔이 영혼을 뒤덮을 때",
+      "나는 넓은 황야로 나아간다",
+      "사람 사는 곳의 무게를 떠나",
+      "영양과 새들의 길을 따라가면",
+      "마음은 다시 숨을 쉬기 시작하고",
+      "광야는 오래된 위로를 건넨다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0119",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "호세 아순시온 실바",
+      "book": "실바 시집",
+      "chapter": "야상곡, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "어느 밤",
+      "우리 둘의 그림자가 길게 늘어져",
+      "달빛과 슬픔 속을 함께 걸었지",
+      "세상은 너무 고요했고",
+      "말보다 더 깊은 것이 공기 속에 있었다",
+      "잃어버린 사랑의 이름이",
+      "멀리서 천천히 되돌아왔고",
+      "나는 그 침묵 속에서 울고 있었다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0120",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "아마도 네르보",
+      "book": "네르보 시집",
+      "chapter": "평온하게, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아주 가까이 내 삶의 끝에 다다랐을 때",
+      "나는 말할 수 있으리",
+      "모든 날이 완벽하지는 않았으나",
+      "밤마다 새벽이 있었고",
+      "실패 뒤에도 다시 일어설 힘이 있었으며",
+      "슬픔 속에서도 사랑을 발견했다",
+      "그러므로 나는 삶에 빚지지 않았다",
+      "삶 또한 내게 빚지지 않았다"
+      ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0122",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "경험의 노래",
+      "chapter": "런던"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나는 특권처럼 나뉜 거리를 지나 걷고",
+      "특권처럼 나뉜 강가를 바라본다,",
+      "마주치는 모든 얼굴마다",
+      "무기력의 흔적과 슬픔의 자국이 있다,",
+      "굴뚝 청소부의 울음과 병사의 한숨이",
+      "도시의 검은 벽에 새겨지고,",
+      "한밤의 마차 소리 끝에서는",
+      "사랑과 삶마저 병들어 가는 소리가 난다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0123",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "죽음은 친절히 나를 멈춰 세웠다, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "나는 죽음을 위해 멈출 수 없었기에",
+      "죽음이 친절히 나를 위해 멈춰 주었다,",
+      "마차 안에는 우리 둘뿐 아니라",
+      "불멸도 함께 타고 있었다,",
+      "우리는 서둘지 않고 천천히 지나갔다",
+      "아이들이 노는 학교와 익어 가는 들판을,",
+      "그리고 해가 지는 자리를 지나",
+      "나는 시간이 멈춘 문턱 앞에 이르렀다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0124",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "나는 아무도 아니에요! 당신은 누구인가요?"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 아무도 아니에요! 당신은 누구인가요?",
+      "당신도 아무도 아니라면 얼마나 반가운지요,",
+      "우리는 둘이서 조용한 비밀이 되겠지요",
+      "세상에 들키지 않게,",
+      "누군가가 되는 일은 얼마나 번거로운지",
+      "온종일 자기 이름만 되풀이해야 하니까요,",
+      "늪 속 개구리처럼 모두에게 자신을 알리며",
+      "지루한 박수 속에서 살아가야 하니까요"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0125",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "성공은 가장 달지 않은 이들이 안다"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "성공이 얼마나 달콤한지는",
+      "성공하지 못한 이들이 가장 잘 안다,",
+      "자줏빛 군대가 깃발을 세워도",
+      "진짜 승리의 맛은 모를 수 있다,",
+      "오히려 패배하여 쓰러진 병사가",
+      "멀리서 승리의 환호를 들을 때,",
+      "그 금빛 의미 하나하나가",
+      "그의 메마른 귀에 더 선명히 박힌다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0126",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에드거 앨런 포",
+      "book": "포 시집",
+      "chapter": "갈까마귀, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "한밤중 지친 채 책장을 넘기던 내 방 안으로",
+      "누군가 조심스레 문을 두드리는 소리가 났다,",
+      "문을 열어도 어둠뿐이었고",
+      "내 마음은 잃어버린 이름을 더듬었다,",
+      "그때 검은 새 한 마리가 들어와",
+      "문 위에 앉아 한마디만 남겼다,",
+      "다시는 없으리, 다시는 없으리,",
+      "그 말이 밤보다 더 오래 내 곁에 남았다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0127",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에드거 앨런 포",
+      "book": "포 시집",
+      "chapter": "꿈속의 꿈"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우리가 보고 있는 것과 보이는 모든 것은",
+      "그저 꿈속의 꿈에 지나지 않는 것일까,",
+      "나는 황금 모래를 움켜쥐지만",
+      "손가락 사이로 모두 흘러내린다,",
+      "아, 하느님, 그 한 알도 붙잡을 수 없단 말인가,",
+      "파도와 시간 앞에서 인간은 왜 이토록 무력한가,",
+      "붙들고 싶은 모든 것이 멀어지는 이 순간도",
+      "결국 깨어날 수 없는 꿈의 한 장면일까"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0128",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월트 휘트먼",
+      "book": "풀잎",
+      "chapter": "나는 미국이 노래하는 것을 듣는다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 미국이 노래하는 것을 듣는다",
+      "저마다 다른 목소리로 힘차게,",
+      "목수는 널빤지를 들며 자기 노래를 부르고",
+      "뱃사공은 강 위에서 낮은 선율을 얹는다,",
+      "어머니는 집 안에서 자기 일을 노래하고",
+      "젊은 처녀는 바느질 사이로 웃음 섞인 곡조를 낸다,",
+      "모두가 자기 몫의 하루를 부르며",
+      "노동과 삶이 한 편의 합창이 된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0129",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "헨리 워즈워스 롱펠로",
+      "book": "롱펠로 시집",
+      "chapter": "화살과 노래"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 허공으로 화살 하나를 쏘았다",
+      "너무 빨리 날아가 어디로 갔는지 몰랐다,",
+      "나는 공기 속으로 노래 하나를 던졌다",
+      "그 또한 어디에 닿았는지 알 수 없었다,",
+      "오랜 세월이 흐른 뒤",
+      "참나무에서 온전한 화살을 찾았고,",
+      "노래는 한 친구의 마음속에서",
+      "처음 모습 그대로 살아 있는 것을 보았다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0130",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에마 라자러스",
+      "book": "에마 라자러스 시집",
+      "chapter": "새로운 거상, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "이곳에 서 있는 여인은 정복의 칼을 들지 않는다",
+      "횃불을 든 자비로운 어머니로 선다,",
+      "바다 건너에서 지친 이들을 부르며",
+      "낡은 세상의 굳게 닫힌 문에 맞선다,",
+      "지치고 가난한 이들을 내게 보내라",
+      "자유를 갈망하는 사람들을 보내라,",
+      "나는 황금 문 곁에서 등을 높이 들고",
+      "길 잃은 영혼들에게 빛을 비추리"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0131",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "러디어드 키플링",
+      "book": "키플링 시집",
+      "chapter": "만약, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "주변 모두가 흔들릴 때에도",
+      "너 자신을 잃지 않을 수 있다면,",
+      "기다림에 지치지 않고",
+      "거짓에 맞서 거짓으로 물들지 않을 수 있다면,",
+      "승리와 패배를 같은 얼굴로 맞이하고",
+      "부서진 것을 다시 묵묵히 세울 수 있다면,",
+      "네가 가진 모든 것을 한 번의 시도에 걸고도",
+      "다시 처음처럼 시작할 수 있다면"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0132",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "새뮤얼 테일러 콜리지",
+      "book": "콜리지 시집",
+      "chapter": "쿠블라 칸, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "쿠블라 칸은 화려한 궁전을 세우라 명했고",
+      "그곳에는 신성한 강이 흐르며",
+      "인간의 손이 닿지 않은 동굴 속으로",
+      "햇빛 없는 바다를 향해 흘러갔다,",
+      "향기로운 숲과 오래된 언덕 위에",
+      "기이한 빛과 그림자가 엇갈리고,",
+      "현실과 꿈이 맞닿는 그 정원은",
+      "한 번 본 이의 마음에 오래 남는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0133",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 번즈",
+      "book": "번즈 시집",
+      "chapter": "나의 사랑은 빨갛고 빨간 장미"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "오 나의 사랑은 빨갛고 빨간 장미",
+      "막 6월에 피어난 꽃 같고,",
+      "나의 사랑은 곱게 연주되는 선율처럼",
+      "맑고도 부드럽게 울린다,",
+      "그대가 이토록 아름답기에",
+      "나는 끝없이 그대를 사랑하리,",
+      "바다가 모두 마를 때까지",
+      "그리고 바위가 햇살에 녹을 때까지"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0134",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 번즈",
+      "book": "번즈 시집",
+      "chapter": "나의 마음은 하일랜드에 있어"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나의 마음은 하일랜드에 있다",
+      "나의 몸은 여기 있어도,",
+      "사슴을 쫓는 산등성이와",
+      "폭포가 부서지는 골짜기 쪽에 있다,",
+      "안녕, 안개 낀 산들이여",
+      "안녕, 푸른 숲과 거친 바람이여,",
+      "멀리 떠나온 지금도 내 가슴은",
+      "오직 그곳의 이름만 따라 뛴다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0135",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "알프레드 테니슨",
+      "book": "테니슨 시집",
+      "chapter": "시냇물, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 언덕 사이에서 솟아나",
+      "수많은 자갈 위로 노래하며 흐른다,",
+      "버들 아래를 지나고",
+      "들꽃과 그림자를 흔들며 달린다,",
+      "사람들은 오고 또 가지만",
+      "나는 끝없이 흐른다,",
+      "햇빛도 비도 내 노래를 멈추지 못하고",
+      "나는 언제나 앞으로, 앞으로 간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0136",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "퍼시 비시 셸리",
+      "book": "셸리 시집",
+      "chapter": "종달새에게, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "안녕, 기쁜 영혼이여",
+      "그대는 새라기보다 하늘의 노래다,",
+      "보이지 않는 높이로 치솟아",
+      "순수한 소리만 쏟아내고,",
+      "구름 뒤 달빛처럼 감추어져도",
+      "그 기쁨은 세상을 가득 채운다,",
+      "우리의 가장 달콤한 노래조차",
+      "가장 슬픈 생각을 담는다는 것을 너는 모른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0137",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 그레이",
+      "book": "그레이 시집",
+      "chapter": "시골 교회 묘지에서 쓴 비가, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "저녁 종소리가 하루를 마감하고",
+      "목동은 느린 걸음으로 집으로 돌아간다,",
+      "세상은 차츰 어둠에게 맡겨지고",
+      "들판 위에는 고요만 남는다,",
+      "여기 잠든 이들도 한때는",
+      "아침 햇살과 노동의 냄새를 알았으리,",
+      "이름 없이 살았어도 삶은 삶이었고",
+      "그들의 기쁨과 슬픔도 우리와 같았다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0138",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스티나 로세티",
+      "book": "로세티 시집",
+      "chapter": "바람을 본 사람이 있나요?"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "바람을 본 사람이 있나요?",
+      "나도, 당신도 본 적은 없지요,",
+      "하지만 잎사귀가 떨릴 때",
+      "바람이 지나가고 있다는 걸 압니다,",
+      "나무가 고개를 숙일 때",
+      "우리는 그 손길을 느낄 수 있고,",
+      "보이지 않아도 분명한 것이 있듯",
+      "사랑도 기쁨도 그런 식으로 옵니다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0139",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 프로스트",
+      "book": "로버트 프로스트 시집",
+      "chapter": "눈 내리는 저녁 숲가에 멈추며, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "이 숲의 주인이 누구인지는 나는 안다",
+      "그는 마을에 있어 내가 멈춘 걸 못 보겠지,",
+      "눈이 소리 없이 숲을 채우는 이 순간",
+      "말도 의아한 듯 고삐를 흔든다,",
+      "세상은 너무나 아름답고 깊으며",
+      "고요는 내 마음을 오래 붙든다,",
+      "하지만 나는 지켜야 할 약속이 있고",
+      "잠들기 전까지 아직 갈 길이 멀다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0140",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 프로스트",
+      "book": "로버트 프로스트 시집",
+      "chapter": "불과 얼음"
+    },
+    "emotionCore": "anger",
+    "emotionExtended": [],
+    "lines": [
+      "세상은 불로 끝난다고 말하는 이들이 있고",
+      "얼음으로 끝난다고 말하는 이들도 있다,",
+      "내가 맛본 욕망으로 보아",
+      "나는 불의 편에 서고 싶다,",
+      "하지만 충분한 미움을 안다면",
+      "얼음 또한 파멸에 충분하다는 걸 안다,",
+      "뜨거운 욕망도 차가운 냉혹도",
+      "결국 세상을 무너뜨릴 수 있으니"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0141",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 프로스트",
+      "book": "로버트 프로스트 시집",
+      "chapter": "황금은 오래가지 않는다"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "자연의 첫 푸름은 황금빛이고",
+      "가장 붙잡기 어려운 빛이다,",
+      "잎은 잠시 꽃처럼 피었다가",
+      "곧 제 초록으로 내려앉는다,",
+      "에덴도 슬픔 속으로 가라앉고",
+      "새벽은 끝내 낮이 된다,",
+      "그리하여 무엇이든 아름다운 것은",
+      "오래 머물지 못한 채 지나간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0142",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 프로스트",
+      "book": "로버트 프로스트 시집",
+      "chapter": "자작나무들, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 자작나무가 소년의 그네질 때문에",
+      "휘어졌다고 믿고 싶다,",
+      "얼음폭풍이 그것을 구부린다 해도",
+      "상상은 더 부드러운 진실을 준다,",
+      "나도 잠시 세상에서 벗어나",
+      "나무 끝까지 올라가 보고 싶다,",
+      "그리고 다시 땅으로 돌아오고 싶다",
+      "떠남과 돌아옴을 다 아는 사람처럼"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0144",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월터 새비지 랜더",
+      "book": "랜더 시집",
+      "chapter": "나는 따뜻한 손으로 살았다"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "나는 따뜻한 손으로 살았고",
+      "이제 조용히 흙과 잠을 나눈다,",
+      "나는 위대한 이와 다투지 않았고",
+      "대자연과도 다투지 않았다,",
+      "사랑했고 사랑받았으며",
+      "불꽃과 음악을 기쁘게 누렸다,",
+      "그리고 지금 남은 것은",
+      "한 인간의 짧고 맑은 작별뿐이다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0145",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월터 드 라 메어",
+      "book": "드 라 메어 시집",
+      "chapter": "은빛, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "천천히, 아주 천천히 달빛이 걷는다",
+      "은빛 슬리퍼를 신고 밤 정원을 지나,",
+      "복숭아도 초가집도",
+      "모두 은빛으로 덮인다,",
+      "물고기는 물속에서 은빛으로 흔들리고",
+      "쥐는 몰래 은빛 수염을 떤다,",
+      "잠든 세상은 말이 없지만",
+      "달빛은 모든 것을 다정히 만진다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0147",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. H. 데이비스",
+      "book": "데이비스 시집",
+      "chapter": "돈, 오 돈!, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "돈, 오 돈, 그 차가운 금속을 위해",
+      "사람들은 너무 많은 것을 잃는다,",
+      "젊음의 노래와 친구의 웃음과",
+      "봄 아침의 느린 햇빛마저,",
+      "주머니는 무거워져도 마음은 비어 가고",
+      "더 얻을수록 더 목마르다,",
+      "삶에서 가장 귀한 것들은 대개",
+      "값을 붙일 수 없는 것들인데도"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0148",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 던",
+      "book": "형이상학 시집",
+      "chapter": "해 뜨는 이여, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "분주한 늙은 해여, 왜 우리를 방해하는가",
+      "창문과 커튼 사이로 들어와,",
+      "사랑하는 이와 나의 침실에서는",
+      "시간조차 다른 법칙으로 흐른다,",
+      "왕과 나라와 금은 모두 바깥에 있지만",
+      "이 작은 침대가 세상의 중심이다,",
+      "그녀는 모든 나라이고 나는 그 군주",
+      "우리 사랑 앞에서 아침도 겸손해진다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0149",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "앤드루 마벨",
+      "book": "마벨 시집",
+      "chapter": "정원, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "세상의 야망과 경쟁을 벗어나",
+      "나는 나무 그늘 아래서 더 큰 행복을 본다,",
+      "초록의 생각들이 초록의 그늘 속에 피어나고",
+      "마음은 조용히 자기 자신에게 돌아온다,",
+      "열매는 손을 뻗기도 전에 입맞추듯 떨어지고",
+      "풀밭은 쉬는 영혼을 부드럽게 받쳐 준다,",
+      "사람들 사이의 시끄러운 영광보다",
+      "이 고요한 정원이 내게는 더 넓은 세계다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0150",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 어니스트 헨리",
+      "book": "헨리 시집",
+      "chapter": "인빅투스, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나를 덮친 밤이 아무리 검어도",
+      "나는 꺾이지 않은 영혼에 감사한다,",
+      "운명의 거센 주먹에 맞아도",
+      "나는 신음하지 않았고 고개 숙이지 않았다,",
+      "문은 아무리 좁고",
+      "형벌이 두루마리에 가득 적혀 있어도,",
+      "내 운명의 주인은 바로 나이며",
+      "내 영혼의 선장은 바로 나다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0151",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "새 한 마리가 산책길에 내려왔다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "새 한 마리가 산책길에 내려왔다",
+      "자신이 사람에게 보인 줄도 모른 채",
+      "벌레를 한 마리 베어 물고",
+      "이슬을 한 모금 마셨다",
+      "그리고 조심스레 옆을 돌아보더니",
+      "물결처럼 공기 속으로 떠올랐다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0152",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "야생의 밤이여, 야생의 밤이여"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "야생의 밤이여, 야생의 밤이여",
+      "내가 그대와 함께할 수 있다면",
+      "이 밤은 얼마나 황홀할까",
+      "나침반도, 지도도 필요 없고",
+      "항해도 끝났으니",
+      "오직 그대의 가슴에 닻을 내리리"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0153",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "마음은 처음에 쾌락을 구한다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "마음은 처음에 쾌락을 구한다",
+      "그리고 고통을 피하려 한다",
+      "그다음엔 진통제를 찾고",
+      "그리고 잠을 청한다",
+      "그러다 모든 것이 견뎌지면",
+      "마침내 자유를 원하게 된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0154",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 셰익스피어",
+      "book": "셰익스피어 소네트",
+      "chapter": "소네트 29번, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사람들에게 버림받은 듯한 날에도",
+      "나는 홀로 내 운명을 원망하지만",
+      "문득 그대를 생각하면",
+      "내 마음은 새처럼 솟아오른다",
+      "새벽 하늘 문턱에서 노래하며",
+      "가난도 슬픔도 잊는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0155",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 셰익스피어",
+      "book": "셰익스피어 소네트",
+      "chapter": "소네트 30번, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "조용한 생각의 법정에 앉으면",
+      "잊힌 일들이 다시 불려 나온다",
+      "옛 슬픔들이 줄지어 서고",
+      "이미 끝난 상실도 다시 아프다",
+      "그러나 그대를 생각하는 순간",
+      "잃었던 것들이 다시 회복된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0156",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 셰익스피어",
+      "book": "셰익스피어 소네트",
+      "chapter": "소네트 73번, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내 안에서 너는 늦가을을 본다",
+      "거의 잎이 다 진 가지들 위의",
+      "차갑고 떨리는 몇 잎의 흔적을",
+      "내 안에서 너는 저녁빛을 본다",
+      "곧 어둠이 삼켜 갈 마지막 빛을",
+      "그래서 너의 사랑은 더 깊어진다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0157",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 셰익스피어",
+      "book": "셰익스피어 소네트",
+      "chapter": "소네트 130번, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "내 연인의 눈은 태양 같지 않고",
+      "입술도 산호보다 붉지 않다",
+      "눈처럼 흰 피부도 아니고",
+      "머리카락은 검은 철사 같다",
+      "그래도 나는 안다",
+      "거짓 비유들보다 그녀가 더 귀하다는 것을"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0158",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "순수의 노래",
+      "chapter": "봄, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "피리 불어라, 이제는 봄이다",
+      "새들은 맑게 노래하고",
+      "어린 양은 들에서 뛰논다",
+      "아이들은 웃으며 달린다",
+      "햇빛은 잔잔히 내리고",
+      "세상은 하나의 노래가 된다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0159",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "경험의 노래",
+      "chapter": "병든 장미"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "오 장미여, 너는 병들었다",
+      "밤에 보이지 않게 날아온 벌레가",
+      "폭풍 속에서 네 침상으로 들어와",
+      "은밀한 사랑으로",
+      "너의 생명을",
+      "조용히 무너뜨린다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0160",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 워즈워스",
+      "book": "워즈워스 시집",
+      "chapter": "세상은 우리에게 너무 많다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "세상은 우리에게 너무 많다",
+      "우리는 얻고 쓰느라",
+      "자연과 마음을 잃어버렸다",
+      "바다는 달을 향해 가슴을 열고",
+      "바람은 꽃처럼 모였다 흩어지는데",
+      "우리는 그 감동에서 멀어져 있다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0161",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "퍼시 비시 셸리",
+      "book": "셸리 시집",
+      "chapter": "음악은, 부드러운 목소리가 사라진 뒤에도"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "부드러운 목소리가 사라진 뒤에도",
+      "음악은 기억 속에 남아 울리고",
+      "향기로운 제비꽃이 시든 뒤에도",
+      "향기는 감각 속에 머문다",
+      "그렇게 사랑도 떠난 뒤에야",
+      "더 오래 마음속에서 산다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0162",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 키츠",
+      "book": "키츠 시집",
+      "chapter": "메뚜기와 귀뚜라미에 대하여"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "시의 노래는 결코 죽지 않는다",
+      "여름 더위 속에서는 메뚜기가 노래하고",
+      "겨울 고요 속에서는 귀뚜라미가 운다",
+      "풀밭이 지쳐 잠든 듯한 순간에도",
+      "작은 목소리 하나가 이어받아",
+      "세상의 노래를 계속한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0163",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "조지 고든 바이런",
+      "book": "바이런 시집",
+      "chapter": "이제 더는 밤늦도록 떠돌지 않으리"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "이제 더는 밤늦도록 떠돌지 않으리",
+      "달은 여전히 밝고",
+      "칼도 여전히 빛나지만",
+      "심장은 그렇게 오래 버티지 못한다",
+      "사랑에도 쉼이 필요하고",
+      "밤에도 끝은 온다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0164",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스티나 로세티",
+      "book": "로세티 시집",
+      "chapter": "내가 죽거든, 사랑하는 이여"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내가 죽거든, 사랑하는 이여",
+      "슬픈 노래를 부르지 말아요",
+      "장미도 심지 말고",
+      "그늘진 사이프러스도 세우지 말아요",
+      "그저 푸른 풀밭이 나를 덮게 하고",
+      "비와 이슬이 드나들게 해줘요"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0165",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스티나 로세티",
+      "book": "로세티 시집",
+      "chapter": "생일"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "내 마음은 노래하는 새와 같고",
+      "내 마음은 사과나무와 같고",
+      "내 마음은 조개껍질처럼 빛난다",
+      "내 사랑이 내게 왔기 때문이다",
+      "그러니 비단과 꽃으로",
+      "오늘을 아름답게 꾸며 다오"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0166",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "크리스토퍼 말로",
+      "book": "말로 시집",
+      "chapter": "내 사랑이 되어 함께 살아요, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "내 사랑이 되어 함께 살아요",
+      "그러면 우리는 즐거움들을 맛보리",
+      "계곡과 들판에서",
+      "바위와 강가에서",
+      "봄의 꽃과 여름의 햇빛을",
+      "함께 누리며 살리"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0167",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 번즈",
+      "book": "번즈 시집",
+      "chapter": "데이지에게, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "작은 데이지야",
+      "쟁기의 날 아래 쓰러졌구나",
+      "너는 햇살을 향해 피어 있었는데",
+      "한순간에 땅으로 밀려났다",
+      "사람의 삶도 이와 같아서",
+      "기쁨은 너무 쉽게 꺾인다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0168",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 번즈",
+      "book": "번즈 시집",
+      "chapter": "작은 들쥐에게, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "작은 들쥐야, 놀라게 해서 미안하구나",
+      "너의 작은 집을 내가 망쳐 버렸네",
+      "하지만 사람과 짐승의 가장 좋은 계획도",
+      "자주 어그러지고 만다",
+      "우리는 기대 대신",
+      "슬픔만 얻기도 하니"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0169",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 무어",
+      "book": "무어 시집",
+      "chapter": "마지막 잎, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "저 홀로 남은 장미여",
+      "네 곁의 사랑스런 벗들은 모두 졌구나",
+      "함께 피어 주고 함께 시들",
+      "친구 하나 없이",
+      "어찌 너만 남아 있으랴",
+      "나도 너를 따라가련다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0170",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 캠벨",
+      "book": "캠벨 시집",
+      "chapter": "호엔린덴, 일부"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "호엔린덴에서 해는 낮게 지고",
+      "차가운 바람은 들판을 스친다",
+      "멀리 북소리가 울리고",
+      "숲은 전쟁의 냄새를 품는다",
+      "눈 덮인 세상 위로",
+      "불안한 밤이 내려온다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0171",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "새뮤얼 테일러 콜리지",
+      "book": "콜리지 시집",
+      "chapter": "서리가 내린 한밤중, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "서리가 내린 한밤중",
+      "세상은 아주 고요하다",
+      "모두 잠든 이 시간에",
+      "깨어 있는 것은 내 생각뿐",
+      "작은 숨소리 하나가 곁에 있고",
+      "나는 그 조용함을 오래 듣는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0172",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "퍼시 비시 셸리",
+      "book": "셸리 시집",
+      "chapter": "인도의 세레나데, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "일어나요, 사랑하는 이여",
+      "밤은 이미 향기로 가득하고",
+      "별빛은 잎 위에 쉬고 있어요",
+      "바람은 우리를 부르고",
+      "온 세상이 사랑으로 젖어 있어요",
+      "왜 그대만 잠들어 있나요"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0173",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 하디",
+      "book": "하디 시집",
+      "chapter": "그때와 지금, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "그때는 웃음이 있었고",
+      "이제는 기억만 남았다",
+      "한때 환했던 그 자리가",
+      "지금은 더 조용하다",
+      "시간은 말없이 지나가고",
+      "마음만 늦게 따라간다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0174",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "A. E. 하우스먼",
+      "book": "하우스먼 시집",
+      "chapter": "푸른 산을 따라, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "푸른 산을 따라 길은 이어지고",
+      "젊은 날은 그 위를 지나간다",
+      "우리는 영원할 듯 걷지만",
+      "계절은 먼저 우리를 떠난다",
+      "그래서 더 눈부신 아침 하나가",
+      "더 오래 마음에 남는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0175",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "W. B. 예이츠",
+      "book": "예이츠 시집",
+      "chapter": "이니스프리의 섬으로 가리라, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 일어나 가리라, 이니스프리로",
+      "작은 오두막 하나 짓고",
+      "콩 몇 줄 심고 벌집 하나 두리",
+      "그곳에는 평화가 있으니",
+      "아침에서 저녁까지",
+      "조용히 내려오는 평화가"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0176",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "폴 베를렌",
+      "book": "베를렌 시집",
+      "chapter": "내 마음엔 비가 내린다, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "내 마음엔 비가 내린다",
+      "도시 위에 비 내리듯",
+      "무슨 까닭인지 알 수 없는",
+      "이 조용한 슬픔",
+      "소리도 없이 스며들어",
+      "가슴을 적신다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0177",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라빈드라나트 타고르",
+      "book": "기탄잘리",
+      "chapter": "이 작은 꽃을 따게 하소서, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "이 작은 꽃을 따게 하소서",
+      "시간이 다 가기 전에",
+      "혹여 시들어 먼지 속에 떨어질까 두렵습니다",
+      "짧은 순간일지라도",
+      "당신의 품에 놓이게 하소서",
+      "그것으로 충분합니다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0178",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라빈드라나트 타고르",
+      "book": "정원사",
+      "chapter": "그녀가 오기만 하면, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "그녀가 오기만 하면",
+      "내 마음은 문득 환해진다",
+      "기다림이 길어도 괜찮다",
+      "바람이 먼저 소식을 전하고",
+      "햇빛이 먼저 길을 닦는다",
+      "오면 된다, 그저 오기만 하면"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0179",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "사로지니 나이두",
+      "book": "황금 문턱",
+      "chapter": "팔랑퀸을 메는 이들, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "가볍게, 아주 가볍게 우리는 그녀를 나른다",
+      "노래 위의 꽃처럼",
+      "물 위의 새처럼",
+      "바람 속의 웃음처럼",
+      "그녀는 흔들리며 떠가고",
+      "우리의 어깨 위에서 꿈처럼 빛난다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0180",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "호세 마르티",
+      "book": "마르티 시집",
+      "chapter": "나는 진실한 사람"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 야자수가 자라는 곳에서 온",
+      "진실한 사람이다",
+      "죽기 전에",
+      "나는 영혼의 시를 나누고 싶다",
+      "친구에게는 흰 장미를",
+      "적에게도 흰 장미를 기른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0181",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "봄에는 어떤 빛이 있다, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "봄에는 어떤 빛이 있다",
+      "한 해의 다른 어느 때에도 없는",
+      "들판 위에 잠시 머물다가",
+      "가만히 우리를 바꾸어 놓는",
+      "이름 붙일 수 없는",
+      "맑고도 이상한 빛"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0182",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "내가 한 마음이라도 멈춰 세울 수 있다면"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "내가 한 마음이라도",
+      "깨지는 것을 막을 수 있다면",
+      "한 삶의 아픔이라도 덜 수 있다면",
+      "쓰러진 작은 새 한 마리라도",
+      "둥지로 돌아가게 할 수 있다면",
+      "내 삶은 헛되지 않으리"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0183",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "이것은 세상에 보내는 나의 편지"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "이것은 세상에 보내는",
+      "나의 편지",
+      "세상은 내게",
+      "한 번도 답장을 보내지 않았지만",
+      "나는 다정한 자연의 소식을",
+      "조용히 적어 보낸다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0184",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에밀리 디킨슨",
+      "book": "에밀리 디킨슨 시집",
+      "chapter": "나는 술을 빚지 않은 술을 마신다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 술을 빚지 않은 술을 마신다",
+      "진주 탱크에서 난 것이 아닌",
+      "여름 공기와 햇빛만으로도",
+      "나는 충분히 취한다",
+      "벌과 나비가 지나가는 오후에",
+      "내 기쁨은 끝을 모른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0185",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "순수의 노래",
+      "chapter": "꽃, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "즐거운 참새가",
+      "지붕 아래를 뛰놀고",
+      "푸른 들판 가까이",
+      "꽃이 흔들린다",
+      "작은 새와 작은 꽃이",
+      "함께 봄을 부른다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0186",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "순수의 노래",
+      "chapter": "웃음의 노래, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "숲은 웃고",
+      "시냇물도 웃고",
+      "푸른 언덕도 웃는다",
+      "메뚜기와 새와 아이들이",
+      "한 소리로 웃으며",
+      "하루를 가득 채운다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0187",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 블레이크",
+      "book": "순수의 노래",
+      "chapter": "자장가, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "부드럽게 웃는 너를 보며",
+      "밤도 더 다정해진다",
+      "작은 숨결 하나에도",
+      "축복이 내려앉고",
+      "잠든 눈 위로",
+      "평화가 머문다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0188",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 헤릭",
+      "book": "헤릭 시집",
+      "chapter": "꽃봉오리를 거두어라, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "꽃봉오리를 거두어라",
+      "아직 시간이 있을 때",
+      "오늘 웃는 태양은",
+      "내일 더 낮아질지 모른다",
+      "젊음은 오래 머물지 않으니",
+      "지금의 빛을 사랑하라"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0189",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "로버트 헤릭",
+      "book": "헤릭 시집",
+      "chapter": "수선화들에게, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "고운 수선화들아",
+      "너희가 너무 빨리 지는 것이 슬프다",
+      "해는 아직 한낮에도 이르지 않았는데",
+      "벌써 작별을 서두르는구나",
+      "우리의 봄도 그와 같아서",
+      "아름다울수록 더 짧다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0190",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 내시",
+      "book": "내시 시집",
+      "chapter": "봄, 달콤한 봄, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "봄, 달콤한 봄",
+      "한 해의 가장 즐거운 임금",
+      "모든 것이 피어나고",
+      "새들은 예쁘게 노래한다",
+      "차가움은 물러가고",
+      "세상은 환하게 열린다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0191",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 캠피언",
+      "book": "캠피언 시집",
+      "chapter": "그녀의 얼굴에는 정원이 있다, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "그녀의 얼굴에는 정원이 있다",
+      "하얀 백합과 붉은 장미가 함께 피는",
+      "그곳에서는 사랑이 조용히 머물고",
+      "눈빛은 늘 맑다",
+      "짧은 한 번의 미소만으로도",
+      "봄이 가까워진다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0192",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "벤 존슨",
+      "book": "존슨 시집",
+      "chapter": "셀리아에게, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "눈으로만 나에게 건배해도",
+      "나는 그 기쁨으로 충분하리",
+      "그대가 잔에 입맞춤만 남겨도",
+      "나는 술 대신 그것을 마시리",
+      "향기로운 장미보다도",
+      "그 마음이 더 오래 남는다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0193",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "벤 존슨",
+      "book": "존슨 시집",
+      "chapter": "내 첫아들에게, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "잘 있거라, 나의 기쁨이었던 아이야",
+      "너는 너무 일찍 빌려 갔다",
+      "내 사랑이 너무 컸던 탓인지",
+      "이별은 더 깊이 아프다",
+      "이제 나는 배워야 한다",
+      "지나치게 사랑하는 법을 삼가는 것을"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0194",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "월터 롤리",
+      "book": "롤리 시집",
+      "chapter": "거짓에 대하여, 일부"
+    },
+    "emotionCore": "anger",
+    "emotionExtended": [],
+    "lines": [
+      "세상은 겉으로 빛나 보이지만",
+      "속은 자주 다르다",
+      "권력도, 명예도, 사랑도",
+      "거짓을 품을 수 있다",
+      "그러니 진실 하나를 위해",
+      "홀로 서는 일을 두려워 말라"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0195",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "에드먼드 월러",
+      "book": "월러 시집",
+      "chapter": "장미에게, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "가서 말해 주렴, 고운 장미야",
+      "그녀가 지금 얼마나 아름다운지",
+      "그러나 시간에 닿지 않은 꽃은 없다고",
+      "오늘의 빛은 곧 저물 수 있다고",
+      "아름다움도 사랑도",
+      "서둘러 사랑해야 한다고"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0196",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "윌리엄 콜린스",
+      "book": "콜린스 시집",
+      "chapter": "저녁에게, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "고요한 저녁이 내려온다",
+      "새소리는 낮아지고",
+      "들판은 은빛 어둠에 잠긴다",
+      "급한 마음도 조금씩 누그러진다",
+      "하루 끝의 숨결은",
+      "생각보다 다정하다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0197",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "토머스 그레이",
+      "book": "그레이 시집",
+      "chapter": "고양이의 죽음에 부쳐, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "반짝이는 물고기에 이끌려",
+      "고양이는 금빛 가장자리로 다가갔다",
+      "한 번 더 손을 뻗는 순간",
+      "빛나던 욕심은 물속으로 가라앉았다",
+      "화려한 것일수록",
+      "더 조심해야 하는 법"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0198",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "존 키츠",
+      "book": "키츠 시집",
+      "chapter": "꽃, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "나는 사랑한다",
+      "장미도, 백합도, 첫 제비꽃도",
+      "햇빛 아래 흔들리는",
+      "작은 꽃들의 목소리를",
+      "짧은 피어남조차",
+      "세상을 충분히 아름답게 한다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0199",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "퍼시 비시 셸리",
+      "book": "셸리 시집",
+      "chapter": "사랑의 철학, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "샘물은 강으로 섞이고",
+      "강은 바다로 흘러간다",
+      "하늘의 바람도 서로 뒤섞이는데",
+      "세상 모든 것은 만나기를 원한다",
+      "그렇다면 나와 그대는",
+      "왜 아직 떨어져 있어야 하나"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0202",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "카투루스",
+      "book": "카투루스 시집",
+      "chapter": "살자, 사랑하자"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "살자, 그리고 사랑하자",
+      "늙은 이들의 수군거림은",
+      "동전 하나 값도 치지 말자",
+      "태양은 지면 다시 떠오르지만",
+      "우리의 짧은 빛은 한 번 꺼지면",
+      "긴 밤을 잠들어야 하니까"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0203",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "호라티우스",
+      "book": "오드",
+      "chapter": "오늘을 붙들어라, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "내일을 너무 믿지 말고",
+      "오늘을 붙들어라",
+      "흐르는 시간은 붙잡을 수 없으니",
+      "지금 주어진 햇빛과 바람을",
+      "아끼듯 살아가라"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0204",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "지아코모 레오파르디",
+      "book": "칸티",
+      "chapter": "무한, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "이 울타리 너머로",
+      "끝없는 하늘을 상상한다",
+      "아주 깊은 고요와",
+      "끝없는 시간을 생각하면",
+      "내 마음은 잠시",
+      "달콤한 두려움에 잠긴다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0205",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "하인리히 하이네",
+      "book": "하이네 시집",
+      "chapter": "연꽃, 일부"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "연꽃은 햇빛을 두려워하고",
+      "달빛만을 기다린다",
+      "밤이 고요히 내리면",
+      "조용히 꽃잎을 연다",
+      "사랑도 어쩌면 그렇게",
+      "은근히 피어나는 것"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0206",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "하인리히 하이네",
+      "book": "하이네 시집",
+      "chapter": "소나무와 야자수, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "북쪽의 차가운 산 위에",
+      "외로운 소나무 한 그루",
+      "꿈속에서 남쪽의",
+      "외로운 야자수를 본다",
+      "뜨거운 바위 위에 서 있는",
+      "닿을 수 없는 그 나무를"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0207",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라이너 마리아 릴케",
+      "book": "릴케 시집",
+      "chapter": "사랑의 노래, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "어떻게 내 영혼을",
+      "그대에게 닿지 않게 둘 수 있을까",
+      "어떻게 그대를 넘어서",
+      "다른 것들로 향하게 할 수 있을까",
+      "나는 그저",
+      "그대 곁의 고요를 바란다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0208",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "라이너 마리아 릴케",
+      "book": "릴케 시집",
+      "chapter": "나는 내 삶을 넓어지는 원 안에서 산다, 일부"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "나는 내 삶을",
+      "넓어지는 원 안에서 산다",
+      "수세기 동안 퍼져 나가는",
+      "하나의 원처럼",
+      "나는 아직 마지막 원을 다 그리지 못했지만",
+      "그것을 향해 돌고 있다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0209",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "페데리코 가르시아 로르카",
+      "book": "로르카 시집",
+      "chapter": "작은 빈 왈츠, 일부"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "빈의 살롱에는",
+      "슬픈 시계가 걸려 있고",
+      "유리와 그림자 사이로",
+      "조용한 음악이 흐른다",
+      "춤은 끝났지만",
+      "마음은 아직 돌고 있다"
+    ]
+  },
+  {
+    "id": "PAS_WESTERN_POETRY_0210",
+    "meta": {
+      "domain": "literature",
+      "category": "western_poetry",
+      "author": "후안 라몬 히메네스",
+      "book": "히메네스 시집",
+      "chapter": "나는 내가 아니네, 일부"
+    },
+    "emotionCore": "unknown",
+    "emotionExtended": [],
+    "lines": [
+      "나는 내가 아니네",
+      "곁에서 늘 걷는 누군가",
+      "내가 보지 못할 때 보고",
+      "내가 잊을 때 기억하는",
+      "침묵 속에서 나를 데려가는",
+      "또 다른 나"
     ]
   }
 ]
+
+
+
+
+
+
+
+
