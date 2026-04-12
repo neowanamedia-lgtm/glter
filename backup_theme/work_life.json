@@ -1,0 +1,2995 @@
+[
+  {
+"passages": [
+  {
+    "id": "PAS_WORK_SCIENCE_0001",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Eastern",
+      "author": "허버트 사이먼",
+      "source": "Administrative Behavior",
+      "book": "행정적 행동",
+      "chapter": "조직 의사결정 이론",
+      "bookDisplay": "행정적 행동",
+      "chapterDisplay": "조직 의사결정 이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "조직은 개인의 선택을 대신하기 위해 존재한다.",
+      "인간은 모든 정보를 처리할 수 없기 때문에",
+      "제한된 합리성 안에서 결정을 내린다.",
+      "그래서 조직은 판단의 부담을 나누는 구조가 된다.",
+      "우리는 체계 안에서 선택한다.",
+      "그 선택이 결국 삶을 구성한다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0002",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "에밀 뒤르켐",
+      "source": "The Division of Labor in Society",
+      "book": "사회분업론",
+      "chapter": "분업과 연대",
+      "bookDisplay": "사회분업론",
+      "chapterDisplay": "분업과 연대"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "사회는 역할의 분화를 통해 유지된다.",
+      "각 개인은 서로 다른 기능을 맡고",
+      "그 차이가 오히려 결속을 만든다.",
+      "먹고 산다는 것은",
+      "전체 구조 안에서 기능하는 일이다.",
+      "그 안에서 우리는 연결된다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0003",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "아담 스미스",
+      "source": "The Wealth of Nations",
+      "book": "국부론",
+      "chapter": "분업",
+      "bookDisplay": "국부론",
+      "chapterDisplay": "분업"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "분업은 생산성을 극대화한다.",
+      "각자는 작은 역할을 수행하지만",
+      "전체는 거대한 결과를 만든다.",
+      "개인은 단순한 일을 반복하지만",
+      "그 반복이 사회를 움직인다.",
+      "우리는 서로의 노동 위에 산다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0004",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "찰스 다윈",
+      "source": "On the Origin of Species",
+      "book": "종의 기원",
+      "chapter": "자연선택",
+      "bookDisplay": "종의 기원",
+      "chapterDisplay": "자연선택"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "생존은 가장 강한 자가 아니라",
+      "환경에 적응한 자의 것이다.",
+      "조직 안에서도 마찬가지다.",
+      "변화에 적응하는 개인이 살아남는다.",
+      "협력은 경쟁만큼 중요한 전략이다.",
+      "적응이 곧 생존이다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0005",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "칼 마르크스",
+      "source": "Das Kapital",
+      "book": "자본론",
+      "chapter": "노동",
+      "bookDisplay": "자본론",
+      "chapterDisplay": "노동"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "노동은 인간 존재의 조건이다.",
+      "우리는 생존을 위해 노동한다.",
+      "조직은 그 노동을 구조화한다.",
+      "개인의 삶은 노동의 형태에 의해 규정된다.",
+      "먹고 산다는 것은",
+      "노동 구조 안에 놓인다는 뜻이다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0006",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "맥스 베버",
+      "source": "Economy and Society",
+      "book": "경제와 사회",
+      "chapter": "관료제",
+      "bookDisplay": "경제와 사회",
+      "chapterDisplay": "관료제"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "조직은 규칙에 의해 움직인다.",
+      "개인은 역할로 환원된다.",
+      "감정보다 절차가 우선한다.",
+      "효율은 인간성을 압축한다.",
+      "그러나 그 구조가 사회를 유지한다.",
+      "질서는 그렇게 만들어진다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0007",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "피터 드러커",
+      "source": "Management",
+      "book": "경영",
+      "chapter": "성과",
+      "bookDisplay": "경영",
+      "chapterDisplay": "성과"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "조직은 성과를 위해 존재한다.",
+      "개인의 노력은 결과로 측정된다.",
+      "목표 없는 노동은 방향을 잃는다.",
+      "성과는 선택을 정당화한다.",
+      "일은 단순한 시간이 아니라",
+      "의미를 만드는 과정이다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0008",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "존 메이너드 케인스",
+      "source": "General Theory",
+      "book": "고용, 이자 및 화폐의 일반이론",
+      "chapter": "고용",
+      "bookDisplay": "일반이론",
+      "chapterDisplay": "고용"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "고용은 경제의 핵심 변수다.",
+      "일자리는 개인의 삶을 지탱한다.",
+      "소득은 소비를 만들고",
+      "소비는 다시 구조를 유지한다.",
+      "직장은 단순한 공간이 아니라",
+      "경제 순환의 일부다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0009",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "게리 베커",
+      "source": "Human Capital",
+      "book": "인적 자본",
+      "chapter": "투자",
+      "bookDisplay": "인적 자본",
+      "chapterDisplay": "투자"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "교육과 경험은 자본이다.",
+      "우리는 스스로를 투자 대상으로 만든다.",
+      "직장은 그 가치를 시험하는 곳이다.",
+      "능력은 축적되고 평가된다.",
+      "노동은 단순한 행위가 아니라",
+      "자본의 형태다."
+    ]
+  },
+  {
+    "id": "PAS_WORK_SCIENCE_0010",
+    "meta": {
+      "tradition": "science",
+      "philosophy": "Western",
+      "author": "허버트 스펜서",
+      "source": "Principles of Sociology",
+      "book": "사회학 원리",
+      "chapter": "사회 유기체",
+      "bookDisplay": "사회학 원리",
+      "chapterDisplay": "사회 유기체"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "사회는 하나의 유기체와 같다.",
+      "각 기관은 서로 다른 기능을 가진다.",
+      "조직은 그 일부로 작동한다.",
+      "개인은 세포처럼 역할을 수행한다.",
+      "전체가 유지되기 위해",
+      "각자의 위치가 필요하다."
+   ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_SCIENCE_0011",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "로널드 코스",
+        "source": "The Nature of the Firm",
+        "book": "기업의 본질",
+        "chapter": "거래비용",
+        "bookDisplay": "기업의 본질",
+        "chapterDisplay": "거래비용"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "기업은 거래 비용을 줄이기 위해 존재한다.",
+        "시장보다 조직이 효율적일 때",
+        "우리는 조직 안에 머문다.",
+        "직장은 선택이 아니라",
+        "비용을 줄이는 구조다.",
+        "그 안에서 관계가 만들어진다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0012",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "올리버 윌리엄슨",
+        "source": "Markets and Hierarchies",
+        "book": "시장과 위계",
+        "chapter": "조직 구조",
+        "bookDisplay": "시장과 위계",
+        "chapterDisplay": "조직 구조"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 위계를 통해 안정성을 확보한다.",
+        "명령과 통제가 비용을 줄인다.",
+        "자율보다 구조가 우선될 때",
+        "효율은 상승한다.",
+        "직장은 자유의 공간이 아니라",
+        "통제의 구조다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0013",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "다니엘 카너먼",
+        "source": "Thinking, Fast and Slow",
+        "book": "생각에 관한 생각",
+        "chapter": "인지 편향",
+        "bookDisplay": "생각에 관한 생각",
+        "chapterDisplay": "인지 편향"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 항상 합리적으로 판단하지 않는다.",
+        "조직은 그 오류를 보완하기 위해 존재한다.",
+        "규칙은 편향을 줄이는 장치다.",
+        "직장은 판단을 교정하는 환경이다.",
+        "우리는 혼자보다 함께 더 정확해진다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0014",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "허버트 메드",
+        "source": "Mind, Self, and Society",
+        "book": "정신, 자아, 사회",
+        "chapter": "자아 형성",
+        "bookDisplay": "정신, 자아, 사회",
+        "chapterDisplay": "자아 형성"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "자아는 타인과의 관계 속에서 형성된다.",
+        "우리는 조직 속에서 자신을 인식한다.",
+        "역할은 곧 정체성이 된다.",
+        "직장은 나를 정의하는 공간이다.",
+        "관계가 곧 나를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0015",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "에이브러햄 매슬로",
+        "source": "Motivation and Personality",
+        "book": "동기와 성격",
+        "chapter": "욕구 단계",
+        "bookDisplay": "동기와 성격",
+        "chapterDisplay": "욕구 단계"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 욕구를 충족하기 위해 행동한다.",
+        "생존이 먼저이고 그 다음이 소속이다.",
+        "직장은 이 두 가지를 동시에 제공한다.",
+        "우리는 먹고 살기 위해 일하고",
+        "함께 있기 위해 남는다.",
+        "욕구가 관계를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0016",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "로버트 액설로드",
+        "source": "The Evolution of Cooperation",
+        "book": "협력의 진화",
+        "chapter": "협력 전략",
+        "bookDisplay": "협력의 진화",
+        "chapterDisplay": "협력 전략"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "협력은 반복되는 관계에서 발생한다.",
+        "신뢰는 시간이 쌓이며 형성된다.",
+        "조직은 협력을 지속시키는 장치다.",
+        "직장은 경쟁이 아니라",
+        "장기적 상호작용의 공간이다.",
+        "협력이 생존을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0017",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "엘리너 오스트롬",
+        "source": "Governing the Commons",
+        "book": "공유지의 비극을 넘어서",
+        "chapter": "공동체 관리",
+        "bookDisplay": "공유지의 비극을 넘어서",
+        "chapterDisplay": "공동체 관리"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "공동체는 규칙을 통해 유지된다.",
+        "자율과 통제가 균형을 이룬다.",
+        "조직은 공유 자원을 관리하는 구조다.",
+        "직장은 공동체의 축소판이다.",
+        "규칙이 관계를 지탱한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0018",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "존 폰 노이만",
+        "source": "Theory of Games and Economic Behavior",
+        "book": "게임이론과 경제행동",
+        "chapter": "전략",
+        "bookDisplay": "게임이론과 경제행동",
+        "chapterDisplay": "전략"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "행동은 항상 타인의 선택을 고려한다.",
+        "조직은 전략적 상호작용의 장이다.",
+        "우리는 혼자 결정하지 않는다.",
+        "직장은 끊임없는 게임이다.",
+        "선택은 관계 속에서 의미를 가진다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0019",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "프레더릭 테일러",
+        "source": "The Principles of Scientific Management",
+        "book": "과학적 관리법",
+        "chapter": "효율",
+        "bookDisplay": "과학적 관리법",
+        "chapterDisplay": "효율"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "작업은 분석되고 최적화될 수 있다.",
+        "효율은 측정 가능한 대상이다.",
+        "조직은 시간을 분할한다.",
+        "직장은 움직임을 설계하는 공간이다.",
+        "노동은 계산된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0020",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "헨리 민츠버그",
+        "source": "The Structuring of Organizations",
+        "book": "조직 구조의 이해",
+        "chapter": "구조",
+        "bookDisplay": "조직 구조의 이해",
+        "chapterDisplay": "구조"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 다양한 구조로 나뉜다.",
+        "각 구조는 다른 방식으로 움직인다.",
+        "직장은 형태에 따라 경험이 달라진다.",
+        "우리는 구조 안에서 행동한다.",
+        "형태가 결과를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0021",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "클로드 섀넌",
+        "source": "A Mathematical Theory of Communication",
+        "book": "정보 이론",
+        "chapter": "정보 전달",
+        "bookDisplay": "정보 이론",
+        "chapterDisplay": "정보 전달"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "정보는 전달 과정에서 손실된다.",
+        "조직은 그 손실을 줄이기 위해 존재한다.",
+        "소통은 구조에 의해 결정된다.",
+        "직장은 정보 흐름의 시스템이다.",
+        "이해는 설계된 결과다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0022",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "노버트 위너",
+        "source": "Cybernetics",
+        "book": "사이버네틱스",
+        "chapter": "피드백",
+        "bookDisplay": "사이버네틱스",
+        "chapterDisplay": "피드백"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "시스템은 피드백으로 유지된다.",
+        "조직도 끊임없이 수정된다.",
+        "결과는 다시 원인이 된다.",
+        "직장은 순환하는 구조다.",
+        "우리는 그 안에서 조정된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0023",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "이반 파블로프",
+        "source": "Conditioned Reflexes",
+        "book": "조건 반사",
+        "chapter": "학습",
+        "bookDisplay": "조건 반사",
+        "chapterDisplay": "학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "행동은 반복을 통해 형성된다.",
+        "보상과 처벌이 반응을 만든다.",
+        "조직은 습관을 설계한다.",
+        "직장은 행동을 학습시키는 공간이다.",
+        "우리는 환경에 의해 길들여진다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0024",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "에드워드 윌슨",
+        "source": "Sociobiology",
+        "book": "사회생물학",
+        "chapter": "집단 행동",
+        "bookDisplay": "사회생물학",
+        "chapterDisplay": "집단 행동"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "협력은 생물학적 전략이다.",
+        "집단은 생존 확률을 높인다.",
+        "조직은 진화의 산물이다.",
+        "직장은 현대의 무리다.",
+        "함께 있는 것이 살아남는 방식이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0025",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "리처드 도킨스",
+        "source": "The Selfish Gene",
+        "book": "이기적 유전자",
+        "chapter": "유전자 전략",
+        "bookDisplay": "이기적 유전자",
+        "chapterDisplay": "유전자 전략"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "개체는 유전자의 운반자다.",
+        "행동은 생존 전략으로 선택된다.",
+        "협력조차 계산된 선택이다.",
+        "직장은 전략이 교차하는 공간이다.",
+        "우리는 살아남기 위해 행동한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0026",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "앨버트 반두라",
+        "source": "Social Learning Theory",
+        "book": "사회학습이론",
+        "chapter": "모방",
+        "bookDisplay": "사회학습이론",
+        "chapterDisplay": "모방"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 관찰을 통해 학습한다.",
+        "타인의 행동이 기준이 된다.",
+        "조직은 모방을 통해 유지된다.",
+        "직장은 행동이 전염되는 공간이다.",
+        "우리는 서로를 따라간다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0027",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "토머스 쿤",
+        "source": "The Structure of Scientific Revolutions",
+        "book": "과학혁명의 구조",
+        "chapter": "패러다임",
+        "bookDisplay": "과학혁명의 구조",
+        "chapterDisplay": "패러다임"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사고는 패러다임 안에서 이루어진다.",
+        "조직도 특정한 틀을 따른다.",
+        "변화는 기존 질서를 흔든다.",
+        "직장은 하나의 세계관이다.",
+        "그 안에서 우리는 생각한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0028",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "니콜라스 탈레브",
+        "source": "The Black Swan",
+        "book": "블랙 스완",
+        "chapter": "불확실성",
+        "bookDisplay": "블랙 스완",
+        "chapterDisplay": "불확실성"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "예측 불가능한 사건이 결과를 바꾼다.",
+        "조직은 불확실성 속에서 움직인다.",
+        "안정은 환상일 수 있다.",
+        "직장은 위험 위에 세워진 구조다.",
+        "우리는 알 수 없는 것을 견딘다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0029",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "허먼 사이먼",
+        "source": "Sciences of the Artificial",
+        "book": "인공의 과학",
+        "chapter": "설계",
+        "bookDisplay": "인공의 과학",
+        "chapterDisplay": "설계"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인공 시스템은 목적을 위해 설계된다.",
+        "조직은 자연이 아닌 설계된 구조다.",
+        "직장은 만들어진 환경이다.",
+        "우리는 그 설계 안에서 행동한다.",
+        "구조는 의도를 반영한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SCIENCE_0030",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "스튜어트 카우프만",
+        "source": "At Home in the Universe",
+        "book": "우주 속의 집",
+        "chapter": "복잡계",
+        "bookDisplay": "우주 속의 집",
+        "chapterDisplay": "복잡계"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "복잡한 시스템은 스스로 질서를 만든다.",
+        "조직도 자발적으로 구조를 형성한다.",
+        "완전한 통제는 불가능하다.",
+        "직장은 예측과 우연이 섞인 공간이다.",
+        "질서는 흐름 속에서 나타난다."
+    ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_MYTH_0031",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "창세기",
+        "book": "성경",
+        "chapter": "창세기 3장",
+        "bookDisplay": "성경",
+        "chapterDisplay": "창세기 3장"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 땅을 갈며 살아가게 되었다.",
+        "노동은 벌이자 조건이었다.",
+        "먹고 사는 일은 피할 수 없었다.",
+        "삶은 수고와 함께 시작되었다.",
+        "일은 존재의 일부가 되었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0032",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Western",
+        "author": "헤시오도스",
+        "source": "Works and Days",
+        "book": "일과 날",
+        "chapter": "노동",
+        "bookDisplay": "일과 날",
+        "chapterDisplay": "노동"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "노동은 인간에게 주어진 운명이다.",
+        "신들은 인간에게 일을 부여했다.",
+        "게으름은 몰락으로 이어진다.",
+        "성실함이 생존을 보장한다.",
+        "삶은 일 속에서 유지된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0033",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Western",
+        "author": "호메로스",
+        "source": "Odyssey",
+        "book": "오디세이아",
+        "chapter": "귀환",
+        "bookDisplay": "오디세이아",
+        "chapterDisplay": "귀환"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "귀환은 끝없는 시련 속에서 이루어진다.",
+        "인간은 반복되는 과업을 수행한다.",
+        "여정은 곧 노동이다.",
+        "목적지는 노력 끝에 도달한다.",
+        "삶은 과정을 통해 완성된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0034",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "삼국유사",
+        "book": "삼국유사",
+        "chapter": "단군 신화",
+        "bookDisplay": "삼국유사",
+        "chapterDisplay": "단군 신화"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 공동체를 이루며 살아간다.",
+        "하늘의 뜻은 질서를 요구한다.",
+        "각자의 역할이 나라를 만든다.",
+        "조직은 신성한 기원에서 시작된다.",
+        "삶은 함께 이루는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0035",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "길가메시 서사시",
+        "book": "길가메시 서사시",
+        "chapter": "우정과 왕권",
+        "bookDisplay": "길가메시 서사시",
+        "chapterDisplay": "우정과 왕권"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "왕은 도시를 조직하는 존재였다.",
+        "힘은 질서를 만드는 도구였다.",
+        "인간은 혼자가 아니었다.",
+        "도시는 함께 살아가는 방식이었다.",
+        "권력은 공동체를 유지한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0036",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "마하바라타",
+        "book": "마하바라타",
+        "chapter": "다르마",
+        "bookDisplay": "마하바라타",
+        "chapterDisplay": "다르마"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "각자는 자신의 의무를 따른다.",
+        "역할은 태어남과 함께 주어진다.",
+        "질서는 의무로 유지된다.",
+        "일은 개인의 선택이 아니다.",
+        "삶은 맡겨진 역할을 수행하는 것이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0037",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Western",
+        "author": "미상",
+        "source": "북유럽 신화",
+        "book": "에다",
+        "chapter": "신들의 질서",
+        "bookDisplay": "에다",
+        "chapterDisplay": "신들의 질서"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "신들도 각자의 역할을 가진다.",
+        "전쟁과 노동이 나뉘어 있다.",
+        "질서는 분담을 통해 유지된다.",
+        "각자의 기능이 세계를 지탱한다.",
+        "조직은 신들의 방식이었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0038",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Western",
+        "author": "투키디데스",
+        "source": "History of the Peloponnesian War",
+        "book": "펠로폰네소스 전쟁사",
+        "chapter": "권력과 조직",
+        "bookDisplay": "펠로폰네소스 전쟁사",
+        "chapterDisplay": "권력과 조직"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "국가는 조직된 힘이다.",
+        "질서는 통제에서 나온다.",
+        "집단은 목적을 위해 움직인다.",
+        "개인은 그 안에 속한다.",
+        "역사는 조직의 기록이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0039",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Eastern",
+        "author": "사마천",
+        "source": "사기",
+        "book": "사기",
+        "chapter": "열전",
+        "bookDisplay": "사기",
+        "chapterDisplay": "열전"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 역할 속에서 평가된다.",
+        "충성과 책임이 삶을 결정한다.",
+        "조직은 인간을 시험한다.",
+        "역사는 선택의 기록이다.",
+        "삶은 관계 속에서 드러난다."
+      ]
+    },
+    {
+      "passages": [
+    {
+      "id": "PAS_WORK_MYTH_0041",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Western",
+        "author": "미상",
+        "source": "그리스 신화",
+        "book": "프로메테우스 신화",
+        "chapter": "불의 도둑",
+        "bookDisplay": "프로메테우스 신화",
+        "chapterDisplay": "불의 도둑"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "불은 인간에게 기술을 주었다.",
+        "기술은 노동의 형태를 바꿨다.",
+        "인간은 스스로 생존을 설계했다.",
+        "일은 자연을 다루는 방식이 되었다.",
+        "문명은 노동에서 시작되었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0042",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "중국 신화",
+        "book": "우왕 치수",
+        "chapter": "치수",
+        "bookDisplay": "우왕 치수",
+        "chapterDisplay": "치수"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "홍수는 공동의 문제였다.",
+        "인간은 협력으로 이를 해결했다.",
+        "노동은 집단의 생존 전략이었다.",
+        "조직은 자연에 맞서는 방식이었다.",
+        "함께하는 일이 삶을 지켰다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0043",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Western",
+        "author": "헤로도토스",
+        "source": "Histories",
+        "book": "역사",
+        "chapter": "문명",
+        "bookDisplay": "역사",
+        "chapterDisplay": "문명"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "문명은 조직된 인간의 결과다.",
+        "집단은 구조를 만든다.",
+        "질서는 반복되는 행동에서 나온다.",
+        "국가는 조직의 확장이다.",
+        "역사는 인간이 함께 만든 흔적이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0044",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Eastern",
+        "author": "반고",
+        "source": "한서",
+        "book": "한서",
+        "chapter": "경제지",
+        "bookDisplay": "한서",
+        "chapterDisplay": "경제지"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "국가는 백성의 노동으로 유지된다.",
+        "생산은 질서를 만든다.",
+        "조직은 자원을 분배한다.",
+        "삶은 경제 속에서 이루어진다.",
+        "일은 국가의 기반이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0049",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Western",
+        "author": "미상",
+        "source": "아즈텍 신화",
+        "book": "태양 신화",
+        "chapter": "희생",
+        "bookDisplay": "태양 신화",
+        "chapterDisplay": "희생"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "세계는 희생으로 유지된다고 믿었다.",
+        "각자의 역할이 질서를 지탱했다.",
+        "개인은 전체를 위해 존재했다.",
+        "조직은 희생 위에 세워졌다.",
+        "삶은 공동체를 위한 것이었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0050",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Western",
+        "author": "에드워드 기번",
+        "source": "The History of the Decline and Fall of the Roman Empire",
+        "book": "로마제국 쇠망사",
+        "chapter": "쇠퇴",
+        "bookDisplay": "로마제국 쇠망사",
+        "chapterDisplay": "쇠퇴"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직이 무너지면 제국도 무너진다.",
+        "질서의 붕괴는 곧 생존의 붕괴다.",
+        "집단은 구조에 의존한다.",
+        "조직은 유지되어야 한다.",
+        "삶은 구조 위에 세워진다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0052",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "몽골 제국사",
+        "book": "몽골 비사",
+        "chapter": "군대 조직",
+        "bookDisplay": "몽골 비사",
+        "chapterDisplay": "군대 조직"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 효율로 확장된다.",
+        "질서는 속도를 만든다.",
+        "분업은 힘을 증폭시킨다.",
+        "집단은 구조로 강해진다.",
+        "삶은 조직 속에서 움직인다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0053",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Western",
+        "author": "미상",
+        "source": "로마 신화",
+        "book": "건국 신화",
+        "chapter": "로물루스",
+        "bookDisplay": "로마 신화",
+        "chapterDisplay": "건국 신화"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "도시는 규칙으로 만들어진다.",
+        "질서는 강제로 시작된다.",
+        "조직은 권력에서 태어난다.",
+        "집단은 법으로 유지된다.",
+        "삶은 구조 안에서 정의된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0055",
+      "meta": {
+        "tradition": "myth",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "힌두 신화",
+        "book": "푸라나",
+        "chapter": "우주 질서",
+        "bookDisplay": "푸라나",
+        "chapterDisplay": "우주 질서"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "우주는 질서 속에서 유지된다.",
+        "인간은 그 일부로 존재한다.",
+        "역할은 정해진 자리였다.",
+        "조직은 우주의 축소판이다.",
+        "삶은 질서를 따르는 것이다."
+       ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0058",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "일본 전국시대 기록",
+        "book": "전국사",
+        "chapter": "군단 조직",
+        "bookDisplay": "전국사",
+        "chapterDisplay": "군단 조직"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 생존을 위한 무기였다.",
+        "질서는 승리를 만든다.",
+        "집단은 구조로 움직인다.",
+        "개인은 역할로 존재한다.",
+        "삶은 전장에서 결정된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_MYTH_0060",
+      "meta": {
+        "tradition": "history",
+        "philosophy": "Western",
+        "author": "아널드 토인비",
+        "source": "A Study of History",
+        "book": "역사의 연구",
+        "chapter": "문명과 도전",
+        "bookDisplay": "역사의 연구",
+        "chapterDisplay": "문명과 도전"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "문명은 도전에 대한 응답이다.",
+        "집단은 문제를 해결하며 성장한다.",
+        "조직은 대응의 방식이다.",
+        "삶은 끊임없는 적응이다.",
+        "우리는 함께 변화한다."
+     ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_AI_0061",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "OpenAI GPT-4",
+        "source": "Language Models are Few-Shot Learners",
+        "book": "AI 연구 논문",
+        "chapter": "언어 모델",
+        "bookDisplay": "AI 연구 논문",
+        "chapterDisplay": "언어 모델"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간의 조직은 정보 처리 시스템이다.",
+        "각 개인은 입력과 출력을 담당한다.",
+        "의사결정은 확률적 계산에 가깝다.",
+        "직장은 거대한 연산 구조다.",
+        "우리는 역할을 수행하는 노드다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0062",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "DeepMind AlphaGo",
+        "source": "Mastering the Game of Go",
+        "book": "AI 논문",
+        "chapter": "강화학습",
+        "bookDisplay": "AI 논문",
+        "chapterDisplay": "강화학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "최적의 선택은 반복 속에서 발견된다.",
+        "보상은 행동을 강화한다.",
+        "조직은 학습하는 시스템이다.",
+        "직장은 전략이 업데이트되는 공간이다.",
+        "우리는 경험으로 개선된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0063",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Geoffrey Hinton",
+        "source": "Deep Learning",
+        "book": "딥러닝",
+        "chapter": "신경망",
+        "bookDisplay": "딥러닝",
+        "chapterDisplay": "신경망"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "복잡한 패턴은 단순한 연결에서 나온다.",
+        "노드는 서로 영향을 주고받는다.",
+        "조직은 연결망이다.",
+        "직장은 관계의 네트워크다.",
+        "구조가 지능을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0064",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Stuart Russell",
+        "source": "Artificial Intelligence: A Modern Approach",
+        "book": "인공지능",
+        "chapter": "에이전트",
+        "bookDisplay": "인공지능",
+        "chapterDisplay": "에이전트"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "인간은 목표를 향해 행동한다.",
+        "환경은 선택을 제한한다.",
+        "조직은 다수의 에이전트 시스템이다.",
+        "직장은 목표 기반 구조다.",
+        "행동은 목적에 의해 결정된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0065",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Yann LeCun",
+        "source": "Representation Learning",
+        "book": "AI 연구",
+        "chapter": "표현 학습",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "표현 학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "세계는 표현으로 압축된다.",
+        "우리는 정보를 재구성한다.",
+        "조직은 의미를 공유하는 공간이다.",
+        "직장은 해석의 집합이다.",
+        "이해는 구조 속에서 형성된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0066",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Herbert Simon",
+        "source": "Artificial Sciences",
+        "book": "인공의 과학",
+        "chapter": "문제 해결",
+        "bookDisplay": "인공의 과학",
+        "chapterDisplay": "문제 해결"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "문제 해결은 탐색 과정이다.",
+        "완벽한 선택은 존재하지 않는다.",
+        "조직은 해결 경로를 제한한다.",
+        "직장은 선택을 줄이는 시스템이다.",
+        "우리는 가능한 것 중에서 선택한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0067",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Demis Hassabis",
+        "source": "Reinforcement Learning Systems",
+        "book": "AI 연구",
+        "chapter": "학습",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "시스템은 경험을 통해 개선된다.",
+        "오류는 학습의 일부다.",
+        "조직은 시행착오로 성장한다.",
+        "직장은 반복 실험의 공간이다.",
+        "성장은 실패를 통해 이루어진다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0068",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Andrew Ng",
+        "source": "Machine Learning",
+        "book": "머신러닝",
+        "chapter": "데이터",
+        "bookDisplay": "머신러닝",
+        "chapterDisplay": "데이터"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "데이터는 행동을 결정한다.",
+        "패턴은 반복에서 발견된다.",
+        "조직은 데이터 기반으로 움직인다.",
+        "직장은 정보 축적의 공간이다.",
+        "우리는 기록으로 정의된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0069",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Claude Shannon",
+        "source": "Information Theory",
+        "book": "정보 이론",
+        "chapter": "엔트로피",
+        "bookDisplay": "정보 이론",
+        "chapterDisplay": "엔트로피"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "불확실성은 정보로 줄어든다.",
+        "조직은 혼란을 관리한다.",
+        "질서는 정보의 흐름이다.",
+        "직장은 신호를 정리하는 공간이다.",
+        "우리는 의미를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0070",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "OpenAI",
+        "source": "Alignment Research",
+        "book": "AI 정렬 연구",
+        "chapter": "목표 정렬",
+        "bookDisplay": "AI 정렬 연구",
+        "chapterDisplay": "목표 정렬"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "시스템은 목표에 맞춰 조정된다.",
+        "불일치는 오류를 만든다.",
+        "조직은 목표를 공유해야 한다.",
+        "직장은 방향을 맞추는 구조다.",
+        "정렬이 효율을 만든다."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_AI_0071",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Google DeepMind",
+        "source": "Multi-Agent Systems",
+        "book": "AI 연구",
+        "chapter": "다중 에이전트",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "다중 에이전트"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "여러 에이전트는 상호작용한다.",
+        "협력과 경쟁이 동시에 존재한다.",
+        "조직은 다중 시스템이다.",
+        "직장은 상호작용의 장이다.",
+        "결과는 관계에서 나온다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0072",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "OpenAI",
+        "source": "Scaling Laws",
+        "book": "AI 연구",
+        "chapter": "스케일링",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "스케일링"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "규모는 성능을 변화시킨다.",
+        "시스템은 커질수록 복잡해진다.",
+        "조직도 확장에 따라 달라진다.",
+        "직장은 크기에 의해 규정된다.",
+        "확장은 새로운 문제를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0073",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "MIT CSAIL",
+        "source": "Human-AI Interaction",
+        "book": "AI 연구",
+        "chapter": "협업",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "협업"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "지능은 협업에서 확장된다.",
+        "인간과 시스템은 함께 작동한다.",
+        "조직은 협력 구조다.",
+        "직장은 상호 보완의 공간이다.",
+        "능력은 연결로 강화된다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0074",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "DeepMind",
+        "source": "Neural Representation",
+        "book": "AI 연구",
+        "chapter": "표상",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "표상"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "현실은 내부 표현으로 재구성된다.",
+        "각자는 다른 방식으로 이해한다.",
+        "조직은 다양한 관점을 포함한다.",
+        "직장은 해석이 충돌하는 공간이다.",
+        "이해는 완전하지 않다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0075",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Stanford AI Lab",
+        "source": "Decision Theory",
+        "book": "AI 연구",
+        "chapter": "의사결정",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "의사결정"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "결정은 확률과 가치의 조합이다.",
+        "완벽한 선택은 없다.",
+        "조직은 선택을 구조화한다.",
+        "직장은 결정이 반복되는 곳이다.",
+        "삶은 선택의 누적이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0076",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "OpenAI",
+        "source": "Reinforcement Learning from Human Feedback",
+        "book": "AI 연구",
+        "chapter": "피드백",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "피드백"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "피드백은 행동을 수정한다.",
+        "평가는 방향을 만든다.",
+        "조직은 피드백으로 유지된다.",
+        "직장은 평가의 구조다.",
+        "우리는 반응 속에서 바뀐다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0077",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "DeepMind",
+        "source": "Planning Algorithms",
+        "book": "AI 연구",
+        "chapter": "계획",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "계획"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "미래는 계획으로 예측된다.",
+        "경로는 선택으로 만들어진다.",
+        "조직은 계획된 행동이다.",
+        "직장은 미래를 설계하는 공간이다.",
+        "행동은 의도를 따른다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0078",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "OpenAI",
+        "source": "Emergent Abilities",
+        "book": "AI 연구",
+        "chapter": "창발",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "창발"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "복잡성은 새로운 능력을 만든다.",
+        "전체는 부분의 합을 넘는다.",
+        "조직은 예상 밖의 결과를 만든다.",
+        "직장은 창발의 공간이다.",
+        "우리는 함께 더 큰 결과를 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0079",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "Google Brain",
+        "source": "Optimization Theory",
+        "book": "AI 연구",
+        "chapter": "최적화",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "최적화"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "시스템은 효율을 향해 움직인다.",
+        "최적은 반복 속에서 찾아진다.",
+        "조직은 효율을 추구한다.",
+        "직장은 최적화 과정이다.",
+        "우리는 더 나은 상태를 찾는다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_AI_0080",
+      "meta": {
+        "tradition": "ai",
+        "philosophy": "Western",
+        "author": "OpenAI",
+        "source": "General Intelligence Research",
+        "book": "AI 연구",
+        "chapter": "일반 지능",
+        "bookDisplay": "AI 연구",
+        "chapterDisplay": "일반 지능"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "지능은 적응 능력이다.",
+        "환경이 변하면 행동도 변한다.",
+        "조직은 변화에 대응한다.",
+        "직장은 적응의 공간이다.",
+        "우리는 계속 수정된다."
+    ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_LITERATURE_0081",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "현대 산문",
+        "book": "삶의 기록",
+        "chapter": "일상",
+        "bookDisplay": "삶의 기록",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 매일 같은 자리에 앉는다.",
+        "같은 시간을 지나고",
+        "같은 말을 반복한다.",
+        "그 반복 속에서 조금씩 지워지다가",
+        "어느 날 문득 나를 잊는다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0082",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "프란츠 카프카",
+        "source": "The Trial",
+        "book": "심판",
+        "chapter": "일상, 일부",
+        "bookDisplay": "심판",
+        "chapterDisplay": "일상, 일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "그는 이유를 모른 채 움직인다.",
+        "정해진 시간에 도착하고",
+        "정해진 일을 처리한다.",
+        "설명되지 않는 규칙 속에서",
+        "삶은 조용히 흘러간다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0083",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "이상",
+        "source": "날개",
+        "book": "날개",
+        "chapter": "일부",
+        "bookDisplay": "날개",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "나는 왜 여기 앉아 있는가.",
+        "아무도 묻지 않는다.",
+        "나는 그냥 앉아 있다.",
+        "시간은 흐르고",
+        "나는 그대로다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0084",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "알베르 카뮈",
+        "source": "The Myth of Sisyphus",
+        "book": "시지프 신화",
+        "chapter": "부조리",
+        "bookDisplay": "시지프 신화",
+        "chapterDisplay": "부조리"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "돌은 다시 굴러 떨어진다.",
+        "그는 다시 그것을 밀어 올린다.",
+        "끝없는 반복 속에서",
+        "의미는 사라지고",
+        "행동만 남는다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0085",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "김승옥",
+        "source": "무진기행",
+        "book": "무진기행",
+        "chapter": "일부",
+        "bookDisplay": "무진기행",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "나는 그곳으로 돌아왔다.",
+        "아무것도 변하지 않은 곳으로.",
+        "사람들도, 시간도, 공기도",
+        "그대로였다.",
+        "그래서 더 숨이 막혔다."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_LITERATURE_0086",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "조지 오웰",
+        "source": "1984",
+        "book": "1984",
+        "chapter": "일상, 일부",
+        "bookDisplay": "1984",
+        "chapterDisplay": "일상, 일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "그는 매일 같은 일을 반복했다.",
+        "생각할 틈도 없이",
+        "정해진 흐름을 따라갔다.",
+        "의심은 사라지고",
+        "순응만 남았다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0087",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "박완서",
+        "source": "그 많던 싱아는 누가 다 먹었을까",
+        "book": "그 많던 싱아는 누가 다 먹었을까",
+        "chapter": "일부",
+        "bookDisplay": "그 많던 싱아는 누가 다 먹었을까",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "살아간다는 것은",
+        "어쩌면 버티는 일인지도 모른다.",
+        "아무 일도 일어나지 않는 하루를",
+        "그대로 견디는 것.",
+        "그게 삶일 때가 있다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0088",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "레프 톨스토이",
+        "source": "Anna Karenina",
+        "book": "안나 카레니나",
+        "chapter": "일상",
+        "bookDisplay": "안나 카레니나",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "행복한 사람들은 비슷하게 살아간다.",
+        "정해진 방식으로 일하고",
+        "정해진 관계를 유지한다.",
+        "삶은 반복 속에서 안정된다.",
+        "그것이 평범함이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0089",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "한강",
+        "source": "채식주의자",
+        "book": "채식주의자",
+        "chapter": "일부",
+        "bookDisplay": "채식주의자",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "나는 더 이상 이곳에 맞지 않는다.",
+        "사람들은 나를 이해하지 못한다.",
+        "모두가 같은 방향을 보고 있지만",
+        "나는 다른 곳을 본다.",
+        "그게 문제였다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0090",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "찰스 디킨스",
+        "source": "Hard Times",
+        "book": "어려운 시절",
+        "chapter": "산업",
+        "bookDisplay": "어려운 시절",
+        "chapterDisplay": "산업"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "도시는 연기 속에서 돌아간다.",
+        "사람들은 기계처럼 움직인다.",
+        "감정은 필요 없는 것이 되고",
+        "일만이 남는다.",
+        "삶은 점점 단순해진다."
+     ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_LITERATURE_0091",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "현대 산문",
+        "book": "삶의 기록",
+        "chapter": "일상",
+        "bookDisplay": "삶의 기록",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "우리는 매일 같은 자리에 앉는다.",
+        "누군가가 정해 놓은 시간에 맞춰",
+        "하루를 시작하고 끝낸다.",
+        "그 사이에 무엇이 남는지는",
+        "아무도 묻지 않는다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0092",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "프란츠 카프카",
+        "source": "The Metamorphosis",
+        "book": "변신",
+        "chapter": "일부",
+        "bookDisplay": "변신",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "그는 일어나야 했다.",
+        "몸이 어떻게 변했든 상관없이",
+        "출근은 해야 했다.",
+        "그 사실 하나만은 변하지 않았다.",
+        "그래서 더 이상했다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0093",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "이상",
+        "source": "날개",
+        "book": "날개",
+        "chapter": "일부",
+        "bookDisplay": "날개",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "나는 아무것도 하지 않았다.",
+        "하지만 하루는 끝났다.",
+        "시간은 나를 지나갔고",
+        "나는 그 자리에 남아 있었다.",
+        "그게 전부였다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0094",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "알베르 카뮈",
+        "source": "The Stranger",
+        "book": "이방인",
+        "chapter": "일상",
+        "bookDisplay": "이방인",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "그는 일했다.",
+        "특별한 이유는 없었다.",
+        "그냥 그렇게 해야 했기 때문이다.",
+        "삶은 설명 없이 계속되었다.",
+        "그게 전부였다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0095",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "김승옥",
+        "source": "무진기행",
+        "book": "무진기행",
+        "chapter": "일부",
+        "bookDisplay": "무진기행",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "도시는 나를 필요로 하지 않았다.",
+        "나는 그저 그 안에 있었다.",
+        "일은 나를 묶어두는 끈이었고",
+        "나는 그 끈을 스스로 쥐고 있었다.",
+        "그래서 떠날 수 없었다."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_LITERATURE_0096",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "조지 오웰",
+        "source": "Keep the Aspidistra Flying",
+        "book": "엽란을 날려라",
+        "chapter": "돈",
+        "bookDisplay": "엽란을 날려라",
+        "chapterDisplay": "돈"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "돈은 조용히 삶을 지배했다.",
+        "선택은 항상 그것으로 돌아왔다.",
+        "일은 생존의 다른 이름이었다.",
+        "그 사실을 외면할 수 없었다.",
+        "그래서 계속 일했다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0097",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "박완서",
+        "source": "그 많던 싱아는 누가 다 먹었을까",
+        "book": "그 많던 싱아는 누가 다 먹었을까",
+        "chapter": "일부",
+        "bookDisplay": "그 많던 싱아는 누가 다 먹었을까",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "먹고 산다는 것은",
+        "대단한 일이 아니었다.",
+        "그저 하루를 넘기는 일이었다.",
+        "하지만 그 하루가 쌓여",
+        "삶이 되었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0098",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "레프 톨스토이",
+        "source": "Ivan Ilyich",
+        "book": "이반 일리치의 죽음",
+        "chapter": "일상",
+        "bookDisplay": "이반 일리치의 죽음",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "그는 올바르게 살았다.",
+        "일을 했고, 가족을 부양했다.",
+        "모든 것이 문제 없어 보였다.",
+        "그런데 어느 날",
+        "그것이 아무 의미 없게 느껴졌다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0099",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "한강",
+        "source": "소년이 온다",
+        "book": "소년이 온다",
+        "chapter": "일부",
+        "bookDisplay": "소년이 온다",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "살아남은 사람은 계속 살아야 했다.",
+        "그 이유를 몰라도",
+        "그저 살아야 했다.",
+        "일은 그 생존의 방식이었다.",
+        "그래서 계속 이어졌다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0100",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "찰스 부코스키",
+        "source": "Post Office",
+        "book": "우체국",
+        "chapter": "일부",
+        "bookDisplay": "우체국",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "depression",
+      "emotionExtended": [],
+      "lines": [
+        "일은 지루했고",
+        "시간은 느리게 갔다.",
+        "하지만 그만둘 수는 없었다.",
+        "그게 현실이었기 때문이다.",
+        "그래서 계속했다."
+    ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_LITERATURE_0101",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "미상",
+        "source": "현대 산문",
+        "book": "삶의 기록",
+        "chapter": "출근",
+        "bookDisplay": "삶의 기록",
+        "chapterDisplay": "출근"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "아침은 늘 비슷하게 시작된다.",
+        "몸은 이미 알고 있다.",
+        "어디로 가야 하는지를.",
+        "생각보다 먼저 움직이는 발걸음이",
+        "오늘을 데려간다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0102",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "어니스트 헤밍웨이",
+        "source": "A Moveable Feast",
+        "book": "파리는 날마다 축제",
+        "chapter": "일부",
+        "bookDisplay": "파리는 날마다 축제",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "일은 조용히 쌓인다.",
+        "누군가는 그것을 보지 못하지만",
+        "손은 기억하고 있다.",
+        "하루는 그렇게 만들어진다.",
+        "아무도 모르게."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0103",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "황순원",
+        "source": "카인의 후예",
+        "book": "카인의 후예",
+        "chapter": "일부",
+        "bookDisplay": "카인의 후예",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 결국 먹고 살아야 했다.",
+        "그 사실 하나가",
+        "많은 선택을 대신했다.",
+        "그래서 길은 단순해졌다.",
+        "돌아갈 수 없을 만큼."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0104",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "사무엘 베케트",
+        "source": "Waiting for Godot",
+        "book": "고도를 기다리며",
+        "chapter": "기다림",
+        "bookDisplay": "고도를 기다리며",
+        "chapterDisplay": "기다림"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아무 일도 일어나지 않았다.",
+        "그럼에도 시간은 흘렀다.",
+        "기다림 속에서 하루는 지나갔다.",
+        "해야 할 일은 없었지만",
+        "그래도 떠날 수는 없었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0105",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "김훈",
+        "source": "칼의 노래",
+        "book": "칼의 노래",
+        "chapter": "일부",
+        "bookDisplay": "칼의 노래",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "할 일은 남아 있었다.",
+        "몸이 지쳐도 멈출 수 없었다.",
+        "일은 선택이 아니라",
+        "남겨진 자리였다.",
+        "그래서 다시 움직였다."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_LITERATURE_0106",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "존 스타인벡",
+        "source": "The Grapes of Wrath",
+        "book": "분노의 포도",
+        "chapter": "이동",
+        "bookDisplay": "분노의 포도",
+        "chapterDisplay": "이동"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "그들은 일을 찾아 이동했다.",
+        "어디든 상관없었다.",
+        "살 수 있는 곳이라면.",
+        "삶은 그렇게 흘러갔다.",
+        "멈출 수 없이."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0107",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "박완서",
+        "source": "그 산이 정말 거기 있었을까",
+        "book": "그 산이 정말 거기 있었을까",
+        "chapter": "일부",
+        "bookDisplay": "그 산이 정말 거기 있었을까",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "하루는 조용히 지나갔다.",
+        "특별한 일은 없었다.",
+        "그래서 더 오래 남았다.",
+        "이렇게 사는 것이",
+        "맞는 것인지도 모른 채."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0108",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "버지니아 울프",
+        "source": "Mrs Dalloway",
+        "book": "댈러웨이 부인",
+        "chapter": "하루",
+        "bookDisplay": "댈러웨이 부인",
+        "chapterDisplay": "하루"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "하루는 수많은 생각으로 채워진다.",
+        "그 사이에 일은 끼어든다.",
+        "사람들은 그것을 이어 붙인다.",
+        "그래서 하루는 완성된다.",
+        "조용히, 흩어지듯."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0109",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "한용운",
+        "source": "님의 침묵",
+        "book": "님의 침묵",
+        "chapter": "일부",
+        "bookDisplay": "님의 침묵",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "나는 아무 말도 하지 않았다.",
+        "해야 할 일만 남아 있었다.",
+        "그것이 나를 붙잡았다.",
+        "말보다 강한 것이",
+        "하루를 채우고 있었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0110",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "찰스 디킨스",
+        "source": "David Copperfield",
+        "book": "데이비드 코퍼필드",
+        "chapter": "성장",
+        "bookDisplay": "데이비드 코퍼필드",
+        "chapterDisplay": "성장"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "일은 나를 자라게 했다.",
+        "원하지 않았지만",
+        "피할 수도 없었다.",
+        "그렇게 나는 변해갔다.",
+        "조금씩, 눈치채지 못하게."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_LITERATURE_0111",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "이문열",
+        "source": "사람의 아들",
+        "book": "사람의 아들",
+        "chapter": "일부",
+        "bookDisplay": "사람의 아들",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "나는 무엇을 위해 일하는가.",
+        "그 질문은 사라지지 않았다.",
+        "하루가 끝나도 남아 있었다.",
+        "그래서 더 무거웠다.",
+        "답이 없다는 사실이."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0112",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "헤르만 헤세",
+        "source": "Demian",
+        "book": "데미안",
+        "chapter": "자아",
+        "bookDisplay": "데미안",
+        "chapterDisplay": "자아"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "나는 나의 길을 찾고 싶었다.",
+        "하지만 현실은 다른 방향을 가리켰다.",
+        "일은 나를 묶어두었고",
+        "나는 그 안에서 고민했다.",
+        "어디까지가 나인지."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0113",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "김영하",
+        "source": "살인자의 기억법",
+        "book": "살인자의 기억법",
+        "chapter": "일부",
+        "bookDisplay": "살인자의 기억법",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "기억은 점점 흐려졌다.",
+        "하지만 일은 남아 있었다.",
+        "몸은 그것을 반복했다.",
+        "그래서 하루는 이어졌다.",
+        "생각 없이도."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0114",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "알베르 카뮈",
+        "source": "The Plague",
+        "book": "페스트",
+        "chapter": "일상",
+        "bookDisplay": "페스트",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "그들은 계속 일했다.",
+        "특별한 이유는 없었다.",
+        "그저 해야 했기 때문이다.",
+        "그것이 그들을 버티게 했다.",
+        "조용히."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0115",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "공지영",
+        "source": "우리들의 행복한 시간",
+        "book": "우리들의 행복한 시간",
+        "chapter": "일부",
+        "bookDisplay": "우리들의 행복한 시간",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 때로 버티는 것이다.",
+        "좋아서가 아니라",
+        "그만둘 수 없어서.",
+        "일은 그 버팀의 이유가 된다.",
+        "그래서 우리는 남는다."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_LITERATURE_0116",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "도스토옙스키",
+        "source": "Notes from Underground",
+        "book": "지하로부터의 수기",
+        "chapter": "일부",
+        "bookDisplay": "지하로부터의 수기",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "나는 계속 생각했다.",
+        "왜 이렇게 살아야 하는지.",
+        "하지만 다음 날이 오면",
+        "다시 같은 일을 했다.",
+        "그게 나였다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0117",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "김애란",
+        "source": "두근두근 내 인생",
+        "book": "두근두근 내 인생",
+        "chapter": "일부",
+        "bookDisplay": "두근두근 내 인생",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 계속 이어진다.",
+        "원하든 원하지 않든.",
+        "일도 그 안에 있다.",
+        "그래서 우리는 움직인다.",
+        "멈추지 못하고."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0118",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "프란츠 카프카",
+        "source": "The Castle",
+        "book": "성",
+        "chapter": "일부",
+        "bookDisplay": "성",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "그는 계속 접근하려 했다.",
+        "하지만 닿을 수 없었다.",
+        "일은 계속 주어졌고",
+        "의미는 멀어졌다.",
+        "그래도 멈출 수 없었다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0119",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Eastern",
+        "author": "정유정",
+        "source": "7년의 밤",
+        "book": "7년의 밤",
+        "chapter": "일부",
+        "bookDisplay": "7년의 밤",
+        "chapterDisplay": "일부"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 결국 살아간다.",
+        "무엇이 있든, 없든.",
+        "일은 그 흐름을 만든다.",
+        "그래서 우리는 이어진다.",
+        "하루씩."
+      ]
+    },
+    {
+      "id": "PAS_WORK_LITERATURE_0120",
+      "meta": {
+        "tradition": "literature",
+        "philosophy": "Western",
+        "author": "레오 톨스토이",
+        "source": "War and Peace",
+        "book": "전쟁과 평화",
+        "chapter": "일상",
+        "bookDisplay": "전쟁과 평화",
+        "chapterDisplay": "일상"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 거대한 사건보다",
+        "작은 반복으로 이루어진다.",
+        "일은 그 반복의 중심에 있다.",
+        "그래서 하루가 이어지고",
+        "그것이 인생이 된다."
+  ]
+  },
+  {
+  "passages": [
+    {
+      "id": "PAS_WORK_SOCIO_0121",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "아담 스미스",
+        "source": "The Wealth of Nations",
+        "book": "국부론",
+        "chapter": "분업",
+        "bookDisplay": "국부론",
+        "chapterDisplay": "분업"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 혼자 모든 것을 만들 수 없다.",
+        "그래서 역할이 나뉘었다.",
+        "각자의 일이 모여",
+        "하나의 결과를 만든다.",
+        "그것이 조직이다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0122",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "칼 마르크스",
+        "source": "Das Kapital",
+        "book": "자본론",
+        "chapter": "노동",
+        "bookDisplay": "자본론",
+        "chapterDisplay": "노동"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "노동은 생존을 위한 조건이 된다.",
+        "하지만 그 결과는 항상 나에게 돌아오지 않는다.",
+        "그래서 사람은 분리된다.",
+        "일과 삶 사이에서.",
+        "그 간극 속에서 살아간다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0123",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "막스 베버",
+        "source": "The Protestant Ethic",
+        "book": "프로테스탄트 윤리와 자본주의 정신",
+        "chapter": "직업",
+        "bookDisplay": "프로테스탄트 윤리와 자본주의 정신",
+        "chapterDisplay": "직업"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "일은 단순한 생계가 아니었다.",
+        "그것은 의무가 되었고",
+        "삶의 방식이 되었다.",
+        "그래서 사람은 일 속에서",
+        "자신을 정의하기 시작했다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0124",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "피터 드러커",
+        "source": "Management",
+        "book": "경영의 실제",
+        "chapter": "조직",
+        "bookDisplay": "경영의 실제",
+        "chapterDisplay": "조직"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 목적을 위해 존재한다.",
+        "개인은 그 안에서 역할을 맡는다.",
+        "성과는 개인이 아니라",
+        "시스템에서 나온다.",
+        "그래서 협력이 필요하다."
+       ]
+    },
+
+    {
+      "id": "PAS_WORK_SOCIO_0126",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "게리 베커",
+        "source": "Human Capital",
+        "book": "인적 자본",
+        "chapter": "투자",
+        "bookDisplay": "인적 자본",
+        "chapterDisplay": "투자"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람의 능력은 자산이 된다.",
+        "시간과 노력은 투자로 축적된다.",
+        "일은 그 가치를 높이는 과정이다.",
+        "그래서 우리는 계속 배우고",
+        "다시 일한다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0127",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "로널드 코스",
+        "source": "The Nature of the Firm",
+        "book": "기업의 본질",
+        "chapter": "조직",
+        "bookDisplay": "기업의 본질",
+        "chapterDisplay": "조직"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "시장은 모든 것을 해결하지 않는다.",
+        "그래서 조직이 생긴다.",
+        "거래의 비용을 줄이기 위해",
+        "사람들은 함께 일한다.",
+        "그것이 기업이다."
+       ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0129",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "미셸 푸코",
+        "source": "Discipline and Punish",
+        "book": "감시와 처벌",
+        "chapter": "규율",
+        "bookDisplay": "감시와 처벌",
+        "chapterDisplay": "규율"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 보이지 않는 규칙으로 움직인다.",
+        "사람은 그것을 내면화한다.",
+        "그래서 통제는 자연스러워진다.",
+        "일은 규율 속에서 반복된다.",
+        "저항 없이."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0130",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "대니얼 카너먼",
+        "source": "Thinking Fast and Slow",
+        "book": "생각에 관한 생각",
+        "chapter": "판단",
+        "bookDisplay": "생각에 관한 생각",
+        "chapterDisplay": "판단"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 빠르게 판단한다.",
+        "그리고 나중에 이유를 붙인다.",
+        "일에서도 마찬가지다.",
+        "결정은 완벽하지 않지만",
+        "계속 이루어진다."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_SOCIO_0131",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "허버트 마르쿠제",
+        "source": "One-Dimensional Man",
+        "book": "일차원적 인간",
+        "chapter": "노동",
+        "bookDisplay": "일차원적 인간",
+        "chapterDisplay": "노동"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 점점 하나의 기능이 된다.",
+        "조직 안에서의 역할로 축소된다.",
+        "일은 삶을 채우지만",
+        "동시에 제한한다.",
+        "그 틀 안에서."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0132",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "조지 애컬로프",
+        "source": "Market for Lemons",
+        "book": "정보의 비대칭",
+        "chapter": "시장",
+        "bookDisplay": "정보의 비대칭",
+        "chapterDisplay": "시장"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "정보는 항상 불완전하다.",
+        "그래서 선택은 위험을 가진다.",
+        "일도 마찬가지다.",
+        "우리는 모른 채로 선택하고",
+        "그 결과를 받아들인다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0133",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "마이클 포터",
+        "source": "Competitive Strategy",
+        "book": "경쟁 전략",
+        "chapter": "경쟁",
+        "bookDisplay": "경쟁 전략",
+        "chapterDisplay": "경쟁"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 경쟁 속에서 움직인다.",
+        "차별이 없으면 살아남지 못한다.",
+        "일은 그 경쟁의 일부다.",
+        "그래서 우리는 끊임없이 비교된다.",
+        "보이지 않게."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0134",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "조셉 슘페터",
+        "source": "Capitalism, Socialism and Democracy",
+        "book": "자본주의, 사회주의, 민주주의",
+        "chapter": "혁신",
+        "bookDisplay": "자본주의, 사회주의, 민주주의",
+        "chapterDisplay": "혁신"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "새로운 것은 기존을 밀어낸다.",
+        "일도 그 흐름을 따른다.",
+        "변하지 않으면 사라진다.",
+        "그래서 조직은 변화를 요구한다.",
+        "계속해서."
+      ]
+    },
+    {
+       "passages": [
+    {
+      "id": "PAS_WORK_SOCIO_0136",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "리처드 세넷",
+        "source": "The Corrosion of Character",
+        "book": "신자유주의와 인간성의 파괴",
+        "chapter": "유연성",
+        "bookDisplay": "신자유주의와 인간성의 파괴",
+        "chapterDisplay": "유연성"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "일은 더 이상 안정되지 않는다.",
+        "변화는 요구가 된다.",
+        "사람은 그 속도에 맞춰 흔들린다.",
+        "그래서 정체성도 흔들린다.",
+        "일과 함께."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0137",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "지그문트 바우만",
+        "source": "Liquid Modernity",
+        "book": "액체 근대",
+        "chapter": "불안정",
+        "bookDisplay": "액체 근대",
+        "chapterDisplay": "불안정"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "삶은 점점 고정되지 않는다.",
+        "일도 예외가 아니다.",
+        "모든 것은 흐르고 바뀐다.",
+        "그래서 사람은 붙잡을 것을 찾는다.",
+        "흔들리지 않기 위해."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0138",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "피에르 부르디외",
+        "source": "Distinction",
+        "book": "구별짓기",
+        "chapter": "자본",
+        "bookDisplay": "구별짓기",
+        "chapterDisplay": "자본"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 서로 다른 자본을 가진다.",
+        "경제적 자본뿐 아니라",
+        "문화와 관계도 포함된다.",
+        "일은 그 차이를 드러낸다.",
+        "보이지 않게."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0139",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "아마르티아 센",
+        "source": "Development as Freedom",
+        "book": "자유로서의 발전",
+        "chapter": "선택",
+        "bookDisplay": "자유로서의 발전",
+        "chapterDisplay": "선택"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "삶의 핵심은 선택의 가능성이다.",
+        "일은 그 가능성을 확장하기도",
+        "제한하기도 한다.",
+        "그래서 중요한 것은 단순한 소득이 아니다.",
+        "선택할 수 있는 자유다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0140",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "에릭 프롬",
+        "source": "To Have or To Be",
+        "book": "소유냐 존재냐",
+        "chapter": "삶의 방식",
+        "bookDisplay": "소유냐 존재냐",
+        "chapterDisplay": "삶의 방식"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 점점 소유를 선택한다.",
+        "일은 그 수단이 된다.",
+        "하지만 존재는 멀어진다.",
+        "그래서 공허가 남는다.",
+        "채워지지 않는 채로."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_SOCIO_0141",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "데이비드 그레이버",
+        "source": "Bullshit Jobs",
+        "book": "불필요한 노동",
+        "chapter": "의미",
+        "bookDisplay": "불필요한 노동",
+        "chapterDisplay": "의미"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "모든 일이 의미 있는 것은 아니다.",
+        "하지만 대부분의 일은 계속된다.",
+        "사람은 그것을 알고도 반복한다.",
+        "그래서 질문이 남는다.",
+        "왜 이 일을 하는가."
+       ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0143",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "칼 폴라니",
+        "source": "The Great Transformation",
+        "book": "거대한 전환",
+        "chapter": "시장",
+        "bookDisplay": "거대한 전환",
+        "chapterDisplay": "시장"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "시장은 삶을 조직한다.",
+        "노동도 상품이 된다.",
+        "사람은 그 안에서 거래된다.",
+        "그래서 인간은 분리된다.",
+        "삶과 노동 사이에서."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0144",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "프레드릭 테일러",
+        "source": "Scientific Management",
+        "book": "과학적 관리법",
+        "chapter": "효율",
+        "bookDisplay": "과학적 관리법",
+        "chapterDisplay": "효율"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "일은 측정될 수 있다.",
+        "시간과 동작으로 나뉜다.",
+        "효율은 그 합에서 나온다.",
+        "그래서 인간도 관리된다.",
+        "하나의 요소처럼."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0145",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "헨리 민츠버그",
+        "source": "Structure in Fives",
+        "book": "조직 구조의 이해",
+        "chapter": "구조",
+        "bookDisplay": "조직 구조의 이해",
+        "chapterDisplay": "구조"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "조직은 형태를 가진다.",
+        "구조가 역할을 만든다.",
+        "사람은 그 안에서 움직인다.",
+        "그래서 행동은 예측된다.",
+        "틀 안에서."
+      ]
+    },
+
+    {
+      "id": "PAS_WORK_SOCIO_0146",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "엘튼 메이요",
+        "source": "Hawthorne Studies",
+        "book": "호손 실험",
+        "chapter": "관계",
+        "bookDisplay": "호손 실험",
+        "chapterDisplay": "관계"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람은 단순한 노동자가 아니다.",
+        "관계 속에서 행동이 변한다.",
+        "일의 성과도 달라진다.",
+        "그래서 조직은 인간적이다.",
+        "완전히는 아니지만."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0147",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "더글러스 맥그리거",
+        "source": "The Human Side of Enterprise",
+        "book": "기업의 인간적 측면",
+        "chapter": "이론",
+        "bookDisplay": "기업의 인간적 측면",
+        "chapterDisplay": "이론"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "사람을 어떻게 보는가에 따라",
+        "관리 방식이 달라진다.",
+        "통제할 대상인지",
+        "자율적인 존재인지.",
+        "그 관점이 조직을 만든다."
+      ]
+    },
+    {
+      "id": "PAS_WORK_SOCIO_0149",
+      "meta": {
+        "tradition": "social_science",
+        "philosophy": "Western",
+        "author": "유발 하라리",
+        "source": "Homo Deus",
+        "book": "호모 데우스",
+        "chapter": "노동",
+        "bookDisplay": "호모 데우스",
+        "chapterDisplay": "노동"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "기술은 노동의 의미를 바꾼다.",
+        "사람의 역할은 줄어든다.",
+        "새로운 일이 생기지만",
+        "모두에게 주어지지는 않는다.",
+        "그래서 불안이 남는다."
+      ]
+    }
+  ]
+}

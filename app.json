@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "seloa-app",
-    "slug": "seloa-app",
+    "name": "glter",
+    "slug": "glter",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/images/icon.png",
-    "scheme": "seloaapp",
+    "icon": "./assets/images/glter.PNG",
+    "scheme": "glterapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "foregroundImage": "./assets/images/glter.PNG",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
@@ -23,14 +23,14 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/glter.PNG"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/glter.PNG",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",

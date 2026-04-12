@@ -41,6 +41,16 @@ import westernNovels from '../passages/literature/ko/western_novels.json';
 import koreanPoetry from '../passages/literature/ko/korean_poetry.json';
 import westernPoetry from '../passages/literature/ko/western_poetry.json';
 
+import themeMoney from '../passages/theme/money.json';
+import themeHuman from '../passages/theme/human.json';
+import themeCosmos from '../passages/theme/cosmos.json';
+import themeDestiny from '../passages/theme/destiny.json';
+import themeLove from '../passages/theme/love.json';
+import themeFriendship from '../passages/theme/friendship.json';
+import themeDeath from '../passages/theme/death.json';
+import themeWorkLife from '../passages/theme/work_life.json';
+import themeChildren from '../passages/theme/children.json';
+
 export type RegistryDomain = 'philosophy' | 'religion' | 'literature';
 
 export type PassageRegistryEntry = {
@@ -360,5 +370,77 @@ export const PASSAGE_REGISTRY: PassageRegistryEntry[] = [
     language: 'ko',
     source: westernNovels,
     tags: ['domain:literature', 'category:western_novel', 'language:ko', 'region:west'],
+  }),
+  createRegistryEntry({
+    id: 'theme-money-ko',
+    domain: 'philosophy',
+    category: 'money',
+    language: 'ko',
+    source: themeMoney,
+    tags: ['money'],
+  }),
+  createRegistryEntry({
+    id: 'theme-human-ko',
+    domain: 'philosophy',
+    category: 'human',
+    language: 'ko',
+    source: themeHuman,
+    tags: ['human'],
+  }),
+  createRegistryEntry({
+    id: 'theme-cosmos-ko',
+    domain: 'philosophy',
+    category: 'universe',
+    language: 'ko',
+    source: themeCosmos,
+    tags: ['universe'],
+  }),
+  createRegistryEntry({
+    id: 'theme-destiny-ko',
+    domain: 'philosophy',
+    category: 'destiny',
+    language: 'ko',
+    source: themeDestiny,
+    tags: ['destiny'],
+  }),
+  createRegistryEntry({
+    id: 'theme-love-ko',
+    domain: 'philosophy',
+    category: 'love',
+    language: 'ko',
+    source: themeLove,
+    tags: ['love'],
+  }),
+  createRegistryEntry({
+    id: 'theme-friendship-ko',
+    domain: 'philosophy',
+    category: 'friendship',
+    language: 'ko',
+    source: themeFriendship,
+    tags: ['friendship'],
+  }),
+  createRegistryEntry({
+    id: 'theme-death-ko',
+    domain: 'philosophy',
+    category: 'death',
+    language: 'ko',
+    source: themeDeath,
+    tags: ['death'],
+  }),
+  createRegistryEntry({
+    id: 'theme-worklife-ko',
+    domain: 'philosophy',
+    category: 'work_life',
+    language: 'ko',
+    source: themeWorkLife,
+    tags: ['work_life'],
+  }),
+  createRegistryEntry({
+    id: 'theme-children-ko',
+    domain: 'philosophy',
+    category: 'children',
+    language: 'ko',
+    source: themeChildren,
+    tags: ['children'],
   }),
 ];

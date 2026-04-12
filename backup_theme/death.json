@@ -1,0 +1,1691 @@
+[
+  {
+    "id": "PAS_DEATH_SCIENCE_0001",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "영국",
+      "author": "앤드루 H. 와일리",
+      "book": "영국 암 저널 (1972)",
+      "chapter": "아폽토시스",
+      "bookDisplay": "아폽토시스 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세포가 스스로를 제거하는 프로그램된 과정이다.",
+      "사라짐은 무질서가 아니라, 질서를 위한 선택이다.",
+      "손상된 세포는 선택적으로 제거된다.",
+      "이 과정은 염증 없이 진행된다.",
+      "생명 유지에 필수적인 메커니즘이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0002",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "하버드 의과대학 특별위원회",
+      "book": "비가역적 혼수 상태 기준 보고서 (1968)",
+      "chapter": "뇌사 기준",
+      "bookDisplay": "하버드 뇌사 보고서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 뇌 기능의 비가역적 정지 상태로 정의된다.",
+      "의식과 반사 기능이 모두 사라진다.",
+      "자발적 호흡이 불가능해진다.",
+      "회복 가능성이 존재하지 않는다.",
+      "이 기준은 현대 의학의 핵심 정의가 된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0003",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "영국",
+      "author": "피터 미첼",
+      "book": "네이처 (1961)",
+      "chapter": "화학삼투 이론",
+      "bookDisplay": "화학삼투 이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세포 에너지 생산 체계의 붕괴로 설명된다.",
+      "미토콘드리아는 ATP를 생성한다.",
+      "에너지 공급이 중단되면 기능이 멈춘다.",
+      "막 전위가 유지되지 않는다.",
+      "세포는 생존할 수 없다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0004",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "영국",
+      "author": "리처드 도킨스",
+      "book": "이기적 유전자 (1976)",
+      "chapter": "유전자 생존 전략",
+      "bookDisplay": "이기적 유전자"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 유전자의 관점에서 개체의 역할 종료로 해석된다.",
+      "개체는 유전자 전달의 매개체다.",
+      "생식 이후 선택 압력이 감소한다.",
+      "노화는 누적된 손상의 결과다.",
+      "종 수준의 균형이 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0005",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "오스트리아",
+      "author": "루트비히 볼츠만",
+      "book": "통계역학",
+      "chapter": "엔트로피 법칙",
+      "bookDisplay": "통계역학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 생명 시스템이 엔트로피 증가를 억제하지 못하는 상태이다.",
+      "생명은 질서를 유지하는 구조다.",
+      "에너지 교환이 이를 가능하게 한다.",
+      "유지가 중단되면 무질서가 증가한다.",
+      "물리 법칙에 따른 결과다."
+    ]
+  },
+
+  {
+    "id": "PAS_DEATH_SCIENCE_0006",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "레너드 헤이플릭",
+      "book": "실험 세포 연구 (1961)",
+      "chapter": "헤이플릭 한계",
+      "bookDisplay": "헤이플릭 한계"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세포 분열 횟수의 한계와 연결된다.",
+      "세포는 일정 횟수 이후 더 이상 분열하지 않는다.",
+      "텔로미어가 점차 짧아진다.",
+      "재생 능력이 감소한다.",
+      "조직은 기능을 유지하지 못한다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0007",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "덴햄 하먼",
+      "book": "노년학 저널 (1956)",
+      "chapter": "자유 라디칼 이론",
+      "bookDisplay": "자유 라디칼 이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 활성 산소에 의한 손상 축적이다.",
+      "자유 라디칼이 세포 구조를 공격한다.",
+      "DNA와 단백질이 손상된다.",
+      "복구 능력이 점차 감소한다.",
+      "임계점을 넘으면 기능이 붕괴된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0008",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "클로드 섀넌",
+      "book": "통신의 수학적 이론 (1948)",
+      "chapter": "정보 손실",
+      "bookDisplay": "정보이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 생명 시스템의 정보 손실로 해석된다.",
+      "생명은 정보 저장과 전달 구조다.",
+      "손상은 정보의 왜곡을 만든다.",
+      "복구가 불가능해진다.",
+      "시스템은 붕괴된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0009",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "월터 캐넌",
+      "book": "신체의 지혜 (1932)",
+      "chapter": "항상성",
+      "bookDisplay": "항상성 이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 항상성 유지 실패로 설명된다.",
+      "생명은 내부 환경의 균형을 유지한다.",
+      "조절 시스템이 이를 관리한다.",
+      "균형이 깨지면 기능이 무너진다.",
+      "유지 불가능 상태가 된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0010",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "루이스 토머스",
+      "book": "세포의 생명 (1974)",
+      "chapter": "시스템 생명",
+      "bookDisplay": "세포의 생명"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 생명 시스템 전체의 통합 실패로 설명된다.",
+      "각 기관은 상호 의존한다.",
+      "하나의 붕괴가 연쇄적으로 확산된다.",
+      "시스템은 점진적으로 무너진다.",
+      "전체 유지가 불가능해진다."
+    ]
+  },
+
+  {
+    "id": "PAS_DEATH_SCIENCE_0011",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "폴 에를리히",
+      "book": "인구 폭탄 (1968)",
+      "chapter": "자원과 생존",
+      "bookDisplay": "인구 폭탄"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 자원 제한 환경에서 개체 수 조절 기제로 작용한다.",
+      "자원은 무한하지 않다.",
+      "개체 수는 제한을 받는다.",
+      "균형이 유지되어야 한다.",
+      "생태계 안정성이 확보된다."
+     ]
+  },
+
+  {
+    "id": "PAS_DEATH_SCIENCE_0012",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "아서 가이튼, 존 홀",
+      "book": "의학생리학 교과서",
+      "chapter": "호흡과 가스 교환",
+      "bookDisplay": "의학생리학 교과서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 산소 교환의 지속이 더 이상 가능하지 않은 상태로 설명된다.",
+      "폐와 혈액 사이의 가스 교환이 멈추면 세포는 필요한 산소를 공급받지 못한다.",
+      "에너지 대사는 빠르게 무너지고 조직은 기능을 잃기 시작한다.",
+      "이산화탄소 축적과 산성화는 내부 환경을 더욱 불안정하게 만든다.",
+      "호흡 정지는 단일 기관의 문제가 아니라 전신 붕괴의 출발점이 된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0013",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "알버트 L. 렌닌저",
+      "book": "렌닌저 생화학",
+      "chapter": "ATP와 에너지 대사",
+      "bookDisplay": "렌닌저 생화학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세포가 자유 에너지를 더 이상 생산하거나 분배하지 못할 때 가속된다.",
+      “생명은 저장된 힘이 아니라, 지금 쓰이는 에너지로 유지된다.”,
+      "생산이 끊기면 세포막은 안정성을 잃고 내부 조절도 함께 무너진다.",
+      "대사는 연쇄적으로 정지하며 개별 기관의 기능 저하가 서로를 증폭시킨다.",
+      "생명 유지란 결국 질서 있는 에너지 흐름의 지속이며 그 단절이 종료를 부른다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0014",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "브루스 앨버츠 외",
+      "book": "세포의 분자생물학",
+      "chapter": "세포 노화",
+      "bookDisplay": "세포의 분자생물학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세포 수준에서 축적된 손상이 더 이상 보상되지 않을 때 드러난다.",
+      "복제 오류와 단백질 변형, 세포 소기관의 기능 저하는 시간이 지날수록 누적된다.",
+      "유지 비용은 커지지만 회복 능력은 점점 약해진다.",
+      "이 불균형은 조직 재생의 실패로 이어지고 기관 기능 저하를 촉진한다.",
+      "노화는 단순한 시간 경과가 아니라 복구 체계의 점진적 패배로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0015",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "엘리자베스 블랙번, 캐럴 그라이더, 잭 쇼스택",
+      "book": "텔로미어 연구",
+      "chapter": "염색체 말단과 분열 한계",
+      "bookDisplay": "텔로미어 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 염색체 말단을 보호하는 구조가 점차 짧아지는 과정과도 연결된다.",
+      "텔로미어는 세포 분열이 반복될수록 줄어들며 복제의 한계를 드러낸다.",
+      "이 한계에 도달한 세포는 더 이상 정상적으로 증식하지 못한다.",
+      "재생이 필요한 조직일수록 그 영향은 더 크게 나타난다.",
+      "개체의 수명은 이런 미세한 분열 한계들이 누적된 결과와 맞닿아 있다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0016",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "주다 포크먼",
+      "book": "암과 혈관신생 연구",
+      "chapter": "세포 성장과 소멸의 균형",
+      "bookDisplay": "암과 혈관신생 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 생명체 안에서 성장과 제거의 균형이 무너질 때 다른 방식으로 나타난다.",
+      "정상 조직은 생성과 소멸이 정교하게 맞물려 유지된다.",
+      "이 균형이 지나치게 성장 쪽으로 기울면 암이 생기고, 반대로 유지가 실패하면 기능이 사라진다.",
+      "생존은 단순히 오래 남는 것이 아니라 적절한 속도로 교체되는 과정이다.",
+      "죽음은 균형 상실의 한 형태이며 생명은 그 균형의 유지 능력으로 정의된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0017",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "캐나다",
+      "author": "한스 셀리에",
+      "book": "삶의 스트레스",
+      "chapter": "스트레스 반응과 소진",
+      "bookDisplay": "삶의 스트레스"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 만성적 스트레스가 생리적 조절 체계를 장기간 소진시킬 때이다.",
+      "스트레스 반응 자체는 적응적이지만 지속되면 회복 시스템을 갉아먹는다.",
+      "호르몬 불균형과 면역 저하, 염증 반응의 만성화가 함께 나타난다.",
+      "신체는 위기에 대응하는 데 에너지를 과도하게 쓰며 유지 기능을 잃는다.",
+      "적응의 도구였던 반응이 한계를 넘는 순간 생존을 위협하는 요인으로 바뀐다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0018",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "독일",
+      "author": "오토 바르부르크",
+      "book": "세포 대사 연구",
+      "chapter": "호흡과 대사 전환",
+      "bookDisplay": "세포 대사 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세포가 정상적인 대사 경로를 유지하지 못할 때 현실이 된다.",
+      "산소 이용과 에너지 생산 방식이 흔들리면 세포의 선택 가능한 경로는 급격히 줄어든다.",
+      "비정상 대사는 생존을 잠시 연장할 수 있어도 장기적 안정성을 보장하지 못한다.",
+      "조직 전체가 동일한 대사 압박을 받을 경우 기능 저하는 더욱 빠르게 진행된다.",
+      "대사의 붕괴는 생명체가 환경과 맺는 교환 관계가 끊어진다는 뜻이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0019",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "브루스 에임스",
+      "book": "DNA 손상과 노화 연구",
+      "chapter": "유전체 손상 축적",
+      "bookDisplay": "DNA 손상과 노화 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 유전체 손상이 장기간 누적된 결과로도 설명된다.",
+      "DNA는 끊임없이 외부 자극과 내부 대사 부산물에 의해 손상된다.",
+      "복구 체계가 이를 상당 부분 교정하지만 완전한 복원은 이루어지지 않는다.",
+      "오류가 누적되면 기능 단백질 생산과 세포 조절이 불안정해진다.",
+      "생명체의 죽음은 결국 정보 원본의 점진적 훼손이 한계를 넘는 순간이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0020",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "영국",
+      "author": "오브리 드 그레이",
+      "book": "노화 종말",
+      "chapter": "손상 축적 모델",
+      "bookDisplay": "노화 종말"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 다양한 종류의 손상이 한 몸 안에 동시에 쌓이는 현상이다.",
+      "문제는 단 하나의 원인이 아니라 여러 미세한 결함이 함께 커진다는 점이다.",
+      "세포 밖 노폐물, 미토콘드리아 이상, 줄기세포 고갈 같은 요인들이 겹쳐진다.",
+      "각 결함은 단독으로는 견딜 수 있어도 서로를 악화시키며 한계를 앞당긴다.",
+      "죽음은 단일 사건이라기보다 복합 손상 체계가 임계점을 넘는 과정이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0021",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "스티븐 오스태드",
+      "book": "왜 우리는 늙는가",
+      "chapter": "노화와 수명",
+      "bookDisplay": "왜 우리는 늙는가"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 모든 개체가 같은 속도로 향하는 현상이 아니라 종마다 다르게 설계된 결과이다.",
+      "자연선택은 무한한 수명보다 충분한 생식 성공을 우선시한다.",
+      "그 결과 유지 비용이 높은 장기 보존 능력은 제한적으로만 선택된다.",
+      "수명은 생태 환경과 포식 압력, 번식 전략에 따라 크게 달라진다.",
+      "종별 차이는 종료가 단순한 기계 고장이 아니라 진화적 타협의 결과임을 보여준다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0022",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "재러드 다이아몬드",
+      "book": "총, 균, 쇠",
+      "chapter": "질병과 환경",
+      "bookDisplay": "총, 균, 쇠"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 개인 내부의 문제만이 아니라 병원체와 환경 조건의 상호작용이다.",
+      "인간은 진화 내내 감염과 영양 부족, 기후 변화에 지속적으로 노출되어 왔다.",
+      "질병의 위력은 생물학적 취약성과 사회적 조건이 결합될 때 극대화된다.",
+      "같은 병원체라도 위생, 이동, 밀집도에 따라 치명성이 달라진다.",
+      "죽음은 몸 안의 고장과 몸 밖의 환경이 만나는 자리에서 자주 결정된다."
+     ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0025",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "프랜시스 크릭",
+      "book": "놀라운 가설",
+      "chapter": "의식과 뇌",
+      "bookDisplay": "놀라운 가설"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 자아와 경험이 뇌 활동에 의존한다는 가설 위에서 의식의 종료이다.",
+      "생각과 기억, 자기 인식은 신경 회로의 작동 결과로 이해된다.",
+      "이 작동이 되돌릴 수 없을 정도로 멈추면 경험 주체도 함께 사라진다.",
+      "몸이 일부 기능을 유지하더라도 통합된 의식이 없다면 삶의 상태는 달라진다.",
+      "자아의 연속성은 결국 신경 활동의 연속성에 크게 의존한다."
+     ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0027",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "벨기에",
+      "author": "일리야 프리고진",
+      "book": "혼돈으로부터의 질서",
+      "chapter": "비평형계",
+      "bookDisplay": "혼돈으로부터의 질서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 비평형 상태를 유지하던 열린 시스템이 더 이상 질서를 만들어내지 못할 때이다.",
+      "생명체는 외부와 에너지와 물질을 교환하며 일시적 질서를 유지한다.",
+      "이 질서는 계속 비용을 요구하며 잠시도 완전히 고정되지 않는다.",
+      "교환이 끊기거나 조절이 무너지면 질서는 급격히 해체된다.",
+      "살아 있다는 것은 끊임없이 질서를 갱신하는 일이며 죽음은 그 갱신 실패다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0028",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "앤서니 아타라",
+      "book": "재생의학 연구",
+      "chapter": "조직 재생의 한계",
+      "bookDisplay": "재생의학 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 재생 능력이 손상 속도를 더 이상 따라잡지 못할 때 가까워진다.",
+      "신체는 끊임없이 세포를 교체하며 손상을 메운다.",
+      "그러나 줄기세포 고갈과 미세 환경 악화는 회복 효율을 떨어뜨린다.",
+      "손상이 누적되는 속도가 재생을 앞지르면 기능 저하는 가속된다.",
+      "생존은 파괴를 막는 일이 아니라 파괴보다 빠르게 복구하는 능력에 달려 있다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0029",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "영국",
+      "author": "스티븐 호킹",
+      "book": "시간의 역사",
+      "chapter": "우주와 물질",
+      "bookDisplay": "시간의 역사"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 우주적 관점에서 보면 복잡한 물질 배열이 더 이상 자기 조직을 유지하지 못하는 순간이다.",
+      "생명체를 이루는 원자는 사라지지 않지만 그 배치는 해체된다.",
+      "중요한 것은 물질의 소멸이 아니라 정보와 구조의 소실이다.",
+      "질서 있는 배열이 깨지면 경험과 기능도 함께 종료된다.",
+      "개체의 끝은 물질의 끝이 아니라 구조의 끝에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0030",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "미국",
+      "author": "에드워드 O. 윌슨",
+      "book": "사회생물학",
+      "chapter": "개체와 종",
+      "bookDisplay": "사회생물학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 개체의 종료이면서 동시에 종의 지속을 가능하게 하는 생물학적 교체 과정이다.",
+      "새로운 개체가 들어올 자리는 이전 개체의 퇴장을 전제로 한다.",
+      "세대 교체는 적응과 변화의 속도를 높인다.",
+      "한 생명의 끝은 집단 수준에서는 정보의 재배치와 선택을 가능하게 만든다.",
+      "종의 지속은 개체의 영속이 아니라 교체 가능한 구조 위에서 성립한다."
+       ]
+  },
+  {
+    "id": "PAS_DEATH_SCIENCE_0031",
+    "meta": {
+      "tradition": "science",
+      "category": "death_science",
+      "region": "영국",
+      "author": "제임스 러브록",
+      "book": "가이아 이론 (1979)",
+      "chapter": "지구 시스템",
+      "bookDisplay": "가이아 이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 생명 전체 시스템의 균형 유지 과정이다.",
+      "개체는 전체의 일부다.",
+      "순환이 유지되어야 한다.",
+      "제거는 시스템 안정에 기여한다.",
+      "전체는 지속된다."
+ ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0032",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "그리스",
+      "author": "호메로스",
+      "book": "오디세이아",
+      "chapter": "하데스 세계",
+      "bookDisplay": "오디세이아"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 하데스의 세계로 내려가는 여정으로 묘사된다.",
+      "생명은 육체를 떠나 그림자 같은 존재로 남는다.",
+      "망자는 기억과 감정의 흔적만을 간직한 채 머문다.",
+      "지상과 지하의 경계는 강 하나로 나뉘어 있으며 쉽게 넘을 수 없다.",
+      "끝은 사라짐이 아니라 다른 방식의 존재로 이동하는 사건이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0033",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "이집트",
+      "author": "고대 이집트 사제단",
+      "book": "사자의 서",
+      "chapter": "심장 저울 의식",
+      "bookDisplay": "사자의 서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 심장이 진실의 깃털과 비교되는 심판의 순간으로 그려진다.",
+      "삶의 행위는 무게를 지니며 그 결과가 사후 세계를 결정한다.",
+      "가벼운 심장은 영원의 길로 들어가고 무거운 심장은 파멸에 이른다.",
+      "존재는 도덕적 기록을 남긴 채 다음 단계로 나아간다.",
+      "죽음은 판단을 거쳐 새로운 질서 속으로 편입되는 과정이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0035",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "인도",
+      "author": "베다 문헌",
+      "book": "카타 우파니샤드",
+      "chapter": "야마의 가르침",
+      "bookDisplay": "카타 우파니샤드"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 영혼이 몸을 떠나 새로운 존재 상태로 이동하는 과정이다.",
+      "자아는 소멸하지 않고 다른 형식으로 이어진다.",
+      "삶의 행위는 다음 생의 조건을 형성한다.",
+      "순환은 끝없는 흐름 속에서 반복된다.",
+      "죽음은 끊어짐이 아니라 연속성 속의 한 구간이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0036",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "중국",
+      "author": "도교 전승",
+      "book": "태상감응편",
+      "chapter": "생사 순환",
+      "bookDisplay": "태상감응편"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 기가 흩어지고 다시 자연으로 돌아가는 과정이다.",
+      "생명은 응집된 흐름이며 그 해체는 다시 우주로 환원된다.",
+      "존재는 고정된 실체가 아니라 움직이는 기의 형태다.",
+      "해체는 자연의 질서 안에서 이루어진다.",
+      "죽음은 전체로 돌아가는 순환의 일부이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0040",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "그리스",
+      "author": "헤시오도스",
+      "book": "신통기",
+      "chapter": "모이라이",
+      "bookDisplay": "신통기"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세 운명의 여신이 실을 끊는 순간이다.",
+      "삶은 길이 정해진 실처럼 이어진다.",
+      "그 끝은 신의 판단이 아니라 질서의 일부다.",
+      "개별 존재는 그 흐름을 거스를 수 없다.",
+      "죽음은 이미 짜여진 구조 안에서 실현되는 사건이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0043",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "슬라브",
+      "author": "슬라브 전승",
+      "book": "민속 신화",
+      "chapter": "마라",
+      "bookDisplay": "슬라브 신화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 마라라는 존재가 생명을 거두는 행위로 표현된다.",
+      "밤과 겨울은 그 힘이 강해지는 시기로 여겨진다.",
+      "생명은 주기적으로 사라지고 다시 돌아온다.",
+      "자연의 순환과 인간의 운명이 겹쳐진다.",
+      "죽음은 계절처럼 반복되는 질서의 일부로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0045",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "한국",
+      "author": "무속 신화 전승",
+      "book": "바리데기 설화",
+      "chapter": "저승 여행",
+      "bookDisplay": "바리데기 설화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 저승으로 가는 길 위에서 치유와 구원의 이야기를 포함한다.",
+      "버려진 존재는 다시 길을 찾아 나선다.",
+      "여정은 개인의 고통을 넘어 타인의 생명을 살리는 방향으로 이어진다.",
+      "경계는 단절이 아니라 연결의 가능성을 품는다.",
+      "죽음은 삶을 이어주는 서사의 일부로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0046",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "중국",
+      "author": "불교 전승",
+      "book": "지장보살본원경",
+      "chapter": "지옥과 구원",
+      "bookDisplay": "지장보살본원경"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 다양한 지옥과 중간 세계를 거치는 과정이다.",
+      "행위는 고통과 구원의 형태로 되돌아온다.",
+      "자비는 그 고통을 줄일 수 있는 힘으로 나타난다.",
+      "존재는 혼자가 아니라 관계 속에서 평가된다.",
+      "죽음은 구원의 가능성과 함께 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0047",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "아프리카",
+      "author": "요루바 전승",
+      "book": "오리샤 이야기",
+      "chapter": "오야",
+      "bookDisplay": "요루바 신화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 변화와 전환을 관장하는 신의 영역으로 묘사된다.",
+      "폭풍과 바람은 그 이동을 상징한다.",
+      "존재는 멈추는 것이 아니라 다른 상태로 변한다.",
+      "두려움은 이해되지 않은 변화에서 비롯된다.",
+      "죽음은 변형의 한 단계로 받아들여진다."
+     ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0049",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "이누이트",
+      "author": "이누이트 구전",
+      "book": "북극 신화",
+      "chapter": "영혼의 바다",
+      "bookDisplay": "이누이트 신화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 바다 아래 영혼의 세계로 들어가는 과정이다.",
+      "자연과 인간의 경계는 흐릿하게 이어진다.",
+      "생명은 물과 얼음의 순환 속에서 반복된다.",
+      "존재는 환경과 분리되지 않는다.",
+      "죽음은 자연과 다시 하나가 되는 상태이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0050",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "티베트",
+      "author": "티베트 불교 전승",
+      "book": "사자의 서",
+      "chapter": "빛의 단계",
+      "bookDisplay": "티베트 사자의 서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 밝은 빛과 마주하는 인식의 순간이다.",
+      "그 빛은 본질적 자아를 드러내는 계기로 작용한다.",
+      "두려움은 그 빛을 피하게 만든다.",
+      "인식은 해탈과 재탄생을 가르는 요소로 나타난다.",
+      "죽음은 인식의 방향에 따라 전혀 다른 결과를 낳는다."
+      ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0053",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "인도네시아",
+      "author": "토라자 전승",
+      "book": "장례 의식",
+      "chapter": "영혼의 이동",
+      "bookDisplay": "토라자 신화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 즉각적인 끝이 아니라 점진적인 이동 과정이다.",
+      "망자는 일정 기간 살아 있는 존재처럼 대우받는다.",
+      "이동은 의식을 통해 완성된다.",
+      "공동체는 그 과정을 함께 수행한다.",
+      "죽음은 개인이 아니라 공동체적 사건으로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0054",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "몽골",
+      "author": "몽골 샤머니즘",
+      "book": "영혼 신앙",
+      "chapter": "하늘과 땅",
+      "bookDisplay": "몽골 신화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 하늘과 땅 사이를 오가는 영혼의 이동이다.",
+      "샤먼은 그 길을 안내하는 존재이다.",
+      "세계는 여러 층으로 나뉘어 있다.",
+      "존재는 그 층을 넘나들 수 있다.",
+      "죽음은 다른 차원으로의 이동이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_MYTH_0056",
+    "meta": {
+      "tradition": "mythology",
+      "category": "death_myth",
+      "region": "폴리네시아",
+      "author": "마오리 전승",
+      "book": "마우이 이야기",
+      "chapter": "불사의 실패",
+      "bookDisplay": "마오리 신화"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 영원성을 얻으려는 시도가 실패한 결과이다.",
+      "영웅조차 그 경계를 완전히 넘지 못한다.",
+      "자연의 법칙은 누구에게나 동일하게 적용된다.",
+      "도전은 가능하지만 결과는 제한된다.",
+      "죽음은 한계를 가진 존재의 조건으로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0061",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI GPT-4",
+      "book": "GPT-4 Technical Report",
+      "chapter": "General Capabilities",
+      "bookDisplay": "GPT-4 기술 보고서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 정보 처리 시스템이 더 이상 자기 상태를 갱신하지 못하는 시점이다.",
+      "인간의 인지와 기억은 뇌라는 생물학적 연산 구조 위에서 유지된다.",
+      "이 구조가 붕괴되면 정보의 연속성도 함께 중단된다.",
+      "경험의 흐름은 처리 능력의 지속에 의존한다.",
+      "죽음은 계산 과정이 되돌릴 수 없게 멈춘 상태로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0062",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "영국",
+      "author": "DeepMind AlphaFold",
+      "book": "Nature 논문: Highly accurate protein structure prediction",
+      "chapter": "단백질 구조와 생명",
+      "bookDisplay": "네이처 논문 (AlphaFold)"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 단백질 구조와 상호작용 네트워크가 더 이상 유지되지 않는 상태다.",
+      "생명은 수많은 분자의 정밀한 구조 위에서 작동한다.",
+      "구조의 붕괴는 기능의 붕괴로 직접 이어진다.",
+      "세포 수준의 불안정성은 조직 전체로 확장된다.",
+      "죽음은 분자적 질서가 유지 한계를 넘는 순간으로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0063",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "Google BERT",
+      "book": "BERT: Pre-training of Deep Bidirectional Transformers",
+      "chapter": "언어와 의미",
+      "bookDisplay": "BERT 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 의미를 생성하던 맥락 시스템이 더 이상 확장되지 않는 상태다.",
+      "인간의 삶은 끊임없는 서술과 해석의 흐름으로 구성된다.",
+      "맥락이 중단되면 새로운 의미도 생성되지 않는다.",
+      "기억은 연결을 통해 유지되지만 그 연결은 멈춘다.",
+      "죽음은 서사의 진행이 완전히 정지된 순간으로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0064",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "Stanford CRFM (Foundation Models)",
+      "book": "On the Opportunities and Risks of Foundation Models",
+      "chapter": "시스템 지속성",
+      "bookDisplay": "파운데이션 모델 보고서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 시스템이 외부 입력에 더 이상 반응하지 않는 상태다.",
+      "생명은 환경과의 지속적인 상호작용을 통해 유지된다.",
+      "입력과 출력의 순환이 끊어지면 상태 변화도 멈춘다.",
+      "반응성의 상실은 존재의 단절을 의미한다.",
+      "죽음은 상호작용 루프가 완전히 닫힌 상태로 해석된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0066",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI Codex",
+      "book": "Evaluating Large Language Models Trained on Code",
+      "chapter": "시스템 실행",
+      "bookDisplay": "코덱스 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 실행 중이던 시스템이 더 이상 명령을 수행하지 못하는 상태다.",
+      "프로그램은 흐름이 유지될 때 의미를 가진다.",
+      "실행이 멈추면 모든 기능은 정지한다.",
+      "과정은 결과 없이 중단된다.",
+      "죽음은 실행 루프의 완전한 정지로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0067",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI CLIP",
+      "book": "Learning Transferable Visual Models From Natural Language Supervision",
+      "chapter": "표상 연결",
+      "bookDisplay": "CLIP 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 서로 다른 정보 공간을 연결하던 체계가 끊어지는 상태다.",
+      "이미지와 언어는 연결될 때 의미를 형성한다.",
+      "연결이 사라지면 해석도 사라진다.",
+      "표상은 단절된 채 남는다.",
+      "죽음은 관계망의 붕괴로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0068",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI DALL·E",
+      "book": "Zero-Shot Text-to-Image Generation",
+      "chapter": "생성 모델",
+      "bookDisplay": "DALL·E 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 새로운 상태를 생성하는 능력이 완전히 사라진 상황이다.",
+      "생성은 가능성의 확장을 의미한다.",
+      "확장이 멈추면 미래도 닫힌다.",
+      "상태는 더 이상 변화하지 않는다.",
+      "죽음은 생성 가능성이 소멸된 상태로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0069",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "영국",
+      "author": "DeepMind MuZero",
+      "book": "Mastering Atari, Go, Chess and Shogi by Planning",
+      "chapter": "모델 기반 학습",
+      "bookDisplay": "MuZero 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 미래 상태를 예측하던 내부 모델이 더 이상 작동하지 않는 상태다.",
+      "지능은 미래를 시뮬레이션하는 능력에 기반한다.",
+      "예측이 멈추면 선택도 의미를 잃는다.",
+      "행동은 방향을 잃는다.",
+      "죽음은 미래에 대한 계산이 불가능해진 순간이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0070",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "캐나다",
+      "author": "Geoffrey Hinton",
+      "book": "Neural Networks for Machine Learning",
+      "chapter": "분산 표현",
+      "bookDisplay": "신경망 강의"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 분산되어 저장된 정보가 더 이상 통합되지 않는 상태다.",
+      "지식은 여러 노드에 나뉘어 존재한다.",
+      "통합이 깨지면 의미도 붕괴된다.",
+      "부분은 남아도 전체는 사라진다.",
+      "죽음은 통합 구조의 붕괴로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0071",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI Whisper",
+      "book": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "chapter": "신호 해석",
+      "bookDisplay": "Whisper 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 신호 입력을 의미로 변환하지 못하는 상태다.",
+      "소리는 해석될 때만 의미를 가진다.",
+      "해석이 멈추면 소리는 단순한 파형이 된다.",
+      "정보는 전달되지 않는다.",
+      "죽음은 신호와 의미 사이의 연결이 끊어진 상태다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0075",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI GPT-3",
+      "book": "Language Models are Few-Shot Learners",
+      "chapter": "확률 모델",
+      "bookDisplay": "GPT-3 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 다음 상태를 예측하는 확률 분포가 더 이상 갱신되지 않는 상태다.",
+      "모든 선택은 확률 위에서 이루어진다.",
+      "분포가 멈추면 선택도 사라진다.",
+      "가능성은 고정된다.",
+      "죽음은 확률적 흐름의 정지로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0076",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "Meta AI",
+      "book": "LLaMA: Open and Efficient Foundation Models",
+      "chapter": "효율적 모델",
+      "bookDisplay": "LLaMA 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 자원을 효율적으로 사용하던 시스템이 완전히 정지한 상태다.",
+      "계산은 제한된 자원 위에서 이루어진다.",
+      "자원이 소진되면 실행도 멈춘다.",
+      "구조는 유지되지 않는다.",
+      "죽음은 계산 자원의 완전한 고갈로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0077",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "NVIDIA AI",
+      "book": "CUDA Programming Guide",
+      "chapter": "병렬 처리",
+      "bookDisplay": "CUDA 가이드"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 병렬로 작동하던 처리 흐름이 모두 멈춘 상태다.",
+      "생명은 다양한 과정이 동시에 진행되는 구조다.",
+      "하나의 중단은 전체에 영향을 준다.",
+      "동시성은 사라진다.",
+      "죽음은 모든 처리 흐름의 정지로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0078",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "Amazon Alexa AI",
+      "book": "Alexa AI Research",
+      "chapter": "음성 상호작용",
+      "bookDisplay": "Alexa 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 호출에 응답하던 시스템이 더 이상 반응하지 않는 상태다.",
+      "호출은 관계의 시작이다.",
+      "응답이 없으면 연결도 사라진다.",
+      "관계는 종료된다.",
+      "죽음은 호출과 응답의 단절로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0079",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "중국",
+      "author": "Baidu ERNIE",
+      "book": "ERNIE: Enhanced Language Representation",
+      "chapter": "지식 통합",
+      "bookDisplay": "ERNIE 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 지식이 더 이상 통합되지 않는 상태다.",
+      "지식은 연결을 통해 의미를 가진다.",
+      "통합이 멈추면 이해도 멈춘다.",
+      "정보는 단편으로 남는다.",
+      "죽음은 통합 구조의 해체로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0080",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI Safety Research",
+      "book": "AI Safety Papers",
+      "chapter": "시스템 안정성",
+      "bookDisplay": "AI 안전성 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 시스템이 안정성을 완전히 잃은 상태다.",
+      "안정성은 지속 가능성의 조건이다.",
+      "불안정은 붕괴로 이어진다.",
+      "균형은 유지되지 않는다.",
+      "죽음은 안정성의 완전한 상실로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0084",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "일본",
+      "author": "Sony AI",
+      "book": "AI and Robotics Research",
+      "chapter": "자율 시스템",
+      "bookDisplay": "소니 AI 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 자율적으로 행동하던 시스템이 완전히 정지한 상태다.",
+      "자율성은 스스로 선택하는 능력이다.",
+      "선택이 멈추면 행동도 멈춘다.",
+      "움직임은 사라진다.",
+      "죽음은 자율성의 소멸로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0087",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI World Models",
+      "book": "World Models",
+      "chapter": "내부 시뮬레이션",
+      "bookDisplay": "월드 모델 논문"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 내부 세계를 시뮬레이션하던 능력이 사라진 상태다.",
+      "지능은 현실을 내부에서 재구성하는 능력이다.",
+      "재구성이 멈추면 이해도 멈춘다.",
+      "세계는 더 이상 생성되지 않는다.",
+      "죽음은 내부 모델의 완전한 소멸로 나타난다."
+      ]
+  },
+  {
+    "id": "PAS_DEATH_AI_0089",
+    "meta": {
+      "tradition": "ai",
+      "category": "death_ai",
+      "region": "미국",
+      "author": "OpenAI Alignment Research",
+      "book": "Learning from Human Feedback",
+      "chapter": "목표 정렬",
+      "bookDisplay": "RLHF 연구"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 목표를 향한 최적화 과정이 더 이상 수행되지 않는 상태다.",
+      "행동은 목표와 보상 구조에 의해 결정된다.",
+      "그 구조가 사라지면 방향성도 사라진다.",
+      "선택은 의미를 잃는다.",
+      "죽음은 최적화 자체가 멈춘 상태로 이해된다."
+    ]
+  },
+  {
+     "id": "PAS_DEATH_HUMANITIES_0091",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "러시아",
+      "author": "레프 톨스토이",
+      "book": "이반 일리치의 죽음",
+      "chapter": "말기 의식",
+      "bookDisplay": "이반 일리치의 죽음"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 삶이 진실하지 않았다는 자각이 마지막에 도달하는 순간이다.",
+      "사회적 성공은 내면의 공허를 가리지 못한다.",
+      "고통은 자기 삶을 다시 바라보게 만든다.",
+      "의미는 끝에서야 선명해진다.",
+      “삶은 과정이지만, 죽음은 그것의 의미를 확정한다.”
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0092",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "프랑스",
+      "author": "알베르 카뮈",
+      "book": "이방인",
+      "chapter": "처형",
+      "bookDisplay": "이방인"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 세계가 본질적으로 의미를 부여하지 않는다는 사실을 드러내는 사건이다.",
+      "부조리는 인간의 기대와 세계의 침묵 사이에서 발생한다.",
+      "끝은 해석을 거부한다.",
+      "존재는 그 자체로 남는다.",
+      "죽음은 의미의 부재를 직면하는 순간이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0093",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "death_humanities",
+      "region": "독일",
+      "author": "마르틴 하이데거",
+      "book": "존재와 시간",
+      "chapter": "죽음에의 존재",
+      "bookDisplay": "존재와 시간"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 존재가 가장 자기 자신으로 드러나는 가능성이다.",
+      "인간은 자신의 끝을 의식할 수 있는 존재다.",
+      "그 인식은 삶의 방향을 규정한다.",
+      "타인의 죽음은 대신할 수 없다.",
+      "죽음은 존재를 고유하게 만드는 조건으로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0094",
+    "meta": {
+      "tradition": "psychology",
+      "category": "death_humanities",
+      "region": "오스트리아",
+      "author": "지그문트 프로이트",
+      "book": "쾌락 원칙을 넘어서",
+      "chapter": "죽음 충동",
+      "bookDisplay": "쾌락 원칙을 넘어서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 생명 내부에 존재하는 원초적 긴장 해소의 방향이다.",
+      "생명은 자극을 줄이려는 경향을 가진다.",
+      “모든 것은 결국 살아 있음에서 벗어나 정지로 향한다.”,
+      "충동은 반복적으로 나타난다.",
+      "죽음은 긴장이 완전히 사라진 상태로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0095",
+    "meta": {
+      "tradition": "sociology",
+      "category": "death_humanities",
+      "region": "프랑스",
+      "author": "에밀 뒤르켐",
+      "book": "자살론",
+      "chapter": "사회적 사실",
+      "bookDisplay": "자살론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 개인의 선택처럼 보이지만 사회적 구조와 깊이 연결된 현상이다.",
+      "결속과 규범의 수준은 삶의 지속 가능성에 영향을 준다.",
+      "고립은 위험을 증가시킨다.",
+      "사회는 개인의 조건을 형성한다.",
+      "죽음은 사회적 맥락 속에서 이해되어야 할 사건으로 나타난다."
+ ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0096",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "독일",
+      "author": "토마스 만",
+      "book": "마의 산",
+      "chapter": "시간과 질병",
+      "bookDisplay": "마의 산"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 시간의 감각이 뒤틀리며 삶의 의미가 서서히 흐려지는 과정이다.",
+      "질병은 일상의 질서를 해체한다.",
+      "지연된 시간은 존재를 낯설게 만든다.",
+      "의미는 점차 느슨해진다.",
+      "죽음은 시간 경험의 변형이 극단에 이른 상태로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0097",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "death_humanities",
+      "region": "프랑스",
+      "author": "장 폴 사르트르",
+      "book": "존재와 무",
+      "chapter": "타자와 죽음",
+      "bookDisplay": "존재와 무"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 타자의 시선에서 고정된 존재로 환원되는 순간이다.",
+      "살아 있는 동안 인간은 끊임없이 자신을 초월한다.",
+      "끝은 그 가능성을 멈추게 만든다.",
+      "타인은 남은 의미를 규정한다.",
+      "죽음은 자유가 외부에 의해 봉인되는 상태이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0099",
+    "meta": {
+      "tradition": "economics",
+      "category": "death_humanities",
+      "region": "미국",
+      "author": "게리 베커",
+      "book": "인적 자본",
+      "chapter": "생애 주기",
+      "bookDisplay": "인적 자본"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 투자와 회수의 시간이 더 이상 이어지지 않는 지점이다.",
+      "개인의 생애는 자원의 배분 과정이다.",
+      "시간은 가장 중요한 자본이다.",
+      "기회는 유한하다.",
+      "죽음은 경제적 선택의 가능성이 완전히 사라진 상태다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0100",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "미국",
+      "author": "어니스트 헤밍웨이",
+      "book": "노인과 바다",
+      "chapter": "투쟁",
+      "bookDisplay": "노인과 바다"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 패배와는 다른 방식으로 인간의 존엄을 드러내는 사건이다.",
+      "투쟁은 결과와 별개로 의미를 가진다.",
+      "손실은 피할 수 없다.",
+      "존엄은 유지된다.",
+      "죽음은 어떻게 살아왔는지를 증명하는 마지막 장면이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0102",
+    "meta": {
+      "tradition": "psychology",
+      "category": "death_humanities",
+      "region": "스위스",
+      "author": "칼 융",
+      "book": "인간과 상징",
+      "chapter": "무의식",
+      "bookDisplay": "인간과 상징"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 의식이 무의식의 더 큰 흐름으로 돌아가는 과정이다.",
+      "자아는 전체 정신의 일부다.",
+      "개별 의식은 제한적이다.",
+      "상징은 그 경계를 드러낸다.",
+      "죽음은 전체로의 회귀로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0103",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "콜롬비아",
+      "author": "가브리엘 가르시아 마르케스",
+      "book": "백년의 고독",
+      "chapter": "순환",
+      "bookDisplay": "백년의 고독"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 반복되는 역사 속에서 개인이 사라지는 사건이다.",
+      "시간은 직선이 아니라 순환으로 흐른다.",
+      "이름과 운명은 반복된다.",
+      "기억은 희미해진다.",
+      "죽음은 거대한 반복 속에서 개인이 사라지는 순간이다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0104",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "death_humanities",
+      "region": "독일",
+      "author": "아서 쇼펜하우어",
+      "book": "의지와 표상으로서의 세계",
+      "chapter": "의지의 소멸",
+      "bookDisplay": "의지와 표상으로서의 세계"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 끝없는 의지의 흐름이 멈추는 상태다.",
+      "삶은 욕망의 반복이다.",
+      "충족은 일시적이다.",
+      "고통은 지속된다.",
+      "죽음은 의지가 더 이상 작동하지 않는 상태다."
+     ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0107",
+    "meta": {
+      "tradition": "sociology",
+      "category": "death_humanities",
+      "region": "프랑스",
+      "author": "피에르 부르디외",
+      "book": "구별짓기",
+      "chapter": "사회적 자본",
+      "bookDisplay": "구별짓기"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 개인이 축적한 자본이 다른 방식으로 전환되는 지점이다.",
+      "사회적 위치는 관계 속에서 형성된다.",
+      "유산은 구조를 통해 이어진다.",
+      "개인은 사라진다.",
+      "죽음은 자본의 이동과 재배치로 나타난다."
+     ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0111",
+    "meta": {
+      "tradition": "economics",
+      "category": "death_humanities",
+      "region": "프랑스",
+      "author": "토마 피케티",
+      "book": "21세기 자본",
+      "chapter": "세대",
+      "bookDisplay": "21세기 자본"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 부와 자산이 세대 간 이동하는 핵심 계기로 설명된다.",
+      "축적은 개인을 넘어 이어진다.",
+      "불평등은 재생산된다.",
+      "구조는 유지된다.",
+      “죽음은 경제적 흐름이 세대 간으로 이동하는 전환 지점이다.”   
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0114",
+    "meta": {
+      "tradition": "sociology",
+      "category": "death_humanities",
+      "region": "영국",
+      "author": "앤서니 기든스",
+      "book": "근대성과 자아정체성",
+      "chapter": "위험 사회",
+      "bookDisplay": "근대성과 자아정체성"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "현대 사회에서 죽음은 관리되고 지연되는 위험으로 이해된다.",
+      "기술은 위험을 통제하려 한다.",
+      "불확실성은 남는다.",
+      "개인은 선택을 강요받는다.",
+      "죽음은 통제할 수 없는 변수로 남는다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0116",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "death_humanities",
+      "region": "그리스",
+      "author": "에피쿠로스",
+      "book": "서간집",
+      "chapter": "죽음에 대하여",
+      "bookDisplay": "에피쿠로스 서간"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 감각이 완전히 사라지는 상태이므로 두려워할 대상이 아니다.",
+      "고통은 감각에서 비롯된다.",
+      "감각이 없으면 고통도 없다.",
+      "존재는 사라진다.",
+      "죽음은 무감각 상태로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0117",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "영국",
+      "author": "버지니아 울프",
+      "book": "자기만의 방",
+      "chapter": "의식의 흐름",
+      "bookDisplay": "자기만의 방"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 의식의 흐름이 끊어지며 서사가 멈추는 순간이다.",
+      "생각은 끊임없이 이어진다.",
+      "내면은 흐른다.",
+      "흐름은 갑자기 멈춘다.",
+      "죽음은 서사의 완전한 단절로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0119",
+    "meta": {
+      "tradition": "economics",
+      "category": "death_humanities",
+      "region": "영국",
+      "author": "애덤 스미스",
+      "book": "국부론",
+      "chapter": "노동과 가치",
+      "bookDisplay": "국부론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 노동과 생산이 더 이상 이루어지지 않는 상태다.",
+      "개인은 경제적 활동의 주체다.",
+      "활동이 멈추면 교환도 멈춘다.",
+      "가치는 생성되지 않는다.",
+      "죽음은 경제적 흐름에서의 완전한 이탈로 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_DEATH_HUMANITIES_0120",
+    "meta": {
+      "tradition": "literature",
+      "category": "death_humanities",
+      "region": "한국",
+      "author": "박완서",
+      "book": "그 많던 싱아는 누가 다 먹었을까",
+      "chapter": "상실",
+      "bookDisplay": "그 많던 싱아는 누가 다 먹었을까"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "죽음은 남겨진 이들의 기억 속에서 계속 다른 형태로 살아 움직이는 사건이다.",
+      "사라진 존재는 완전히 사라지지 않는다.",
+      "기억은 관계를 지속시킨다.",
+      "상실은 새로운 형태의 존재를 만든다.",
+      "죽음은 타인의 내면에서 다시 구성되는 과정이다."
+    ]
+  }
+]
+
+
+
+
+
+

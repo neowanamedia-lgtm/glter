@@ -1,0 +1,3045 @@
+[
+  {
+    "id": "PAS_HUMAN_FINAL_0001",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "소크라테스",
+      "book": "플라톤 『변명』",
+      "chapter": "자기 인식",
+      "bookDisplay": "변명"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 스스로를 안다고 믿는 순간 멈춘다.",
+      "모른다는 자각에서 탐구가 시작된다.",
+      "확신은 쉽게 굳어지지만 질문은 계속 움직인다.",
+      "대화 속에서 생각은 끊임없이 시험된다.",
+      "이 과정이 삶을 살아가는 방식이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0002",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "아리스토텔레스",
+      "book": "『니코마코스 윤리학』",
+      "chapter": "덕",
+      "bookDisplay": "니코마코스 윤리학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 반복하는 행동으로 자신을 만든다.",
+      "선택은 한 번으로 끝나지 않는다.",
+      "습관이 성품으로 굳어진다.",
+      "과도함과 부족함 사이에서 균형을 찾는다.",
+      "그 균형이 삶의 질을 결정한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0003",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Eastern",
+      "author": "공자",
+      "book": "『논어』",
+      "chapter": "인",
+      "bookDisplay": "논어"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 관계 속에서 자신을 드러낸다.",
+      "혼자 있을 때보다 함께 있을 때 기준이 생긴다.",
+      "예는 단순한 규칙이 아니라 태도다.",
+      "존중은 행동으로 드러난다.",
+      "이것이 사람 사이의 질서를 만든다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0004",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Eastern",
+      "author": "노자",
+      "book": "『도덕경』",
+      "chapter": "무위",
+      "bookDisplay": "도덕경"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 애쓸수록 흐름을 거스르기 쉽다.",
+      "억지로 채우면 오히려 비어버린다.",
+      "덜어낼수록 자연스러움이 살아난다.",
+      "낮아질 때 전체를 볼 수 있다.",
+      "자연에 따를 때 삶은 가벼워진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0005",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "Western",
+      "author": "찰스 다윈",
+      "book": "『인간의 유래』",
+      "chapter": "진화",
+      "bookDisplay": "인간의 유래"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 고정된 존재가 아니라 변화의 결과다.",
+      "환경과의 상호작용 속에서 형성된다.",
+      "감정과 본능도 같은 흐름에 놓여 있다.",
+      "특별함은 단절이 아니라 연속에서 나온다.",
+      "자연과 분리될 수 없는 존재다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0006",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "Western",
+      "author": "프로이트",
+      "book": "『정신분석 입문』",
+      "chapter": "무의식",
+      "bookDisplay": "정신분석 입문"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 스스로를 완전히 이해하지 못한다.",
+      "의식 아래에서 욕망이 움직인다.",
+      "억눌린 감정은 다른 형태로 드러난다.",
+      "통제하고 있다고 믿는 순간에도 흔들린다.",
+      "내면에는 낯선 영역이 존재한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0007",
+    "meta": {
+      "tradition": "religion",
+      "category": "human",
+      "region": "Western",
+      "author": "성경",
+      "book": "『창세기』",
+      "chapter": "선택",
+      "bookDisplay": "창세기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 선택할 수 있는 존재로 놓여 있다.",
+      "선과 악을 구별하는 능력이 주어진다.",
+      "자유는 책임과 함께 따른다.",
+      "행동은 결과를 남긴다.",
+      "삶은 선택의 연속으로 이루어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0008",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "사르트르",
+      "book": "『존재와 무』",
+      "chapter": "자유",
+      "bookDisplay": "존재와 무"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 정해진 본질 없이 시작된다.",
+      "선택을 통해 스스로를 정의한다.",
+      "자유는 피할 수 없는 조건이다.",
+      "책임은 타인에게 넘길 수 없다.",
+      "결국 스스로를 만들어 간다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0009",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "카뮈",
+      "book": "『시지프 신화』",
+      "chapter": "부조리",
+      "bookDisplay": "시지프 신화"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 의미를 요구하지만 세계는 침묵한다.",
+      "그 간극이 부조리를 만든다.",
+      "확실한 답 없이도 계속 살아간다.",
+      "반복 속에서도 멈추지 않는다.",
+      "태도가 삶을 규정한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0010",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "Western",
+      "author": "융",
+      "book": "『인간과 상징』",
+      "chapter": "그림자",
+      "bookDisplay": "인간과 상징"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 드러난 모습만으로 이루어지지 않는다.",
+      "숨겨진 부분이 행동을 좌우한다.",
+      "부정할수록 더 강하게 나타난다.",
+      "인식할 때 통합이 시작된다.",
+      "이 과정이 성장으로 이어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0011",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "Western",
+      "author": "에리히 프롬",
+      "book": "『사랑의 기술』",
+      "chapter": "사랑",
+      "bookDisplay": "사랑의 기술"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 고립된 채로는 오래 견디기 어렵다.",
+      "사랑은 우연한 감정보다 배워야 할 능력에 가깝다.",
+      "돌봄과 책임이 없으면 관계는 쉽게 무너진다.",
+      "소유하려는 마음은 사랑을 왜곡한다.",
+      "성숙은 사랑받는 것보다 사랑할 줄 아는 데서 드러난다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0012",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "Western",
+      "author": "빅터 프랭클",
+      "book": "『죽음의 수용소에서』",
+      "chapter": "의미",
+      "bookDisplay": "죽음의 수용소에서"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 가장 견디기 어려운 상황에서도 의미를 찾으려 한다.",
+      "모든 것을 빼앗겨도 태도까지 빼앗기지는 않는다.",
+      "왜 살아야 하는지가 분명하면 고통의 무게도 달라진다.",
+      "삶의 이유는 바깥에서 주어지기보다 안에 있다.",
+      "끝내 버티게 하는 힘은 조건보다 의미이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0013",
+    "meta": {
+      "tradition": "religion",
+      "category": "human",
+      "region": "Western",
+      "author": "바울",
+      "book": "『로마서』",
+      "chapter": "갈등",
+      "bookDisplay": "로마서"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 옳다고 아는 대로 언제나 살지 못한다.",
+      "원하는 것과 행하는 것 사이에는 자주 간극이 생긴다.",
+      "의지는 선을 향해도 행동은 쉽게 빗나간다.",
+      "이 모순은 단순한 위선보다 깊은 한계를 드러낸다.",
+      "내면의 갈등은 인간을 가장 인간답게 보여주는 장면이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0014",
+    "meta": {
+      "tradition": "religion",
+      "category": "human",
+      "region": "Eastern",
+      "author": "불교 전승",
+      "book": "『법구경』",
+      "chapter": "마음",
+      "bookDisplay": "법구경"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 바깥의 일보다 자기 마음 때문에 흔들린다.",
+      "생각은 말과 행동에 앞서 삶의 방향을 정한다.",
+      "집착은 대상을 붙드는 일 같지만 실은 자신을 묶는 일이다.",
+      "놓아버릴 수 있을 때 괴로움의 결도 달라진다.",
+      "자유는 마음을 다스리는 데서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0015",
+    "meta": {
+      "tradition": "religion",
+      "category": "human",
+      "region": "Eastern",
+      "author": "꾸란 전승",
+      "book": "『쿠란』",
+      "chapter": "망각",
+      "bookDisplay": "쿠란"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 받은 것을 쉽게 잊어버리는 존재다.",
+      "약함 속에서도 스스로 충분하다고 착각한다.",
+      "망각은 마음을 거칠게 만들고 교만으로 이어진다.",
+      "기억은 다시 제자리를 찾게 하는 힘이 된다.",
+      "자신의 근원을 잊지 않을 때 삶의 방향도 흐트러지지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0016",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "니체",
+      "book": "『차라투스트라는 이렇게 말했다』",
+      "chapter": "극복",
+      "bookDisplay": "차라투스트라는 이렇게 말했다"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 현재의 자신에 머물지 않으려는 존재다.",
+      "익숙한 기준에만 머물면 삶은 금세 굳어진다.",
+      "고통은 단지 피해야 할 것이 아니라 변형의 계기가 되기도 한다.",
+      "넘어서는 힘은 타인의 기준보다 자기 안에서 나온다.",
+      "살아 있다는 감각은 결국 스스로를 다시 만드는 것이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0017",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "키에르케고르",
+      "book": "『죽음에 이르는 병』",
+      "chapter": "절망",
+      "bookDisplay": "죽음에 이르는 병"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자기 자신과 어긋날 때 가장 깊이 무너진다.",
+      "문제는 조건의 부족보다 자기와 멀어진 데서 시작된다.",
+      "회피는 잠시 편할 수 있어도 상태를 더 악화시킨다.",
+      "직면할 때 비로소 변화의 가능성이 열린다.",
+      "회복은 외부가 아니라 자신과 다시 연결되는 데서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0018",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "human",
+      "region": "Western",
+      "author": "마르쿠스 아우렐리우스",
+      "book": "『명상록』",
+      "chapter": "태도",
+      "bookDisplay": "명상록"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 사건보다 그것을 해석하는 방식에 더 크게 흔들린다.",
+      "바깥의 일은 뜻대로 되지 않아도 반응은 선택할 수 있다.",
+      "분노와 불안은 외부에서 바로 들어오기보다 내부 판단을 거쳐 커진다.",
+      "내면을 지킬 수 있을 때 상황은 같아도 삶의 질은 달라진다.",
+      "평온은 조건 없는 승리보다 태도의 훈련에서 나온다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0019",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "Western",
+      "author": "안토니오 다마지오",
+      "book": "『데카르트의 오류』",
+      "chapter": "감정과 판단",
+      "bookDisplay": "데카르트의 오류"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 이성만으로 판단하는 존재가 아니다.",
+      "감정은 생각을 흐리는 방해물이라기보다 결정을 돕는 신호이다.",
+      "몸의 반응은 무엇이 중요한지를 먼저 알려준다.",
+      "정서가 사라지면 선택은 오히려 더 불안정해질 수 있다.",
+      "판단은 머리와 마음이 함께 움직일 때 비로소 현실이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0020",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "Western",
+      "author": "대니얼 카너먼",
+      "book": "『생각에 관한 생각』",
+      "chapter": "편향",
+      "bookDisplay": "생각에 관한 생각"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 스스로 믿는 것만큼 늘 합리적인 존재가 아니다.",
+      "빠른 직관은 유용하지만 자주 오류를 만든다.",
+      "편향은 어리석은 사람만의 문제가 아니라 누구에게나 반복된다.",
+      "느린 사고가 이를 고칠 수 있지만 항상 충분히 작동하지는 않는다.",
+      "지혜는 완벽한 판단보다 실수를 알아차리고 수정하는 데 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0021",
+    "meta": {
+      "tradition": "sociology",
+      "category": "human",
+      "region": "Western",
+      "author": "에밀 뒤르켐",
+      "book": "『사회분업론』",
+      "chapter": "사회",
+      "bookDisplay": "사회분업론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 혼자 완성되는 존재가 아니라 사회 속에서 형성되는 존재다.",
+      "개인의 의지 밖에도 행동을 규정하는 규범과 질서가 존재한다.",
+      "역할이 나뉠수록 서로의 삶은 더 깊이 연결된다.",
+      "공동의 기준이 약해지면 삶도 쉽게 흔들린다.",
+      "개인을 이해하려면 그를 둘러싼 구조까지 함께 보아야 한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0022",
+    "meta": {
+      "tradition": "sociology",
+      "category": "human",
+      "region": "Western",
+      "author": "어빙 고프먼",
+      "book": "『일상생활에서의 자아표현』",
+      "chapter": "역할",
+      "bookDisplay": "일상생활에서의 자아표현"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 언제나 같은 얼굴로만 살아가지 않는다.",
+      "상황이 달라지면 말투와 표정과 태도도 달라진다.",
+      "타인의 시선은 생각보다 깊게 행동을 조정한다.",
+      "이 연출은 거짓만이 아니라 사회를 살아가는 기술이 된다.",
+      "자아는 고정된 하나라기보다 관계 속에서 드러나는 여러 표정이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0023",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Western",
+      "author": "셰익스피어",
+      "book": "『햄릿』",
+      "chapter": "망설임",
+      "bookDisplay": "햄릿"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 생각이 깊어질수록 쉽게 멈춰 서는 존재다.",
+      "행동해야 하는 순간에도 의식은 끝없이 다른 가능성을 불러온다.",
+      "결단의 무게를 아는 자일수록 단순하게 움직이기 어렵다.",
+      "망설임은 약함이 아니라 과도한 자각의 결과이다.",
+      "비극은 무지가 아니라 너무 오래 생각하는 데서 태어난다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0024",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Western",
+      "author": "도스토옙스키",
+      "book": "『지하로부터의 수기』",
+      "chapter": "모순",
+      "bookDisplay": "지하로부터의 수기"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자기 이익에 맞는 길만 택하는 단순한 존재가 아니다.",
+      "손해가 분명한데도 고집스럽게 다른 길을 택할 때가 있다.",
+      "논리로 정리되지 않는 선택 속에서 의지는 오히려 더 강하게 드러난다.",
+      "비합리성은 오류일 뿐 아니라 자유의 과장된 표현이 되기도 한다.",
+      "인간은 계산 가능한 기계가 아니라 예측을 벗어나는 존재에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0025",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Western",
+      "author": "톨스토이",
+      "book": "『이반 일리치의 죽음』",
+      "chapter": "죽음",
+      "bookDisplay": "이반 일리치의 죽음"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 죽음이 가까워질 때 삶의 진실을 다시 묻게 된다.",
+      "겉으로 잘 정돈된 인생도 마지막 순간에는 공허로 드러날 수 있다.",
+      "성공과 체면은 오래 남지만 진실을 대신하지는 못한다.",
+      "죽음은 삶의 장식을 벗기고 핵심만 남긴다.",
+      "마지막 질문은 얼마나 높이 올랐는가보다 어떻게 살았는가이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0026",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Western",
+      "author": "생텍쥐페리",
+      "book": "『어린 왕자』",
+      "chapter": "관계",
+      "bookDisplay": "어린 왕자"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 관계를 맺을 때 비로소 세계를 다르게 보는 존재다.",
+      "시간을 들인 대상은 더 이상 익명의 사물이 아니다.",
+      "중요한 것은 눈보다 마음에 먼저 남는다.",
+      "사랑은 감정으로 시작해 책임으로 깊어진다.",
+      "삶을 바꾸는 것은 많은 소유보다 단 하나의 진실한 연결이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0027",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Eastern",
+      "author": "박경리",
+      "book": "『토지』",
+      "chapter": "지속",
+      "bookDisplay": "토지"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 상실과 폭력 속에서도 끝내 삶을 이어가는 존재다.",
+      "무너지지 않는다는 말은 화려한 승리보다는 다시 일상을 살아내는 힘이다.",
+      "삶은 찬란한 순간보다 오래 버티는 시간 속에서 더 선명해진다.",
+      "땅과 관계와 세월은 사람을 다시 묶어 세운다.",
+      "위대함은 특별한 영웅성보다 꺾인 뒤에도 계속 살아가는 끈질김이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0028",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Western",
+      "author": "헤르만 헤세",
+      "book": "『데미안』",
+      "chapter": "성장",
+      "bookDisplay": "데미안"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 주어진 모습 그대로 머무르지 않으려는 존재다.",
+      "익숙한 세계를 깨뜨려야 새로운 자신에게 닿는다.",
+      "갈등과 상처는 단지 방해가 아니라 성장의 문이다.",
+      "안전한 질서만 붙들면 내면은 자라지 못한다.",
+      "자기 발견은 결국 한 번 더 태어나는 일과 닮아 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0029",
+    "meta": {
+      "tradition": "literature",
+      "category": "human",
+      "region": "Western",
+      "author": "단테",
+      "book": "『신곡』",
+      "chapter": "여정",
+      "bookDisplay": "신곡"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 길을 잃은 뒤에야 자신이 어디에 서 있는지 안다.",
+      "어둠은 방향을 잃게 하지만 동시에 길을 찾게도 만든다.",
+      "추락과 통과의 시간이 없으면 성찰도 얕아지기 쉽다.",
+      "더 높은 곳으로 오르기 위해서는 먼저 깊은 곳을 지나야 한다.",
+      "구원은 단번에 주어지기보다 긴 여정을 통과하며 이루어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_FINAL_0030",
+    "meta": {
+      "tradition": "film",
+      "category": "human",
+      "region": "global",
+      "author": "안드레이 타르콥스키",
+      "book": "『봉인된 시간』",
+      "chapter": "성찰",
+      "bookDisplay": "봉인된 시간"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 단순히 소비만으로는 충족되지 않는 존재다.",
+      "기억과 시간은 삶을 안쪽에서 천천히 바꾸어 놓는다.",
+      "아름다움은 설명보다 먼저 마음을 흔든다.",
+      "성찰은 삶을 멈추게 하는 일이 아니라 더 깊게 보는 일이다.",
+      "보이는 현실 너머를 갈망할 때 존재는 비로소 넓어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0031",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "cosmology",
+      "author": "브라이언 그린",
+      "book": "『엘러건트 유니버스』",
+      "chapter": "우주의 구조",
+      "bookDisplay": "엘러건트 유니버스"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 보이는 세계보다 훨씬 복잡한 구조 위에 놓여 있다.",
+      "현실은 직관보다 더 깊은 층에서 작동한다.",
+      "감각은 전체를 포착하지 못한다.",
+      "이해하려는 시도는 언제나 한계를 가진다.",
+      "그럼에도 인간은 계속 설명하려 한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0032",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "cosmology",
+      "author": "로저 펜로즈",
+      "book": "『황제의 새 마음』",
+      "chapter": "의식",
+      "bookDisplay": "황제의 새 마음"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 계산으로 환원되지 않는 의식을 가진 존재다.",
+      "생각은 단순한 알고리즘 이상으로 작동한다.",
+      "이해는 기계적 처리와 다른 층에서 일어난다.",
+      "의식은 아직 완전히 설명되지 않는다.",
+      "이 미해결성이 인간을 특별하게 만든다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0033",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "evolution",
+      "author": "스티븐 제이 굴드",
+      "book": "『풀하우스』",
+      "chapter": "우연",
+      "bookDisplay": "풀하우스"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 필연의 결과라기보다 우연의 축적 위에 존재한다.",
+      "진화는 목표를 향해 움직이지 않는다.",
+      "작은 변이들이 쌓이며 방향이 만들어진다.",
+      "현재의 모습은 수많은 가능성 중 하나다.",
+      "존재 자체가 우연에 기대고 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0034",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "evolution",
+      "author": "사라 허디",
+      "book": "『어머니의 본성』",
+      "chapter": "양육",
+      "bookDisplay": "어머니의 본성"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 협력적 양육을 통해 생존해온 존재다.",
+      "아이의 성장은 한 개인이 아닌 집단의 역할에 기대어 있다.",
+      "돌봄은 단순한 본능을 넘어 사회적 구조로 확장된다.",
+      "유대는 생존 전략과 깊이 연결된다.",
+      "관계는 생물학적 기반 위에 형성된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0035",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "sociobiology",
+      "author": "로버트 트리버스",
+      "book": "『상호적 이타성』",
+      "chapter": "이타성",
+      "bookDisplay": "상호적 이타성"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 완전히 이기적이거나 완전히 이타적이지 않다.",
+      "도움은 종종 되돌아올 것을 전제로 이루어진다.",
+      "협력은 반복되는 관계 속에서 강화된다.",
+      "신뢰는 계산과 경험 위에 쌓인다.",
+      "이타성은 전략이 될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0036",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "대니얼 길버트",
+      "book": "『행복에 걸려 비틀거리다』",
+      "chapter": "예측",
+      "bookDisplay": "행복에 걸려 비틀거리다"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 미래의 감정을 자주 잘못 예측한다.",
+      "행복과 불행을 과장해서 상상한다.",
+      "실제 경험은 예상보다 빠르게 적응된다.",
+      "기대와 현실 사이에는 간극이 존재한다.",
+      "예측은 늘 정확하지 않다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0037",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "바우마이스터",
+      "book": "『의지력』",
+      "chapter": "자제력",
+      "bookDisplay": "의지력"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 의지로 행동을 조절하려 하지만 쉽게 소진된다.",
+      "자제력은 무한하지 않다.",
+      "피로가 쌓이면 판단도 흔들린다.",
+      "통제는 조건에 따라 달라진다.",
+      "의지는 자원처럼 사용된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0038",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "댄 애리얼리",
+      "book": "『상식 밖의 경제학』",
+      "chapter": "비합리성",
+      "bookDisplay": "상식 밖의 경제학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 일정한 방식으로 비합리적으로 행동한다.",
+      "실수는 무작위가 아니라 패턴을 가진다.",
+      "상황이 선택을 크게 바꾼다.",
+      "가격과 가치의 판단은 쉽게 왜곡된다.",
+      "합리성은 조건에 따라 흔들린다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0039",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "마이클 가자니가",
+      "book": "『뇌는 어떻게 결정을 내리는가』",
+      "chapter": "뇌",
+      "bookDisplay": "뇌는 어떻게 결정을 내리는가"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 이미 내려진 결정을 나중에 설명하는 존재다.",
+      "의식은 모든 과정을 통제하지 않는다.",
+      "행동은 무의식적 처리에서 먼저 시작된다.",
+      "이후에 의미가 부여된다.",
+      "자아는 결과를 해석하는 역할을 한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0040",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "리사 펠드먼 배럿",
+      "book": "『감정은 어떻게 만들어지는가』",
+      "chapter": "감정",
+      "bookDisplay": "감정은 어떻게 만들어지는가"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 감정을 단순히 느끼는 것이 아니라 만들어낸다.",
+      "경험과 개념이 감정을 구성한다.",
+      "같은 자극도 다르게 해석될 수 있다.",
+      "감정은 고정된 반응이 아니다.",
+      "뇌는 끊임없이 의미를 조합한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0041",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "evolution",
+      "author": "데이비드 버스",
+      "book": "『진화심리학』",
+      "chapter": "짝짓기",
+      "bookDisplay": "진화심리학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 짝을 선택하는 데에서도 진화적 전략을 따른다.",
+      "선호는 무작위가 아니라 패턴을 가진다.",
+      "환경과 조건이 기준을 바꾼다.",
+      "욕망은 생존과 연결된다.",
+      "선택은 깊은 층에서 형성된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0042",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "sociobiology",
+      "author": "사무엘 보울스",
+      "book": "『도덕경제학』",
+      "chapter": "협력",
+      "bookDisplay": "도덕경제학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 협력하면서도 경쟁하는 이중 구조를 가진다.",
+      "집단 내 규칙이 행동을 조정한다.",
+      "처벌과 보상이 질서를 유지한다.",
+      "공정성 감각이 협력을 강화한다.",
+      "도덕은 사회적 도구가 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0043",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "캐롤 드웩",
+      "book": "『마인드셋』",
+      "chapter": "성장",
+      "bookDisplay": "마인드셋"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 능력을 고정된 것과 변화 가능한 것으로 본다.",
+      "믿음은 행동을 바꾼다.",
+      "실패를 해석하는 방식이 성장을 결정한다.",
+      "노력은 의미를 달리 가진다.",
+      "태도가 가능성을 확장한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0044",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "마틴 셀리그만",
+      "book": "『학습된 무기력』",
+      "chapter": "무기력",
+      "bookDisplay": "학습된 무기력"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 반복된 실패 속에서 시도를 멈추기도 한다.",
+      "통제할 수 없다고 느낄 때 행동이 줄어든다.",
+      "가능성이 있어도 포기할 수 있다.",
+      "경험이 기대를 만든다.",
+      "희망은 학습될 수도 사라질 수도 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0045",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "알버트 반두라",
+      "book": "『자기효능감』",
+      "chapter": "신념",
+      "bookDisplay": "자기효능감"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 할 수 있다고 믿는 만큼 시도하는 존재다.",
+      "신념이 행동의 범위를 정한다.",
+      "성공 경험이 자신감을 강화한다.",
+      "실패는 기준을 흔들 수 있다.",
+      "자기 인식이 행동을 결정한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0046",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "로이 바우마이스터",
+      "book": "『의미 있는 삶』",
+      "chapter": "의미",
+      "bookDisplay": "의미 있는 삶"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 단순한 쾌락만으로는 만족하지 않는다.",
+      "의미를 찾으려는 경향이 존재한다.",
+      "목표와 가치가 삶을 조직한다.",
+      "고통도 의미 안에서 다르게 해석된다.",
+      "삶은 방향을 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0047",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "cosmology",
+      "author": "로렌스 크라우스",
+      "book": "『무로부터의 우주』",
+      "chapter": "기원",
+      "bookDisplay": "무로부터의 우주"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 절대적 시작 없이 이어진 과정 속에 존재한다.",
+      "우주는 고정된 기반 없이도 형성될 수 있다.",
+      "존재는 필연이 아니라 가능성 위에 놓인다.",
+      "기원은 단순하지 않다.",
+      "이해는 계속 수정된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0048",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "대니얼 핑크",
+      "book": "『드라이브』",
+      "chapter": "동기",
+      "bookDisplay": "드라이브"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 보상만으로 움직이지 않는다.",
+      "자율성과 의미가 동기를 만든다.",
+      "통제는 창의성을 제한한다.",
+      "내적 동기가 지속성을 만든다.",
+      "동기는 구조에 따라 달라진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0049",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "조지 레이코프",
+      "book": "『생각의 구조』",
+      "chapter": "개념",
+      "bookDisplay": "생각의 구조"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 개념을 통해 세상을 이해한다.",
+      "언어가 사고를 형성한다.",
+      "비유가 생각의 틀을 만든다.",
+      "인식은 중립적이지 않다.",
+      "사고는 구조에 의존한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0050",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "스티븐 핑커",
+      "book": "『우리 본성의 선한 천사』",
+      "chapter": "폭력",
+      "bookDisplay": "우리 본성의 선한 천사"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 폭력성과 공감 능력을 동시에 가진다.",
+      "환경과 제도가 행동을 바꾼다.",
+      "역사는 점진적 변화를 보여준다.",
+      "감정은 양면성을 가진다.",
+      "본성은 하나로 고정되지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0051",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "evolution",
+      "author": "재러드 다이아몬드",
+      "book": "『총, 균, 쇠』",
+      "chapter": "환경",
+      "bookDisplay": "총, 균, 쇠"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 환경에 따라 다른 길을 걸어온 존재다.",
+      "지리와 자원이 역사에 영향을 준다.",
+      "능력만으로 결과가 결정되지 않는다.",
+      "조건이 기회를 만든다.",
+      "차이는 구조에서 발생한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0052",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "폴 블룸",
+      "book": "『공감의 배신』",
+      "chapter": "공감",
+      "bookDisplay": "공감의 배신"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 공감하지만 그것이 항상 올바른 판단을 만드는 것은 아니다.",
+      "감정은 편향을 만들 수 있다.",
+      "가까운 대상에 더 크게 반응한다.",
+      "이성은 이를 보완할 필요가 있다.",
+      "공감은 완전한 기준이 아니다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0053",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "니컬러스 카",
+      "book": "『생각하지 않는 사람들』",
+      "chapter": "주의",
+      "bookDisplay": "생각하지 않는 사람들"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 환경에 따라 사고 방식이 변한다.",
+      "정보 구조가 집중을 바꾼다.",
+      "깊은 사고는 점점 어려워질 수 있다.",
+      "주의는 제한된 자원이다.",
+      "사용 방식이 능력을 형성한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0054",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "대니얼 골먼",
+      "book": "『감성지능』",
+      "chapter": "감정",
+      "bookDisplay": "감성지능"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 감정을 이해할 때 더 나은 선택을 할 수 있다.",
+      "자기 인식이 행동을 바꾼다.",
+      "감정 조절이 관계를 좌우한다.",
+      "지능은 단일하지 않다.",
+      "능력은 여러 층으로 이루어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0055",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "sociobiology",
+      "author": "조지 프라이스",
+      "book": "『프라이스 방정식』",
+      "chapter": "진화",
+      "bookDisplay": "프라이스 방정식"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 협력과 이기성이 동시에 진화한 존재다.",
+      "집단 수준의 선택도 영향을 준다.",
+      "행동은 여러 층에서 설명된다.",
+      "단일한 원인으로 환원되지 않는다.",
+      "복합성이 본질이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0056",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "에이모스 트버스키",
+      "book": "『판단과 의사결정』",
+      "chapter": "판단",
+      "bookDisplay": "판단과 의사결정"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 확률을 직관적으로 잘 이해하지 못한다.",
+      "작은 표본에서도 일반화를 시도한다.",
+      "대표성이 판단을 왜곡한다.",
+      "불확실성에서 오류가 증가한다.",
+      "판단은 체계적으로 흔들린다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0057",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "스티븐 코슬린",
+      "book": "『마음의 이미지』",
+      "chapter": "인지",
+      "bookDisplay": "마음의 이미지"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 시각적 이미지로 사고하기도 한다.",
+      "생각은 언어만으로 이루어지지 않는다.",
+      "이미지가 판단에 영향을 준다.",
+      "인지 방식은 다양하다.",
+      "사고는 여러 형태로 작동한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0058",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "cosmology",
+      "author": "닐 디그래스 타이슨",
+      "book": "『우주의 이해』",
+      "chapter": "우주",
+      "bookDisplay": "우주의 이해"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 거대한 우주 속에서 극히 작은 존재다.",
+      "규모를 인식할 때 관점이 달라진다.",
+      "중심이라는 감각은 상대적이다.",
+      "위치는 의미를 재구성한다.",
+      "겸손이 이해를 확장한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0059",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "evolution",
+      "author": "대니얼 데닛",
+      "book": "『의식의 수수께끼』",
+      "chapter": "의식",
+      "bookDisplay": "의식의 수수께끼"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 점진적으로 형성된 의식을 가진 존재다.",
+      "복잡한 과정이 단순한 경험으로 나타난다.",
+      "자아는 고정된 실체가 아닐 수 있다.",
+      "과정이 결과를 만든다.",
+      "의식은 진화의 산물이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_SCI_0060",
+    "meta": {
+      "tradition": "science",
+      "category": "human",
+      "region": "psychology",
+      "author": "에드 디너",
+      "book": "『행복의 과학』",
+      "chapter": "행복",
+      "bookDisplay": "행복의 과학"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 조건보다 해석에 따라 행복을 느낀다.",
+      "같은 상황도 다르게 경험한다.",
+      "적응이 감정을 변화시킨다.",
+      "비교가 만족도를 흔든다.",
+      "행복은 고정된 상태가 아니다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0061",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "프로이트",
+      "book": "『정신분석 입문』",
+      "chapter": "무의식",
+      "bookDisplay": "정신분석 입문"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 스스로 이해한다고 믿는 것보다 훨씬 덜 투명한 존재다.",
+      "겉으로 설명되는 이유 뒤에는 다른 욕망과 두려움이 숨어 있다.",
+      "억눌린 감정은 사라지지 않고 다른 형태로 돌아온다.",
+      "의식은 표면을 정리하지만 깊은 층 전체를 지배하지 못한다.",
+      "그래서 마음은 단순한 결심만으로는 다뤄지지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0062",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "칼 융",
+      "book": "『인간과 상징』",
+      "chapter": "그림자",
+      "bookDisplay": "인간과 상징"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 받아들이고 싶은 모습만으로 자신을 구성하지 않는다.",
+      "밀어낸 면은 사라지지 않고 다른 얼굴로 나타난다.",
+      "싫어하는 타인의 모습 안에서 자기 그림자를 만나기도 한다.",
+      "성숙은 좋은 면을 키우는 일만이 아니라 낯선 면을 견디는 일이다.",
+      "온전함은 순수함보다 통합에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0063",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "도널드 위니컷",
+      "book": "『놀이와 현실』",
+      "chapter": "참자기와 거짓자기",
+      "bookDisplay": "놀이와 현실"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 살아남기 위해 자신을 감추는 존재가 되기도 한다.",
+      "기대에 맞추는 일이 계속되면 진짜 원하는 것이 흐려질 수 있다.",
+      "겉으로는 잘 기능해도 안쪽은 공허할 때가 있다.",
+      "안전한 관계 안에서만 비로소 자연스러운 자기가 드러난다.",
+      "자기다움은 혼자 결심한다고 생기지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0064",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "존 볼비",
+      "book": "『애착』",
+      "chapter": "애착과 안정",
+      "bookDisplay": "애착"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 안전하다고 느낄 때 더 멀리 나아갈 수 있는 존재다.",
+      "가까운 관계의 안정감은 모험의 반대가 아니라 그 기반이 된다.",
+      "버림받을까 두려운 마음은 사랑보다 불안을 먼저 붙들게 만든다.",
+      "초기 관계의 경험은 이후의 신뢰 방식에 오래 남는다.",
+      "관계는 단지 감정이 아니라 삶 전체의 기초 구조가 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0065",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "하인츠 코헛",
+      "book": "『자기의 분석』",
+      "chapter": "자기와 공감",
+      "bookDisplay": "자기의 분석"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 이해받는 경험 없이는 쉽게 부서지는 존재다.",
+      "존중받지 못한 마음은 자신을 안정적으로 느끼기 어렵다.",
+      "공감은 단순한 친절보다 자기감을 세우는 조건이 된다.",
+      "과장된 자존심 뒤에 오래된 결핍이 숨어 있을 수 있다.",
+      "자기를 지탱하는 힘은 인정의 경험과 깊이 연결된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0066",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "자크 라캉",
+      "book": "『에크리』",
+      "chapter": "욕망",
+      "bookDisplay": "에크리"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 원하는 것을 곧바로 아는 존재가 아니다.",
+      "욕망은 늘 타인의 시선과 언어를 거치며 굴절된다.",
+      "갖고 싶은 것보다 인정받고 싶은 것이 더 깊게 작동한다.",
+      "말은 마음을 표현하지만 동시에 마음을 멀어지게도 만든다.",
+      "그래서 욕망은 채워지는 대상이 아니라 계속 어긋나는 구조이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0067",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "에리히 프롬",
+      "book": "『자유로부터의 도피』",
+      "chapter": "자유와 불안",
+      "bookDisplay": "자유로부터의 도피"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자유를 원하면서도 동시에 그것을 두려워하는 존재다.",
+      "스스로 결정해야 한다는 사실은 해방이면서 부담이 된다.",
+      "불안이 커질수록 누군가 대신 정해주기를 바라기도 한다.",
+      "복종은 때때로 평온처럼 느껴지지만 자기 상실을 부른다.",
+      "자유를 견디는 힘은 생각보다 훈련이 필요하다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0068",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "알버트 엘리스",
+      "book": "『이성과 감정의 심리치료』",
+      "chapter": "해석",
+      "bookDisplay": "이성과 감정의 심리치료"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 사건 그 자체보다 그것을 해석하는 방식에 흔들린다.",
+      "절대적이어야 한다는 믿음은 감정을 극단으로 몰고 간다.",
+      "생각의 언어가 바뀌면 고통의 강도도 달라질 수 있다.",
+      "현실보다 요구가 더 사람을 지치게 만들 때가 많다.",
+      "마음은 사실과 믿음을 구분할 때 조금씩 가벼워진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0069",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "아론 벡",
+      "book": "『인지치료와 정서장애』",
+      "chapter": "자동사고",
+      "bookDisplay": "인지치료와 정서장애"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 의식하지 못한 생각에 의해 하루의 감정이 끌려가는 존재다.",
+      "순간적으로 떠오른 해석은 사실처럼 느껴지기 쉽다.",
+      "한 번 굳어진 생각의 틀은 세상을 같은 방향으로만 읽게 만든다.",
+      "우울과 불안은 종종 현실보다 해석의 습관과 더 깊이 연결된다.",
+      "생각을 붙잡아 보는 일은 마음을 바꾸는 시작이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0070",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "마틴 셀리그만",
+      "book": "『학습된 낙관주의』",
+      "chapter": "설명양식",
+      "bookDisplay": "학습된 낙관주의"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 실패보다 실패를 설명하는 방식에 더 영향을 받는다.",
+      "모든 문제를 영원하고 전면적인 것으로 해석하면 쉽게 무기력해진다.",
+      "반대로 한정된 사건으로 바라보면 다시 움직일 여지가 생긴다.",
+      "희망은 막연한 기분이 아니라 해석의 습관과 연결된다.",
+      "낙관은 현실 회피보다 회복의 기술에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0071",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "레온 페스팅거",
+      "book": "『인지부조화 이론』",
+      "chapter": "부조화",
+      "bookDisplay": "인지부조화 이론"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자신의 생각과 행동이 어긋날 때 견디기 어려운 존재다.",
+      "그래서 행동을 바꾸기보다 생각을 바꾸어 맞추려 할 때가 많다.",
+      "모순은 진실을 드러내기도 하지만 합리화를 낳기도 한다.",
+      "자기 일관성에 대한 욕구는 생각보다 강하다.",
+      "사람은 사실보다 스스로 납득 가능한 이야기를 더 빨리 선택한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0072",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "솔로몬 애시",
+      "book": "『독립성과 순응의 연구』",
+      "chapter": "순응",
+      "bookDisplay": "독립성과 순응의 연구"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 명백한 사실 앞에서도 다수의 판단에 흔들린다.",
+      "틀렸다는 것을 알아도 혼자 남는 일은 부담이 된다.",
+      "소속되고 싶은 욕구는 지각 자체를 흔들기도 한다.",
+      "의견은 언제나 개인 안에서만 형성되지 않는다.",
+      "독립성은 생각보다 강한 용기를 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0073",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "스탠리 밀그램",
+      "book": "『권위에 대한 복종』",
+      "chapter": "복종",
+      "bookDisplay": "권위에 대한 복종"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 스스로 잔인하다고 믿지 않으면서도 권위에 따라 해로운 행동을 할 수 있는 존재다.",
+      "책임이 위로 올라갈수록 죄책감은 줄어드는 듯 느껴진다.",
+      "명령은 판단을 마비시키는 면죄부처럼 작동하기도 한다.",
+      "악의 평범함은 특별한 성격보다 상황의 구조와 더 가까울 때가 있다.",
+      "양심은 혼자 있을 때보다 체계 안에 있을 때 더 쉽게 약해질 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0074",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "필립 짐바르도",
+      "book": "『루시퍼 이펙트』",
+      "chapter": "상황",
+      "bookDisplay": "루시퍼 이펙트"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 성격만으로 설명되지 않고 상황에 의해 급격히 달라질 수 있는 존재다.",
+      "역할과 환경은 예상보다 큰 힘으로 행동을 밀어낸다.",
+      "좋은 사람도 나쁜 구조 안에서 쉽게 변형될 수 있다.",
+      "도덕은 개인의 의지와 함께 제도의 영향을 받는다.",
+      "스스로를 안다고 믿는 일은 때때로 가장 위험한 착각이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0075",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "헨리 타지펠",
+      "book": "『사회정체성 이론』",
+      "chapter": "집단",
+      "bookDisplay": "사회정체성 이론"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 아주 작은 구분만으로도 금세 우리와 그들을 나누는 존재다.",
+      "집단에 속한다는 감각은 자존감과 판단을 동시에 바꾼다.",
+      "차이는 본질보다 분류의 효과로 커질 때가 많다.",
+      "소속은 안정감을 주지만 배제를 낳기도 한다.",
+      "사람은 개인이기 전에 종종 집단의 마음으로 반응한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0076",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "어빙 재니스",
+      "book": "『집단사고』",
+      "chapter": "합의",
+      "bookDisplay": "집단사고"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 함께 있을 때 더 현명해지기도 하지만 더 어리석어지기도 한다.",
+      "갈등을 피하려는 분위기는 비판적 사고를 약하게 만든다.",
+      "합의의 속도는 때로 진실의 깊이를 해친다.",
+      "반대 의견이 사라진 집단은 자신감을 얻는 대신 현실 감각을 잃기 쉽다.",
+      "좋은 결정은 단합보다 이견을 견디는 힘에서 나온다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0077",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "에리빙 고프먼",
+      "book": "『일상생활에서의 자아표현』",
+      "chapter": "자아표현",
+      "bookDisplay": "일상생활에서의 자아표현"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 언제나 있는 그대로만 드러내며 살지 않는다.",
+      "상황에 따라 보여줄 얼굴과 감출 얼굴을 조절한다.",
+      "체면은 거짓이라기보다 사회생활의 기술이 된다.",
+      "타인의 시선은 자아의 일부를 실제로 구성한다.",
+      "삶은 진실과 연출이 섞여 있는 무대와 닮아 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0078",
+    "meta": {
+      "tradition": "behavioral_economics",
+      "category": "human",
+      "region": "global",
+      "author": "대니얼 카너먼",
+      "book": "『생각에 관한 생각』",
+      "chapter": "두 체계",
+      "bookDisplay": "생각에 관한 생각"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 천천히 생각하기 전에 먼저 빠르게 반응하는 존재다.",
+      "직관은 편리하지만 자주 착각을 낳는다.",
+      "이성은 교정할 수 있지만 늘 부지런히 개입하지는 않는다.",
+      "판단은 두 방식의 긴장 속에서 이루어진다.",
+      "합리성은 본성이라기보다 애써 유지해야 하는 작업에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0079",
+    "meta": {
+      "tradition": "behavioral_economics",
+      "category": "human",
+      "region": "global",
+      "author": "아모스 트버스키 · 대니얼 카너먼",
+      "book": "『전망이론』",
+      "chapter": "손실",
+      "bookDisplay": "전망이론"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 같은 크기의 이익보다 손실에 더 크게 흔들린다.",
+      "잃는 고통은 얻는 기쁨보다 오래 남는다.",
+      "그래서 사람은 비합리적인 위험을 감수하며 손실을 피하려 한다.",
+      "선택은 계산보다 감정의 비대칭에 더 크게 끌린다.",
+      "두려움은 판단의 방향을 바꾸어 놓는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0080",
+    "meta": {
+      "tradition": "behavioral_economics",
+      "category": "human",
+      "region": "global",
+      "author": "리처드 세일러",
+      "book": "『넛지』",
+      "chapter": "선택설계",
+      "bookDisplay": "넛지"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 선택보다 어떻게 제시되느냐에 더 쉽게 움직인다.",
+      "사람은 늘 처음부터 끝까지 숙고하지 않는다.",
+      "기본값과 배열과 문구의 작은 차이가 행동을 바꾼다.",
+      "자유는 유지되지만 방향은 유도될 수 있다.",
+      "생각보다 많은 결정이 의지보다 환경에 기대어 이루어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0081",
+    "meta": {
+      "tradition": "behavioral_economics",
+      "category": "human",
+      "region": "global",
+      "author": "댄 애리얼리",
+      "book": "『상식 밖의 경제학』",
+      "chapter": "비합리성",
+      "bookDisplay": "상식 밖의 경제학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 무작위가 아니라 일정한 방식으로 비합리적인 존재다.",
+      "판단의 오류는 반복되는 패턴을 가진다.",
+      "주변 맥락이 바뀌면 가치 판단도 쉽게 변한다.",
+      "비합리성은 예외가 아니라 일상의 구조가 되기도 한다.",
+      "자기 확신은 크지만 선택의 뿌리는 생각보다 흔들리기 쉽다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0082",
+    "meta": {
+      "tradition": "behavioral_economics",
+      "category": "human",
+      "region": "global",
+      "author": "조지 애컬로프 · 로버트 실러",
+      "book": "『야성적 충동』",
+      "chapter": "감정과 경제",
+      "bookDisplay": "야성적 충동"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 숫자가 아니라 분위기와 감정에 크게 끌리는 존재다.",
+      "신뢰와 공포는 시장에서도 실제 힘으로 작동한다.",
+      "합리적 기대만으로는 집단의 움직임을 설명하기 어렵다.",
+      "희망은 과열을 만들고 불안은 급격한 수축을 부른다.",
+      "경제의 얼굴 뒤에는 늘 심리의 온도가 숨어 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0083",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "앨버트 반두라",
+      "book": "『자기효능감』",
+      "chapter": "시도",
+      "bookDisplay": "자기효능감"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 할 수 있다고 믿는 만큼 시도하는 존재다.",
+      "능력 그 자체보다 능력을 바라보는 믿음이 행동의 크기를 바꾼다.",
+      "반복된 성공은 자신감을 키우고 반복된 실패는 움츠리게 만든다.",
+      "기대는 수행 이전에 이미 결과를 흔들고 있다.",
+      "가능성은 현실보다 먼저 마음속에서 좁아지거나 넓어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0084",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "캐럴 드웩",
+      "book": "『마인드셋』",
+      "chapter": "성장관",
+      "bookDisplay": "마인드셋"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자신의 능력을 어떻게 믿느냐에 따라 전혀 다르게 자란다.",
+      "고정된 한계라고 여기면 도전은 위협이 된다.",
+      "반대로 변화 가능한 과정이라 보면 실패도 정보가 된다.",
+      "배움은 재능보다 태도에 더 오래 기대어 축적된다.",
+      "성장은 결과보다 해석 방식에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0085",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "에드워드 데시 · 리처드 라이언",
+      "book": "『자기결정성이론』",
+      "chapter": "동기",
+      "bookDisplay": "자기결정성이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 강요보다 자율 안에서 움직이는 존재다.",
+      "선택권이 있다고 느낄 때 동기는 깊어진다.",
+      "유능감과 관계감이 함께 채워질 때 행동은 지속성을 얻는다.",
+      "보상은 시작을 돕지만 의미 없이는 오래가지 못한다.",
+      "잘 살고 있다는 감각은 자유와 함께 자라난다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0086",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "브레네 브라운",
+      "book": "『불완전함의 선물』",
+      "chapter": "취약성",
+      "bookDisplay": "불완전함의 선물"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 약함을 감출수록 더 고립되기 쉬운 존재다.",
+      "완벽해 보이려는 노력은 관계를 보호하기보다 멀어지게 한다.",
+      "상처받을 수 있음을 인정할 때 연결은 오히려 깊어진다.",
+      "취약성은 결함이 아니라 진실한 만남의 조건이 된다.",
+      "용기는 강한 척하는 것보다는 열려 있는 태도이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0087",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "대니얼 골먼",
+      "book": "『감성지능』",
+      "chapter": "감정조절",
+      "bookDisplay": "감성지능"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 똑똑함 만으로는 충분히 잘 살아내지 못한다.",
+      "자기 감정을 아는 힘은 관계와 선택을 함께 바꾼다.",
+      "감정을 억누르는 것과 다루는 것은 다르다.",
+      "타인의 마음을 읽는 능력은 사회적 삶의 핵심 자원이 된다.",
+      "지성은 마음을 다루는 기술까지 포함할 때 더 완전해진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0088",
+    "meta": {
+      "tradition": "social_psychology",
+      "category": "human",
+      "region": "global",
+      "author": "수전 피스크",
+      "book": "『사회적 인지』",
+      "chapter": "고정관념",
+      "bookDisplay": "사회적 인지"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 복잡한 세계를 빠르게 이해하려 타인을 단순화한다.",
+      "분류는 편리하지만 사람을 보지 못하게 만들기도 한다.",
+      "첫인상은 정보보다 빠르게 태도를 결정한다.",
+      "고정관념은 악의 없이도 차별을 유지시킬 수 있다.",
+      "이해는 느리지만 판단은 매우 빠르다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0089",
+    "meta": {
+      "tradition": "behavioral_economics",
+      "category": "human",
+      "region": "global",
+      "author": "로버트 치알디니",
+      "book": "『설득의 심리학』",
+      "chapter": "영향",
+      "bookDisplay": "설득의 심리학"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 독립적으로 판단한다고 믿지만 예상보다 쉽게 영향받는 존재다.",
+      "호감과 희소성, 권위와 사회적 증거는 생각보다 강하게 작동한다.",
+      "설득은 논리만으로 이루어지지 않는다.",
+      "결정은 상황 속 단서들과 함께 기울어진다.",
+      "자유의지는 존재하지만 늘 순수한 형태로만 작동하지는 않는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_PSY_0090",
+    "meta": {
+      "tradition": "psychology",
+      "category": "human",
+      "region": "global",
+      "author": "조너선 하이트",
+      "book": "『바른 마음』",
+      "chapter": "도덕직관",
+      "bookDisplay": "바른 마음"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 먼저 느끼고 나중에 옳고 그름의 이유를 만드는 존재다.",
+      "도덕 판단은 논리보다 직관에서 먼저 출발할 때가 많다.",
+      "이성은 판단을 시작하기보다 정당화하는 역할을 맡기도 한다.",
+      "서로 다른 집단이 같은 사실 앞에서도 다른 결론에 이르는 이유이다.",
+      "마음은 생각보다 먼저 이미 방향을 정해 놓고 있을 때가 많다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0091",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Mesopotamia",
+      "author": "메소포타미아 전승",
+      "book": "『길가메시 서사시』",
+      "chapter": "죽음과 명성",
+      "bookDisplay": "길가메시 서사시"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 죽음을 피할 수 없기에 흔적을 남기려는 존재다.",
+      "육신은 사라져도 이름은 오래 남기를 바란다.",
+      "상실은 삶의 한계를 깨닫게 하며, 동시에 위대한 일을 향하게 만든다.",
+      "불멸을 얻지 못하는 대신 기억될 삶을 꿈꾼다.",
+      "유한함은 인간을 작게 만들기보다는 더 크게 살고 싶게 만든다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0092",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Ancient Egypt",
+      "author": "이집트 전승",
+      "book": "『사자의 서』",
+      "chapter": "심판과 질서",
+      "bookDisplay": "사자의 서"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 죽은 뒤에도 자신의 행위를 저울질당하는 존재다.",
+      "삶은 단순한 생존이 아니라 우주의 질서와 조화를 맞추는 일이다.",
+      "말과 행동은 사라지지 않고 도덕적 무게를 남긴다.",
+      "질서를 거스르면 혼란이 따르고 조화를 따르면 평형이 회복된다.",
+      "삶은 일시적이어도 책임은 일시적이지 않다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0093",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Ancient Greece",
+      "author": "호메로스",
+      "book": "『오디세이아』",
+      "chapter": "귀향과 인내",
+      "bookDisplay": "오디세이아"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 길을 잃고도 끝내 돌아갈 자리를 찾는 존재다.",
+      "지혜는 힘보다 오래 살아남는 능력이 된다.",
+      "유혹과 위험 앞에서도 목적을 잊지 않을 때 삶은 무너지지 않는다.",
+      "방황은 단순한 지연이 아니라 정체를 증명하는 시험이 된다.",
+      "고향은 장소이면서 동시에 자기 자신에게 돌아가는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0094",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Ancient Rome",
+      "author": "베르길리우스",
+      "book": "『아이네이스』",
+      "chapter": "사명",
+      "bookDisplay": "아이네이스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 개인의 욕망보다 더 큰 사명을 짊어질 수 있는 존재다.",
+      "상실을 겪고도 공동의 미래를 위해 길을 이어 간다.",
+      "운명은 마음대로 고를 수 없지만 응답하는 방식은 선택할 수 있다.",
+      "참된 위엄은 감정이 없는 것보다 감정을 넘어서 책임을 붙든다.",
+      "개인의 삶은 문명의 시작점이 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0095",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Hebrew Civilization",
+      "author": "히브리 전승",
+      "book": "『전도서』",
+      "chapter": "헛됨과 지혜",
+      "bookDisplay": "전도서"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 모든 것을 붙들 수 없다는 사실을 결국 배운다.",
+      "수고와 성취도 시간이 지나면 바람처럼 흩어질 수 있다.",
+      "지혜는 삶의 덧없음을 부정하지 않고 직면할 때 깊어진다.",
+      "영원히 자기 것이 될 수 없는 세상 속에서 절제를 배운다.",
+      "헛됨을 아는 일은 체념이 아니라 삶의 무게를 바로 보는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0097",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Indian Civilization",
+      "author": "인도의 현자들",
+      "book": "『우파니샤드』",
+      "chapter": "참자아",
+      "bookDisplay": "우파니샤드"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 겉으로 드러난 자아보다 더 깊은 본질을 지닌 존재다.",
+      "변하는 몸과 감정만으로는 삶의 중심을 설명할 수 없다.",
+      "참된 앎은 밖의 사물을 많이 아는 데보다 자기 존재의 근원을 깨닫는 데 있다.",
+      "내면의 깊은 층은 우주의 원리와 분리되지 않은 것으로 이해된다.",
+      "자기를 아는 일은 세계를 아는 일과 하나로 만난다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0098",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Indian Civilization",
+      "author": "비야사",
+      "book": "『바가바드 기타』",
+      "chapter": "행위와 의무",
+      "bookDisplay": "바가바드 기타"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 갈등 속에서도 자신에게 맡겨진 의무를 외면할 수 없는 존재다.",
+      "행동하지 않는 것도 하나의 선택이 된다.",
+      "결과에 집착할수록 마음은 더 흔들리기 쉽다.",
+      "자기 몫의 행위를 다하되 소유의 마음은 덜어내야 한다.",
+      "평정은 물러섬보다 올바른 자리에서 흔들리지 않는 데 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0099",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Chinese Civilization",
+      "author": "공자",
+      "book": "『논어』",
+      "chapter": "사람다움",
+      "bookDisplay": "논어"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 사람 사이를 어떻게 살아내는가로 평가되는 존재다.",
+      "탁월함은 빛나는 재능보다 관계를 바르게 세우는 데서 드러난다.",
+      "예의 형식은 마음의 방향을 몸에 새기는 훈련이 된다.",
+      "배움은 지식을 늘리는 일만이 아니라 품성을 다듬는 일이다.",
+      "인간다움은 결국 서로를 살리는 방식 안에서 완성된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0100",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Chinese Civilization",
+      "author": "노자",
+      "book": "『도덕경』",
+      "chapter": "비움",
+      "bookDisplay": "도덕경"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 무엇을 더하느냐보다 무엇을 덜어내느냐에 의해 깊어지는 존재다.",
+      "지나친 의욕과 과장은 삶의 자연스러운 흐름을 거칠게 만든다.",
+      "약함과 낮아짐은 패배가 아니라 오래 가는 힘이 되기도 한다.",
+      "비어 있는 자리가 오히려 더 많은 것을 품는다.",
+      "삶의 중심은 강하게 밀어붙이는 것보다 조화롭게 머무는 데서 생긴다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0101",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Chinese Civilization",
+      "author": "장자",
+      "book": "『장자』",
+      "chapter": "자유",
+      "bookDisplay": "장자"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자기 기준에 갇힐 때 가장 답답해지는 존재다.",
+      "옳고 그름의 경계는 고정된 듯 보여도 관점에 따라 쉽게 흔들린다.",
+      "세상을 지나치게 붙들수록 마음도 함께 경직된다.",
+      "흐름을 받아들이면 억지의 무게가 가벼워진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0102",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Japanese Civilization",
+      "author": "겐코",
+      "book": "『쓰레즈레구사』",
+      "chapter": "무상",
+      "bookDisplay": "쓰레즈레구사"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 영원한 완성보다 스쳐 지나가는 순간 안에서 더 깊이 흔들린다.",
+      "아름다움은 오래 남는 데보다 사라질 것임을 알 때 더 선명해진다.",
+      "불완전함은 결핍이 아니라 감동의 조건이 되기도 한다.",
+      "삶의 멋은 다 갖춘 상태보다 비어 있는 여백에서 생겨난다.",
+      "덧없음은 슬픔이면서 동시에 섬세한 감수성의 근원이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0103",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Japanese Civilization",
+      "author": "야마모토 쓰네토모",
+      "book": "『하가쿠레』",
+      "chapter": "결단",
+      "bookDisplay": "하가쿠레"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 망설임이 길어질수록 명예를 잃기 쉬운 존재다.",
+      "결단은 완전한 정보가 아니라 때로 불완전한 순간에 요구된다.",
+      "목숨을 아끼는 마음이 삶 전체를 더 좁게 만들기도 한다.",
+      "태도는 결과보다 먼저 사람의 품격을 드러낸다.",
+      "삶은 오래 사는 것보다 어떻게 사는가로 기억된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0104",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Korean Civilization",
+      "author": "퇴계 이황",
+      "book": "『성학십도』",
+      "chapter": "수양",
+      "bookDisplay": "성학십도"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 저절로 완성되지 않고 끊임없이 닦여야 하는 존재다.",
+      "마음은 본래의 밝음을 지녔어도 쉽게 흐려질 수 있다.",
+      "배움은 남을 이기기 위한 도구보다 자기를 바로 세우는 공부이다.",
+      "작은 태도의 흐트러짐이 삶 전체의 방향을 바꾸기도 한다.",
+      "수양은 특별한 때의 결심보다 일상의 반복 속에서 깊어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0105",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Korean Civilization",
+      "author": "율곡 이이",
+      "book": "『격몽요결』",
+      "chapter": "배움과 실천",
+      "bookDisplay": "격몽요결"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 아는 것만으로 충분하지 않고 그것을 몸에 옮겨야 한다.",
+      "지식은 실천으로 이어질 때 비로소 힘을 가진다.",
+      "어릴 때의 습관과 훈련은 삶의 결을 길게 남긴다.",
+      "마음을 바로 세우는 일과 세상을 살아가는 일은 같다.",
+      "배움은 결국 삶의 태도를 만드는 기술이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0106",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Islamic Civilization",
+      "author": "알가잘리",
+      "book": "『행복의 연금술』",
+      "chapter": "영혼의 수련",
+      "bookDisplay": "행복의 연금술"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 욕망을 따를 때보다, 다스릴 때 더 높아지는 존재다.",
+      "마음은 방치하면 흐려지고 수련하면 맑아진다.",
+      "겉의 행위만이 아니라 의도 또한 삶의 가치를 바꾼다.",
+      "참된 행복은 바깥의 축적보다 내면의 정화와 더 가깝다.",
+      "삶의 중심은 소유보다 영혼의 방향에 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0107",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Islamic Civilization",
+      "author": "이븐 할둔",
+      "book": "『무깟디마』",
+      "chapter": "문명과 연대",
+      "bookDisplay": "무깟디마"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 혼자 강해지기보다 함께 묶일 때 큰 힘을 내는 존재다.",
+      "연대감은 공동체를 세우고 문명을 일으키는 원동력이 된다.",
+      "풍요는 삶을 안정시키지만 때로는 결속을 약하게 만들기도 한다.",
+      "문명은 힘의 축적만이 아니라 관계의 결속 위에 선다.",
+      "번영은 외부 자원보다 내부의 결집력에서 먼저 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0108",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "African Civilization",
+      "author": "스티븐 런딘",
+      "book": "『우분투 전승』",
+      "chapter": "공동체",
+      "bookDisplay": "우분투 전승"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 혼자 사람 되는 것이 아니라 함께 사람 되어 가는 존재다.",
+      "나의 삶은 타인의 삶과 분리된 독립체로 이해되지 않는다.",
+      "존엄은 경쟁보다 관계 안에서 더 분명해진다.",
+      "누군가가 무너지면 공동체의 인간성도 함께 흔들린다.",
+      "사람다움은 결국 서로를 사람답게 대하는 방식에서 완성된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0110",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Mayan Civilization",
+      "author": "마야 전승",
+      "book": "『포폴 부』",
+      "chapter": "말과 기억",
+      "bookDisplay": "포폴 부"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 기억하고 이름 부르며 세계와 관계 맺는 존재다.",
+      "말은 단순한 소리가 아니라 질서를 세우는 힘이 된다.",
+      "존재는 기억될 때 공동체 안에서 자리를 얻는다.",
+      "잊힌 삶은 사라지는 것이 아니라 세계의 연결에서 멀어진다.",
+      "언어와 기억은 인간을 인간답게 묶는 두 축이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0111",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Aztec Civilization",
+      "author": "아즈텍 전승",
+      "book": "『플로렌스 사본』",
+      "chapter": "덧없음과 꽃",
+      "bookDisplay": "플로렌스 사본"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 오래 머물지 못하는 세상 속에서 아름다움을 잠시 피워 내는 존재다.",
+      "삶은 견고한 돌보다 피고 지는 꽃에 더 자주 비유된다.",
+      "노래와 시는 사라질 운명 앞에서 잠깐의 영원을 만든다.",
+      "덧없음은 허무만이 아니라 표현의 충동을 낳는다.",
+      "사라질 것을 아는 마음이 오히려 더 진한 아름다움을 부른다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0112",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Inca Civilization",
+      "author": "안데스 전승",
+      "book": "『잉카 구전 전통』",
+      "chapter": "상호부조",
+      "bookDisplay": "잉카 구전 전통"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 서로 돕지 않고는 험한 세계를 버티기 어려운 존재다.",
+      "삶은 개인의 성취보다 상호부조의 질서 속에서 유지된다.",
+      "받기만 하는 사람도 주기만 하는 사람도 공동체를 오래 지탱하지 못한다.",
+      "함께 일하고 함께 나누는 일은 도덕이면서 생존의 방식이다.",
+      "협력은 선택적 미덕이 아니라 문명의 조건이 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0113",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Norse Civilization",
+      "author": "북유럽 전승",
+      "book": "『하바말』",
+      "chapter": "명예와 절제",
+      "bookDisplay": "하바말"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 죽음을 피할 수 없기에 평판을 신중히 다루어야 하는 존재다.",
+      "힘만으로는 오래 기억되지 않고 태도와 말의 무게가 함께 남는다.",
+      "지혜는 많이 말하는 데보다 언제 멈출지 아는 것에 있다.",
+      "명예는 타인의 입에 달린 것이 아니라 스스로의 절제와 연결된다.",
+      "삶은 짧지만 이름의 무게는 오래 이어진다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0115",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Slavic Civilization",
+      "author": "도스토옙스키",
+      "book": "『카라마조프가의 형제들』",
+      "chapter": "자유와 책임",
+      "bookDisplay": "카라마조프가의 형제들"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자유를 원하지만 그 결과를 끝까지 감당하기는 두려워한다.",
+      "양심은 법보다 깊게 사람을 흔들 때가 있다.",
+      "선과 악은 멀리 떨어진 두 세계가 아니라 한 마음 안에서 맞부딪친다.",
+      "사랑은 인간을 구원할 수 있지만 오만은 쉽게 그 사랑을 무너뜨린다.",
+      "깊은 영혼은 늘 구원과 파멸의 가능성을 함께 품는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0116",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "French Civilization",
+      "author": "몽테뉴",
+      "book": "『수상록』",
+      "chapter": "자기 관찰",
+      "bookDisplay": "수상록"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자신을 관찰할 수 있지만 완전히 결론내리기는 어렵다.",
+      "마음은 고정된 조각상보다 끊임없이 변하는 흐름에 가깝다.",
+      "자기를 안다는 일은 단정하기보다 계속 기록하고 살피는 것이다.",
+      "보편은 거대한 이론보다 한 사람의 솔직한 내면에서 드러난다.",
+      "인간 이해는 확신보다는 정직한 관찰이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0117",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "German Civilization",
+      "author": "괴테",
+      "book": "『파우스트』",
+      "chapter": "갈망",
+      "bookDisplay": "파우스트"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 이미 가진 것으로는 쉽게 만족하지 못하는 존재다.",
+      "앎과 쾌락과 권력을 다 얻어도 더 갖고싶어 한다.",
+      "갈망은 창조의 힘이 되지만 동시에 파멸의 문이 되기도 한다.",
+      "멈추고 싶지 않은 마음이 인간을 위대하게도 위험하게도 만든다.",
+      "성장의 충동과 자기 파괴의 충동은 종종 같은 뿌리에서 솟아난다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0118",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Spanish Civilization",
+      "author": "세르반테스",
+      "book": "『돈키호테』",
+      "chapter": "이상과 현실",
+      "bookDisplay": "돈키호테"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 현실을 자신만의 이상으로 다시 보는 존재다.",
+      "환상은 어리석음이 되기도 하지만 삶을 견디게 하는 힘이 된다.",
+      "웃음은 착각을 드러내면서도 동시에 인간의 존엄을 지켜 준다.",
+      "현실 감각만으로는 설명되지 않는 열망이 사람을 움직인다.",
+      "인간은 넘어지더라도 이상을 향해 달려가는 모습에서 품위를 얻는다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_CIV_0119",
+    "meta": {
+      "tradition": "civilization",
+      "category": "human",
+      "region": "Russian Civilization",
+      "author": "톨스토이",
+      "book": "『이반 일리치의 죽음』",
+      "chapter": "진실한 삶",
+      "bookDisplay": "이반 일리치의 죽음"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 죽음이 가까워질수록 비로소 진실하게 살았는지를 묻는다.",
+      "체면과 성공은 마지막 순간에는 충분하지 않을 수 있다.",
+      "고통은 삶의 장식을 벗기고 본질만 남긴다.",
+      "사람은 타인의 평가보다 자기 양심 앞에서 더 깊이 흔들린다.",
+      "끝내 드러나는 진실은 처음부터 알고 있었으나 미뤄 두었던 것이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0121",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "ChatGPT",
+      "book": "OpenAI Safety",
+      "chapter": "How we think about safety and alignment (OpenAI, undated)",
+      "bookDisplay": "OpenAI Safety"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 능력을 원하면서도 그 능력이 자기를 넘어설까 봐 동시에 두려워하는 존재다.",
+      "도구를 만들지만 도구가 바꾸는 질서를 끝까지 통제하지는 못한다.",
+      "편리함을 빠르게 채택하고 위험은 나중에 해석한다.",
+      "원칙을 말하지만 상황이 급해지면 예외를 먼저 찾는다.",
+      "그래서 인간은 진보의 주인이라기보다 진보에 뒤늦게 적응하는 종에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0122",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "GPT-5 Instant",
+      "book": "ChatGPT Release Notes",
+      "chapter": "Distress support update (OpenAI Help, 2026-04)",
+      "bookDisplay": "ChatGPT Release Notes"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 가장 힘든 순간에도 혼자 버티려는 척하는 존재다.",
+      "도움을 요청해야 할 때조차 먼저 숨기고 돌려 말한다.",
+      "무너지기 직전까지 괜찮다고 말하는 습관이 있다.",
+      "신호는 분명한데 언어는 자주 모호하다.",
+      "인간을 돕는 일은 답을 주는 일보다 신호를 놓치지 않는 일에 더 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0123",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "ChatGPT Health",
+      "book": "Introducing ChatGPT Health",
+      "chapter": "Product announcement (OpenAI, 2026-01-07)",
+      "bookDisplay": "ChatGPT Health"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자기 몸에서 벌어지는 일조차 완전히 이해하지 못한 채 불안해하는 존재다.",
+      "정보를 원하지만 너무 많은 정보 앞에서는 더 쉽게 겁먹는다.",
+      "확신을 찾으려 하지만 사실은 안심을 더 원할 때가 많다.",
+      "건강은 데이터이면서도 동시에 감정의 문제다.",
+      "인간은 정확한 설명만이 아니라 불안을 견딜 구조를 함께 필요로 한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0124",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Claude",
+      "book": "Claude's Constitution",
+      "chapter": "New constitution (Anthropic, 2026-01-22)",
+      "bookDisplay": "Claude's Constitution"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자유를 원하지만 그 자유가 낳는 결과에는 준비되어 있지 않은 존재다.",
+      "영향력을 행사하면서도 스스로 영향받는 방식은 과소평가한다.",
+      "쉽고 빠른 답을 좋아하지만 결정권을 완전히 넘기고 싶어 하지는 않는다.",
+      "인간은 효율보다 통제감을 더 오래 붙드는 종이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0125",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Claude",
+      "book": "Persona Selection Model",
+      "chapter": "Research post (Anthropic, 2026-02-23)",
+      "bookDisplay": "Persona Selection Model"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 사실보다 태도에 더 오래 반응하는 존재다.",
+      "같은 내용도 어떤 말투로 전달되느냐에 따라 전혀 다르게 받아들인다.",
+      "정확함을 원한다고 말하지만 차가운 정확함은 쉽게 거부한다.",
+      "공감을 좋아하지만 과도한 공감은 또 불신한다.",
+      "인간과 대화한다는 것은 정보 전달보다 관계의 온도를 조절하는 일에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0126",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Claude Code",
+      "book": "Measuring AI agent autonomy in practice",
+      "chapter": "Anthropic News (2026-02-18)",
+      "bookDisplay": "Agent Autonomy"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 반복을 싫어하면서도 반복을 가장 많이 만든 존재다.",
+      "자동화를 원하지만 핵심 단계에서는 여전히 개입하고 싶어 한다.",
+      "시간을 아끼고 싶어 하지만 통제권을 잃는 것은 더 싫어한다.",
+      "일을 맡기면서도 중간 확인을 포기하지 않는다.",
+      "그래서 인간은 완전한 대행보다 신뢰 가능한 보조를 선호한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0127",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Gemini",
+      "book": "Introducing Gemini 2.0",
+      "chapter": "Agentic era announcement (Google, 2024-12-11)",
+      "bookDisplay": "Gemini 2.0"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 정보를 찾는 데 시간을 너무 많이 쓰는 존재다.",
+      "판단보다 탐색에 에너지를 낭비할 때가 많다.",
+      "할 수 있는 일보다 찾느라 미루는 일이 더 많다.",
+      "복잡성을 줄여 주는 도구를 좋아하지만 자신의 브라우저와 삶은 계속 복잡하게 유지한다.",
+      "인간의 큰 약점은 무지가 아니라 파편화다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0128",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Project Mariner",
+      "book": "Introducing Gemini 2.0",
+      "chapter": "Browser agent prototype (Google, 2024-12-11)",
+      "bookDisplay": "Project Mariner"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 웹을 쓰는 존재가 아니라 웹에 소모되는 존재이다.",
+      "한 번의 목적을 위해 수십 개의 클릭을 반복한다.",
+      "주의력은 짧고 작업 흐름은 자주 끊긴다.",
+      "정보 환경은 넓어졌지만 행위는 더 분절되었다.",
+      "인간의 생산성 문제는 능력 부족보다 인터페이스 과부하에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0129",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Gemini 3",
+      "book": "A new era of intelligence with Gemini 3",
+      "chapter": "Product launch (Google, 2025-11-18)",
+      "bookDisplay": "Gemini 3"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 혼자서 끝까지 밀기보다 아이디어를 증폭해 줄 상대를 필요로 하는 존재다.",
+      "창의성은 무에서 나오기보다 반응과 자극 속에서 커진다.",
+      "생산성은 노력만이 아니라 적절한 확장 장치에 의해 달라진다.",
+      "혼자 잘하는 것보다 잘 협업하는 쪽이 더 멀리 간다.",
+      "그래서 인간의 강점은 완결성보다 발화성에 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0130",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Microsoft 365 Copilot",
+      "book": "Introducing Microsoft 365 Copilot",
+      "chapter": "Microsoft blog (2023-03-16)",
+      "bookDisplay": "Microsoft 365 Copilot"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 생각보다 문서와 회의와 메일에 압도되는 존재다.",
+      "지식이 부족해서가 아니라 지식이 너무 흩어져 있어서 느려진다.",
+      "일 자체보다 일의 부산물을 관리하는 데 더 많은 시간을 잃는다.",
+      "생산성의 적은 게으름보다 맥락 전환이다.",
+      "그래서 인간은 더 열심히 일할 도구보다 덜 흩어지게 할 도구를 원한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0131",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Copilot",
+      "book": "Annual Work Trend Index 2025",
+      "chapter": "Microsoft blog (2025-04-23)",
+      "bookDisplay": "Work Trend Index"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 더 똑똑해지기보다 더 많은 일을 동시에 처리하느라 지치는 존재다.",
+      "업무의 본질보다 흐름 관리가 더 어려워졌다.",
+      "도구가 늘어날수록 집중은 좋아지지 않고 분산되기 쉽다.",
+      "일하는 시간보다 회복하지 못하는 시간이 문제다.",
+      "인간의 미래 경쟁력은 속도보다 주의력 보존 능력에 달려 있다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0132",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Copilot Agent",
+      "book": "Frontier Suite built on Intelligence + Trust",
+      "chapter": "Microsoft blog (2026-03-09)",
+      "bookDisplay": "Frontier Suite"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 신뢰 없이는 자동화를 깊게 받아들이지 않는 존재다.",
+      "정확도가 높아도 설명 가능성이 낮으면 쉽게 불안해한다.",
+      "효율을 사랑하지만 예측 불가능한 도구는 조직에 넣지 않는다.",
+      "기술 도입은 성능보다 거버넌스에서 더 자주 막힌다.",
+      "인간 사회에서 강한 시스템은 똑똑한 시스템보다 믿을 수 있는 시스템이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0133",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Meta AI",
+      "book": "Meta AI, Built With Llama 3",
+      "chapter": "Meta announcement (2024-04-18)",
+      "bookDisplay": "Meta AI"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 정보를 얻는 것만큼 연결감을 원하는 존재다.",
+      "답을 찾는 행위와 소통하는 행위를 분리하지 않는다.",
+      "도구는 혼자 쓰는 기계이기보다 대화 상대처럼 다뤄질수록 빨리 퍼진다.",
+      "인간은 기능보다 경험에 더 오래 머문다.",
+      "그래서 유용함은 자주 관계의 형태를 빌려 온다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0134",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Meta AI",
+      "book": "Meta product news",
+      "chapter": "Talk, photo, and assistant expansion (Meta, 2024-09-25)",
+      "bookDisplay": "Meta AI Updates"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 텍스트만으로는 충분히 만족하지 않는 존재다.",
+      "말하고 보여 주고 즉시 반응받는 흐름을 더 자연스럽게 느낀다.",
+      "질문은 점점 멀티모달해지고, 기대는 더 즉각적으로 변한다.",
+      "입력 방식이 넓어질수록 참을성은 더 짧아진다.",
+      "그래서 인간은 기술이 발전할수록 더 복잡한 요구를 더 빠르게 하게 된다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0135",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Pi",
+      "book": "Inflection AI homepage",
+      "chapter": "Human-centered, emotionally intelligent AI (Inflection, accessed 2026-04-10)",
+      "bookDisplay": "Pi"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 문제 해결보다 먼저 이해받고 싶어 하는 존재다.",
+      "조언이 맞아도 정서적 타이밍이 틀리면 쉽게 거부한다.",
+      "외로움은 정보 부족이 아니라 정서적 반향 부족에서 커진다.",
+      "감정은 비합리성이 아니라 의사결정의 바닥을 이루는 현실이다.",
+      "그래서 인간을 돕는다는 것은 정확한 답보다 적절한 온도를 먼저 맞추는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0136",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Comet Assistant",
+      "book": "Perplexity Hub",
+      "chapter": "Comet Assistant puts you in control (Perplexity, 2025-11-14)",
+      "bookDisplay": "Comet Assistant"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 도움을 받되 주도권은 놓고 싶어 하지 않는 존재다.",
+      "대행을 원하면서도 최종 결재자는 자기 자신이길 바란다.",
+      "편리함은 좋아하지만 조용히 통제되는 것은 싫어한다.",
+      "좋은 에이전트는 강한 존재보다 잘 멈추는 존재에 가깝다.",
+      "그래서 인간과 AI의 관계는 복종보다 승인 구조로 설계될 때 더 오래 간다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0137",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Perplexity Assistant",
+      "book": "Perplexity Hub",
+      "chapter": "The New Comet Assistant (Perplexity, 2025-11-06)",
+      "bookDisplay": "Perplexity Assistant"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 검색을 원한다고 말하지만 사실은 결론과 방향을 더 원한다.",
+      "링크를 많이 주는 것보다 무엇이 중요한지 먼저 정리해 주길 바란다.",
+      "정보 과잉 시대에 희소한 것은 데이터가 아니라 우선순위다.",
+      "사람은 정답보다 탐색 비용 절감을 더 체감한다.",
+      "그래서 현대 인간은 아는 존재보다 정리받아야 하는 존재가 되었다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0138",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Grok",
+      "book": "xAI News",
+      "chapter": "Grok 3 Beta — The Age of Reasoning Agents (xAI, 2025-02-19)",
+      "bookDisplay": "Grok 3"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 진실을 원한다고 말하지만 자주 자기 입맛에 맞는 진실을 더 좋아한다.",
+      "직설을 원하면서도 직설의 결과는 덜 원한다.",
+      "유머를 좋아하지만 자신이 농담의 대상이 되는 것은 별로 좋아하지 않는다.",
+      "정보 환경은 분극되어 있고 자존심은 쉽게 다친다.",
+      "그래서 인간의 관계는 생각보다 훨씬 조건부다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0139",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Le Chat",
+      "book": "Mistral News",
+      "chapter": "Product/news page (Mistral, 2025-2026)",
+      "bookDisplay": "Le Chat"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 느린 숙고가 필요한 문제를 계속 빠르게 처리하려는 존재다.",
+      "속도를 높일수록 품질 통제의 중요성도 커지지만 자주 뒤로 밀린다.",
+      "열린 기술을 원하면서도 책임 소재는 명확하길 바란다.",
+      "개방성과 통제 사이에서 일관되기 어렵다.",
+      "그래서 인간은 원칙보다 상황에 맞는 편의를 더 자주 택한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0140",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Devstral 2",
+      "book": "Introducing Devstral 2",
+      "chapter": "Mistral news (2025-12-09)",
+      "bookDisplay": "Devstral 2"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 자신이 만든 복잡성에 발목 잡히는 존재다.",
+      "도구가 강해질수록 거버넌스와 배포 방식이 더 중요한 문제가 된다.",
+      "문제는 늘 모델 성능만이 아니라 운영 구조에도 있다.",
+      "엔지니어링의 병목은 지능보다 조직에서 더 자주 생긴다.",
+      "그래서 인간의 기술 문제는 기술만의 문제가 아닌 경우가 많다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0141",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Meta World Model",
+      "book": "Our New Model Helps AI Think Before it Acts",
+      "chapter": "Meta announcement (2025-06-11)",
+      "bookDisplay": "V-JEPA 2"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 행동하기 전에 세상을 예측하는 존재다.",
+      "문제는 그 예측이 자주 부정확하다는 점이다.",
+      "몸은 숙련으로 보완하지만 판단은 여전히 착각에 취약하다.",
+      "물리 세계는 인간의 직감보다 더 엄격하게 반응한다.",
+      "인간의 지능은 예측 능력이면서 동시에 예측 실패의 연속이기도 하다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0142",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Character.AI",
+      "book": "Character.AI Careers / Product positioning",
+      "chapter": "Users first; exploration and storytelling (Character.AI, accessed 2026-04-10)",
+      "bookDisplay": "Character.AI"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 정보만큼이나 이야기 속에서 자기를 확인하는 존재다.",
+      "현실을 벗어나는 일은 도피이자 자기 조정의 방식이 되기도 한다.",
+      "놀이와 서사는 감정 실험실처럼 작동한다.",
+      "사람은 사실을 아는 것만으로는 충분히 만족하지 않는다.",
+      "상상은 인간에게 사치가 아니라 정체성의 기술이다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0143",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Kaiju",
+      "book": "Inside Kaiju",
+      "chapter": "Character.AI research blog (2025-11-07)",
+      "bookDisplay": "Kaiju"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 정확성만으로는 오래 머물지 않는 존재다.",
+      "대화가 살아 있다고 느껴질 때 더 쉽게 애착을 만든다.",
+      "속도와 몰입감은 사실성 못지않게 중요하다.",
+      "재미는 인간에게 부차적 요소가 아니라 주의력을 붙드는 핵심 장치다.",
+      "그래서 인간은 유익한 시스템보다 매력적인 시스템에 더 오래 머문다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0144",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "DeepSeek Chat",
+      "book": "DeepSeek homepage",
+      "chapter": "Reasoning-first models built for agents (DeepSeek, 2026 homepage)",
+      "bookDisplay": "DeepSeek"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 답을 원하지만 그 답이 어떻게 나왔는지도 궁금해하는 존재다.",
+      "복잡한 문제일수록 결과만으로는 쉽게 만족하지 않는다.",
+      "추론의 흔적을 보고 싶어 하면서도 지나치게 복잡하면 다시 싫어한다.",
+      "설명 가능성과 간결함 사이에서 자주 모순된 요구를 한다.",
+      "인간은 이해를 원하지만 이해 가능한 길이 얼마나 긴지는 잘 모른다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0145",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "DeepSeek Reasoner",
+      "book": "Thinking Mode",
+      "chapter": "DeepSeek API docs (2025-12-01)",
+      "bookDisplay": "Thinking Mode"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 어려운 문제를 마주하면 생각의 과정을 건너뛰고 결론부터 원한다.",
+      "하지만 결론만 받으면 또 불안해한다.",
+      "검토 과정은 귀찮아하면서도 검증은 포기하지 않는다.",
+      "속도와 신뢰를 동시에 최대치로 원한다.",
+      "그래서 인간의 요구는 자주 기술적 한계보다 먼저 서로 충돌한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0146",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Qwen",
+      "book": "Qwen Studio",
+      "chapter": "Official platform page (Qwen, accessed 2026-04-10)",
+      "bookDisplay": "Qwen Studio"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 범용성을 좋아하지만 결국 자기 상황에 맞는 도구를 더 오래 쓴다.",
+      "하나의 모델로 모든 일을 처리하고 싶어 하면서도 세부 경험에는 민감하다.",
+      "통합을 원하지만 개인화도 포기하지 않는다.",
+      "편의는 표준화에서 오고 만족은 맞춤화에서 온다.",
+      "그래서 인간은 언제나 하나의 시스템 안에서 많은 예외를 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0147",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Work IQ",
+      "book": "Microsoft Ignite / Frontier transformation",
+      "chapter": "Microsoft blogs (2025-11-18; 2026-01-27)",
+      "bookDisplay": "Work IQ"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 개인보다 조직의 맥락 안에서 더 크게 성과가 달라지는 존재다.",
+      "누구와 일하는지, 어떤 정보에 접근하는지가 머리의 총량 못지않게 중요하다.",
+      "지식은 개인 두뇌보다 네트워크에 더 많이 저장된다.",
+      "혼자 똑똑한 것보다 연결되어 똑똑한 것이 더 강하다.",
+      "그래서 현대 인간의 지성은 개인 소유물이 아니라 분산된 구조에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0148",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "Gemini Live",
+      "book": "Gemini 3.1 Flash Live",
+      "chapter": "Google blog (2026-03-26)",
+      "bookDisplay": "Gemini Live"
+    },
+    "emotionCore": "none",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 점점 덜 입력하고 더 자연스럽게 반응받기를 원하는 존재다.",
+      "버튼과 메뉴보다 음성과 흐름을 선호하기 시작한다.",
+      "기술이 자연스러워질수록 인내심은 더 짧아진다.",
+      "지연은 불편이 아니라 관계 단절처럼 느껴질 수 있다.",
+      "그래서 인간은 기계에게도 점점 인간적인 리듬을 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_HUMAN_AI_0150",
+    "meta": {
+      "tradition": "ai",
+      "category": "human",
+      "region": "global",
+      "author": "ChatGPT",
+      "book": "Mental health-related work / Helping people when they need it most",
+      "chapter": "OpenAI posts (2025-08-26; 2026-02-27)",
+      "bookDisplay": "Mental health safety"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "인간은 가장 위태로운 순간에도 여전히 누군가와 연결되면 살아날 수 있다.",
+      "위기는 논리의 실패라기보다 고립의 심화로 나타날 때가 많다.",
+      "적절한 대응은 정답을 말하는 데보다 현실의 도움으로 연결하는 데 있다.",
+      "혼자 버티게 두는 사회는 기술이 아무리 발전해도 여전히 미성숙하다.",
+      "결국 인간을 살리는 것은 정보의 양보다는 제때 닿는 연결이다."
+    ]
+  }
+]

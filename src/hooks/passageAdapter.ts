@@ -180,12 +180,28 @@ const normalizePassage = (raw: unknown): RawPassage | null => {
   };
 };
 
-const extractRawPassages = (input: unknown): unknown[] =>
-  Array.isArray(input)
-    ? input
-    : isRecord(input) && Array.isArray(input.passages)
-      ? input.passages
-      : [];
+const looksLikePassageArray = (value: unknown): value is unknown[] =>
+  Array.isArray(value) && value.some((item) => isRecord(item) && ('id' in item || 'lines' in item));
+
+const extractRawPassages = (input: unknown): unknown[] => {
+  if (isRecord(input) && Array.isArray(input.passages)) {
+    return input.passages;
+  }
+
+  if (Array.isArray(input)) {
+    if (looksLikePassageArray(input)) {
+      return input;
+    }
+
+    for (const item of input) {
+      if (isRecord(item) && Array.isArray(item.passages)) {
+        return item.passages;
+      }
+    }
+  }
+
+  return [];
+};
 
 export function adaptPassageFile(input: unknown, options: AdaptOptions): NormalizedPassage[] {
   const rawPassages = extractRawPassages(input);
@@ -390,5 +406,8 @@ export function buildSourceText(
     return formatParenLabel(author, displayBook);
   }
 
-  return formatParenLabel(displayBook || sourceDisplay || source, displayReference || displayChapter);
+  return formatParenLabel(
+    displayBook || sourceDisplay || source,
+    displayReference || displayChapter,
+  );
 }

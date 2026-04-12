@@ -1,0 +1,2142 @@
+[
+  {
+    "id": "PAS_FRIENDSHIP_0001",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "로빈 던바",
+      "book": "언어의 진화와 사회적 결속",
+      "chapter": "사회적 결속",
+      "bookDisplay": "언어의 진화와 사회적 결속"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 인간의 생존을 위한 사회적 결속 구조로 발전해왔다.",
+      "소수의 깊은 관계가 전체 네트워크의 안정성을 유지한다.",
+      "이 연결은 시간과 주의를 통해 유지된다.",
+      "관계의 수는 제한되지만 깊이는 확장된다.",
+      "진화는 이러한 구조를 선택해왔다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0002",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "매튜 리버먼",
+      "book": "사회적 뇌",
+      "chapter": "사회적 뇌",
+      "bookDisplay": "사회적 뇌"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 인간의 뇌가 요구하는 기본 구조에 포함된다.",
+      "사회적 연결은 생존과 동일한 수준의 욕구로 작동한다.",
+      "고립은 신체적 고통과 유사하게 처리된다.",
+      "연결은 안정감을 형성한다.",
+      "이 구조는 인간 행동 전반을 지배한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0003",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "존 카시오포",
+      "book": "외로움",
+      "chapter": "고립",
+      "bookDisplay": "외로움"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 사회적 고립이 신체에 미치는 영향을 완화한다.",
+      "연결이 부족할수록 스트레스 반응이 증가한다.",
+      "면역 기능이 약화된다.",
+      "정서적 안정성이 흔들린다.",
+      "지속적인 관계는 이러한 변화를 억제한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0004",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "헬렌 피셔",
+      "book": "우리는 왜 사랑하는가",
+      "chapter": "호르몬",
+      "bookDisplay": "우리는 왜 사랑하는가"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 생물학적 반응과 깊이 연결되어 있다.",
+      "옥시토신은 신뢰 형성을 촉진한다.",
+      "도파민은 관계 지속의 동기를 만든다.",
+      "반복된 상호작용이 결속을 강화한다.",
+      "이 모든 과정은 화학적 기반 위에서 이루어진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0005",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "니콜라스 크리스타키스",
+      "book": "연결된 세상",
+      "chapter": "네트워크",
+      "bookDisplay": "연결된 세상"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 사회적 네트워크 구조 속에서 확장된다.",
+      "친구의 친구까지 영향이 전달된다.",
+      "감정은 연결을 따라 확산된다.",
+      "행동 또한 네트워크를 통해 퍼진다.",
+      "개인은 이 구조 속에서 서로 영향을 주고받는다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0006",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "줄리안 홀트-룬스타드",
+      "book": "사회적 관계와 사망 위험",
+      "chapter": "건강",
+      "bookDisplay": "사회적 관계와 사망 위험"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 생존 확률과 직접적으로 연결된다.",
+      "강한 관계를 가진 사람은 더 오래 생존하는 경향을 보인다.",
+      "고립은 주요 위험 요인으로 작용한다.",
+      "연결은 보호 효과를 가진다.",
+      "삶의 질과 수명 모두에 영향을 준다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0007",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "로이 바우마이스터",
+      "book": "소속의 욕구",
+      "chapter": "소속 욕구",
+      "bookDisplay": "소속의 욕구"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 인간의 소속 욕구를 충족시키는 핵심 구조다.",
+      "지속적인 관계는 심리적 안정의 기반이 된다.",
+      "일시적 접촉만으로는 충분하지 않다.",
+      "정서적 유대가 필요하다.",
+      "이 욕구는 인간 행동의 중요한 동기다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0008",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "대니얼 골먼",
+      "book": "감정 지능",
+      "chapter": "공감",
+      "bookDisplay": "감정 지능"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 공감 능력을 통해 강화된다.",
+      "타인의 감정을 이해할수록 관계는 깊어진다.",
+      "감정 공유가 신뢰를 만든다.",
+      "이해는 연결을 지속시키는 기반이 된다.",
+      "공감은 관계의 핵심 메커니즘이다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0009",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "마틴 셀리그만",
+      "book": "번영",
+      "chapter": "웰빙",
+      "bookDisplay": "번영"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 행복과 밀접하게 연결된다.",
+      "긍정적 상호작용이 삶의 만족도를 높인다.",
+      "관계의 질이 정서 상태에 영향을 준다.",
+      "의미 있는 연결이 지속성을 만든다.",
+      "행복은 관계 속에서 강화된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0010",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "에드워드 데시",
+      "book": "자기결정이론",
+      "chapter": "관계성",
+      "bookDisplay": "자기결정이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 인간의 심리적 욕구 충족에 기여한다.",
+      "관계성은 동기 형성의 핵심 요소다.",
+      "연결은 행동의 지속성을 만든다.",
+      "타인과의 유대는 성장에 영향을 준다.",
+      "인간 발달은 관계와 함께 이루어진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0011",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "수전 핑커",
+      "book": "마을 효과",
+      "chapter": "사회적 접촉",
+      "bookDisplay": "마을 효과"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 지속적인 인간 접촉을 통해 강화된다.",
+      "반복되는 만남은 정서적 안정감을 높인다.",
+      "가벼운 관계보다 깊은 관계가 더 큰 영향을 준다.",
+      "정기적인 연결은 불안을 감소시킨다.",
+      "일상 속 접촉이 삶의 구조를 바꾼다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0012",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "셸리 테일러",
+      "book": "돌봄 본능",
+      "chapter": "돌봄 반응",
+      "bookDisplay": "돌봄 본능"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 스트레스 상황에서 강화되는 경향을 보인다.",
+      "위협 속에서 인간은 관계를 통해 안정을 찾는다.",
+      "서로를 돌보는 행동이 긴장을 완화한다.",
+      "유대는 위기 속에서 더 분명해진다.",
+      "관계는 생존 전략으로 작동한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0013",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "브레네 브라운",
+      "book": "대담하게 뛰어들기",
+      "chapter": "취약성",
+      "bookDisplay": "대담하게 뛰어들기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 취약성을 공유할 때 더 깊어진다.",
+      "약한 모습을 드러낼수록 신뢰는 강화된다.",
+      "가면 없는 상호작용이 친밀감을 만든다.",
+      "숨김이 줄어들수록 관계는 현실에 가까워진다.",
+      "개방성은 유대의 핵심 조건이다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0014",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "다니엘 카너먼",
+      "book": "생각에 관한 생각",
+      "chapter": "신뢰 판단",
+      "bookDisplay": "생각에 관한 생각"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 빠른 직관적 판단과 느린 분석이 함께 작용한다.",
+      "첫 인상은 관계 형성에 강한 영향을 준다.",
+      "표정과 태도가 신뢰를 빠르게 결정짓는다.",
+      "초기 판단은 쉽게 수정되지 않는다.",
+      "인지와 감정이 동시에 관계를 만든다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0015",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "조너선 하이트",
+      "book": "바른 마음",
+      "chapter": "도덕과 유대",
+      "bookDisplay": "바른 마음"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 공통된 가치관 위에서 더 안정적으로 유지된다.",
+      "비슷한 도덕 기준은 갈등을 줄인다.",
+      "예측 가능한 행동은 신뢰를 강화한다.",
+      "가치의 정렬은 협력을 쉽게 만든다.",
+      "관계는 감정뿐 아니라 판단 체계 위에도 놓인다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0016",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "리처드 와이즈먼",
+      "book": "행운의 요인",
+      "chapter": "사회적 개방성",
+      "bookDisplay": "행운의 요인"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 개방적인 태도를 통해 더 쉽게 형성된다.",
+      "사회적 유연성은 새로운 만남을 증가시킨다.",
+      "만남의 빈도가 관계 형성의 기반이 된다.",
+      "우연처럼 보이는 연결도 행동에서 비롯된다.",
+      "환경보다 태도가 관계 형성에 더 큰 영향을 준다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0017",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "앨버트 반두라",
+      "book": "사회학습이론",
+      "chapter": "모방과 강화",
+      "bookDisplay": "사회학습이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 학습된 행동 패턴 위에서 형성된다.",
+      "타인의 행동을 관찰하며 관계 방식을 습득한다.",
+      "친절은 반복되며 강화된다.",
+      "긍정적 상호작용이 다시 긍정적 반응을 만든다.",
+      "관계는 경험을 통해 점점 안정된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0018",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "데이비드 버스",
+      "book": "진화심리학",
+      "chapter": "상호성",
+      "bookDisplay": "진화심리학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 상호적 교환이 균형을 이룰 때 유지된다.",
+      "일방적 관계는 지속성이 약하다.",
+      "주고받는 구조가 신뢰를 강화한다.",
+      "균형은 불만을 줄인다.",
+      "관계의 안정은 교환 구조에 달려 있다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0019",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "리사 펠드먼 배럿",
+      "book": "감정은 어떻게 만들어지는가",
+      "chapter": "감정 구성",
+      "bookDisplay": "감정은 어떻게 만들어지는가"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 감정이 함께 구성되는 과정 속에서 형성된다.",
+      "같은 행동도 관계에 따라 다르게 해석된다.",
+      "친밀함은 감정의 의미를 바꾼다.",
+      "경험이 쌓일수록 반응은 달라진다.",
+      "감정은 관계 속에서 재구성된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0020",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "안토니오 다마지오",
+      "book": "데카르트의 오류",
+      "chapter": "감정과 판단",
+      "bookDisplay": "데카르트의 오류"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 감정과 이성이 함께 작용하는 관계다.",
+      "정서적 경험이 판단에 영향을 준다.",
+      "편안함은 중요한 선택 기준이 된다.",
+      "감정이 없는 판단은 오히려 불완전하다.",
+      "관계는 두 시스템의 결합으로 형성된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0021",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "수전 피스크",
+      "book": "사회적 존재",
+      "chapter": "따뜻함과 유능함",
+      "bookDisplay": "사회적 존재"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 따뜻함과 유능함의 평가 위에서 형성된다.",
+      "친근함은 접근을 가능하게 한다.",
+      "능력은 관계의 안정성을 높인다.",
+      "두 요소가 결합될 때 신뢰가 강화된다.",
+      "평가는 관계 형성의 초기 조건이 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0022",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "사라 콘래드슨",
+      "book": "공유된 웃음과 사회적 유대",
+      "chapter": "웃음과 결속",
+      "bookDisplay": "공유된 웃음과 사회적 유대"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 함께 웃는 경험을 통해 빠르게 가까워진다.",
+      "공유된 유머가 정서적 리듬을 맞춘다.",
+      "웃음은 긴장을 낮춘다.",
+      "짧은 즐거움이 관계를 강화한다.",
+      "공동 경험이 유대를 만든다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0023",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "에드워드 홀",
+      "book": "숨겨진 차원",
+      "chapter": "거리와 친밀감",
+      "bookDisplay": "숨겨진 차원"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 심리적 거리 조절 속에서 드러난다.",
+      "가까운 관계일수록 더 많은 공간을 공유한다.",
+      "물리적 거리감은 정서적 친밀성과 연결된다.",
+      "편안함은 관계 깊이의 신호다.",
+      "공유 가능성이 친밀도를 결정한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0024",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "대니얼 길버트",
+      "book": "행복에 걸려 비틀거리다",
+      "chapter": "예측과 오해",
+      "bookDisplay": "행복에 걸려 비틀거리다"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 잘못된 예측과 오해 속에서도 유지된다.",
+      "인간은 타인의 반응을 자주 잘못 추정한다.",
+      "확인은 오해를 줄인다.",
+      "정확한 소통이 관계를 안정시킨다.",
+      "이해는 반복을 통해 정교해진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0025",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "스티븐 핑커",
+      "book": "우리 본성의 선한 천사",
+      "chapter": "협력",
+      "bookDisplay": "우리 본성의 선한 천사"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 협력 구조 속에서 발전해왔다.",
+      "신뢰는 갈등 비용을 줄인다.",
+      "관계는 위험을 분산시킨다.",
+      "연결은 집단 안정성을 높인다.",
+      "개별 관계가 사회 구조를 지탱한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0026",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "로버트 트리버스",
+      "book": "사회적 진화",
+      "chapter": "상호 이타성",
+      "bookDisplay": "사회적 진화"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 상호 이타성의 구조 안에서 설명된다.",
+      "현재의 도움은 미래 협력을 가능하게 한다.",
+      "반복된 만남이 신뢰를 만든다.",
+      "배신 위험이 낮을수록 관계는 안정된다.",
+      "협력은 장기적 전략으로 작동한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0027",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "에이미 에드먼슨",
+      "book": "두려움 없는 조직",
+      "chapter": "심리적 안전",
+      "bookDisplay": "두려움 없는 조직"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 심리적 안전감 위에서 깊어진다.",
+      "실수를 드러낼 수 있는 환경이 중요하다.",
+      "비난보다 수용이 관계를 강화한다.",
+      "솔직함이 연결을 유지시킨다.",
+      "안전한 관계는 오래 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0028",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "대니얼 시겔",
+      "book": "마인드사이트",
+      "chapter": "자기 인식",
+      "bookDisplay": "마인드사이트"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 자기 이해를 확장시키는 역할을 한다.",
+      "타인의 반응은 자기 인식의 거울이 된다.",
+      "이해받는 경험이 안정성을 높인다.",
+      "정서 조절 능력이 강화된다.",
+      "관계는 내면 인식을 깊게 만든다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0029",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "마이클 토마셀로",
+      "book": "우리는 왜 협력하는가",
+      "chapter": "협동",
+      "bookDisplay": "우리는 왜 협력하는가"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 협동 경험 속에서 강화된다.",
+      "공동 목표는 관계를 깊게 만든다.",
+      "함께하는 과정이 유대를 형성한다.",
+      "협력은 정서적 소속감으로 이어진다.",
+      "관계는 행동 속에서 완성된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_0030",
+    "meta": {
+      "tradition": "science",
+      "category": "friendship_science",
+      "region": "Global",
+      "author": "로버트 월딩거",
+      "book": "좋은 삶",
+      "chapter": "삶과 관계",
+      "bookDisplay": "좋은 삶"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 좋은 삶을 결정짓는 핵심 요소다.",
+      "깊은 관계는 삶의 만족도를 높인다.",
+      "신뢰 가능한 연결이 안정감을 만든다.",
+      "시간이 지나도 영향은 지속된다.",
+      "관계의 질이 삶의 질을 좌우한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0031",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Mesopotamia",
+      "author": "고대 메소포타미아 서사",
+      "book": "길가메시 서사시",
+      "chapter": "길가메시와 엔키두",
+      "bookDisplay": "길가메시 서사시"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 인간을 변화시키는 힘으로 등장한다.",
+      "왕은 야성을 가진 존재와의 만남을 통해 균형을 배운다.",
+      "서로 다른 존재는 서로를 완성시킨다.",
+      "상실은 관계의 깊이를 증명한다.",
+      "남겨진 자는 타인을 통해 자신을 이해하게 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0032",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Greece",
+      "author": "고대 그리스 신화",
+      "book": "일리아스",
+      "chapter": "아킬레우스와 파트로클로스",
+      "bookDisplay": "일리아스"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 전쟁보다 강한 감정으로 그려진다.",
+      "동료의 죽음은 영웅의 분노를 일으킨다.",
+      "개인의 감정은 전장의 흐름을 바꾼다.",
+      "상실은 행동을 결정짓는 원인이 된다.",
+      "관계는 명예보다 더 깊은 동기가 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0033",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Greece",
+      "author": "고대 그리스 신화",
+      "book": "다몬과 피티아스",
+      "chapter": "신뢰의 시험",
+      "bookDisplay": "다몬과 피티아스"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 생명을 담보로 신뢰를 증명하는 관계이다.",
+      "한 사람은 처형을 앞두고 친구를 대신 보증으로 남긴다.",
+      "약속은 죽음보다 강한 의지로 유지된다.",
+      "신뢰는 의심을 넘어선다.",
+      "관계는 인간이 믿을 수 있는 가치가 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0034",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Norse",
+      "author": "북유럽 신화",
+      "book": "에다",
+      "chapter": "토르와 로키",
+      "bookDisplay": "에다"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 신뢰와 배신이 공존하는 관계로 묘사된다.",
+      "동료는 도움을 주기도 하고 위기를 만들기도 한다.",
+      "관계는 단순한 선과 악으로 나뉘지 않는다.",
+      "불완전한 존재들이 함께 움직인다.",
+      "유대는 갈등 속에서도 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0035",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "India",
+      "author": "힌두 서사",
+      "book": "마하바라타",
+      "chapter": "크리슈나와 아르주나",
+      "bookDisplay": "마하바라타"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 길을 잃은 존재를 인도하는 관계로 그려진다.",
+      "전쟁 앞에서 동요하는 인간은 조언을 받는다.",
+      "지혜는 관계를 통해 전달된다.",
+      "동행은 결단을 가능하게 만든다.",
+      "관계는 삶의 방향을 결정짓는다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0036",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "China",
+      "author": "중국 고사",
+      "book": "열국지",
+      "chapter": "관포지교",
+      "bookDisplay": "열국지"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 이해를 통해 유지되는 관계이다.",
+      "능력의 차이는 관계를 흔들지 않는다.",
+      "상대의 상황을 이해하는 태도가 중요하다.",
+      "비교가 아닌 인정이 유대를 만든다.",
+      "관계는 해석 방식에 따라 달라진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0037",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Japan",
+      "author": "일본 설화",
+      "book": "헤이케 이야기",
+      "chapter": "동료애",
+      "bookDisplay": "헤이케 이야기"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 전쟁 속에서 더욱 강하게 드러난다.",
+      "동료는 죽음의 순간까지 함께한다.",
+      "공동 운명이 관계를 깊게 만든다.",
+      "상실은 기억으로 남는다.",
+      "관계는 삶과 죽음을 함께 관통한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0038",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Persia",
+      "author": "페르시아 서사",
+      "book": "샤나메",
+      "chapter": "로스템과 동료들",
+      "bookDisplay": "샤나메"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 전투 속에서 형성되는 신뢰이다.",
+      "동료는 생명을 맡길 수 있는 존재가 된다.",
+      "위기는 관계를 시험한다.",
+      "함께한 경험이 결속을 만든다.",
+      "관계는 행동 속에서 증명된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0039",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Celtic",
+      "author": "켈트 신화",
+      "book": "쿠훌린 이야기",
+      "chapter": "전사와 동료",
+      "bookDisplay": "쿠훌린 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 전사의 삶 속에서 충성으로 표현된다.",
+      "동료는 싸움의 이유가 된다.",
+      "관계는 명예와 연결된다.",
+      "유대는 공동의 싸움 속에서 강화된다.",
+      "존재는 서로를 통해 정의된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0040",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Africa",
+      "author": "아프리카 구전 신화",
+      "book": "아난시 이야기",
+      "chapter": "지혜와 동료",
+      "bookDisplay": "아난시 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 지혜를 나누는 관계이다.",
+      "이야기는 공동체 속에서 전달된다.",
+      "타인의 경험이 배움이 된다.",
+      "관계는 지식을 확장시킨다.",
+      "연결은 집단의 생존을 돕는다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0042",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Greece",
+      "author": "고대 그리스 신화",
+      "book": "오디세이아",
+      "chapter": "오디세우스와 동료들",
+      "bookDisplay": "오디세이아"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 긴 여정 속에서 시험받는 관계이다.",
+      "동료들은 유혹과 위험 속에서 흔들린다.",
+      "일부는 길을 잃고 일부는 끝까지 남는다.",
+      "시간은 관계의 진실을 드러낸다.",
+      "남는 연결만이 의미를 가진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0043",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Rome",
+      "author": "로마 신화",
+      "book": "아이네이스",
+      "chapter": "아이네아스와 동료들",
+      "bookDisplay": "아이네이스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 공동의 운명을 향해 나아가는 과정에서 형성된다.",
+      "동료들은 새로운 세계를 향해 함께 이동한다.",
+      "희생은 관계를 단단하게 만든다.",
+      "공통의 목표가 결속을 유지한다.",
+      "연결은 미래를 향한 기반이 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0044",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "China",
+      "author": "중국 설화",
+      "book": "삼국지연의",
+      "chapter": "유비·관우·장비",
+      "bookDisplay": "삼국지연의"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 의리로 맺어진 관계로 표현된다.",
+      "서로 다른 배경의 인물이 한 뜻으로 연결된다.",
+      "맹세는 관계의 시작점이 된다.",
+      "위기는 유대를 시험한다.",
+      "신념이 관계를 지속시킨다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0047",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Norse",
+      "author": "북유럽 신화",
+      "book": "에다",
+      "chapter": "신들의 동맹",
+      "bookDisplay": "에다"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 필요에 의해 맺어지는 동맹이다.",
+      "위협은 관계를 형성하는 계기가 된다.",
+      "이익은 연결을 유지시킨다.",
+      "균형이 깨지면 관계도 흔들린다.",
+      "유대는 조건 속에서 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0051",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Polynesia",
+      "author": "폴리네시아 신화",
+      "book": "마우이 이야기",
+      "chapter": "동료와 도전",
+      "bookDisplay": "마우이 이야기"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 도전을 함께 해결하는 과정에서 드러난다.",
+      "동료는 불가능한 일을 가능하게 만든다.",
+      "협력은 한계를 넘게 한다.",
+      "위험은 관계를 강화한다.",
+      "연결은 새로운 가능성을 만든다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0053",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Korea",
+      "author": "한국 설화",
+      "book": "삼국유사",
+      "chapter": "의형제 이야기",
+      "bookDisplay": "삼국유사"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 형제와 같은 관계로 확장된다.",
+      "혈연이 아닌 연결이 가족이 된다.",
+      "의리는 관계를 유지시키는 중심이 된다.",
+      "약속은 시간을 넘어 유지된다.",
+      "연결은 신분을 초월한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0056",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Native American",
+      "author": "북미 원주민 신화",
+      "book": "코요테 이야기",
+      "chapter": "속임과 동료",
+      "bookDisplay": "코요테 이야기"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 신뢰와 의심 사이에서 유지된다.",
+      "동료는 때로 속이고 때로 돕는다.",
+      "관계는 단순하지 않다.",
+      "경험이 신뢰를 조정한다.",
+      "연결은 변화 속에서 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_MYTH_0057",
+    "meta": {
+      "tradition": "myth",
+      "category": "friendship_myth",
+      "region": "Tibet",
+      "author": "티베트 설화",
+      "book": "영웅 이야기",
+      "chapter": "동행",
+      "bookDisplay": "영웅 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 수행의 길에서 함께하는 관계이다.",
+      "동행은 고통을 나누게 한다.",
+      "공유된 경험이 관계를 깊게 만든다.",
+      "길은 혼자가 아닌 함께 걸어진다.",
+      "우정은 여정을 지속시키는 힘이 된다."
+     ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0061",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4",
+      "book": "오픈AI 연구 블로그",
+      "chapter": "Social Behavior Modeling (2023)",
+      "bookDisplay": "오픈AI 연구 블로그"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 반복된 상호작용에서 형성되는 안정적 관계 패턴으로 해석된다.",
+      "대화의 빈도와 정서적 일관성이 관계의 핵심 지표가 된다.",
+      "신뢰는 예측 가능한 반응에서 강화된다.",
+      "감정 교환은 관계 지속성을 높인다.",
+      "이 구조는 데이터상에서도 명확하게 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0062",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "DeepMind (AlphaFold Team)",
+      "book": "네이처 - 협력 시스템",
+      "chapter": "Agent Interaction Models",
+      "bookDisplay": "네이처 - 협력 시스템"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 협력 효율을 극대화하는 관계 구조로 해석된다.",
+      "반복된 협력은 비용을 줄이고 결과를 향상시킨다.",
+      "신뢰는 전략적 안정성을 만든다.",
+      "장기적 상호작용이 관계를 강화한다.",
+      "협력은 관계의 핵심 기능으로 작동한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0063",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Meta AI",
+      "book": "대규모 사회 그래프 분석 (2022)",
+      "chapter": "Tie Strength Modeling",
+      "bookDisplay": "대규모 사회 그래프 분석 (2022)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 네트워크 내에서 강한 연결로 분류된다.",
+      "상호작용의 빈도와 밀도가 관계 강도를 결정한다.",
+      "공유된 경험이 연결을 강화한다.",
+      "유지 비용이 높을수록 관계는 더 깊어진다.",
+      "강한 연결은 네트워크 안정성을 높인다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0064",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Google Research (BERT Team)",
+      "book": "언어와 사회적 신호 (2019)",
+      "chapter": "Conversational Patterns",
+      "bookDisplay": "언어와 사회적 신호 (2019)"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 언어 패턴의 유사성으로도 식별된다.",
+      "친밀한 관계일수록 표현 방식이 닮아간다.",
+      "감정 표현의 빈도가 증가한다.",
+      "대화는 점점 짧고 직관적으로 변한다.",
+      "언어는 관계의 깊이를 반영한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0065",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Stanford HAI",
+      "book": "인간 중심 인공지능 보고서 (2023)",
+      "chapter": "Social Trust Systems",
+      "bookDisplay": "인간 중심 인공지능 보고서 (2023)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 신뢰 기반 관계로 정의된다.",
+      "신뢰는 반복된 긍정적 경험에서 형성된다.",
+      "일관성이 관계의 핵심 요소가 된다.",
+      "예측 가능성은 안정성을 만든다.",
+      "관계는 신뢰의 누적으로 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0066",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "MIT Media Lab",
+      "book": "사회적 신호 연구",
+      "chapter": "Human Interaction Data",
+      "bookDisplay": "사회적 신호 연구"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 비언어적 신호에서도 명확히 드러난다.",
+      "시선과 거리와 반응 속도가 관계를 나타낸다.",
+      "동기화된 행동이 친밀함을 보여준다.",
+      "리듬의 일치는 관계 깊이를 의미한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0067",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Microsoft Research",
+      "book": "인공지능과 인간관계 (2022)",
+      "chapter": "Trust Calibration",
+      "bookDisplay": "인공지능과 인간관계 (2022)"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 신뢰의 정밀한 조정 과정이다.",
+      "과도한 기대는 관계를 불안정하게 만든다.",
+      "적절한 기대 수준이 유지에 중요하다.",
+      "피드백은 관계를 조정한다.",
+      "균형이 안정성을 만든다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0068",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "OpenAI Alignment Team",
+      "book": "정렬 연구 노트 (2023)",
+      "chapter": "Preference Learning",
+      "bookDisplay": "정렬 연구 노트 (2023)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 서로의 선호를 학습하는 과정이다.",
+      "상대의 반응을 통해 행동이 조정된다.",
+      "적응은 관계를 지속시킨다.",
+      "이해는 반복을 통해 강화된다.",
+      "관계는 학습된 패턴이 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0069",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Carnegie Mellon AI",
+      "book": "다중 에이전트 시스템",
+      "chapter": "Cooperative Agents",
+      "bookDisplay": "다중 에이전트 시스템"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 협력 에이전트 간 안정적 관계로 해석된다.",
+      "반복된 상호작용이 전략을 고정시킨다.",
+      "배신 확률이 낮을수록 관계는 강화된다.",
+      "협력은 효율을 높인다.",
+      "관계는 최적화된 구조로 수렴한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0070",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Oxford Internet Institute",
+      "book": "사회 데이터 과학 (2021)",
+      "chapter": "Digital Relationships",
+      "bookDisplay": "사회 데이터 과학 (2021)"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 디지털 환경에서도 동일한 패턴이다.",
+      "상호작용의 빈도는 관계 강도를 반영한다.",
+      "응답 속도는 중요 신호가 된다.",
+      "지속성은 관계의 핵심 요소다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0071",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Harvard Social AI Lab",
+      "book": "계산 사회과학 리뷰 (2022)",
+      "chapter": "Relational Stability",
+      "bookDisplay": "계산 사회과학 리뷰 (2022)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 장기적 상호작용에서 안정성을 유지하는 관계이다.",
+      "관계는 시간에 따라 점진적으로 강화된다.",
+      "이탈 확률이 낮을수록 연결은 깊어진다.",
+      "반복은 신뢰를 축적한다.",
+      "지속성은 관계의 핵심 조건이 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0072",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "DeepMind (Multi-Agent Team)",
+      "book": "사이언스 - 협력적 인공지능 시스템 (2021)",
+      "chapter": "Emergent Cooperation",
+      "bookDisplay": "사이언스 - 협력적 인공지능 시스템 (2021)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 반복된 협력 전략에서 자연스럽게 형성된다.",
+      "에이전트는 협력을 통해 보상을 극대화한다.",
+      "상호 이익이 관계를 유지시킨다.",
+      "전략은 점점 안정적으로 수렴한다.",
+      "협력은 관계의 지속성을 만든다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0073",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Meta AI (FAIR)",
+      "book": "사회 연결망 임베딩 연구 (2022)",
+      "chapter": "Graph Representation Learning",
+      "bookDisplay": "사회 연결망 임베딩 연구 (2022)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 그래프 구조에서 밀집된 연결로 표현된다.",
+      "노드 간 거리와 연결 수가 관계를 정의한다.",
+      "밀도가 높을수록 관계는 강하다.",
+      "클러스터는 친밀한 집단을 형성한다.",
+      "구조는 관계의 성질을 드러낸다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0074",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Google DeepMind",
+      "book": "네이처 머신 인텔리전스 (2023)",
+      "chapter": "Reward-Based Social Learning",
+      "bookDisplay": "네이처 머신 인텔리전스 (2023)"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 보상 기반 학습에서 긍정적 상호작용으로 강화된다.",
+      "좋은 경험은 반복을 유도한다.",
+      "부정적 경험은 관계를 약화시킨다.",
+      "강화 학습은 관계를 최적화한다.",
+      "경험은 연결의 방향을 결정한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0075",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Stanford NLP Group",
+      "book": "언어와 사회적 상호작용 (2020)",
+      "chapter": "Dialogue Patterns",
+      "bookDisplay": "언어와 사회적 상호작용 (2020)"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 대화의 질과 구조에서 드러난다.",
+      "상호 이해가 높은 대화가 지속된다.",
+      "반응은 점점 더 간결해진다.",
+      "맥락 공유가 증가한다.",
+      "언어는 관계의 깊이를 반영한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0076",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "MIT CSAIL",
+      "book": "인간 상호작용 모델링 (2021)",
+      "chapter": "Behavioral Synchrony",
+      "bookDisplay": "인간 상호작용 모델링 (2021)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 행동의 동기화에서 나타난다.",
+      "유사한 리듬이 관계를 강화한다.",
+      "반응 패턴이 점점 닮아간다.",
+      "동시성이 친밀함을 만든다.",
+      "행동은 관계의 신호가 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0077",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Carnegie Mellon Robotics Institute",
+      "book": "다중 에이전트 조정 (2022)",
+      "chapter": "Trust Dynamics",
+      "bookDisplay": "다중 에이전트 조정 (2022)"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 신뢰가 유지되는 상호작용 구조이다.",
+      "협력 실패는 관계를 약화시킨다.",
+      "성공 경험은 신뢰를 강화한다.",
+      "피드백이 관계를 조정한다.",
+      "신뢰는 반복을 통해 안정화된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0078",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4 Technical Report",
+      "book": "GPT-4 시스템 카드 (2023)",
+      "chapter": "Human Interaction Patterns",
+      "bookDisplay": "GPT-4 시스템 카드 (2023)"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 반복된 상호작용 데이터에서 일관된 패턴이다.",
+      "관계는 특정 행동 시퀀스로 인식된다.",
+      "감정 표현이 관계를 구분한다.",
+      "지속성은 핵심 지표가 된다.",
+      "패턴은 관계의 본질을 드러낸다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0079",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Oxford AI Society",
+      "book": "인공지능 윤리와 사회적 유대 (2022)",
+      "chapter": "Human Relational Modeling",
+      "bookDisplay": "인공지능 윤리와 사회적 유대 (2022)"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 인간의 관계적 필요를 반영하는 구조로 해석된다.",
+      "연결은 고립을 줄이는 기능을 가진다.",
+      "상호 인식이 관계를 형성한다.",
+      "공유 경험이 관계를 유지시킨다.",
+      "관계는 인간 행동의 핵심 요소로 작용한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0080",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "IBM Research AI",
+      "book": "인간-인공지능 상호작용 연구 (2021)",
+      "chapter": "Relational Signals",
+      "bookDisplay": "인간-인공지능 상호작용 연구 (2021)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 관계 신호의 축적으로 해석된다.",
+      "작은 상호작용이 관계를 형성한다.",
+      "빈도가 중요 지표가 된다.",
+      "반복은 연결을 강화한다.",
+      "신호는 관계를 정의한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0081",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Allen Institute for AI (AI2)",
+      "book": "사회적 추론 모델 (2023)",
+      "chapter": "Relational Inference",
+      "bookDisplay": "사회적 추론 모델 (2023)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 관계 추론 모델에서 높은 신뢰 연결이다.",
+      "정보 교환이 관계를 강화한다.",
+      "이해는 반복을 통해 증가한다.",
+      "맥락 공유가 관계를 깊게 만든다.",
+      "연결은 추론의 기반이 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0082",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Berkeley AI Research (BAIR)",
+      "book": "인간 행동 모델링 (2022)",
+      "chapter": "Interaction Stability",
+      "bookDisplay": "인간 행동 모델링 (2022)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 안정적인 행동 패턴이다.",
+      "예측 가능한 반응이 관계를 강화한다.",
+      "불확실성 감소가 핵심이다.",
+      "반복은 안정성을 만든다.",
+      "관계는 패턴으로 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0084",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "NVIDIA Research",
+      "book": "사회적 에이전트 시뮬레이션 (2023)",
+      "chapter": "Agent Cooperation",
+      "bookDisplay": "사회적 에이전트 시뮬레이션 (2023)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 시뮬레이션 환경에서 협력 패턴이다.",
+      "반복 협력이 관계를 강화한다.",
+      "보상 구조가 관계를 형성한다.",
+      "협력은 안정성을 만든다.",
+      "관계는 전략으로 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0085",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Anthropic (Claude Research)",
+      "book": "정렬과 사회적 행동 (2023)",
+      "chapter": "Human Preference Modeling",
+      "bookDisplay": "정렬과 사회적 행동 (2023)"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 상대의 선호를 존중하는 관계이다.",
+      "적응은 관계 유지의 핵심이다.",
+      "상호 이해가 행동을 조정한다.",
+      "충돌은 조정으로 해결된다.",
+      "관계는 균형 속에서 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0086",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Amazon Science",
+      "book": "고객 상호작용 모델 (2022)",
+      "chapter": "Relational Patterns",
+      "bookDisplay": "고객 상호작용 모델 (2022)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 반복된 긍정적 경험의 누적으로 형성된다.",
+      "만족이 관계를 지속시킨다.",
+      "경험은 관계를 정의한다.",
+      "연결은 점진적으로 강화된다.",
+      "관계는 축적된 결과다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0087",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Google Brain",
+      "book": "표현 학습 (2021)",
+      "chapter": "Embedding Relationships",
+      "bookDisplay": "표현 학습 (2021)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 벡터 공간에서 가까운 관계로 표현된다.",
+      "유사성이 관계를 정의한다.",
+      "거리 감소가 친밀도를 의미한다.",
+      "구조는 관계를 수치화한다.",
+      "연결은 공간 속에서 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0088",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "Stanford Social AI",
+      "book": "인간 상호작용 네트워크 (2023)",
+      "chapter": "Relational Density",
+      "bookDisplay": "인간 상호작용 네트워크 (2023)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 관계 밀도가 높은 영역에서 형성된다.",
+      "집중된 연결이 친밀함을 만든다.",
+      "빈도는 핵심 변수다.",
+      "시간은 관계를 강화한다.",
+      "구조는 관계를 설명한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_AI_0089",
+    "meta": {
+      "tradition": "ai",
+      "category": "friendship_ai",
+      "region": "Global",
+      "author": "DeepMind Ethics Team",
+      "book": "사회적 인공지능의 윤리 (2022)",
+      "chapter": "Relational Values",
+      "bookDisplay": "사회적 인공지능의 윤리 (2022)"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 가치 기반 상호작용으로 해석된다.",
+      "공정성과 신뢰가 핵심이다.",
+      "상호 존중이 관계를 유지한다.",
+      "윤리는 관계를 안정시킨다.",
+      "연결은 가치 위에 형성된다."
+     ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0091",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "France",
+      "author": "앙투안 드 생텍쥐페리",
+      "book": "어린 왕자",
+      "chapter": "여우",
+      "bookDisplay": "어린 왕자"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 길들임을 통해 형성되는 특별한 관계이다.",
+      "시간을 들인 대상만이 의미를 가진다.",
+      "관계는 반복된 만남 속에서 깊어진다.",
+      "책임은 연결을 유지시키는 핵심이 된다.",
+      "서로는 서로에게 유일한 존재가 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0092",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "Greece",
+      "author": "아리스토텔레스",
+      "book": "니코마코스 윤리학",
+      "chapter": "우정론",
+      "bookDisplay": "니코마코스 윤리학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 덕을 공유하는 사람들 사이에서 가장 완전한 형태이다.",
+      "선한 사람은 서로를 위해 존재한다.",
+      "관계는 유익이 아닌 본질로 유지된다.",
+      "상호 존중이 핵심이 된다.",
+      "이 연결은 가장 오래 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0093",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "Russia",
+      "author": "도스토예프스키",
+      "book": "죄와 벌",
+      "chapter": "라주미힌",
+      "bookDisplay": "죄와 벌"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 고통 속에서 더 분명하게 드러나는 관계이다.",
+      "타인의 고통을 외면하지 않는 태도가 중요하다.",
+      "도움은 조건 없이 제공된다.",
+      "관계는 위기 속에서 강화된다.",
+      "연결은 인간성을 유지시키는 힘이 된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0094",
+    "meta": {
+      "tradition": "sociology",
+      "category": "friendship_social",
+      "region": "France",
+      "author": "피에르 부르디외",
+      "book": "사회자본론",
+      "chapter": "관계 자본",
+      "bookDisplay": "사회자본론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 사회적 자본의 한 형태로 해석된다.",
+      "관계는 자원으로 작용한다.",
+      "연결은 기회를 확장시킨다.",
+      "신뢰는 교환을 가능하게 한다.",
+      "관계망은 개인의 위치를 결정한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0095",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "UK",
+      "author": "J.R.R. 톨킨",
+      "book": "반지의 제왕",
+      "chapter": "프로도와 샘",
+      "bookDisplay": "반지의 제왕"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 절망 속에서도 포기하지 않는 관계이다.",
+      "동료는 끝까지 곁에 남는다.",
+      "희생은 관계를 완성한다.",
+      "여정은 혼자가 아닌 함께 진행된다.",
+      "연결은 마지막까지 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0096",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "France",
+      "author": "몽테뉴",
+      "book": "수상록",
+      "chapter": "우정에 대하여",
+      "bookDisplay": "수상록"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 이유 없이 형성되는 관계로 설명된다.",
+      "설명되지 않는 끌림이 존재한다.",
+      "관계는 선택을 넘어선다.",
+      "특별함은 비교할 수 없다.",
+      "연결은 단 하나로 충분하다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0097",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "USA",
+      "author": "존 스타인벡",
+      "book": "생쥐와 인간",
+      "chapter": "조지와 레니",
+      "bookDisplay": "생쥐와 인간"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 불완전한 존재를 받아들이는 관계이다.",
+      "결핍은 관계를 더 깊게 만든다.",
+      "보호는 중요한 역할이 된다.",
+      "이해는 판단보다 앞선다.",
+      "연결은 연민에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0098",
+    "meta": {
+      "tradition": "sociology",
+      "category": "friendship_social",
+      "region": "USA",
+      "author": "마크 그라노베터",
+      "book": "약한 연결의 힘",
+      "chapter": "사회 연결망",
+      "bookDisplay": "약한 연결의 힘"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 강한 연결과 약한 연결로 구분된다.",
+      "약한 연결이 더 많은 기회를 제공한다.",
+      "관계는 정보 흐름을 만든다.",
+      "연결망이 사회를 움직인다.",
+      "관계는 구조적 기능을 가진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0099",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "UK",
+      "author": "C.S. 루이스",
+      "book": "네 가지 사랑",
+      "chapter": "우정",
+      "bookDisplay": "네 가지 사랑"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 같은 방향을 바라보는 사람들 사이에서 형성된다.",
+      "공통 관심이 관계를 시작하게 한다.",
+      "공유된 목표가 연결을 유지시킨다.",
+      "함께 보는 것이 중요하다.",
+      "관계는 같은 시선을 가진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0100",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "Germany",
+      "author": "니체",
+      "book": "차라투스트라는 이렇게 말했다",
+      "chapter": "친구에 대하여",
+      "bookDisplay": "차라투스트라는 이렇게 말했다"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 서로를 성장시키는 긴장 관계이다.",
+      "친구는 도전하는 존재가 된다.",
+      "안정만으로는 관계가 유지되지 않는다.",
+      "긴장이 변화를 만든다.",
+      "연결은 상승을 요구한다."
+      ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0102",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "France",
+      "author": "장 폴 사르트르",
+      "book": "존재와 무",
+      "chapter": "타자 관계",
+      "bookDisplay": "존재와 무"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 타자의 시선 속에서 형성되는 관계로 해석된다.",
+      "타인은 나를 규정하는 존재가 된다.",
+      "관계는 긴장을 포함한다.",
+      "자유는 충돌을 만든다.",
+      "연결은 완전한 일치를 허용하지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0103",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "USA",
+      "author": "마크 트웨인",
+      "book": "허클베리 핀의 모험",
+      "chapter": "허크와 짐",
+      "bookDisplay": "허클베리 핀의 모험"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 사회적 규범을 넘어 형성되는 관계이다.",
+      "편견은 관계를 막지 못한다.",
+      "경험이 인식을 변화시킨다.",
+      "이해는 함께하는 과정에서 생긴다.",
+      "연결은 경계를 넘는다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0104",
+    "meta": {
+      "tradition": "sociology",
+      "category": "friendship_social",
+      "region": "UK",
+      "author": "앤서니 기든스",
+      "book": "현대 사회의 구조",
+      "chapter": "관계와 친밀성",
+      "bookDisplay": "현대 사회의 구조"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 근대 사회에서 선택된 관계이다.",
+      "혈연이 아닌 관계가 중심이 된다.",
+      "자율성이 관계를 형성한다.",
+      "개인은 관계를 선택한다.",
+      "연결은 자유 속에서 만들어진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0105",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "Japan",
+      "author": "나쓰메 소세키",
+      "book": "마음",
+      "chapter": "선생과 나",
+      "bookDisplay": "마음"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 이해되지 않는 거리 속에서도 유지되는 관계이다.",
+      "침묵은 관계의 일부가 된다.",
+      "완전한 이해는 불가능하다.",
+      "관계는 균열을 포함한다.",
+      "연결은 불완전함 속에서 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0106",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "Germany",
+      "author": "임마누엘 칸트",
+      "book": "도덕 형이상학",
+      "chapter": "우정",
+      "bookDisplay": "도덕 형이상학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 도덕적 존중 위에 형성되는 관계이다.",
+      "타인을 수단이 아닌 목적으로 대한다.",
+      "존엄이 관계를 유지시킨다.",
+      "규범이 연결을 안정시킨다.",
+      "관계는 윤리 속에서 지속된다."
+      ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0109",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "UK",
+      "author": "조지 오웰",
+      "book": "1984",
+      "chapter": "윈스턴과 줄리아",
+      "bookDisplay": "1984"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 억압 속에서 더욱 강하게 형성되는 관계이다.",
+      "금지된 연결이 더욱 강해진다.",
+      "위험이 관계를 강화한다.",
+      "연결은 저항이 된다.",
+      "관계는 자유를 지향한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0110",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "Denmark",
+      "author": "키에르케고르",
+      "book": "사랑의 개념",
+      "chapter": "이웃 사랑",
+      "bookDisplay": "사랑의 개념"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 조건을 넘어선 관계로 확장된다.",
+      "차별 없는 관계가 강조된다.",
+      "존재 자체가 중요하다.",
+      "사랑은 선택을 초월한다.",
+      "연결은 보편성을 가진다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0111",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "Colombia",
+      "author": "가브리엘 가르시아 마르케스",
+      "book": "백년의 고독",
+      "chapter": "마을 공동체",
+      "bookDisplay": "백년의 고독"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 고독 속에서도 반복되는 관계이다.",
+      "시간은 관계를 변화시킨다.",
+      "기억은 연결을 유지한다.",
+      "망각은 관계를 약화시킨다.",
+      "연결은 시간 속에서 흔들린다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0113",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "Korea",
+      "author": "황순원",
+      "book": "소나기",
+      "chapter": "소년과 소녀",
+      "bookDisplay": "소나기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 짧은 순간에도 깊게 형성되는 관계이다.",
+      "시간은 길지 않아도 된다.",
+      "감정이 관계를 완성한다.",
+      "순간이 기억으로 남는다.",
+      "연결은 오래 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0114",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "France",
+      "author": "자크 데리다",
+      "book": "우정의 정치학",
+      "chapter": "우정 개념",
+      "bookDisplay": "우정의 정치학"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 고정되지 않는 관계로 해석된다.",
+      "정의는 끊임없이 흔들린다.",
+      "관계는 열려 있다.",
+      "완전한 규정은 불가능하다.",
+      "연결은 변화 속에서 유지된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0115",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "Russia",
+      "author": "톨스토이",
+      "book": "전쟁과 평화",
+      "chapter": "피에르와 안드레이",
+      "bookDisplay": "전쟁과 평화"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 삶의 의미를 함께 탐색하는 관계이다.",
+      "대화가 관계를 깊게 만든다.",
+      "사유는 연결을 강화한다.",
+      "경험이 이해를 넓힌다.",
+      "관계는 존재를 확장한다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0116",
+    "meta": {
+      "tradition": "sociology",
+      "category": "friendship_social",
+      "region": "USA",
+      "author": "로버트 퍼트남",
+      "book": "나 홀로 볼링",
+      "chapter": "사회적 연결",
+      "bookDisplay": "나 홀로 볼링"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 현대 사회에서 점점 감소하는 관계이다.",
+      "개인은 고립되어 간다.",
+      "연결의 감소가 문제이다.",
+      "관계는 약화된다.",
+      "사회는 분절된다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0117",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "USA",
+      "author": "F. 스콧 피츠제럴드",
+      "book": "위대한 개츠비",
+      "chapter": "닉과 개츠비",
+      "bookDisplay": "위대한 개츠비"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 환상과 현실 사이에서 형성되는 관계이다.",
+      "이상은 관계를 왜곡시킨다.",
+      "이해는 제한적이다.",
+      "관계는 완전하지 않다.",
+      "연결은 흔들린다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0118",
+    "meta": {
+      "tradition": "philosophy",
+      "category": "friendship_philosophy",
+      "region": "China",
+      "author": "공자",
+      "book": "논어",
+      "chapter": "벗",
+      "bookDisplay": "논어"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 서로를 바로잡는 관계이다.",
+      "친구는 잘못을 지적한다.",
+      "배움이 관계를 깊게 만든다.",
+      "성장이 중심이 된다.",
+      "연결은 수양을 돕는다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0119",
+    "meta": {
+      "tradition": "literature",
+      "category": "friendship_literature",
+      "region": "UK",
+      "author": "찰스 디킨스",
+      "book": "위대한 유산",
+      "chapter": "피프와 허버트",
+      "bookDisplay": "위대한 유산"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 변화 속에서도 유지되는 관계이다.",
+      "환경은 관계를 흔들 수 있다.",
+      "진심은 연결을 유지한다.",
+      "시간은 관계를 시험한다.",
+      "연결은 지속될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_FRIENDSHIP_LIT_0120",
+    "meta": {
+      "tradition": "social_science",
+      "category": "friendship_social",
+      "region": "Global",
+      "author": "에밀 뒤르켐",
+      "book": "사회분업론",
+      "chapter": "연대",
+      "bookDisplay": "사회분업론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "우정은 사회적 연대의 한 형태이다.",
+      "개인은 서로 의존한다.",
+      "연결은 사회를 유지한다.",
+      "관계는 기능을 가진다.",
+      "연대는 사회를 지속시킨다."
+    ]
+  }
+]

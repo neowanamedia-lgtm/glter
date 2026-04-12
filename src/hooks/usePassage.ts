@@ -68,10 +68,13 @@ export function usePassage({
     [myWritings],
   );
 
-  const tagFiltered = useMemo(
-    () => filterPassagesByTags(library, selectedTags),
-    [library, selectedTags],
-  );
+  const tagFiltered = useMemo(() => {
+    const byTags = filterPassagesByTags(library, selectedTags);
+    return filterPassagesByAISelection(
+      byTags,
+      safeFilters.selectedCategories as string[] | undefined,
+    );
+  }, [library, selectedTags, safeFilters]);
 
   const emotionAndTagFiltered = useMemo(
     () => filterPassagesByEmotion(tagFiltered, emotion),
@@ -90,7 +93,10 @@ export function usePassage({
       return activeMyWritingLibrary;
     }
 
-    if (selectedTags.length > 0) {
+    if (
+      selectedTags.length > 0 ||
+      hasAISelected(safeFilters.selectedCategories as string[] | undefined)
+    ) {
       if (emotionAndTagFiltered.length > 0) {
         return emotionAndTagFiltered;
       }
@@ -115,6 +121,7 @@ export function usePassage({
     tagFiltered,
     emotionFiltered,
     library,
+    safeFilters,
   ]);
 
   const hasPassages = fallbackPool.length > 0;
@@ -136,8 +143,8 @@ export function usePassage({
 
       return {
         id: picked.id,
-        lines: picked.lines,
-        sourceText: picked.sourceText,
+        lines: Array.isArray(picked.lines) ? picked.lines : [],
+        sourceText: typeof picked.sourceText === 'string' ? picked.sourceText : '',
       };
     },
     [fallbackPool],
@@ -165,23 +172,67 @@ function buildPassageLibrary(entries: PassageRegistryEntry[]): NormalizedPassage
 
   entries.forEach((entry) => {
     const registryTags = Array.isArray(entry.tags) ? [...entry.tags] : [];
-    const normalized = adaptPassageFile(entry.data, {
-      category: entry.category,
-      domain: entry.domain,
-      language: entry.language,
-    }).map((passage) => {
-      const taggedPassage = {
-        ...passage,
-        tagSet: [...registryTags],
-      } as PassageWithMeta;
 
-      return applyNovelSourceText(taggedPassage, registryTags);
-    });
+    let normalized: NormalizedPassage[] = [];
 
-    records.push(...normalized);
+    try {
+      const adapted = adaptPassageFile(entry.data, {
+        category: entry.category,
+        domain: entry.domain,
+        language: entry.language,
+      });
+
+      normalized = Array.isArray(adapted) ? adapted : [];
+    } catch (error) {
+      console.warn('[usePassage] adaptPassageFile failed:', entry.category, error);
+      normalized = [];
+    }
+
+    const safeNormalized = normalized
+      .filter(isValidNormalizedPassage)
+      .map((passage) => {
+        const taggedPassage: PassageWithMeta = {
+          ...(passage as PassageWithMeta),
+          sourceText:
+            typeof (passage as PassageWithMeta).sourceText === 'string'
+              ? (passage as PassageWithMeta).sourceText
+              : '',
+          tagSet: [...registryTags],
+        };
+
+        return applyNovelSourceText(taggedPassage, registryTags);
+      });
+
+    records.push(...safeNormalized);
   });
 
   return records;
+}
+
+function isValidNormalizedPassage(value: unknown): value is NormalizedPassage {
+  if (!value || typeof value !== 'object') {
+    return false;
+  }
+
+  const candidate = value as Partial<NormalizedPassage>;
+
+  if (typeof candidate.id !== 'string' || candidate.id.trim().length === 0) {
+    return false;
+  }
+
+  if (!Array.isArray(candidate.lines) || candidate.lines.length === 0) {
+    return false;
+  }
+
+  const hasAtLeastOneValidLine = candidate.lines.some(
+    (line) => typeof line === 'string' && line.trim().length > 0,
+  );
+
+  if (!hasAtLeastOneValidLine) {
+    return false;
+  }
+
+  return true;
 }
 
 function buildMyWritingLibrary(myWritings: MyWriting[]): NormalizedPassage[] {
@@ -313,6 +364,28 @@ function filterPassagesByTags(
 
     return passageTags.some((tag) => tagSet.has(tag));
   });
+}
+
+function filterPassagesByAISelection(
+  passages: NormalizedPassage[],
+  selectedCategories?: string[],
+): NormalizedPassage[] {
+  if (!hasAISelected(selectedCategories)) {
+    return passages;
+  }
+
+  return passages.filter((passage) => {
+    const tradition = toCleanString((passage as PassageWithMeta).meta?.tradition);
+    return tradition?.toLowerCase() === 'ai';
+  });
+}
+
+function hasAISelected(selectedCategories?: string[]): boolean {
+  if (!Array.isArray(selectedCategories) || !selectedCategories.length) {
+    return false;
+  }
+
+  return selectedCategories.includes('ai');
 }
 
 type LegacyEmotionKey = EmotionKey | 'depression';

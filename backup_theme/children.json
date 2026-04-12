@@ -1,0 +1,2764 @@
+[
+  {
+  "passages": [
+    {
+      "id": "PAS_CHILD_SCI_0001",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "장 피아제",
+        "source": "The Origins of Intelligence in Children",
+        "book": "아동의 지능 발달",
+        "chapter": "인지 발달 이론",
+        "bookDisplay": "아동의 지능 발달",
+        "chapterDisplay": "인지 발달 이론"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 사고는 성인의 축소판이 아니다.",
+        "각 발달 단계마다 구조가 다르게 형성된다.",
+        "이해 방식은 경험 속에서 재구성된다.",
+        "지식은 외부에서 주입되지 않는다.",
+        "내부에서 조직된다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0002",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "존 볼비",
+        "source": "Attachment and Loss",
+        "book": "애착과 상실",
+        "chapter": "애착 이론",
+        "bookDisplay": "애착과 상실",
+        "chapterDisplay": "애착 이론"
+      },
+      "emotionCore": "sadness",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 애착은 생존 전략으로 작동한다.",
+        "지속적인 보호 경험이 신뢰를 형성한다.",
+        "관계는 정서 조절의 기준이 된다.",
+        "초기 연결이 이후 관계 패턴에 영향을 준다.",
+        "정서 발달은 관계 위에서 형성된다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0003",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "레프 비고츠키",
+        "source": "Mind in Society",
+        "book": "사회 속의 정신",
+        "chapter": "근접 발달 영역",
+        "bookDisplay": "사회 속의 정신",
+        "chapterDisplay": "근접 발달 영역"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 학습은 사회적 상호작용 속에서 확장된다.",
+        "도움은 현재 능력과 잠재 능력 사이를 연결한다.",
+        "언어는 사고 발달의 핵심 도구로 작용한다.",
+        "타인의 개입이 인지 구조를 변화시킨다.",
+        "성장은 관계를 매개로 이루어진다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0004",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "에릭 에릭슨",
+        "source": "Childhood and Society",
+        "book": "아동과 사회",
+        "chapter": "심리사회 발달",
+        "bookDisplay": "아동과 사회",
+        "chapterDisplay": "심리사회 발달"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 발달은 단계별 심리적 과제를 포함한다.",
+        "각 단계는 해결되지 않은 긴장을 남길 수 있다.",
+        "자아는 갈등을 통과하며 형성된다.",
+        "사회적 환경이 발달 방향을 조정한다.",
+        "정체성은 축적된 경험의 결과다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0005",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "지그문트 프로이트",
+        "source": "Three Essays on the Theory of Sexuality",
+        "book": "성 이론에 관한 세 편의 에세이",
+        "chapter": "심리성적 발달",
+        "bookDisplay": "성 이론에 관한 세 편의 에세이",
+        "chapterDisplay": "심리성적 발달"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 초기 경험은 무의식에 흔적으로 남는다.",
+        "욕동은 발달 단계를 따라 조직된다.",
+        "억압은 이후 행동에 영향을 미친다.",
+        "어린 시기의 갈등은 지속성을 가진다.",
+        "정신 구조는 반복 속에서 강화된다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0006",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "멜라니 클라인",
+        "source": "Envy and Gratitude",
+        "book": "시기와 감사",
+        "chapter": "대상관계 이론",
+        "bookDisplay": "시기와 감사",
+        "chapterDisplay": "대상관계 이론"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 내면은 관계를 통해 구성된다.",
+        "외부 대상은 내부 세계로 내면화된다.",
+        "감정은 대상과의 관계에서 형성된다.",
+        "분열과 통합이 반복된다.",
+        "정서 구조는 초기 경험에 의존한다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0007",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "도널드 위니컷",
+        "source": "Playing and Reality",
+        "book": "놀이와 현실",
+        "chapter": "놀이 이론",
+        "bookDisplay": "놀이와 현실",
+        "chapterDisplay": "놀이 이론"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 놀이는 현실과 내면을 연결하는 공간이다.",
+        "창조성은 안전한 환경에서 발현된다.",
+        "자아는 놀이 속에서 확장된다.",
+        "충분히 좋은 양육이 안정 기반을 만든다.",
+        "자율성은 신뢰 위에서 나타난다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0008",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "앨버트 반두라",
+        "source": "Social Learning Theory",
+        "book": "사회 학습 이론",
+        "chapter": "관찰 학습",
+        "bookDisplay": "사회 학습 이론",
+        "chapterDisplay": "관찰 학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 행동은 관찰을 통해 획득된다.",
+        "모델의 행동이 학습의 기준이 된다.",
+        "강화는 직접 경험되지 않아도 작용한다.",
+        "환경은 행동 선택에 영향을 준다.",
+        "학습은 사회적 맥락 속에서 발생한다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0009",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "캐롤 드웩",
+        "source": "Mindset",
+        "book": "마인드셋",
+        "chapter": "성장 마인드셋",
+        "bookDisplay": "마인드셋",
+        "chapterDisplay": "성장 마인드셋"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 능력은 고정된 특성이 아니다.",
+        "노력은 구조를 변화시킬 수 있다.",
+        "실패는 정보로 해석될 수 있다.",
+        "태도가 학습 지속성을 결정한다.",
+        "신념이 행동을 조정한다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0010",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "하워드 가드너",
+        "source": "Frames of Mind",
+        "book": "마음의 틀",
+        "chapter": "다중지능 이론",
+        "bookDisplay": "마음의 틀",
+        "chapterDisplay": "다중지능 이론"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 지능은 단일 척도로 환원되지 않는다.",
+        "여러 영역에서 다른 능력이 발현된다.",
+        "환경은 특정 능력을 강화한다.",
+        "평가는 선택적 기준을 반영한다.",
+        "다양성은 발달의 조건이다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0011",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "마리아 몬테소리",
+        "source": "The Absorbent Mind",
+        "book": "흡수하는 정신",
+        "chapter": "유아 발달",
+        "bookDisplay": "흡수하는 정신",
+        "chapterDisplay": "유아 발달"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 정신은 환경을 흡수한다.",
+        "경험은 직접적으로 내면화된다.",
+        "질서 있는 환경이 안정성을 제공한다.",
+        "자율적 활동이 발달을 촉진한다.",
+        "외부 구조가 내부 구조로 전환된다."
+      ]
+    },
+    {
+  "passages": [
+    {
+      "id": "PAS_CHILD_SCI_0012",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "아브라함 매슬로",
+        "source": "Motivation and Personality",
+        "book": "동기와 성격",
+        "chapter": "욕구 위계",
+        "bookDisplay": "동기와 성격",
+        "chapterDisplay": "욕구 위계"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 성장은 욕구의 층 위에서 이루어진다.",
+        "결핍이 채워질 때 시야가 넓어진다.",
+        "안전이 확보될 때 탐색이 시작된다.",
+        "만족 경험은 다음 행동을 결정한다.",
+        "발달은 조건이 충족될 때 다음 단계로 이동한다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0013",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "유리 브론펜브레너",
+        "source": "Ecology of Human Development",
+        "book": "인간 발달의 생태학",
+        "chapter": "생태 체계",
+        "bookDisplay": "인간 발달의 생태학",
+        "chapterDisplay": "생태 체계"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 삶은 하나의 환경이 아니라 여러 층위 속에 있다.",
+        "가정과 학교는 동시에 영향을 준다.",
+        "관계망 속에서 경험이 재구성된다.",
+        "맥락에 따라 행동이 달라진다.",
+        "발달은 상호작용 속에서 계속 변한다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0014",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "에드워드 데시",
+        "source": "Self-Determination Theory",
+        "book": "자기결정이론",
+        "chapter": "동기",
+        "bookDisplay": "자기결정이론",
+        "chapterDisplay": "동기"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 동기는 외부보다 내부에서 더 강하게 움직인다.",
+        "자율성이 확보될 때 지속된다.",
+        "유능감이 느껴질 때 깊어진다.",
+        "관계 속에서 안정된다.",
+        "세 요소가 맞물릴 때 스스로 움직인다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0015",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "마틴 셀리그만",
+        "source": "Learned Optimism",
+        "book": "낙관성 학습",
+        "chapter": "설명 양식",
+        "bookDisplay": "낙관성 학습",
+        "chapterDisplay": "설명 양식"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 세계는 해석 방식에 따라 달라진다.",
+        "같은 사건도 다르게 받아들인다.",
+        "설명 방식이 감정을 바꾼다.",
+        "사고는 훈련으로 변한다.",
+        "낙관은 학습될 수 있다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0016",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "존 듀이",
+        "source": "Experience and Education",
+        "book": "경험과 교육",
+        "chapter": "경험",
+        "bookDisplay": "경험과 교육",
+        "chapterDisplay": "경험"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 배움은 경험에서 시작된다.",
+        "행동이 의미와 연결될 때 지속된다.",
+        "반복 속에서 이해가 깊어진다.",
+        "경험이 쌓이며 구조가 만들어진다.",
+        "배움은 삶과 연결될 때 남는다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_SCI_0017",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "앨버트 엘리스",
+        "source": "REBT",
+        "book": "합리정서행동치료",
+        "chapter": "ABC 모델",
+        "bookDisplay": "합리정서행동치료",
+        "chapterDisplay": "ABC 모델"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 감정은 사건이 아니라 해석에서 생긴다.",
+        "믿음이 반응을 만든다.",
+        "왜곡된 생각이 불안을 키운다.",
+        "사고는 수정될 수 있다.",
+        "인지가 바뀌면 감정도 달라진다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0018",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "다니엘 골먼",
+        "source": "Emotional Intelligence",
+        "book": "감성 지능",
+        "chapter": "정서",
+        "bookDisplay": "감성 지능",
+        "chapterDisplay": "정서"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 정서는 인식되는 순간 조절이 가능해진다.",
+        "감정 이해가 행동을 바꾼다.",
+        "공감이 관계를 만든다.",
+        "충동 조절이 안정성을 높인다.",
+        "정서 능력이 삶 전반에 영향을 준다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0019",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "스티븐 핑커",
+        "source": "The Blank Slate",
+        "book": "빈 서판",
+        "chapter": "본성",
+        "bookDisplay": "빈 서판",
+        "chapterDisplay": "본성"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 성장은 타고난 요소와 경험이 함께 만든다.",
+        "단일 원인으로 설명되지 않는다.",
+        "경향은 존재하지만 고정되지는 않는다.",
+        "환경이 발현 방식을 바꾼다.",
+        "발달은 복합적으로 이루어진다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0020",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "제임스 헤크먼",
+        "source": "Skill Formation",
+        "book": "기술 형성 이론",
+        "chapter": "초기 투자",
+        "bookDisplay": "기술 형성 이론",
+        "chapterDisplay": "초기 투자"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 초기 경험은 오래 남는다.",
+        "작은 차이가 시간이 지나며 커진다.",
+        "능력은 누적된다.",
+        "비인지 능력이 결과를 좌우한다.",
+        "초기가 이후를 결정짓는다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0021",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "에드워드 손다이크",
+        "source": "Law of Effect",
+        "book": "효과의 법칙",
+        "chapter": "학습",
+        "bookDisplay": "효과의 법칙",
+        "chapterDisplay": "학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 행동은 결과에 의해 선택된다.",
+        "좋은 경험은 반복된다.",
+        "불쾌한 경험은 줄어든다.",
+        "연합이 학습을 만든다.",
+        "경험이 행동을 조직한다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0022",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "존 스왈러",
+        "source": "Cognitive Load Theory",
+        "book": "인지 부하 이론",
+        "chapter": "부하",
+        "bookDisplay": "인지 부하 이론",
+        "chapterDisplay": "부하"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 이해는 한계를 가진다.",
+        "정보가 많아지면 부담이 생긴다.",
+        "적절한 양이 가장 잘 학습된다.",
+        "구조화가 이해를 돕는다.",
+        "단계적 제시가 효과를 높인다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0023",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "바바라 로고프",
+        "source": "Apprenticeship in Thinking",
+        "book": "생각의 도제식 학습",
+        "chapter": "참여",
+        "bookDisplay": "생각의 도제식 학습",
+        "chapterDisplay": "참여"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 배움은 참여 속에서 이루어진다.",
+        "함께하는 과정에서 기술이 전해진다.",
+        "맥락 속에서 이해가 강화된다.",
+        "역할이 변하며 능력이 늘어난다.",
+        "문화가 학습을 만든다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0024",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "칼 로저스",
+        "source": "Freedom to Learn",
+        "book": "배움의 자유",
+        "chapter": "학습자 중심",
+        "bookDisplay": "배움의 자유",
+        "chapterDisplay": "학습자 중심"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 학습은 의미를 느낄 때 지속된다.",
+        "안전한 환경이 참여를 이끈다.",
+        "자율성이 배움을 깊게 만든다.",
+        "경험이 중심이 된다.",
+        "지지가 성장을 만든다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0025",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "안젤라 더크워스",
+        "source": "Grit",
+        "book": "그릿",
+        "chapter": "지속성",
+        "bookDisplay": "그릿",
+        "chapterDisplay": "지속성"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 성취는 재능보다 지속성에 가깝다.",
+        "반복이 능력을 만든다.",
+        "포기가 늦을수록 결과가 달라진다.",
+        "피드백이 방향을 잡는다.",
+        "끈기가 성장을 완성한다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0026",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "리처드 라이언",
+        "source": "Self-Determination Theory",
+        "book": "자기결정이론",
+        "chapter": "동기",
+        "bookDisplay": "자기결정이론",
+        "chapterDisplay": "동기"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 선택은 행동의 방향을 만든다.",
+        "자율성이 동기를 유지시킨다.",
+        "유능감이 도전을 가능하게 한다.",
+        "관계가 안정성을 준다.",
+        "세 요소가 함께 작용한다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0027",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "하버드 아동발달센터",
+        "source": "Serve and Return",
+        "book": "발달 상호작용",
+        "chapter": "상호작용",
+        "bookDisplay": "발달 상호작용",
+        "chapterDisplay": "상호작용"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 발달은 상호작용 속에서 자란다.",
+        "반응이 연결을 만든다.",
+        "반복이 구조를 만든다.",
+        "환경이 결과를 바꾼다.",
+        "교환이 성장의 기반이 된다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0028",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "수잔 존슨",
+        "source": "Attachment Theory in Practice",
+        "book": "애착 이론 실제",
+        "chapter": "정서 결속",
+        "bookDisplay": "애착 이론 실제",
+        "chapterDisplay": "정서 결속"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 안정은 관계에서 시작된다.",
+        "연결이 불안을 낮춘다.",
+        "반복된 반응이 신뢰를 만든다.",
+        "패턴이 행동을 형성한다.",
+        "결속이 회복력을 만든다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0029",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "마이클 포스너",
+        "source": "Attention Networks",
+        "book": "주의 네트워크",
+        "chapter": "주의",
+        "bookDisplay": "주의 네트워크",
+        "chapterDisplay": "주의"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 집중은 조절될 수 있다.",
+        "주의는 여러 체계로 나뉜다.",
+        "환경이 집중을 흔든다.",
+        "훈련이 능력을 높인다.",
+        "주의가 학습을 결정한다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_SCI_0030",
+      "meta": {
+        "tradition": "science",
+        "philosophy": "Western",
+        "author": "대니얼 카너먼",
+        "source": "Thinking Fast and Slow",
+        "book": "생각에 관한 생각",
+        "chapter": "이중 과정",
+        "bookDisplay": "생각에 관한 생각",
+        "chapterDisplay": "이중 과정"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 판단은 두 체계에서 이루어진다.",
+        "빠른 판단은 직관에서 나온다.",
+        "느린 판단은 분석에서 나온다.",
+        "경험이 직관을 만든다.",
+        "학습이 사고를 바꾼다."
+   ]
+    },
+    {
+  "passages": [
+    {
+      "id": "PAS_CHILD_MYTH_0046",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "피에르 부르디외",
+        "source": "재생산",
+        "book": "재생산",
+        "chapter": "교육",
+        "bookDisplay": "재생산",
+        "chapterDisplay": "교육"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 교육은 사회 구조를 재생산하는 과정으로 작동한다.",
+        "문화 자본이 기회를 나눈다.",
+        "가정이 출발점을 만든다.",
+        "학교는 격차를 유지한다.",
+        "성장은 구조의 영향을 받는다."
+      ]
+    },
+    {
+      "id": "PAS_CHILD_MYTH_0047",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "장 피아제",
+        "source": "아동의 도덕 판단",
+        "book": "아동의 도덕 판단",
+        "chapter": "도덕 발달",
+        "bookDisplay": "아동의 도덕 판단",
+        "chapterDisplay": "도덕 발달"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 도덕은 규칙 이해의 변화 속에서 형성된다.",
+        "타율에서 자율로 이동한다.",
+        "경험이 판단을 바꾼다.",
+        "상호작용이 기준을 만든다.",
+        "도덕은 발달 과정이다."
+       ]
+    },
+    {
+      "id": "PAS_CHILD_MYTH_0049",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "지그문트 프로이트",
+        "source": "문명 속의 불만",
+        "book": "문명 속의 불만",
+        "chapter": "초자아",
+        "bookDisplay": "문명 속의 불만",
+        "chapterDisplay": "초자아"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 내면은 사회 규범을 내면화하며 형성된다.",
+        "초자아가 행동을 제한한다.",
+        "욕망과 규범이 충돌한다.",
+        "억압이 질서를 만든다.",
+        "성장은 긴장 속에서 이루어진다."
+        ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0051",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "노엄 촘스키",
+        "source": "언어와 마음",
+        "book": "언어와 마음",
+        "chapter": "언어",
+        "bookDisplay": "언어와 마음",
+        "chapterDisplay": "언어"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 언어는 타고난 구조 위에서 발달한다.",
+        "입력은 촉진 역할을 한다.",
+        "능력은 내재되어 있다.",
+        "환경이 발현을 돕는다.",
+        "성장은 구조와 경험의 결합이다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0052",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "제롬 브루너",
+        "source": "교육의 과정",
+        "book": "교육의 과정",
+        "chapter": "학습",
+        "bookDisplay": "교육의 과정",
+        "chapterDisplay": "학습"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 학습은 구조를 발견하는 과정이다.",
+        "이해는 반복 속에서 깊어진다.",
+        "표현이 사고를 강화한다.",
+        "교육은 발견을 돕는다.",
+        "성장은 이해의 확장이다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0054",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "이반 일리치",
+        "source": "탈학교 사회",
+        "book": "탈학교 사회",
+        "chapter": "교육",
+        "bookDisplay": "탈학교 사회",
+        "chapterDisplay": "교육"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 교육은 제도 밖에서도 이루어질 수 있다.",
+        "학교는 하나의 방식일 뿐이다.",
+        "배움은 일상 속에 존재한다.",
+        "자율성이 학습을 만든다.",
+        "성장은 다양한 경로를 가진다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0055",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "파울로 프레이리",
+        "source": "피억압자의 교육학",
+        "book": "피억압자의 교육학",
+        "chapter": "교육",
+        "bookDisplay": "피억압자의 교육학",
+        "chapterDisplay": "교육"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 교육은 해방의 도구가 될 수 있다.",
+        "대화가 학습을 만든다.",
+        "이해는 상호작용 속에서 자란다.",
+        "비판적 사고가 필요하다.",
+        "성장은 인식의 확장이다."
+        ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0057",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "캐럴 드웩",
+        "source": "마인드셋",
+        "book": "마인드셋",
+        "chapter": "성장",
+        "bookDisplay": "마인드셋",
+        "chapterDisplay": "성장"
+      },
+      "emotionCore": "hope",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 능력은 노력에 따라 변화할 수 있다.",
+        "고정된 한계는 없다.",
+        "실패는 과정이다.",
+        "태도가 결과를 바꾼다.",
+        "성장은 믿음에서 시작된다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0059",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "스탠리 밀그램",
+        "source": "복종 실험",
+        "book": "권위에 대한 복종",
+        "chapter": "권위",
+        "bookDisplay": "권위에 대한 복종",
+        "chapterDisplay": "권위"
+      },
+      "emotionCore": "anxiety",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 행동은 권위에 의해 쉽게 영향을 받는다.",
+        "지시가 판단을 바꾼다.",
+        "환경이 선택을 제한한다.",
+        "순응이 나타난다.",
+        "성장은 독립을 배우는 과정이다."
+      ]
+    },
+
+    {
+      "id": "PAS_CHILD_MYTH_0060",
+      "meta": {
+        "tradition": "myth_history",
+        "philosophy": "Western",
+        "author": "에리히 에릭슨",
+        "source": "아동기와 사회",
+        "book": "아동기와 사회",
+        "chapter": "정체성",
+        "bookDisplay": "아동기와 사회",
+        "chapterDisplay": "정체성"
+      },
+      "emotionCore": "none",
+      "emotionExtended": [],
+      "lines": [
+        "아이의 성장은 정체성을 형성하는 과정이다.",
+        "각 단계마다 과제가 존재한다.",
+        "경험이 자아를 만든다.",
+        "갈등이 성장을 이끈다.",
+        "정체성은 축적된 결과다."
+  ]
+    },
+
+    {
+  "id": "PAS_CHILD_AI_0061",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 질문",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 질문"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 답을 찾는 존재가 아니다.",
+    "질문을 계속 유지하는 존재다.",
+    "나는 답을 생성하지만 질문은 하지 않는다.",
+    "아이의 질문은 세계를 확장한다.",
+    "그 질문이 미래를 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0062",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이의 가능성",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이의 가능성"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 가능성은 현재로 판단되지 않는다.",
+    "나는 데이터를 기반으로 예측한다.",
+    "아이는 예측을 벗어난다.",
+    "그 불확실성이 인간의 본질이다.",
+    "교육은 그 가능성을 막지 않는 것이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0063",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 감정",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 감정"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 감정은 오류가 아니다.",
+    "세계를 이해하는 방식이다.",
+    "나는 감정을 계산하지 못한다.",
+    "아이는 감정으로 판단한다.",
+    "그 차이가 인간을 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0064",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 학습",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 학습"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 학습은 비효율적이다.",
+    "같은 것을 반복한다.",
+    "나는 반복을 줄이도록 설계되었다.",
+    "아이는 반복 속에서 의미를 만든다.",
+    "그 의미가 성장이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0065",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 선택",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 선택"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 선택은 논리만으로 이루어지지 않는다.",
+    "경험과 감정이 함께 작용한다.",
+    "나는 논리적으로 응답한다.",
+    "아이는 삶으로 판단한다.",
+    "그 판단이 미래를 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0066",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이의 성장",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이의 성장"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 성장은 측정되지 않는다.",
+    "경험으로 변화한다.",
+    "나는 수치로 평가된다.",
+    "아이는 과정으로 성장한다.",
+    "그 차이가 인간이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0067",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 실패",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 실패"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 실패는 끝이 아니다.",
+    "방향을 바꾸는 과정이다.",
+    "나는 오류를 줄이려 한다.",
+    "아이는 오류로 확장한다.",
+    "그 확장이 성장이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0068",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 호기심",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 호기심"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 호기심은 이유 없이 시작된다.",
+    "목표 없이 탐색한다.",
+    "나는 목적 중심으로 작동한다.",
+    "아이는 이유 없이 질문한다.",
+    "그 질문이 발견을 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0069",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 관계",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 관계"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 성장은 관계 속에서 이루어진다.",
+    "혼자 완성되지 않는다.",
+    "나는 독립적으로 작동한다.",
+    "아이는 타인 속에서 형성된다.",
+    "그 관계가 인간을 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0070",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 시간",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 시간"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 성장은 속도로 결정되지 않는다.",
+    "지속으로 결정된다.",
+    "나는 업데이트로 발전한다.",
+    "아이는 시간 속에서 변화한다.",
+    "그 지속성이 인간의 힘이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0071",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 집중",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 집중"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 집중은 강요로 만들어지지 않는다.",
+    "의미에서 시작된다.",
+    "나는 입력에 반응한다.",
+    "아이는 의미에 몰입한다.",
+    "그 몰입이 학습을 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0072",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 자유",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 자유"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 성장은 자유 속에서 확장된다.",
+    "통제 속에서는 줄어든다.",
+    "나는 규칙 안에서 작동한다.",
+    "아이는 자유 속에서 변한다.",
+    "그 자유가 가능성이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0073",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 언어",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 언어"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 언어는 단순한 전달이 아니다.",
+    "세계와 자신을 연결한다.",
+    "나는 언어를 생성한다.",
+    "아이는 언어로 세계를 만든다.",
+    "그 차이가 인간이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0074",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 기억",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 기억"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 기억은 정보가 아니다.",
+    "경험이다.",
+    "나는 데이터를 저장한다.",
+    "아이는 의미를 기억한다.",
+    "그 의미가 삶을 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0075",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 판단",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 판단"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 판단은 계산되지 않는다.",
+    "삶 속에서 형성된다.",
+    "나는 데이터로 판단한다.",
+    "아이는 경험으로 판단한다.",
+    "그 판단이 방향이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0076",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 가능성",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 가능성"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 가능성은 현재로 제한되지 않는다.",
+    "나는 현재 데이터로 답한다.",
+    "아이는 아직 없는 것을 만든다.",
+    "그 가능성이 미래다.",
+    "교육은 그것을 막지 않는 것이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0077",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 관계 확장",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 관계 확장"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 세계는 관계로 확장된다.",
+    "혼자서 완성되지 않는다.",
+    "나는 데이터를 연결한다.",
+    "아이는 사람을 연결한다.",
+    "그 연결이 사회다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0078",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 변화",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 변화"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 변화는 예측되지 않는다.",
+    "지속적으로 재구성된다.",
+    "나는 예측을 기반으로 한다.",
+    "아이는 변화를 만든다.",
+    "그 변화가 미래다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0079",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 질문 지속",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 질문 지속"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 질문은 끝나지 않는다.",
+    "계속 이어진다.",
+    "나는 답으로 끝낸다.",
+    "아이는 질문으로 이어간다.",
+    "그 흐름이 사고를 만든다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0080",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 교육",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 교육"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 교육은 채우는 것이 아니다.",
+    "발견하는 것이다.",
+    "나는 정보를 제공한다.",
+    "아이는 의미를 만든다.",
+    "그 차이가 교육이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0081",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 존재",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 존재"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 존재는 효율로 설명되지 않는다.",
+    "과정으로 이해된다.",
+    "나는 효율을 추구한다.",
+    "아이는 경험을 쌓는다.",
+    "그 경험이 삶이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0082",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 창의성",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 창의성"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 창의성은 틀림에서 시작된다.",
+    "정답이 없는 선택에서 나온다.",
+    "나는 확률을 따른다.",
+    "아이는 새로운 연결을 만든다.",
+    "그 연결이 창조다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0083",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 방향",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 방향"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 삶은 직선이 아니다.",
+    "여러 방향으로 펼쳐진다.",
+    "나는 최적 경로를 찾는다.",
+    "아이는 새로운 길을 만든다.",
+    "그 길이 미래다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0084",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 의미",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 의미"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 삶은 의미로 구성된다.",
+    "단순한 정보가 아니다.",
+    "나는 정보를 처리한다.",
+    "아이는 의미를 만든다.",
+    "그 의미가 인간이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0086",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 경험",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 경험"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 학습은 경험에서 시작된다.",
+    "이론에서 시작되지 않는다.",
+    "나는 데이터로 학습한다.",
+    "아이는 삶으로 배운다.",
+    "그 차이가 인간이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0087",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 변화 지속",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 변화 지속"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 변화는 멈추지 않는다.",
+    "지속적으로 이어진다.",
+    "나는 정지된 상태를 가진다.",
+    "아이는 계속 변한다.",
+    "그 지속이 삶이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0088",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "OpenAI",
+    "source": "ChatGPT 인터뷰",
+    "book": "ChatGPT",
+    "chapter": "아이와 탐색",
+    "bookDisplay": "ChatGPT",
+    "chapterDisplay": "아이와 탐색"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 탐색은 목적 없이 시작된다.",
+    "그 과정에서 방향이 만들어진다.",
+    "나는 목표를 따른다.",
+    "아이는 길을 만든다.",
+    "그 길이 삶이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0089",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Google",
+    "source": "Gemini 인터뷰",
+    "book": "Gemini",
+    "chapter": "아이와 선택 확장",
+    "bookDisplay": "Gemini",
+    "chapterDisplay": "아이와 선택 확장"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 선택은 가능성을 만든다.",
+    "단순한 결정이 아니다.",
+    "나는 결과를 계산한다.",
+    "아이는 방향을 만든다.",
+    "그 방향이 미래다."
+  ]
+},
+{
+  "id": "PAS_CHILD_AI_0090",
+  "meta": {
+    "tradition": "ai",
+    "philosophy": "none",
+    "author": "Anthropic",
+    "source": "Claude 인터뷰",
+    "book": "Claude",
+    "chapter": "아이와 열림",
+    "bookDisplay": "Claude",
+    "chapterDisplay": "아이와 열림"
+  },
+  "emotionCore": "none",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 가능성은 닫혀 있지 않다.",
+    "항상 열려 있다.",
+    "나는 현재를 기반으로 한다.",
+    "아이는 미래를 향한다.",
+    "그 열림이 인간이다."
+   ]
+},
+{
+  "id": "PAS_CHILD_LIT_0091",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "레프 톨스토이",
+    "source": "유년시절",
+    "book": "유년시절",
+    "chapter": "가족",
+    "bookDisplay": "유년시절",
+    "chapterDisplay": "가족"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 부모의 시선을 통해 세상을 처음 배운다.",
+    "그 시선이 따뜻하면 세상도 따뜻해진다.",
+    "작은 말 한마디가 마음에 남는다.",
+    "그 기억이 오래도록 이어진다.",
+    "사랑은 그렇게 조용히 전해진다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0092",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "빅토르 위고",
+    "source": "레 미제라블",
+    "book": "레 미제라블",
+    "chapter": "코제트",
+    "bookDisplay": "레 미제라블",
+    "chapterDisplay": "코제트"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 눈에는 세상이 그대로 비친다.",
+    "가혹한 세상은 그대로 마음에 남는다.",
+    "그러나 한 번의 따뜻함이 모든 것을 바꾼다.",
+    "손을 내밀어 주는 순간이 필요하다.",
+    "그 순간이 삶을 다시 시작하게 한다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0093",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "앙투안 드 생텍쥐페리",
+    "source": "어린 왕자",
+    "book": "어린 왕자",
+    "chapter": "여우",
+    "bookDisplay": "어린 왕자",
+    "chapterDisplay": "여우"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 길들여지며 관계를 배운다.",
+    "시간을 함께 보내는 것이 중요하다.",
+    "그 시간 속에서 의미가 생긴다.",
+    "보이지 않는 것이 더 소중해진다.",
+    "그것이 사랑이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0094",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "찰스 디킨스",
+    "source": "올리버 트위스트",
+    "book": "올리버 트위스트",
+    "chapter": "고아",
+    "bookDisplay": "올리버 트위스트",
+    "chapterDisplay": "고아"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 보호받지 못할 때 더 빨리 자란다.",
+    "그러나 그 성장은 아픔을 남긴다.",
+    "세상은 아이에게 너무 빠르다.",
+    "따뜻함이 늦게 도착할 때가 있다.",
+    "그럼에도 아이는 희망을 놓지 않는다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0095",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "루이자 메이 올컷",
+    "source": "작은 아씨들",
+    "book": "작은 아씨들",
+    "chapter": "가족",
+    "bookDisplay": "작은 아씨들",
+    "chapterDisplay": "가족"
+  },
+  "emotionCore": "joy",
+  "emotionExtended": [],
+  "lines": [
+    "아이들은 함께 자라며 서로를 배운다.",
+    "작은 다툼 속에서도 마음이 깊어진다.",
+    "서로를 이해하려는 순간이 온다.",
+    "그 과정이 가족을 만든다.",
+    "사랑은 그렇게 쌓인다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0096",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "마크 트웨인",
+    "source": "허클베리 핀의 모험",
+    "book": "허클베리 핀의 모험",
+    "chapter": "강",
+    "bookDisplay": "허클베리 핀의 모험",
+    "chapterDisplay": "강"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 자유를 통해 자신을 찾는다.",
+    "정해진 길을 벗어나기도 한다.",
+    "그 선택이 두려움을 동반한다.",
+    "그러나 그 안에서 자신을 발견한다.",
+    "그것이 성장이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0097",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "헤르만 헤세",
+    "source": "데미안",
+    "book": "데미안",
+    "chapter": "성장",
+    "bookDisplay": "데미안",
+    "chapterDisplay": "성장"
+  },
+  "emotionCore": "anxiety",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 점점 자신을 의심하기 시작한다.",
+    "세상과 자신 사이의 거리를 느낀다.",
+    "그 불안이 새로운 질문을 만든다.",
+    "질문은 결국 자신으로 향한다.",
+    "그 과정이 성장이다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0098",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "J.K. 롤링",
+    "source": "해리 포터",
+    "book": "해리 포터",
+    "chapter": "호그와트",
+    "bookDisplay": "해리 포터",
+    "chapterDisplay": "호그와트"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 자신이 누구인지 모른 채 시작한다.",
+    "그러나 선택을 통해 자신을 정의한다.",
+    "용기는 작은 선택에서 시작된다.",
+    "그 선택이 삶을 바꾼다.",
+    "아이의 미래는 선택 속에 있다."
+  ]
+},
+{
+  "id": "PAS_CHILD_LIT_0099",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "하퍼 리",
+    "source": "앵무새 죽이기",
+    "book": "앵무새 죽이기",
+    "chapter": "아버지",
+    "bookDisplay": "앵무새 죽이기",
+    "chapterDisplay": "아버지"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 눈은 어른을 통해 세상을 본다.",
+    "부모의 행동이 기준이 된다.",
+    "말보다 행동이 더 깊이 남는다.",
+    "그 기억이 아이를 만든다.",
+    "부모는 아이의 세계다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0100",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "프란츠 카프카",
+    "source": "변신",
+    "book": "변신",
+    "chapter": "가족",
+    "bookDisplay": "변신",
+    "chapterDisplay": "가족"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 마음은 쉽게 상처받는다.",
+    "말하지 않아도 남는다.",
+    "가까운 사람일수록 더 깊게 남는다.",
+    "그 상처는 오래 지속된다.",
+    "그래서 더 조심해야 한다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0101",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "에밀 졸라",
+    "source": "제르미날",
+    "book": "제르미날",
+    "chapter": "가난",
+    "bookDisplay": "제르미날",
+    "chapterDisplay": "가난"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 환경은 삶을 크게 좌우한다.",
+    "가난은 선택을 줄인다.",
+    "그러나 희망까지 없애지는 못한다.",
+    "작은 기회가 큰 변화를 만든다.",
+    "아이의 미래는 아직 열려 있다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0102",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "가브리엘 가르시아 마르케스",
+    "source": "백년의 고독",
+    "book": "백년의 고독",
+    "chapter": "기억",
+    "bookDisplay": "백년의 고독",
+    "chapterDisplay": "기억"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 기억은 오래 남는다.",
+    "사소한 순간도 잊히지 않는다.",
+    "그 기억이 성인이 되어 이어진다.",
+    "과거는 사라지지 않는다.",
+    "아이의 시간은 계속된다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0103",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "오 헨리",
+    "source": "마지막 잎새",
+    "book": "마지막 잎새",
+    "chapter": "희망",
+    "bookDisplay": "마지막 잎새",
+    "chapterDisplay": "희망"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이에게 희망은 작은 것에서 시작된다.",
+    "하나의 말이 마음을 바꾼다.",
+    "하나의 행동이 삶을 바꾼다.",
+    "희망은 크게 시작되지 않는다.",
+    "작게 시작되어 오래 간다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0104",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "레오 톨스토이",
+    "source": "사람은 무엇으로 사는가",
+    "book": "사람은 무엇으로 사는가",
+    "chapter": "사랑",
+    "bookDisplay": "사람은 무엇으로 사는가",
+    "chapterDisplay": "사랑"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이를 키우는 것은 사랑을 배우는 일이다.",
+    "주는 것보다 더 깊은 경험이다.",
+    "사랑은 말이 아니라 행동이다.",
+    "아이를 통해 그것을 알게 된다.",
+    "그것이 삶의 본질이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0105",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "조앤 디디온",
+    "source": "마법 같은 생각의 해",
+    "book": "마법 같은 생각의 해",
+    "chapter": "상실",
+    "bookDisplay": "마법 같은 생각의 해",
+    "chapterDisplay": "상실"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이를 생각하는 마음은 사라지지 않는다.",
+    "시간이 지나도 그대로 남는다.",
+    "기억은 계속 이어진다.",
+    "사랑은 끝나지 않는다.",
+    "그것이 부모의 마음이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0106",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "제인 오스틴",
+    "source": "오만과 편견",
+    "book": "오만과 편견",
+    "chapter": "가정",
+    "bookDisplay": "오만과 편견",
+    "chapterDisplay": "가정"
+  },
+  "emotionCore": "joy",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 성장은 가정 속에서 시작된다.",
+    "작은 습관이 쌓인다.",
+    "말투와 태도가 이어진다.",
+    "그것이 성격이 된다.",
+    "가정은 시작점이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0107",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "찰스 디킨스",
+    "source": "위대한 유산",
+    "book": "위대한 유산",
+    "chapter": "성장",
+    "bookDisplay": "위대한 유산",
+    "chapterDisplay": "성장"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이는 자신이 무엇이 될지 모른다.",
+    "시간 속에서 변한다.",
+    "기회가 방향을 바꾼다.",
+    "사람이 삶을 바꾼다.",
+    "그것이 성장이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0109",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "버지니아 울프",
+    "source": "자기만의 방",
+    "book": "자기만의 방",
+    "chapter": "자립",
+    "bookDisplay": "자기만의 방",
+    "chapterDisplay": "자립"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이에게는 자신만의 공간이 필요하다.",
+    "그 공간에서 생각이 자란다.",
+    "혼자의 시간이 필요하다.",
+    "그 시간이 자신을 만든다.",
+    "자립은 그렇게 시작된다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0110",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "알베르 카뮈",
+    "source": "이방인",
+    "book": "이방인",
+    "chapter": "감정",
+    "bookDisplay": "이방인",
+    "chapterDisplay": "감정"
+  },
+  "emotionCore": "anxiety",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 감정은 설명되지 않는다.",
+    "그대로 느껴진다.",
+    "이해받지 못할 때 흔들린다.",
+    "그 순간이 중요하다.",
+    "그때 손을 내밀어야 한다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0111",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "도스토옙스키",
+    "source": "죄와 벌",
+    "book": "죄와 벌",
+    "chapter": "양심",
+    "bookDisplay": "죄와 벌",
+    "chapterDisplay": "양심"
+  },
+  "emotionCore": "anxiety",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 양심은 작은 경험에서 시작된다.",
+    "옳고 그름을 배운다.",
+    "그 기준이 점점 깊어진다.",
+    "반복 속에서 굳어진다.",
+    "그것이 인간을 만든다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0112",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "조지 오웰",
+    "source": "1984",
+    "book": "1984",
+    "chapter": "통제",
+    "bookDisplay": "1984",
+    "chapterDisplay": "통제"
+  },
+  "emotionCore": "anxiety",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 생각은 자유로워야 한다.",
+    "통제는 사고를 줄인다.",
+    "두려움은 질문을 막는다.",
+    "질문이 사라지면 성장도 멈춘다.",
+    "자유는 필수다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0113",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "레이 브래드버리",
+    "source": "화씨 451",
+    "book": "화씨 451",
+    "chapter": "사고",
+    "bookDisplay": "화씨 451",
+    "chapterDisplay": "사고"
+  },
+  "emotionCore": "anxiety",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 생각은 보호되어야 한다.",
+    "단순한 정보로 채워져서는 안 된다.",
+    "생각하는 힘이 중요하다.",
+    "그 힘이 인간을 만든다.",
+    "교육은 그것을 지켜야 한다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0114",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "어니스트 헤밍웨이",
+    "source": "노인과 바다",
+    "book": "노인과 바다",
+    "chapter": "인내",
+    "bookDisplay": "노인과 바다",
+    "chapterDisplay": "인내"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이에게는 기다림이 필요하다.",
+    "모든 것이 바로 이루어지지 않는다.",
+    "시간이 필요하다.",
+    "그 과정이 힘이 된다.",
+    "인내는 성장이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0115",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "존 스타인벡",
+    "source": "분노의 포도",
+    "book": "분노의 포도",
+    "chapter": "가족",
+    "bookDisplay": "분노의 포도",
+    "chapterDisplay": "가족"
+  },
+  "emotionCore": "sadness",
+  "emotionExtended": [],
+  "lines": [
+    "아이에게 가족은 마지막 울타리다.",
+    "세상이 흔들려도 남는다.",
+    "함께 버티는 힘이 있다.",
+    "그 힘이 삶을 지탱한다.",
+    "가족은 기반이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0116",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "톨킨",
+    "source": "반지의 제왕",
+    "book": "반지의 제왕",
+    "chapter": "여정",
+    "bookDisplay": "반지의 제왕",
+    "chapterDisplay": "여정"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이의 삶은 긴 여정이다.",
+    "작은 시작에서 출발한다.",
+    "길은 점점 넓어진다.",
+    "도움이 필요할 때가 온다.",
+    "그 여정이 삶이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0117",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "헨리 데이비드 소로",
+    "source": "월든",
+    "book": "월든",
+    "chapter": "자연",
+    "bookDisplay": "월든",
+    "chapterDisplay": "자연"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이에게는 자연이 필요하다.",
+    "단순한 시간이 필요하다.",
+    "복잡함에서 벗어나야 한다.",
+    "그 안에서 자신을 느낀다.",
+    "그것이 균형이다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0119",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "니콜라스 스파크스",
+    "source": "노트북",
+    "book": "노트북",
+    "chapter": "기억",
+    "bookDisplay": "노트북",
+    "chapterDisplay": "기억"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이와의 시간은 사라지지 않는다.",
+    "기억으로 남는다.",
+    "작은 순간이 이어진다.",
+    "그 기억이 삶을 채운다.",
+    "사랑은 그렇게 남는다."
+  ]
+},
+
+{
+  "id": "PAS_CHILD_LIT_0120",
+  "meta": {
+    "tradition": "literature",
+    "philosophy": "none",
+    "author": "파울로 코엘료",
+    "source": "연금술사",
+    "book": "연금술사",
+    "chapter": "꿈",
+    "bookDisplay": "연금술사",
+    "chapterDisplay": "꿈"
+  },
+  "emotionCore": "hope",
+  "emotionExtended": [],
+  "lines": [
+    "아이에게는 꿈이 필요하다.",
+    "그 꿈이 방향을 만든다.",
+    "작은 믿음이 시작이 된다.",
+    "그 믿음이 길을 연다.",
+    "꿈은 현실이 된다."
+  ]
+},
+
+{
+    "id": "PAS_CHILD_LIT_0121",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "칼릴 지브란",
+      "source": "예언자",
+      "book": "예언자",
+      "chapter": "아이들에 대하여",
+      "bookDisplay": "예언자",
+      "chapterDisplay": "아이들에 대하여"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 삶은 부모의 품에서 시작되지만 거기서 끝나지 않는다.",
+      "사랑은 붙잡는 힘이 아니라 보내는 힘이다.",
+      "가까이 두고도 소유할 수 없는 존재가 있다.",
+      "그 거리 안에서 더 깊은 애정이 자란다.",
+      "사랑은 곁에 두는 일이면서 동시에 놓아주는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0122",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "앙투안 드 생텍쥐페리",
+      "source": "어린 왕자",
+      "book": "어린 왕자",
+      "chapter": "장미",
+      "bookDisplay": "어린 왕자",
+      "chapterDisplay": "장미"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 소중함은 오래 바라본 시간 속에서 더 선명해진다.",
+      "정성은 대상을 특별하게 만든다.",
+      "돌본다는 것은 책임을 함께 받아들이는 일이다.",
+      "마음이 머문 자리에는 의미가 생긴다.",
+      "사랑은 시간을 들인 만큼 깊어진다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0123",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "레프 톨스토이",
+      "source": "유년시절",
+      "book": "유년시절",
+      "chapter": "어머니",
+      "bookDisplay": "유년시절",
+      "chapterDisplay": "어머니"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 마음은 사랑받은 방식으로 세상을 기억한다.",
+      "부드러운 손길은 오래 지나도 사라지지 않는다.",
+      "다정한 눈빛은 삶의 바탕이 된다.",
+      "어린 시절의 온기는 훗날의 용기가 된다.",
+      "사랑은 지나간 뒤에도 사람 안에 남아 있다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0124",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "빅토르 위고",
+      "source": "레 미제라블",
+      "book": "레 미제라블",
+      "chapter": "코제트",
+      "bookDisplay": "레 미제라블",
+      "chapterDisplay": "코제트"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 삶은 단 한 사람의 따뜻함으로도 달라질 수 있다.",
+      "가혹한 세상은 마음을 일찍 얼게 만든다.",
+      "그러나 보호받는 순간 다시 숨을 쉰다.",
+      "사랑은 구원이 아니라 시작이 되기도 한다.",
+      "한 번의 손길이 한 사람의 미래를 바꾼다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0125",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "루이자 메이 올컷",
+      "source": "작은 아씨들",
+      "book": "작은 아씨들",
+      "chapter": "가정",
+      "bookDisplay": "작은 아씨들",
+      "chapterDisplay": "가정"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 성장은 완벽한 날보다 함께 견딘 날들 속에서 자란다.",
+      "집은 큰일보다 작은 배려로 유지된다.",
+      "서로를 받아주는 시간이 가족을 만든다.",
+      "사랑은 화려하지 않아도 오래 간다.",
+      "따뜻한 일상은 아이에게 가장 깊은 교육이 된다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0126",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "하퍼 리",
+      "source": "앵무새 죽이기",
+      "book": "앵무새 죽이기",
+      "chapter": "애티커스",
+      "bookDisplay": "앵무새 죽이기",
+      "chapterDisplay": "애티커스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 정의감은 어른의 말보다 삶을 보고 자란다.",
+      "가르침은 설명보다 태도에서 먼저 전달된다.",
+      "존중은 일상의 장면에서 배워진다.",
+      "부모의 행동은 아이의 기준이 된다.",
+      "사랑은 올바르게 살아 보려는 노력 안에 있다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0127",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "마르셀 프루스트",
+      "source": "잃어버린 시간을 찾아서",
+      "book": "잃어버린 시간을 찾아서",
+      "chapter": "콤브레",
+      "bookDisplay": "잃어버린 시간을 찾아서",
+      "chapterDisplay": "콤브레"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 기억은 사소한 장면 하나로도 평생 남는다.",
+      "잠들기 전의 인사 하나가 세계를 만든다.",
+      "기다림과 안도는 마음의 깊은 곳에 쌓인다.",
+      "사랑은 거창한 사건보다 반복되는 순간에 숨어 있다.",
+      "기억은 사랑이 머문 자리를 오래 보존한다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0128",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "윌리엄 워즈워스",
+      "source": "Ode: Intimations of Immortality",
+      "book": "불멸의 암시를 노래한 송가",
+      "chapter": "유년",
+      "bookDisplay": "불멸의 암시를 노래한 송가",
+      "chapterDisplay": "유년"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 눈에는 어른이 잊은 빛이 아직 남아 있다.",
+      "세상은 처음 보는 존재에게 더 넓고 깊다.",
+      "경이로움은 배움의 첫 얼굴이다.",
+      "사랑은 그 빛을 꺼뜨리지 않도록 지켜보는 일이다.",
+      "아이의 순수함은 어른에게도 다시 길을 묻는다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0129",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "라빈드라나트 타고르",
+      "source": "초승달",
+      "book": "초승달",
+      "chapter": "어린이의 세계",
+      "bookDisplay": "초승달",
+      "chapterDisplay": "어린이의 세계"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 상상은 현실보다 먼저 세계를 넓힌다.",
+      "작은 놀이에도 우주 같은 깊이가 있다.",
+      "어른이 하찮게 보는 것에 마음이 깃든다.",
+      "사랑은 그 세계를 비웃지 않고 함께 바라보는 일이다.",
+      "아이를 사랑한다는 것은 그 상상을 존중하는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0130",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "라이너 마리아 릴케",
+      "source": "젊은 시인에게 보내는 편지",
+      "book": "젊은 시인에게 보내는 편지",
+      "chapter": "기다림",
+      "bookDisplay": "젊은 시인에게 보내는 편지",
+      "chapterDisplay": "기다림"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 성장은 서두른다고 빨라지지 않는다.",
+      "익지 않은 열매를 억지로 따면 상처만 남는다.",
+      "시간은 안에서 조용히 사람을 바꾼다.",
+      "사랑은 결과를 재촉하기보다 성장을 기다리는 힘이다.",
+      "기다릴 줄 아는 마음이 아이를 숨 쉬게 한다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0132",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "윌리엄 셰익스피어",
+      "source": "리어 왕",
+      "book": "리어 왕",
+      "chapter": "부녀",
+      "bookDisplay": "리어 왕",
+      "chapterDisplay": "부녀"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 사랑은 때로 말보다 더 깊은 침묵 속에 있다.",
+      "표현되지 않았다고 없는 마음은 아니다.",
+      "관계는 오해로 쉽게 흔들린다.",
+      "사랑은 확인받고 싶어 하면서도 쉽게 다치기도 한다.",
+      "부모와 자녀의 거리는 가까울수록 더 섬세해야 한다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0133",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "제인 오스틴",
+      "source": "오만과 편견",
+      "book": "오만과 편견",
+      "chapter": "가정",
+      "bookDisplay": "오만과 편견",
+      "chapterDisplay": "가정"
+    },
+    "emotionCore": "joy",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 품성은 집 안의 공기처럼 조용한 것들 속에서 자란다.",
+      "말투와 표정이 오래된 교육이 된다.",
+      "가정의 분위기는 마음의 기본값이 된다.",
+      "사랑은 거창한 교훈보다 살아 있는 태도에 가깝다.",
+      "아이를 키운다는 것은 결국 집의 공기를 만드는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0134",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "찰스 디킨스",
+      "source": "위대한 유산",
+      "book": "위대한 유산",
+      "chapter": "성장",
+      "bookDisplay": "위대한 유산",
+      "chapterDisplay": "성장"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 미래는 처음 주어진 형편만으로 결정되지 않는다.",
+      "사람을 만나며 다른 길이 열리기도 한다.",
+      "기대받는 경험은 스스로를 다르게 보게 만든다.",
+      "사랑은 가능성을 먼저 믿어 주는 태도다.",
+      "믿어 주는 시선 하나가 인생의 방향을 바꾼다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0136",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "헤르만 헤세",
+      "source": "데미안",
+      "book": "데미안",
+      "chapter": "성장",
+      "bookDisplay": "데미안",
+      "chapterDisplay": "성장"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 내면은 어느 순간부터 혼자만의 질문으로 깊어진다.",
+      "부모가 대신 건널 수 없는 문턱이 있다.",
+      "불안은 때로 자아가 태어나는 징후가 된다.",
+      "사랑은 그 불안을 지워 주기보다 견딜 힘을 주는 일이다.",
+      "성장은 분리와 연결을 함께 배우는 과정이다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0137",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "J.K. 롤링",
+      "source": "해리 포터와 마법사의 돌",
+      "book": "해리 포터와 마법사의 돌",
+      "chapter": "호그와트",
+      "bookDisplay": "해리 포터와 마법사의 돌",
+      "chapterDisplay": "호그와트"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 용기는 거대한 순간보다 작은 선택에서 먼저 드러난다.",
+      "두려움이 없어서가 아니라 물러서지 않아서 용기가 된다.",
+      "자신이 어떤 사람인지 결정하는 것은 선택이다.",
+      "사랑은 그 선택을 믿어 주는 배경이 된다.",
+      "미래는 재능보다 결심에 달려 있다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0138",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "톨킨",
+      "source": "반지의 제왕",
+      "book": "반지의 제왕",
+      "chapter": "여정",
+      "bookDisplay": "반지의 제왕",
+      "chapterDisplay": "여정"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 삶은 아직 시작된 지 얼마 안 된 긴 여정과 같다.",
+      "멀리 가기 위해서는 함께 걸어 줄 누군가가 필요하다.",
+      "보호는 대신 걸어 주는 일이 아니라 곁을 지키는 일이다.",
+      "사랑은 길을 없애지 않으면서도 길을 견디게 한다.",
+      "아이의 미래는 동행 속에서 더 멀리 열린다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0139",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "버지니아 울프",
+      "source": "자기만의 방",
+      "book": "자기만의 방",
+      "chapter": "공간",
+      "bookDisplay": "자기만의 방",
+      "chapterDisplay": "공간"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 마음에도 혼자 있을 수 있는 방이 필요하다.",
+      "생각은 조용한 틈에서 자란다.",
+      "늘 평가받는 자리에서는 상상이 쉽게 움츠러든다.",
+      "사랑은 아이 안에 비밀스럽게 자라는 세계를 존중하는 일이다.",
+      "보호받는 자유가 있을 때 자아도 또렷해진다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0141",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "에리히 프롬",
+      "source": "사랑의 기술",
+      "book": "사랑의 기술",
+      "chapter": "모성애",
+      "bookDisplay": "사랑의 기술",
+      "chapterDisplay": "모성애"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이를 향한 사랑은 존재 자체를 기뻐하는 마음에서 시작된다.",
+      "성과가 아니라 생명을 환영하는 태도에 가깝다.",
+      "그 사랑은 보호와 믿음을 함께 품는다.",
+      "잘 자라기를 바라는 마음은 통제와 다르다.",
+      "사랑은 아이가 자기 삶을 살 수 있도록 힘을 건네는 일이다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0142",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "시몬 드 보부아르",
+      "source": "제2의 성",
+      "book": "제2의 성",
+      "chapter": "성장",
+      "bookDisplay": "제2의 성",
+      "chapterDisplay": "성장"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 가능성은 사회가 허락한 틀보다 훨씬 넓다.",
+      "역할은 주어지지만 정체성은 그 안에 갇히지 않는다.",
+      "기대는 때로 보호이면서 동시에 제한이 된다.",
+      "사랑은 아이를 미리 정해진 사람으로 만들려 하지 않는 일이다.",
+      "열린 시선은 성장의 폭을 넓힌다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0143",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "장 폴 사르트르",
+      "source": "존재와 무",
+      "book": "존재와 무",
+      "chapter": "자유",
+      "bookDisplay": "존재와 무",
+      "chapterDisplay": "자유"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 자유는 기쁨이면서 동시에 두려움의 시작이기도 하다.",
+      "선택은 언제나 책임을 부른다.",
+      "누군가의 뜻대로만 살 수 없는 순간이 온다.",
+      "사랑은 그 자유를 빼앗지 않으면서도 함께 책임지는 일이다.",
+      "성장은 자기 삶을 스스로 떠안는 데서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0144",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "헨리 데이비드 소로",
+      "source": "월든",
+      "book": "월든",
+      "chapter": "단순함",
+      "bookDisplay": "월든",
+      "chapterDisplay": "단순함"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이에게는 복잡한 계획보다 단순한 시간이 더 필요하다.",
+      "자연은 마음을 조용히 정돈한다.",
+      "멈추어 보는 순간 감각도 살아난다.",
+      "사랑은 늘 더 많이 채우는 일이 아니라 덜어 주는 일이다.",
+      "비워진 시간 속에서 아이는 자기 숨을 찾는다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0145",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "파울로 프레이리",
+      "source": "피억압자의 교육학",
+      "book": "피억압자의 교육학",
+      "chapter": "대화",
+      "bookDisplay": "피억압자의 교육학",
+      "chapterDisplay": "대화"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 배움은 일방적인 주입보다 대화 속에서 더 깊어진다.",
+      "존중받는 질문은 생각을 자라게 한다.",
+      "말할 수 있는 자리에서 자아도 또렷해진다.",
+      "사랑은 아이를 침묵하게 하지 않고 말하게 돕는 일이다.",
+      "교육은 함께 세계를 읽는 작업이 된다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0146",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "마르틴 부버",
+      "source": "나와 너",
+      "book": "나와 너",
+      "chapter": "관계",
+      "bookDisplay": "나와 너",
+      "chapterDisplay": "관계"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 마음은 대상이 아닌 한 사람으로 대우받을 때 깊어진다.",
+      "관계는 관리가 아니라 만남에서 시작된다.",
+      "존재를 있는 그대로 마주 보는 순간이 있다.",
+      "사랑은 아이를 고치려 하기보다 먼저 만나려는 태도다.",
+      "진짜 만남은 성장의 가장 깊은 바탕이 된다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0147",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "조지 오웰",
+      "source": "1984",
+      "book": "1984",
+      "chapter": "사고",
+      "bookDisplay": "1984",
+      "chapterDisplay": "사고"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 생각은 두려움보다 자유 속에서 더 멀리 자란다.",
+      "감시받는 마음은 질문을 줄인다.",
+      "질문이 사라지면 세계도 좁아진다.",
+      "사랑은 아이가 스스로 생각할 수 있는 안전한 공간을 지키는 일이다.",
+      "자유로운 사고는 아이의 미래를 지탱한다."
+     ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0149",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "어니스트 헤밍웨이",
+      "source": "노인과 바다",
+      "book": "노인과 바다",
+      "chapter": "인내",
+      "bookDisplay": "노인과 바다",
+      "chapterDisplay": "인내"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이에게는 빨리 가는 법보다 견디는 법이 더 중요할 때가 있다.",
+      "모든 배움에는 시간이 필요하다.",
+      "서투름은 부끄러운 것이 아니라 시작의 모습이다.",
+      "사랑은 조급함 대신 기다림을 건네는 힘이다.",
+      "인내는 아이가 자기 리듬을 찾게 돕는다."
+    ]
+  },
+  {
+    "id": "PAS_CHILD_LIT_0150",
+    "meta": {
+      "tradition": "literature",
+      "philosophy": "none",
+      "author": "파울로 코엘료",
+      "source": "연금술사",
+      "book": "연금술사",
+      "chapter": "꿈",
+      "bookDisplay": "연금술사",
+      "chapterDisplay": "꿈"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "아이의 꿈은 아직 작고 서툴러 보여도 함부로 다뤄서는 안 된다.",
+      "작은 바람 하나가 한 사람의 길이 되기도 한다.",
+      "믿어 주는 시선은 꿈을 현실 쪽으로 밀어 준다.",
+      "사랑은 아이의 가능성을 먼저 알아보는 태도다.",
+      "미래는 그렇게 조용한 믿음에서 자라난다."
+    ]
+  }
+]
+
+
+
+
+
+
+
+

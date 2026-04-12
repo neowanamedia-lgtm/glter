@@ -58,8 +58,9 @@ const PHILOSOPHY_OPTIONS_ROW2: Array<{ key: ContentCategory; label: string }> = 
 const LITERATURE_OPTIONS: Array<{ key: ContentCategory; label: string }> = [
   { key: 'eastern_poetry', label: '한국시' },
   { key: 'western_poetry', label: '서양시' },
-  { key: 'eastern_novel', label: '동양 소설' },
-  { key: 'western_novel', label: '서양 소설' },
+  { key: 'eastern_novel', label: '동양소설' },
+  { key: 'western_novel', label: '서양소설' },
+  { key: 'ai' as ContentCategory, label: 'AI' },
 ];
 
 const RELIGION_OPTIONS: Array<{ key: ContentCategory; label: string }> = [

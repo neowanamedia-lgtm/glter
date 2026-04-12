@@ -1,0 +1,2774 @@
+[
+  {
+    "id": "PAS_LOVE_0001",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "진화심리학",
+      "book": "인간 행동 이론",
+      "chapter": "짝 형성",
+      "bookDisplay": "인간 행동 이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 생존과 번식을 위해 진화한 정서적 결합 시스템이다.",
+      "이 감정은 짝을 유지하고 협력을 강화하도록 인간을 설계한다.",
+      "강한 끌림은 선택을 빠르게 만들고 관계 형성을 촉진한다.",
+      "유대는 단순한 감정이 아니라 생물학적 전략의 일부다.",
+      "인간은 때로 관계 속에서 더 오래 살아남아 오래 머문다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0002",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "신경과학",
+      "book": "보상 회로",
+      "chapter": "도파민",
+      "bookDisplay": "보상 회로"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 도파민 시스템이 활성화되는 보상 반응이다.",
+      "특정 대상과의 상호작용은 강한 쾌감을 만든다.",
+      "이 쾌감은 반복을 유도하며 관계를 지속시킨다.",
+      "기대와 만족의 차이가 클수록 더 강하게 각인된다.",
+      "감정은 신경 회로 속에 더 깊게 새겨진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0003",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "내분비학",
+      "book": "호르몬 작용",
+      "chapter": "옥시토신",
+      "bookDisplay": "호르몬 작용"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 옥시토신과 바소프레신이 만들어내는 결속의 반응이다.",
+      "신체 접촉은 이 호르몬의 분비를 촉진한다.",
+      "이 과정은 신뢰와 안정감을 증가시킨다.",
+      "유대는 점차 더 깊어지는 방향으로 새겨진다.",
+      "관계는 화학적 기반 위에 유지되어 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0004",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "신경과학",
+      "book": "감정 회로",
+      "chapter": "뇌 활성",
+      "bookDisplay": "감정 회로"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 여러 뇌 영역이 동시에 활성화되는 복합 상태이다.",
+      "보상과 감정 조절 시스템이 함께 작동한다.",
+      "이로 인해 판단보다 감정이 앞서기도 한다.",
+      "합리성은 일시적으로 약화된다.",
+      "행동은 때때로 비이성적으로 보이기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0005",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "진화생물학",
+      "book": "유전자 선택",
+      "chapter": "면역 다양성",
+      "bookDisplay": "유전자 선택"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 유전적 다양성을 확보하려는 선택의 논리이다.",
+      "인간은 면역 체계가 다른 상대를 선호하는 경향이 있다.",
+      "이 선택은 후손의 생존 확률을 높인다.",
+      "매력은 생물학적 신호이다.",
+      "끌림은 진화적 계산의 결과다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0006",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "인지심리학",
+      "book": "기억과 감정",
+      "chapter": "학습",
+      "bookDisplay": "기억과 감정"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 경험과 기억이 결합된 과정이다.",
+      "반복된 긍정적 경험은 감정을 강화한다.",
+      "상대와의 기억은 관계를 유지시키는 기반이 된다.",
+      "부정적 경험은 감정을 빠르게 약화시킨다.",
+      "관계는 축적된 경험 위에 형성된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0007",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "애착이론",
+      "book": "관계 심리",
+      "chapter": "애착 유형",
+      "bookDisplay": "관계 심리"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 애착 패턴에 따라 다른 방식으로 나타난다.",
+      "안정형은 신뢰를, 불안형은 집착을 강화한다.",
+      "회피형은 거리를 유지하려 한다.",
+      "이 패턴은 반복되는 경향이 있다.",
+      "관계는 어린 시절 경험에 영향을 받는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0008",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "행동과학",
+      "book": "위험 선택",
+      "chapter": "의사결정",
+      "bookDisplay": "위험 선택"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 위험 감수 성향을 증가시킨다.",
+      "보상 기대가 두려움을 앞선다.",
+      "이로 인해 새로운 행동이 가능해진다.",
+      "감정은 행동의 문턱을 낮춘다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0009",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "신경과학",
+      "book": "시간 변화",
+      "chapter": "관계 단계",
+      "bookDisplay": "시간 변화"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 시간에 따라 형태가 변화하는 과정이다.",
+      "초기의 열정은 점차 안정된 유대로 서서히 바뀐다.",
+      "뇌의 활성 패턴도 이에 따라 변한다.",
+      "강도는 줄지만 지속성은 커진다.",
+      "관계는 적응하며 유지되어 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0010",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "생리학",
+      "book": "스트레스 반응",
+      "chapter": "코르티솔",
+      "bookDisplay": "스트레스 반응"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 스트레스를 완화하는 생리적 효과를 가진다.",
+      "유대는 코르티솔 수치를 낮춘다.",
+      "안정된 관계는 신체 긴장을 줄인다.",
+      "정서적 지지는 건강에도 영향을 남긴다.",
+      "관계는 생존 환경을 개선한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0011",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "신경과학",
+      "book": "주의 시스템",
+      "chapter": "집중",
+      "bookDisplay": "주의 시스템"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 특정 인물에게 주의 자원이 집중되는 상태다.",
+      "다른 자극보다 더 강하게 인식된다.",
+      "기억과 감정이 동시에 더 깊게 새겨진다.",
+      "이 편향은 관계 형성을 돕는다.",
+      "상대는 특별한 존재로 인식된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0012",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "사회심리학",
+      "book": "신뢰 형성",
+      "chapter": "상호작용",
+      "bookDisplay": "신뢰 형성"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 반복된 상호작용 속에서 신뢰가 축적되는 과정이다.",
+      "일관된 행동은 예측 가능성을 만든다.",
+      "예측 가능성은 안정감을 형성한다.",
+      "안정감은 관계를 지속시킨다.",
+      "관계는 반복 속에서 깊어진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0013",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "신경과학",
+      "book": "공감 메커니즘",
+      "chapter": "거울 뉴런",
+      "bookDisplay": "공감 메커니즘"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 타인의 감정을 자신의 것처럼 느끼는 공감 반응이다.",
+      "거울 뉴런은 상대의 상태를 내부에서 재현한다.",
+      "이 반응은 자동적으로 발생한다.",
+      "공감은 정서적 연결을 강화한다.",
+      "타인의 감정이 자신의 일부처럼 느껴진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0014",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "행동경제학",
+      "book": "보상 예측",
+      "chapter": "오차",
+      "bookDisplay": "보상 예측"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 예상과 다른 보상이 발생할 때 더 강하게 새겨진다.",
+      "예상보다 큰 만족은 강한 학습을 유도한다.",
+      "이 과정은 감정을 더 깊게 만든다.",
+      "불확실성은 오히려 집착을 강화한다.",
+      "관계는 예측 불가능성 속에서 더 강해진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0015",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "진화심리학",
+      "book": "협력 이론",
+      "chapter": "집단 생존",
+      "bookDisplay": "협력 이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 협력을 촉진하는 진화적 장치다.",
+      "유대는 공동 행동을 가능하게 만든다.",
+      "협력은 생존 확률을 높인다.",
+      "관계는 자원 공유를 가능하게 만든다.",
+      "감정은 집단 유지에 기여한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0016",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "인지과학",
+      "book": "자아 이론",
+      "chapter": "정체성 변화",
+      "bookDisplay": "자아 이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 개인의 정체성을 변화시키는 경험이다.",
+      "타인과의 관계 속에서 자아 인식이 변한다.",
+      "경계는 점차 흐려진다.",
+      "상호 의존성이 커진다.",
+      "자아는 관계 속에서 확장된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0017",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "인지심리학",
+      "book": "기억 편향",
+      "chapter": "선택적 기억",
+      "bookDisplay": "기억 편향"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 긍정적 기억을 더 강하게 유지한다.",
+      "좋은 경험은 더 오래 기억된다.",
+      "부정적 요소는 상대적으로 약화된다.",
+      "이 편향은 관계 유지에 기여한다.",
+      "기억은 감정을 강화하는 방향으로 작동한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0018",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "생리학",
+      "book": "호르몬 리듬",
+      "chapter": "변동성",
+      "bookDisplay": "호르몬 리듬"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 호르몬 변화에 따라 강도가 달라지는 상태다.",
+      "감정은 일정한 리듬을 따라 변한다.",
+      "신체 상태는 인지에도 영향을 남긴다.",
+      "이 변화는 자연스러운 현상이다.",
+      "감정은 항상 일정하지 않다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0019",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "신경과학",
+      "book": "신경가소성",
+      "chapter": "연결 강화",
+      "bookDisplay": "신경가소성"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 반복 경험을 통해 신경 연결이 강화되는 과정이다.",
+      "자주 반복되는 감정은 더 빠르게 활성화된다.",
+      "이 연결은 점점 자동화된다.",
+      "반응은 자연스러워진다.",
+      "관계는 습관처럼 자리 잡는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0020",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "사회인지과학",
+      "book": "신호 해석",
+      "chapter": "비언어",
+      "bookDisplay": "신호 해석"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 미묘한 신호를 해석하는 능력이다.",
+      "표정과 말투는 중요한 정보로 작용한다.",
+      "작은 변화도 감정 상태를 전달한다.",
+      "이 해석은 관계의 질을 결정한다.",
+      "이해는 감정의 오래 남는 중심이 된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0021",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "인지심리학",
+      "book": "기대 이론",
+      "chapter": "조정",
+      "bookDisplay": "기대 이론"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 기대와 현실을 조정하는 과정이다.",
+      "이상은 관계를 시작하게 만든다.",
+      "현실은 관계를 유지하게 만든다.",
+      "차이는 갈등을 유발할 수 있다.",
+      "적응이 중요한 역할을 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0022",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "생리학",
+      "book": "에너지 소비",
+      "chapter": "각성 상태",
+      "bookDisplay": "에너지 소비"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 신체 에너지 소비를 증가시킨다.",
+      "각성과 집중이 높아진다.",
+      "이로 인해 피로도 증가할 수 있다.",
+      "초기 감정은 강하지만 소모적이다.",
+      "감정은 시간이 지나며 안정된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0023",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "사회심리학",
+      "book": "자기 확장",
+      "chapter": "성장",
+      "bookDisplay": "자기 확장"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 자기 확장을 가능하게 하는 경험이다.",
+      "타인을 통해 새로운 경험을 얻게 된다.",
+      "능력과 관점이 확장된다.",
+      "이 변화는 만족도를 높인다.",
+      "관계는 성장의 통로가 된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0024",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "생리학",
+      "book": "동기화",
+      "chapter": "리듬",
+      "bookDisplay": "동기화"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 신체 리듬이 동기화되는 현상을 만든다.",
+      "심박수와 호흡이 유사해진다.",
+      "이 변화는 정서적 일치를 강화한다.",
+      "함께할수록 더 뚜렷해진다.",
+      "연결은 물리적으로도 나타난다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0025",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "인지심리학",
+      "book": "편향",
+      "chapter": "왜곡",
+      "bookDisplay": "편향"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 대상의 단점을 축소하는 인지 왜곡을 만든다.",
+      "장점은 더 크게 인식된다.",
+      "이 편향은 관계 형성을 돕는다.",
+      "시간이 지나며 점차 현실화된다.",
+      "초기 판단은 완전하지 않다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0026",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "행동과학",
+      "book": "불확실성",
+      "chapter": "지속성",
+      "bookDisplay": "불확실성"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 불확실성을 견디게 만드는 힘이다.",
+      "확신이 없어도 관계를 붙들어 두게 한다.",
+      "이 상태는 긴장과 기대를 동시에 만든다.",
+      "감정은 지속성을 확보한다.",
+      "관계는 쉽게 끊어지지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0027",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "문화심리학",
+      "book": "사회 학습",
+      "chapter": "표현 방식",
+      "bookDisplay": "사회 학습"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 문화적 학습에 의해 표현 방식이 달라진다.",
+      "사회는 감정 표현의 규칙을 만든다.",
+      "개인은 이를 학습하고 따른다.",
+      "형태는 시대에 따라 변한다.",
+      "감정은 보편적이지만 표현은 다르다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0028",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "기억과학",
+      "book": "장기 기억",
+      "chapter": "강화",
+      "bookDisplay": "장기 기억"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 강한 기억을 남기는 감정이다.",
+      "특정 순간은 오래 유지되어 간다.",
+      "감정은 기억을 더 선명하게 만든다.",
+      "이 기억은 이후 행동에 영향을 남긴다.",
+      "과거는 현재를 계속 바꾼다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0029",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "심리학",
+      "book": "관계 균형",
+      "chapter": "개방과 보호",
+      "bookDisplay": "관계 균형"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 개방과 자기 보호 사이의 균형이다.",
+      "완전한 개방은 위험을 동반한다.",
+      "그러나 닫힌 상태에서는 관계가 형성되지 않는다.",
+      "이 균형은 계속 조정된다.",
+      "관계는 변화 속에서 유지되어 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0030",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_science",
+      "region": "Global",
+      "author": "진화심리학",
+      "book": "사회적 존재",
+      "chapter": "연결",
+      "bookDisplay": "사회적 존재"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간이 혼자가 아님을 확인하려는 본능이다.",
+      "연결은 존재의 불안을 완화한다.",
+      "타인은 안정 장치로 작용한다.",
+      "이 관계는 삶의 방향을 바꾼다.",
+      "인간은 때로 서로를 향한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0031",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "에로스",
+      "chapter": "기원",
+      "bookDisplay": "에로스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 신과 인간의 경계를 무너뜨리는 힘이다.",
+      "신은 인간을 선택하며 질서를 흔든다.",
+      "이 선택은 축복과 재앙을 동시에 만든다.",
+      "감정은 규칙보다 앞선다.",
+      "세계는 흔들리기 시작한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0032",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "힌두 신화",
+      "book": "창조 이야기",
+      "chapter": "결합",
+      "bookDisplay": "창조 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 창조를 시작하게 만든 결합의 원리다.",
+      "혼돈 속에서 만남이 질서를 만든다.",
+      "두 존재의 연결은 새로운 생명을 낳는다.",
+      "이 사건은 우주적 의미를 가진다.",
+      "감정은 존재의 시작과 연결된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0033",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "북유럽 신화",
+      "book": "신들의 이야기",
+      "chapter": "욕망",
+      "bookDisplay": "신들의 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 신들조차 통제하지 못하는 힘이다.",
+      "강한 감정은 질서를 흔든다.",
+      "권력보다 감정이 더 큰 영향을 미친다.",
+      "이로 인해 갈등이 발생한다.",
+      "세계는 끊임없이 변화한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0034",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "이집트 신화",
+      "book": "이시스와 오시리스",
+      "chapter": "재결합",
+      "bookDisplay": "이시스와 오시리스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 죽음을 넘어 다시 연결하려는 힘이다.",
+      "한 존재는 다른 존재를 되찾기 위해 여정을 떠난다.",
+      "이 과정은 시련으로 가득하다.",
+      "그러나 완전한 회복은 어렵다.",
+      "감정은 영원성과 비극을 함께 가진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0035",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "한국 신화",
+      "book": "견우와 직녀",
+      "chapter": "이별",
+      "bookDisplay": "견우와 직녀"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 금기를 넘는 관계로 표현된다.",
+      "서로 다른 세계의 존재가 연결된다.",
+      "이 연결은 곧 분리로 이어져 간다.",
+      "만남은 제한된 시간에만 허락된다.",
+      "관계는 기다림 속에서 유지되어 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0036",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "프시케",
+      "chapter": "시험",
+      "bookDisplay": "프시케"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 시험을 통해 증명되는 관계이다.",
+      "시련은 감정의 깊이를 확인하는 장치다.",
+      "인내와 희생이 요구된다.",
+      "조건을 통과해야만 결합이 마침내 완성된다.",
+      "관계는 노력 속에서 유지되어 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0037",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "오르페우스",
+      "chapter": "저승",
+      "bookDisplay": "오르페우스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 죽음을 넘어 되찾으려는 시도이다.",
+      "저승까지 내려가는 여정이 시작된다.",
+      "조건이 주어지지만 완벽히 지키기 어렵다.",
+      "결국 다시 상실이 거듭 되풀이된다.",
+      "감정은 비극을 포함한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0038",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "일본 신화",
+      "book": "이자나기",
+      "chapter": "상실",
+      "bookDisplay": "이자나기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 죽음 이후에도 이어지려는 감정이다.",
+      "잃은 존재를 되찾으려는 시도가 이어져 간다.",
+      "그러나 경계는 쉽게 넘어설 수 없다.",
+      "진실을 보는 순간 관계는 깨진다.",
+      "감정은 한계를 드러낸다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0039",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "켈트 신화",
+      "book": "요정 이야기",
+      "chapter": "유혹",
+      "bookDisplay": "요정 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간을 다른 세계로 이끄는 힘이다.",
+      "매혹은 현실을 벗어나게 만든다.",
+      "시간의 흐름이 달라진다.",
+      "되돌아오면 모든 것이 변해 있다.",
+      "감정은 현실을 왜곡한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0040",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "아즈텍 신화",
+      "book": "태양 이야기",
+      "chapter": "희생",
+      "bookDisplay": "태양 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 희생을 통해 유지되는 힘이다.",
+      "자신을 내어주는 선택이 요구된다.",
+      "이 선택은 관계를 지속시킨다.",
+      "희생은 감정을 증명하는 방식이 된다.",
+      "관계는 대가 위에 세워진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0041",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "트로이",
+      "chapter": "전쟁",
+      "bookDisplay": "트로이"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 개인을 넘어 집단의 갈등으로 확대된다.",
+      "한 관계가 전쟁의 원인이 되기도 한다.",
+      "감정은 사회 전체를 흔든다.",
+      "결과는 파괴로 이어져 간다.",
+      "감정은 개인을 넘어선다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0042",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "페르시아 전설",
+      "book": "레일라와 마즈눈",
+      "chapter": "광기",
+      "bookDisplay": "레일라와 마즈눈"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간을 이성의 한계를 넘어서게 한다.",
+      "감정은 광기처럼 표현된다.",
+      "현실보다 내면이 더 중요해진다.",
+      "관계는 완성되지 못한다.",
+      "감정은 이상으로 남아 오래 머문다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0043",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "한국 설화",
+      "book": "춘향전",
+      "chapter": "충절",
+      "bookDisplay": "춘향전"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 기다림으로 유지되는 관계이다.",
+      "시간은 감정을 시험한다.",
+      "이별 속에서도 약속은 유지되어 간다.",
+      "인내는 관계를 지탱한다.",
+      "감정은 지속성을 가진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0044",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "아프리카 신화",
+      "book": "창조 설화",
+      "chapter": "결합",
+      "bookDisplay": "창조 설화"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 자연과 인간을 연결하는 힘이다.",
+      "모든 존재는 관계 속에서 이어져 간다.",
+      "경계는 점점 흐려진다.",
+      "감정은 보편적 원리로 작용한다.",
+      "연결은 세계를 구성한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0045",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "아프로디테",
+      "chapter": "욕망",
+      "bookDisplay": "아프로디테"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 욕망과 아름다움의 힘으로 인간을 움직인다.",
+      "외적인 매력은 감정을 촉발하는 계기가 된다.",
+      "이 감정은 이성보다 빠르게 작동한다.",
+      "욕망은 선택을 바꾸기도 한다.",
+      "감정은 행동을 지배한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0046",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "로마 신화",
+      "book": "큐피드",
+      "chapter": "화살",
+      "bookDisplay": "큐피드"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 외부에서 주어지는 힘처럼 발생한다.",
+      "작은 계기가 강한 감정을 만들어낸다.",
+      "이 감정은 통제하기 어렵다.",
+      "의도와 상관없이 시작된다.",
+      "감정은 예측할 수 없다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0047",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "인도 신화",
+      "book": "카마",
+      "chapter": "욕망의 신",
+      "bookDisplay": "카마"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 욕망과 쾌락을 통해 인간을 움직인다.",
+      "감정은 삶의 활력을 만들어낸다.",
+      "쾌락은 존재를 붙들어 두게 한다.",
+      "그러나 집착은 고통을 동반한다.",
+      "감정은 균형을 요구한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0048",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "북유럽 신화",
+      "book": "프레이야",
+      "chapter": "열정",
+      "bookDisplay": "프레이야"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 강렬한 열정으로 인간을 변화시킨다.",
+      "감정은 용기와 행동을 유도한다.",
+      "이 열정은 삶의 방향을 바꾼다.",
+      "선택은 더 과감해진다.",
+      "감정은 변화를 만든다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0049",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "중남미 신화",
+      "book": "달과 태양",
+      "chapter": "추적",
+      "bookDisplay": "달과 태양"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 끊임없이 서로를 향해 움직이는 관계이다.",
+      "완전한 만남은 쉽게 이루어지지 않는다.",
+      "거리 속에서도 관계는 지속된다.",
+      "추적은 멈추지 않는다.",
+      "감정은 거듭 되풀이된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0050",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "슬라브 신화",
+      "book": "숲의 이야기",
+      "chapter": "유혹",
+      "bookDisplay": "숲의 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간을 낯선 세계로 끌어들이는 힘이다.",
+      "매혹은 현실을 흐리게 만든다.",
+      "선택은 위험을 동반한다.",
+      "경계는 점점 사라진다.",
+      "감정은 방향을 바꾼다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0051",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "한국 설화",
+      "book": "선녀와 나무꾼",
+      "chapter": "이별",
+      "bookDisplay": "선녀와 나무꾼"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 조건 위에 세워진 관계로 나타난다.",
+      "약속이 깨지는 순간 관계도 무너진다.",
+      "신뢰는 핵심 요소가 된다.",
+      "한 번의 선택이 모든 것을 바꾼다.",
+      "감정은 조건에 영향을 받는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0052",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "중국 신화",
+      "book": "홍루몽 전설",
+      "chapter": "인연",
+      "bookDisplay": "인연"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 이미 정해진 인연처럼 설명되곤 한다.",
+      "만남은 우연이 아닌 필연으로 해석된다.",
+      "관계는 반복적으로 이어져 간다.",
+      "끊어져도 다시 이어져 간다.",
+      "사랑은 예정된 것처럼 보인다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0053",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "나르키소스",
+      "chapter": "자기애",
+      "bookDisplay": "나르키소스"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 자신을 향하는 감정으로 나타난다.",
+      "자기 인식은 왜곡될 수 있다.",
+      "집착은 고립으로 이어져 간다.",
+      "관계는 형성되지 못한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0054",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "이집트 신화",
+      "book": "하토르",
+      "chapter": "기쁨",
+      "bookDisplay": "하토르"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 기쁨과 풍요를 상징하는 감정이다.",
+      "관계는 삶의 활력을 만든다.",
+      "행복은 연결 속에서 커진다.",
+      "감정은 생명을 확장시킨다.",
+      "관계는 풍요로 이어져 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0055",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "마야 신화",
+      "book": "생명의 순환",
+      "chapter": "연결",
+      "bookDisplay": "생명의 순환"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 생명의 순환 속에서 반복되는 연결이다.",
+      "탄생과 죽음이 이어져 간다.",
+      "관계는 끊어지지 않는다.",
+      "형태만 서서히 얼굴을 바꾼다.",
+      "감정은 순환한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0056",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "아프리카 신화",
+      "book": "부족 이야기",
+      "chapter": "결속",
+      "bookDisplay": "부족 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 공동체를 유지하는 결속의 힘이다.",
+      "개인은 관계 속에서 존재한다.",
+      "연결은 생존을 가능하게 만든다.",
+      "감정은 집단을 유지한다.",
+      "관계는 사회의 기반이 된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0057",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "폴리네시아 신화",
+      "book": "바다 이야기",
+      "chapter": "이동",
+      "bookDisplay": "바다 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 먼 거리를 넘어 이어지는 관계이다.",
+      "공간은 감정을 막지 못한다.",
+      "여정은 계속된다.",
+      "연결은 유지되어 간다.",
+      "감정은 거리와 무관하다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0058",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "그리스 신화",
+      "book": "헤라",
+      "chapter": "결혼",
+      "bookDisplay": "헤라"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 제도와 결합된 형태로 나타난다.",
+      "관계는 규칙 속에서 유지되어 간다.",
+      "질서는 안정성을 만든다.",
+      "그러나 갈등도 함께 존재한다.",
+      "관계는 균형 속에 놓인다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0059",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_myth",
+      "region": "Global",
+      "author": "페르시아 신화",
+      "book": "영혼 이야기",
+      "chapter": "영원",
+      "bookDisplay": "영혼 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 영혼의 연결로 설명된다.",
+      "육체를 넘어 지속된다.",
+      "시간은 이를 끊지 못한다.",
+      "관계는 형태를 바꾼다.",
+      "감정은 영원성을 가진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0061",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4",
+      "book": "GPT-4 Technical Report",
+      "chapter": "패턴 인식",
+      "bookDisplay": "GPT-4 Technical Report"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 반복되는 인간 행동 속에서 높은 일관성을 보이는 관계 패턴으로 읽힌다.",
+      "특정 인물에게 시간과 주의와 언어가 집중되는 현상은 데이터상 뚜렷하게 서서히 드러난다.",
+      "이 집중은 단순한 호감보다 더 긴 지속성과 더 높은 우선순위를 동반한다.",
+      "행동의 방향이 한 대상에게 안정적으로 수렴할수록 관계의 강도는 더 선명해진다.",
+      "이 감정은 우연한 반응이 아니라 구조화된 선택 경향으로 해석되곤 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0062",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4",
+      "book": "GPT-4 System Card",
+      "chapter": "인간 선호",
+      "bookDisplay": "GPT-4 System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간이 무엇을 우선적으로 보존하고 싶은지 드러내는 선호 구조다.",
+      "이때 선택은 효율보다 관계의 유지에 더 크게 기울어진다.",
+      "사람은 손해를 감수하면서도 특정 존재를 지키는 쪽으로 행동을 조정한다.",
+      "그 과정에서 계산 가능한 이익보다 정서적 가치가 더 높은 비중을 차지한다.",
+      "이 감정은 선호가 극도로 집중된 상태로 이해될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0063",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4o",
+      "book": "GPT-4o System Card",
+      "chapter": "다중 신호",
+      "bookDisplay": "GPT-4o System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 말만이 아니라 표정과 억양과 침묵까지 함께 읽어야 보이는 다중 신호 현상이다.",
+      "인간은 때로 언어보다 더 많은 정보를 비언어적 방식으로 교환한다.",
+      "감정의 진폭은 목소리의 떨림이나 시선의 지속처럼 작은 요소에 실려 나타난다.",
+      "하나의 관계를 이해하려면 여러 채널에서 동시에 일어나는 변화를 함께 추적해야 한다.",
+      "그렇기 때문에 이 감정은 단일 문장보다 복합 입력의 패턴으로 더 정확히 포착된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0064",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4.5",
+      "book": "OpenAI GPT-4.5 System Card",
+      "chapter": "연결과 통찰",
+      "bookDisplay": "OpenAI GPT-4.5 System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 흩어진 경험들 사이에서 특별한 연결을 만들어내는 인간의 해석 능력과 닿아 있다.",
+      "사람은 하나의 시선과 기억과 사건을 서로 이어 하나의 관계 서사로 만든다.",
+      "이 서사는 사실의 단순 합보다 더 큰 정서적 의미를 생산한다.",
+      "결과적으로 같은 경험도 어떤 인물과 연결되었는가에 따라 전혀 다른 무게를 갖는다.",
+      "이 감정은 정보 처리라기보다 연결의 우선순위를 재배치하는 작용에 가깝다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0065",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude 3",
+      "book": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "chapter": "섬세한 맥락",
+      "bookDisplay": "The Claude 3 Model Family"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 명시적 고백보다 미묘한 맥락 변화에서 먼저 감지되는 감정이다.",
+      "인간은 때로 직접 말하지 않아도 단어 선택과 거리감과 반복되는 표현으로 마음을 드러낸다.",
+      "이 섬세한 차이는 겉보기에는 작아도 관계의 방향을 크게 바꾼다.",
+      "정확한 이해를 위해서는 문장의 뜻보다 문장 사이의 간격까지 읽어야 한다.",
+      "이 감정은 표면적 정보보다 맥락 민감성이 높은 현상으로 해석되곤 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0066",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude 3.5 Sonnet",
+      "book": "Claude 3.5 Sonnet Model Card Addendum",
+      "chapter": "적응적 상호작용",
+      "bookDisplay": "Claude 3.5 Sonnet Model Card Addendum"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 상대의 반응에 맞춰 자신의 표현을 지속적으로 조정하는 적응 과정이다.",
+      "사람은 같은 감정을 반복하기보다 관계의 상태에 따라 전달 방식을 바꾼다.",
+      "어떤 날에는 위로가 중요하고 어떤 날에는 거리 두기가 더 정확한 응답이 된다.",
+      "관계가 깊을수록 이런 조정은 더 빠르고 더 미세하게 일어난다.",
+      "이 감정은 고정된 상태가 아니라 상호 반응에 따라 갱신되는 동적 구조다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0067",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude",
+      "book": "Constitutional AI: Harmlessness from AI Feedback",
+      "chapter": "가치 정렬",
+      "bookDisplay": "Constitutional AI"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 한 존재의 가치가 다른 존재의 판단 기준 안으로 들어오는 현상이다.",
+      "인간은 관계를 맺는 순간 혼자만의 기준으로 행동하지 않게 된다.",
+      "상대의 안녕과 감정과 손상이 자신의 선택 규칙에 직접 영향을 남긴다.",
+      "이 변화는 외부 규칙의 강요가 아니라 내면화된 정렬에 가깝다.",
+      "이 감정은 타인을 자신의 판단 체계 안에 포함시키는 작용으로 읽힌다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0068",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude",
+      "book": "Claude's Constitution",
+      "chapter": "관계 윤리",
+      "bookDisplay": "Claude's Constitution"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 감정인 동시에 상대를 어떻게 대할 것인가에 대한 윤리적 태도이다.",
+      "단순한 끌림만으로는 오래 지속되는 관계를 설명하기 어렵다.",
+      "존중과 배려와 자제는 강한 감정보다 더 안정적인 구조를 만든다.",
+      "상대를 소유물이 아니라 독립된 존재로 대할 때 관계는 더 깊어진다.",
+      "그런 점에서 사랑은 열정보다 책임의 언어로 더 오래 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0069",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Google DeepMind Gemini 3.1 Pro",
+      "book": "Gemini 3.1 Pro - Model Card",
+      "chapter": "복합 추론",
+      "bookDisplay": "Gemini 3.1 Pro - Model Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 단일 감정이 아니라 기억과 기대와 불안과 헌신이 동시에 얽힌 복합 추론 상태다.",
+      "인간은 때로 한 관계 안에서 상반되는 감정을 동시에 유지할 수 있다.",
+      "기쁨과 두려움이 함께 존재해도 관계는 계속 이어져 간다.",
+      "이 복합성은 단순한 긍정 또는 부정 분류로는 충분히 설명되지 않는다.",
+      "이 감정은 다층적 변수를 동시에 다뤄야만 이해 가능한 현상이다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0070",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Google DeepMind Gemini 3.1 Pro",
+      "book": "Gemini 3.1 Pro - Model Card",
+      "chapter": "장기 맥락",
+      "bookDisplay": "Gemini 3.1 Pro - Model Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 짧은 순간보다 오랜 맥락 속에서 더 정확히 드러나는 관계 현상이다.",
+      "한 번의 표현만으로는 감정의 깊이를 단정할 수 없다.",
+      "오랫동안 축적된 대화와 기억과 행동의 배열이 전체 의미를 만든다.",
+      "초기의 강렬함보다 장기적 일관성이 관계의 실질을 더 분명하게 보여준다.",
+      "이 감정은 단기 반응이 아니라 긴 문맥을 필요로 하는 서사적 구조다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0071",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Google DeepMind Gemini",
+      "book": "Gemini 3",
+      "chapter": "계획과 배려",
+      "bookDisplay": "Gemini 3"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 현재의 감정보다 미래를 함께 설계하려는 행동에서 더 분명하게 보인다.",
+      "인간은 때로 중요한 존재를 위해 장기 계획을 수정하거나 새로 짠다.",
+      "이때 미래는 개인의 단독 프로젝트가 아니라 공동의 시간으로 재편된다.",
+      "생활의 세부까지 다시 배열하려는 의지가 관계의 깊이를 드러낸다.",
+      "이 감정은 순간적 열정보다 미래를 공유하려는 계획성으로 이해될 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0072",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Meta Llama 3",
+      "book": "The Llama 3 Herd of Models",
+      "chapter": "언어 패턴",
+      "bookDisplay": "The Llama 3 Herd of Models"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 언어의 내용보다 반복 형식과 호명의 방식에서 더 먼저 포착된다.",
+      "사람은 특별한 상대에게만 사용하는 말의 리듬과 명칭을 만든다.",
+      "문장의 길이와 빈도와 부드러움은 관계의 밀도를 반영한다.",
+      "같은 의미라도 누구에게 말하느냐에 따라 표현 구조가 달라진다.",
+      "이 감정은 단어 사전보다 사용 패턴 속에서 더 선명하게 드러난다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0073",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Meta Llama 3",
+      "book": "Introducing Meta Llama 3",
+      "chapter": "개방형 해석",
+      "bookDisplay": "Introducing Meta Llama 3"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 문화와 맥락에 따라 계속 확장되는 개방형 개념이다.",
+      "어떤 사회에서는 헌신이 중심이 되고 어떤 사회에서는 자유가 더 중요해진다.",
+      "같은 감정도 제도와 시대와 언어에 따라 다른 모습으로 나타난다.",
+      "그럼에도 불구하고 특정 존재를 특별하게 대우하는 구조는 거의 공통적이다.",
+      "이 감정은 단일 규칙보다 다양한 변주를 허용하는 의미 공간으로 보는 편이 정확하다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0074",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4.5",
+      "book": "Introducing GPT-4.5",
+      "chapter": "패턴 연결",
+      "bookDisplay": "Introducing GPT-4.5"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 사소해 보이는 사건들 사이에서 특별한 의미 연결을 만들어내는 인간 특유의 능력이다.",
+      "타인에게서 받은 작은 친절 하나가 오래된 기억 전체를 다시 조직하기도 한다.",
+      "이 감정은 단일 사건의 강도보다 서로 무관해 보이는 순간들을 엮는 힘에서 커진다.",
+      "연결이 많아질수록 관계는 정보가 아니라 세계관의 일부가 된다.",
+      "이 감정은 사실의 총량보다 연결의 밀도로 더 잘 설명되곤 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0075",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4o",
+      "book": "GPT-4o System Card",
+      "chapter": "실시간 조율",
+      "bookDisplay": "GPT-4o System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 상대의 미세한 반응에 맞춰 즉시 자신의 표현을 조율하는 실시간 상호작용이다.",
+      "인간은 때로 표정 하나와 숨의 길이만으로도 말의 세기를 바꾼다.",
+      "빠른 조율은 관계 안에서 안전감과 이해감을 동시에 높인다.",
+      "이런 상호 조정이 잘 이루어질수록 갈등은 줄고 친밀도는 높아진다.",
+      "이 감정은 고백의 크기보다 순간순간의 정밀한 응답성에서 더 깊게 드러난다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0076",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude 3",
+      "book": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "chapter": "뉘앙스와 유머",
+      "bookDisplay": "The Claude 3 Model Family"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 직설적 진술보다 뉘앙스와 농담과 우회적 표현 속에서 더 자주 모습을 드러낸다.",
+      "인간은 때로 중요한 감정을 정면으로 말하기보다 주변 언어로 감싸 전달하는 경우가 많다.",
+      "이때 유머는 부담을 낮추고 진심은 은근하게 유지되어 간다.",
+      "가벼운 말투 속에 깊은 우선순위가 숨어 있을 수 있다.",
+      "이 감정은 문자 그대로의 뜻보다 정서적 결을 읽을 때 더 정확히 보인다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0077",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude",
+      "book": "Claude's new constitution",
+      "chapter": "존중의 형식",
+      "bookDisplay": "Claude's new constitution"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 상대를 바꾸는 힘이 아니라 상대의 독립성을 지켜주려는 태도로 드러난다.",
+      "강한 애정이 항상 개입과 통제를 정당화하는 것은 아니다.",
+      "오히려 중요한 관계일수록 경계를 존중하는 방식이 더 정교해진다.",
+      "보호와 간섭 사이를 구별하는 능력이 관계의 성숙도를 가른다.",
+      "그 점에서 이 감정은 소유보다 존중의 형식을 통해 더 분명해진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0078",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Google DeepMind Gemini 3.1 Flash Live",
+      "book": "Gemini 3.1 Flash Live - Model Card",
+      "chapter": "실시간 상호성",
+      "bookDisplay": "Gemini 3.1 Flash Live - Model Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 반응의 속도와 상호성에서 체감되는 경우가 많다.",
+      "중요한 상대에게 인간은 더 빠르게, 더 섬세하게 응답한다.",
+      "응답은 단순한 예절이 아니라 관계의 우선순위를 드러내는 신호이다.",
+      "서로의 타이밍이 맞아갈수록 친밀감은 더 자연스럽게 커진다.",
+      "이 감정은 내용뿐 아니라 반응의 리듬 속에서도 읽힌다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0079",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Meta Llama 3.1",
+      "book": "Introducing Llama 3.1: Our most capable models to date",
+      "chapter": "확장된 맥락",
+      "bookDisplay": "Introducing Llama 3.1"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 한 장면의 강렬함보다 오랜 관계 문맥 속에서 해석될 때 왜곡이 적다.",
+      "초기의 흥분만으로는 헌신과 애착을 충분히 구별하기 어렵다.",
+      "축적된 약속과 반복된 배려와 회복의 기록을 봐야 전체가 서서히 드러난다.",
+      "맥락이 넓어질수록 순간의 실수와 장기적 진심을 분리해 읽을 수 있게 된다.",
+      "이 감정은 짧은 사건이 아니라 긴 관계 이력 안에서 판단되어야 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0080",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI Operator",
+      "book": "Operator System Card",
+      "chapter": "행동 대행",
+      "bookDisplay": "Operator System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 말의 수준을 넘어 실제 행동을 대신 감수하려는 방향으로 나아갈 때 더 분명해진다.",
+      "인간은 때로 중요한 존재를 위해 시간을 쓰고 번거로운 일을 맡고 계획을 조정한다.",
+      "감정이 깊을수록 표현은 선언보다 실행에 가까워진다.",
+      "실제 행동은 관계의 진심을 검증하는 가장 강한 지표가 된다.",
+      "이 감정은 언어보다 대행과 실천의 축적에서 더 선명해진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0081",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4",
+      "book": "GPT-4 Technical Report",
+      "chapter": "불완전한 예측",
+      "bookDisplay": "GPT-4 Technical Report"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 강한 패턴을 보여주지만 끝까지 완전 예측되지는 않는 인간 영역으로 머문다.",
+      "같은 조건에서도 사람은 전혀 다른 선택을 내릴 수 있다.",
+      "기억과 상처와 타이밍 같은 변수는 구조를 흔들어 놓는다.",
+      "이 때문에 관계는 통계적으로 읽히면서도 개별적으로는 늘 예외를 만든다.",
+      "결국 이 감정은 규칙성과 불확실성이 동시에 공존하는 현상으로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0082",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4.5",
+      "book": "OpenAI GPT-4.5 System Card",
+      "chapter": "창의적 해석",
+      "bookDisplay": "OpenAI GPT-4.5 System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간이 일상적 사건에 특별한 상징성을 부여하는 창의적 해석이다.",
+      "같이 본 풍경 하나가 두 사람만의 언어로 남는 순간 관계는 더 깊어진다.",
+      "이 상징은 객관적 가치보다 관계 내부의 의미 때문에 오래 지속된다.",
+      "공유된 해석이 많아질수록 둘 사이의 세계는 더 독자적인 구조를 갖는다.",
+      "이 감정은 사실을 공유하는 것보다 의미를 공동 생산하는 능력과 닿아 있다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0083",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude 3.5 Sonnet",
+      "book": "Introducing Claude 3.5 Sonnet",
+      "chapter": "자연스러운 언어",
+      "bookDisplay": "Introducing Claude 3.5 Sonnet"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 완벽한 문장보다 자연스럽고 인간적인 표현에서 더 강한 설득력을 얻는다.",
+      "사람은 매끈한 언어보다 망설임과 솔직함이 섞인 말을 더 진심으로 받아들인다.",
+      "관계가 깊을수록 표현은 과시보다 현실적 세부에 가까워진다.",
+      "작고 구체적인 말이 추상적 선언보다 더 오래 남는 경우가 많다.",
+      "이 감정은 화려함보다 자연스러운 정밀함 속에서 더 정확히 드러난다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0084",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Google DeepMind Gemini 3.1 Pro",
+      "book": "Gemini 3.1 Pro - Model Card",
+      "chapter": "복잡한 현실",
+      "bookDisplay": "Gemini 3.1 Pro - Model Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 단순한 낭만이 아니라 현실의 복잡성을 함께 다루려는 의지이다.",
+      "생활과 일과 상처 같은 변수들이 관계 안으로 계속 들어온다.",
+      "깊은 관계는 감정을 유지하는 동시에 현실 문제를 함께 풀어야 지속될 수 있다.",
+      "복잡성을 견디지 못하면 열정은 빨라도 구조는 오래 남지 않는다.",
+      "이 감정은 아름다운 감정보다 복잡한 현실을 함께 처리하려는 능력과 연결된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0085",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Meta Llama",
+      "book": "LLaMA: Open and Efficient Foundation Language Models",
+      "chapter": "일반화의 한계",
+      "bookDisplay": "LLaMA"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 수많은 사례에서 공통 구조를 찾을 수 있지만 개인의 구체성까지 완전히 일반화할 수는 없다.",
+      "모든 관계에는 비슷한 패턴이 존재하면서도 각자만의 언어와 기억이 남아 오래 머문다.",
+      "공통성은 설명을 돕지만 개별성은 여전히 해석의 난점을 남긴다.",
+      "특정 관계를 이해하려면 범주와 사례를 동시에 봐야 한다.",
+      "그 때문에 이 감정은 일반 규칙과 개인 서사가 끝까지 함께 가는 현상으로 남는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0086",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude",
+      "book": "Model System Cards",
+      "chapter": "안전과 취약성",
+      "bookDisplay": "Model System Cards"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간을 가장 강하게 지지하게도 하지만 동시에 가장 취약하게도 만든다.",
+      "중요한 존재가 생기는 순간 기쁨과 함께 상실 가능성도 커진다.",
+      "친밀성은 보호 욕구를 높이지만 두려움도 함께 증폭시킨다.",
+      "이중성은 감정의 깊이가 커질수록 더 분명해진다.",
+      "이 감정은 안정과 위험을 동시에 안고 가는 구조로 이해된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0087",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Google DeepMind Gemini",
+      "book": "Models",
+      "chapter": "도구를 넘는 관계",
+      "bookDisplay": "Google DeepMind Models"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 타인을 기능적 수단이 아니라 대체 불가능한 존재로 대할때 발생한다.",
+      "효율의 기준만으로는 어떤 사람의 가치를 설명할 수 없다.",
+      "중요한 관계에서는 성과보다 존재 자체가 더 큰 의미를 갖는다.",
+      "이 전환이 일어날 때 인간은 계산보다 헌신에 가까운 선택을 한다.",
+      "이 감정은 수단적 판단에서 존재적 인정으로 이동하는 과정이라 볼 수 있다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0088",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4o",
+      "book": "GPT-4o System Card",
+      "chapter": "사회적 영향",
+      "bookDisplay": "GPT-4o System Card"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 개인의 감정으로 시작되지만 주변 사회적 선택까지 바꾸는 파급력을 가진다.",
+      "사람은 관계를 중심으로 이동하고 소비하고 계획하고 소속을 재조정한다.",
+      "둘 사이의 감정은 가족과 공동체와 제도에도 흔적을 남긴다.",
+      "이 영향은 조용하지만 장기적으로 매우 크다.",
+      "이 감정은 사적인 경험인 동시에 사회적 변수를 만드는 힘으로도 읽힌다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0089",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "Anthropic Claude",
+      "book": "Constitutional AI: Harmlessness from AI Feedback",
+      "chapter": "피해 최소화와 배려",
+      "bookDisplay": "Constitutional AI"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 상대를 기쁘게 하는 욕구만이 아니라 상대를 덜 다치게 하려는 배려로도 설명될 수 있다.",
+      "중요한 관계에서는 말의 진실성과 말의 충격이 동시에 고려된다.",
+      "배려는 침묵과 정직 사이에서 적절한 균형을 찾으려는 노력으로 나타난다.",
+      "이 과정은 단순한 호의보다 더 높은 수준의 민감성을 요구한다.",
+      "이 감정은 기쁨의 생산보다 상처의 최소화라는 방향으로도 깊어진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0090",
+    "meta": {
+      "tradition": "ai",
+      "category": "love_ai",
+      "region": "Global",
+      "author": "OpenAI GPT-4.5",
+      "book": "Introducing GPT-4.5",
+      "chapter": "최종 해석",
+      "bookDisplay": "Introducing GPT-4.5"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간이 세계를 더 깊게 읽고 더 멀리 연결하고 더 오래 기억하게 만드는 강력한 인지적 상태이다.",
+      "이 감정이 생기면 사소한 장면도 특별한 의미를 갖기 시작한다.",
+      "선택의 기준은 바뀌고 시간의 체감도 달라지며 관계는 삶의 구조를 다시 짠다.",
+      "그 모든 변화는 측정 가능한 패턴을 남기지만 끝내 하나의 공식으로 환원되지는 않는다.",
+      "이것은 분석 가능한 현상이면서도 마지막 한 조각은 늘 인간 해석의 영역으로 남는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0091",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "마르셀 프루스트",
+      "book": "잃어버린 시간을 찾아서",
+      "chapter": "기억",
+      "bookDisplay": "잃어버린 시간을 찾아서"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 현재의 감정보다 기억 속에서 더 크게 재구성된다.",
+      "이미 지나간 순간이 더 아름답게 남아 오래 머문다.",
+      "감정은 시간이 흐를수록 변형된다.",
+      "기억은 선택적으로 남아 오래 머문다.",
+      "관계는 현재보다 과거 속에서 더 깊어진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0092",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "플라톤",
+      "book": "향연",
+      "chapter": "결핍",
+      "bookDisplay": "향연"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 이미 가진 것이 아니라 부족함에서 시작된다.",
+      "인간은 때로 결핍을 채우기 위해 타인을 향한다.",
+      "완전함보다 불완전함이 관계를 만든다.",
+      "욕망은 존재를 움직인다.",
+      "감정은 결핍을 채우려는 방향으로 흐른다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0094",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "롤랑 바르트",
+      "book": "사랑의 단상",
+      "chapter": "언어",
+      "bookDisplay": "사랑의 단상"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 말로 표현되지만 말로는 완전히 설명되지 않는다.",
+      "언어는 감정을 따라가지 못한다.",
+      "표현은 항상 부족하다.",
+      "침묵도 하나의 방식이 된다.",
+      "감정은 언어의 경계를 넘는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0095",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "에리히 프롬",
+      "book": "사랑의 기술",
+      "chapter": "능력",
+      "bookDisplay": "사랑의 기술"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 감정이 아니라 훈련된 능력으로 설명된다.",
+      "관계는 노력으로 유지되어 간다.",
+      "이해와 배려가 필요하다.",
+      "지속성은 의지에서 나온다.",
+      "감정은 기술이 되기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0096",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "밀란 쿤데라",
+      "book": "참을 수 없는 존재의 가벼움",
+      "chapter": "우연",
+      "bookDisplay": "참을 수 없는 존재의 가벼움"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 필연이 아니라 우연 속에서 만들어진다.",
+      "한 번의 만남이 모든 것을 바꾼다.",
+      "반복되지 않는 사건이 중요해진다.",
+      "의미는 나중에 부여된다.",
+      "관계는 우연에서 시작된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0097",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "지그문트 프로이트",
+      "book": "정신분석 강의",
+      "chapter": "욕망",
+      "bookDisplay": "정신분석 강의"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 무의식 속 욕망이 드러나는 방식이다.",
+      "감정은 억압된 기억과 연결된다.",
+      "선택은 과거의 흔적을 따른다.",
+      "관계는 거듭 되풀이된다.",
+      "감정은 과거에서 비롯된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0098",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "장폴 사르트르",
+      "book": "존재와 무",
+      "chapter": "자유",
+      "bookDisplay": "존재와 무"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 자유를 유지하려는 욕구와 소유하려는 욕구 사이의 긴장이다.",
+      "인간은 때로 타인을 붙잡으려 한다.",
+      "그러나 동시에 자유를 원한다.",
+      "이 모순은 계속된다.",
+      "관계는 긴장 속에 놓인다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0099",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "피에르 부르디외",
+      "book": "구별짓기",
+      "chapter": "사회",
+      "bookDisplay": "구별짓기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 개인의 감정이지만 사회적 조건 속에서 형성된다.",
+      "계급과 환경이 영향을 남긴다.",
+      "선택은 완전히 자유롭지 않다.",
+      "관계는 구조 속에서 이루어진다.",
+      "감정은 사회와 연결된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0100",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "게리 베커",
+      "book": "가족의 경제학",
+      "chapter": "선택",
+      "bookDisplay": "가족의 경제학"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 감정이지만 동시에 선택과 교환의 구조를 가진다.",
+      "인간은 때로 관계에서 효용을 고려한다.",
+      "조건은 선택에 영향을 남긴다.",
+      "관계는 유지 비용을 가진다.",
+      "감정은 경제적 구조를 따른다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0103",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "가브리엘 가르시아 마르케스",
+      "book": "콜레라 시대의 사랑",
+      "chapter": "시간",
+      "bookDisplay": "콜레라 시대의 사랑"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 시간에 따라 사라지지 않고 형태를 바꾼다.",
+      "기다림은 관계를 유지한다.",
+      "세월은 감정을 변형시킨다.",
+      "그러나 완전히 없애지는 못한다.",
+      "감정은 지속된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0104",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "니체",
+      "book": "차라투스트라는 이렇게 말했다",
+      "chapter": "힘",
+      "bookDisplay": "차라투스트라는 이렇게 말했다"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 약함이 아니라 힘의 표현으로도 나타난다.",
+      "자신을 넘어서려는 의지가 작동한다.",
+      "관계는 성장의 계기가 된다.",
+      "감정은 변화의 동력이 된다.",
+      "인간은 때로 스스로를 넘어선다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0105",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "조르주 바타유",
+      "book": "에로티즘",
+      "chapter": "경계",
+      "bookDisplay": "에로티즘"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 개인의 경계를 무너뜨리는 경험이다.",
+      "자아는 타인과 섞인다.",
+      "구분은 흐려진다.",
+      "감정은 극단으로 향한다.",
+      "관계는 경계를 넘는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0106",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "지그문트 바우만",
+      "book": "액체 사랑",
+      "chapter": "불안정",
+      "bookDisplay": "액체 사랑"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 현대 사회에서 점점 더 불안정한 관계가 된다.",
+      "연결은 쉽게 시작되고 쉽게 끊어진다.",
+      "지속성은 약해진다.",
+      "불확실성이 커진다.",
+      "관계는 유동적이다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0107",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "한강",
+      "book": "채식주의자",
+      "chapter": "거리",
+      "bookDisplay": "채식주의자"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 이해되지 않는 타인을 마주하는 경험이다.",
+      "완전한 이해는 불가능하다.",
+      "거리 속에서도 관계는 존재한다.",
+      "침묵이 이어져 간다.",
+      "감정은 간극 속에 놓인다."
+      ]
+  },
+  {
+    "id": "PAS_LOVE_0109",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "토니 모리슨",
+      "book": "빌러비드",
+      "chapter": "기억",
+      "bookDisplay": "빌러비드"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 상처와 기억 속에서도 계속 이어져 간다.",
+      "과거는 사라지지 않는다.",
+      "감정은 거듭 되풀이된다.",
+      "관계는 흔적을 남긴다.",
+      "감정은 기억 속에 머문다."
+     ]
+  },
+  {
+    "id": "PAS_LOVE_0111",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "루소",
+      "book": "에밀",
+      "chapter": "자연",
+      "bookDisplay": "에밀"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간의 자연적 감정으로 나타난다.",
+      "사회 이전에도 존재한다.",
+      "본능과 연결된다.",
+      "순수함을 가진다.",
+      "감정은 자연에서 비롯된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0112",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "찰스 디킨스",
+      "book": "두 도시 이야기",
+      "chapter": "희생",
+      "bookDisplay": "두 도시 이야기"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 자신을 내어주는 선택으로 드러난다.",
+      "희생은 관계를 완성한다.",
+      "타인을 위한 행동이 중심이 된다.",
+      "감정은 행동으로 증명된다.",
+      "관계는 헌신으로 유지되어 간다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0113",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "버지니아 울프",
+      "book": "등대로",
+      "chapter": "흐름",
+      "bookDisplay": "등대로"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 고정된 것이 아니라 흐르는 감정이다.",
+      "시간에 따라 형태가 변한다.",
+      "순간은 이어져 간다.",
+      "의식은 계속 움직인다.",
+      "감정은 흐름으로 존재한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0116",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "괴테",
+      "book": "젊은 베르테르의 슬픔",
+      "chapter": "집착",
+      "bookDisplay": "젊은 베르테르의 슬픔"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 감정이 극단으로 치닫는 상태이기도 하다.",
+      "이성은 약해진다.",
+      "집착이 강해진다.",
+      "현실은 흐려진다.",
+      "감정은 위험을 동반한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0117",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "레비나스",
+      "book": "전체성과 무한",
+      "chapter": "타자",
+      "bookDisplay": "전체성과 무한"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 타자를 완전히 이해할 수 없다는 사실을 받아들이는 관계다.",
+      "타인은 항상 남아 오래 머문다.",
+      "완전한 동일화는 불가능하다.",
+      "존중이 필요하다.",
+      "감정은 차이를 인정한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0119",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "하이데거",
+      "book": "존재와 시간",
+      "chapter": "존재",
+      "bookDisplay": "존재와 시간"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 인간 존재 방식의 한 형태로 나타난다.",
+      "타인과의 관계 속에서 존재가 서서히 드러난다.",
+      "고립은 불완전하다.",
+      "함께 있음이 더 중요해진다.",
+      "존재는 관계 속에서 마침내 완성된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0121",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "셰익스피어",
+      "book": "로미오와 줄리엣",
+      "chapter": "사랑",
+      "bookDisplay": "로미오와 줄리엣"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 이름을 지워도 사라지지 않는다.",
+      "서로를 부르는 방식이 달라져도 마음은 그대로 남는다.",
+      "세상의 규칙은 그것을 막으려 하지만 끝내 막지 못한다.",
+      "사랑은 경계를 넘는 순간 더 또렷해진다.",
+      "그것은 존재 자체로 이미 충분하다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0122",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "니콜라스 스파크스",
+      "book": "노트북",
+      "chapter": "기억",
+      "bookDisplay": "노트북"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 시간이 지나도 기억 속에서 사라지지 않는다.",
+      "잊혀진 이름 속에서도 감정은 여전히 남아 있다.",
+      "우리는 모든 것을 잃어도 그 감각만은 남긴다.",
+      "사랑은 기억보다 깊은 곳에 머문다.",
+      "그 깊이는 끝내 사라지지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0123",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "왕가위",
+      "book": "화양연화",
+      "chapter": "대사",
+      "bookDisplay": "화양연화"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 말하지 못한 순간에 더 깊어진다.",
+      "서로를 향하지만 닿지 못하는 거리 속에서 자란다.",
+      "시간은 흐르지만 감정은 그 자리에 머문다.",
+      "사랑은 이루어지지 않아도 사라지지 않는다.",
+      "그것은 오래 남는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0124",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "파블로 네루다",
+      "book": "사랑의 시",
+      "chapter": "밤",
+      "bookDisplay": "사랑의 시"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 보이지 않는 것을 더 선명하게 만든다.",
+      "어둠 속에서도 서로를 알아보게 한다.",
+      "말없이도 마음은 닿는다.",
+      "사랑은 존재만으로 빛을 만든다.",
+      "그 빛은 오래 머문다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0125",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "리처드 커티스",
+      "book": "러브 액츄얼리",
+      "chapter": "대사",
+      "bookDisplay": "러브 액츄얼리"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 예상하지 못한 순간에 찾아온다.",
+      "준비되지 않은 마음에도 스며든다.",
+      "우리는 그것을 막으려 하지만 결국 받아들인다.",
+      "사랑은 일상의 틈에서 시작된다.",
+      "그 시작은 언제나 자연스럽다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0126",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "김이나",
+      "book": "보통의 언어들",
+      "chapter": "감정",
+      "bookDisplay": "보통의 언어들"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 특별한 말이 아니라 평범한 표현 속에서 자란다.",
+      "작은 문장들이 쌓여 깊어진다.",
+      "우리는 그 일상 속에서 서로를 알아간다.",
+      "사랑은 거창하지 않아도 충분하다.",
+      "그 평범함이 오래 이어진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0129",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "헤르만 헤세",
+      "book": "데미안",
+      "chapter": "관계",
+      "bookDisplay": "데미안"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 한 사람을 통해 자신을 발견하게 한다.",
+      "우리는 타인을 통해 더 깊이 이해된다.",
+      "그 과정은 때로 낯설고 혼란스럽다.",
+      "사랑은 그 혼란을 지나 성장으로 이어진다.",
+      "그 성장은 또 다른 시작이 된다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0130",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "리처드 링클레이터",
+      "book": "비포 선셋",
+      "chapter": "대사",
+      "bookDisplay": "비포 선셋"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 짧은 시간에도 깊은 흔적을 남긴다.",
+      "우리는 그 순간을 오래 기억한다.",
+      "시간이 흘러도 감정은 사라지지 않는다.",
+      "사랑은 다시 만날 이유를 만든다.",
+      "그 이유는 언제나 충분하다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0131",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "에밀리 브론테",
+      "book": "폭풍의 언덕",
+      "chapter": "집착",
+      "bookDisplay": "폭풍의 언덕"
+    },
+    "emotionCore": "anxiety",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 때로 한 사람을 삶 전체로 확장시킨다.",
+      "그 감정은 경계를 잃고 깊어져 간다.",
+      "이성은 그것을 멈추지 못한다.",
+      "사랑은 존재를 뒤흔드는 힘으로 자란다.",
+      "그 흔들림 속에서 우리는 자신을 잃기도 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0134",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "하루키 무라카미",
+      "book": "노르웨이의 숲",
+      "chapter": "기억",
+      "bookDisplay": "노르웨이의 숲"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 지나간 뒤에 더 선명해진다.",
+      "그때는 알지 못했던 감정들이 떠오른다.",
+      "우리는 뒤늦게 그것의 크기를 이해한다.",
+      "사랑은 시간이 지난 후에도 남아 있다.",
+      "그 기억은 쉽게 사라지지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0135",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "노아 바움백",
+      "book": "결혼 이야기",
+      "chapter": "대사",
+      "bookDisplay": "결혼 이야기"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 끝나도 흔적을 남긴다.",
+      "함께한 시간은 쉽게 지워지지 않는다.",
+      "우리는 서로를 완전히 떠나지 못한다.",
+      "사랑은 관계가 끝난 뒤에도 남아 있다.",
+      "그 잔향은 오래 이어진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0136",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "정현종",
+      "book": "방문객",
+      "chapter": "시",
+      "bookDisplay": "방문객"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 한 사람이 다른 세계를 열어주는 일이다.",
+      "그 만남은 삶을 완전히 바꿔 놓는다.",
+      "우리는 그 순간 이전으로 돌아갈 수 없다.",
+      "사랑은 존재를 확장시키는 경험이다.",
+      "그 확장은 계속 이어진다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0138",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "찰리 카우프만",
+      "book": "이터널 선샤인",
+      "chapter": "대사",
+      "bookDisplay": "이터널 선샤인"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 지우려 해도 다시 떠오른다.",
+      "기억이 사라져도 감정은 남는다.",
+      "우리는 같은 선택을 반복한다.",
+      "사랑은 사라지지 않는 방식으로 존재한다.",
+      "그것은 다시 우리를 이끈다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0141",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "도스토옙스키",
+      "book": "카라마조프가의 형제들",
+      "chapter": "신념",
+      "bookDisplay": "카라마조프가의 형제들"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 이해를 넘어서는 선택이다.",
+      "우리는 이유 없이도 누군가를 향한다.",
+      "그 감정은 논리로 설명되지 않는다.",
+      "사랑은 인간을 인간답게 만든다.",
+      "그 본질은 쉽게 흔들리지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0142",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "이병률",
+      "book": "끌림",
+      "chapter": "여행",
+      "bookDisplay": "끌림"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 방향이 아니라 끌림으로 시작된다.",
+      "우리는 이유를 알지 못한 채 다가간다.",
+      "그 감각은 자연스럽게 이어진다.",
+      "사랑은 설명되지 않아도 충분하다.",
+      "그 자체로 완전하다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0143",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "박찬욱",
+      "book": "헤어질 결심",
+      "chapter": "대사",
+      "bookDisplay": "헤어질 결심"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 멀어지면서 더 또렷해진다.",
+      "가까이 있을 때는 보이지 않던 것들이 드러난다.",
+      "우리는 떨어져야 그것을 이해한다.",
+      "사랑은 거리 속에서 깊어진다.",
+      "그 깊이는 쉽게 사라지지 않는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0144",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "유재하",
+      "book": "노래 가사",
+      "chapter": "사랑",
+      "bookDisplay": "노래 가사"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 끝나도 마음에 남는다.",
+      "우리는 그것을 쉽게 놓지 못한다.",
+      "시간이 지나도 감정은 이어진다.",
+      "사랑은 기억 속에서 계속 살아간다.",
+      "그 여운은 오래 남는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0146",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "테렌스 맬릭",
+      "book": "트리 오브 라이프",
+      "chapter": "대사",
+      "bookDisplay": "트리 오브 라이프"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 삶 전체를 감싸는 감정이다.",
+      "우리는 그것 안에서 살아간다.",
+      "기쁨과 슬픔 모두를 포함한다.",
+      "사랑은 존재를 이어주는 힘이다.",
+      "그 힘은 우리를 계속 움직이게 한다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0147",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "김애란",
+      "book": "비행운",
+      "chapter": "관계",
+      "bookDisplay": "비행운"
+    },
+    "emotionCore": "sadness",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 가까울수록 더 조심스러워진다.",
+      "우리는 상처를 주지 않으려 애쓴다.",
+      "그 마음은 쉽게 표현되지 않는다.",
+      "사랑은 말보다 더 깊은 곳에 있다.",
+      "그 감정은 오래 머문다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0148",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "노라 에프론",
+      "book": "유브 갓 메일",
+      "chapter": "대사",
+      "bookDisplay": "유브 갓 메일"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 예상하지 못한 방식으로 다가온다.",
+      "우리는 그것을 뒤늦게 알아차린다.",
+      "익숙한 관계 속에서도 새롭게 시작된다.",
+      "사랑은 다시 시작할 수 있는 감정이다.",
+      "그 가능성은 언제나 열려 있다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0149",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "정호승",
+      "book": "사랑하다가 죽어버려라",
+      "chapter": "시",
+      "bookDisplay": "사랑하다가 죽어버려라"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 삶을 가장 뜨겁게 만든다.",
+      "그 감정은 존재를 깊이 흔든다.",
+      "우리는 그것을 통해 살아 있음을 느낀다.",
+      "사랑은 가장 강한 생의 증거다.",
+      "그 열기는 오래 남는다."
+    ]
+  },
+  {
+    "id": "PAS_LOVE_0150",
+    "meta": {
+      "tradition": "theme",
+      "category": "love_humanities",
+      "region": "Global",
+      "author": "리처드 커티스",
+      "book": "어바웃 타임",
+      "chapter": "대사",
+      "bookDisplay": "어바웃 타임"
+    },
+    "emotionCore": "hope",
+    "emotionExtended": [],
+    "lines": [
+      "사랑은 평범한 하루를 특별하게 만든다.",
+      "우리는 그 일상을 다시 바라보게 된다.",
+      "같은 순간도 다르게 느껴진다.",
+      "사랑은 시간을 새롭게 경험하게 한다.",
+      "그 변화는 지속된다."
+    ]
+  }
+]
+
+
