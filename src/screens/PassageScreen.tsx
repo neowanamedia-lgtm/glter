@@ -1,8 +1,11 @@
 ﻿import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
+  Animated,
   PanResponder,
+  Pressable,
   ScrollView,
   StyleSheet,
+  Text,
   View,
   useWindowDimensions,
 } from 'react-native';
@@ -55,7 +58,6 @@ const BASE_FONT_SIZE = 20;
 const SOURCE_CHARS_PER_LINE = 14;
 const ALLOWED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko', 'en'];
 
-// ✅ 탭/스와이프 더 느슨하게
 const TAP_MAX_DISTANCE = 28;
 const SWIPE_ACTIVATION_DISTANCE = 4;
 const SWIPE_TRIGGER_DISTANCE = 18;
@@ -67,6 +69,18 @@ const MAX_USER_BACKGROUNDS = 30;
 
 type BackgroundMode = 'auto' | 'user';
 type OverlayMode = 'none' | 'menu' | 'userBackgroundManager' | 'userMyWritingManager';
+
+type FavoritePassage = {
+  id: string;
+  lines: string[];
+  sourceText?: string;
+};
+
+type DisplayPassage = {
+  id: string;
+  lines: string[];
+  sourceText?: string;
+};
 
 const FONT_FAMILY_BY_VARIANT: Record<FontVariant, string> = {
   default: 'NotoSansKR-Regular',
@@ -236,6 +250,23 @@ const styles = StyleSheet.create({
   myWritingSourceWrap: {
     marginTop: 18,
   },
+  heartBottomButton: {
+    position: 'absolute',
+    left: 28,
+    bottom: 24,
+    width: 42,
+    height: 42,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  heartIcon: {
+    color: '#ffffff',
+    fontSize: 24,
+    fontWeight: '700',
+    includeFontPadding: false,
+    textAlign: 'center',
+    opacity: 0.97,
+  },
   bottomButton: {
     position: 'absolute',
     right: 28,
@@ -247,12 +278,16 @@ type PassageScreenProps = {
   onExitService: () => void;
   initialMenuVisible?: boolean;
   fontsLoaded?: boolean;
+  favoritePassages: FavoritePassage[];
+  setFavoritePassages: React.Dispatch<React.SetStateAction<FavoritePassage[]>>;
 };
 
 export const PassageScreen: React.FC<PassageScreenProps> = ({
   onExitService: _onExitService,
   initialMenuVisible = true,
   fontsLoaded,
+  favoritePassages,
+  setFavoritePassages,
 }) => {
   const orientation = useOrientation();
   const isLandscape = orientation === 'landscape';
@@ -264,6 +299,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     createFilterStateFromCategories(INITIAL_MENU_SELECTIONS.selectedCategories),
   );
   const [overlayMode, setOverlayMode] = useState<OverlayMode>(initialMenuVisible ? 'menu' : 'none');
+  const [isFavoritePassageMode, setFavoritePassageMode] = useState(false);
+  const [draftIsFavoritePassageMode, setDraftFavoritePassageMode] = useState(false);
 
   const [isBackgroundReady, setBackgroundReady] = useState(false);
   const [isTextReady, setTextReady] = useState(false);
@@ -299,6 +336,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const singleTapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastTapTimestampRef = useRef(0);
   const gestureHandledRef = useRef(false);
+  const heartScale = useRef(new Animated.Value(1)).current;
 
   const passageBackgroundIndexMapRef = useRef<Record<string, number>>({});
   const passageUserBackgroundUriMapRef = useRef<Record<string, string>>({});
@@ -336,7 +374,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     myWritings: storedMyWritings,
   });
 
-  const currentPassage = useMemo(() => getCurrentPassage(historyState), [historyState]);
+  const currentPassage = useMemo<DisplayPassage | null>(
+    () => (getCurrentPassage(historyState) as DisplayPassage | null),
+    [historyState],
+  );
 
   const combinedText = useMemo(
     () => (currentPassage ? currentPassage.lines.join('\n').trim() : ''),
@@ -416,6 +457,23 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     }
   }, []);
 
+  const animateHeart = useCallback(() => {
+    Animated.sequence([
+      Animated.spring(heartScale, {
+        toValue: 1.18,
+        useNativeDriver: true,
+        speed: 30,
+        bounciness: 10,
+      }),
+      Animated.spring(heartScale, {
+        toValue: 1,
+        useNativeDriver: true,
+        speed: 26,
+        bounciness: 8,
+      }),
+    ]).start();
+  }, [heartScale]);
+
   const syncBackgroundSelectionState = useCallback((mode: 'auto' | 'upload') => {
     setMenuSelections((prev) => ({
       ...prev,
@@ -451,6 +509,72 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       .filter((uri): uri is string => typeof uri === 'string' && uri.length > 0);
   }, []);
 
+  const pickNextFavoritePassage = useCallback(
+    (excludeIds: string[] = []): DisplayPassage | null => {
+      if (!favoritePassages.length) {
+        return null;
+      }
+
+      const excludeSet = new Set(excludeIds);
+      const pool = favoritePassages.filter((item) => !excludeSet.has(item.id));
+
+      if (!pool.length) {
+        return favoritePassages[0] ?? null;
+      }
+
+      const index = Math.floor(Math.random() * pool.length);
+      return pool[index] ?? pool[0] ?? null;
+    },
+    [favoritePassages],
+  );
+
+  const isFavorite = useMemo(() => {
+    if (!currentPassage?.id) {
+      return false;
+    }
+
+    return favoritePassages.some((item) => item.id === currentPassage.id);
+  }, [currentPassage?.id, favoritePassages]);
+
+  const toggleFavorite = useCallback(() => {
+    if (!currentPassage?.id) {
+      return;
+    }
+
+    animateHeart();
+
+    const nextItem: FavoritePassage = {
+      id: currentPassage.id,
+      lines: [...currentPassage.lines],
+      sourceText: currentPassage.sourceText ?? '',
+    };
+
+    setFavoritePassages((prev) => {
+      const exists = prev.some((item) => item.id === currentPassage.id);
+
+      if (exists) {
+        const next = prev.filter((item) => item.id !== currentPassage.id);
+
+        if (isFavoritePassageMode && next.length === 0) {
+          setFavoritePassageMode(false);
+          setDraftFavoritePassageMode(false);
+          setOverlayMode('menu');
+          resetVisualPresentation();
+        }
+
+        return next;
+      }
+
+      return [nextItem, ...prev];
+    });
+  }, [
+    animateHeart,
+    currentPassage,
+    isFavoritePassageMode,
+    resetVisualPresentation,
+    setFavoritePassages,
+  ]);
+
   const openMenu = useCallback(() => {
     clearSingleTapTimer();
     setDraftSelections({
@@ -458,9 +582,16 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       selectedCategories: [...menuSelections.selectedCategories],
       background: backgroundMode === 'user' ? 'upload' : 'auto',
     });
+    setDraftFavoritePassageMode(isFavoritePassageMode);
     setOverlayMode('menu');
     resetVisualPresentation();
-  }, [backgroundMode, clearSingleTapTimer, menuSelections, resetVisualPresentation]);
+  }, [
+    backgroundMode,
+    clearSingleTapTimer,
+    isFavoritePassageMode,
+    menuSelections,
+    resetVisualPresentation,
+  ]);
 
   const closeMenu = useCallback(() => {
     clearSingleTapTimer();
@@ -718,6 +849,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       ...prev,
       includeMyWriting: true,
     }));
+    setDraftFavoritePassageMode(false);
 
     setDraftMyWritings([]);
     setDraftSelectedMyWritingIds([]);
@@ -726,7 +858,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   }, [draftMyWritings, draftSelectedMyWritingIds, resetVisualPresentation]);
 
   const showFirstPassageForCurrentSelection = useCallback(() => {
-    const firstPassage = pickNextPassage();
+    const firstPassage = isFavoritePassageMode ? pickNextFavoritePassage() : pickNextPassage();
 
     if (!firstPassage) {
       setHistoryState(resetPassageHistory());
@@ -749,13 +881,15 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       passageBackgroundIndexMapRef.current[firstPassage.id] = autoBackgroundIndex;
     }
 
-    setHistoryState(appendPassage(createInitialPassageHistoryState(), firstPassage));
+    setHistoryState(appendPassage(createInitialPassageHistoryState(), firstPassage as never));
     resetVisualPresentation();
   }, [
     appliedUserBackgrounds,
     autoBackgroundIndex,
     currentUserBackgroundUri,
     effectiveBackgroundMode,
+    isFavoritePassageMode,
+    pickNextFavoritePassage,
     pickNextPassage,
     resetVisualPresentation,
   ]);
@@ -778,7 +912,9 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       }
 
       const excludeIds = prev.past.map((item) => item.id);
-      const nextPassage = pickNextPassage(excludeIds);
+      const nextPassage = isFavoritePassageMode
+        ? pickNextFavoritePassage(excludeIds)
+        : pickNextPassage(excludeIds);
 
       if (!nextPassage) {
         return prev;
@@ -799,7 +935,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         passageBackgroundIndexMapRef.current[nextPassage.id] = nextBackgroundIndexToApply;
       }
 
-      return appendPassage(prev, nextPassage);
+      return appendPassage(prev, nextPassage as never);
     });
 
     if (nextUserBackgroundUriToApply) {
@@ -817,13 +953,21 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     clearSingleTapTimer,
     currentUserBackgroundUri,
     effectiveBackgroundMode,
+    isFavoritePassageMode,
+    pickNextFavoritePassage,
     pickNextPassage,
     resetVisualPresentation,
   ]);
 
   const handleApply = useCallback(
     (next: MenuSelectionState) => {
-      if (!next.selectedCategories.length && !next.includeMyWriting) {
+      const wantsFavorites = draftIsFavoritePassageMode;
+
+      if (!wantsFavorites && !next.selectedCategories.length && !next.includeMyWriting) {
+        return;
+      }
+
+      if (wantsFavorites && favoritePassages.length === 0) {
         return;
       }
 
@@ -845,12 +989,20 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       setMenuSelections(normalizedNext);
       setDraftSelections(normalizedNext);
       setFilterSelections(nextFilters);
+      setFavoritePassageMode(wantsFavorites);
+      setDraftFavoritePassageMode(wantsFavorites);
       setHistoryState(resetPassageHistory());
       setShouldStartNewSelection(true);
       setOverlayMode('none');
       resetVisualPresentation();
     },
-    [clearSingleTapTimer, effectiveBackgroundMode, resetVisualPresentation],
+    [
+      clearSingleTapTimer,
+      draftIsFavoritePassageMode,
+      effectiveBackgroundMode,
+      favoritePassages.length,
+      resetVisualPresentation,
+    ],
   );
 
   const handleBackgroundReady = useCallback(() => {
@@ -918,6 +1070,22 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       prev.includeMyWriting ? { ...prev, includeMyWriting: false } : prev,
     );
   }, [storedMyWritings.length]);
+
+  useEffect(() => {
+    if (favoritePassages.length > 0) {
+      return;
+    }
+
+    if (isFavoritePassageMode) {
+      setFavoritePassageMode(false);
+      setDraftFavoritePassageMode(false);
+      setOverlayMode('menu');
+      resetVisualPresentation();
+      return;
+    }
+
+    setDraftFavoritePassageMode(false);
+  }, [favoritePassages.length, isFavoritePassageMode, resetVisualPresentation]);
 
   useEffect(() => {
     if (!shouldStartNewSelection) {
@@ -1317,6 +1485,9 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
             onSelectAutoBackground={handleSelectAutoBackground}
             onOpenUserMyWritingManager={handleOpenUserMyWritingManager}
             canUseMyWriting={storedMyWritings.length > 0}
+            isFavoritesActive={draftIsFavoritePassageMode}
+            canUseFavorites={favoritePassages.length > 0}
+            onSetFavoritesActive={setDraftFavoritePassageMode}
           />
 
           <UserBackgroundManagerSheet
@@ -1355,16 +1526,33 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         </View>
 
         {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
-          <BottomDotButton
-            style={styles.bottomButton}
-            onPress={() => {
-              if (!isMenuButtonEnabled) {
-                return;
-              }
-              openMenu();
-            }}
-            accessibilityLabel="Open menu"
-          />
+          <>
+            {currentPassage ? (
+              <Pressable
+                hitSlop={8}
+                pressRetentionOffset={10}
+                style={styles.heartBottomButton}
+                onPress={toggleFavorite}
+                accessibilityRole="button"
+                accessibilityLabel={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 저장'}
+              >
+                <Animated.View style={{ transform: [{ scale: heartScale }] }}>
+                  <Text style={styles.heartIcon}>{isFavorite ? '♥' : '♡'}</Text>
+                </Animated.View>
+              </Pressable>
+            ) : null}
+
+            <BottomDotButton
+              style={styles.bottomButton}
+              onPress={() => {
+                if (!isMenuButtonEnabled) {
+                  return;
+                }
+                openMenu();
+              }}
+              accessibilityLabel="Open menu"
+            />
+          </>
         ) : null}
       </View>
     </AdaptiveBackground>

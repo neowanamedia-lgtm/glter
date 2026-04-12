@@ -27,6 +27,9 @@ type MenuSlideSheetProps = {
   onSelectAutoBackground?: () => void;
   onOpenUserMyWritingManager?: () => Promise<boolean> | boolean;
   canUseMyWriting?: boolean;
+  isFavoritesActive?: boolean;
+  canUseFavorites?: boolean;
+  onSetFavoritesActive?: (next: boolean) => void;
 };
 
 const EMOTION_OPTIONS: Array<{ key: EmotionKey; label: string }> = [
@@ -86,6 +89,7 @@ const FONT_OPTIONS: Array<{ key: FontOption; label: string }> = [
 
 const ENABLED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko'];
 const ENABLED_LANGUAGE_SET = new Set<MenuSelectionState['language']>(ENABLED_LANGUAGES);
+const AI_CATEGORY = 'ai' as ContentCategory;
 
 type ChipMode = 'regular' | 'compact' | 'tight';
 
@@ -99,6 +103,9 @@ export function MenuSlideSheet({
   onSelectAutoBackground,
   onOpenUserMyWritingManager,
   canUseMyWriting = false,
+  isFavoritesActive = false,
+  canUseFavorites = false,
+  onSetFavoritesActive,
 }: MenuSlideSheetProps) {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
@@ -112,9 +119,16 @@ export function MenuSlideSheet({
   const backgroundMode: ChipMode = width < 460 ? 'compact' : 'regular';
 
   const isMyWritingMode = state.includeMyWriting;
+  const isAiMode = state.selectedCategories.includes(AI_CATEGORY);
+
+  const isEmotionLocked = isMyWritingMode || isFavoritesActive || isAiMode;
+  const isCategoryLocked = isMyWritingMode || isFavoritesActive;
+  const isReligionLocked = isMyWritingMode || isFavoritesActive || isAiMode;
+  const isMyWritingLocked = isFavoritesActive || isAiMode;
+  const isFavoritesLocked = isAiMode;
 
   const handleEmotion = (emotion: EmotionKey) => {
-    if (isMyWritingMode) {
+    if (isEmotionLocked) {
       return;
     }
 
@@ -125,12 +139,37 @@ export function MenuSlideSheet({
   };
 
   const handleCategoryToggle = (category: ContentCategory) => {
-    if (isMyWritingMode) {
+    if (isCategoryLocked) {
       return;
     }
 
     onChange((prev) => {
       const exists = prev.selectedCategories.includes(category);
+      const hasAi = prev.selectedCategories.includes(AI_CATEGORY);
+
+      if (category === AI_CATEGORY) {
+        if (exists) {
+          return {
+            ...prev,
+            selectedCategories: [],
+          };
+        }
+
+        return {
+          ...prev,
+          includeMyWriting: false,
+          emotion: 'unknown',
+          selectedCategories: [AI_CATEGORY],
+        };
+      }
+
+      if (hasAi) {
+        return {
+          ...prev,
+          includeMyWriting: false,
+          selectedCategories: [category],
+        };
+      }
 
       if (exists) {
         const nextSelected = prev.selectedCategories.filter((item) => item !== category);
@@ -201,6 +240,10 @@ export function MenuSlideSheet({
   };
 
   const handleToggleMyWriting = async () => {
+    if (isMyWritingLocked) {
+      return;
+    }
+
     if (!canUseMyWriting) {
       await onOpenUserMyWritingManager?.();
       return;
@@ -210,6 +253,7 @@ export function MenuSlideSheet({
       const nextInclude = !prev.includeMyWriting;
 
       if (nextInclude) {
+        onSetFavoritesActive?.(false);
         return {
           ...prev,
           includeMyWriting: true,
@@ -226,7 +270,27 @@ export function MenuSlideSheet({
   };
 
   const handleOpenMyWritingManager = async () => {
+    if (isMyWritingLocked) {
+      return;
+    }
+
     await onOpenUserMyWritingManager?.();
+  };
+
+  const handleToggleFavorites = () => {
+    if (!canUseFavorites || isFavoritesLocked) {
+      return;
+    }
+
+    const next = !isFavoritesActive;
+    onSetFavoritesActive?.(next);
+
+    if (next) {
+      onChange((prev) => ({
+        ...prev,
+        includeMyWriting: false,
+      }));
+    }
   };
 
   return (
@@ -265,37 +329,40 @@ export function MenuSlideSheet({
                 state.emotion,
                 handleEmotion,
                 emotionMode,
-                isMyWritingMode,
+                isEmotionLocked,
               )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(
+              {renderCategoryChipsWithAiRule(
                 PHILOSOPHY_OPTIONS_ROW1,
                 state.selectedCategories,
                 handleCategoryToggle,
                 philosophyMode,
-                isMyWritingMode,
+                isCategoryLocked,
+                isAiMode,
               )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(
+              {renderCategoryChipsWithAiRule(
                 PHILOSOPHY_OPTIONS_ROW2,
                 state.selectedCategories,
                 handleCategoryToggle,
                 philosophyMode,
-                isMyWritingMode,
+                isCategoryLocked,
+                isAiMode,
               )}
             </RowBlock>
 
             <RowBlock>
-              {renderMultiSelectChips(
+              {renderCategoryChipsWithAiRule(
                 LITERATURE_OPTIONS,
                 state.selectedCategories,
                 handleCategoryToggle,
                 literatureMode,
-                isMyWritingMode,
+                isCategoryLocked,
+                isAiMode,
               )}
             </RowBlock>
 
@@ -314,9 +381,9 @@ export function MenuSlideSheet({
                         religionMode === 'compact' && styles.chipCompact,
                         religionMode === 'tight' && styles.chipTight,
                         isSelected && styles.chipSelected,
-                        isMyWritingMode && styles.chipDisabled,
+                        isReligionLocked && styles.chipDisabled,
                       ]}
-                      disabled={isMyWritingMode}
+                      disabled={isReligionLocked}
                       onPress={() => handleCategoryToggle(option.key)}
                     >
                       <Text
@@ -325,7 +392,7 @@ export function MenuSlideSheet({
                           religionMode === 'compact' && styles.chipTextCompact,
                           religionMode === 'tight' && styles.chipTextTight,
                           isSelected && styles.chipTextSelected,
-                          isMyWritingMode && styles.chipTextDisabled,
+                          isReligionLocked && styles.chipTextDisabled,
                         ]}
                         numberOfLines={1}
                       >
@@ -344,7 +411,9 @@ export function MenuSlideSheet({
                     religionMode === 'compact' && styles.chipCompact,
                     religionMode === 'tight' && styles.chipTight,
                     state.includeMyWriting && styles.chipSelected,
+                    isMyWritingLocked && styles.chipDisabled,
                   ]}
+                  disabled={isMyWritingLocked}
                   onPress={() => {
                     void handleToggleMyWriting();
                   }}
@@ -358,10 +427,39 @@ export function MenuSlideSheet({
                       religionMode === 'compact' && styles.chipTextCompact,
                       religionMode === 'tight' && styles.chipTextTight,
                       state.includeMyWriting && styles.chipTextSelected,
+                      isMyWritingLocked && styles.chipTextDisabled,
                     ]}
                     numberOfLines={1}
                   >
                     내글보기
+                  </Text>
+                </Pressable>
+
+                <Pressable
+                  hitSlop={6}
+                  pressRetentionOffset={10}
+                  style={[
+                    styles.chip,
+                    religionMode === 'compact' && styles.chipCompact,
+                    religionMode === 'tight' && styles.chipTight,
+                    styles.favoriteChip,
+                    isFavoritesActive && styles.chipSelected,
+                    (!canUseFavorites || isFavoritesLocked) && styles.chipDisabled,
+                  ]}
+                  disabled={!canUseFavorites || isFavoritesLocked}
+                  onPress={handleToggleFavorites}
+                >
+                  <Text
+                    style={[
+                      styles.favoriteChipText,
+                      religionMode === 'compact' && styles.chipTextCompact,
+                      religionMode === 'tight' && styles.chipTextTight,
+                      isFavoritesActive && styles.chipTextSelected,
+                      (!canUseFavorites || isFavoritesLocked) && styles.chipTextDisabled,
+                    ]}
+                    numberOfLines={1}
+                  >
+                    ♥
                   </Text>
                 </Pressable>
               </View>
@@ -454,7 +552,25 @@ export function MenuSlideSheet({
               </View>
             ) : null}
 
-            {!canUseMyWriting ? (
+            {isAiMode ? (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  AI 모드에서는 다른 카테고리와 감정 선택, 내글보기, 하트가 비활성화됩니다.
+                </Text>
+              </View>
+            ) : isFavoritesActive ? (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  하트 모드에서는 저장한 문구만 따로 보여집니다.
+                </Text>
+              </View>
+            ) : !canUseFavorites ? (
+              <View style={styles.noticeWrap}>
+                <Text style={styles.noticeText}>
+                  문구 화면 좌측 하단 하트를 눌러 먼저 문구를 저장하세요.
+                </Text>
+              </View>
+            ) : !canUseMyWriting ? (
               <View style={styles.noticeWrap}>
                 <Text style={styles.noticeText}>
                   내글보기를 처음 쓰려면 내글보기 버튼을 눌러 글을 먼저 추가하세요.
@@ -469,7 +585,7 @@ export function MenuSlideSheet({
             ) : (
               <View style={styles.noticeWrap}>
                 <Text style={styles.noticeText}>
-                  내글보기 버튼 길게 누르기: 내 글 관리
+                  내글보기 길게 누르기: 내 글 관리
                 </Text>
               </View>
             )}
@@ -586,17 +702,20 @@ function renderSingleSelectChipList<T extends string>(
   );
 }
 
-function renderMultiSelectChips(
+function renderCategoryChipsWithAiRule(
   options: Array<{ key: ContentCategory; label: string }>,
   selected: ContentCategory[],
   onToggle: (value: ContentCategory) => void,
   mode: ChipMode,
   disabled = false,
+  isAiMode = false,
 ) {
   return (
     <View style={styles.row}>
       {options.map((option) => {
         const isSelected = selected.includes(option.key);
+        const isAiChip = option.key === AI_CATEGORY;
+        const isDisabled = disabled || (isAiMode && !isAiChip);
 
         return (
           <Pressable
@@ -608,9 +727,9 @@ function renderMultiSelectChips(
               mode === 'compact' && styles.chipCompact,
               mode === 'tight' && styles.chipTight,
               isSelected && styles.chipSelected,
-              disabled && styles.chipDisabled,
+              isDisabled && styles.chipDisabled,
             ]}
-            disabled={disabled}
+            disabled={isDisabled}
             onPress={() => onToggle(option.key)}
           >
             <Text
@@ -619,7 +738,7 @@ function renderMultiSelectChips(
                 mode === 'compact' && styles.chipTextCompact,
                 mode === 'tight' && styles.chipTextTight,
                 isSelected && styles.chipTextSelected,
-                disabled && styles.chipTextDisabled,
+                isDisabled && styles.chipTextDisabled,
               ]}
               numberOfLines={1}
             >
@@ -800,6 +919,15 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '700',
     letterSpacing: -0.15,
+    lineHeight: 17,
+  },
+  favoriteChip: {
+    paddingHorizontal: 11,
+  },
+  favoriteChipText: {
+    color: '#ffffff',
+    fontSize: 14,
+    fontWeight: '800',
     lineHeight: 17,
   },
   chipTextCompact: {

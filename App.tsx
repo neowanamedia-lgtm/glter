@@ -4,13 +4,21 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { useFonts } from 'expo-font';
 import { PassageScreen } from './src/screens/PassageScreen';
 
+type FavoritePassage = {
+  id: string;
+  lines: string[];
+  sourceText?: string;
+};
+
 export default function App() {
   const [fontsLoaded, fontsError] = useFonts({
     'NotoSansKR-Regular': require('./assets/fonts/NotoSansKR-Regular.otf'),
     'NanumMyeongjo-Regular': require('./assets/fonts/NanumMyeongjo-Regular.ttf'),
     'NanumPenScript-Regular': require('./assets/fonts/NanumPenScript-Regular.ttf'),
   });
+
   const [isServiceActive, setServiceActive] = useState(true);
+  const [favoritePassages, setFavoritePassages] = useState<FavoritePassage[]>([]);
 
   const handleExitService = useCallback(() => {
     setServiceActive(false);
@@ -25,7 +33,13 @@ export default function App() {
       <View style={styles.root}>
         <StatusBar translucent backgroundColor="transparent" barStyle="light-content" />
         {isServiceActive ? (
-          <PassageScreen onExitService={handleExitService} initialMenuVisible fontsLoaded={fontsLoaded || !!fontsError} />
+          <PassageScreen
+            onExitService={handleExitService}
+            initialMenuVisible
+            fontsLoaded={fontsLoaded || !!fontsError}
+            favoritePassages={favoritePassages}
+            setFavoritePassages={setFavoritePassages}
+          />
         ) : (
           <View style={styles.closedState}>
             <Text style={styles.closedText}>Seloa is resting.</Text>
