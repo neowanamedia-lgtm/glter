@@ -68,13 +68,18 @@ export function usePassage({
     [myWritings],
   );
 
+  const isAIOnlyMode = useMemo(
+    () => hasAISelected(selectedTags),
+    [selectedTags],
+  );
+
   const tagFiltered = useMemo(() => {
-    const byTags = filterPassagesByTags(library, selectedTags);
-    return filterPassagesByAISelection(
-      byTags,
-      safeFilters.selectedCategories as string[] | undefined,
-    );
-  }, [library, selectedTags, safeFilters]);
+    if (isAIOnlyMode) {
+      return filterPassagesByAISelection(library, selectedTags);
+    }
+
+    return filterPassagesByTags(library, selectedTags);
+  }, [library, selectedTags, isAIOnlyMode]);
 
   const emotionAndTagFiltered = useMemo(
     () => filterPassagesByEmotion(tagFiltered, emotion),
@@ -93,10 +98,7 @@ export function usePassage({
       return activeMyWritingLibrary;
     }
 
-    if (
-      selectedTags.length > 0 ||
-      hasAISelected(safeFilters.selectedCategories as string[] | undefined)
-    ) {
+    if (selectedTags.length > 0) {
       if (emotionAndTagFiltered.length > 0) {
         return emotionAndTagFiltered;
       }
@@ -121,7 +123,6 @@ export function usePassage({
     tagFiltered,
     emotionFiltered,
     library,
-    safeFilters,
   ]);
 
   const hasPassages = fallbackPool.length > 0;
@@ -191,13 +192,16 @@ function buildPassageLibrary(entries: PassageRegistryEntry[]): NormalizedPassage
     const safeNormalized = normalized
       .filter(isValidNormalizedPassage)
       .map((passage) => {
+        const rawMeta = (passage as PassageWithMeta).meta;
+        const tradition = toCleanString(rawMeta?.tradition);
+
         const taggedPassage: PassageWithMeta = {
           ...(passage as PassageWithMeta),
           sourceText:
             typeof (passage as PassageWithMeta).sourceText === 'string'
               ? (passage as PassageWithMeta).sourceText
               : '',
-          tagSet: [...registryTags],
+          tagSet: tradition === 'ai' ? [...registryTags, 'ai'] : [...registryTags],
         };
 
         return applyNovelSourceText(taggedPassage, registryTags);
@@ -317,7 +321,7 @@ function toCleanString(value: unknown): string | null {
     return null;
   }
 
-  const trimmed = value.trim();
+  const trimmed = value.trim().toLowerCase();
   return trimmed.length ? trimmed : null;
 }
 
@@ -351,7 +355,13 @@ function filterPassagesByTags(
     return passages;
   }
 
-  const tagSet = new Set(activeTags);
+  const nonAITags = activeTags.filter((tag) => tag !== 'ai');
+
+  if (!nonAITags.length) {
+    return passages;
+  }
+
+  const tagSet = new Set(nonAITags);
 
   return passages.filter((passage) => {
     const passageTags = Array.isArray((passage as PassageWithMeta).tagSet)
@@ -368,24 +378,24 @@ function filterPassagesByTags(
 
 function filterPassagesByAISelection(
   passages: NormalizedPassage[],
-  selectedCategories?: string[],
+  selectedTags: string[],
 ): NormalizedPassage[] {
-  if (!hasAISelected(selectedCategories)) {
+  if (!hasAISelected(selectedTags)) {
     return passages;
   }
 
   return passages.filter((passage) => {
     const tradition = toCleanString((passage as PassageWithMeta).meta?.tradition);
-    return tradition?.toLowerCase() === 'ai';
+    return tradition === 'ai';
   });
 }
 
-function hasAISelected(selectedCategories?: string[]): boolean {
-  if (!Array.isArray(selectedCategories) || !selectedCategories.length) {
+function hasAISelected(selectedTags?: string[]): boolean {
+  if (!Array.isArray(selectedTags) || !selectedTags.length) {
     return false;
   }
 
-  return selectedCategories.includes('ai');
+  return selectedTags.includes('ai');
 }
 
 type LegacyEmotionKey = EmotionKey | 'depression';

@@ -55,13 +55,14 @@ const BASE_FONT_SIZE = 20;
 const SOURCE_CHARS_PER_LINE = 14;
 const ALLOWED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko', 'en'];
 
-const TAP_MAX_DISTANCE = 18;
-const SWIPE_ACTIVATION_DISTANCE = 6;
-const SWIPE_TRIGGER_DISTANCE = 24;
-const SWIPE_DIRECTION_RATIO = 1.05;
-const SWIPE_MAX_VERTICAL_DRIFT = 120;
+// ✅ 탭/스와이프 더 느슨하게
+const TAP_MAX_DISTANCE = 28;
+const SWIPE_ACTIVATION_DISTANCE = 4;
+const SWIPE_TRIGGER_DISTANCE = 18;
+const SWIPE_DIRECTION_RATIO = 0.85;
+const SWIPE_MAX_VERTICAL_DRIFT = 180;
 const MENU_BACKGROUND_BLUR_RADIUS = 28;
-const DOUBLE_TAP_DELAY_MS = 260;
+const DOUBLE_TAP_DELAY_MS = 320;
 const MAX_USER_BACKGROUNDS = 30;
 
 type BackgroundMode = 'auto' | 'user';

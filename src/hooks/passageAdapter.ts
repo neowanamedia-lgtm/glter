@@ -215,6 +215,7 @@ export function adaptPassageFile(input: unknown, options: AdaptOptions): Normali
       sourceText: buildSourceText(passage.meta, options),
       emotionCore: passage.emotionCore ?? 'unknown',
       emotionExtended: passage.emotionExtended ?? [],
+      meta: passage.meta, // ✅ AI tradition 보존
       tags: {
         category: options.category,
         domain: options.domain,

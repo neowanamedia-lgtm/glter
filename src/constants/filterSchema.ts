@@ -62,6 +62,13 @@ export const FILTER_GROUPS = [
       { value: 'islam', label: '이슬람교', tags: ['islam'] },
     ],
   },
+  {
+    key: 'ai',
+    mode: 'multi',
+    options: [
+      { value: 'ai', label: 'AI', tags: ['ai'] },
+    ],
+  },
 ] as const satisfies FilterGroupDefinition[];
 
 const FILTER_GROUP_MAP = new Map<string, FilterGroupDefinition>(
@@ -160,6 +167,7 @@ function anyGroupHasSelection(state: FilterSelectionState): boolean {
     return Array.isArray(values) && values.length > 0;
   });
 }
+
 export function createFilterStateFromCategories(
   categories: string[] | null | undefined,
 ): FilterSelectionState {
