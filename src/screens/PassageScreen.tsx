@@ -53,7 +53,6 @@ import {
   getRandomBackgroundIndex,
 } from '../constants/backgrounds';
 
-const TEXT_DELAY_MS = 0;
 const BASE_FONT_SIZE = 20;
 const SOURCE_CHARS_PER_LINE = 14;
 const ALLOWED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko', 'en'];
@@ -66,6 +65,7 @@ const SWIPE_MAX_VERTICAL_DRIFT = 180;
 const MENU_BACKGROUND_BLUR_RADIUS = 28;
 const DOUBLE_TAP_DELAY_MS = 360;
 const MAX_USER_BACKGROUNDS = 30;
+const SCENE_FADE_DURATION_MS = 180;
 
 type BackgroundMode = 'auto' | 'user';
 type OverlayMode = 'none' | 'menu' | 'userBackgroundManager' | 'userMyWritingManager';
@@ -80,6 +80,14 @@ type DisplayPassage = {
   id: string;
   lines: string[];
   sourceText?: string;
+};
+
+type SceneState = {
+  passage: DisplayPassage;
+  autoBackgroundIndex: number;
+  userBackgroundUri: string | null;
+  backgroundKey: string;
+  sceneKey: string;
 };
 
 const FONT_FAMILY_BY_VARIANT: Record<FontVariant, string> = {
@@ -201,6 +209,9 @@ const styles = StyleSheet.create({
   gestureLayer: {
     flex: 1,
   },
+  sceneLayer: {
+    flex: 1,
+  },
   container: {
     flex: 1,
     alignItems: 'center',
@@ -302,14 +313,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const [isFavoritePassageMode, setFavoritePassageMode] = useState(false);
   const [draftIsFavoritePassageMode, setDraftFavoritePassageMode] = useState(false);
 
-  const [isBackgroundReady, setBackgroundReady] = useState(true);
   const [isTextReady, setTextReady] = useState(false);
   const [showSource, setShowSource] = useState(false);
   const [historyState, setHistoryState] = useState(createInitialPassageHistoryState());
   const [shouldStartNewSelection, setShouldStartNewSelection] = useState(false);
 
   const [backgroundMode, setBackgroundMode] = useState<BackgroundMode>('auto');
-
   const [autoBackgroundIndex, setAutoBackgroundIndex] = useState<number>(() =>
     getRandomBackgroundIndex(),
   );
@@ -332,11 +341,16 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   const [textContentHeight, setTextContentHeight] = useState(0);
 
-  const readyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [activeScene, setActiveScene] = useState<SceneState | null>(null);
+  const [pendingScene, setPendingScene] = useState<SceneState | null>(null);
+  const [readyBackgroundKey, setReadyBackgroundKey] = useState<string>('');
+
   const singleTapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastTapTimestampRef = useRef(0);
   const gestureHandledRef = useRef(false);
   const heartScale = useRef(new Animated.Value(1)).current;
+  const sceneOpacity = useRef(new Animated.Value(initialMenuVisible ? 0 : 1)).current;
+
   const autoBackgroundIndexRef = useRef(autoBackgroundIndex);
   const currentUserBackgroundUriRef = useRef<string | null>(currentUserBackgroundUri);
   const displayedPassageIndexRef = useRef(0);
@@ -353,19 +367,15 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     if (backgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
       return 'user';
     }
-
     return 'auto';
   }, [appliedUserBackgrounds.length, backgroundMode]);
 
   const fontVariant = useMemo(() => getFontVariant(menuSelections.font), [menuSelections.font]);
-
   const paragraphFontStyle = useMemo(
     () => getParagraphFontStyle(fontsLoaded, fontVariant),
     [fontsLoaded, fontVariant],
   );
-
   const bodyFontSize = useMemo(() => getBodyFontSize(fontVariant), [fontVariant]);
-
   const isMyWritingPassageMode = menuSelections.includeMyWriting;
 
   const { hasPassages, pickNextPassage } = usePassage({
@@ -380,30 +390,26 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     () => (getCurrentPassage(historyState) as DisplayPassage | null),
     [historyState],
   );
-  const [displayedPassage, setDisplayedPassage] = useState<DisplayPassage | null>(null);
-  const [displayedAutoBackgroundIndex, setDisplayedAutoBackgroundIndex] = useState<number>(() =>
-    autoBackgroundIndex,
-  );
-  const [displayedUserBackgroundUri, setDisplayedUserBackgroundUri] = useState<string | null>(null);
 
+  const visibleScene = activeScene;
+  const visiblePassage = visibleScene?.passage ?? null;
   const combinedText = useMemo(
-    () => (displayedPassage ? displayedPassage.lines.join('\n').trim() : ''),
-    [displayedPassage],
+    () => (visiblePassage ? visiblePassage.lines.join('\n').trim() : ''),
+    [visiblePassage],
   );
-
-  const sourceText = useMemo(() => displayedPassage?.sourceText ?? '', [displayedPassage]);
+  const sourceText = useMemo(() => visiblePassage?.sourceText ?? '', [visiblePassage]);
 
   const sourceReserveHeight = useMemo(
     () => estimateSourceHeight(sourceText, bodyFontSize, fontVariant),
     [sourceText, bodyFontSize, fontVariant],
   );
 
-  const hasCurrent = Boolean(displayedPassage);
+  const hasCurrent = Boolean(visiblePassage);
   const canGoPrev = canGoToPreviousPassage(historyState);
 
   const passageTransitionToken = useMemo(
-    () => `${displayedPassage?.id ?? 'none'}:${displayedPassageIndexRef.current}`,
-    [displayedPassage?.id],
+    () => `${visiblePassage?.id ?? 'none'}:${displayedPassageIndexRef.current}`,
+    [visiblePassage?.id],
   );
 
   const isGestureEnabled =
@@ -414,38 +420,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     showSource &&
     hasCurrent;
 
-  const isOverlayVisible =
-    isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible;
-
-  const isMenuButtonEnabled = !isOverlayVisible && showSource && hasCurrent;
+  const backgroundScene = pendingScene ?? activeScene;
 
   const activeAutoBackground: BackgroundConfig = useMemo(
-    () => getBackgroundAt(displayedAutoBackgroundIndex),
-    [displayedAutoBackgroundIndex],
+    () => getBackgroundAt(backgroundScene?.autoBackgroundIndex ?? autoBackgroundIndex),
+    [backgroundScene?.autoBackgroundIndex, autoBackgroundIndex],
   );
-
-  const currentSceneAutoBackgroundIndex = useMemo(() => {
-    if (!currentPassage?.id) {
-      return autoBackgroundIndex;
-    }
-
-    const mappedBackgroundIndex = passageBackgroundIndexMapRef.current[currentPassage.id];
-    return typeof mappedBackgroundIndex === 'number' ? mappedBackgroundIndex : autoBackgroundIndex;
-  }, [autoBackgroundIndex, currentPassage?.id]);
-
-  const currentSceneUserBackgroundUri = useMemo(() => {
-    if (!currentPassage?.id) {
-      return currentUserBackgroundUri;
-    }
-
-    return passageUserBackgroundUriMapRef.current[currentPassage.id] ?? currentUserBackgroundUri;
-  }, [currentPassage?.id, currentUserBackgroundUri]);
-
-  const activeDisplayedBackgroundKey = useMemo(() => {
-    return effectiveBackgroundMode === 'user'
-      ? `user:${displayedUserBackgroundUri ?? 'none'}`
-      : `auto:${displayedAutoBackgroundIndex}`;
-  }, [displayedAutoBackgroundIndex, displayedUserBackgroundUri, effectiveBackgroundMode]);
 
   const textTopPadding = isLandscape ? 72 : 112;
   const textBottomPadding = isLandscape ? 84 : 132;
@@ -485,9 +465,11 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   ]);
 
   const resetVisualPresentation = useCallback(() => {
+    sceneOpacity.stopAnimation();
+    sceneOpacity.setValue(0);
     setTextReady(false);
     setShowSource(false);
-  }, []);
+  }, [sceneOpacity]);
 
   const clearSingleTapTimer = useCallback(() => {
     if (singleTapTimerRef.current) {
@@ -568,37 +550,35 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   );
 
   const isFavorite = useMemo(() => {
-    if (!currentPassage?.id) {
+    if (!visiblePassage?.id) {
       return false;
     }
-
-    return favoritePassages.some((item) => item.id === currentPassage.id);
-  }, [currentPassage?.id, favoritePassages]);
+    return favoritePassages.some((item) => item.id === visiblePassage.id);
+  }, [favoritePassages, visiblePassage?.id]);
 
   const toggleFavorite = useCallback(() => {
-    if (!currentPassage?.id) {
+    if (!visiblePassage?.id) {
       return;
     }
 
     animateHeart();
 
     const nextItem: FavoritePassage = {
-      id: currentPassage.id,
-      lines: [...currentPassage.lines],
-      sourceText: currentPassage.sourceText ?? '',
+      id: visiblePassage.id,
+      lines: [...visiblePassage.lines],
+      sourceText: visiblePassage.sourceText ?? '',
     };
 
     setFavoritePassages((prev) => {
-      const exists = prev.some((item) => item.id === currentPassage.id);
+      const exists = prev.some((item) => item.id === visiblePassage.id);
 
       if (exists) {
-        const next = prev.filter((item) => item.id !== currentPassage.id);
+        const next = prev.filter((item) => item.id !== visiblePassage.id);
 
         if (isFavoritePassageMode && next.length === 0) {
           setFavoritePassageMode(false);
           setDraftFavoritePassageMode(false);
           setOverlayMode('menu');
-          resetVisualPresentation();
         }
 
         return next;
@@ -606,13 +586,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
       return [nextItem, ...prev];
     });
-  }, [
-    animateHeart,
-    currentPassage,
-    isFavoritePassageMode,
-    resetVisualPresentation,
-    setFavoritePassages,
-  ]);
+  }, [animateHeart, isFavoritePassageMode, setFavoritePassages, visiblePassage]);
 
   const openMenu = useCallback(() => {
     clearSingleTapTimer();
@@ -623,20 +597,12 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     });
     setDraftFavoritePassageMode(isFavoritePassageMode);
     setOverlayMode('menu');
-    resetVisualPresentation();
-  }, [
-    backgroundMode,
-    clearSingleTapTimer,
-    isFavoritePassageMode,
-    menuSelections,
-    resetVisualPresentation,
-  ]);
+  }, [backgroundMode, clearSingleTapTimer, isFavoritePassageMode, menuSelections]);
 
   const closeMenu = useCallback(() => {
     clearSingleTapTimer();
     setOverlayMode('none');
-    resetVisualPresentation();
-  }, [clearSingleTapTimer, resetVisualPresentation]);
+  }, [clearSingleTapTimer]);
 
   const openUserBackgroundManager = useCallback((): boolean => {
     if (isLandscape) {
@@ -651,9 +617,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       ),
     );
     setOverlayMode('userBackgroundManager');
-    resetVisualPresentation();
     return true;
-  }, [appliedUserBackgrounds, isLandscape, resetVisualPresentation, storedUserBackgrounds]);
+  }, [appliedUserBackgrounds, isLandscape, storedUserBackgrounds]);
 
   const handleOpenUserBackgroundManager = useCallback(async (): Promise<boolean> => {
     clearSingleTapTimer();
@@ -666,6 +631,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setCurrentUserBackgroundUri(null);
     currentUserBackgroundUriRef.current = null;
     syncBackgroundSelectionState('auto');
+    passageUserBackgroundUriMapRef.current = {};
     resetVisualPresentation();
   }, [resetVisualPresentation, syncBackgroundSelectionState]);
 
@@ -673,8 +639,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setDraftUserBackgrounds([]);
     setDraftSelectedUserBackgrounds([]);
     setOverlayMode('menu');
-    resetVisualPresentation();
-  }, [resetVisualPresentation]);
+  }, []);
 
   const handleAddUserBackgrounds = useCallback(async () => {
     if (isLandscape) {
@@ -682,7 +647,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     }
 
     const remaining = MAX_USER_BACKGROUNDS - draftUserBackgrounds.length;
-
     if (remaining <= 0) {
       return;
     }
@@ -713,7 +677,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     }
 
     const selectedSet = new Set(draftSelectedUserBackgrounds);
-
     setDraftUserBackgrounds((prev) => prev.filter((uri) => !selectedSet.has(uri)));
     setDraftSelectedUserBackgrounds([]);
   }, [draftSelectedUserBackgrounds]);
@@ -770,9 +733,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       dedupeIds(baseSelection.filter((id) => trimmedIds.has(id))).slice(0, MAX_MY_WRITINGS),
     );
     setOverlayMode('userMyWritingManager');
-    resetVisualPresentation();
     return true;
-  }, [appliedMyWritingIds, isLandscape, resetVisualPresentation, storedMyWritings]);
+  }, [appliedMyWritingIds, isLandscape, storedMyWritings]);
 
   const handleOpenUserMyWritingManager = useCallback(async (): Promise<boolean> => {
     clearSingleTapTimer();
@@ -785,8 +747,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setOverlayMode('menu');
     setMyWritingEditorVisible(false);
     setEditingMyWritingId(null);
-    resetVisualPresentation();
-  }, [resetVisualPresentation]);
+  }, []);
 
   const handleToggleDraftMyWritingSelection = useCallback((id: string) => {
     setDraftSelectedMyWritingIds((prev) =>
@@ -903,6 +864,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
     if (!firstPassage) {
       setHistoryState(resetPassageHistory());
+      setActiveScene(null);
+      setPendingScene(null);
       resetVisualPresentation();
       return;
     }
@@ -916,8 +879,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
       if (firstUserUri) {
         passageUserBackgroundUriMapRef.current[firstPassage.id] = firstUserUri;
-        setCurrentUserBackgroundUri(firstUserUri);
-        currentUserBackgroundUriRef.current = firstUserUri;
       }
     } else {
       const initialIndex = autoBackgroundIndexRef.current;
@@ -1018,6 +979,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       clearSingleTapTimer();
       passageBackgroundIndexMapRef.current = {};
       passageUserBackgroundUriMapRef.current = {};
+      setReadyBackgroundKey('');
+      setActiveScene(null);
+      setPendingScene(null);
+
       const nextFilters = createFilterStateFromCategories(normalizedNext.selectedCategories);
 
       setMenuSelections(normalizedNext);
@@ -1039,53 +1004,124 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     ],
   );
 
-  const handleBackgroundReady = useCallback(() => {
-    setBackgroundReady(true);
-  }, []);
+  const buildSceneFromCurrent = useCallback((): SceneState | null => {
+    if (!currentPassage) {
+      return null;
+    }
+
+    const autoIndex =
+      effectiveBackgroundMode === 'auto'
+        ? (typeof passageBackgroundIndexMapRef.current[currentPassage.id] === 'number'
+            ? passageBackgroundIndexMapRef.current[currentPassage.id]
+            : autoBackgroundIndexRef.current)
+        : autoBackgroundIndexRef.current;
+
+    const userUri =
+      effectiveBackgroundMode === 'user'
+        ? passageUserBackgroundUriMapRef.current[currentPassage.id] ?? currentUserBackgroundUriRef.current
+        : null;
+
+    const backgroundKey =
+      effectiveBackgroundMode === 'user'
+        ? `user:${userUri ?? 'none'}`
+        : `auto:${autoIndex}`;
+
+    const nextIndexToken = historyState.currentIndex;
+
+    return {
+      passage: currentPassage,
+      autoBackgroundIndex: autoIndex,
+      userBackgroundUri: userUri,
+      backgroundKey,
+      sceneKey: `${currentPassage.id}:${backgroundKey}:${nextIndexToken}`,
+    };
+  }, [currentPassage, effectiveBackgroundMode, historyState.currentIndex]);
 
   useEffect(() => {
-    if (!currentPassage) {
-      setDisplayedPassage(null);
-      setDisplayedAutoBackgroundIndex(autoBackgroundIndexRef.current);
-      setDisplayedUserBackgroundUri(currentUserBackgroundUriRef.current);
+    const nextScene = buildSceneFromCurrent();
+
+    if (!nextScene) {
+      setPendingScene(null);
+      setActiveScene(null);
+      setReadyBackgroundKey('');
       displayedPassageIndexRef.current = historyState.currentIndex;
       return;
     }
 
-    if (!displayedPassage) {
-      setDisplayedPassage(currentPassage);
-      setDisplayedAutoBackgroundIndex(currentSceneAutoBackgroundIndex);
-      setDisplayedUserBackgroundUri(currentSceneUserBackgroundUri);
-      displayedPassageIndexRef.current = historyState.currentIndex;
-      return;
-    }
-
-    const samePassage = displayedPassage.id === currentPassage.id;
-    const sameBackground =
-      activeDisplayedBackgroundKey ===
-      (effectiveBackgroundMode === 'user'
-        ? `user:${currentSceneUserBackgroundUri ?? 'none'}`
-        : `auto:${currentSceneAutoBackgroundIndex}`);
-
-    if (samePassage && sameBackground) {
-      displayedPassageIndexRef.current = historyState.currentIndex;
-      return;
-    }
-
-    setDisplayedPassage(currentPassage);
-    setDisplayedAutoBackgroundIndex(currentSceneAutoBackgroundIndex);
-    setDisplayedUserBackgroundUri(currentSceneUserBackgroundUri);
     displayedPassageIndexRef.current = historyState.currentIndex;
-    setTextReady(false);
-    setShowSource(false);
+
+    const currentSceneKey = activeScene?.sceneKey ?? '';
+    const pendingSceneKey = pendingScene?.sceneKey ?? '';
+
+    if (nextScene.sceneKey === currentSceneKey || nextScene.sceneKey === pendingSceneKey) {
+      return;
+    }
+
+    setPendingScene(nextScene);
+    setReadyBackgroundKey('');
+    resetVisualPresentation();
   }, [
-    activeDisplayedBackgroundKey,
-    currentPassage,
-    currentSceneAutoBackgroundIndex,
-    currentSceneUserBackgroundUri,
-    displayedPassage,
-    effectiveBackgroundMode,
+    activeScene?.sceneKey,
+    buildSceneFromCurrent,
     historyState.currentIndex,
+    pendingScene?.sceneKey,
+    resetVisualPresentation,
+  ]);
+
+  const handleBackgroundReady = useCallback(
+    (backgroundKey?: string) => {
+      const resolvedKey = backgroundKey ?? '';
+
+      if (!resolvedKey) {
+        return;
+      }
+
+      if (pendingScene && pendingScene.backgroundKey === resolvedKey) {
+        setActiveScene(pendingScene);
+        setPendingScene(null);
+        setReadyBackgroundKey(resolvedKey);
+        return;
+      }
+
+      if (activeScene && activeScene.backgroundKey === resolvedKey) {
+        setReadyBackgroundKey(resolvedKey);
+      }
+    },
+    [activeScene, pendingScene],
+  );
+
+  useEffect(() => {
+    const sceneReady =
+      !!activeScene &&
+      !!combinedText &&
+      !isMenuVisible &&
+      !isUserBackgroundManagerVisible &&
+      !isUserMyWritingManagerVisible &&
+      readyBackgroundKey === activeScene.backgroundKey;
+
+    if (!sceneReady) {
+      return;
+    }
+
+    setTextReady(true);
+    setShowSource(false);
+
+    sceneOpacity.stopAnimation();
+    sceneOpacity.setValue(0);
+
+    Animated.timing(sceneOpacity, {
+      toValue: 1,
+      duration: SCENE_FADE_DURATION_MS,
+      useNativeDriver: true,
+    }).start();
+  }, [
+    activeScene,
+    combinedText,
+    isMenuVisible,
+    isUserBackgroundManagerVisible,
+    isUserMyWritingManagerVisible,
+    readyBackgroundKey,
+    sceneOpacity,
   ]);
 
   useEffect(() => {
@@ -1167,12 +1203,11 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       setFavoritePassageMode(false);
       setDraftFavoritePassageMode(false);
       setOverlayMode('menu');
-      resetVisualPresentation();
       return;
     }
 
     setDraftFavoritePassageMode(false);
-  }, [favoritePassages.length, isFavoritePassageMode, resetVisualPresentation]);
+  }, [favoritePassages.length, isFavoritePassageMode]);
 
   useEffect(() => {
     if (!shouldStartNewSelection) {
@@ -1194,49 +1229,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   ]);
 
   useEffect(() => {
-    if (readyTimerRef.current) {
-      clearTimeout(readyTimerRef.current);
-      readyTimerRef.current = null;
-    }
-
-    if (
-      !combinedText ||
-      isMenuVisible ||
-      isUserBackgroundManagerVisible ||
-      isUserMyWritingManagerVisible
-    ) {
-      setTextReady(false);
-      setShowSource(false);
-      return;
-    }
-
-    readyTimerRef.current = setTimeout(() => {
-      setTextReady(true);
-      setBackgroundReady(true);
-    }, TEXT_DELAY_MS);
-
-    return () => {
-      if (readyTimerRef.current) {
-        clearTimeout(readyTimerRef.current);
-        readyTimerRef.current = null;
-      }
-    };
-  }, [
-    combinedText,
-    isMenuVisible,
-    isUserBackgroundManagerVisible,
-    isUserMyWritingManagerVisible,
-    sourceText,
-    historyState.currentIndex,
-  ]);
-
-
-  useEffect(() => {
     if (isLandscape && isUserBackgroundManagerVisible) {
       setDraftUserBackgrounds([]);
       setDraftSelectedUserBackgrounds([]);
       setOverlayMode('menu');
-      resetVisualPresentation();
     }
 
     if (isLandscape && isUserMyWritingManagerVisible) {
@@ -1245,14 +1241,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       setOverlayMode('menu');
       setMyWritingEditorVisible(false);
       setEditingMyWritingId(null);
-      resetVisualPresentation();
     }
-  }, [
-    isLandscape,
-    isUserBackgroundManagerVisible,
-    isUserMyWritingManagerVisible,
-    resetVisualPresentation,
-  ]);
+  }, [isLandscape, isUserBackgroundManagerVisible, isUserMyWritingManagerVisible]);
 
   useEffect(() => {
     if (!currentPassage?.id) {
@@ -1261,11 +1251,9 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
     if (effectiveBackgroundMode === 'user') {
       const mappedUserUri = passageUserBackgroundUriMapRef.current[currentPassage.id];
-
       if (mappedUserUri) {
         setCurrentUserBackgroundUri((prev) => (prev === mappedUserUri ? prev : mappedUserUri));
       }
-
       return;
     }
 
@@ -1291,10 +1279,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   useEffect(() => {
     return () => {
-      if (readyTimerRef.current) {
-        clearTimeout(readyTimerRef.current);
-        readyTimerRef.current = null;
-      }
       if (singleTapTimerRef.current) {
         clearTimeout(singleTapTimerRef.current);
         singleTapTimerRef.current = null;
@@ -1446,114 +1430,156 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
             : 0
         }
         backgroundMode={effectiveBackgroundMode}
-        userBackgroundUri={displayedUserBackgroundUri}
+        userBackgroundUri={backgroundScene?.userBackgroundUri ?? null}
         background={activeAutoBackground}
-        backgroundKey={activeDisplayedBackgroundKey}
+        backgroundKey={backgroundScene?.backgroundKey ?? 'none'}
       >
         <View style={styles.root}>
-          <View style={styles.gestureLayer} {...panResponder.panHandlers}>
-            <View
-              style={[
-                styles.container,
-                isLandscape ? styles.containerLandscape : styles.containerPortrait,
-              ]}
-            >
-              {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
-                <View
-                  style={[
-                    styles.textBlock,
-                    isLandscape ? styles.textBlockLandscape : styles.textBlockPortrait,
-                    { top: dynamicTextTop },
-                  ]}
-                >
+          <Animated.View
+            pointerEvents="box-none"
+            style={[styles.sceneLayer, { opacity: sceneOpacity }]}
+          >
+            <View style={styles.gestureLayer} {...panResponder.panHandlers}>
+              <View
+                style={[
+                  styles.container,
+                  isLandscape ? styles.containerLandscape : styles.containerPortrait,
+                ]}
+              >
+                {!isMenuVisible &&
+                !isUserBackgroundManagerVisible &&
+                !isUserMyWritingManagerVisible ? (
                   <View
-                    style={styles.textMeasure}
-                    onLayout={
-                      isMyWritingPassageMode
-                        ? undefined
-                        : (event) => {
-                            const measuredHeight = Math.ceil(event.nativeEvent.layout.height);
-                            setTextContentHeight((prev) =>
-                              prev === measuredHeight ? prev : measuredHeight,
-                            );
-                          }
-                    }
+                    style={[
+                      styles.textBlock,
+                      isLandscape ? styles.textBlockLandscape : styles.textBlockPortrait,
+                      { top: dynamicTextTop },
+                    ]}
                   >
-                    {isMyWritingPassageMode ? (
-                      <ScrollView
-                        style={[
-                          styles.myWritingScrollViewport,
-                          isLandscape
-                            ? { height: scrollViewportHeight }
-                            : { maxHeight: scrollViewportHeight },
-                        ]}
-                        contentContainerStyle={styles.myWritingScrollContent}
-                        showsVerticalScrollIndicator
-                        bounces={false}
-                        scrollEventThrottle={16}
-                        keyboardShouldPersistTaps="handled"
-                        directionalLockEnabled
-                        disableScrollViewPanResponder
-                      >
-                        <AnimatedPassageText
-                          key={`passage-${passageTransitionToken}-block`}
-                          line={displayedText}
-                          containerStyle={styles.paragraphContainer}
-                          style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
-                          isReady={isTextReady}
-                          onComplete={() => setShowSource(true)}
-                          variant={fontVariant}
-                          animationMode="block"
-                        />
-
-                        {sourceText && showSource ? (
-                          <View style={styles.myWritingSourceWrap}>
-                            <PassageSourceText
-                              text={sourceText}
-                              baseFontSize={bodyFontSize}
-                              variant={fontVariant}
-                              style={paragraphFontStyle}
-                            />
-                          </View>
-                        ) : null}
-                      </ScrollView>
-                    ) : (
-                      <>
-                        <AnimatedPassageText
-                          key={`passage-${passageTransitionToken}-word`}
-                          line={displayedText}
-                          containerStyle={styles.paragraphContainer}
-                          style={[styles.paragraph, paragraphFontStyle, { fontSize: bodyFontSize }]}
-                          isReady={isTextReady}
-                          onComplete={() => setShowSource(true)}
-                          variant={fontVariant}
-                          animationMode="word"
-                        />
-
-                        {sourceReserveHeight > 0 ? (
-                          <View
+                    <View
+                      style={styles.textMeasure}
+                      onLayout={
+                        isMyWritingPassageMode
+                          ? undefined
+                          : (event) => {
+                              const measuredHeight = Math.ceil(event.nativeEvent.layout.height);
+                              setTextContentHeight((prev) =>
+                                prev === measuredHeight ? prev : measuredHeight,
+                              );
+                            }
+                      }
+                    >
+                      {isMyWritingPassageMode ? (
+                        <ScrollView
+                          style={[
+                            styles.myWritingScrollViewport,
+                            isLandscape
+                              ? { height: scrollViewportHeight }
+                              : { maxHeight: scrollViewportHeight },
+                          ]}
+                          contentContainerStyle={styles.myWritingScrollContent}
+                          showsVerticalScrollIndicator
+                          bounces={false}
+                          scrollEventThrottle={16}
+                          keyboardShouldPersistTaps="handled"
+                          directionalLockEnabled
+                          disableScrollViewPanResponder
+                        >
+                          <AnimatedPassageText
+                            key={`passage-${passageTransitionToken}-block`}
+                            line={displayedText}
+                            containerStyle={styles.paragraphContainer}
                             style={[
-                              styles.sourceReserve,
-                              { marginTop: 18, minHeight: sourceReserveHeight },
+                              styles.paragraph,
+                              paragraphFontStyle,
+                              { fontSize: bodyFontSize },
                             ]}
-                          >
-                            {sourceText && showSource ? (
+                            isReady={isTextReady}
+                            onComplete={() => setShowSource(true)}
+                            variant={fontVariant}
+                            animationMode="block"
+                          />
+
+                          {sourceText && showSource ? (
+                            <View style={styles.myWritingSourceWrap}>
                               <PassageSourceText
                                 text={sourceText}
                                 baseFontSize={bodyFontSize}
                                 variant={fontVariant}
                                 style={paragraphFontStyle}
                               />
-                            ) : null}
-                          </View>
-                        ) : null}
-                      </>
-                    )}
+                            </View>
+                          ) : null}
+                        </ScrollView>
+                      ) : (
+                        <>
+                          <AnimatedPassageText
+                            key={`passage-${passageTransitionToken}-word`}
+                            line={displayedText}
+                            containerStyle={styles.paragraphContainer}
+                            style={[
+                              styles.paragraph,
+                              paragraphFontStyle,
+                              { fontSize: bodyFontSize },
+                            ]}
+                            isReady={isTextReady}
+                            onComplete={() => setShowSource(true)}
+                            variant={fontVariant}
+                            animationMode="word"
+                          />
+
+                          {sourceReserveHeight > 0 ? (
+                            <View
+                              style={[
+                                styles.sourceReserve,
+                                { marginTop: 18, minHeight: sourceReserveHeight },
+                              ]}
+                            >
+                              {sourceText && showSource ? (
+                                <PassageSourceText
+                                  text={sourceText}
+                                  baseFontSize={bodyFontSize}
+                                  variant={fontVariant}
+                                  style={paragraphFontStyle}
+                                />
+                              ) : null}
+                            </View>
+                          ) : null}
+                        </>
+                      )}
+                    </View>
                   </View>
-                </View>
-              ) : null}
+                ) : null}
+              </View>
             </View>
-          </View>
+          </Animated.View>
+
+          {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
+            <>
+              {visiblePassage ? (
+                <Pressable
+                  hitSlop={8}
+                  pressRetentionOffset={10}
+                  style={styles.heartBottomButton}
+                  onPress={toggleFavorite}
+                  accessibilityRole="button"
+                  accessibilityLabel={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 저장'}
+                >
+                  <View style={{ transform: [{ scale: 1 }] }}>
+                    <Animated.View style={{ transform: [{ scale: heartScale }] }}>
+                      <Text style={styles.heartIcon}>{isFavorite ? '♥' : '♡'}</Text>
+                    </Animated.View>
+                  </View>
+                </Pressable>
+              ) : null}
+
+              <BottomDotButton
+                style={styles.bottomButton}
+                onPress={openMenu}
+                accessibilityLabel="Open menu"
+              />
+            </>
+          ) : null}
 
           <MenuSlideSheet
             visible={isMenuVisible}
@@ -1604,33 +1630,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
             onApply={handleMyWritingEditorApply}
             onDelete={myWritingEditorMode === 'edit' ? handleMyWritingEditorDelete : undefined}
           />
-
-          {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
-            <>
-              {displayedPassage ? (
-                <Pressable
-                  hitSlop={8}
-                  pressRetentionOffset={10}
-                  style={styles.heartBottomButton}
-                  onPress={toggleFavorite}
-                  accessibilityRole="button"
-                  accessibilityLabel={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 저장'}
-                >
-                  <View style={{ transform: [{ scale: 1 }] }}>
-                    <Animated.View style={{ transform: [{ scale: heartScale }] }}>
-                      <Text style={styles.heartIcon}>{isFavorite ? '♥' : '♡'}</Text>
-                    </Animated.View>
-                  </View>
-                </Pressable>
-              ) : null}
-
-              <BottomDotButton
-                style={styles.bottomButton}
-                onPress={openMenu}
-                accessibilityLabel="Open menu"
-              />
-            </>
-          ) : null}
         </View>
       </AdaptiveBackground>
     </Animated.View>
