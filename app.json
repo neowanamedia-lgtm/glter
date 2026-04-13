@@ -4,7 +4,7 @@
     "slug": "glter",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/images/glter.PNG",
+    "icon": "./assets/images/glter.png",
     "scheme": "glterapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/glter.PNG",
+        "foregroundImage": "./assets/images/glter.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
@@ -23,14 +23,14 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/glter.PNG"
+      "favicon": "./assets/images/glter.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/glter.PNG",
+          "image": "./assets/images/glter.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
