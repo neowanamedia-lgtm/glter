@@ -95,7 +95,12 @@ const createVariantTypography = (
   baseSize: number,
   overrides: { lineHeight?: number; letterSpacing?: number },
 ): TextStyle => {
-  const fontSize = variant === 'handwriting' ? baseSize + HANDWRITING_SIZE_BONUS : baseSize;
+const fontSize =
+  variant === 'handwriting'
+    ? baseSize + HANDWRITING_SIZE_BONUS
+    : variant === 'soft'
+    ? baseSize - 1
+    : baseSize;
 
   return {
     fontFamily: FONT_FAMILY_BY_VARIANT[variant],

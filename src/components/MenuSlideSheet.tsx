@@ -12,7 +12,6 @@ import type {
   ContentCategory,
   EmotionKey,
   FontOption,
-  LanguageOption,
   MenuSelectionState,
 } from '../types/menu';
 
@@ -72,23 +71,12 @@ const RELIGION_OPTIONS: Array<{ key: ContentCategory; label: string }> = [
   { key: 'islam', label: '이슬람교' },
 ];
 
-const LANGUAGE_OPTIONS: Array<{ key: LanguageOption; label: string }> = [
-  { key: 'ko', label: '한국어' },
-  { key: 'en', label: 'English' },
-  { key: 'ja', label: '日本語' },
-  { key: 'zh', label: '中文' },
-  { key: 'es', label: 'Español' },
-  { key: 'ar', label: 'العربية' },
-];
-
 const FONT_OPTIONS: Array<{ key: FontOption; label: string }> = [
   { key: 'basic', label: '기본 서체' },
   { key: 'soft', label: '부드럽게' },
   { key: 'script', label: '필기체' },
 ];
 
-const ENABLED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko'];
-const ENABLED_LANGUAGE_SET = new Set<MenuSelectionState['language']>(ENABLED_LANGUAGES);
 const AI_CATEGORY = 'ai' as ContentCategory;
 
 type ChipMode = 'regular' | 'compact' | 'tight';
@@ -114,7 +102,6 @@ export function MenuSlideSheet({
   const philosophyMode: ChipMode = width < 430 ? 'compact' : 'regular';
   const literatureMode: ChipMode = width < 460 ? 'compact' : 'regular';
   const religionMode: ChipMode = width < 420 ? 'compact' : 'regular';
-  const languageMode: ChipMode = 'tight';
   const fontMode: ChipMode = width < 460 ? 'compact' : 'regular';
   const backgroundMode: ChipMode = width < 460 ? 'compact' : 'regular';
 
@@ -190,17 +177,6 @@ export function MenuSlideSheet({
         selectedCategories: [...prev.selectedCategories, category],
       };
     });
-  };
-
-  const handleLanguage = (language: LanguageOption) => {
-    if (!ENABLED_LANGUAGE_SET.has(language)) {
-      return;
-    }
-
-    onChange((prev) => ({
-      ...prev,
-      language,
-    }));
   };
 
   const handleFont = (font: FontOption) => {
@@ -466,15 +442,6 @@ export function MenuSlideSheet({
             </RowBlock>
 
             <RowBlock>
-              {renderLanguageChips(
-                LANGUAGE_OPTIONS,
-                state.language,
-                handleLanguage,
-                languageMode,
-              )}
-            </RowBlock>
-
-            <RowBlock>
               <View style={styles.inlineSection}>
                 {renderSingleSelectChipList(
                   FONT_OPTIONS,
@@ -567,13 +534,13 @@ export function MenuSlideSheet({
             ) : !canUseFavorites ? (
               <View style={styles.noticeWrap}>
                 <Text style={styles.noticeText}>
-                  문구 화면 좌측 하단 하트를 눌러 먼저 문구를 저장하세요.
+                  문구 화면 좌측 하단 하트를 눌러 문구를 저장하세요.
                 </Text>
               </View>
             ) : !canUseMyWriting ? (
               <View style={styles.noticeWrap}>
                 <Text style={styles.noticeText}>
-                  내글보기를 처음 쓰려면 내글보기 버튼을 눌러 글을 먼저 추가하세요.
+                  내글보기를 처음 쓰려면 내글보기 버튼을 눌러 글을 추가하세요.
                 </Text>
               </View>
             ) : isMyWritingMode ? (
@@ -751,52 +718,6 @@ function renderCategoryChipsWithAiRule(
   );
 }
 
-function renderLanguageChips(
-  options: Array<{ key: LanguageOption; label: string }>,
-  selected: LanguageOption,
-  onSelect: (value: LanguageOption) => void,
-  mode: ChipMode,
-) {
-  return (
-    <View style={[styles.row, styles.languageRow]}>
-      {options.map((option) => {
-        const isSelected = selected === option.key;
-        const isDisabled = !ENABLED_LANGUAGE_SET.has(option.key as MenuSelectionState['language']);
-
-        return (
-          <Pressable
-            key={option.key}
-            hitSlop={6}
-            pressRetentionOffset={10}
-            style={[
-              styles.chip,
-              mode === 'compact' && styles.chipCompact,
-              mode === 'tight' && styles.chipTight,
-              isSelected && styles.chipSelected,
-              isDisabled && styles.chipDisabled,
-            ]}
-            disabled={isDisabled}
-            onPress={() => onSelect(option.key)}
-          >
-            <Text
-              style={[
-                styles.chipText,
-                mode === 'compact' && styles.chipTextCompact,
-                mode === 'tight' && styles.chipTextTight,
-                isSelected && styles.chipTextSelected,
-                isDisabled && styles.chipTextDisabled,
-              ]}
-              numberOfLines={1}
-            >
-              {option.label}
-            </Text>
-          </Pressable>
-        );
-      })}
-    </View>
-  );
-}
-
 const styles = StyleSheet.create({
   root: {
     flex: 1,
@@ -855,9 +776,6 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     alignItems: 'center',
     gap: 4,
-  },
-  languageRow: {
-    gap: 3,
   },
   inlineSection: {
     flexDirection: 'row',
