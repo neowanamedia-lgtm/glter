@@ -58,13 +58,13 @@ const BASE_FONT_SIZE = 20;
 const SOURCE_CHARS_PER_LINE = 14;
 const ALLOWED_LANGUAGES: Array<MenuSelectionState['language']> = ['ko', 'en'];
 
-const TAP_MAX_DISTANCE = 28;
-const SWIPE_ACTIVATION_DISTANCE = 4;
+const TAP_MAX_DISTANCE = 40;
+const SWIPE_ACTIVATION_DISTANCE = 6;
 const SWIPE_TRIGGER_DISTANCE = 18;
 const SWIPE_DIRECTION_RATIO = 0.85;
 const SWIPE_MAX_VERTICAL_DRIFT = 180;
 const MENU_BACKGROUND_BLUR_RADIUS = 28;
-const DOUBLE_TAP_DELAY_MS = 320;
+const DOUBLE_TAP_DELAY_MS = 360;
 const MAX_USER_BACKGROUNDS = 30;
 
 type BackgroundMode = 'auto' | 'user';
@@ -337,6 +337,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const lastTapTimestampRef = useRef(0);
   const gestureHandledRef = useRef(false);
   const heartScale = useRef(new Animated.Value(1)).current;
+  const autoBackgroundIndexRef = useRef(autoBackgroundIndex);
+  const currentUserBackgroundUriRef = useRef<string | null>(currentUserBackgroundUri);
 
   const passageBackgroundIndexMapRef = useRef<Record<string, number>>({});
   const passageUserBackgroundUriMapRef = useRef<Record<string, string>>({});
@@ -405,7 +407,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const isOverlayVisible =
     isMenuVisible || isUserBackgroundManagerVisible || isUserMyWritingManagerVisible;
 
-  const isMenuButtonEnabled = !isOverlayVisible && (showSource || !!combinedText);
+  const isMenuButtonEnabled = !isOverlayVisible && showSource && hasCurrent;
 
   const activeAutoBackground: BackgroundConfig = useMemo(
     () => getBackgroundAt(autoBackgroundIndex),
@@ -625,6 +627,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const handleSelectAutoBackground = useCallback(() => {
     setBackgroundMode('auto');
     setCurrentUserBackgroundUri(null);
+    currentUserBackgroundUriRef.current = null;
     syncBackgroundSelectionState('auto');
     resetVisualPresentation();
   }, [resetVisualPresentation, syncBackgroundSelectionState]);
@@ -691,11 +694,13 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     const nextCurrentUri =
       confirmedSelection.length === 1
         ? confirmedSelection[0]
-        : pickRandomUri(confirmedSelection, currentUserBackgroundUri) ?? confirmedSelection[0];
+        : pickRandomUri(confirmedSelection, currentUserBackgroundUriRef.current) ??
+          confirmedSelection[0];
 
     setStoredUserBackgrounds(confirmedLibrary);
     setAppliedUserBackgrounds(confirmedSelection);
     setCurrentUserBackgroundUri(nextCurrentUri);
+    currentUserBackgroundUriRef.current = nextCurrentUri;
     setBackgroundMode('user');
     syncBackgroundSelectionState('upload');
     passageUserBackgroundUriMapRef.current = {};
@@ -704,7 +709,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     setOverlayMode('menu');
     resetVisualPresentation();
   }, [
-    currentUserBackgroundUri,
     draftSelectedUserBackgrounds,
     draftUserBackgrounds,
     resetVisualPresentation,
@@ -870,23 +874,24 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       const firstUserUri =
         appliedUserBackgrounds.length === 1
           ? appliedUserBackgrounds[0]
-          : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUri) ??
+          : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUriRef.current) ??
             appliedUserBackgrounds[0];
 
       if (firstUserUri) {
         passageUserBackgroundUriMapRef.current[firstPassage.id] = firstUserUri;
         setCurrentUserBackgroundUri(firstUserUri);
+        currentUserBackgroundUriRef.current = firstUserUri;
       }
     } else {
-      passageBackgroundIndexMapRef.current[firstPassage.id] = autoBackgroundIndex;
+      const initialIndex = autoBackgroundIndexRef.current;
+      passageBackgroundIndexMapRef.current[firstPassage.id] = initialIndex;
+      setAutoBackgroundIndex(initialIndex);
     }
 
     setHistoryState(appendPassage(createInitialPassageHistoryState(), firstPassage as never));
     resetVisualPresentation();
   }, [
     appliedUserBackgrounds,
-    autoBackgroundIndex,
-    currentUserBackgroundUri,
     effectiveBackgroundMode,
     isFavoritePassageMode,
     pickNextFavoritePassage,
@@ -903,9 +908,6 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const showNextPassage = useCallback(() => {
     clearSingleTapTimer();
 
-    let nextBackgroundIndexToApply: number | null = null;
-    let nextUserBackgroundUriToApply: string | null = null;
-
     setHistoryState((prev) => {
       if (canGoToNextSeenPassage(prev)) {
         return moveToNextSeenPassage(prev);
@@ -921,37 +923,32 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       }
 
       if (effectiveBackgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
-        nextUserBackgroundUriToApply =
+        const nextUserBackgroundUri =
           appliedUserBackgrounds.length === 1
             ? appliedUserBackgrounds[0]
-            : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUri) ??
+            : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUriRef.current) ??
               appliedUserBackgrounds[0];
 
-        if (nextUserBackgroundUriToApply) {
-          passageUserBackgroundUriMapRef.current[nextPassage.id] = nextUserBackgroundUriToApply;
+        if (nextUserBackgroundUri) {
+          passageUserBackgroundUriMapRef.current[nextPassage.id] = nextUserBackgroundUri;
         }
       } else {
-        nextBackgroundIndexToApply = getNextBackgroundIndex(autoBackgroundIndex);
-        passageBackgroundIndexMapRef.current[nextPassage.id] = nextBackgroundIndexToApply;
+        const currentResolvedIndex =
+          (currentPassage?.id && passageBackgroundIndexMapRef.current[currentPassage.id]) ??
+          autoBackgroundIndexRef.current;
+
+        const nextBackgroundIndex = getNextBackgroundIndex(currentResolvedIndex);
+        passageBackgroundIndexMapRef.current[nextPassage.id] = nextBackgroundIndex;
       }
 
       return appendPassage(prev, nextPassage as never);
     });
 
-    if (nextUserBackgroundUriToApply) {
-      setCurrentUserBackgroundUri(nextUserBackgroundUriToApply);
-    }
-
-    if (typeof nextBackgroundIndexToApply === 'number') {
-      setAutoBackgroundIndex(nextBackgroundIndexToApply);
-    }
-
     resetVisualPresentation();
   }, [
     appliedUserBackgrounds,
-    autoBackgroundIndex,
     clearSingleTapTimer,
-    currentUserBackgroundUri,
+    currentPassage?.id,
     effectiveBackgroundMode,
     isFavoritePassageMode,
     pickNextFavoritePassage,
@@ -1008,6 +1005,14 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const handleBackgroundReady = useCallback(() => {
     setBackgroundReady(true);
   }, []);
+
+  useEffect(() => {
+    autoBackgroundIndexRef.current = autoBackgroundIndex;
+  }, [autoBackgroundIndex]);
+
+  useEffect(() => {
+    currentUserBackgroundUriRef.current = currentUserBackgroundUri;
+  }, [currentUserBackgroundUri]);
 
   useEffect(() => {
     if (myWritingLoadedRef.current) {
@@ -1232,7 +1237,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     const now = Date.now();
     const elapsed = now - lastTapTimestampRef.current;
 
-    if (elapsed <= DOUBLE_TAP_DELAY_MS) {
+    if (elapsed > 0 && elapsed <= DOUBLE_TAP_DELAY_MS) {
       clearSingleTapTimer();
       lastTapTimestampRef.current = 0;
 
@@ -1263,8 +1268,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const panResponder = useMemo(
     () =>
       PanResponder.create({
-        onStartShouldSetPanResponder: () => false,
-        onStartShouldSetPanResponderCapture: () => false,
+        onStartShouldSetPanResponder: () => isGestureEnabled && !isMyWritingPassageMode,
+        onStartShouldSetPanResponderCapture: () => isGestureEnabled && !isMyWritingPassageMode,
         onMoveShouldSetPanResponder: (_evt, gestureState) => {
           if (!isGestureEnabled) {
             return false;
@@ -1311,36 +1316,34 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
           const absDx = Math.abs(dx);
           const absDy = Math.abs(dy);
 
+          const isHorizontalSwipe =
+            absDx >= SWIPE_TRIGGER_DISTANCE &&
+            absDx > absDy * SWIPE_DIRECTION_RATIO &&
+            absDy <= SWIPE_MAX_VERTICAL_DRIFT;
+
+          if (isHorizontalSwipe) {
+            gestureHandledRef.current = true;
+            clearSingleTapTimer();
+            lastTapTimestampRef.current = 0;
+
+            if (dx < 0) {
+              showNextPassage();
+              return;
+            }
+
+            if (dx > 0 && canGoPrev) {
+              showPreviousPassage();
+            }
+            return;
+          }
+
           if (!isMyWritingPassageMode) {
             const isTap = absDx <= TAP_MAX_DISTANCE && absDy <= TAP_MAX_DISTANCE;
 
             if (isTap) {
               gestureHandledRef.current = true;
               handleAdvanceByTap();
-              return;
             }
-          }
-
-          const isHorizontalSwipe =
-            absDx >= SWIPE_TRIGGER_DISTANCE &&
-            absDx > absDy * SWIPE_DIRECTION_RATIO &&
-            absDy <= SWIPE_MAX_VERTICAL_DRIFT;
-
-          if (!isHorizontalSwipe) {
-            return;
-          }
-
-          gestureHandledRef.current = true;
-          clearSingleTapTimer();
-          lastTapTimestampRef.current = 0;
-
-          if (dx < 0) {
-            showNextPassage();
-            return;
-          }
-
-          if (dx > 0 && canGoPrev) {
-            showPreviousPassage();
           }
         },
         onPanResponderTerminate: () => {

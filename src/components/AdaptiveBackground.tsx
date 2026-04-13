@@ -19,6 +19,8 @@ type AdaptiveBackgroundProps = PropsWithChildren<{
 
 const TRANSITION_DURATION = 420;
 
+type BackgroundSource = number | { uri: string } | null;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -39,10 +41,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const isSameSource = (
-  a: number | { uri: string } | null,
-  b: number | { uri: string } | null,
-): boolean => {
+const isSameSource = (a: BackgroundSource, b: BackgroundSource): boolean => {
   if (a === b) {
     return true;
   }
@@ -71,12 +70,12 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
   userBackgroundUri,
   background,
 }) => {
-  const fadeA = useRef(new Animated.Value(1)).current;
-  const fadeB = useRef(new Animated.Value(0)).current;
-  const hasMountedRef = useRef(false);
-  const activeLayerRef = useRef<'A' | 'B'>('A');
+  const fadeIncoming = useRef(new Animated.Value(0)).current;
+  const transitionRunningRef = useRef(false);
+  const pendingTargetRef = useRef<BackgroundSource>(null);
+  const displayedSourceRef = useRef<BackgroundSource>(null);
 
-  const targetSource = useMemo(() => {
+  const targetSource = useMemo<BackgroundSource>(() => {
     if (backgroundMode === 'user' && userBackgroundUri) {
       return { uri: userBackgroundUri };
     }
@@ -84,92 +83,98 @@ export const AdaptiveBackground: React.FC<AdaptiveBackgroundProps> = ({
     return background?.portrait ?? null;
   }, [background, backgroundMode, userBackgroundUri]);
 
-  const [sourceA, setSourceA] = useState<number | { uri: string } | null>(targetSource);
-  const [sourceB, setSourceB] = useState<number | { uri: string } | null>(null);
+  const [displayedSource, setDisplayedSource] = useState<BackgroundSource>(targetSource);
+  const [incomingSource, setIncomingSource] = useState<BackgroundSource>(null);
+
+  useEffect(() => {
+    displayedSourceRef.current = displayedSource;
+  }, [displayedSource]);
 
   useEffect(() => {
     if (!targetSource) {
       return;
     }
 
-    if (!hasMountedRef.current) {
-      hasMountedRef.current = true;
-      setSourceA(targetSource);
-      setSourceB(null);
-      fadeA.setValue(1);
-      fadeB.setValue(0);
-      activeLayerRef.current = 'A';
+    // 첫 진입
+    if (!displayedSourceRef.current) {
+      displayedSourceRef.current = targetSource;
+      setDisplayedSource(targetSource);
+      setIncomingSource(null);
+      fadeIncoming.setValue(0);
       onReady?.();
       return;
     }
 
-    const activeSource = activeLayerRef.current === 'A' ? sourceA : sourceB;
-
-    if (isSameSource(activeSource, targetSource)) {
+    // 현재 표시 중인 배경과 같으면 전환 불필요
+    if (isSameSource(displayedSourceRef.current, targetSource)) {
+      pendingTargetRef.current = null;
       onReady?.();
       return;
     }
 
-    if (activeLayerRef.current === 'A') {
-      setSourceB(targetSource);
-      fadeB.setValue(0);
+    // 이미 전환 중이면 마지막 요청만 기억
+    if (transitionRunningRef.current) {
+      pendingTargetRef.current = targetSource;
+      return;
+    }
 
-      Animated.parallel([
-        Animated.timing(fadeB, {
+    transitionRunningRef.current = true;
+    pendingTargetRef.current = null;
+    setIncomingSource(targetSource);
+    fadeIncoming.setValue(0);
+
+    Animated.timing(fadeIncoming, {
+      toValue: 1,
+      duration: TRANSITION_DURATION,
+      useNativeDriver: true,
+    }).start(() => {
+      displayedSourceRef.current = targetSource;
+      setDisplayedSource(targetSource);
+      setIncomingSource(null);
+      fadeIncoming.setValue(0);
+      transitionRunningRef.current = false;
+      onReady?.();
+
+      const pendingTarget = pendingTargetRef.current;
+      if (pendingTarget && !isSameSource(displayedSourceRef.current, pendingTarget)) {
+        pendingTargetRef.current = null;
+        transitionRunningRef.current = true;
+        setIncomingSource(pendingTarget);
+        fadeIncoming.setValue(0);
+
+        Animated.timing(fadeIncoming, {
           toValue: 1,
           duration: TRANSITION_DURATION,
           useNativeDriver: true,
-        }),
-        Animated.timing(fadeA, {
-          toValue: 0,
-          duration: TRANSITION_DURATION,
-          useNativeDriver: true,
-        }),
-      ]).start(() => {
-        activeLayerRef.current = 'B';
-        onReady?.();
-      });
-
-      return;
-    }
-
-    setSourceA(targetSource);
-    fadeA.setValue(0);
-
-    Animated.parallel([
-      Animated.timing(fadeA, {
-        toValue: 1,
-        duration: TRANSITION_DURATION,
-        useNativeDriver: true,
-      }),
-      Animated.timing(fadeB, {
-        toValue: 0,
-        duration: TRANSITION_DURATION,
-        useNativeDriver: true,
-      }),
-    ]).start(() => {
-      activeLayerRef.current = 'A';
-      onReady?.();
+        }).start(() => {
+          displayedSourceRef.current = pendingTarget;
+          setDisplayedSource(pendingTarget);
+          setIncomingSource(null);
+          fadeIncoming.setValue(0);
+          transitionRunningRef.current = false;
+          onReady?.();
+        });
+      }
     });
-  }, [fadeA, fadeB, onReady, sourceA, sourceB, targetSource]);
+  }, [fadeIncoming, onReady, targetSource]);
 
   return (
     <View style={styles.container}>
-      {sourceA ? (
-        <Animated.View style={[styles.backgroundLayer, { opacity: fadeA }]}>
+      {displayedSource ? (
+        <View style={styles.backgroundLayer}>
           <ImageBackground
-            source={sourceA}
+            source={displayedSource}
             style={styles.image}
             resizeMode="cover"
             blurRadius={blurRadius}
           />
-        </Animated.View>
+        </View>
       ) : null}
 
-      {sourceB ? (
-        <Animated.View style={[styles.backgroundLayer, { opacity: fadeB }]}>
+      {incomingSource ? (
+        <Animated.View style={[styles.backgroundLayer, { opacity: fadeIncoming }]}>
           <ImageBackground
-            source={sourceB}
+            source={incomingSource}
             style={styles.image}
             resizeMode="cover"
             blurRadius={blurRadius}
