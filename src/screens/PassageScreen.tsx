@@ -402,8 +402,8 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const canGoPrev = canGoToPreviousPassage(historyState);
 
   const passageTransitionToken = useMemo(
-    () => `${displayedPassage?.id ?? 'none'}:${displayedPassageIndexRef.current}`,
-    [displayedPassage?.id],
+    () => `${displayedPassage?.id ?? 'none'}:${historyState.currentIndex}`,
+    [displayedPassage?.id, historyState.currentIndex],
   );
 
   const isGestureEnabled =
@@ -565,6 +565,72 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       return pool[index] ?? pool[0] ?? null;
     },
     [favoritePassages],
+  );
+
+  const getFirstFavoritePassage = useCallback((): DisplayPassage | null => {
+    return favoritePassages[0] ?? null;
+  }, [favoritePassages]);
+
+  const getLoopedNextFavoritePassage = useCallback(
+    (currentId?: string | null): DisplayPassage | null => {
+      if (!favoritePassages.length) {
+        return null;
+      }
+
+      if (!currentId) {
+        return favoritePassages[0] ?? null;
+      }
+
+      const currentIndex = favoritePassages.findIndex((item) => item.id === currentId);
+
+      if (currentIndex < 0) {
+        return favoritePassages[0] ?? null;
+      }
+
+      const nextIndex = (currentIndex + 1) % favoritePassages.length;
+      return favoritePassages[nextIndex] ?? favoritePassages[0] ?? null;
+    },
+    [favoritePassages],
+  );
+
+  const resolveUserBackgroundForPassage = useCallback(
+    (passageId: string): string | null => {
+      const existingUri = passageUserBackgroundUriMapRef.current[passageId];
+      if (existingUri) {
+        return existingUri;
+      }
+
+      if (!appliedUserBackgrounds.length) {
+        return null;
+      }
+
+      const nextUserBackgroundUri =
+        appliedUserBackgrounds.length === 1
+          ? appliedUserBackgrounds[0]
+          : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUriRef.current) ??
+            appliedUserBackgrounds[0];
+
+      if (!nextUserBackgroundUri) {
+        return null;
+      }
+
+      passageUserBackgroundUriMapRef.current[passageId] = nextUserBackgroundUri;
+      return nextUserBackgroundUri;
+    },
+    [appliedUserBackgrounds],
+  );
+
+  const resolveAutoBackgroundIndexForPassage = useCallback(
+    (passageId: string, fallbackIndex: number): number => {
+      const existingIndex = passageBackgroundIndexMapRef.current[passageId];
+      if (typeof existingIndex === 'number') {
+        return existingIndex;
+      }
+
+      passageBackgroundIndexMapRef.current[passageId] = fallbackIndex;
+      return fallbackIndex;
+    },
+    [],
   );
 
   const isFavorite = useMemo(() => {
@@ -899,7 +965,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   }, [draftMyWritings, draftSelectedMyWritingIds, resetVisualPresentation]);
 
   const showFirstPassageForCurrentSelection = useCallback(() => {
-    const firstPassage = isFavoritePassageMode ? pickNextFavoritePassage() : pickNextPassage();
+    const firstPassage = isFavoritePassageMode ? getFirstFavoritePassage() : pickNextPassage();
 
     if (!firstPassage) {
       setHistoryState(resetPassageHistory());
@@ -908,20 +974,17 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     }
 
     if (effectiveBackgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
-      const firstUserUri =
-        appliedUserBackgrounds.length === 1
-          ? appliedUserBackgrounds[0]
-          : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUriRef.current) ??
-            appliedUserBackgrounds[0];
+      const firstUserUri = resolveUserBackgroundForPassage(firstPassage.id);
 
       if (firstUserUri) {
-        passageUserBackgroundUriMapRef.current[firstPassage.id] = firstUserUri;
         setCurrentUserBackgroundUri(firstUserUri);
         currentUserBackgroundUriRef.current = firstUserUri;
       }
     } else {
-      const initialIndex = autoBackgroundIndexRef.current;
-      passageBackgroundIndexMapRef.current[firstPassage.id] = initialIndex;
+      const initialIndex = resolveAutoBackgroundIndexForPassage(
+        firstPassage.id,
+        autoBackgroundIndexRef.current,
+      );
       setAutoBackgroundIndex(initialIndex);
     }
 
@@ -931,9 +994,11 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     appliedUserBackgrounds,
     effectiveBackgroundMode,
     isFavoritePassageMode,
-    pickNextFavoritePassage,
+    getFirstFavoritePassage,
     pickNextPassage,
     resetVisualPresentation,
+    resolveAutoBackgroundIndexForPassage,
+    resolveUserBackgroundForPassage,
   ]);
 
   const showPreviousPassage = useCallback(() => {
@@ -950,9 +1015,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         return moveToNextSeenPassage(prev);
       }
 
+      const currentSeenPassage = getCurrentPassage(prev) as DisplayPassage | null;
       const excludeIds = prev.past.map((item) => item.id);
       const nextPassage = isFavoritePassageMode
-        ? pickNextFavoritePassage(excludeIds)
+        ? getLoopedNextFavoritePassage(currentSeenPassage?.id)
         : pickNextPassage(excludeIds);
 
       if (!nextPassage) {
@@ -960,22 +1026,14 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       }
 
       if (effectiveBackgroundMode === 'user' && appliedUserBackgrounds.length > 0) {
-        const nextUserBackgroundUri =
-          appliedUserBackgrounds.length === 1
-            ? appliedUserBackgrounds[0]
-            : pickRandomUri(appliedUserBackgrounds, currentUserBackgroundUriRef.current) ??
-              appliedUserBackgrounds[0];
-
-        if (nextUserBackgroundUri) {
-          passageUserBackgroundUriMapRef.current[nextPassage.id] = nextUserBackgroundUri;
-        }
+        resolveUserBackgroundForPassage(nextPassage.id);
       } else {
         const currentResolvedIndex =
           (currentPassage?.id && passageBackgroundIndexMapRef.current[currentPassage.id]) ??
           autoBackgroundIndexRef.current;
 
         const nextBackgroundIndex = getNextBackgroundIndex(currentResolvedIndex);
-        passageBackgroundIndexMapRef.current[nextPassage.id] = nextBackgroundIndex;
+        resolveAutoBackgroundIndexForPassage(nextPassage.id, nextBackgroundIndex);
       }
 
       return appendPassage(prev, nextPassage as never);
@@ -988,9 +1046,10 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
     currentPassage?.id,
     effectiveBackgroundMode,
     isFavoritePassageMode,
-    pickNextFavoritePassage,
     pickNextPassage,
     resetVisualPresentation,
+    resolveAutoBackgroundIndexForPassage,
+    resolveUserBackgroundForPassage,
   ]);
 
   const handleApply = useCallback(
@@ -1067,7 +1126,9 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
         ? `user:${currentSceneUserBackgroundUri ?? 'none'}`
         : `auto:${currentSceneAutoBackgroundIndex}`);
 
-    if (samePassage && sameBackground) {
+    const sameHistoryIndex = displayedPassageIndexRef.current === historyState.currentIndex;
+
+    if (samePassage && sameBackground && sameHistoryIndex) {
       displayedPassageIndexRef.current = historyState.currentIndex;
       return;
     }
