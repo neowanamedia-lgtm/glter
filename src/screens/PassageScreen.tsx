@@ -10,6 +10,9 @@ import {
   useWindowDimensions,
 } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
+import * as Sharing from 'expo-sharing';
+import { captureRef } from 'react-native-view-shot';
+import { Ionicons } from '@expo/vector-icons';
 
 import { AdaptiveBackground } from '../components/AdaptiveBackground';
 import { AnimatedPassageText } from '../components/AnimatedPassageText';
@@ -198,6 +201,11 @@ const styles = StyleSheet.create({
   root: {
     flex: 1,
   },
+  captureView: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
+  },
   gestureLayer: {
     flex: 1,
   },
@@ -253,6 +261,15 @@ const styles = StyleSheet.create({
   heartBottomButton: {
     position: 'absolute',
     left: 28,
+    bottom: 24,
+    width: 42,
+    height: 42,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  shareBottomButton: {
+    position: 'absolute',
+    left: 78,
     bottom: 24,
     width: 42,
     height: 42,
@@ -344,6 +361,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
   const passageBackgroundIndexMapRef = useRef<Record<string, number>>({});
   const passageUserBackgroundUriMapRef = useRef<Record<string, string>>({});
   const myWritingLoadedRef = useRef(false);
+  const captureViewRef = useRef<View>(null);
 
   const isMenuVisible = overlayMode === 'menu';
   const isUserBackgroundManagerVisible = overlayMode === 'userBackgroundManager';
@@ -512,6 +530,25 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
       }),
     ]).start();
   }, [heartScale]);
+
+  const handleShare = useCallback(async () => {
+    try {
+      console.log('[Share] Starting capture...');
+      const uri = await captureRef(captureViewRef, { format: 'jpg', quality: 0.92 });
+      console.log('[Share] Capture succeeded. URI:', uri);
+
+      const canShare = await Sharing.isAvailableAsync();
+      console.log('[Share] Sharing.isAvailableAsync:', canShare);
+      if (canShare) {
+        await Sharing.shareAsync(uri, { mimeType: 'image/jpeg', dialogTitle: 'GLTER' });
+        console.log('[Share] shareAsync completed');
+      }
+    } catch (err) {
+      console.error('[Share] Error:', err);
+      console.error('[Share] Error message:', err instanceof Error ? err.message : String(err));
+      console.error('[Share] Error stack:', err instanceof Error ? err.stack : undefined);
+    }
+  }, []);
 
   const syncBackgroundSelectionState = useCallback((mode: 'auto' | 'upload') => {
     setMenuSelections((prev) => ({
@@ -1499,6 +1536,7 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
 
   return (
     <Animated.View style={styles.root}>
+      <View ref={captureViewRef} style={styles.captureView} collapsable={false}>
       <AdaptiveBackground
         onReady={handleBackgroundReady}
         blurRadius={
@@ -1666,34 +1704,49 @@ export const PassageScreen: React.FC<PassageScreenProps> = ({
             onDelete={myWritingEditorMode === 'edit' ? handleMyWritingEditorDelete : undefined}
           />
 
-          {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
-            <>
-              {displayedPassage ? (
-                <Pressable
-                  hitSlop={8}
-                  pressRetentionOffset={10}
-                  style={styles.heartBottomButton}
-                  onPress={toggleFavorite}
-                  accessibilityRole="button"
-                  accessibilityLabel={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 저장'}
-                >
-                  <View style={{ transform: [{ scale: 1 }] }}>
-                    <Animated.View style={{ transform: [{ scale: heartScale }] }}>
-                      <Text style={styles.heartIcon}>{isFavorite ? '♥' : '♡'}</Text>
-                    </Animated.View>
-                  </View>
-                </Pressable>
-              ) : null}
-
-              <BottomDotButton
-                style={styles.bottomButton}
-                onPress={openMenu}
-                accessibilityLabel="Open menu"
-              />
-            </>
-          ) : null}
         </View>
       </AdaptiveBackground>
+      </View>
+
+      {!isMenuVisible && !isUserBackgroundManagerVisible && !isUserMyWritingManagerVisible ? (
+        <>
+          {displayedPassage ? (
+            <Pressable
+              hitSlop={8}
+              pressRetentionOffset={10}
+              style={styles.heartBottomButton}
+              onPress={toggleFavorite}
+              accessibilityRole="button"
+              accessibilityLabel={isFavorite ? '즐겨찾기 해제' : '즐겨찾기 저장'}
+            >
+              <View style={{ transform: [{ scale: 1 }] }}>
+                <Animated.View style={{ transform: [{ scale: heartScale }] }}>
+                  <Text style={styles.heartIcon}>{isFavorite ? '♥' : '♡'}</Text>
+                </Animated.View>
+              </View>
+            </Pressable>
+          ) : null}
+
+          {displayedPassage ? (
+            <Pressable
+              hitSlop={8}
+              pressRetentionOffset={10}
+              style={styles.shareBottomButton}
+              onPress={handleShare}
+              accessibilityRole="button"
+              accessibilityLabel="공유"
+            >
+              <Ionicons name="share-outline" size={22} color="#ffffff" />
+            </Pressable>
+          ) : null}
+
+          <BottomDotButton
+            style={styles.bottomButton}
+            onPress={openMenu}
+            accessibilityLabel="Open menu"
+          />
+        </>
+      ) : null}
     </Animated.View>
   );
 };
